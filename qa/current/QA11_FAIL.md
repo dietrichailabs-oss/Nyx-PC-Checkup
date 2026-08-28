@@ -4,6 +4,8 @@ Build: `2026.08.27-eng-qa11`
 
 Finding: **QA11-F-010 — cancelled Full Check can persist state that crashes the next UI relaunch**.
 
+Active tracker: **Issue #1** in this standalone repository.
+
 ## Exact failed product
 
 ```text
@@ -33,3 +35,9 @@ Elevated lifecycle            50/50 PASS
 Validate/normalize persisted scan state before UI consumption. Cancelled/partial scan results must satisfy the supported result model or degrade safely without UI crash.
 
 Carry F-001 through F-010 forward.
+
+## Routing
+
+Engineering works on `eng/f010-persisted-scan-validation` and returns a new immutable candidate to Independent QA.
+
+The historical pre-cutover tracker `dietrichailabs-oss/Nyx#10` is no longer authoritative.
