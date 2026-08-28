@@ -7,11 +7,13 @@
 **Routing:** Engineering → Independent QA only  
 **Release authorization:** `FALSE`
 
-## Why this lightweight handoff exists
+## Lightweight transport model
 
-The original QA12 Engineering master ZIP is valid but is too large for reliable chat transport because it recursively carries historical QA evidence.
+The original QA12 Engineering master ZIP remains a valid immutable record, but at 406 MB it is too large for reliable chat transport because historical QA bundles were recursively carried forward.
 
-GitHub is now the working source/evidence backbone. The exact immutable candidate artifacts are delivered separately as a small candidate pack, while this branch carries the QA11→QA12 source delta, correction record, hashes, and QA instructions.
+For QA12 and later work, GitHub is the source-control / issue / evidence-index backbone. Candidate bytes are transported separately in a small immutable pack. Historical QA evidence is referenced by issue, artifact identity, and SHA-256 rather than nested into every new master ZIP.
+
+The authoritative source baseline on `main` is the exact QA11 source. The exact corrected QA12 Source ZIP is included in the lightweight candidate pack so QA and Engineering can reproduce/import the QA12 tree without the historical evidence payload.
 
 ## QA12 immutable identities
 
@@ -19,6 +21,10 @@ GitHub is now the working source/evidence backbone. The exact immutable candidat
 Original Engineering master ZIP
 Size:    406,561,403 bytes
 SHA-256: A59B53516C723C351B464BABB11FB134F88D43BCA3B2C7E9B5B4CBE4BE987FD5
+
+Lightweight QA12 candidate pack
+Size:    1,149,263 bytes
+SHA-256: A17C469B6CD0ED6A8C6FF0EDE62831254BFC4C0FB4499CDC63A73C19B49169E2
 
 Setup EXE
 Size:    525,824 bytes
@@ -79,24 +85,15 @@ Elevated installer lifecycle  50/50 PASS
 
 QA12 still requires native Windows execution of the F-010 Standard gate and completion of the remaining F-008 DPI/UI/accessibility matrix.
 
-## Source delta
+## QA receives
 
-`engineering/qa12/QA11_to_QA12_source_delta.patch.gz.b64` contains a gzip-compressed, base64-encoded Git patch from the exact QA11 `product/` baseline to the exact QA12 source tree.
+Use `Nyx_PC_Checkup_1.0.0_QA12_Candidate_Artifacts.zip` as the transport artifact. It contains only:
 
-Reconstruct it on a normal Git checkout:
+- exact QA12 Setup EXE;
+- exact QA12 Portable ZIP;
+- exact QA12 Source ZIP;
+- candidate manifest;
+- SHA256SUMS;
+- README.
 
-```bash
-base64 -d engineering/qa12/QA11_to_QA12_source_delta.patch.gz.b64 | gzip -d > /tmp/QA11_to_QA12.patch
-git apply --check /tmp/QA11_to_QA12.patch
-git apply /tmp/QA11_to_QA12.patch
-```
-
-PowerShell equivalent:
-
-```powershell
-$b64 = Get-Content .\engineering\qa12\QA11_to_QA12_source_delta.patch.gz.b64 -Raw
-[IO.File]::WriteAllBytes("$env:TEMP\QA12.patch.gz", [Convert]::FromBase64String($b64))
-# Expand with a gzip-capable tool, then run: git apply --check <patch>; git apply <patch>
-```
-
-The small immutable QA12 candidate-artifact ZIP is the transport artifact; GitHub carries the source/evidence backbone so historical QA bundles are no longer nested into every handoff.
+The huge recursive master ZIP does not need to move between Engineering and QA again. GitHub issue #1 and this branch carry the correction/evidence index, while the immutable hashes preserve candidate identity.
