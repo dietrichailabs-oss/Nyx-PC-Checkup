@@ -1,0 +1,8 @@
+Nyx PC Checkup Engineering Candidate License
+Copyright (c) 2026 Dietrich AI Labs. All rights reserved.
+
+This package is an internal Engineering-to-QA candidate. It may be installed,
+used, copied, and tested only for Dietrich AI Labs development, security,
+compliance, and release-validation purposes. Public redistribution is not
+authorized by this engineering-candidate notice. A public freeware license may
+replace this notice only after the exact release artifact is approved.
