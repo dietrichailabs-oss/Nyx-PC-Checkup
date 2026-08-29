@@ -73,8 +73,9 @@ try{
         $values=@(Invoke-NyxIsolatedCheck -CheckId $task.Id -Category $task.Category -Name $task.Name -Script $task.Run -DataSource $task.Source)
         foreach($value in $values){
             if($null -eq $value){continue}
-            $results.Add($value)
-            Write-NyxProgressEvent -Type 'Result' -Percent ([int][math]::Floor((($i+1)/[double]$tasks.Count)*100)) -Message ([string]$value.Finding) -Payload $value
+            $normalized=Convert-NyxScanResult -Result $value -FallbackCheckId $task.Id -FallbackCategory $task.Category -FallbackName $task.Name -FallbackDataSource $task.Source -NormalizeInvalid
+            $results.Add($normalized)
+            Write-NyxProgressEvent -Type 'Result' -Percent ([int][math]::Floor((($i+1)/[double]$tasks.Count)*100)) -Message ([string]$normalized.Finding) -Payload $normalized
         }
     }
     $summary=Get-NyxResultSummary -Results @($results.ToArray())

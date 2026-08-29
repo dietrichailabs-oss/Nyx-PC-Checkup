@@ -321,6 +321,36 @@ try{
 
     $paths=Initialize-NyxDataDirectories
 
+    # QA11-F-010: persisted scan state is accepted only through one strict contract.
+    $originalLastScan=$null
+    if(Test-Path -LiteralPath $paths.LastScan -PathType Leaf){$originalLastScan=[IO.File]::ReadAllBytes($paths.LastScan)}
+    try{
+        [IO.File]::WriteAllText($paths.LastScan,'{invalid json',[Text.UTF8Encoding]::new($false))
+        Assert-True 'F-010 invalid persisted JSON is ignored safely' ($null -eq (Get-NyxLastScan)) ''
+        $validResult=New-NyxCheckResult -CheckId 'qa.f010' -Category 'System' -Name 'F-010 valid result' -Status 'Unknown' -Severity 'Info' -Finding 'No conclusion was fabricated.' -Reason 'Synthetic regression.' -Recommendation 'Run a new check.' -Complete $false
+        $baseScan=[pscustomobject][ordered]@{Schema='dietrich-ai-labs.nyx-pc-checkup.scan.v1';Mode='Full';StartedUtc=(Get-Date).ToUniversalTime().ToString('o');CompletedUtc=(Get-Date).ToUniversalTime().ToString('o');Cancelled=$true;ReadOnly=$true;Summary=$null;Results=@($validResult)}
+        $cases=@(
+            [pscustomobject]@{Name='unsupported schema';Value=([pscustomobject]@{Schema='unsupported';Mode='Full';StartedUtc='x';CompletedUtc='x';Cancelled=$true;ReadOnly=$true;Results=@($validResult)})},
+            [pscustomobject]@{Name='missing Results';Value=([pscustomobject]@{Schema=$baseScan.Schema;Mode='Full';StartedUtc='x';CompletedUtc='x';Cancelled=$true;ReadOnly=$true})},
+            [pscustomobject]@{Name='null Results';Value=([pscustomobject]@{Schema=$baseScan.Schema;Mode='Full';StartedUtc='x';CompletedUtc='x';Cancelled=$true;ReadOnly=$true;Results=$null})},
+            [pscustomobject]@{Name='empty Results';Value=([pscustomobject]@{Schema=$baseScan.Schema;Mode='Full';StartedUtc='x';CompletedUtc='x';Cancelled=$true;ReadOnly=$true;Results=@()})}
+        )
+        foreach($case in $cases){$case.Value|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $paths.LastScan -Encoding UTF8;Assert-True ("F-010 {0} is ignored safely" -f $case.Name) ($null -eq (Get-NyxLastScan)) ''}
+        foreach($missing in @('Status','Category','CheckId','Finding','Reason','Recommendation','Complete')){
+            $bad=[ordered]@{};foreach($property in $validResult.PSObject.Properties){if($property.Name -ne $missing){$bad[$property.Name]=$property.Value}}
+            $scan=$baseScan.PSObject.Copy();$scan.Results=@([pscustomobject]$bad);$scan|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $paths.LastScan -Encoding UTF8
+            Assert-True ("F-010 result missing {0} is ignored safely" -f $missing) ($null -eq (Get-NyxLastScan)) ''
+        }
+        $badStatus=$validResult.PSObject.Copy();$badStatus.Status='Healthy';$scan=$baseScan.PSObject.Copy();$scan.Results=@($badStatus);$scan|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $paths.LastScan -Encoding UTF8
+        Assert-True 'F-010 unsupported result Status is ignored safely' ($null -eq (Get-NyxLastScan)) ''
+        $baseScan|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $paths.LastScan -Encoding UTF8;$loaded=Get-NyxLastScan
+        Assert-True 'F-010 valid partial cancelled scan loads safely' ($null -ne $loaded -and [string]$loaded.Results[0].Status -eq 'Unknown' -and -not [bool]$loaded.Results[0].Complete) ($loaded|ConvertTo-Json -Depth 8 -Compress)
+        $producerFallback=Convert-NyxScanResult -Result ([pscustomobject]@{Finding='incomplete'}) -FallbackCheckId 'qa.f010.producer' -FallbackCategory 'System' -FallbackName 'Producer fallback' -NormalizeInvalid
+        Assert-True 'F-010 malformed producer output normalizes to honest Unknown' ([string]$producerFallback.Status -eq 'Unknown' -and -not [bool]$producerFallback.Complete) ($producerFallback|ConvertTo-Json -Compress)
+    }finally{
+        if($null -eq $originalLastScan){Remove-Item -LiteralPath $paths.LastScan -Force -ErrorAction SilentlyContinue}else{[IO.File]::WriteAllBytes($paths.LastScan,$originalLastScan)}
+    }
+
     # QA10-F-009 regression: optional cleanup must tolerate empty paths and
     # must never delete a lookalike path outside the exact Nyx temp root.
     $f009Id=[guid]::NewGuid().ToString('N')
