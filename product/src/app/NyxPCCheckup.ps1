@@ -42,7 +42,7 @@ function Invoke-NyxApplicationAcceptanceProbe {
         if(@($scan.Results).Count -lt 8){throw ("The real Quick Check returned too few results: {0}" -f @($scan.Results).Count)}
         return [pscustomobject][ordered]@{
             Schema='dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1'
-            Build='2026.08.29-eng-qa11-f010-r3'
+            Build='2026.08.29-eng-qa11-f010-r4'
             Passed=$true
             Composition=$Composition
             QuickCheck=[pscustomobject][ordered]@{ExitCode=$process.ExitCode;ReadOnly=[bool]$scan.ReadOnly;ResultCount=@($scan.Results).Count;Summary=$scan.Summary}
@@ -78,7 +78,7 @@ public static class NyxDpiAwareness {
             Show-NyxMainWindow -AcceptanceCloseProbe
             $probe=[pscustomobject][ordered]@{
                 Schema='dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1'
-                Build='2026.08.29-eng-qa11-f010-r3'
+                Build='2026.08.29-eng-qa11-f010-r4'
                 Passed=$true
                 ProbeKind='UiClose'
                 Composition=$composition
@@ -97,7 +97,7 @@ public static class NyxDpiAwareness {
     $mutex.ReleaseMutex();$mutex.Dispose();$mutex=$null
 }catch{
     if($AcceptanceProbe){
-        try{Write-NyxAcceptanceProbeFile -Value ([pscustomobject][ordered]@{Schema='dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1';Build='2026.08.29-eng-qa11-f010-r3';Passed=$false;Error=$_.Exception.ToString();CompletedUtc=(Get-Date).ToUniversalTime().ToString('o')})}catch{}
+        try{Write-NyxAcceptanceProbeFile -Value ([pscustomobject][ordered]@{Schema='dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1';Build='2026.08.29-eng-qa11-f010-r4';Passed=$false;Error=$_.Exception.ToString();CompletedUtc=(Get-Date).ToUniversalTime().ToString('o')})}catch{}
     }
     try{
         if($null -eq (Get-Command Write-NyxLog -CommandType Function -ErrorAction SilentlyContinue)){

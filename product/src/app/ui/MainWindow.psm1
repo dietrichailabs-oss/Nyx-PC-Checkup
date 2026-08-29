@@ -67,7 +67,7 @@ function Get-NyxResultsByCategory {
 }
 function Get-NyxGroupStatus {
     param([object[]]$Results)
-    $r=@($Results)
+    $r=@($Results|Where-Object{$null -ne $_ -and $null -ne $_.PSObject.Properties['Status']})
     if(@($r|Where-Object{$_.Status -eq 'NeedsAttention'}).Count -gt 0){return 'NeedsAttention'}
     if($r.Count -eq 0 -or @($r|Where-Object{$_.Status -eq 'Unknown'}).Count -eq $r.Count){return 'Unknown'}
     if(@($r|Where-Object{$_.Status -eq 'Optional'}).Count -gt 0){return 'Optional'}

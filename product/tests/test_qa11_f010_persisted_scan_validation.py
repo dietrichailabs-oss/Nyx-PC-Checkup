@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ENGINE = ROOT / "src" / "app" / "core" / "CheckupEngine.psm1"
+MAIN_WINDOW = ROOT / "src" / "app" / "ui" / "MainWindow.psm1"
 WORKER = ROOT / "src" / "app" / "workers" / "ScanWorker.ps1"
 SMOKE = ROOT / "tests" / "powershell" / "Run-WindowsSmokeTests.ps1"
 
@@ -59,3 +60,8 @@ def test_invalid_persisted_json_is_caught_as_a_terminating_parse_error() -> None
 def test_persisted_scan_converter_does_not_leak_generic_list_add_indices() -> None:
     source = text(ENGINE)
     assert "[void]$results.Add($normalized)" in source
+
+
+def test_partial_scan_empty_categories_are_safe_under_strict_mode() -> None:
+    source = text(MAIN_WINDOW)
+    assert "$null -ne $_ -and $null -ne $_.PSObject.Properties['Status']" in source
