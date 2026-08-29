@@ -103,7 +103,7 @@ function Convert-NyxPersistedScan {
     foreach($candidate in @($Scan.Results)){
         $normalized=Convert-NyxScanResult -Result $candidate
         if($null -eq $normalized){return $null}
-        $results.Add($normalized)
+        [void]$results.Add($normalized)
     }
     if($results.Count -eq 0 -and -not $AllowEmptyResults){return $null}
     $summary=Get-NyxResultSummary -Results @($results.ToArray())

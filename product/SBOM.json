@@ -85,7 +85,7 @@
   "properties": [
     {
       "name": "nyx.build",
-      "value": "2026.08.29-eng-qa11-f010-r2"
+      "value": "2026.08.29-eng-qa11-f010-r3"
     },
     {
       "name": "nyx.runtime.thirdPartyBundled",

@@ -54,3 +54,8 @@ def test_invalid_persisted_json_is_caught_as_a_terminating_parse_error() -> None
     source = text(ENGINE)
     assert "ConvertFrom-Json -ErrorAction Stop" in source
     assert "Persisted scan state could not be read and was ignored." in source
+
+
+def test_persisted_scan_converter_does_not_leak_generic_list_add_indices() -> None:
+    source = text(ENGINE)
+    assert "[void]$results.Add($normalized)" in source

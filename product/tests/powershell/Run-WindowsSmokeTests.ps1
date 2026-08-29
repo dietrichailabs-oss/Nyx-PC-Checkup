@@ -344,7 +344,7 @@ try{
         $badStatus=$validResult.PSObject.Copy();$badStatus.Status='Healthy';$scan=$baseScan.PSObject.Copy();$scan.Results=@($badStatus);$scan|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $paths.LastScan -Encoding UTF8
         Assert-True 'F-010 unsupported result Status is ignored safely' ($null -eq (Get-NyxLastScan)) ''
         $baseScan|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $paths.LastScan -Encoding UTF8;$loaded=Get-NyxLastScan
-        Assert-True 'F-010 valid partial cancelled scan loads safely' ($null -ne $loaded -and [string]$loaded.Results[0].Status -eq 'Unknown' -and -not [bool]$loaded.Results[0].Complete) ($loaded|ConvertTo-Json -Depth 8 -Compress)
+        Assert-True 'F-010 valid partial cancelled scan loads safely' ($null -ne $loaded -and $loaded -isnot [array] -and [string]$loaded.Results[0].Status -eq 'Unknown' -and -not [bool]$loaded.Results[0].Complete) ($loaded|ConvertTo-Json -Depth 8 -Compress)
         $producerFallback=Convert-NyxScanResult -Result ([pscustomobject]@{Finding='incomplete'}) -FallbackCheckId 'qa.f010.producer' -FallbackCategory 'System' -FallbackName 'Producer fallback' -NormalizeInvalid
         Assert-True 'F-010 malformed producer output normalizes to honest Unknown' ([string]$producerFallback.Status -eq 'Unknown' -and -not [bool]$producerFallback.Complete) ($producerFallback|ConvertTo-Json -Compress)
     }finally{
@@ -462,7 +462,7 @@ try{
 $stopped=(Get-Date).ToUniversalTime()
 $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.windows-smoke.v2'
-    HarnessRevision='QA11-F010-PS51-10'
+    HarnessRevision='QA11-F010-PS51-11'
     Scope='normal-user smoke and privacy/update'
     StartedUtc=$started.ToString('o')
     CompletedUtc=$stopped.ToString('o')

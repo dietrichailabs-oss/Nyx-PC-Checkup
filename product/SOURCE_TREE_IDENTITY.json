@@ -2,7 +2,7 @@
   "schema": "dietrich-ai-labs.source-tree-identity.v1",
   "product": "Nyx PC Checkup",
   "version": "1.0.0",
-  "build": "2026.08.29-eng-qa11-f010-r2",
+  "build": "2026.08.29-eng-qa11-f010-r3",
   "fileCount": 116,
   "identityExcludes": [
     "SOURCE_TREE_IDENTITY.json"
