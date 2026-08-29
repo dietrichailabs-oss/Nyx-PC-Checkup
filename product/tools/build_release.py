@@ -39,8 +39,8 @@ EVIDENCE = ROOT / "evidence"
 HANDOFF_BASE = ROOT / "handoff_staging"
 HANDOFF = HANDOFF_BASE / "Nyx_PC_Checkup_1.0.0_Engineering_QA11_F010_Corrected_Master_Handoff"
 VERSION = "1.0.0"
-BUILD_ID = "2026.08.29-eng-qa11-f010"
-HARNESS_REVISION = "QA11-F010-PS51-9"
+BUILD_ID = "2026.08.29-eng-qa11-f010-r2"
+HARNESS_REVISION = "QA11-F010-PS51-10"
 PRIOR_QA_EVIDENCE = ROOT / "prior_qa_evidence" / "QA5_MASTER_HANDOFF_20260824_184906.zip"
 QA6_FAIL_EVIDENCE = ROOT / "prior_qa_evidence" / "Nyx_PC_Checkup_1.0.0_Independent_QA6_FAIL_Master_Handoff(1).zip"
 QA6_FAIL_SIZE = 26479
@@ -986,7 +986,7 @@ def write_qa6_module_composition_correction_evidence() -> dict[str, object]:
         "Repeated composition is idempotent and preserves command availability",
         "foreach($probeNumber in @(1,2))",
         "Real application acceptance launch {0} completes a real Quick Check",
-        "HarnessRevision='QA11-F010-PS51-9'",
+        "HarnessRevision='QA11-F010-PS51-10'",
     ]:
         if token not in smoke_text:
             raise BuildError(f"QA7 smoke graph/real-application regression is missing: {token}")
@@ -1015,8 +1015,8 @@ def write_qa6_module_composition_correction_evidence() -> dict[str, object]:
     runner = ROOT / "tests" / "powershell" / "RUN_QA11_WINDOWS_GATE.ps1"
     runner_text = runner.read_text(encoding="utf-8-sig")
     for token in [
-        "$script:ExpectedBuild='2026.08.29-eng-qa11-f010'",
-        "$script:ExpectedHarnessRevision='QA11-F010-PS51-9'",
+        "$script:ExpectedBuild='2026.08.29-eng-qa11-f010-r2'",
+        "$script:ExpectedHarnessRevision='QA11-F010-PS51-10'",
         "InstallerDiagnosticsHelpers.ps1",
         "QA11_WINDOWS_PARSE_PREFLIGHT.json",
         "QA11_WINDOWS_RUN_SUMMARY.json",
@@ -1270,7 +1270,7 @@ def write_qa8_f007_empty_collection_correction_evidence() -> dict[str, object]:
             {"path": "tests/test_qa8_f007_empty_collection.py", "size": (ROOT / "tests" / "test_qa8_f007_empty_collection.py").stat().st_size, "sha256": sha256(ROOT / "tests" / "test_qa8_f007_empty_collection.py")},
         ],
         "windowsPowerShell51ExecutedByEngineering": False,
-        "boundary": "Engineering can statically and structurally validate the corrected runtime, but Independent QA must execute the QA11-F010-PS51-9 empty-state regressions under Windows PowerShell 5.1.",
+        "boundary": "Engineering can statically and structurally validate the corrected runtime, but Independent QA must execute the QA11-F010-PS51-10 empty-state regressions under Windows PowerShell 5.1.",
         "result": "STATIC/BUILD REGRESSION PASS — NATIVE WINDOWS F-007 REGRESSION REQUIRED",
     }
     atomic_json(EVIDENCE / "QA8_F007_EMPTY_COLLECTION_CORRECTION.json", evidence)

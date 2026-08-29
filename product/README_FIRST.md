@@ -2,8 +2,8 @@
 
 **Publisher:** Dietrich AI Labs  
 **Version:** `1.0.0`  
-**Build:** `2026.08.29-eng-qa11-f010`  
-**Harness revision:** `QA11-F010-PS51-9`  
+**Build:** `2026.08.29-eng-qa11-f010-r2`  
+**Harness revision:** `QA11-F010-PS51-10`  
 **Target:** Windows 10/11 x64 using inbox Windows PowerShell 5.1  
 **Engineering verdict:** `READY FOR INDEPENDENT WINDOWS QA`  
 **Release authorization:** `FALSE`
@@ -71,4 +71,4 @@ Run the root manifest-bound gate with Windows PowerShell 5.1, for example:
 powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA11_WINDOWS_GATE.ps1" -Phase Smoke
 ```
 
-The active harness revision is `QA11-F010-PS51-9`.
+The active harness revision is `QA11-F010-PS51-10`.

@@ -134,7 +134,7 @@ function Get-NyxLastScan {
     $paths = Initialize-NyxDataDirectories
     if (-not (Test-Path -LiteralPath $paths.LastScan)) { return $null }
     try {
-        $scan=Get-Content -LiteralPath $paths.LastScan -Raw -Encoding UTF8 | ConvertFrom-Json
+        $scan=Get-Content -LiteralPath $paths.LastScan -Raw -Encoding UTF8 -ErrorAction Stop | ConvertFrom-Json -ErrorAction Stop
         $validated=Convert-NyxPersistedScan -Scan $scan
         if($null -eq $validated){Write-NyxLog -Level 'WARN' -Message 'Persisted scan state was rejected because it did not satisfy the current scan contract.'}
         return $validated

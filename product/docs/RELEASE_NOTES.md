@@ -1,7 +1,7 @@
 # Nyx PC Checkup 1.0.0 — QA11 Engineering Release Notes
 
-**Build:** `2026.08.29-eng-qa11-f010`  
-**Harness:** `QA11-F010-PS51-9`  
+**Build:** `2026.08.29-eng-qa11-f010-r2`  
+**Harness:** `QA11-F010-PS51-10`  
 **Status:** Corrected Engineering candidate for Independent QA; not approved for public release.
 
 ## QA11 correction

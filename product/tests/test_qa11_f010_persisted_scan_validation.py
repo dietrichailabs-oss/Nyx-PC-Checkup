@@ -48,3 +48,9 @@ def test_f010_native_smoke_covers_malformed_and_partial_state() -> None:
         "malformed producer output normalizes to honest Unknown",
     ):
         assert marker in source
+
+
+def test_invalid_persisted_json_is_caught_as_a_terminating_parse_error() -> None:
+    source = text(ENGINE)
+    assert "ConvertFrom-Json -ErrorAction Stop" in source
+    assert "Persisted scan state could not be read and was ignored." in source
