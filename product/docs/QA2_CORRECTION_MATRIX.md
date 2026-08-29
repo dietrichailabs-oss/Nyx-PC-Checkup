@@ -12,7 +12,7 @@ Independent QA reviewed and failed:
 - QA verdict: **FAIL — RELEASE BLOCKED**
 - QA findings: `F-001`, `F-002`, and `F-003`
 
-This document records the original QA2 correction design, first carried by QA3/QA4 and preserved in current build `2026.08.27-eng-qa11`. It does not close QA’s verdict by itself. Independent QA must execute the supplied Windows suites and retest the exact immutable QA11 candidate.
+This document records the original QA2 correction design, first carried by QA3/QA4 and preserved in current build `2026.08.29-eng-qa11-f010`. It does not close QA’s verdict by itself. Independent QA must execute the supplied Windows suites and retest the exact immutable QA11 candidate.
 
 ## F-001 — CRITICAL — Elevated code from a user-writable install tree
 
@@ -120,7 +120,7 @@ QA2 serialized objects before regex redaction. It missed `::1`, `2001:db8::1`, I
 
 ## New build boundary
 
-- Current corrected build: `2026.08.27-eng-qa11`
+- Current corrected build: `2026.08.29-eng-qa11-f010`
 - Release authorization: `FALSE`
 - Engineering verdict after local source/package testing: eligible only for **Independent Windows QA**
 - Windows PowerShell, WinForms, UAC, registry, DPAPI, and installer lifecycle execution remain unverified until QA runs them on Windows 10/11 x64.

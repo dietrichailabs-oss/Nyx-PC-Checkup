@@ -64,4 +64,4 @@ Independent QA must continue rerunning:
 
 ## Current QA11 carry-forward
 
-This historical correction remains mandatory under active harness revision `QA11-PS51-8` and root runner `RUN_QA11_WINDOWS_GATE.ps1`.
+This historical correction remains mandatory under active harness revision `QA11-F010-PS51-9` and root runner `RUN_QA11_WINDOWS_GATE.ps1`.

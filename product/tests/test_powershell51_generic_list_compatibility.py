@@ -76,10 +76,10 @@ def test_required_windows_harnesses_pin_windows_powershell_51() -> None:
     for name in sorted(names):
         source = read(WINDOWS_HARNESSES / name)
         assert expected in source
-        assert "HarnessRevision='QA11-PS51-8'" in source
+        assert "HarnessRevision='QA11-F010-PS51-9'" in source
     runner = read(WINDOWS_HARNESSES / "RUN_QA11_WINDOWS_GATE.ps1")
     assert expected in runner
-    assert "$script:ExpectedHarnessRevision='QA11-PS51-8'" in runner
+    assert "$script:ExpectedHarnessRevision='QA11-F010-PS51-9'" in runner
     assert "$ErrorActionPreference='Continue'" in runner
     assert "QA11_WINDOWS_PARSE_PREFLIGHT.json" in runner
     assert "Parser]::ParseFile" in runner

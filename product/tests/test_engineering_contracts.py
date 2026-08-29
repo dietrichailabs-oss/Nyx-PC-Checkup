@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "src" / "app"
 DIST = ROOT / "dist"
 STAGE = ROOT / "release_staging" / "Nyx_PC_Checkup_1.0.0_Portable"
-BUILD_ID = "2026.08.27-eng-qa11"
+BUILD_ID = "2026.08.29-eng-qa11-f010"
 
 EXPECTED_MODULES = {
     "core/Models.psm1",
@@ -747,7 +747,7 @@ def test_builder_resolves_local_toolchain_and_copies_all_tests() -> None:
     assert "NYX_CLANG" in builder and "NYX_LLD_LINK" in builder
     assert "/usr/local/swift/usr/bin" not in builder
     assert "for path in iter_files(ROOT / \"tests\")" in builder
-    assert "Nyx_PC_Checkup_1.0.0_Engineering_QA11_Corrected_Master_Handoff.zip" in builder
+    assert "Nyx_PC_Checkup_1.0.0_Engineering_QA11_F010_Corrected_Master_Handoff.zip" in builder
     assert '"automaticUpdaterImplemented": False' in builder
     assert '"websiteManifestDeployedByEngineering": False' in builder
 
@@ -837,7 +837,7 @@ def test_qa4_windows_harness_correction_is_documented_and_build_gated() -> None:
         "D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1",
         "22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7",
         "Argument types do not match",
-        "QA11-PS51-8",
+        "QA11-F010-PS51-9",
         "ToArray()",
         "new product candidate",
     ]:
@@ -867,7 +867,7 @@ def test_qa5_native_windows_failures_are_documented_and_build_gated() -> None:
         "QA5-ORCH-001",
         "QA5-ENC-001",
         "automatic-variable collision",
-        "QA11-PS51-8",
+        "QA11-F010-PS51-9",
         "RUN_QA11_WINDOWS_GATE.ps1",
     ]:
         assert token.lower() in matrix.lower()
@@ -897,7 +897,7 @@ def test_qa6_native_module_composition_failure_is_documented_and_build_gated() -
         "QA6-F-005",
         "New-NyxCheckResult",
         "RuntimeComposition.psm1",
-        "QA11-PS51-8",
+        "QA11-F010-PS51-9",
         "HarnessInferenceFromImmutableQA2Source",
     ]:
         assert token.lower() in matrix.lower()
