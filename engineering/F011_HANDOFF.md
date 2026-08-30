@@ -1,71 +1,57 @@
-# Engineering Handoff — QA12-F-011
+# Engineering Handoff — QA13 F-011 Correction
 
-## Finding
+## Status
 
-**F-011 — HIGH — installed launch can create a live invisible singleton instance with no usable main window.**
+**READY FOR CODEX WINDOWS PRE-QA — NOT YET READY FOR INDEPENDENT QA**
 
-Frozen failing r4 product commit:
+Build: `2026.08.30-eng-qa13`  
+Harness: `QA13-PS51-13`
 
-`a0d85e6bf03b6a03229bc9f70513f33a8b8d2532`
+## Finding corrected
 
-## Reproduction
+`QA12-F-011` reproduced an installed singleton-owning process with no usable main window. The UI launcher combined PowerShell `-WindowStyle Hidden`, `STARTF_USESHOWWINDOW` / `SW_HIDE`, and `CREATE_NO_WINDOW`.
 
-On a normal Hyper-V Windows VM, a fresh current-user installation launched from the desktop shortcut starts the native launcher and child Windows PowerShell process, writes `PC Checkup started.`, starts the automatic update worker, and holds the per-user singleton mutex, but produces no visible Nyx main window or taskbar entry through the full bounded observation period.
+## Product correction
 
-Later launches correctly report that Nyx is already open because the first invisible instance remains alive.
+- launch the UI process explicitly with `-STA`;
+- remove `-WindowStyle Hidden` from the UI command;
+- use `CREATE_NO_WINDOW` only for console suppression;
+- remove `STARTF_USESHOWWINDOW` / `SW_HIDE` from the shared process launcher;
+- explicitly keep the WinForms main form taskbar-visible and normal;
+- preserve the per-user singleton; and
+- add a real installed desktop-shortcut/direct-EXE native regression.
 
-## Primary root-cause area
+## Frozen candidate
 
-Investigate:
+```text
+Setup SHA-256: 447483FFED71E7622BBBBB18678670DF61D15AE18794F9BFAC8695BBF33115D2
+Portable SHA-256: 03781C0DE2891735A3F8F131363811E176BC1A5EBA73F7DBDD715E2F43BBD413
+Source SHA-256: A255864D23F49184908DF293D61034D09A83F853DBA831B7F08E482D2CCDC69A
+Source tree SHA-256: C32856DB6CEA481B4864C65520D255FDF237986D1BB4953C81095CFAD4894BBC
+Lightweight handoff SHA-256: B54283301E60182E545CC8718C85E56D6F439FC6D2F191DF808C65A4342E3FC5
+```
 
-- `product/native/launcher.cpp`
-- `product/native/win_types.hpp`
-- installed PowerShell startup arguments
-- apartment state / `-STA`
-- `STARTF_USESHOWWINDOW`, `SW_HIDE`, `CREATE_NO_WINDOW`
-- PowerShell `-WindowStyle Hidden`
+Installed payload identities:
 
-The launcher currently combines hidden PowerShell arguments with hidden Win32 process-creation flags and waits indefinitely for the child process.
+```text
+Launcher SHA-256: F3D39845D2C5E9C2056F8E660403A40662C133F210C38520FECEF34876A63558
+Application script SHA-256: 0FD7B75C1C450EF59B61BA11803D154638149C486C11D732B944B2FAE6CC9624
+```
 
-Do not remove single-instance protection as the fix.
+## Engineering verification
 
-## Required clean controls
+- PowerShell app lint: PASS
+- PowerShell Windows-harness lint: PASS
+- Generated-artifact suite: 195/195 PASS
+- Fresh-source Setup reproduction: exact
+- Fresh-source Portable reproduction: exact
+- Fresh-source Source reproduction: exact
+- Lightweight archive manifest and SHA256SUMS: PASS
 
-Every control must begin only after all prior Nyx launcher / PowerShell / worker processes are confirmed exited.
+## Native boundary
 
-1. desktop shortcut;
-2. installed native EXE;
-3. installed script with native-launcher-equivalent arguments without `-STA`;
-4. same installed script with `-STA`.
+The Linux Engineering host cannot claim the visible main window, taskbar, singleton dialog, clean-close, DPI, or accessibility gates. Codex must execute the manifest-bound QA13 Windows pre-QA matrix on disposable Windows 10/11 x64 VMs. The exact candidate goes to Independent QA only after the F-011 installed-launch gate and complete F-008 visual/accessibility matrix pass.
 
-Capture process tree, command line, exit behavior, visible window/taskbar evidence, logs, screenshot, singleton state, clean close, and relaunch.
+## Routing
 
-The prior QA12 B2/B3/B4 controls are root-cause-inconclusive because the hidden B1 singleton was still alive.
-
-## Required behavior
-
-- shortcut and direct EXE produce one visible usable main window;
-- hiding the console must not hide/suppress the WinForms UI;
-- second launch while visible may show the single-instance warning;
-- clean close exits launcher/child and permits fresh relaunch;
-- preserve single-instance protection;
-- no console flash is required.
-
-## Regression
-
-After product bytes change, rerun:
-
-- Smoke 122/122 minimum
-- Standard privilege/rollback 12/12
-- QA2 migration 244/244
-- Standard lifecycle 44/44
-- Elevated privilege/rollback 14/14
-- Elevated lifecycle 50/50
-- F-010 cancellation/relaunch 110/110
-- F-010 malformed persisted state 16/16
-
-Then complete the full F-008 visual/accessibility matrix from the installed app on a normal Windows VM.
-
-## Packaging
-
-Produce a new immutable Setup / Portable / Source / source-tree identity from clean allowlisted staging and return one Engineering master handoff to Independent QA. Engineering may report READY FOR INDEPENDENT QA but may not self-approve release.
+Engineering -> Codex Windows pre-QA -> Independent QA. Codex is Engineering tooling, not another approval role. No other reviewer is part of this cycle.
