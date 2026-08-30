@@ -1,11 +1,13 @@
-# Engineering Handoff — QA13 F-011 Correction
+# Engineering Handoff — QA13 R2 F-011 Correction
 
 ## Status
 
 **READY FOR CODEX WINDOWS PRE-QA — NOT YET READY FOR INDEPENDENT QA**
 
-Build: `2026.08.30-eng-qa13`  
-Harness: `QA13-PS51-13`
+Build: `2026.08.30-eng-qa13-r2`  
+Harness: `QA13-R2-PS51-14`
+
+QA13 R2 supersedes the earlier QA13 transport identity before native VM execution. The first QA13 candidate was not routed to QA after its local user-facing copy was interrupted; no Windows evidence or approval is being transferred between identities.
 
 ## Finding corrected
 
@@ -16,7 +18,7 @@ Harness: `QA13-PS51-13`
 - launch the UI process explicitly with `-STA`;
 - remove `-WindowStyle Hidden` from the UI command;
 - use `CREATE_NO_WINDOW` only for console suppression;
-- remove `STARTF_USESHOWWINDOW` / `SW_HIDE` from the shared process launcher;
+- remove `STARTF_USESHOWWINDOW` / `SW_HIDE` from the shared process-launch path;
 - explicitly keep the WinForms main form taskbar-visible and normal;
 - preserve the per-user singleton; and
 - add a real installed desktop-shortcut/direct-EXE native regression.
@@ -24,25 +26,25 @@ Harness: `QA13-PS51-13`
 ## Frozen candidate
 
 ```text
-Setup SHA-256: 447483FFED71E7622BBBBB18678670DF61D15AE18794F9BFAC8695BBF33115D2
-Portable SHA-256: 03781C0DE2891735A3F8F131363811E176BC1A5EBA73F7DBDD715E2F43BBD413
-Source SHA-256: A255864D23F49184908DF293D61034D09A83F853DBA831B7F08E482D2CCDC69A
-Source tree SHA-256: C32856DB6CEA481B4864C65520D255FDF237986D1BB4953C81095CFAD4894BBC
-Lightweight handoff SHA-256: B54283301E60182E545CC8718C85E56D6F439FC6D2F191DF808C65A4342E3FC5
+Setup SHA-256: 60850A9E949E4B9AD50639E8250C8C132AFB9B027CF87FDC95F3091F835A065E
+Portable SHA-256: 4B289846756CA26EBCC2E0CD2E658B8A90F0F0509627F2329B913C506B375229
+Source SHA-256: B7512BACBA50D33A6FB87A3B0617E2967049AE3ABC196DFFDDA1823833A88389
+Source tree SHA-256: 22D2D530C88FEB89F9D49617C24F283A730AB957AB096E3C15900D5C72A17F39
+Lightweight handoff SHA-256: 6860DA74C06B9A19C94AA7351533CC6B47559900E0F037A7DA31EAB57DA08523
 ```
 
 Installed payload identities:
 
 ```text
 Launcher SHA-256: F3D39845D2C5E9C2056F8E660403A40662C133F210C38520FECEF34876A63558
-Application script SHA-256: 0FD7B75C1C450EF59B61BA11803D154638149C486C11D732B944B2FAE6CC9624
+Application script SHA-256: 888C7635B03CC951B413AEACBCC663C3E62F2229F2838D3D8F8809591D561648
 ```
 
 ## Engineering verification
 
 - PowerShell app lint: PASS
 - PowerShell Windows-harness lint: PASS
-- Generated-artifact suite: 195/195 PASS
+- Generated-artifact suite: 193/193 PASS
 - Fresh-source Setup reproduction: exact
 - Fresh-source Portable reproduction: exact
 - Fresh-source Source reproduction: exact
@@ -50,8 +52,8 @@ Application script SHA-256: 0FD7B75C1C450EF59B61BA11803D154638149C486C11D732B944
 
 ## Native boundary
 
-The Linux Engineering host cannot claim the visible main window, taskbar, singleton dialog, clean-close, DPI, or accessibility gates. Codex must execute the manifest-bound QA13 Windows pre-QA matrix on disposable Windows 10/11 x64 VMs. The exact candidate goes to Independent QA only after the F-011 installed-launch gate and complete F-008 visual/accessibility matrix pass.
+The Linux Engineering host cannot claim the visible main window, taskbar, singleton dialog, clean-close, DPI, or accessibility gates. Codex must execute the manifest-bound QA13 R2 Windows pre-QA matrix on disposable Windows 10/11 x64 VMs. The exact candidate goes to Independent QA only after the F-011 installed-launch gate and complete F-008 visual/accessibility matrix pass.
 
 ## Routing
 
-Engineering -> Codex Windows pre-QA -> Independent QA. Codex is Engineering tooling, not another approval role. No other reviewer is part of this cycle.
+Engineering -> Codex Windows pre-QA -> Independent QA. Codex is Engineering tooling, not another approval role. No additional reviewer, gate, recipient, or blocker is designated in this cycle.
