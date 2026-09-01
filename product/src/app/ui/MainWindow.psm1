@@ -519,11 +519,22 @@ function Show-NyxSettingsPage {
     $card.Controls.AddRange(@($open,$logs))
 
     $save=New-NyxButton -Text 'Save settings' -X 22 -Y 466 -Width 180 -Palette $script:NyxUi.Palette -Primary $true
+    $settingsState=[pscustomobject][ordered]@{
+        Configuration=$config
+        ThemeControl=$theme
+        NotificationControl=$notify
+        AutomaticUpdatesControl=$autoUpdates
+    }
+    $save.Tag=$settingsState
     $save.Add_Click({
-        $config.theme=[string]$theme.SelectedItem
-        $config.notificationsEnabled=[bool]$notify.Checked
-        $config.updates.enabled=[bool]$autoUpdates.Checked
-        Save-NyxConfiguration -Configuration $config
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        $selectedTheme=[string]$state.ThemeControl.SelectedItem
+        if($selectedTheme -notin @('FollowWindows','Dark','Light')){throw 'Select a supported theme before saving settings.'}
+        $state.Configuration.theme=$selectedTheme
+        $state.Configuration.notificationsEnabled=[bool]$state.NotificationControl.Checked
+        $state.Configuration.updates.enabled=[bool]$state.AutomaticUpdatesControl.Checked
+        Save-NyxConfiguration -Configuration $state.Configuration
         [Windows.Forms.MessageBox]::Show('Settings were saved. Update-check and notification changes apply now; theme changes apply the next time Nyx is opened.','Nyx PC Checkup')|Out-Null
     })
     $card.Controls.Add($save)
