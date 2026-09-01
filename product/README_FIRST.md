@@ -1,74 +1,106 @@
-# Nyx PC Checkup 1.0.0 — Engineering QA11 Corrected Master Handoff
+# Nyx PC Checkup 1.0.0 — QA14 F-011 Engineering Candidate
 
 **Publisher:** Dietrich AI Labs  
 **Version:** `1.0.0`  
-**Build:** `2026.08.29-eng-qa11-f010-r4`  
-**Harness revision:** `QA11-F010-PS51-12`  
-**Target:** Windows 10/11 x64 using inbox Windows PowerShell 5.1  
-**Engineering verdict:** `READY FOR INDEPENDENT WINDOWS QA`  
+**Build:** `2026.08.30-eng-qa14`  
+**Harness revision:** `QA14-F011-PS51-14`  
+**Target:** Windows 10/11 x64 with inbox Windows PowerShell 5.1  
+**Engineering state:** `READY FOR NATIVE WINDOWS VM PRE-QA`  
 **Release authorization:** `FALSE`
 
-## Why QA11 exists
+## Why QA13 exists
 
-Independent QA10 returned **FAIL — RETURN TO ENGINEERING** for **QA10-F-009**, a shipped UI-close lifecycle defect reproduced on native Windows PowerShell 5.1. QA10's `FormClosing` handler passed four optional scan/update path fields directly to `Remove-Item -LiteralPath` even when those fields were still empty strings. PowerShell rejected the empty `LiteralPath` during parameter binding, surfacing an exception through the WinForms `Application.Run` call and a terminal Nyx error dialog.
+Independent QA12 returned **FAIL — RETURN TO ENGINEERING** for **F-011**, a shipped installed-launch defect reproduced in a normal Hyper-V Windows VM. The supported desktop shortcut started the native launcher and application PowerShell process, the application logged startup and held its per-user singleton, but no usable main window or taskbar application appeared.
 
-QA11 changes shipped product bytes and is therefore a new immutable candidate. The exact QA10 FAIL handoff is preserved under `prior_qa/` for regression traceability.
+The frozen failed r4 candidate remains historical evidence. QA14 changes shipped native-launcher and UI bytes and is therefore a new immutable product candidate.
 
-## QA10-F-009 correction
+## Candidate-lineage clarification
 
-QA11 centralizes optional Nyx temporary-file deletion through `Remove-NyxTemporaryArtifacts` in `core/Paths.psm1`. The helper:
+GitHub previously recorded an unpublished QA13 R2 Engineering identity (`6860DA74C06B9A19C94AA7351533CC6B47559900E0F037A7DA31EAB57DA08523`) without committing its complete exact product source to the branch. QA14 supersedes that pre-QA record so only one available, reproducible successor is routed forward. QA14 also keeps hidden installer/uninstaller workers separate from the visible GUI-child contract.
 
-- ignores null/empty/whitespace optional path fields before any `Remove-Item` call;
-- derives the exact existing Nyx per-user temp root;
-- rejects a reparse-backed temp root or candidate file;
-- permits only known scan, update, and action temporary filename patterns;
-- requires the candidate's direct parent to equal the exact Nyx temp root; and
-- treats optional cleanup failures as bounded cleanup results rather than terminal UI-close failures.
+## F-011 correction
 
-The helper now owns optional cleanup for action request/result files, scan completion, update completion/failure, FormClosing, and application-acceptance scan cleanup. The top-level fatal-error boundary remains intact; QA11 does not hide arbitrary `FormClosing` exceptions.
+The previous launcher combined three independent hiding mechanisms:
 
-See `docs/QA10_F009_UI_CLOSE_CORRECTION.md` and `evidence/QA10_F009_UI_CLOSE_CORRECTION.json`.
+- PowerShell `-WindowStyle Hidden`;
+- Win32 `STARTF_USESHOWWINDOW` / `SW_HIDE`; and
+- Win32 `CREATE_NO_WINDOW`.
 
-## QA9-F-008 responsive UI correction preserved
+That contract could hide the first WinForms top-level window along with the console.
 
-QA11 retains QA10's DPI/working-area sizing, docked global actions, wrapped labels, Startup/Apps action placement, horizontal grid scrolling/tooltips, compact Cleanup layout, widened/scrollable Settings controls, and focus scroll-into-view behavior. The final native visual matrix remains mandatory because QA10 failed before QA could reach it.
+QA14 separates the two process-launch purposes:
 
-## Native Windows gates required
+- `nyx_run_hidden_worker` remains available for installer/uninstaller worker processes that have no user-facing window.
+- `nyx_run_gui_child_no_console` uses `CREATE_NO_WINDOW` to suppress the PowerShell console **without** applying a hidden startup show state to the child GUI.
+- The normal application launcher removes `-WindowStyle Hidden` and explicitly invokes Windows PowerShell with `-STA`.
+- The main WinForms form explicitly remains a normal, taskbar-visible window and reasserts that state during `Shown` without forcing always-on-top behavior.
+- The existing per-user singleton mutex remains unchanged.
 
-Engineering cannot execute WinForms or Windows PowerShell 5.1 on this Linux host and therefore does **not** claim native UI/process-close PASS. Independent QA must rerun the exact QA11 bytes on Windows 10/11 x64, including:
+See `docs/QA12_F011_INSTALLED_LAUNCH_CORRECTION.md`.
 
-- Standard Smoke, privilege/rollback, exact QA2 migration, and installer lifecycle;
-- Elevated privilege/rollback and installer lifecycle;
-- the QA10-F-009 close lifecycle matrix (immediate close, updates disabled, update enabled/before output, Quick Check close, scan-cancel close, update success/failure close, repeated close/relaunch, no residual process, and exact temp-root boundary); and
-- the complete QA9-F-008 final UI/accessibility matrix across Follow Windows/Dark/Light at 100%, 125%, 150%, and 200%, including 1366×768 and the prior 150% failure class.
+## New native Windows gate
 
-## Product and safety continuity
+`Run-WindowsInstalledLaunchRegression.ps1` installs the exact candidate and tests the actual supported entry points. It verifies:
 
-QA11 retains the complete Version 1 local-first health/checkup functionality, user-directed cleanup, reversible current-user startup changes, conservative Unknown states, privacy-safe local report export, notification-only Dietrich AI Labs weekly update availability checking, clean per-user packaging, and carried-forward exact QA2 migration regressions.
+1. installed launcher/script hashes and shortcut target/working directory;
+2. desktop-shortcut launch from clean process state;
+3. one visible, taskbar-eligible `Nyx PC Checkup` main window;
+4. visible second-launch singleton behavior while the first instance remains usable;
+5. clean close of child and native launcher;
+6. direct installed-EXE launch;
+7. isolated no-explicit-STA and explicit-STA script controls;
+8. immediate fresh visible relaunch; and
+9. uninstall cleanup with no bounded Nyx process left behind.
 
-No website update manifest is published by this Engineering candidate. No executable is automatically downloaded or installed.
+The gate captures a main-window screenshot and machine-readable process/window evidence. The manifest-bound Standard runner executes it after the historical functional/lifecycle suites.
 
-## Handoff contents
+## Mandatory native pre-QA
 
-- exact QA11 Setup, Portable, and Source artifacts;
-- root `RUN_QA11_WINDOWS_GATE.ps1` plus four Windows PowerShell 5.1 suites;
-- exact QA2 migration fixtures;
-- manifests, SHA-256 sums, SBOM, licenses/notices;
-- Engineering test, PE, packaging, F-008, and F-009 correction evidence;
-- exact QA10 FAIL evidence plus historical QA evidence needed for regression traceability; and
-- explicit Engineering → Independent QA routing.
+This Linux Engineering host compiles and structurally tests Windows binaries but cannot execute WinForms, Windows PowerShell 5.1, interactive taskbar/window behavior, registry/DPAPI/UAC, or installer lifecycle operations. Therefore this candidate is **not yet routed to Independent QA**.
 
-## Historical regression identities retained by the QA11 gate
+Engineering/Codex must run the exact frozen QA14 bytes on clean interactive Windows 10/11 x64 VMs and complete:
 
-- QA4 Windows-harness HOLD identity: `D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1`; QA4 Engineering identity `22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7`. The proven symptom was `Argument types do not match`; the correction used `.ToArray()` and required a **new product candidate**.
-- QA5 Engineering identity: `B72A0BAD2094F37EAE1E853794A72763A9ACF76D3B27E776AC5FB8647F19B349`; native QA evidence `5E6DC04424216650720A408BF8E99AAF52FD6EF20DE35489F76D0740ADE36298`. Mandatory regressions remain `QA5-WIN-001`, `QA5-WIN-002`, `QA5-ORCH-001`, and `QA5-ENC-001`, including the automatic-variable collision.
-- QA6 FAIL identity: `E81C56200A409B83E3A1B04A045D4726BE41C24494ED459FB9B91EAB4CACE324`; nested Windows evidence `38B28BB535067EB0B8508A364F6D9EE1DB6FC068D72608F83CFD34F8D28D41C7`. `QA6-F-005` requires `RuntimeComposition.psm1`, preservation of `New-NyxCheckResult`, and immutable-QA2 evidence labeled `HarnessInferenceFromImmutableQA2Source` where appropriate.
-- Historical suite wording retained for traceability: `normal-user smoke and privacy/update`; `privilege-boundary and legacy rollback`; `exact QA2-to-QA9 user rollback migration`; and `installer lifecycle`. The active QA11 migration suite carries forward WH-004/WH-005/WH-006.
+- Smoke;
+- Standard privilege/rollback;
+- exact QA2 migration;
+- Standard installer lifecycle;
+- the new F-011 installed-launch gate;
+- Elevated privilege/rollback and lifecycle;
+- F-010 cancellation/relaunch and malformed-state regressions; and
+- the still-open complete F-008 theme/DPI/accessibility matrix.
 
-Run the root manifest-bound gate with Windows PowerShell 5.1, for example:
+If those gates pass without product-byte changes, the same exact QA14 candidate may be handed to Independent QA. Any product correction creates a new immutable candidate.
+
+## Product continuity
+
+QA14 carries forward the complete local-first Version 1 functionality, conservative status model, user-directed cleanup, reversible current-user startup actions, privacy-safe report export, notification-only Dietrich AI Labs weekly update availability checking, and all historical F-001 through F-010 regression boundaries.
+
+No website manifest is published for this candidate. No executable is silently downloaded or automatically installed.
+
+## Windows runner
+
+From the extracted Engineering handoff, use inbox Windows PowerShell 5.1:
 
 ```powershell
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA11_WINDOWS_GATE.ps1" -Phase Smoke
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA14_WINDOWS_GATE.ps1" -Phase Smoke
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA14_WINDOWS_GATE.ps1" -Phase Standard -DestructiveCleanVmAcknowledged
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA14_WINDOWS_GATE.ps1" -Phase Elevated -DestructiveCleanVmAcknowledged
 ```
 
-The active harness revision is `QA11-F010-PS51-12`.
+Standard must run non-elevated in an interactive desktop session. Elevated must use a separate clean/reverted snapshot.
+
+## Routing
+
+Current route: **Engineering → Engineering/Codex Windows VM pre-QA → Independent QA**.
+
+Independent QA alone may return `PASS`, `CONDITIONAL PASS`, `HOLD`, or `FAIL`. No additional reviewer or gate is designated in this cycle.
+
+## Historical regression identities retained
+
+These immutable identities remain regression references without being recursively embedded in the lightweight transport:
+
+- QA4 Windows-harness HOLD: `D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1`; QA4 Engineering: `22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7`. The proven symptom was `Argument types do not match`; the `.ToArray()` correction required a **new product candidate**.
+- QA5 Engineering: `B72A0BAD2094F37EAE1E853794A72763A9ACF76D3B27E776AC5FB8647F19B349`; native evidence: `5E6DC04424216650720A408BF8E99AAF52FD6EF20DE35489F76D0740ADE36298`. Mandatory boundaries include `QA5-WIN-001`, `QA5-WIN-002`, `QA5-ORCH-001`, `QA5-ENC-001`, and the PowerShell automatic-variable collision.
+- QA6 FAIL: `E81C56200A409B83E3A1B04A045D4726BE41C24494ED459FB9B91EAB4CACE324`; nested Windows evidence: `38B28BB535067EB0B8508A364F6D9EE1DB6FC068D72608F83CFD34F8D28D41C7`. `QA6-F-005`, `New-NyxCheckResult`, `RuntimeComposition.psm1`, and `HarnessInferenceFromImmutableQA2Source` remain mandatory.
+
+Historical suite wording retained for traceability: `normal-user smoke and privacy/update`; `privilege-boundary and legacy rollback`; `exact QA2-to-QA9 user rollback migration`; and `installer lifecycle`.

@@ -37,10 +37,10 @@ STAGE = STAGE_BASE / "Nyx_PC_Checkup_1.0.0_Portable"
 DIST = ROOT / "dist"
 EVIDENCE = ROOT / "evidence"
 HANDOFF_BASE = ROOT / "handoff_staging"
-HANDOFF = HANDOFF_BASE / "Nyx_PC_Checkup_1.0.0_Engineering_QA11_F010_Corrected_Master_Handoff"
+HANDOFF = HANDOFF_BASE / "Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_Corrected_Master_Handoff"
 VERSION = "1.0.0"
-BUILD_ID = "2026.08.29-eng-qa11-f010-r4"
-HARNESS_REVISION = "QA11-F010-PS51-12"
+BUILD_ID = "2026.08.30-eng-qa14"
+HARNESS_REVISION = "QA14-F011-PS51-14"
 PRIOR_QA_EVIDENCE = ROOT / "prior_qa_evidence" / "QA5_MASTER_HANDOFF_20260824_184906.zip"
 QA6_FAIL_EVIDENCE = ROOT / "prior_qa_evidence" / "Nyx_PC_Checkup_1.0.0_Independent_QA6_FAIL_Master_Handoff(1).zip"
 QA6_FAIL_SIZE = 26479
@@ -803,7 +803,7 @@ def write_qa5_windows_execution_correction_evidence() -> dict[str, object]:
         ROOT / "src" / "app" / "ui" / "MainWindow.psm1",
         harness_dir / "Run-WindowsSmokeTests.ps1",
         harness_dir / "Run-WindowsQA2MigrationRegression.ps1",
-        harness_dir / "RUN_QA11_WINDOWS_GATE.ps1",
+        harness_dir / "RUN_QA14_WINDOWS_GATE.ps1",
         ROOT / "tools" / "ps_lint.py",
         ROOT / "tests" / "test_powershell51_parser_safety.py",
     ]
@@ -986,7 +986,7 @@ def write_qa6_module_composition_correction_evidence() -> dict[str, object]:
         "Repeated composition is idempotent and preserves command availability",
         "foreach($probeNumber in @(1,2))",
         "Real application acceptance launch {0} completes a real Quick Check",
-        "HarnessRevision='QA11-F010-PS51-12'",
+        "HarnessRevision='QA14-F011-PS51-14'",
     ]:
         if token not in smoke_text:
             raise BuildError(f"QA7 smoke graph/real-application regression is missing: {token}")
@@ -1012,14 +1012,16 @@ def write_qa6_module_composition_correction_evidence() -> dict[str, object]:
         if token not in helper_text:
             raise BuildError(f"QA7 installer preflight helper is missing: {token}")
 
-    runner = ROOT / "tests" / "powershell" / "RUN_QA11_WINDOWS_GATE.ps1"
+    runner = ROOT / "tests" / "powershell" / "RUN_QA14_WINDOWS_GATE.ps1"
     runner_text = runner.read_text(encoding="utf-8-sig")
     for token in [
-        "$script:ExpectedBuild='2026.08.29-eng-qa11-f010-r4'",
-        "$script:ExpectedHarnessRevision='QA11-F010-PS51-12'",
+        "$script:ExpectedBuild='2026.08.30-eng-qa14'",
+        "$script:ExpectedHarnessRevision='QA14-F011-PS51-14'",
         "InstallerDiagnosticsHelpers.ps1",
-        "QA11_WINDOWS_PARSE_PREFLIGHT.json",
-        "QA11_WINDOWS_RUN_SUMMARY.json",
+        "Run-WindowsInstalledLaunchRegression.ps1",
+        "Nyx_PC_Checkup_F011_Installed_Launch.json",
+        "QA14_WINDOWS_PARSE_PREFLIGHT.json",
+        "QA14_WINDOWS_RUN_SUMMARY.json",
     ]:
         if token not in runner_text:
             raise BuildError(f"QA7 Windows runner contract is missing: {token}")
@@ -1038,6 +1040,7 @@ def write_qa6_module_composition_correction_evidence() -> dict[str, object]:
         helper,
         ROOT / "tests" / "powershell" / "Run-WindowsQA2MigrationRegression.ps1",
         ROOT / "tests" / "powershell" / "Run-WindowsInstallerLifecycle.ps1",
+        ROOT / "tests" / "powershell" / "Run-WindowsInstalledLaunchRegression.ps1",
         runner,
         ROOT / "tests" / "test_powershell51_module_composition.py",
         ROOT / "tests" / "test_installer_branch_diagnostics.py",
@@ -1126,7 +1129,7 @@ def write_qa7_f006_uninstall_correction_evidence() -> dict[str, object]:
     required_native = [
         "nyx_wcopy(safeCwd,systemRoot,1024)",
         'nyx_wcat(safeCwd,L"\\\\System32",1024)',
-        "nyx_run(ps,cmd,safeCwd,TRUE)",
+        "nyx_run_hidden_worker(ps,cmd,safeCwd)",
     ]
     required_worker = [
         "$safeWorkingDirectory",
@@ -1270,7 +1273,7 @@ def write_qa8_f007_empty_collection_correction_evidence() -> dict[str, object]:
             {"path": "tests/test_qa8_f007_empty_collection.py", "size": (ROOT / "tests" / "test_qa8_f007_empty_collection.py").stat().st_size, "sha256": sha256(ROOT / "tests" / "test_qa8_f007_empty_collection.py")},
         ],
         "windowsPowerShell51ExecutedByEngineering": False,
-        "boundary": "Engineering can statically and structurally validate the corrected runtime, but Independent QA must execute the QA11-F010-PS51-12 empty-state regressions under Windows PowerShell 5.1.",
+        "boundary": "Engineering can statically and structurally validate the corrected runtime, but Independent QA must execute the QA14-F011-PS51-14 empty-state regressions under Windows PowerShell 5.1.",
         "result": "STATIC/BUILD REGRESSION PASS — NATIVE WINDOWS F-007 REGRESSION REQUIRED",
     }
     atomic_json(EVIDENCE / "QA8_F007_EMPTY_COLLECTION_CORRECTION.json", evidence)
@@ -1517,7 +1520,7 @@ def write_qa10_f009_ui_close_correction_evidence() -> dict[str, object]:
 def create_handoff(payload: dict[str, object], source_identity: dict[str, object], test_report: dict[str, object], packaging: dict[str, object]) -> Path:
     clean_dir(HANDOFF)
     copy_file(ROOT / "README_FIRST.md", HANDOFF / "README_FIRST.md")
-    copy_file(ROOT / "tests" / "powershell" / "RUN_QA11_WINDOWS_GATE.ps1", HANDOFF / "RUN_QA11_WINDOWS_GATE.ps1")
+    copy_file(ROOT / "tests" / "powershell" / "RUN_QA14_WINDOWS_GATE.ps1", HANDOFF / "RUN_QA14_WINDOWS_GATE.ps1")
 
     for name in ["Nyx_PC_Checkup_1.0.0_Setup.exe", "Nyx_PC_Checkup_1.0.0_Portable.zip"]:
         copy_file(DIST / name, HANDOFF / "candidate" / name)
@@ -1727,7 +1730,7 @@ def create_handoff(payload: dict[str, object], source_identity: dict[str, object
     (HANDOFF / "SHA256SUMS.txt").write_text("\n".join(sums) + "\n", encoding="utf-8")
 
     ensure_safe_tree(HANDOFF, forbidden_parts={".git", "__pycache__", ".pytest_cache"})
-    final_zip = DIST / "Nyx_PC_Checkup_1.0.0_Engineering_QA11_F010_Corrected_Master_Handoff.zip"
+    final_zip = DIST / "Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_Corrected_Master_Handoff.zip"
     deterministic_zip(HANDOFF, final_zip, HANDOFF.name)
     return final_zip
 
@@ -1742,7 +1745,7 @@ def validate_handoff_archive(path: Path) -> None:
             root + "MASTER_MANIFEST.json",
             root + "SHA256SUMS.txt",
             root + "ENGINEERING_GATE.json",
-            root + "RUN_QA11_WINDOWS_GATE.ps1",
+            root + "RUN_QA14_WINDOWS_GATE.ps1",
             root + "evidence/QA5_WINDOWS_EXECUTION_CORRECTION.json",
             root + "docs/QA5_WINDOWS_EXECUTION_CORRECTION.md",
             root + "evidence/QA6_MODULE_COMPOSITION_CORRECTION.json",

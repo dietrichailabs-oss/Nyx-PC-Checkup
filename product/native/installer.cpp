@@ -63,7 +63,7 @@ static void nyx_write_diagnostics(const WCHAR* branch,const WCHAR* stage,const W
     static WCHAR json[32768];json[0]=0;nyx_wcat(json,L"{",32768);
     nyx_json_text_field(json,L"schema",L"dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",TRUE,32768);
     nyx_json_text_field(json,L"product",L"nyx-pc-checkup",TRUE,32768);
-    nyx_json_text_field(json,L"build",L"2026.08.29-eng-qa11-f010-r4",TRUE,32768);
+    nyx_json_text_field(json,L"build",L"2026.08.30-eng-qa14",TRUE,32768);
     nyx_json_bool_field(json,L"success",success,TRUE,32768);
     nyx_json_uint_field(json,L"exitCode",exitCode,TRUE,32768);
     nyx_json_text_field(json,L"branchId",branch,TRUE,32768);
@@ -122,7 +122,7 @@ static void nyx_schedule_remove(const WCHAR* dir){
 static DWORD nyx_finalize(const WCHAR* target,BOOL desktop,BOOL quiet){
     static WCHAR sys[512],ps[1024],worker[1600],cmd[4096];sys[0]=ps[0]=worker[0]=cmd[0]=0;GetEnvironmentVariableW(L"SystemRoot",sys,512);nyx_wcopy(ps,sys,1024);nyx_wcat(ps,L"\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",1024);
     nyx_wcopy(worker,target,1600);nyx_wcat(worker,L"\\app\\workers\\InstallWorker.ps1",1600);
-    nyx_wcat(cmd,L"\"",4096);nyx_wcat(cmd,ps,4096);nyx_wcat(cmd,L"\" -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"",4096);nyx_wcat(cmd,worker,4096);nyx_wcat(cmd,L"\" -InstallRoot \"",4096);nyx_wcat(cmd,target,4096);nyx_wcat(cmd,L"\" -CreateDesktop ",4096);nyx_wcat(cmd,desktop?L"1":L"0",4096);nyx_wcat(cmd,L" -Quiet ",4096);nyx_wcat(cmd,quiet?L"1":L"0",4096);return nyx_run(ps,cmd,target,TRUE);
+    nyx_wcat(cmd,L"\"",4096);nyx_wcat(cmd,ps,4096);nyx_wcat(cmd,L"\" -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"",4096);nyx_wcat(cmd,worker,4096);nyx_wcat(cmd,L"\" -InstallRoot \"",4096);nyx_wcat(cmd,target,4096);nyx_wcat(cmd,L"\" -CreateDesktop ",4096);nyx_wcat(cmd,desktop?L"1":L"0",4096);nyx_wcat(cmd,L" -Quiet ",4096);nyx_wcat(cmd,quiet?L"1":L"0",4096);return nyx_run_hidden_worker(ps,cmd,target);
 }
 static void nyx_launch(const WCHAR* target){static WCHAR exe[1400],cmd[1800];exe[0]=cmd[0]=0;nyx_wcopy(exe,target,1400);nyx_wcat(exe,L"\\Nyx PC Checkup.exe",1400);nyx_wcat(cmd,L"\"",1800);nyx_wcat(cmd,exe,1800);nyx_wcat(cmd,L"\"",1800);STARTUPINFOW si={0};PROCESS_INFORMATION pi={0};si.cb=sizeof(si);if(CreateProcessW(exe,cmd,0,0,FALSE,0,0,target,&si,&pi)){CloseHandle(pi.hThread);CloseHandle(pi.hProcess);}}
 

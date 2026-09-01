@@ -74,7 +74,7 @@
 
 ## Native packaging
 
-- `native/launcher.cpp` — Windows GUI launcher.
+- `native/launcher.cpp` — Windows GUI launcher; starts the STA application child with console suppression while preserving a normal visible WinForms startup state.
 - `native/uninstaller.cpp` — fixed-root uninstaller launcher.
 - `native/installer.cpp` — embedded clean-payload setup.
 - `native/app.manifest` — `asInvoker`, Windows compatibility, DPI metadata.

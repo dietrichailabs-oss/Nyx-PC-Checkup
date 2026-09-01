@@ -1,21 +1,33 @@
-# Nyx PC Checkup 1.0.0 — QA11 Engineering Release Notes
+# Nyx PC Checkup 1.0.0 — QA14 Engineering Notes
 
-**Build:** `2026.08.29-eng-qa11-f010-r4`  
-**Harness:** `QA11-F010-PS51-12`  
-**Status:** Corrected Engineering candidate for Independent QA; not approved for public release.
+**Build:** `2026.08.30-eng-qa14`  
+**Harness:** `QA14-F011-PS51-14`  
+**Status:** New immutable F-011 correction candidate; native Windows VM pre-QA required; not approved for release.
 
-## QA11 correction
+## Candidate-lineage clarification
 
-QA11 corrects **QA10-F-009**, the native Windows UI-close lifecycle blocker. Optional scan/update/action temporary paths are now filtered and exact-boundary validated before any deletion call. Empty path fields can no longer reach `Remove-Item -LiteralPath`, and cleanup refuses files outside the exact Nyx temp root.
+GitHub previously recorded an unpublished QA13 R2 Engineering identity (`6860DA74C06B9A19C94AA7351533CC6B47559900E0F037A7DA31EAB57DA08523`) without committing its complete exact product source to the branch. QA14 supersedes that pre-QA record so only one available, reproducible successor is routed forward. QA14 also keeps hidden installer/uninstaller workers separate from the visible GUI-child contract.
 
-The same bounded cleanup contract is applied to FormClosing, scan completion, update completion/failure, action request/result cleanup, and the application acceptance probe.
+## F-011 installed-launch correction
 
-The Windows Smoke harness adds real WinForms close probes with automatic updates disabled and enabled/due, plus zero-safe/outside-root cleanup assertions. Independent QA must still execute the broader manual close/cancel/update matrix on native Windows.
+QA12 proved that the installed shortcut could start a live singleton application with no usable main window. QA13 corrects the launch contract rather than weakening singleton protection:
 
-## QA9-F-008 preservation
+- the application launcher now uses explicit PowerShell `-STA`;
+- it no longer passes `-WindowStyle Hidden`;
+- console suppression uses `CREATE_NO_WINDOW` without `STARTF_USESHOWWINDOW` / `SW_HIDE` for the GUI child;
+- installer/uninstaller workers retain a separately named hidden-worker contract; and
+- the WinForms main form explicitly remains normal and taskbar-visible.
 
-QA11 preserves the responsive/DPI/accessibility correction introduced in QA10. The complete native final UI matrix remains required because QA10 failed before visual acceptance could run.
+A new manifest-bound Windows regression installs the exact candidate, launches the actual desktop shortcut and direct EXE, verifies a visible taskbar-eligible main window, verifies second-launch singleton behavior, closes cleanly, and opens visibly again.
+
+## Preserved corrections
+
+All F-001 through F-010 boundaries remain mandatory, including PowerShell 5.1 parser/list safety, runtime composition, rollback migration, uninstall cleanup, empty collections, responsive UI, close cleanup, and persisted cancelled-scan validation.
+
+## Remaining native gate
+
+Engineering/Codex must execute the full Standard/Elevated/F-010/F-011 Windows matrix and complete the open F-008 theme/DPI/accessibility matrix before this exact candidate is routed to Independent QA.
 
 ## Update availability
 
-The existing Dietrich AI Labs weekly update checker remains notification-only. It does not silently download or execute an installer and does not publish this QA candidate to the website update manifest.
+The Dietrich AI Labs weekly checker remains notification-only. It does not silently download or execute an installer and does not publish QA13 through the website manifest.

@@ -1,4 +1,4 @@
-# Build and Reproduce — Nyx PC Checkup 1.0.0 QA7
+# Build and Reproduce — Nyx PC Checkup 1.0.0 QA13
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ The wrapper:
 8. independently rebuilds it;
 9. requires exact Setup, Portable, and Source SHA-256 matches;
 10. records reproducibility evidence;
-11. rebuilds and internally audits one immutable QA7 master handoff ZIP.
+11. rebuilds and internally audits one immutable QA14 lightweight Engineering handoff ZIP.
 
 Direct verification:
 
@@ -43,9 +43,9 @@ Four archive/PE tests are skipped only before generated artifacts exist. The doc
 
 ## Determinism and identity
 
-ZIP entries are sorted with fixed timestamps. JSON output is normalized. Source identity excludes only its own `SOURCE_TREE_IDENTITY.json` and non-source build/evidence directories to avoid circular or machine-specific identity. The raw QA5 evidence directory is intentionally excluded from the distributable source tree but is copied into the primary QA7 handoff when its exact recorded identity is present.
+ZIP entries are sorted with fixed timestamps. JSON output is normalized. Source identity excludes only its own `SOURCE_TREE_IDENTITY.json` and non-source build/evidence directories to avoid circular or machine-specific identity. Historical QA bundles are referenced by exact filename and SHA-256 instead of recursively embedded in the transport handoff. GitHub is the source/history backbone.
 
-The master handoff includes session timing evidence, so separate handoff sessions need not be byte-identical. Each must pass its own `MASTER_MANIFEST.json` and `SHA256SUMS.txt` audit.
+The lightweight handoff includes only the current candidate, current harnesses/fixtures, current correction record, manifests, and hashes. Each handoff must pass its own `MASTER_MANIFEST.json` and `SHA256SUMS.txt` audit.
 
 Never edit a generated candidate in place. Any changed byte requires a new build identity, manifests, hashes, and applicable retesting.
 
@@ -54,11 +54,11 @@ Never edit a generated candidate in place. Any changed byte requires a new build
 Extract the exact master handoff on disposable Windows 10/11 x64 snapshots and invoke:
 
 ```text
-RUN_QA11_WINDOWS_GATE.ps1 -Phase Smoke
-RUN_QA11_WINDOWS_GATE.ps1 -Phase Standard -DestructiveCleanVmAcknowledged
-RUN_QA11_WINDOWS_GATE.ps1 -Phase Elevated -DestructiveCleanVmAcknowledged
+RUN_QA14_WINDOWS_GATE.ps1 -Phase Smoke
+RUN_QA14_WINDOWS_GATE.ps1 -Phase Standard -DestructiveCleanVmAcknowledged
+RUN_QA14_WINDOWS_GATE.ps1 -Phase Elevated -DestructiveCleanVmAcknowledged
 ```
 
 Use `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. Standard and Elevated phases require separate appropriate snapshots. Preserve the generated phase evidence ZIPs and exact outer-delivery hash.
 
-Every mandatory harness report must contain `HarnessRevision='QA11-F010-PS51-12'`.
+Every mandatory harness report must contain `HarnessRevision='QA14-F011-PS51-14'`. The Standard phase also runs `Run-WindowsInstalledLaunchRegression.ps1` from an interactive non-elevated desktop.

@@ -7,5 +7,5 @@ extern "C" void __stdcall wWinMainCRTStartup(void){
     if(!GetEnvironmentVariableW(L"SystemRoot",systemRoot,512)){ExitProcess(2);}nyx_wcopy(safeCwd,systemRoot,1024);nyx_wcat(safeCwd,L"\\System32",1024);nyx_wcopy(ps,systemRoot,1024);nyx_wcat(ps,L"\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",1024);
     BOOL quiet=nyx_contains_i(GetCommandLineW(),L"/quiet");BOOL purge=nyx_contains_i(GetCommandLineW(),L"/purgedata");
     nyx_wcat(cmd,L"\"",4096);nyx_wcat(cmd,ps,4096);nyx_wcat(cmd,L"\" -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"",4096);nyx_wcat(cmd,script,4096);nyx_wcat(cmd,L"\" -InstallRoot \"",4096);nyx_wcat(cmd,root,4096);nyx_wcat(cmd,L"\" -Quiet ",4096);nyx_wcat(cmd,quiet?L"1":L"0",4096);nyx_wcat(cmd,L" -PurgeData ",4096);nyx_wcat(cmd,purge?L"1":L"0",4096);
-    DWORD code=nyx_run(ps,cmd,safeCwd,TRUE);if(code==0xFFFFFFFFUL){if(!quiet)MessageBoxW(0,L"The Nyx PC Checkup uninstaller could not start.",L"Nyx PC Checkup",MB_OK|MB_ICONERROR);ExitProcess(2);}ExitProcess(code);
+    DWORD code=nyx_run_hidden_worker(ps,cmd,safeCwd);if(code==0xFFFFFFFFUL){if(!quiet)MessageBoxW(0,L"The Nyx PC Checkup uninstaller could not start.",L"Nyx PC Checkup",MB_OK|MB_ICONERROR);ExitProcess(2);}ExitProcess(code);
 }

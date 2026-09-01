@@ -688,6 +688,10 @@ function Show-NyxMainWindow {
     $form=New-Object Windows.Forms.Form
     $form.Text='Nyx PC Checkup'
     $form.StartPosition='CenterScreen'
+    # QA12-F-011: the supported native launcher suppresses only the console.
+    # The application form itself must remain a normal visible taskbar window.
+    $form.ShowInTaskbar=$true
+    $form.WindowState=[Windows.Forms.FormWindowState]::Normal
     $form.BackColor=$palette.Window
     $form.ForeColor=$palette.Text
     $form.AutoScaleMode='Dpi'
@@ -820,6 +824,13 @@ function Show-NyxMainWindow {
     }
 
     $form.Add_Shown({
+        # F-011 defense in depth: do not inherit a hidden/minimized startup state.
+        $script:NyxUi.Form.ShowInTaskbar=$true
+        if($script:NyxUi.Form.WindowState -eq [Windows.Forms.FormWindowState]::Minimized){
+            $script:NyxUi.Form.WindowState=[Windows.Forms.FormWindowState]::Normal
+        }
+        [void]$script:NyxUi.Form.Activate()
+        $script:NyxUi.Form.BringToFront()
         Start-NyxUpdateCheck
         if([bool]$script:NyxUi.AcceptanceCloseProbe){
             # Explicit QA-only close probe: exercise the real FormClosing path

@@ -179,4 +179,4 @@ Engineering could reproduce both source defects exactly from the preserved Windo
 
 ## Current QA11 carry-forward
 
-This historical correction remains mandatory under active harness revision `QA11-F010-PS51-12` and root runner `RUN_QA11_WINDOWS_GATE.ps1`.
+This historical correction remains mandatory under active harness revision `QA14-F011-PS51-14` and root runner `RUN_QA14_WINDOWS_GATE.ps1`.
