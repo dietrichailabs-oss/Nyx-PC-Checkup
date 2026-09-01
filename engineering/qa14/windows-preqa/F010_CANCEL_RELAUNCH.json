@@ -1,0 +1,11 @@
+{
+  "Schema": "dietrich-ai-labs.nyx-pc-checkup.qa14-f010-status.v1",
+  "Status": "NOT_EXECUTED",
+  "Reason": "Standalone current-candidate F-010 driver was not present; UI execution stopped on the first reproducible F-008 product failure.",
+  "PriorR4EvidenceNotReused": true,
+  "QA14DiffersFromR4": [
+    "src/app/NyxPCCheckup.ps1",
+    "src/app/ui/MainWindow.psm1",
+    "src/app/workers/InstallWorker.ps1"
+  ]
+}

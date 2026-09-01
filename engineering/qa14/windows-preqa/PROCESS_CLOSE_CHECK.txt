@@ -1,0 +1,1 @@
+Standard F-011 regression confirmed clean process closure. UI matrix stopped at the Dark-theme save exception; no forced product repair was attempted.

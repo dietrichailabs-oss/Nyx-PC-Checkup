@@ -1,0 +1,1 @@
+Forward Tab moved focus into Settings and scrolled the focused theme selector into view. Shift+Tab returned visible focus to the Settings navigation item.

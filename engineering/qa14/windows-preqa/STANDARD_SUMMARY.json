@@ -1,0 +1,92 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa14-windows-run-summary.v1",
+    "Build":  "2026.08.30-eng-qa14",
+    "HarnessRevision":  "QA14-F011-PS51-14",
+    "Phase":  "Standard",
+    "CompletedUtc":  "2026-09-01T18:49:05.8729176Z",
+    "ParsePreflightPassed":  true,
+    "ParsePreflightReport":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\QA14_WINDOWS_PARSE_PREFLIGHT.json",
+    "Passed":  true,
+    "Total":  5,
+    "Failed":  0,
+    "RunnerFailures":  [
+
+                       ],
+    "Results":  [
+                    {
+                        "Harness":  "Run-WindowsSmokeTests.ps1",
+                        "ExactHarnessSha256":  "A9C08B88DFEF58F6EBFE5918AFF0DE2F2B2925F8A3271C57D35B4342B245F2E1",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Run-WindowsSmokeTests_console.txt",
+                        "ReportPath":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Nyx_PC_Checkup_Windows_Smoke.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA14-F011-PS51-14",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  122,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsElevatedStartupRollback.ps1",
+                        "ExactHarnessSha256":  "4578485175CE1DF6AD4DF486BEF7E04CDD7C400A51B4B343CD5E3E7A6640568F",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Run-WindowsElevatedStartupRollback_console.txt",
+                        "ReportPath":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Nyx_PC_Checkup_Privilege_Standard.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA14-F011-PS51-14",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  12,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsQA2MigrationRegression.ps1",
+                        "ExactHarnessSha256":  "08EB677D13CDD35476849C5A2EEE1DD3651B61A0F6B7A4D701A529FC7D377DBA",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Run-WindowsQA2MigrationRegression_console.txt",
+                        "ReportPath":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Nyx_PC_Checkup_QA2_Migration.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA14-F011-PS51-14",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  244,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsInstallerLifecycle.ps1",
+                        "ExactHarnessSha256":  "B469D52942C4453F46DF9DE6A2341B16FF06067229DEA190ED512CE25C17FD00",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Run-WindowsInstallerLifecycle_console.txt",
+                        "ReportPath":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Nyx_PC_Checkup_Installer_Lifecycle_Standard.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA14-F011-PS51-14",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  44,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsInstalledLaunchRegression.ps1",
+                        "ExactHarnessSha256":  "0349239AB9EB2E3FAD4BDE1031B44E8BA8E030EAF4970F6D0F8FCF35DFDA1C4C",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Run-WindowsInstalledLaunchRegression_console.txt",
+                        "ReportPath":  "C:\\Q14S\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Standard_20260901_144607\\Nyx_PC_Checkup_F011_Installed_Launch.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA14-F011-PS51-14",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  39,
+                        "ReportValidationError":  ""
+                    }
+                ]
+}

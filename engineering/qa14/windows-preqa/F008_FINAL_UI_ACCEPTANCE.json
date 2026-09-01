@@ -1,0 +1,15 @@
+{
+  "Schema": "dietrich-ai-labs.nyx-pc-checkup.qa14-f008-final-ui.v1",
+  "Passed": false,
+  "Disposition": "PRODUCT DEFECT REPRODUCED - QA14 REMAINS FROZEN",
+  "Failure": "Dark theme Save settings unhandled SelectedItem exception",
+  "Reproduction": [
+    "Install exact frozen QA14 Setup",
+    "Launch installed Nyx PC Checkup from desktop shortcut",
+    "Open Settings",
+    "Select Dark theme",
+    "Activate Save settings"
+  ],
+  "Screenshot": "screenshots/F008_DARK_THEME_SAVE_UNHANDLED_SELECTEDITEM.png",
+  "CandidateModified": false
+}

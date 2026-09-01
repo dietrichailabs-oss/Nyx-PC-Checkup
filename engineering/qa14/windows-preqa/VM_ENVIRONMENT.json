@@ -1,0 +1,10 @@
+{
+  "ComputerName": "Nyx disposable Hyper-V VM",
+  "User": "Nyx",
+  "WindowsVersion": "Microsoft Windows NT 10.0.26200.0",
+  "PowerShell": "5.1.26100.7920",
+  "Resolution": "1366x768",
+  "Scaling": "Profile default, not independently read before stop",
+  "StandardAdministrator": false,
+  "ElevatedAdministrator": true
+}
