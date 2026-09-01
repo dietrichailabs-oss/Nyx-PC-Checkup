@@ -2,8 +2,8 @@
 
 **Publisher:** Dietrich AI Labs  
 **Version:** `1.0.0`  
-**Build:** `2026.08.30-eng-qa14`  
-**Harness revision:** `QA14-F011-PS51-14`  
+**Build:** `2026.09.01-eng-qa15`  
+**Harness revision:** `QA15-F012-PS51-15`  
 **Target:** Windows 10/11 x64 with inbox Windows PowerShell 5.1  
 **Engineering state:** `READY FOR NATIVE WINDOWS VM PRE-QA`  
 **Release authorization:** `FALSE`
@@ -82,9 +82,9 @@ No website manifest is published for this candidate. No executable is silently d
 From the extracted Engineering handoff, use inbox Windows PowerShell 5.1:
 
 ```powershell
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA14_WINDOWS_GATE.ps1" -Phase Smoke
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA14_WINDOWS_GATE.ps1" -Phase Standard -DestructiveCleanVmAcknowledged
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA14_WINDOWS_GATE.ps1" -Phase Elevated -DestructiveCleanVmAcknowledged
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA15_WINDOWS_GATE.ps1" -Phase Smoke
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA15_WINDOWS_GATE.ps1" -Phase Standard -DestructiveCleanVmAcknowledged
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File ".\RUN_QA15_WINDOWS_GATE.ps1" -Phase Elevated -DestructiveCleanVmAcknowledged
 ```
 
 Standard must run non-elevated in an interactive desktop session. Elevated must use a separate clean/reverted snapshot.

@@ -12,8 +12,8 @@ Set-StrictMode -Version 2.0
 if($env:OS -ne 'Windows_NT'){throw 'This QA13 gate runner requires native Windows.'}
 if($PSVersionTable.PSEdition -ne 'Desktop' -or $PSVersionTable.PSVersion.Major -ne 5 -or $PSVersionTable.PSVersion.Minor -ne 1){throw 'Run this orchestrator with inbox Windows PowerShell 5.1 Desktop edition.'}
 
-$script:ExpectedBuild='2026.08.30-eng-qa14'
-$script:ExpectedHarnessRevision='QA14-F011-PS51-14'
+$script:ExpectedBuild='2026.09.01-eng-qa15'
+$script:ExpectedHarnessRevision='QA15-F012-PS51-15'
 $script:RunResults=[System.Collections.Generic.List[object]]::new()
 $script:RunnerFailures=[System.Collections.Generic.List[string]]::new()
 
@@ -45,7 +45,7 @@ if([string]::IsNullOrWhiteSpace($HandoffRoot)){
 }
 $HandoffRoot=(Resolve-Path -LiteralPath $HandoffRoot).Path
 $manifestPath=Join-Path $HandoffRoot 'MASTER_MANIFEST.json'
-if(-not(Test-Path -LiteralPath $manifestPath -PathType Leaf)){throw 'MASTER_MANIFEST.json is missing. Run this script from the extracted QA14 Engineering master handoff.'}
+if(-not(Test-Path -LiteralPath $manifestPath -PathType Leaf)){throw 'MASTER_MANIFEST.json is missing. Run this script from the extracted QA15 Engineering master handoff.'}
 $manifest=Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8|ConvertFrom-Json
 if([string]$manifest.build -ne $script:ExpectedBuild){throw ("Unexpected handoff build: {0}" -f [string]$manifest.build)}
 
@@ -66,10 +66,10 @@ foreach($name in $harnessNames){
     $relative='tests/powershell/'+$name
     $harnessPaths[$name]=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath $relative
 }
-$nestedRunner=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'tests/powershell/RUN_QA14_WINDOWS_GATE.ps1'
+$nestedRunner=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'tests/powershell/RUN_QA15_WINDOWS_GATE.ps1'
 $installerDiagnosticsHelper=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'tests/powershell/InstallerDiagnosticsHelpers.ps1'
-if(Test-Path -LiteralPath (Join-Path $HandoffRoot 'RUN_QA14_WINDOWS_GATE.ps1') -PathType Leaf){
-    [void](Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'RUN_QA14_WINDOWS_GATE.ps1')
+if(Test-Path -LiteralPath (Join-Path $HandoffRoot 'RUN_QA15_WINDOWS_GATE.ps1') -PathType Leaf){
+    [void](Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'RUN_QA15_WINDOWS_GATE.ps1')
 }
 
 $isAdmin=([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
@@ -85,7 +85,7 @@ if($Phase -eq 'Elevated'){
 $stamp=Get-Date -Format 'yyyyMMdd_HHmmss'
 $work=Join-Path $env:TEMP ("Nyx_PC_Checkup_QA14_Windows_{0}_{1}" -f $Phase,$stamp)
 $sourceExtract=Join-Path $work 'source'
-$evidence=Join-Path $HandoffRoot ("QA14_WINDOWS_EVIDENCE_{0}_{1}" -f $Phase,$stamp)
+$evidence=Join-Path $HandoffRoot ("QA15_WINDOWS_EVIDENCE_{0}_{1}" -f $Phase,$stamp)
 New-Item -ItemType Directory -Path $sourceExtract,$evidence -Force|Out-Null
 Expand-Archive -LiteralPath $sourceZip -DestinationPath $sourceExtract -Force
 $sourceIdentity=Get-ChildItem -LiteralPath $sourceExtract -Filter 'SOURCE_TREE_IDENTITY.json' -File -Recurse -ErrorAction Stop|Select-Object -First 1
@@ -161,7 +161,7 @@ function Invoke-PowerShellParsePreflight {
         Files=@($fileRecords.ToArray())
         Diagnostics=@($findings.ToArray())
     }
-    $preflightPath=Join-Path $evidence 'QA14_WINDOWS_PARSE_PREFLIGHT.json'
+    $preflightPath=Join-Path $evidence 'QA15_WINDOWS_PARSE_PREFLIGHT.json'
     $preflight|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $preflightPath -Encoding UTF8
     return $preflight
 }
@@ -282,14 +282,14 @@ $summary=[pscustomobject][ordered]@{
     Phase=$Phase
     CompletedUtc=(Get-Date).ToUniversalTime().ToString('o')
     ParsePreflightPassed=$parsePassed
-    ParsePreflightReport=(Join-Path $evidence 'QA14_WINDOWS_PARSE_PREFLIGHT.json')
+    ParsePreflightReport=(Join-Path $evidence 'QA15_WINDOWS_PARSE_PREFLIGHT.json')
     Passed=($parsePassed -and $failed.Count -eq 0 -and $script:RunnerFailures.Count -eq 0 -and $script:RunResults.Count -gt 0)
     Total=$script:RunResults.Count
     Failed=$failed.Count
     RunnerFailures=@($script:RunnerFailures.ToArray())
     Results=@($script:RunResults.ToArray())
 }
-$summary|ConvertTo-Json -Depth 12|Set-Content -LiteralPath (Join-Path $evidence 'QA14_WINDOWS_RUN_SUMMARY.json') -Encoding UTF8
+$summary|ConvertTo-Json -Depth 12|Set-Content -LiteralPath (Join-Path $evidence 'QA15_WINDOWS_RUN_SUMMARY.json') -Encoding UTF8
 
 $zipPath=$evidence+'.zip'
 if(Test-Path -LiteralPath $zipPath){Remove-Item -LiteralPath $zipPath -Force}

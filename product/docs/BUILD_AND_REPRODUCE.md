@@ -29,7 +29,7 @@ The wrapper:
 8. independently rebuilds it;
 9. requires exact Setup, Portable, and Source SHA-256 matches;
 10. records reproducibility evidence;
-11. rebuilds and internally audits one immutable QA14 lightweight Engineering handoff ZIP.
+11. rebuilds and internally audits one immutable QA15 lightweight Engineering handoff ZIP.
 
 Direct verification:
 
@@ -54,11 +54,11 @@ Never edit a generated candidate in place. Any changed byte requires a new build
 Extract the exact master handoff on disposable Windows 10/11 x64 snapshots and invoke:
 
 ```text
-RUN_QA14_WINDOWS_GATE.ps1 -Phase Smoke
-RUN_QA14_WINDOWS_GATE.ps1 -Phase Standard -DestructiveCleanVmAcknowledged
-RUN_QA14_WINDOWS_GATE.ps1 -Phase Elevated -DestructiveCleanVmAcknowledged
+RUN_QA15_WINDOWS_GATE.ps1 -Phase Smoke
+RUN_QA15_WINDOWS_GATE.ps1 -Phase Standard -DestructiveCleanVmAcknowledged
+RUN_QA15_WINDOWS_GATE.ps1 -Phase Elevated -DestructiveCleanVmAcknowledged
 ```
 
 Use `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. Standard and Elevated phases require separate appropriate snapshots. Preserve the generated phase evidence ZIPs and exact outer-delivery hash.
 
-Every mandatory harness report must contain `HarnessRevision='QA14-F011-PS51-14'`. The Standard phase also runs `Run-WindowsInstalledLaunchRegression.ps1` from an interactive non-elevated desktop.
+Every mandatory harness report must contain `HarnessRevision='QA15-F012-PS51-15'`. The Standard phase also runs `Run-WindowsInstalledLaunchRegression.ps1` from an interactive non-elevated desktop.

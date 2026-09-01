@@ -73,21 +73,21 @@ def test_required_windows_harnesses_pin_windows_powershell_51() -> None:
     }
     actual = {path.name for path in WINDOWS_HARNESSES.glob("*.ps1")}
     assert names <= actual
-    assert "RUN_QA14_WINDOWS_GATE.ps1" in actual
+    assert "RUN_QA15_WINDOWS_GATE.ps1" in actual
     for name in sorted(names):
         source = read(WINDOWS_HARNESSES / name)
         assert expected in source
-        assert "HarnessRevision='QA14-F011-PS51-14'" in source
-    runner = read(WINDOWS_HARNESSES / "RUN_QA14_WINDOWS_GATE.ps1")
+        assert "HarnessRevision='QA15-F012-PS51-15'" in source
+    runner = read(WINDOWS_HARNESSES / "RUN_QA15_WINDOWS_GATE.ps1")
     assert expected in runner
-    assert "$script:ExpectedHarnessRevision='QA14-F011-PS51-14'" in runner
+    assert "$script:ExpectedHarnessRevision='QA15-F012-PS51-15'" in runner
     assert "$ErrorActionPreference='Continue'" in runner
-    assert "QA14_WINDOWS_PARSE_PREFLIGHT.json" in runner
+    assert "QA15_WINDOWS_PARSE_PREFLIGHT.json" in runner
     assert "Parser]::ParseFile" in runner
     assert "ExpectedReportPath" in runner
     assert "ReportValidationError" in runner
     assert "Harness report verdict is FAIL" in runner
-    assert "QA14_WINDOWS_RUN_SUMMARY.json" in runner
+    assert "QA15_WINDOWS_RUN_SUMMARY.json" in runner
 
 
 def test_required_harness_report_collections_use_to_array() -> None:

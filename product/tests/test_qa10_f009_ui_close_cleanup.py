@@ -50,7 +50,7 @@ def test_f009_acceptance_cleanup_uses_same_contract() -> None:
     assert "AcceptanceUiCloseProbe" in source
     assert "Show-NyxMainWindow -AcceptanceCloseProbe" in source
     assert "ProbeKind='UiClose'" in source
-    assert "2026.08.30-eng-qa14" in source
+    assert "2026.09.01-eng-qa15" in source
 
 
 def test_f009_windows_smoke_exercises_real_formclosing_and_boundary() -> None:
@@ -66,7 +66,7 @@ def test_f009_windows_smoke_exercises_real_formclosing_and_boundary() -> None:
     ):
         assert marker in source
     assert "-AcceptanceUiCloseProbe" in source
-    assert "HarnessRevision='QA14-F011-PS51-14'" in source
+    assert "HarnessRevision='QA15-F012-PS51-15'" in source
 
 
 def test_f009_full_native_close_matrix_remains_in_qa_plan() -> None:

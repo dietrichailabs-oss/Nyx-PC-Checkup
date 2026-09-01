@@ -63,7 +63,7 @@ static void nyx_write_diagnostics(const WCHAR* branch,const WCHAR* stage,const W
     static WCHAR json[32768];json[0]=0;nyx_wcat(json,L"{",32768);
     nyx_json_text_field(json,L"schema",L"dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",TRUE,32768);
     nyx_json_text_field(json,L"product",L"nyx-pc-checkup",TRUE,32768);
-    nyx_json_text_field(json,L"build",L"2026.08.30-eng-qa14",TRUE,32768);
+    nyx_json_text_field(json,L"build",L"2026.09.01-eng-qa15",TRUE,32768);
     nyx_json_bool_field(json,L"success",success,TRUE,32768);
     nyx_json_uint_field(json,L"exitCode",exitCode,TRUE,32768);
     nyx_json_text_field(json,L"branchId",branch,TRUE,32768);

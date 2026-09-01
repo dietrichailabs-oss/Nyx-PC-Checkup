@@ -112,4 +112,4 @@ The Elevated phase remains unexecuted until QA runs it from an elevated Windows 
 
 ## Current QA11 carry-forward
 
-This historical correction remains mandatory under active harness revision `QA14-F011-PS51-14` and root runner `RUN_QA14_WINDOWS_GATE.ps1`.
+This historical correction remains mandatory under active harness revision `QA15-F012-PS51-15` and root runner `RUN_QA15_WINDOWS_GATE.ps1`.

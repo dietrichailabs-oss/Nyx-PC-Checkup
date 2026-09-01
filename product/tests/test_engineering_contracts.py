@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "src" / "app"
 DIST = ROOT / "dist"
 STAGE = ROOT / "release_staging" / "Nyx_PC_Checkup_1.0.0_Portable"
-BUILD_ID = "2026.08.30-eng-qa14"
+BUILD_ID = "2026.09.01-eng-qa15"
 
 EXPECTED_MODULES = {
     "core/Models.psm1",
@@ -747,7 +747,7 @@ def test_builder_resolves_local_toolchain_and_copies_all_tests() -> None:
     assert "NYX_CLANG" in builder and "NYX_LLD_LINK" in builder
     assert "/usr/local/swift/usr/bin" not in builder
     assert "for path in iter_files(ROOT / \"tests\")" in builder
-    assert "Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_Corrected_Master_Handoff.zip" in builder
+    assert "Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff.zip" in builder
     assert '"automaticUpdaterImplemented": False' in builder
     assert '"websiteManifestDeployedByEngineering": False' in builder
 
@@ -837,7 +837,7 @@ def test_qa4_windows_harness_correction_is_documented_and_build_gated() -> None:
         "D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1",
         "22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7",
         "Argument types do not match",
-        "QA14-F011-PS51-14",
+        "QA15-F012-PS51-15",
         "ToArray()",
         "new product candidate",
     ]:
@@ -867,8 +867,8 @@ def test_qa5_native_windows_failures_are_documented_and_build_gated() -> None:
         "QA5-ORCH-001",
         "QA5-ENC-001",
         "automatic-variable collision",
-        "QA14-F011-PS51-14",
-        "RUN_QA14_WINDOWS_GATE.ps1",
+        "QA15-F012-PS51-15",
+        "RUN_QA15_WINDOWS_GATE.ps1",
     ]:
         assert token.lower() in matrix.lower()
         assert token.lower() in readme.lower()
@@ -897,7 +897,7 @@ def test_qa6_native_module_composition_failure_is_documented_and_build_gated() -
         "QA6-F-005",
         "New-NyxCheckResult",
         "RuntimeComposition.psm1",
-        "QA14-F011-PS51-14",
+        "QA15-F012-PS51-15",
         "HarnessInferenceFromImmutableQA2Source",
     ]:
         assert token.lower() in matrix.lower()
@@ -977,12 +977,12 @@ def test_exact_qa2_fixture_files_are_copied_as_tests_not_runtime_payload() -> No
 
 def test_qa7_handoff_exposes_manifest_bound_root_windows_runner() -> None:
     builder = text(ROOT / "tools" / "build_release.py")
-    runner = text(ROOT / "tests" / "powershell" / "RUN_QA14_WINDOWS_GATE.ps1")
+    runner = text(ROOT / "tests" / "powershell" / "RUN_QA15_WINDOWS_GATE.ps1")
     readme = text(ROOT / "README_FIRST.md")
-    assert 'HANDOFF / "RUN_QA14_WINDOWS_GATE.ps1"' in builder
-    assert 'root + "RUN_QA14_WINDOWS_GATE.ps1"' in builder
-    assert "QA14_WINDOWS_PARSE_PREFLIGHT.json" in runner
+    assert 'HANDOFF / "RUN_QA15_WINDOWS_GATE.ps1"' in builder
+    assert 'root + "RUN_QA15_WINDOWS_GATE.ps1"' in builder
+    assert "QA15_WINDOWS_PARSE_PREFLIGHT.json" in runner
     assert "ExpectedReportPath" in runner
     assert "ReportValidationError" in runner
     assert "Harness report verdict is FAIL" in runner
-    assert '-File ".\\RUN_QA14_WINDOWS_GATE.ps1"' in readme
+    assert '-File ".\\RUN_QA15_WINDOWS_GATE.ps1"' in readme
