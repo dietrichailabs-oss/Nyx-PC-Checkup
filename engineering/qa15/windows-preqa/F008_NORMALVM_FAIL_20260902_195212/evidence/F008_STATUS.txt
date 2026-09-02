@@ -1,0 +1,4 @@
+﻿Started=2026-09-02T17:59:27.3135664-04:00 Phase=0 Scale=100%
+Verdict=FAIL
+Error=System.Management.Automation.RuntimeException: FollowWindows 100% Home exceeded screen bounds.
+Stopped=2026-09-02T17:59:37.9387269-04:00
