@@ -1,0 +1,25 @@
+{
+  "schema": "dietrich-ai-labs.nyx-pc-checkup.qa15-f008-environment.v1",
+  "environment": "Windows Sandbox",
+  "architecture": "x64",
+  "shell": "Windows PowerShell 5.1",
+  "screen": {
+    "width": 2033,
+    "height": 1112,
+    "dpiX": 96,
+    "dpiY": 96,
+    "scalingPercent": 100,
+    "effectiveWidth": 2033,
+    "effectiveHeight": 1112
+  },
+  "requiredConstrainedConfiguration": {
+    "width": 1366,
+    "height": 768,
+    "scalingPercent": 150,
+    "satisfied": false
+  },
+  "requiredScalingProfiles": [100, 125, 150, 200],
+  "complete": false,
+  "classification": "ENVIRONMENT_EVIDENCE_HOLD",
+  "candidateModified": false
+}

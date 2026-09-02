@@ -1,0 +1,271 @@
+{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "Passed":  true,
+    "ProbeKind":  "UiClose",
+    "Composition":  {
+                        "Schema":  "dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1",
+                        "Profile":  "UI",
+                        "AppRoot":  "C:\\Q15M\\source_expanded\\Nyx_PC_Checkup_1.0.0_Source\\src\\app",
+                        "Passed":  true,
+                        "ModuleCount":  36,
+                        "Layers":  [
+                                       {
+                                           "Index":  0,
+                                           "Module":  "Paths",
+                                           "RelativePath":  "core\\Paths.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  1,
+                                           "Module":  "Privacy",
+                                           "RelativePath":  "core\\Privacy.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  2,
+                                           "Module":  "Configuration",
+                                           "RelativePath":  "core\\Configuration.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  3,
+                                           "Module":  "Diagnostics",
+                                           "RelativePath":  "core\\Diagnostics.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  4,
+                                           "Module":  "Models",
+                                           "RelativePath":  "core\\Models.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  5,
+                                           "Module":  "HealthRules",
+                                           "RelativePath":  "health_rules\\HealthRules.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  6,
+                                           "Module":  "WindowsHelpers",
+                                           "RelativePath":  "platform\\windows\\WindowsHelpers.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  7,
+                                           "Module":  "ActionHistory",
+                                           "RelativePath":  "core\\ActionHistory.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  8,
+                                           "Module":  "CheckupEngine",
+                                           "RelativePath":  "core\\CheckupEngine.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  9,
+                                           "Module":  "Versioning",
+                                           "RelativePath":  "updates\\Versioning.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  10,
+                                           "Module":  "Manifest",
+                                           "RelativePath":  "updates\\Manifest.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  11,
+                                           "Module":  "Preferences",
+                                           "RelativePath":  "updates\\Preferences.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  12,
+                                           "Module":  "UpdateChecker",
+                                           "RelativePath":  "updates\\UpdateChecker.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  13,
+                                           "Module":  "PdfWriter",
+                                           "RelativePath":  "reports\\PdfWriter.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  14,
+                                           "Module":  "ReportExport",
+                                           "RelativePath":  "reports\\ReportExport.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  15,
+                                           "Module":  "SystemInfo",
+                                           "RelativePath":  "checks\\SystemInfo.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  16,
+                                           "Module":  "StorageHealth",
+                                           "RelativePath":  "checks\\StorageHealth.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  17,
+                                           "Module":  "StorageScan",
+                                           "RelativePath":  "checks\\StorageScan.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  18,
+                                           "Module":  "DownloadsAnalysis",
+                                           "RelativePath":  "checks\\DownloadsAnalysis.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  19,
+                                           "Module":  "StartupApps",
+                                           "RelativePath":  "checks\\StartupApps.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  20,
+                                           "Module":  "WindowsUpdates",
+                                           "RelativePath":  "checks\\WindowsUpdates.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  21,
+                                           "Module":  "SecurityStatus",
+                                           "RelativePath":  "checks\\SecurityStatus.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  22,
+                                           "Module":  "BackupStatus",
+                                           "RelativePath":  "checks\\BackupStatus.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  23,
+                                           "Module":  "BatteryHealth",
+                                           "RelativePath":  "checks\\BatteryHealth.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  24,
+                                           "Module":  "PerformanceSnapshot",
+                                           "RelativePath":  "checks\\PerformanceSnapshot.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  25,
+                                           "Module":  "DriveHealth",
+                                           "RelativePath":  "checks\\DriveHealth.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  26,
+                                           "Module":  "InstalledApps",
+                                           "RelativePath":  "checks\\InstalledApps.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  27,
+                                           "Module":  "Uptime",
+                                           "RelativePath":  "checks\\Uptime.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  28,
+                                           "Module":  "NetworkBasics",
+                                           "RelativePath":  "checks\\NetworkBasics.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  29,
+                                           "Module":  "CleanupScan",
+                                           "RelativePath":  "checks\\CleanupScan.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  30,
+                                           "Module":  "StartupActions",
+                                           "RelativePath":  "actions\\StartupActions.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  31,
+                                           "Module":  "CleanupActions",
+                                           "RelativePath":  "actions\\CleanupActions.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  32,
+                                           "Module":  "Theme",
+                                           "RelativePath":  "ui\\Theme.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  33,
+                                           "Module":  "Controls",
+                                           "RelativePath":  "ui\\Controls.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  34,
+                                           "Module":  "Dialogs",
+                                           "RelativePath":  "ui\\Dialogs.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       },
+                                       {
+                                           "Index":  35,
+                                           "Module":  "MainWindow",
+                                           "RelativePath":  "ui\\MainWindow.psm1",
+                                           "ImportedToGlobalScope":  true,
+                                           "CumulativeCommandSurfacePassed":  true
+                                       }
+                                   ],
+                        "Missing":  [
+
+                                    ]
+                    },
+    "CompletedUtc":  "2026-09-02T20:39:37.7276134Z"
+}

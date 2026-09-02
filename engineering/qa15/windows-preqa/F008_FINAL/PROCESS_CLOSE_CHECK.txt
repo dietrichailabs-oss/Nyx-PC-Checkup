@@ -1,0 +1,2 @@
+﻿NoResidentNyxProcess=True
+CapturedUtc=2026-09-02T21:05:50.8000662Z

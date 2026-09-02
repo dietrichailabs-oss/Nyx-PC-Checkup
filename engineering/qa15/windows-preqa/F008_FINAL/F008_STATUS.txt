@@ -1,0 +1,9 @@
+﻿Started=2026-09-02T17:02:17.2868317-04:00
+Screen=2033x1112
+DPI=96,96
+RowsPass=0
+RowsFail=33
+ChecksFail=2
+Complete=false
+Verdict=FAIL
+Finished=2026-09-02T17:05:50.8316319-04:00

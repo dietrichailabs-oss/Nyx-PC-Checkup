@@ -1,0 +1,69 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa15-f008-final-ui.v1",
+    "Passed":  false,
+    "Complete":  false,
+    "Error":  "System.Management.Automation.RuntimeException: Method invocation failed because [System.Windows.Automation.SelectionPattern] does not contain a method named \u0027GetCurrentSelection\u0027.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)",
+    "Checks":  [
+                   {
+                       "Name":  "Exact GitHub QA15 handoff identity",
+                       "Passed":  true,
+                       "Details":  "AFD5F37CB5DBA78BC69F65535AF181F5E2CEBCC6DAFF2864951D0A48E2CD3D8F"
+                   },
+                   {
+                       "Name":  "Setup identity unchanged",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Portable identity unchanged",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Source identity unchanged",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Exact Setup installs successfully",
+                       "Passed":  true,
+                       "Details":  "ExitCode=0"
+                   },
+                   {
+                       "Name":  "Installed desktop shortcut exists",
+                       "Passed":  true,
+                       "Details":  "C:\\Users\\WDAGUtilityAccount\\Desktop\\Nyx PC Checkup.lnk"
+                   },
+                   {
+                       "Name":  "Mandatory 150 percent scaling active",
+                       "Passed":  false,
+                       "Details":  "DPI=96"
+                   },
+                   {
+                       "Name":  "Mandatory constrained effective width is 1366",
+                       "Passed":  false,
+                       "Details":  "Effective=2033 x 1112"
+                   },
+                   {
+                       "Name":  "Installed shortcut launches real visible UI",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Save Follow Windows has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Close after Follow Windows save leaves no resident process",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Relaunch after Follow Windows save",
+                       "Passed":  true,
+                       "Details":  ""
+                   }
+               ],
+    "CandidateModified":  false
+}

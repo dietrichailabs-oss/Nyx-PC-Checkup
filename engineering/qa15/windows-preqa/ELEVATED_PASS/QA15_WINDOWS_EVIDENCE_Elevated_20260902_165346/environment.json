@@ -1,0 +1,20 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa14-windows-orchestration.v1",
+    "Phase":  "Elevated",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "CapturedUtc":  "2026-09-02T20:53:52.2657957Z",
+    "ComputerName":  "B3BEBB74-9C46-4",
+    "WindowsVersion":  "Microsoft Windows NT 10.0.26100.0",
+    "PowerShellVersion":  "5.1.26100.9278",
+    "PSEdition":  "Desktop",
+    "IsAdministrator":  true,
+    "Build":  "2026.09.01-eng-qa15",
+    "SetupSha256":  "B4F082A79D76E2A7E9452B2717D87698ED136E4D10CFF2D4232DB6E0BF02CD80",
+    "PortableSha256":  "6262B9EF383BA3C6AAF0D7BF192B7104EA0CBB3C9799DF55EA30F44A005A370A",
+    "SourceSha256":  "E9D426CDCEB554AC071532C6079F421B47558A537A037CDC221958945E2AD62B",
+    "QA2SetupSha256":  "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5",
+    "QA2SourceSha256":  "22FCFA7E3050CA854803DD0265109F92444E38E081483A7E2C73DFC0BC522B36",
+    "NestedRunnerSha256":  "DF1D55E4187725E4685F66C9967604DBC4992F805DFC67EBD6D26DA5DDDDA199",
+    "InstallerDiagnosticsHelperSha256":  "8117E1D305CF20F8EDD667D8392AA6F0A8760028238D6B0375A9D7AEEC315A72",
+    "AppRoot":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Elevated_20260902_165346\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app"
+}

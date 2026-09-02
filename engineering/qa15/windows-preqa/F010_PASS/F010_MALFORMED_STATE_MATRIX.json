@@ -1,0 +1,119 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.f010-malformed-state-matrix.v1",
+    "Passed":  true,
+    "Results":  [
+                    {
+                        "Name":  "invalid JSON",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  false,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "wrong or unsupported Schema",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "missing Results",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  false,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "Results null",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  false,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "empty Results",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  false,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "result missing Status",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "result missing Category",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "result missing CheckId",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "result missing Finding",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "result missing Reason",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "result missing Recommendation",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "result missing Complete",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "unsupported Status value",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "cancelled scan with zero valid results",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  false,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "valid partial scan",
+                        "Passed":  true,
+                        "ExpectedUsable":  true,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    },
+                    {
+                        "Name":  "older unsupported scan shape",
+                        "Passed":  true,
+                        "ExpectedUsable":  false,
+                        "ObservedPersistedShapeUsable":  true,
+                        "ExitCode":  0
+                    }
+                ],
+    "CompletedUtc":  "2026-09-02T20:40:34.5217352Z"
+}

@@ -1,0 +1,553 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.installer-lifecycle.v2",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "Scope":  "installer lifecycle",
+    "StartedUtc":  "2026-09-02T20:53:58.1250336Z",
+    "CompletedUtc":  "2026-09-02T20:54:28.2931698Z",
+    "ElapsedSeconds":  30.168,
+    "ComputerName":  "B3BEBB74-9C46-4",
+    "WindowsVersion":  "Microsoft Windows NT 10.0.26100.0",
+    "PowerShellVersion":  "5.1.26100.9278",
+    "IsAdministrator":  true,
+    "SetupPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+    "SetupSha256":  "B4F082A79D76E2A7E9452B2717D87698ED136E4D10CFF2D4232DB6E0BF02CD80",
+    "InstallerEnvironmentPreflightPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\Nyx_PC_Checkup_Installer_Preflight_20260902_165358.json",
+    "InstallerEnvironmentPreflight":  {
+                                          "Schema":  "dietrich-ai-labs.nyx-pc-checkup.installer-environment-preflight.v1",
+                                          "CapturedUtc":  "2026-09-02T20:53:57.9677972Z",
+                                          "ComputerName":  "B3BEBB74-9C46-4",
+                                          "UserIdentity":  "B3BEBB74-9C46-4\\WDAGUtilityAccount",
+                                          "IsAdministrator":  true,
+                                          "LocalAppDataEnvironment":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                          "LocalAppDataSpecialFolder":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                          "ValuesMatch":  true,
+                                          "IntendedInstallParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                          "IntendedInstallTarget":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                          "LocalAppDataRecord":  {
+                                                                     "Path":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                                                     "Attributes":  "Directory, Compressed",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "BUILTIN\\Administrators",
+                                                                     "AclSddl":  "O:BAG:S-1-5-21-2047949552-857980807-821054962-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-2047949552-857980807-821054962-504)",
+                                                                     "Error":  ""
+                                                                 },
+                                          "PathComponents":  [
+                                                                 {
+                                                                     "Path":  "C:\\",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\",
+                                                                     "Attributes":  "Hidden, System, Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "NT AUTHORITY\\SYSTEM",
+                                                                     "AclSddl":  "O:SYG:SYD:(A;OICIIO;SDGXGWGR;;;AU)(A;;0x1301bf;;;AU)(A;OICIIO;GA;;;SY)(A;;FA;;;SY)(A;OICIIO;GA;;;BA)(A;;FA;;;BA)(A;OICIIO;GXGR;;;BU)(A;;0x1200a9;;;BU)(A;;0x1000a1;;;S-1-15-3-65536-1888954469-739942743-1668119174-2468466756-4239452838-1296943325-355587736-700089176)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users",
+                                                                     "Attributes":  "ReadOnly, Directory, Compressed",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "NT AUTHORITY\\SYSTEM",
+                                                                     "AclSddl":  "O:SYG:SYD:P(A;OICIIO;GXGR;;;WD)(A;;0x1200a9;;;WD)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;;0x1200a9;;;BU)(A;OICIIO;GXGR;;;BU)(A;;0x100021;;;S-1-15-3-65536-4045685566-1323397456-4055816110-285687253-194181-4019357623-1925838800-191844675)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\WDAGUtilityAccount",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\WDAGUtilityAccount",
+                                                                     "Attributes":  "Directory, Compressed",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "NT AUTHORITY\\SYSTEM",
+                                                                     "AclSddl":  "O:SYG:SYD:P(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;OICI;FA;;;S-1-5-21-2047949552-857980807-821054962-504)(A;;0x100020;;;S-1-15-3-65536-599108337-2355189375-1353122160-3480128286-3345335107-485756383-4087318168-230526575)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\WDAGUtilityAccount\\AppData",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\WDAGUtilityAccount\\AppData",
+                                                                     "Attributes":  "Hidden, Directory, Compressed",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "BUILTIN\\Administrators",
+                                                                     "AclSddl":  "O:BAG:S-1-5-21-2047949552-857980807-821054962-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-2047949552-857980807-821054962-504)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                                                     "Attributes":  "Directory, Compressed",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "BUILTIN\\Administrators",
+                                                                     "AclSddl":  "O:BAG:S-1-5-21-2047949552-857980807-821054962-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-2047949552-857980807-821054962-504)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs",
+                                                                     "Exists":  false,
+                                                                     "ResolvedPath":  "",
+                                                                     "Attributes":  "",
+                                                                     "IsDirectory":  false,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "",
+                                                                     "AclSddl":  "",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                     "Exists":  false,
+                                                                     "ResolvedPath":  "",
+                                                                     "Attributes":  "",
+                                                                     "IsDirectory":  false,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "",
+                                                                     "AclSddl":  "",
+                                                                     "Error":  ""
+                                                                 }
+                                                             ],
+                                          "WriteCapability":  {
+                                                                  "IntendedParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                  "NearestExistingAncestor":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                                                  "Attempted":  true,
+                                                                  "Succeeded":  true,
+                                                                  "Error":  ""
+                                                              }
+                                      },
+    "SetupRuns":  [
+                      {
+                          "Label":  "FreshInstall",
+                          "SetupPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                          "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_FreshInstall_b441bedbd307460c8c48d0cb8a543096.json\"",
+                          "StartedUtc":  "2026-09-02T20:53:58.1721744Z",
+                          "CompletedUtc":  "2026-09-02T20:54:01.2674793Z",
+                          "ExitCode":  0,
+                          "DiagnosticPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_FreshInstall_b441bedbd307460c8c48d0cb8a543096.json",
+                          "DiagnosticExists":  true,
+                          "DiagnosticValid":  true,
+                          "DiagnosticValidationError":  "",
+                          "Diagnostic":  {
+                                             "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                             "product":  "nyx-pc-checkup",
+                                             "build":  "2026.09.01-eng-qa15",
+                                             "success":  true,
+                                             "exitCode":  0,
+                                             "branchId":  "SUCCESS",
+                                             "stage":  "complete",
+                                             "message":  "Nyx PC Checkup was installed successfully.",
+                                             "nativeError":  0,
+                                             "childExitCode":  0,
+                                             "localAppData":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                             "installParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "resolvedInstallParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "installTarget":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "resolvedInstallTarget":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "parentExists":  true,
+                                             "parentAttributes":  2064,
+                                             "parentIsDirectory":  true,
+                                             "parentIsReparsePoint":  false,
+                                             "parentCreateResult":  0,
+                                             "parentWriteProbeAttempted":  true,
+                                             "parentWriteProbeSucceeded":  true,
+                                             "parentWriteProbeError":  0,
+                                             "targetExists":  true,
+                                             "targetAttributes":  2064,
+                                             "targetIsDirectory":  true,
+                                             "targetIsReparsePoint":  false,
+                                             "payloadIndex":  4294967295,
+                                             "detailPath":  ""
+                                         }
+                      },
+                      {
+                          "Label":  "RunningMutex",
+                          "SetupPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                          "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_RunningMutex_a7757ba459524662bc707686c21a30d7.json\"",
+                          "StartedUtc":  "2026-09-02T20:54:01.5043768Z",
+                          "CompletedUtc":  "2026-09-02T20:54:02.5236687Z",
+                          "ExitCode":  10,
+                          "DiagnosticPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_RunningMutex_a7757ba459524662bc707686c21a30d7.json",
+                          "DiagnosticExists":  true,
+                          "DiagnosticValid":  true,
+                          "DiagnosticValidationError":  "",
+                          "Diagnostic":  {
+                                             "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                             "product":  "nyx-pc-checkup",
+                                             "build":  "2026.09.01-eng-qa15",
+                                             "success":  false,
+                                             "exitCode":  10,
+                                             "branchId":  "RUNNING_INSTANCE",
+                                             "stage":  "preflight",
+                                             "message":  "Close Nyx PC Checkup before installing, upgrading, or repairing it.",
+                                             "nativeError":  0,
+                                             "childExitCode":  0,
+                                             "localAppData":  "",
+                                             "installParent":  "",
+                                             "resolvedInstallParent":  "",
+                                             "installTarget":  "",
+                                             "resolvedInstallTarget":  "",
+                                             "parentExists":  false,
+                                             "parentAttributes":  4294967295,
+                                             "parentIsDirectory":  false,
+                                             "parentIsReparsePoint":  false,
+                                             "parentCreateResult":  0,
+                                             "parentWriteProbeAttempted":  false,
+                                             "parentWriteProbeSucceeded":  false,
+                                             "parentWriteProbeError":  0,
+                                             "targetExists":  false,
+                                             "targetAttributes":  4294967295,
+                                             "targetIsDirectory":  false,
+                                             "targetIsReparsePoint":  false,
+                                             "payloadIndex":  4294967295,
+                                             "detailPath":  ""
+                                         }
+                      },
+                      {
+                          "Label":  "Repair",
+                          "SetupPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                          "Arguments":  "/quiet /nolaunch /desktop /diagnostics:\"C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_Repair_20e89b4f03694318a41263c2e1c3411d.json\"",
+                          "StartedUtc":  "2026-09-02T20:54:02.5236687Z",
+                          "CompletedUtc":  "2026-09-02T20:54:06.5729260Z",
+                          "ExitCode":  0,
+                          "DiagnosticPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_Repair_20e89b4f03694318a41263c2e1c3411d.json",
+                          "DiagnosticExists":  true,
+                          "DiagnosticValid":  true,
+                          "DiagnosticValidationError":  "",
+                          "Diagnostic":  {
+                                             "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                             "product":  "nyx-pc-checkup",
+                                             "build":  "2026.09.01-eng-qa15",
+                                             "success":  true,
+                                             "exitCode":  0,
+                                             "branchId":  "SUCCESS",
+                                             "stage":  "complete",
+                                             "message":  "Nyx PC Checkup was upgraded or repaired successfully.",
+                                             "nativeError":  0,
+                                             "childExitCode":  0,
+                                             "localAppData":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                             "installParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "resolvedInstallParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "installTarget":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "resolvedInstallTarget":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "parentExists":  true,
+                                             "parentAttributes":  2064,
+                                             "parentIsDirectory":  true,
+                                             "parentIsReparsePoint":  false,
+                                             "parentCreateResult":  183,
+                                             "parentWriteProbeAttempted":  true,
+                                             "parentWriteProbeSucceeded":  true,
+                                             "parentWriteProbeError":  0,
+                                             "targetExists":  true,
+                                             "targetAttributes":  2064,
+                                             "targetIsDirectory":  true,
+                                             "targetIsReparsePoint":  false,
+                                             "payloadIndex":  4294967295,
+                                             "detailPath":  ""
+                                         }
+                      },
+                      {
+                          "Label":  "ReinstallAfterUninstall",
+                          "SetupPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                          "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_ReinstallAfterUninstall_32d05da3f7f141f592720a28e8ae112d.json\"",
+                          "StartedUtc":  "2026-09-02T20:54:18.8775320Z",
+                          "CompletedUtc":  "2026-09-02T20:54:21.9163792Z",
+                          "ExitCode":  0,
+                          "DiagnosticPath":  "C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_ReinstallAfterUninstall_32d05da3f7f141f592720a28e8ae112d.json",
+                          "DiagnosticExists":  true,
+                          "DiagnosticValid":  true,
+                          "DiagnosticValidationError":  "",
+                          "Diagnostic":  {
+                                             "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                             "product":  "nyx-pc-checkup",
+                                             "build":  "2026.09.01-eng-qa15",
+                                             "success":  true,
+                                             "exitCode":  0,
+                                             "branchId":  "SUCCESS",
+                                             "stage":  "complete",
+                                             "message":  "Nyx PC Checkup was installed successfully.",
+                                             "nativeError":  0,
+                                             "childExitCode":  0,
+                                             "localAppData":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local",
+                                             "installParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "resolvedInstallParent":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "installTarget":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "resolvedInstallTarget":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "parentExists":  true,
+                                             "parentAttributes":  2064,
+                                             "parentIsDirectory":  true,
+                                             "parentIsReparsePoint":  false,
+                                             "parentCreateResult":  183,
+                                             "parentWriteProbeAttempted":  true,
+                                             "parentWriteProbeSucceeded":  true,
+                                             "parentWriteProbeError":  0,
+                                             "targetExists":  true,
+                                             "targetAttributes":  2064,
+                                             "targetIsDirectory":  true,
+                                             "targetIsReparsePoint":  false,
+                                             "payloadIndex":  4294967295,
+                                             "detailPath":  ""
+                                         }
+                      }
+                  ],
+    "Passed":  true,
+    "Total":  50,
+    "Failed":  0,
+    "Results":  [
+                    {
+                        "Name":  "Installer preflight records LOCALAPPDATA",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local"
+                    },
+                    {
+                        "Name":  "Installer preflight can create and remove a bounded write probe",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\WDAGUtilityAccount\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\WDAGUtilityAccount\\\\AppData\\\\Local\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    },
+                    {
+                        "Name":  "Fresh install exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_FreshInstall_b441bedbd307460c8c48d0cb8a543096.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Fresh install emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_FreshInstall_b441bedbd307460c8c48d0cb8a543096.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Fresh install root exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install launcher exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install uninstaller exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install includes weekly update checker module",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install includes isolated update worker",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install payload matches exact manifest",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install Start-menu shortcut exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install desktop shortcut is absent when not requested",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fresh install registration exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Installer rejects running application mutex",
+                        "Passed":  true,
+                        "Details":  "ExitCode=10; DiagnosticValid=True; BranchId=RUNNING_INSTANCE; Stage=preflight; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_RunningMutex_a7757ba459524662bc707686c21a30d7.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Running-instance rejection identifies its exact setup branch",
+                        "Passed":  true,
+                        "Details":  "ExitCode=10; DiagnosticValid=True; BranchId=RUNNING_INSTANCE; Stage=preflight; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_RunningMutex_a7757ba459524662bc707686c21a30d7.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Repair exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_Repair_20e89b4f03694318a41263c2e1c3411d.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Repair emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_Repair_20e89b4f03694318a41263c2e1c3411d.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Repair restores docs\\USER_GUIDE.md and exact payload",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Repair creates desktop shortcut when requested",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "QA7 Actions composition is complete for elevated rollback lifecycle",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"Actions\",\"AppRoot\":\"C:\\\\Users\\\\WDAGUtilityAccount\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\",\"Passed\":true,\"ModuleCount\":13,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]}"
+                    },
+                    {
+                        "Name":  "Legacy machine rollback lifecycle starts from a clear root",
+                        "Passed":  true,
+                        "Details":  "{\"Status\":\"Clear\",\"Obligations\":[],\"Errors\":[],\"Complete\":true,\"Root\":\"C:\\\\ProgramData\\\\DietrichAI.NyxPCCheckup\\\\startup-rollback\"}"
+                    },
+                    {
+                        "Name":  "Uninstall blocks on independently discovered legacy machine rollback with exit 7",
+                        "Passed":  true,
+                        "Details":  "ExitCode=7"
+                    },
+                    {
+                        "Name":  "Legacy machine rollback block preserves install root",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Legacy machine rollback block preserves registration",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Legacy machine rollback block preserves Start shortcut",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Legacy machine rollback block preserves local data",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "QA7 Actions composition is complete for uninstall rollback fixture",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"Actions\",\"AppRoot\":\"C:\\\\Users\\\\WDAGUtilityAccount\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\",\"Passed\":true,\"ModuleCount\":13,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]}"
+                    },
+                    {
+                        "Name":  "Uninstall regression startup fixture is enumerated",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Uninstall regression startup fixture is disabled",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":true,\"Status\":\"Completed\",\"Message\":\"The current-user startup entry was disabled after its exact rollback state was written.\",\"ActionId\":\"8199ae97be69406fb003179dae20a213\",\"Details\":null,\"Timestamp\":\"2026-09-02T20:54:10.7299390Z\"}"
+                    },
+                    {
+                        "Name":  "Uninstall aborts with exit 6 when current-user startup restoration conflicts",
+                        "Passed":  true,
+                        "Details":  "ExitCode=6"
+                    },
+                    {
+                        "Name":  "Failed Uninstall restore preserves install root",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Failed Uninstall restore preserves registration",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Failed Uninstall restore preserves Start shortcut",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Failed Uninstall restore preserves active rollback journal",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Failed Uninstall restore preserves local data",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Uninstall exits 0 after restore conflict is removed",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "Uninstall restores exact startup command before removal",
+                        "Passed":  true,
+                        "Details":  "\"C:\\Windows\\System32\\notepad.exe\" --nyx-pc-checkup-uninstall-rollback-test"
+                    },
+                    {
+                        "Name":  "Uninstall removes install root",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Uninstall preserves local data by default",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Uninstall removes registration",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Uninstall removes Start shortcut",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Uninstall removes empty Dietrich AI Labs Start folder",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Reinstall after Uninstall exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_ReinstallAfterUninstall_32d05da3f7f141f592720a28e8ae112d.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Reinstall emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Q15E\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Elevated_20260902_165346\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_ReinstallAfterUninstall_32d05da3f7f141f592720a28e8ae112d.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Explicit purge Uninstall exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "Purge Uninstall removes install root",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Purge Uninstall removes local data",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Purge Uninstall removes registration",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "No Nyx service was installed",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "No Nyx scheduled task was installed",
+                        "Passed":  true,
+                        "Details":  "ScheduledTasks API unavailable; package manifest still contains no task component."
+                    }
+                ]
+}
