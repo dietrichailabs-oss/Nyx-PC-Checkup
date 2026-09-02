@@ -1,0 +1,431 @@
+{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa14-f011-installed-launch-regression.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "HarnessCorrectionRevision":  "QA15-F011-PATH-1",
+    "StartedUtc":  "2026-09-02T10:32:30.4254080Z",
+    "CompletedUtc":  "2026-09-02T10:32:46.8337005Z",
+    "ElapsedSeconds":  16.408,
+    "ComputerName":  "DESKTOP-4D83OSL",
+    "UserIdentity":  "DESKTOP-4D83OSL\\mark",
+    "WindowsVersion":  "Microsoft Windows NT 10.0.26200.0",
+    "PowerShellVersion":  "5.1.26100.7920",
+    "PSEdition":  "Desktop",
+    "IsAdministrator":  false,
+    "SetupPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+    "SetupSha256":  "B4F082A79D76E2A7E9452B2717D87698ED136E4D10CFF2D4232DB6E0BF02CD80",
+    "InstallRoot":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+    "Passed":  true,
+    "Total":  39,
+    "Failed":  0,
+    "Results":  [
+                    {
+                        "Name":  "Setup candidate exists",
+                        "Passed":  true,
+                        "Details":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe"
+                    },
+                    {
+                        "Name":  "F-011 fresh install exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Users\\mark\\AppData\\Local\\Temp\\NQ15F011_307c4ed4\\Nyx_PC_Checkup_Setup_Diagnostics_F011FreshInstall_17fce28010fc4cb387d601e0ad8a11b0.json; ValidationError="
+                    },
+                    {
+                        "Name":  "F-011 fresh install reports SUCCESS branch",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\Users\\mark\\AppData\\Local\\Temp\\NQ15F011_307c4ed4\\Nyx_PC_Checkup_Setup_Diagnostics_F011FreshInstall_17fce28010fc4cb387d601e0ad8a11b0.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Installed launcher exists",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe"
+                    },
+                    {
+                        "Name":  "Installed application script exists",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1"
+                    },
+                    {
+                        "Name":  "Installed desktop shortcut exists",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\Desktop\\Nyx PC Checkup.lnk"
+                    },
+                    {
+                        "Name":  "Payload manifest has one launcher identity",
+                        "Passed":  true,
+                        "Details":  "{\"path\":\"Nyx PC Checkup.exe\",\"size\":33280,\"sha256\":\"9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75\"}"
+                    },
+                    {
+                        "Name":  "Installed launcher matches payload manifest",
+                        "Passed":  true,
+                        "Details":  "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75"
+                    },
+                    {
+                        "Name":  "Installed script matches payload manifest",
+                        "Passed":  true,
+                        "Details":  "A6A4A3024C0F9D77228879F23EBF02B6D8D7980A307A624D6885224180DF0E17"
+                    },
+                    {
+                        "Name":  "Desktop shortcut target is exact installed launcher",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe"
+                    },
+                    {
+                        "Name":  "Desktop shortcut working directory is exact install root",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup"
+                    },
+                    {
+                        "Name":  "Shortcut control starts from clean process state",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"Shortcut\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:32.0733261Z\",\"Launcher\":{\"ProcessId\":9312,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":9616,\"ParentProcessId\":9312,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":262340,\"ProcessId\":9616,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Desktop shortcut starts exactly one application child",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"Shortcut\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:32.0733261Z\",\"Launcher\":{\"ProcessId\":9312,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":9616,\"ParentProcessId\":9312,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":262340,\"ProcessId\":9616,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Desktop shortcut produces a visible Nyx main window",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"Shortcut\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:32.0733261Z\",\"Launcher\":{\"ProcessId\":9312,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":9616,\"ParentProcessId\":9312,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":262340,\"ProcessId\":9616,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Desktop shortcut main window is taskbar-eligible",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"Shortcut\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:32.0733261Z\",\"Launcher\":{\"ProcessId\":9312,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":9616,\"ParentProcessId\":9312,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":262340,\"ProcessId\":9616,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Desktop shortcut visible main-window screenshot captured",
+                        "Passed":  true,
+                        "Details":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\F011_INSTALLED_LAUNCH_EVIDENCE\\F011_desktop_shortcut_visible_main_window.png"
+                    },
+                    {
+                        "Name":  "Second installed launch starts a distinct application child",
+                        "Passed":  true,
+                        "Details":  "{\"ProcessId\":7032,\"ParentProcessId\":9260,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"}"
+                    },
+                    {
+                        "Name":  "Second installed launch displays visible singleton warning",
+                        "Passed":  true,
+                        "Details":  "{\"Handle\":263016,\"ProcessId\":7032,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":65793,\"Left\":324,\"Top\":310,\"Right\":715,\"Bottom\":469}"
+                    },
+                    {
+                        "Name":  "First visible instance remains alive during singleton warning",
+                        "Passed":  true,
+                        "Details":  "9616"
+                    },
+                    {
+                        "Name":  "Second application exits after singleton warning closes",
+                        "Passed":  true,
+                        "Details":  "7032"
+                    },
+                    {
+                        "Name":  "Second native launcher exits after singleton warning closes",
+                        "Passed":  true,
+                        "Details":  "9260"
+                    },
+                    {
+                        "Name":  "Closing shortcut main window exits application child",
+                        "Passed":  true,
+                        "Details":  "{\"ApplicationExited\":true,\"LauncherExited\":true,\"AllNyxProcessesExited\":true}"
+                    },
+                    {
+                        "Name":  "Closing shortcut main window exits native launcher",
+                        "Passed":  true,
+                        "Details":  "{\"ApplicationExited\":true,\"LauncherExited\":true,\"AllNyxProcessesExited\":true}"
+                    },
+                    {
+                        "Name":  "Closing shortcut main window leaves no exact Nyx process",
+                        "Passed":  true,
+                        "Details":  "{\"ApplicationExited\":true,\"LauncherExited\":true,\"AllNyxProcessesExited\":true}"
+                    },
+                    {
+                        "Name":  "Direct installed EXE starts from clean process state",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"NativeExe\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:35.0796689Z\",\"Launcher\":{\"ProcessId\":4684,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":6516,\"ParentProcessId\":4684,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":328122,\"ProcessId\":6516,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Direct installed EXE produces a visible Nyx main window",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"NativeExe\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:35.0796689Z\",\"Launcher\":{\"ProcessId\":4684,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":6516,\"ParentProcessId\":4684,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":328122,\"ProcessId\":6516,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Direct installed EXE main window is taskbar-eligible",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"NativeExe\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:35.0796689Z\",\"Launcher\":{\"ProcessId\":4684,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":6516,\"ParentProcessId\":4684,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":328122,\"ProcessId\":6516,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Direct installed EXE closes cleanly",
+                        "Passed":  true,
+                        "Details":  "{\"ApplicationExited\":true,\"LauncherExited\":true,\"AllNyxProcessesExited\":true}"
+                    },
+                    {
+                        "Name":  "Clean direct-script control without explicit STA is classified",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"ScriptNoSta\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:36.9818346Z\",\"Launcher\":null,\"Application\":{\"ProcessId\":9360,\"ParentProcessId\":0,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"-NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":328466,\"ProcessId\":9360,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Clean direct-script control without explicit STA produces visible main window",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"ScriptNoSta\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:36.9818346Z\",\"Launcher\":null,\"Application\":{\"ProcessId\":9360,\"ParentProcessId\":0,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"-NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":328466,\"ProcessId\":9360,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Direct-script no-STA control closes cleanly",
+                        "Passed":  true,
+                        "Details":  "{\"ApplicationExited\":true,\"LauncherExited\":true,\"AllNyxProcessesExited\":true}"
+                    },
+                    {
+                        "Name":  "Clean direct-script control with explicit STA is classified",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"ScriptSta\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:39.4763352Z\",\"Launcher\":null,\"Application\":{\"ProcessId\":4796,\"ParentProcessId\":0,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"-NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":393996,\"ProcessId\":4796,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Clean direct-script control with explicit STA produces visible main window",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"ScriptSta\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:39.4763352Z\",\"Launcher\":null,\"Application\":{\"ProcessId\":4796,\"ParentProcessId\":0,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"-NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":393996,\"ProcessId\":4796,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Direct-script STA control closes cleanly",
+                        "Passed":  true,
+                        "Details":  "{\"ApplicationExited\":true,\"LauncherExited\":true,\"AllNyxProcessesExited\":true}"
+                    },
+                    {
+                        "Name":  "Immediate fresh relaunch opens visibly again",
+                        "Passed":  true,
+                        "Details":  "{\"Control\":\"NativeExe\",\"CleanBefore\":true,\"StartedUtc\":\"2026-09-02T10:32:41.7371548Z\",\"Launcher\":{\"ProcessId\":3636,\"ParentProcessId\":4004,\"Name\":\"Nyx PC Checkup.exe\",\"ExecutablePath\":\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\",\"CommandLine\":\"\\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Nyx PC Checkup.exe\\\" \",\"Kind\":\"Launcher\"},\"Application\":{\"ProcessId\":6364,\"ParentProcessId\":3636,\"Name\":\"powershell.exe\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\"CommandLine\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\\\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \\\"C:\\\\Users\\\\mark\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\NyxPCCheckup.ps1\\\"\",\"Kind\":\"Application\"},\"Window\":{\"Handle\":131250,\"ProcessId\":6364,\"Title\":\"Nyx PC Checkup\",\"Visible\":true,\"Owner\":0,\"ExtendedStyle\":327936,\"Left\":362,\"Top\":210,\"Right\":1354,\"Bottom\":898},\"Visible\":true,\"TaskbarEligible\":true}"
+                    },
+                    {
+                        "Name":  "Immediate fresh relaunch closes without residue",
+                        "Passed":  true,
+                        "Details":  "{\"ApplicationExited\":true,\"LauncherExited\":true,\"AllNyxProcessesExited\":true}"
+                    },
+                    {
+                        "Name":  "F-011 cleanup uninstaller exits 0",
+                        "Passed":  true,
+                        "Details":  "0"
+                    },
+                    {
+                        "Name":  "F-011 cleanup removes install root",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup"
+                    },
+                    {
+                        "Name":  "F-011 cleanup leaves no exact Nyx process",
+                        "Passed":  true,
+                        "Details":  ""
+                    }
+                ],
+    "Controls":  [
+                     {
+                         "Control":  "Shortcut",
+                         "CleanBefore":  true,
+                         "StartedUtc":  "2026-09-02T10:32:32.0733261Z",
+                         "Launcher":  {
+                                          "ProcessId":  9312,
+                                          "ParentProcessId":  4004,
+                                          "Name":  "Nyx PC Checkup.exe",
+                                          "ExecutablePath":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe",
+                                          "CommandLine":  "\"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe\" ",
+                                          "Kind":  "Launcher"
+                                      },
+                         "Application":  {
+                                             "ProcessId":  9616,
+                                             "ParentProcessId":  9312,
+                                             "Name":  "powershell.exe",
+                                             "ExecutablePath":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                                             "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+                                             "Kind":  "Application"
+                                         },
+                         "Window":  {
+                                        "Handle":  262340,
+                                        "ProcessId":  9616,
+                                        "Title":  "Nyx PC Checkup",
+                                        "Visible":  true,
+                                        "Owner":  0,
+                                        "ExtendedStyle":  327936,
+                                        "Left":  362,
+                                        "Top":  210,
+                                        "Right":  1354,
+                                        "Bottom":  898
+                                    },
+                         "Visible":  true,
+                         "TaskbarEligible":  true
+                     },
+                     {
+                         "Control":  "NativeExe",
+                         "CleanBefore":  true,
+                         "StartedUtc":  "2026-09-02T10:32:35.0796689Z",
+                         "Launcher":  {
+                                          "ProcessId":  4684,
+                                          "ParentProcessId":  4004,
+                                          "Name":  "Nyx PC Checkup.exe",
+                                          "ExecutablePath":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe",
+                                          "CommandLine":  "\"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe\" ",
+                                          "Kind":  "Launcher"
+                                      },
+                         "Application":  {
+                                             "ProcessId":  6516,
+                                             "ParentProcessId":  4684,
+                                             "Name":  "powershell.exe",
+                                             "ExecutablePath":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                                             "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+                                             "Kind":  "Application"
+                                         },
+                         "Window":  {
+                                        "Handle":  328122,
+                                        "ProcessId":  6516,
+                                        "Title":  "Nyx PC Checkup",
+                                        "Visible":  true,
+                                        "Owner":  0,
+                                        "ExtendedStyle":  327936,
+                                        "Left":  362,
+                                        "Top":  210,
+                                        "Right":  1354,
+                                        "Bottom":  898
+                                    },
+                         "Visible":  true,
+                         "TaskbarEligible":  true
+                     },
+                     {
+                         "Control":  "ScriptNoSta",
+                         "CleanBefore":  true,
+                         "StartedUtc":  "2026-09-02T10:32:36.9818346Z",
+                         "Launcher":  null,
+                         "Application":  {
+                                             "ProcessId":  9360,
+                                             "ParentProcessId":  0,
+                                             "Name":  "powershell.exe",
+                                             "ExecutablePath":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                                             "CommandLine":  "-NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+                                             "Kind":  "Application"
+                                         },
+                         "Window":  {
+                                        "Handle":  328466,
+                                        "ProcessId":  9360,
+                                        "Title":  "Nyx PC Checkup",
+                                        "Visible":  true,
+                                        "Owner":  0,
+                                        "ExtendedStyle":  327936,
+                                        "Left":  362,
+                                        "Top":  210,
+                                        "Right":  1354,
+                                        "Bottom":  898
+                                    },
+                         "Visible":  true,
+                         "TaskbarEligible":  true
+                     },
+                     {
+                         "Control":  "ScriptSta",
+                         "CleanBefore":  true,
+                         "StartedUtc":  "2026-09-02T10:32:39.4763352Z",
+                         "Launcher":  null,
+                         "Application":  {
+                                             "ProcessId":  4796,
+                                             "ParentProcessId":  0,
+                                             "Name":  "powershell.exe",
+                                             "ExecutablePath":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                                             "CommandLine":  "-NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+                                             "Kind":  "Application"
+                                         },
+                         "Window":  {
+                                        "Handle":  393996,
+                                        "ProcessId":  4796,
+                                        "Title":  "Nyx PC Checkup",
+                                        "Visible":  true,
+                                        "Owner":  0,
+                                        "ExtendedStyle":  327936,
+                                        "Left":  362,
+                                        "Top":  210,
+                                        "Right":  1354,
+                                        "Bottom":  898
+                                    },
+                         "Visible":  true,
+                         "TaskbarEligible":  true
+                     },
+                     {
+                         "Control":  "NativeExe",
+                         "CleanBefore":  true,
+                         "StartedUtc":  "2026-09-02T10:32:41.7371548Z",
+                         "Launcher":  {
+                                          "ProcessId":  3636,
+                                          "ParentProcessId":  4004,
+                                          "Name":  "Nyx PC Checkup.exe",
+                                          "ExecutablePath":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe",
+                                          "CommandLine":  "\"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe\" ",
+                                          "Kind":  "Launcher"
+                                      },
+                         "Application":  {
+                                             "ProcessId":  6364,
+                                             "ParentProcessId":  3636,
+                                             "Name":  "powershell.exe",
+                                             "ExecutablePath":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                                             "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+                                             "Kind":  "Application"
+                                         },
+                         "Window":  {
+                                        "Handle":  131250,
+                                        "ProcessId":  6364,
+                                        "Title":  "Nyx PC Checkup",
+                                        "Visible":  true,
+                                        "Owner":  0,
+                                        "ExtendedStyle":  327936,
+                                        "Left":  362,
+                                        "Top":  210,
+                                        "Right":  1354,
+                                        "Bottom":  898
+                                    },
+                         "Visible":  true,
+                         "TaskbarEligible":  true
+                     }
+                 ],
+    "SetupRuns":  [
+                      {
+                          "Label":  "F011FreshInstall",
+                          "SetupPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                          "Arguments":  "/quiet /nolaunch /desktop /diagnostics:\"C:\\Users\\mark\\AppData\\Local\\Temp\\NQ15F011_307c4ed4\\Nyx_PC_Checkup_Setup_Diagnostics_F011FreshInstall_17fce28010fc4cb387d601e0ad8a11b0.json\"",
+                          "StartedUtc":  "2026-09-02T10:32:30.6467373Z",
+                          "CompletedUtc":  "2026-09-02T10:32:31.6932558Z",
+                          "ExitCode":  0,
+                          "DiagnosticPath":  "C:\\Users\\mark\\AppData\\Local\\Temp\\NQ15F011_307c4ed4\\Nyx_PC_Checkup_Setup_Diagnostics_F011FreshInstall_17fce28010fc4cb387d601e0ad8a11b0.json",
+                          "DiagnosticExists":  true,
+                          "DiagnosticValid":  true,
+                          "DiagnosticValidationError":  "",
+                          "Diagnostic":  {
+                                             "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                             "product":  "nyx-pc-checkup",
+                                             "build":  "2026.09.01-eng-qa15",
+                                             "success":  true,
+                                             "exitCode":  0,
+                                             "branchId":  "SUCCESS",
+                                             "stage":  "complete",
+                                             "message":  "Nyx PC Checkup was installed successfully.",
+                                             "nativeError":  0,
+                                             "childExitCode":  0,
+                                             "localAppData":  "C:\\Users\\mark\\AppData\\Local",
+                                             "installParent":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "resolvedInstallParent":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                             "installTarget":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "resolvedInstallTarget":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                             "parentExists":  true,
+                                             "parentAttributes":  16,
+                                             "parentIsDirectory":  true,
+                                             "parentIsReparsePoint":  false,
+                                             "parentCreateResult":  183,
+                                             "parentWriteProbeAttempted":  true,
+                                             "parentWriteProbeSucceeded":  true,
+                                             "parentWriteProbeError":  0,
+                                             "targetExists":  true,
+                                             "targetAttributes":  16,
+                                             "targetIsDirectory":  true,
+                                             "targetIsReparsePoint":  false,
+                                             "payloadIndex":  4294967295,
+                                             "detailPath":  ""
+                                         },
+                          "DiagnosticWritePathLength":  138,
+                          "ArchivedDiagnosticPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\F011_INSTALLED_LAUNCH_EVIDENCE\\F011FreshInstall_setup_diagnostics.json"
+                      }
+                  ],
+    "Screenshots":  [
+                        "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\F011_INSTALLED_LAUNCH_EVIDENCE\\F011_desktop_shortcut_visible_main_window.png"
+                    ]
+}
