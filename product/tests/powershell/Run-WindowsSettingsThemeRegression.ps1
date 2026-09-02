@@ -68,7 +68,26 @@ try {
     Save-NyxConfiguration -Configuration $configuration
     $configuration=Get-NyxConfiguration
     Assert-F012 'F-012 all three Settings values persist together' ([string]$configuration.theme -eq 'FollowWindows' -and -not [bool]$configuration.notificationsEnabled -and [bool]$configuration.updates.enabled) ($configuration|ConvertTo-Json -Depth 6 -Compress)
-    Assert-F012 'F-012 saving Settings preserves unrelated update timestamp' ([string]$configuration.updates.lastCheckUtc -eq '2026-09-01T00:00:00.0000000Z') ([string]$configuration.updates.lastCheckUtc)
+    $expectedTimestampText='2026-09-01T00:00:00.0000000Z'
+    $observedTimestampText=[string]$configuration.updates.lastCheckUtc
+    $expectedTimestamp=[datetimeoffset]::MinValue
+    $observedTimestamp=[datetimeoffset]::MinValue
+    $timestampStyle=[Globalization.DateTimeStyles]::RoundtripKind
+    $expectedTimestampParsed=[datetimeoffset]::TryParse($expectedTimestampText,[Globalization.CultureInfo]::InvariantCulture,$timestampStyle,[ref]$expectedTimestamp)
+    $observedTimestampParsed=[datetimeoffset]::TryParse($observedTimestampText,[Globalization.CultureInfo]::InvariantCulture,$timestampStyle,[ref]$observedTimestamp)
+    $expectedTimestampUtc=$expectedTimestamp.ToUniversalTime()
+    $observedTimestampUtc=$observedTimestamp.ToUniversalTime()
+    $timestampsRepresentSameInstant=($expectedTimestampParsed -and $observedTimestampParsed -and $expectedTimestampUtc.Offset -eq [timespan]::Zero -and $observedTimestampUtc.Offset -eq [timespan]::Zero -and $expectedTimestampUtc.UtcDateTime.Ticks -eq $observedTimestampUtc.UtcDateTime.Ticks)
+    $timestampEvidence=[pscustomobject][ordered]@{
+        ExpectedText=$expectedTimestampText
+        ObservedText=$observedTimestampText
+        ExpectedParsed=$expectedTimestampParsed
+        ObservedParsed=$observedTimestampParsed
+        ExpectedUtc=if($expectedTimestampParsed){$expectedTimestampUtc.ToString('o')}else{$null}
+        ObservedUtc=if($observedTimestampParsed){$observedTimestampUtc.ToString('o')}else{$null}
+        SameUtcInstant=$timestampsRepresentSameInstant
+    }
+    Assert-F012 'F-012 saving Settings preserves unrelated update timestamp' $timestampsRepresentSameInstant ($timestampEvidence|ConvertTo-Json -Compress)
 
     $configuration.theme='UnsupportedTheme'
     Save-NyxConfiguration -Configuration $configuration
@@ -86,6 +105,7 @@ $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.qa15-f012-settings-theme.v1'
     Build='2026.09.01-eng-qa15'
     HarnessRevision='QA15-F012-PS51-15'
+    HarnessCorrectionRevision='QA15-F012-TIMESTAMP-1'
     StartedUtc=$started.ToString('o')
     CompletedUtc=$completed.ToString('o')
     Passed=($script:Failures -eq 0)
