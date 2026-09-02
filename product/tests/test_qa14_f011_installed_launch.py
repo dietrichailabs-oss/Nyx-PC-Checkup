@@ -88,6 +88,18 @@ def test_f011_windows_harness_exercises_actual_installed_entrypoints() -> None:
     assert "PostMessageW" in source
 
 
+def test_f011_diagnostics_use_bounded_write_path_and_archive_evidence() -> None:
+    source = text(POWERSHELL / "Run-WindowsInstalledLaunchRegression.ps1")
+    assert "HarnessCorrectionRevision='QA15-F011-PATH-1'" in source
+    assert "('NQ15F011_'+[guid]::NewGuid().ToString('N').Substring(0,8))" in source
+    assert "-EvidenceDirectory $diagnosticWriteDirectory -Label 'F011FreshInstall'" in source
+    assert "DiagnosticPath).Length -ge 220" in source
+    assert "F011FreshInstall_setup_diagnostics.json" in source
+    assert "ArchivedDiagnosticPath" in source
+    assert "Remove-Item -LiteralPath $diagnosticWriteDirectory" in source
+    assert "-EvidenceDirectory $evidenceDirectory -Label 'F011FreshInstall'" not in source
+
+
 def test_f011_windows_orchestrator_manifest_binds_and_runs_new_gate() -> None:
     source = text(POWERSHELL / "RUN_QA15_WINDOWS_GATE.ps1")
     assert "Run-WindowsInstalledLaunchRegression.ps1" in source

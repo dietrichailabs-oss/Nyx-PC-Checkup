@@ -45,6 +45,8 @@ $outputDirectory=[IO.Path]::GetDirectoryName($outputFull)
 if(-not(Test-Path -LiteralPath $outputDirectory -PathType Container)){New-Item -ItemType Directory -Path $outputDirectory -Force|Out-Null}
 $evidenceDirectory=Join-Path $outputDirectory 'F011_INSTALLED_LAUNCH_EVIDENCE'
 New-Item -ItemType Directory -Path $evidenceDirectory -Force|Out-Null
+$diagnosticWriteDirectory=Join-Path ([IO.Path]::GetTempPath()) ('NQ15F011_'+[guid]::NewGuid().ToString('N').Substring(0,8))
+New-Item -ItemType Directory -Path $diagnosticWriteDirectory -Force|Out-Null
 
 . (Join-Path $PSScriptRoot 'InstallerDiagnosticsHelpers.ps1')
 Add-Type -AssemblyName System.Drawing
@@ -270,7 +272,15 @@ try{
     Remove-Item -LiteralPath $uninstallKey -Recurse -Force -ErrorAction SilentlyContinue
     Remove-Item -LiteralPath $desktopShortcut,$startShortcut -Force -ErrorAction SilentlyContinue
 
-    $setupRun=Invoke-NyxSetupWithDiagnostics -SetupPath $SetupPath -BaseArguments '/quiet /nolaunch /desktop' -EvidenceDirectory $evidenceDirectory -Label 'F011FreshInstall'
+    $setupRun=Invoke-NyxSetupWithDiagnostics -SetupPath $SetupPath -BaseArguments '/quiet /nolaunch /desktop' -EvidenceDirectory $diagnosticWriteDirectory -Label 'F011FreshInstall'
+    if(([string]$setupRun.DiagnosticPath).Length -ge 220){throw ('F-011 diagnostics write path is not safely below MAX_PATH: '+$setupRun.DiagnosticPath)}
+    $archivedDiagnosticPath=''
+    if([bool]$setupRun.DiagnosticExists){
+        $archivedDiagnosticPath=Join-Path $evidenceDirectory 'F011FreshInstall_setup_diagnostics.json'
+        Copy-Item -LiteralPath $setupRun.DiagnosticPath -Destination $archivedDiagnosticPath -Force
+    }
+    $setupRun|Add-Member -NotePropertyName DiagnosticWritePathLength -NotePropertyValue ([string]$setupRun.DiagnosticPath).Length
+    $setupRun|Add-Member -NotePropertyName ArchivedDiagnosticPath -NotePropertyValue $archivedDiagnosticPath
     $setupRuns.Add($setupRun)
     Test-Step 'F-011 fresh install exits 0' ([int]$setupRun.ExitCode -eq 0) (Format-NyxSetupRunDetail -Run $setupRun)
     Test-Step 'F-011 fresh install reports SUCCESS branch' ([bool]$setupRun.DiagnosticValid -and [string]$setupRun.Diagnostic.branchId -eq 'SUCCESS') (Format-NyxSetupRunDetail -Run $setupRun)
@@ -344,6 +354,7 @@ try{
     Test-Step 'F-011 installed-launch harness completed without unhandled error' $false $_.Exception.ToString()
 }finally{
     Clear-NyxExactProcesses
+    Remove-Item -LiteralPath $diagnosticWriteDirectory -Recurse -Force -ErrorAction SilentlyContinue
     if(Test-Path -LiteralPath $installRoot -PathType Container){
         $uninstaller=Join-Path $installRoot 'Uninstall Nyx PC Checkup.exe'
         if(Test-Path -LiteralPath $uninstaller -PathType Leaf){
@@ -363,6 +374,7 @@ $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.qa14-f011-installed-launch-regression.v1'
     Build=$script:ExpectedBuild
     HarnessRevision=$script:ExpectedHarnessRevision
+    HarnessCorrectionRevision='QA15-F011-PATH-1'
     StartedUtc=$startedUtc.ToString('o')
     CompletedUtc=$completedUtc.ToString('o')
     ElapsedSeconds=[math]::Round(($completedUtc-$startedUtc).TotalSeconds,3)
