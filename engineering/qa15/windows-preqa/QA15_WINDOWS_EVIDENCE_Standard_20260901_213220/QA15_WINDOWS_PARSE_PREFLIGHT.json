@@ -1,0 +1,266 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa14-powershell51-parse-preflight.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "CapturedUtc":  "2026-09-02T01:32:25.0029515Z",
+    "PowerShellVersion":  "5.1.26100.7920",
+    "PSEdition":  "Desktop",
+    "Passed":  true,
+    "FileCount":  50,
+    "DiagnosticCount":  0,
+    "Files":  [
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\actions\\CleanupActions.psm1",
+                      "Sha256":  "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\actions\\StartupActions.psm1",
+                      "Sha256":  "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\BackupStatus.psm1",
+                      "Sha256":  "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\BatteryHealth.psm1",
+                      "Sha256":  "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\CleanupScan.psm1",
+                      "Sha256":  "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\DownloadsAnalysis.psm1",
+                      "Sha256":  "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\DriveHealth.psm1",
+                      "Sha256":  "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\InstalledApps.psm1",
+                      "Sha256":  "7E94A5E175A398EA22AEC16041A153A611815E5CCB3F78E41F9EE32CC14F8C0D",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\NetworkBasics.psm1",
+                      "Sha256":  "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\PerformanceSnapshot.psm1",
+                      "Sha256":  "84CB98AB82D73D6F5A5A2575B45EC6F7A02D46CBFF9B2B70F6D5B8BFA3D8FC4D",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\SecurityStatus.psm1",
+                      "Sha256":  "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StartupApps.psm1",
+                      "Sha256":  "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StorageHealth.psm1",
+                      "Sha256":  "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StorageScan.psm1",
+                      "Sha256":  "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\SystemInfo.psm1",
+                      "Sha256":  "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\Uptime.psm1",
+                      "Sha256":  "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\WindowsUpdates.psm1",
+                      "Sha256":  "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\ActionHistory.psm1",
+                      "Sha256":  "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\CheckupEngine.psm1",
+                      "Sha256":  "D7908E1341F13986C2125DE4BFD01BDB2039A8B2A05AC7562F8FBB3361A61811",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Configuration.psm1",
+                      "Sha256":  "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Diagnostics.psm1",
+                      "Sha256":  "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Models.psm1",
+                      "Sha256":  "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Paths.psm1",
+                      "Sha256":  "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Privacy.psm1",
+                      "Sha256":  "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\RuntimeComposition.psm1",
+                      "Sha256":  "F96F8032FD8A10864369D824221FCBCD725569281CCACA56ED8708F432C08FF0",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\health_rules\\HealthRules.psm1",
+                      "Sha256":  "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\NyxPCCheckup.ps1",
+                      "Sha256":  "A6A4A3024C0F9D77228879F23EBF02B6D8D7980A307A624D6885224180DF0E17",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\platform\\windows\\WindowsHelpers.psm1",
+                      "Sha256":  "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\reports\\PdfWriter.psm1",
+                      "Sha256":  "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\reports\\ReportExport.psm1",
+                      "Sha256":  "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Controls.psm1",
+                      "Sha256":  "64DA7FFA0652F1A92A589C7A0FEE9784771F31A17725E0AAA8E0EC7FFF10F571",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Dialogs.psm1",
+                      "Sha256":  "65EE06D5C51D6CBA79831BE0DB28BF9B4D5FB95B596816A90BFFEE749D29C4BB",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\MainWindow.psm1",
+                      "Sha256":  "5B24519479E980B67D8FB3531240A4903012D080684FB571615B9BD142CB7399",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Theme.psm1",
+                      "Sha256":  "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Manifest.psm1",
+                      "Sha256":  "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Preferences.psm1",
+                      "Sha256":  "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\UpdateChecker.psm1",
+                      "Sha256":  "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Versioning.psm1",
+                      "Sha256":  "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\ActionWorker.ps1",
+                      "Sha256":  "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\InstallWorker.ps1",
+                      "Sha256":  "02742BFDEEED373413D33D1DB9D50F8B6CBEDC0B7A715871E08EF85EAB4B67C7",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\ScanWorker.ps1",
+                      "Sha256":  "C2E9AF012850CCDAB2AB67C0D77989F99AE38E69BEB4D7FB78B534F65488F53D",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\UninstallWorker.ps1",
+                      "Sha256":  "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\UpdateCheckWorker.ps1",
+                      "Sha256":  "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\powershell\\Run-WindowsSmokeTests.ps1",
+                      "Sha256":  "CFAC9437545F8BF5B7B73635BF8396EF892656B5B58FEDF2EE6BD4956BA86690",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\powershell\\Run-WindowsElevatedStartupRollback.ps1",
+                      "Sha256":  "F1B243C0FE0815950D8B47DE4A8430553BBAB8EB5B9691609A8E019AB343AEFA",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\powershell\\Run-WindowsQA2MigrationRegression.ps1",
+                      "Sha256":  "EF66F7F33F48E447694C1A2D3AE5C0649AA31982F88C1A130FDCF6571F201507",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\powershell\\Run-WindowsInstallerLifecycle.ps1",
+                      "Sha256":  "E47893BC060D7967A23E8E00EEC805573FCA98EE212E9C45738F8A661682A90D",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\powershell\\Run-WindowsInstalledLaunchRegression.ps1",
+                      "Sha256":  "00C8FB869B3C027681A45D0BC307A8ABE05B0C8EA9C79DD0942B8BB604D1E2DB",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\powershell\\RUN_QA15_WINDOWS_GATE.ps1",
+                      "Sha256":  "DF1D55E4187725E4685F66C9967604DBC4992F805DFC67EBD6D26DA5DDDDA199",
+                      "DiagnosticCount":  0
+                  },
+                  {
+                      "File":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\powershell\\InstallerDiagnosticsHelpers.ps1",
+                      "Sha256":  "8117E1D305CF20F8EDD667D8392AA6F0A8760028238D6B0375A9D7AEEC315A72",
+                      "DiagnosticCount":  0
+                  }
+              ],
+    "Diagnostics":  [
+
+                    ]
+}
