@@ -262,7 +262,7 @@ try{
 $stopped=(Get-Date).ToUniversalTime()
 $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.installer-lifecycle.v2'
-    HarnessRevision='QA15-F012-PS51-15'
+    HarnessRevision='QA16-F013-PS51-16'
     Scope='installer lifecycle'
     StartedUtc=$started.ToString('o')
     CompletedUtc=$stopped.ToString('o')

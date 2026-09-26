@@ -10,8 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 NATIVE = ROOT / "native"
 APP = ROOT / "src" / "app"
 POWERSHELL = ROOT / "tests" / "powershell"
-BUILD = "2026.09.01-eng-qa15"
-HARNESS = "QA15-F012-PS51-15"
+BUILD = "2026.09.26-eng-qa16"
+HARNESS = "QA16-F013-PS51-16"
 
 
 def text(path: Path) -> str:
@@ -63,8 +63,8 @@ def test_f011_singleton_protection_is_preserved() -> None:
 def test_f011_windows_harness_exercises_actual_installed_entrypoints() -> None:
     source = text(POWERSHELL / "Run-WindowsInstalledLaunchRegression.ps1")
     for token in (
-        "$script:ExpectedBuild='2026.09.01-eng-qa15'",
-        "$script:ExpectedHarnessRevision='QA15-F012-PS51-15'",
+        "$script:ExpectedBuild='2026.09.26-eng-qa16'",
+        "$script:ExpectedHarnessRevision='QA16-F013-PS51-16'",
         "Nyx PC Checkup.lnk",
         "CreateShortcut($desktopShortcut)",
         "Desktop shortcut target is exact installed launcher",
@@ -105,8 +105,8 @@ def test_f011_windows_orchestrator_manifest_binds_and_runs_new_gate() -> None:
     assert "Run-WindowsInstalledLaunchRegression.ps1" in source
     assert "Nyx_PC_Checkup_F011_Installed_Launch.json" in source
     assert "Invoke-ExactHarness -Name 'Run-WindowsInstalledLaunchRegression.ps1'" in source
-    assert "$script:ExpectedBuild='2026.09.01-eng-qa15'" in source
-    assert "$script:ExpectedHarnessRevision='QA15-F012-PS51-15'" in source
+    assert "$script:ExpectedBuild='2026.09.26-eng-qa16'" in source
+    assert "$script:ExpectedHarnessRevision='QA16-F013-PS51-16'" in source
 
 
 def test_f011_version_metadata_is_successor_identity() -> None:

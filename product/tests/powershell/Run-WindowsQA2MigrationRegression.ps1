@@ -554,7 +554,7 @@ function Upgrade-Corrected {
     Test-Step 'Corrected setup emits valid branch diagnostics' ([bool]$setupRun.DiagnosticValid -and [string]$setupRun.Diagnostic.branchId -eq 'SUCCESS') (Format-NyxSetupRunDetail -Run $setupRun)
     Import-NyxRuntime
     $version=Get-Content -LiteralPath (Join-Path $script:InstallRoot 'VERSION.json') -Raw -Encoding UTF8|ConvertFrom-Json
-    Test-Step 'Corrected build identity is active after upgrade' ([string]$version.build -eq '2026.09.01-eng-qa15') ([string]$version.build)
+    Test-Step 'Corrected build identity is active after upgrade' ([string]$version.build -eq '2026.09.26-eng-qa16') ([string]$version.build)
 }
 function Get-RollbackJournal {
     param([Parameter(Mandatory=$true)][string]$ActionId)
@@ -731,10 +731,10 @@ try{
 $stopped=(Get-Date).ToUniversalTime()
 $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.qa2-migration-regression.v1'
-    HarnessRevision='QA15-F012-PS51-15'
+    HarnessRevision='QA16-F013-PS51-16'
     HarnessCorrectionRevision='QA9-WH006-1'
     Product='Nyx PC Checkup'
-    CorrectedBuild='2026.09.01-eng-qa15'
+    CorrectedBuild='2026.09.26-eng-qa16'
     Scope='Exact QA2 current-user rollback migration and corrected uninstall regression'
     QA2FixtureMethod='Harness-owned exact QA2 legacy rollback journal using immutable QA2 CurrentUser DPAPI helpers and exact pinned QA2 Paths layout; scenario reset records uninstaller exit and cleans only exact known Nyx roots after intentional exit-6 fail-closed state'
     StartedUtc=$started.ToString('o')

@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "src" / "app"
 DIST = ROOT / "dist"
 STAGE = ROOT / "release_staging" / "Nyx_PC_Checkup_1.0.0_Portable"
-BUILD_ID = "2026.09.01-eng-qa15"
+BUILD_ID = "2026.09.26-eng-qa16"
 
 EXPECTED_MODULES = {
     "core/Models.psm1",
@@ -837,7 +837,7 @@ def test_qa4_windows_harness_correction_is_documented_and_build_gated() -> None:
         "D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1",
         "22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7",
         "Argument types do not match",
-        "QA15-F012-PS51-15",
+        "QA16-F013-PS51-16",
         "ToArray()",
         "new product candidate",
     ]:
@@ -867,7 +867,7 @@ def test_qa5_native_windows_failures_are_documented_and_build_gated() -> None:
         "QA5-ORCH-001",
         "QA5-ENC-001",
         "automatic-variable collision",
-        "QA15-F012-PS51-15",
+        "QA16-F013-PS51-16",
         "RUN_QA15_WINDOWS_GATE.ps1",
     ]:
         assert token.lower() in matrix.lower()
@@ -897,7 +897,7 @@ def test_qa6_native_module_composition_failure_is_documented_and_build_gated() -
         "QA6-F-005",
         "New-NyxCheckResult",
         "RuntimeComposition.psm1",
-        "QA15-F012-PS51-15",
+        "QA16-F013-PS51-16",
         "HarnessInferenceFromImmutableQA2Source",
     ]:
         assert token.lower() in matrix.lower()
