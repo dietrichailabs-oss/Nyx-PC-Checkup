@@ -1,0 +1,46 @@
+﻿{
+    "CoordinateSpace":  "Native GetWindowRect and GetMonitorInfo called synchronously on the same UI thread without changing awareness context.",
+    "Window":  {
+                   "Left":  362,
+                   "Top":  210,
+                   "Right":  1354,
+                   "Bottom":  898,
+                   "Width":  992,
+                   "Height":  688
+               },
+    "WorkArea":  {
+                     "Left":  0,
+                     "Top":  0,
+                     "Right":  1024,
+                     "Bottom":  720,
+                     "Width":  1024,
+                     "Height":  720
+                 },
+    "Comparisons":  [
+                        {
+                            "Expression":  "Window.Left \u003c WorkArea.Left",
+                            "Window":  362,
+                            "WorkArea":  0,
+                            "Result":  false
+                        },
+                        {
+                            "Expression":  "Window.Top \u003c WorkArea.Top",
+                            "Window":  210,
+                            "WorkArea":  0,
+                            "Result":  false
+                        },
+                        {
+                            "Expression":  "Window.Right \u003e WorkArea.Right",
+                            "Window":  1354,
+                            "WorkArea":  1024,
+                            "Result":  true
+                        },
+                        {
+                            "Expression":  "Window.Bottom \u003e WorkArea.Bottom",
+                            "Window":  898,
+                            "WorkArea":  720,
+                            "Result":  true
+                        }
+                    ],
+    "WindowBeyondScreen":  true
+}

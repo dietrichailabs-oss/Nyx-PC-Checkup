@@ -1,0 +1,8 @@
+﻿{
+    "Status":  "OBSERVER_STARTED",
+    "ProcessId":  3628,
+    "Arguments":  "-NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Q15Bounds\\Invoke-QA15-FirstCellBounds.ps1\" -InstalledRoot \"C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\" -EvidenceDirectory \"C:\\Q15Bounds\\evidence\"",
+    "User":  "mark",
+    "CandidateModified":  false,
+    "StartedUtc":  "2026-09-26T18:42:43.9933514Z"
+}

@@ -1,0 +1,628 @@
+{
+  "schema": "dietrich-ai-labs.source-tree-identity.v1",
+  "product": "Nyx PC Checkup",
+  "version": "1.0.0",
+  "build": "2026.09.01-eng-qa15",
+  "fileCount": 123,
+  "identityExcludes": [
+    "SOURCE_TREE_IDENTITY.json"
+  ],
+  "treeSha256": "CC58B192CD27F286A041B67510BAF4C7D2097F996D0206DEAE4906BC555A11A0",
+  "files": [
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 11926,
+      "sha256": "D1B617271C7961EBF3B366612372882CE8FEADB53F67FB3D9C048923D7A0E30B"
+    },
+    {
+      "path": "docs/BUILD_AND_REPRODUCE.md",
+      "size": 3130,
+      "sha256": "15C8C46BFDF9319D8CEFC637DA2FFE4E59ACD208773F74D996923B42D032A872"
+    },
+    {
+      "path": "docs/ENGINEERING_SCOPE.md",
+      "size": 34818,
+      "sha256": "8CA2D9B96587C8FC4C0B9EF4916F96DDF72311A9FCAE91F0317D36BDF47F8497"
+    },
+    {
+      "path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "size": 4900,
+      "sha256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D"
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "size": 1605,
+      "sha256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A"
+    },
+    {
+      "path": "docs/MODULE_CONTRACTS.md",
+      "size": 11373,
+      "sha256": "096E74162D871A2B5A16E3525AB4709FF9C5282EFB3AB6B2973F8AEBE369ACC2"
+    },
+    {
+      "path": "docs/MODULE_MAP.md",
+      "size": 5416,
+      "sha256": "C1847CA35072BBF467531383A3C8134B33E1659D4B676FC612C92F489BA20C54"
+    },
+    {
+      "path": "docs/PRIVACY_AND_SECURITY.md",
+      "size": 5866,
+      "sha256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64"
+    },
+    {
+      "path": "docs/QA10_F009_UI_CLOSE_CORRECTION.md",
+      "size": 2791,
+      "sha256": "7366375E10389E803A64B1AE320B803754B5B7DF17A5268BEE233C1D930A0FE9"
+    },
+    {
+      "path": "docs/QA12_F011_INSTALLED_LAUNCH_CORRECTION.md",
+      "size": 4413,
+      "sha256": "4E24A70822C46971BF0126137BE45CD056A4586179DCECB3724593F2604FC2B0"
+    },
+    {
+      "path": "docs/QA15_F012_SETTINGS_THEME_SAVE_CORRECTION.md",
+      "size": 468,
+      "sha256": "AF1D4346085ED3B8DA6F5BAAC600E422C208809030DD1F2160615FD38A49EDF8"
+    },
+    {
+      "path": "docs/QA2_CORRECTION_MATRIX.md",
+      "size": 6711,
+      "sha256": "F18777CF8AAD0DF0D896C09A6B461409B1929526665A2F85EC7E0738D2883156"
+    },
+    {
+      "path": "docs/QA3_CORRECTION_MATRIX.md",
+      "size": 6120,
+      "sha256": "0F9EE9CA1FC7D7F5CBBCF60B5796C326CDFF6CD2C4172809B213D051F3C3D50E"
+    },
+    {
+      "path": "docs/QA4_WINDOWS_HARNESS_CORRECTION.md",
+      "size": 2497,
+      "sha256": "F0284AD93834026BDA2DCCBE4BD0175F498882A0566668D8CAC4FF6742ED9E48"
+    },
+    {
+      "path": "docs/QA5_WINDOWS_EXECUTION_CORRECTION.md",
+      "size": 7718,
+      "sha256": "9CE7E5395C89454033A02ED050C3D5DB3C8BCF3D9202DBC951A7A930C217915E"
+    },
+    {
+      "path": "docs/QA6_MODULE_COMPOSITION_CORRECTION.md",
+      "size": 5150,
+      "sha256": "CBC768418925F3B03605BBEE79580F7EFAA371637DB8716C15847FC0CFE0AEDD"
+    },
+    {
+      "path": "docs/QA7_F006_UNINSTALL_CORRECTION.md",
+      "size": 2707,
+      "sha256": "3DEE6624835EAD321E741EA1E032B3304AD88A216E7F237176C305BBDF5DD56B"
+    },
+    {
+      "path": "docs/QA7_WINDOWS_HARNESS_REISSUE.md",
+      "size": 1416,
+      "sha256": "87A7853C6BF85C31CEB550C5A31B9C3EFDF26FE871DE0B73FBDA15C3374D9703"
+    },
+    {
+      "path": "docs/QA8_F007_EMPTY_COLLECTION_CORRECTION.md",
+      "size": 1671,
+      "sha256": "F4B05BF2B9430434561FAF749ED3D8BABA8DBA863C397CD256010018BC955953"
+    },
+    {
+      "path": "docs/QA9_F008_UI_CORRECTION.md",
+      "size": 2833,
+      "sha256": "BDDACF2CC75735ACC908B5B60AEF09A9E0EEC5E7FCA6D2CC2916AD8B8F6D8621"
+    },
+    {
+      "path": "docs/QA9_WH004_MIGRATION_HARNESS_CORRECTION.md",
+      "size": 3596,
+      "sha256": "8AA021B2C5AAF121F544CC3DAE4276FD5825D75A7924596E9E67135D39B84BD8"
+    },
+    {
+      "path": "docs/QA9_WH005_MIGRATION_HARNESS_CORRECTION.md",
+      "size": 3492,
+      "sha256": "72748E04CD06FFE6555DF7E4B45FB0A22A103DF4CF41D683DE7C760C001E14EF"
+    },
+    {
+      "path": "docs/QA9_WH006_MIGRATION_HARNESS_CORRECTION.md",
+      "size": 3074,
+      "sha256": "F3A8D1269A7C052BAC108569F0AA33F75C0F8712EA713926158F54A30A38DDCB"
+    },
+    {
+      "path": "docs/QA_TEST_PLAN.md",
+      "size": 12158,
+      "sha256": "DC4362B9F3771BD71B601694CC10E3EAA72536969F5DF2FF80D5F90B88544727"
+    },
+    {
+      "path": "docs/RELEASE_NOTES.md",
+      "size": 2240,
+      "sha256": "0BD4E4DAB19DD8DD9EE0958521D96BA96E07628517F03F4B5AD65ED6D688E46A"
+    },
+    {
+      "path": "docs/UPDATE_CHECK_IMPLEMENTATION.md",
+      "size": 5899,
+      "sha256": "27FD6E2F91BA1D549845AD2BBE34EB23F59510E5DB37DC03A21DCB0D15E63EA6"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "size": 5097,
+      "sha256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159"
+    },
+    {
+      "path": "docs/WHO_GETS_WHAT_NEXT.md",
+      "size": 1542,
+      "sha256": "13203644241752A8FCF0422EBF0083DB85BECB0196FE613FD2EE3C1FBB2370E2"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size": 488,
+      "sha256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD"
+    },
+    {
+      "path": "native/app.manifest",
+      "size": 1083,
+      "sha256": "D8FB3B287C4EF05552A8073CB7AFB905C50A624D734F5723181CED08883BB7A9"
+    },
+    {
+      "path": "native/imports/kernel32.def",
+      "size": 311,
+      "sha256": "DC9583CD47A06A5A2F0BD028F17CFD0782244C83480D4E66FDCCA493FFF6CFB7"
+    },
+    {
+      "path": "native/imports/shell32.def",
+      "size": 52,
+      "sha256": "44378DE1D0A9A12DF5FE6DF01561D7124D3AE577DADC9C8694DE9DBDC1A96F22"
+    },
+    {
+      "path": "native/imports/user32.def",
+      "size": 42,
+      "sha256": "48370A5C167741B800AF5B0A164D1B2D3C0D4AF41275385F4CB477FB52E1DB6F"
+    },
+    {
+      "path": "native/installer.cpp",
+      "size": 17092,
+      "sha256": "D6AF01E728ABE740D97FA48CE99F8260A1B7B4EE7439948253BF13603F8C11E1"
+    },
+    {
+      "path": "native/launcher.cpp",
+      "size": 1254,
+      "sha256": "942324F9A7009AD30DF47A1ABE76D77826081013DD86F19A588D7FA317CCADB4"
+    },
+    {
+      "path": "native/uninstaller.cpp",
+      "size": 1405,
+      "sha256": "054D814C4DF73DD82C982FD3050972C231ADFC4B82DC438D87CF23CDFDE8A57E"
+    },
+    {
+      "path": "native/win_types.hpp",
+      "size": 6022,
+      "sha256": "7F08653DF9BE540387A1122AC995172E13CC695F4C4592558EC33C2BE53BADEB"
+    },
+    {
+      "path": "pytest.ini",
+      "size": 157,
+      "sha256": "A802D2C895B17C2AA2961B9CDC61A01BBA0FF94C5AA82A70BB3E022FE93E2250"
+    },
+    {
+      "path": "README_FIRST.md",
+      "size": 6765,
+      "sha256": "A494BCCCE3575B931C9082FAD4B9625FA59E321EBAC3128B35CB7A9EFBCA9507"
+    },
+    {
+      "path": "SBOM.json",
+      "size": 3096,
+      "sha256": "FD12BB98120B39F78869302EE6FCEFC90E7E0FE2CF762E155B787441C4BD8692"
+    },
+    {
+      "path": "src/app/actions/CleanupActions.psm1",
+      "size": 7811,
+      "sha256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B"
+    },
+    {
+      "path": "src/app/actions/StartupActions.psm1",
+      "size": 23951,
+      "sha256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002"
+    },
+    {
+      "path": "src/app/assets/brand_banner.png",
+      "size": 4630,
+      "sha256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831"
+    },
+    {
+      "path": "src/app/assets/nyx_pc_checkup.ico",
+      "size": 25277,
+      "sha256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5"
+    },
+    {
+      "path": "src/app/assets/nyx_pc_checkup.png",
+      "size": 3315,
+      "sha256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0"
+    },
+    {
+      "path": "src/app/checks/BackupStatus.psm1",
+      "size": 4417,
+      "sha256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90"
+    },
+    {
+      "path": "src/app/checks/BatteryHealth.psm1",
+      "size": 3085,
+      "sha256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC"
+    },
+    {
+      "path": "src/app/checks/CleanupScan.psm1",
+      "size": 11612,
+      "sha256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96"
+    },
+    {
+      "path": "src/app/checks/DownloadsAnalysis.psm1",
+      "size": 7999,
+      "sha256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319"
+    },
+    {
+      "path": "src/app/checks/DriveHealth.psm1",
+      "size": 3423,
+      "sha256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549"
+    },
+    {
+      "path": "src/app/checks/InstalledApps.psm1",
+      "size": 3242,
+      "sha256": "7E94A5E175A398EA22AEC16041A153A611815E5CCB3F78E41F9EE32CC14F8C0D"
+    },
+    {
+      "path": "src/app/checks/NetworkBasics.psm1",
+      "size": 4679,
+      "sha256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224"
+    },
+    {
+      "path": "src/app/checks/PerformanceSnapshot.psm1",
+      "size": 1941,
+      "sha256": "84CB98AB82D73D6F5A5A2575B45EC6F7A02D46CBFF9B2B70F6D5B8BFA3D8FC4D"
+    },
+    {
+      "path": "src/app/checks/SecurityStatus.psm1",
+      "size": 9982,
+      "sha256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07"
+    },
+    {
+      "path": "src/app/checks/StartupApps.psm1",
+      "size": 8100,
+      "sha256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C"
+    },
+    {
+      "path": "src/app/checks/StorageHealth.psm1",
+      "size": 1299,
+      "sha256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6"
+    },
+    {
+      "path": "src/app/checks/StorageScan.psm1",
+      "size": 6929,
+      "sha256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1"
+    },
+    {
+      "path": "src/app/checks/SystemInfo.psm1",
+      "size": 2676,
+      "sha256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C"
+    },
+    {
+      "path": "src/app/checks/Uptime.psm1",
+      "size": 1146,
+      "sha256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A"
+    },
+    {
+      "path": "src/app/checks/WindowsUpdates.psm1",
+      "size": 4902,
+      "sha256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252"
+    },
+    {
+      "path": "src/app/config/defaults.json",
+      "size": 461,
+      "sha256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8"
+    },
+    {
+      "path": "src/app/core/ActionHistory.psm1",
+      "size": 24721,
+      "sha256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB"
+    },
+    {
+      "path": "src/app/core/CheckupEngine.psm1",
+      "size": 7514,
+      "sha256": "D7908E1341F13986C2125DE4BFD01BDB2039A8B2A05AC7562F8FBB3361A61811"
+    },
+    {
+      "path": "src/app/core/Configuration.psm1",
+      "size": 7302,
+      "sha256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220"
+    },
+    {
+      "path": "src/app/core/Diagnostics.psm1",
+      "size": 1932,
+      "sha256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1"
+    },
+    {
+      "path": "src/app/core/Models.psm1",
+      "size": 4355,
+      "sha256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0"
+    },
+    {
+      "path": "src/app/core/Paths.psm1",
+      "size": 5304,
+      "sha256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0"
+    },
+    {
+      "path": "src/app/core/Privacy.psm1",
+      "size": 6683,
+      "sha256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802"
+    },
+    {
+      "path": "src/app/core/RuntimeComposition.psm1",
+      "size": 14912,
+      "sha256": "F96F8032FD8A10864369D824221FCBCD725569281CCACA56ED8708F432C08FF0"
+    },
+    {
+      "path": "src/app/health_rules/HealthRules.psm1",
+      "size": 4761,
+      "sha256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC"
+    },
+    {
+      "path": "src/app/health_rules/rules.json",
+      "size": 784,
+      "sha256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3"
+    },
+    {
+      "path": "src/app/NyxPCCheckup.ps1",
+      "size": 6371,
+      "sha256": "A6A4A3024C0F9D77228879F23EBF02B6D8D7980A307A624D6885224180DF0E17"
+    },
+    {
+      "path": "src/app/platform/linux/CONTRACT.md",
+      "size": 391,
+      "sha256": "AA823BEAAD73174A70BA7191FB95A3DC2B4F0A0F864C68A97F2410C86C22D253"
+    },
+    {
+      "path": "src/app/platform/windows/WindowsHelpers.psm1",
+      "size": 6692,
+      "sha256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29"
+    },
+    {
+      "path": "src/app/reports/PdfWriter.psm1",
+      "size": 3680,
+      "sha256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9"
+    },
+    {
+      "path": "src/app/reports/ReportExport.psm1",
+      "size": 6677,
+      "sha256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E"
+    },
+    {
+      "path": "src/app/ui/Controls.psm1",
+      "size": 3881,
+      "sha256": "64DA7FFA0652F1A92A589C7A0FEE9784771F31A17725E0AAA8E0EC7FFF10F571"
+    },
+    {
+      "path": "src/app/ui/Dialogs.psm1",
+      "size": 5760,
+      "sha256": "65EE06D5C51D6CBA79831BE0DB28BF9B4D5FB95B596816A90BFFEE749D29C4BB"
+    },
+    {
+      "path": "src/app/ui/MainWindow.psm1",
+      "size": 58486,
+      "sha256": "5B24519479E980B67D8FB3531240A4903012D080684FB571615B9BD142CB7399"
+    },
+    {
+      "path": "src/app/ui/Theme.psm1",
+      "size": 2769,
+      "sha256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0"
+    },
+    {
+      "path": "src/app/updates/Manifest.psm1",
+      "size": 6396,
+      "sha256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735"
+    },
+    {
+      "path": "src/app/updates/Preferences.psm1",
+      "size": 1164,
+      "sha256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3"
+    },
+    {
+      "path": "src/app/updates/UpdateChecker.psm1",
+      "size": 6175,
+      "sha256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980"
+    },
+    {
+      "path": "src/app/updates/Versioning.psm1",
+      "size": 2824,
+      "sha256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43"
+    },
+    {
+      "path": "src/app/workers/ActionWorker.ps1",
+      "size": 5297,
+      "sha256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9"
+    },
+    {
+      "path": "src/app/workers/InstallWorker.ps1",
+      "size": 9588,
+      "sha256": "02742BFDEEED373413D33D1DB9D50F8B6CBEDC0B7A715871E08EF85EAB4B67C7"
+    },
+    {
+      "path": "src/app/workers/ScanWorker.ps1",
+      "size": 7577,
+      "sha256": "C2E9AF012850CCDAB2AB67C0D77989F99AE38E69BEB4D7FB78B534F65488F53D"
+    },
+    {
+      "path": "src/app/workers/UninstallWorker.ps1",
+      "size": 8487,
+      "sha256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE"
+    },
+    {
+      "path": "src/app/workers/UpdateCheckWorker.ps1",
+      "size": 2473,
+      "sha256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5"
+    },
+    {
+      "path": "tests/fixtures/qa2/Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+      "size": 417280,
+      "sha256": "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5"
+    },
+    {
+      "path": "tests/fixtures/qa2/Nyx_PC_Checkup_1.0.0_QA2_Source.zip",
+      "size": 209483,
+      "sha256": "22FCFA7E3050CA854803DD0265109F92444E38E081483A7E2C73DFC0BC522B36"
+    },
+    {
+      "path": "tests/fixtures/qa2/QA2_FIXTURE_MANIFEST.json",
+      "size": 1346,
+      "sha256": "16D68F99925BC509F2F2BE1B907144927CD75D9F2A0C08FAD1D05250A054743F"
+    },
+    {
+      "path": "tests/powershell/InstallerDiagnosticsHelpers.ps1",
+      "size": 10014,
+      "sha256": "8117E1D305CF20F8EDD667D8392AA6F0A8760028238D6B0375A9D7AEEC315A72"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsElevatedStartupRollback.ps1",
+      "size": 13602,
+      "sha256": "F1B243C0FE0815950D8B47DE4A8430553BBAB8EB5B9691609A8E019AB343AEFA"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsInstalledLaunchRegression.ps1",
+      "size": 27159,
+      "sha256": "00C8FB869B3C027681A45D0BC307A8ABE05B0C8EA9C79DD0942B8BB604D1E2DB"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsInstallerLifecycle.ps1",
+      "size": 21492,
+      "sha256": "E47893BC060D7967A23E8E00EEC805573FCA98EE212E9C45738F8A661682A90D"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsQA2MigrationRegression.ps1",
+      "size": 52716,
+      "sha256": "EF66F7F33F48E447694C1A2D3AE5C0649AA31982F88C1A130FDCF6571F201507"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsSettingsThemeRegression.ps1",
+      "size": 5611,
+      "sha256": "ECC1341210E329220A2A4EC28AE89C734D0580FBFC00D765613364385D25DB30"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsSmokeTests.ps1",
+      "size": 41518,
+      "sha256": "CFAC9437545F8BF5B7B73635BF8396EF892656B5B58FEDF2EE6BD4956BA86690"
+    },
+    {
+      "path": "tests/powershell/RUN_QA15_WINDOWS_GATE.ps1",
+      "size": 16965,
+      "sha256": "DF1D55E4187725E4685F66C9967604DBC4992F805DFC67EBD6D26DA5DDDDA199"
+    },
+    {
+      "path": "tests/test_engineering_contracts.py",
+      "size": 44050,
+      "sha256": "12965A358B08AC0B98580923BDC3438AAEE6D1529CC38537FCD082BE6CA9387E"
+    },
+    {
+      "path": "tests/test_installer_branch_diagnostics.py",
+      "size": 3477,
+      "sha256": "4AA69911B90B86292C64F12059C964BB21B461787CE9CFAE1524359E9DDF0D93"
+    },
+    {
+      "path": "tests/test_powershell51_generic_list_compatibility.py",
+      "size": 4680,
+      "sha256": "94D543509EED43BF94277CEA75DF25AC038FF0FD5C5C152D6E52208DE04ADE06"
+    },
+    {
+      "path": "tests/test_powershell51_module_composition.py",
+      "size": 4655,
+      "sha256": "BA8FA7E5CD058D17C925CEDC7856C307F1129BB9D4A8177573A3BBCD2ED74EBC"
+    },
+    {
+      "path": "tests/test_powershell51_parser_safety.py",
+      "size": 4785,
+      "sha256": "B07F6F668F002DF57E703100866D4F7EB4D03F511FDEE189C8E6630CA2D9A8A7"
+    },
+    {
+      "path": "tests/test_privacy_reference.py",
+      "size": 3449,
+      "sha256": "A49B43AC28892B45414F673B1D94F1275B19B848942BD4F153834B371272C93A"
+    },
+    {
+      "path": "tests/test_qa10_f009_ui_close_cleanup.py",
+      "size": 3857,
+      "sha256": "5407035407C91237178CD0233F1850EAD634CB21CC750BDDF919D569F5165E8A"
+    },
+    {
+      "path": "tests/test_qa11_f010_persisted_scan_validation.py",
+      "size": 2586,
+      "sha256": "A2E7C2AA306A6CB7C77D2981D1C2690E257EDF5084039EA0290D4F0968DC5FFD"
+    },
+    {
+      "path": "tests/test_qa14_f011_installed_launch.py",
+      "size": 5010,
+      "sha256": "4EFCC5E61D3BEE6535C1355D0CFD59DE4F67000870ED35263BE9C161AD4094C5"
+    },
+    {
+      "path": "tests/test_qa15_f012_settings_theme_save.py",
+      "size": 2557,
+      "sha256": "257FF26DD517B506F1ED510DBA3CFC97089A49E95F1A1D234DC60595F04FF9C3"
+    },
+    {
+      "path": "tests/test_qa2_migration_reference.py",
+      "size": 14295,
+      "sha256": "DF749FDE6FA3BC0985EC9742608938339E5C2B2B8FA86A2A5A9D7810687877FD"
+    },
+    {
+      "path": "tests/test_qa8_f007_empty_collection.py",
+      "size": 2321,
+      "sha256": "92D8F7D69234E347287217727E24C60E63F118D89D3A05D36A92E21A382938FB"
+    },
+    {
+      "path": "tests/test_qa9_f008_ui_responsiveness.py",
+      "size": 4924,
+      "sha256": "7095406FED1B745A68072B8F6B5548D5E92D66AE7B05D5BB6974D1125728BBC4"
+    },
+    {
+      "path": "tests/test_qa9_wh004_harness_correction.py",
+      "size": 617,
+      "sha256": "E319FAE88693763BCEE492DDEE1D53DAB47430867AB0875B13D4924B23EAAE35"
+    },
+    {
+      "path": "tests/test_qa9_wh005_harness_correction.py",
+      "size": 620,
+      "sha256": "45D912320B20CBE9BF1529F7D15BE1296A11DC337A2F9FA520688CE61810C0AC"
+    },
+    {
+      "path": "tests/test_qa9_wh006_harness_correction.py",
+      "size": 578,
+      "sha256": "8AB9B14809ACD3AA7842A2CEF6CD1A1E7AFE9274F22AF986C167DEF280BF5869"
+    },
+    {
+      "path": "tests/test_update_reference.py",
+      "size": 8696,
+      "sha256": "A4A8691B7462AF3162233635BB7F3F1D23D293556554E02BF076E85BD5141542"
+    },
+    {
+      "path": "tests/tools/ps_lint.py",
+      "size": 15280,
+      "sha256": "D1E3DC532F5624A47A23475C50E5DA9E30D352870782502E3D945E20342638DB"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "size": 572,
+      "sha256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0"
+    },
+    {
+      "path": "tools/build_and_verify_reproduction.py",
+      "size": 5320,
+      "sha256": "8112E5D221B00AF0D36D48EC208627923B7FFC8B6C1225449713CCC6F76F8688"
+    },
+    {
+      "path": "tools/build_release.py",
+      "size": 100321,
+      "sha256": "F5E8F079B4D509EB37AD3F2DA6C424DC7C1976A2F54F027ED2CB44AB468D95A4"
+    },
+    {
+      "path": "tools/ps_lint.py",
+      "size": 15280,
+      "sha256": "D1E3DC532F5624A47A23475C50E5DA9E30D352870782502E3D945E20342638DB"
+    },
+    {
+      "path": "VERSION.json",
+      "size": 305,
+      "sha256": "3BFBD04F577A6DE819EA565B59D836BA436C63885A706FDCAA8794EE18CB9CF7"
+    }
+  ]
+}
