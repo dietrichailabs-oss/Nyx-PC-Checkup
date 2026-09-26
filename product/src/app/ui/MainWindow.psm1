@@ -39,6 +39,7 @@ function Register-NyxFocusScrollTree {
 function Get-NyxResponsiveWindowSize {
     param([object]$Form)
     $working=[Windows.Forms.Screen]::PrimaryScreen.WorkingArea
+    if($Form.IsHandleCreated){$working=[Windows.Forms.Screen]::FromHandle($Form.Handle).WorkingArea}
     $dpi=96.0
     try{
         $graphics=$Form.CreateGraphics()
@@ -47,11 +48,40 @@ function Get-NyxResponsiveWindowSize {
     }catch{}
     if($dpi -lt 96.0){$dpi=96.0}
     $scale=$dpi/96.0
-    $availableWidth=[math]::Max(640,$working.Width-32)
-    $availableHeight=[math]::Max(480,$working.Height-32)
+    $availableWidth=[math]::Max(1,$working.Width-32)
+    $availableHeight=[math]::Max(1,$working.Height-32)
     $targetWidth=[math]::Min([int][math]::Ceiling(1280*$scale),$availableWidth)
     $targetHeight=[math]::Min([int][math]::Ceiling(820*$scale),$availableHeight)
     return (New-Object Drawing.Size($targetWidth,$targetHeight))
+}
+function Get-NyxClampedWindowBounds {
+    param([Drawing.Rectangle]$Bounds,[Drawing.Rectangle]$WorkingArea)
+    if($WorkingArea.Width -le 0 -or $WorkingArea.Height -le 0){return $Bounds}
+    $width=[math]::Min($Bounds.Width,$WorkingArea.Width)
+    $height=[math]::Min($Bounds.Height,$WorkingArea.Height)
+    $left=[math]::Max($WorkingArea.Left,[math]::Min($Bounds.Left,$WorkingArea.Right-$width))
+    $top=[math]::Max($WorkingArea.Top,[math]::Min($Bounds.Top,$WorkingArea.Bottom-$height))
+    return (New-Object Drawing.Rectangle($left,$top,$width,$height))
+}
+function Set-NyxWindowWithinWorkingArea {
+    param([object]$Form)
+    if($Form.IsDisposed -or -not $Form.IsHandleCreated -or
+        $Form.WindowState -ne [Windows.Forms.FormWindowState]::Normal){return}
+    if($script:NyxUi.BoundsAdjusting){return}
+    $working=[Windows.Forms.Screen]::FromHandle($Form.Handle).WorkingArea
+    if($working.Width -le 0 -or $working.Height -le 0){return}
+    $script:NyxUi.BoundsAdjusting=$true
+    try{
+        # MinimumSize participates in SetBounds. Reduce it before clamping an
+        # autoscaled window onto a smaller monitor; restore it on larger ones.
+        $scale=[double]$Form.DeviceDpi/96.0
+        $minimum=$script:NyxUi.BoundsMinimum96
+        $Form.MinimumSize=New-Object Drawing.Size(
+            [math]::Min($working.Width,[int][math]::Round($minimum.Width*$scale)),
+            [math]::Min($working.Height,[int][math]::Round($minimum.Height*$scale)))
+        $target=Get-NyxClampedWindowBounds -Bounds $Form.Bounds -WorkingArea $working
+        if($Form.Bounds -ne $target){$Form.Bounds=$target}
+    }finally{$script:NyxUi.BoundsAdjusting=$false}
 }
 function Add-NyxPageHeading {
     param([string]$Title,[string]$Subtitle)
@@ -832,8 +862,35 @@ function Show-NyxMainWindow {
         UpdateManual=$false
         ShownUpdateVersion=''
         AcceptanceCloseProbe=[bool]$AcceptanceCloseProbe
+        BoundsAdjusting=$false
+        BoundsUserSizing=$false
+        BoundsPending=$true
+        BoundsEnvironment=''
+        BoundsMinimum96=(New-Object Drawing.Size(
+            ([int][math]::Round($form.MinimumSize.Width*96.0/$form.DeviceDpi)),
+            ([int][math]::Round($form.MinimumSize.Height*96.0/$form.DeviceDpi))))
     }
 
+    # Use a UI-thread timer rather than SystemEvents callbacks on a worker
+    # thread. It also observes taskbar/work-area changes without a DPI event.
+    $boundsTimer=New-Object Windows.Forms.Timer
+    $boundsTimer.Interval=200
+    $boundsTimer.Add_Tick({
+        $f=$script:NyxUi.Form
+        if($f.IsDisposed -or -not $f.Visible -or $script:NyxUi.BoundsUserSizing){return}
+        $screen=[Windows.Forms.Screen]::FromHandle($f.Handle)
+        $environment='{0}|{1}|{2}' -f $screen.DeviceName,$screen.WorkingArea,$f.DeviceDpi
+        if($script:NyxUi.BoundsPending -or $environment -ne $script:NyxUi.BoundsEnvironment){
+            $script:NyxUi.BoundsPending=$false
+            $script:NyxUi.BoundsEnvironment=$environment
+            Set-NyxWindowWithinWorkingArea -Form $f
+        }
+    })
+    $form.Add_ResizeBegin({$script:NyxUi.BoundsUserSizing=$true})
+    $form.Add_SizeChanged({
+        if(-not $script:NyxUi.BoundsAdjusting){$script:NyxUi.BoundsPending=$true}
+    })
+    $form.Add_FormClosed({$boundsTimer.Stop();$boundsTimer.Dispose()})
     $form.Add_Shown({
         # F-011 defense in depth: do not inherit a hidden/minimized startup state.
         $script:NyxUi.Form.ShowInTaskbar=$true
@@ -842,6 +899,9 @@ function Show-NyxMainWindow {
         }
         [void]$script:NyxUi.Form.Activate()
         $script:NyxUi.Form.BringToFront()
+        Set-NyxWindowWithinWorkingArea -Form $script:NyxUi.Form
+        $script:NyxUi.BoundsPending=$true
+        $boundsTimer.Start()
         Start-NyxUpdateCheck
         if([bool]$script:NyxUi.AcceptanceCloseProbe){
             # Explicit QA-only close probe: exercise the real FormClosing path
@@ -850,6 +910,8 @@ function Show-NyxMainWindow {
         }
     })
     $form.Add_ResizeEnd({
+        $script:NyxUi.BoundsUserSizing=$false
+        Set-NyxWindowWithinWorkingArea -Form $script:NyxUi.Form
         if($script:NyxUi -and $script:NyxUi.Form.WindowState -ne [Windows.Forms.FormWindowState]::Minimized){
             Show-NyxPage -Page $script:NyxUi.CurrentPage
         }
