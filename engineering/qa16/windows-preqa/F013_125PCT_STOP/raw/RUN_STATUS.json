@@ -1,0 +1,5 @@
+﻿{
+    "Status":  "STOPPED",
+    "Error":  "System.Management.Automation.RuntimeException: F-013 native EXE bounds failed; stop",
+    "CandidateModified":  false
+}

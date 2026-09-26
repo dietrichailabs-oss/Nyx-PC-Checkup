@@ -1,0 +1,30 @@
+{
+  "EngineeringStatus": "BLOCKED",
+  "Disposition": "HOLD_FOR_DPI_COORDINATE_CLASSIFICATION",
+  "Build": "2026.09.26-eng-qa16",
+  "HarnessVerdict": "FAIL",
+  "ConfirmedProductDefect": false,
+  "ActualWindowDpi": 120,
+  "ExternalWindow": [
+    26,
+    26,
+    820,
+    567
+  ],
+  "ExternalWorkArea": [
+    0,
+    0,
+    819,
+    566
+  ],
+  "ReportedOverflow": {
+    "Bottom": 1,
+    "Right": 1
+  },
+  "InProcessCapture": "NOT RUN: external check stopped first",
+  "ScreenshotLimitation": "819x614 capture from DPI-virtualized desktop dimensions; not a full physical-desktop proof",
+  "CandidateModified": false,
+  "NextStep": "Correct observer coordinate-space and screenshot capture tooling only, then classify the frozen candidate before any product change",
+  "NativeCampaign": "NOT RUN",
+  "FullF008": "NOT RUN"
+}

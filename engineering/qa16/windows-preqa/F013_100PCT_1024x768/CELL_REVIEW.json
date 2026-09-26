@@ -1,0 +1,27 @@
+{
+  "Status": "FOCUSED_BOUNDS_CELL_PASS",
+  "Scaling": 100,
+  "DPI": 96,
+  "Resolution": "1024x768",
+  "Theme": "FollowWindows",
+  "Page": "Home",
+  "NativeExeBounds": [
+    32,
+    32,
+    1024,
+    720
+  ],
+  "WorkingArea": [
+    0,
+    0,
+    1024,
+    720
+  ],
+  "InProcessBoundsAgree": true,
+  "IndependentLaunches": true,
+  "RemainingDpiCells": "NOT RUN",
+  "FullF008": "NOT RUN",
+  "NativeCampaign": "NOT RUN",
+  "IndependentQAPass": false,
+  "CandidateModified": false
+}

@@ -1,0 +1,236 @@
+﻿{
+    "Schema":  "qa16.f013.bounds.v1",
+    "CapturedUtc":  "2026-09-26T19:48:29.0726357Z",
+    "CandidateModified":  false,
+    "Theme":  "FollowWindows",
+    "Page":  "Home",
+    "RequestedScaling":  "100%",
+    "Handle":  131798,
+    "NativeVisible":  true,
+    "NativeMinimized":  false,
+    "CaptureTrigger":  "At least three stable native-visible UI timer observations",
+    "PrimaryScreen":  {
+                          "Bounds":  {
+                                         "X":  0,
+                                         "Y":  0,
+                                         "Width":  1024,
+                                         "Height":  768,
+                                         "Left":  0,
+                                         "Top":  0,
+                                         "Right":  1024,
+                                         "Bottom":  768
+                                     },
+                          "WorkingArea":  {
+                                              "X":  0,
+                                              "Y":  0,
+                                              "Width":  1024,
+                                              "Height":  720,
+                                              "Left":  0,
+                                              "Top":  0,
+                                              "Right":  1024,
+                                              "Bottom":  720
+                                          }
+                      },
+    "ScreenFromHandle":  {
+                             "Bounds":  {
+                                            "X":  0,
+                                            "Y":  0,
+                                            "Width":  1024,
+                                            "Height":  768,
+                                            "Left":  0,
+                                            "Top":  0,
+                                            "Right":  1024,
+                                            "Bottom":  768
+                                        },
+                             "WorkingArea":  {
+                                                 "X":  0,
+                                                 "Y":  0,
+                                                 "Width":  1024,
+                                                 "Height":  720,
+                                                 "Left":  0,
+                                                 "Top":  0,
+                                                 "Right":  1024,
+                                                 "Bottom":  720
+                                             }
+                         },
+    "Form":  {
+                 "Bounds":  {
+                                "X":  32,
+                                "Y":  32,
+                                "Width":  992,
+                                "Height":  688,
+                                "Left":  32,
+                                "Top":  32,
+                                "Right":  1024,
+                                "Bottom":  720
+                            },
+                 "RestoreBounds":  {
+                                       "X":  32,
+                                       "Y":  32,
+                                       "Width":  992,
+                                       "Height":  688,
+                                       "Left":  32,
+                                       "Top":  32,
+                                       "Right":  1024,
+                                       "Bottom":  720
+                                   },
+                 "ClientRectangle":  {
+                                         "X":  0,
+                                         "Y":  0,
+                                         "Width":  976,
+                                         "Height":  649,
+                                         "Left":  0,
+                                         "Top":  0,
+                                         "Right":  976,
+                                         "Bottom":  649
+                                     },
+                 "Size":  {
+                              "Width":  992,
+                              "Height":  688
+                          },
+                 "ClientSize":  {
+                                    "Width":  976,
+                                    "Height":  649
+                                },
+                 "MinimumSize":  {
+                                     "Width":  992,
+                                     "Height":  688
+                                 },
+                 "WindowState":  "Normal",
+                 "Location":  {
+                                  "X":  32,
+                                  "Y":  32
+                              },
+                 "Visible":  true
+             },
+    "GetWindowRect":  {
+                          "Left":  32,
+                          "Top":  32,
+                          "Right":  1024,
+                          "Bottom":  720,
+                          "Width":  992,
+                          "Height":  688
+                      },
+    "SystemMetrics":  {
+                          "SM_CXSCREEN":  1024,
+                          "SM_CYSCREEN":  768
+                      },
+    "Dpi":  {
+                "FormDeviceDpi":  96,
+                "Graphics":  {
+                                 "X":  96,
+                                 "Y":  96
+                             },
+                "NativeWindow":  96
+            },
+    "Awareness":  {
+                      "ProcessId":  8944,
+                      "ThreadId":  9932,
+                      "ProcessAwareness":  2,
+                      "ProcessAwarenessHResult":  0,
+                      "Thread":  {
+                                     "Context":  34,
+                                     "Awareness":  2,
+                                     "ContextsEqual":  {
+                                                           "Unaware":  false,
+                                                           "SystemAware":  false,
+                                                           "PerMonitor":  false,
+                                                           "PerMonitorV2":  true,
+                                                           "UnawareGdiScaled":  false
+                                                       }
+                                 },
+                      "Window":  {
+                                     "Context":  34,
+                                     "Awareness":  2,
+                                     "ContextsEqual":  {
+                                                           "Unaware":  false,
+                                                           "SystemAware":  false,
+                                                           "PerMonitor":  false,
+                                                           "PerMonitorV2":  true,
+                                                           "UnawareGdiScaled":  false
+                                                       }
+                                 },
+                      "Instrumentation":  "Read-only capture on the application UI thread via an external PowerShell debugger breakpoint and timer.",
+                      "LaunchMode":  "Installed script under native-launcher-equivalent PowerShell flags, with an external observation wrapper.",
+                      "NativeLauncherAwareness":  "Not observed in this instrumented script process; no equivalence claim made."
+                  },
+    "Environment":  {
+                        "ComputerName":  "DESKTOP-4D83OSL",
+                        "User":  "Nyx",
+                        "OS":  "Microsoft Windows NT 10.0.26200.0",
+                        "PowerShell":  "5.1.26100.7920",
+                        "Is64BitProcess":  true,
+                        "SessionId":  1,
+                        "SessionName":  "Console",
+                        "Interactive":  true,
+                        "DisplayMode":  {
+                                            "Width":  1024,
+                                            "Height":  768,
+                                            "Frequency":  64,
+                                            "Device":  "\\\\.\\DISPLAY1"
+                                        },
+                        "Screenshot":  {
+                                           "Path":  "FULL_DESKTOP_SCREENSHOT.png",
+                                           "Width":  1024,
+                                           "Height":  768,
+                                           "CaptureRectangle":  {
+                                                                    "X":  0,
+                                                                    "Y":  0,
+                                                                    "Width":  1024,
+                                                                    "Height":  768,
+                                                                    "Left":  0,
+                                                                    "Top":  0,
+                                                                    "Right":  1024,
+                                                                    "Bottom":  768
+                                                                },
+                                           "Cropped":  false
+                                       }
+                    },
+    "BoundsDecision":  {
+                           "CoordinateSpace":  "Native GetWindowRect and GetMonitorInfo called synchronously on the same UI thread without changing awareness context.",
+                           "Window":  {
+                                          "Left":  32,
+                                          "Top":  32,
+                                          "Right":  1024,
+                                          "Bottom":  720,
+                                          "Width":  992,
+                                          "Height":  688
+                                      },
+                           "WorkArea":  {
+                                            "Left":  0,
+                                            "Top":  0,
+                                            "Right":  1024,
+                                            "Bottom":  720,
+                                            "Width":  1024,
+                                            "Height":  720
+                                        },
+                           "Comparisons":  [
+                                               {
+                                                   "Expression":  "Window.Left \u003c WorkArea.Left",
+                                                   "Window":  32,
+                                                   "WorkArea":  0,
+                                                   "Result":  false
+                                               },
+                                               {
+                                                   "Expression":  "Window.Top \u003c WorkArea.Top",
+                                                   "Window":  32,
+                                                   "WorkArea":  0,
+                                                   "Result":  false
+                                               },
+                                               {
+                                                   "Expression":  "Window.Right \u003e WorkArea.Right",
+                                                   "Window":  1024,
+                                                   "WorkArea":  1024,
+                                                   "Result":  false
+                                               },
+                                               {
+                                                   "Expression":  "Window.Bottom \u003e WorkArea.Bottom",
+                                                   "Window":  720,
+                                                   "WorkArea":  720,
+                                                   "Result":  false
+                                               }
+                                           ],
+                           "WindowBeyondScreen":  false
+                       },
+    "Verdict":  "CAPTURED_PENDING_IDENTITY_ENVIRONMENT_AND_NATIVE_LAUNCH_REVIEW"
+}

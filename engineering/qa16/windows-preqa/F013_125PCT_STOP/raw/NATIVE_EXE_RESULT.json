@@ -1,0 +1,28 @@
+﻿{
+    "Status":  "FAIL",
+    "LauncherPID":  1092,
+    "ApplicationPID":  6560,
+    "Window":  {
+                   "Left":  26,
+                   "Top":  26,
+                   "Right":  820,
+                   "Bottom":  567
+               },
+    "WorkingArea":  {
+                        "Left":  0,
+                        "Top":  0,
+                        "Right":  819,
+                        "Bottom":  566
+                    },
+    "DPI":  120,
+    "Display":  "{X=0,Y=0,Width=819,Height=614}",
+    "User":  "Nyx",
+    "PowerShell":  "5.1.26100.7920",
+    "Process":  {
+                    "ProcessId":  6560,
+                    "ParentProcessId":  1092,
+                    "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+                },
+    "CoordinateSpace":  "External observer context; paired in-process capture required",
+    "CandidateModified":  false
+}
