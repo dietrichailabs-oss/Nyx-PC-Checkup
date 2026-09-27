@@ -1,9 +1,10 @@
 Set-StrictMode -Version 2.0
 function Get-NyxUninstallValue {
     param($Record,[string]$Name)
-    $property=$Record.PSObject.Properties[$Name]
-    if($null -eq $property){return $null}
-    return $property.get_Value()
+    if($null -eq $Record){return $null}
+    $members=@(Get-Member -InputObject $Record -MemberType Properties -ErrorAction Stop | Where-Object {$_.Name -ceq $Name})
+    if($members.Count -eq 0){return $null}
+    return ($Record | Select-Object -ExpandProperty $Name -ErrorAction Stop)
 }
 function ConvertTo-NyxInstalledApplication {
     param($Record)

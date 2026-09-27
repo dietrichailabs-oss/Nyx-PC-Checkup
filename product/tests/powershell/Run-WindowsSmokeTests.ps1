@@ -462,7 +462,7 @@ try{
 $stopped=(Get-Date).ToUniversalTime()
 $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.windows-smoke.v2'
-    HarnessRevision='QA20-F017-PS51-20'
+    HarnessRevision='QA21-F018-PS51-21'
     Scope='normal-user smoke and privacy/update'
     StartedUtc=$started.ToString('o')
     CompletedUtc=$stopped.ToString('o')
