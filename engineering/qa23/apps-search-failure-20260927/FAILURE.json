@@ -1,0 +1,50 @@
+{
+  "EngineeringResult": "STOPPED_ON_GENUINE_PRODUCT_FAILURE",
+  "Finding": "QA23 Apps search unhandled deferred render variable",
+  "Build": "2026.09.27-eng-qa23",
+  "Harness": "QA23-F020-PS51-23",
+  "SourceCommit": "109a9f8d73ebc68bbcb678f2c4c356d80cad9af5",
+  "Page": "Apps",
+  "Input": "n",
+  "Error": "The variable '$render' cannot be retrieved because it has not been set.",
+  "ExceptionType": "System.Management.Automation.RuntimeException",
+  "Expected": "Search filters the installed-app inventory without an unhandled exception.",
+  "Actual": "Windows Forms unhandled exception dialog appears immediately on the first character.",
+  "ObservedReproductions": 1,
+  "NotRepeatedBecause": "Stop-on-first-genuine-product-failure order",
+  "Sequence": [
+    "Existing QA23 installed session at custom 150 percent after Windows sign-out/sign-in",
+    "Startup refresh, row navigation, disposable current-user Disable/Refresh/Re-enable, valid and unavailable location checks",
+    "Navigate to Apps",
+    "Click Search applications",
+    "Press n",
+    "Unhandled exception dialog"
+  ],
+  "Evidence": [
+    "screenshots/13_apps_search_before.png",
+    "screenshots/14_apps_search_unhandled_exception.png",
+    "screenshots/15_apps_exception_details.png"
+  ],
+  "ProductChangedAfterFailure": false,
+  "TestsAfterFailure": "NONE; exception capture and cleanup/collection only",
+  "Acceptance": {
+    "F010": "NOT_RUN",
+    "F008RequiredCells": 132,
+    "F015": "PARTIAL",
+    "F011": "NOT_RUN",
+    "F012": "NOT_RUN",
+    "Elevated": "NOT_RUN",
+    "F008AcceptedCells": 0,
+    "F020": "INCOMPLETE; cross-page audit stopped on Apps product failure",
+    "Standard": "NOT_RUN"
+  },
+  "Automated": {
+    "StructuralTotal": 2,
+    "PythonPassed": 211,
+    "StructuralPassed": 2,
+    "NativeGeometryTotal": 740,
+    "PythonTotal": 211,
+    "NativeGeometryPassed": 740
+  },
+  "IndependentQAApproval": false
+}

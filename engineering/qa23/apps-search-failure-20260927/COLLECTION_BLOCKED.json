@@ -1,0 +1,13 @@
+{
+  "Status": "BLOCKED_UAC_LAUNCH_CANCELLED",
+  "Operation": "Read-only QA23 guest evidence collection",
+  "Error": "Start-Process reported: The operation was canceled by the user.",
+  "GuestLogsExported": false,
+  "GuestInstalledIdentityExported": false,
+  "GuestEnvironmentJsonExported": false,
+  "GuestShutdownByCollector": false,
+  "LiveCleanupClaimed": false,
+  "Preserved": "Exception screenshots, prior positive UI observations, frozen host artifact identities, source/build tests",
+  "ReattemptRequires": "User-approved elevation",
+  "RecordedUtc": "2026-09-27T22:09:21.2106567Z"
+}
