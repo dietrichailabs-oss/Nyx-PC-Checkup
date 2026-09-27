@@ -1,0 +1,8 @@
+﻿{
+    "Run":  {
+                "NyxQA22_MissingTarget_F015":  "\"C:\\NyxQA22Nonexistent_F015\\missing.exe\"",
+                "OneDrive":  "\"C:\\Users\\Nyx\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe\" /background"
+            },
+    "Utc":  "2026-09-27T20:37:19.8689741Z",
+    "Startup":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+}

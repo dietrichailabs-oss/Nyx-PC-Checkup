@@ -1,0 +1,23 @@
+{
+  "Build": "2026.09.27-eng-qa22",
+  "Status": "F015_INCOMPLETE",
+  "ProductModified": false,
+  "Scope": "Installed UI observations; raw guest logs and result validation collected separately. Not final QA approval.",
+  "Observed": [
+    {"Case":"Fresh Refresh","Result":"PASS","Evidence":"FRESH_REFRESH.png"},
+    {"Case":"Refresh x3","Result":"PASS","Evidence":"REFRESH_X3.png"},
+    {"Case":"Navigate away and back then Refresh","Result":"PASS","Evidence":"AWAY_BACK_REFRESH.png"},
+    {"Case":"Current-user OneDrive disable","Result":"PASS","Evidence":"DISABLE_SUCCESS.png"},
+    {"Case":"Disabled state after Refresh","Result":"PASS","Evidence":"DISABLED_AFTER_REFRESH.png"},
+    {"Case":"Current-user OneDrive restore","Result":"PASS","Evidence":"RESTORE_SUCCESS.png"},
+    {"Case":"Restored enabled state after Refresh","Result":"PASS","Evidence":"RESTORED_AFTER_REFRESH.png"},
+    {"Case":"All-users QA22 F019 entry modification actions inert","Result":"PASS_UI_OBSERVATION","Evidence":"ALL_USERS_READ_ONLY.png"},
+    {"Case":"Open valid OneDrive file location","Result":"PASS","Evidence":"OPEN_VALID_TARGET.png"},
+    {"Case":"Refresh after Quick completion","Result":"PASS_UI_OBSERVATION","Evidence":"REFRESH_AFTER_QUICK.png"},
+    {"Case":"Refresh after Full completion","Result":"PASS_UI_OBSERVATION","Evidence":"REFRESH_AFTER_FULL.png"},
+    {"Case":"Refresh after Full cancellation","Result":"PASS_UI_OBSERVATION","Evidence":"REFRESH_AFTER_CANCEL.png"}
+  ],
+  "Pending": ["Missing target", "Verified 100/125/150/200 percent DPI coverage", "1366x768 at 150 and 200 percent", "Collected log review"],
+  "F008CompleteCells": 0,
+  "NewProductFailureObserved": false
+}
