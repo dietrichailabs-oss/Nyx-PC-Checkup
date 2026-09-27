@@ -1,0 +1,2 @@
+"theme","scaling","resolution","page","gate","result","finding","evidence"
+"Unverified current light-rendered","200","1366x768","Startup","F015 focused keyboard visibility","FAIL","Keyboard Down moves selected rows and focus below outer page viewport without scrolling them into view","screenshots/DPI200_GRID_FOURTH_ROW_FOCUS_OFFSCREEN.png"

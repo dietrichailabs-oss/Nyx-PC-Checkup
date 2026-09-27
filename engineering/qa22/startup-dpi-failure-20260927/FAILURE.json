@@ -1,0 +1,31 @@
+{
+  "Build": "2026.09.27-eng-qa22",
+  "FrozenSource": "958813267b6f69466770701816146de234cf1388",
+  "Harness": "QA22-F019-PS51-22",
+  "EngineeringStatus": "STOPPED_PRODUCT_UI_FAILURE",
+  "IndependentQADecision": "PENDING",
+  "ProductModified": false,
+  "Rebuilt": false,
+  "SuccessorCreated": false,
+  "Page": "Startup",
+  "Theme": "Current light-rendered mode; exact saved theme option unverified",
+  "ScalingPercent": 200,
+  "Resolution": "1366x768",
+  "Finding": "Keyboard Down moves selected rows and focus below outer page viewport without scrolling them into view",
+  "MouseWorkaround": "Manually scroll outer page to reveal selected row",
+  "ExceptionObserved": false,
+  "F015Complete": false,
+  "F008CompletePassCells": 0,
+  "F008RequiredCells": 132,
+  "RemainingSuitesRun": false,
+  "InstalledFileCountBefore": 61,
+  "InstalledFileCountAfter": 61,
+  "InstalledHashDifferences": 0,
+  "FixtureRemoved": true,
+  "VMLeftOff": true,
+  "Evidence": [
+    "screenshots/DPI200_GRID_THIRD_ROW_CLIPPED.png",
+    "screenshots/DPI200_GRID_FOURTH_ROW_FOCUS_OFFSCREEN.png",
+    "screenshots/DPI200_MANUAL_SCROLL_REVEALS_SELECTED_ONEDRIVE.png"
+  ]
+}
