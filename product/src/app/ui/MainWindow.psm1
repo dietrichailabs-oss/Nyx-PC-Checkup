@@ -242,6 +242,41 @@ function Invoke-NyxUiAction {
     return $result
 }
 
+function Update-NyxStartupSelection {
+    param([Parameter(Mandatory=$true)]$State)
+    if($State.Grid.IsDisposed){return}
+    $State.Disable.Enabled=$false
+    $State.Enable.Enabled=$false
+    $State.Location.Enabled=$false
+    if($State.Loading -or $State.Grid.SelectedRows.Count -eq 0){return}
+    $app=$State.Grid.SelectedRows[0].Tag
+    if($null -eq $app){return}
+    $State.Disable.Enabled=([bool]$app.Enabled -and [bool]$app.CanModify)
+    $State.Enable.Enabled=(-not [bool]$app.Enabled -and [bool]$app.CanModify)
+    $State.Location.Enabled=(-not [string]::IsNullOrWhiteSpace([string]$app.ExecutablePath))
+}
+
+function Update-NyxStartupRows {
+    param([Parameter(Mandatory=$true)]$State)
+    if($State.Grid.IsDisposed){return}
+    $State.Loading=$true
+    try {
+        $State.Grid.Rows.Clear()
+        $apps=@(Get-NyxStartupApplications)
+        foreach($app in $apps){
+            $control=if([bool]$app.CanModify){'Current user - reversible'}else{'All users - read-only'}
+            $i=$State.Grid.Rows.Add($(if($app.Enabled){'Enabled'}else{'Disabled by Nyx'}),[string]$app.Name,[string]$app.Publisher,[string]$app.SourceLabel,$control,$(if($app.FileExists){'Yes'}else{'No / unknown'}),[string]$app.Impact)
+            $State.Grid.Rows[$i].Tag=$app
+            if(-not $app.Enabled){$State.Grid.Rows[$i].Cells[0].Style.ForeColor=$State.Palette.Optional}
+            elseif(-not [bool]$app.CanModify){$State.Grid.Rows[$i].Cells['Control'].Style.ForeColor=$State.Palette.Muted}
+        }
+        $State.Grid.ClearSelection()
+    } finally {
+        $State.Loading=$false
+        Update-NyxStartupSelection -State $State
+    }
+}
+
 function Show-NyxStartupPage {
     Clear-NyxPage
     Add-NyxPageHeading -Title 'Startup apps' -Subtitle 'These programs are configured to start with Windows. Current-user entries can be changed reversibly; all-users entries are displayed read-only and never trigger elevation.'
@@ -277,56 +312,57 @@ function Show-NyxStartupPage {
     $grid.Columns['Impact'].Width=145
     $script:NyxUi.Content.Controls.Add($grid)
 
-    $load={
-        $grid.Rows.Clear()
-        $apps=@(Get-NyxStartupApplications)
-        foreach($app in $apps){
-            $control=if([bool]$app.CanModify){'Current user - reversible'}else{'All users - read-only'}
-            $i=$grid.Rows.Add($(if($app.Enabled){'Enabled'}else{'Disabled by Nyx'}),[string]$app.Name,[string]$app.Publisher,[string]$app.SourceLabel,$control,$(if($app.FileExists){'Yes'}else{'No / unknown'}),[string]$app.Impact)
-            $grid.Rows[$i].Tag=$app
-            if(-not $app.Enabled){$grid.Rows[$i].Cells[0].Style.ForeColor=$script:NyxUi.Palette.Optional}
-            elseif(-not [bool]$app.CanModify){$grid.Rows[$i].Cells['Control'].Style.ForeColor=$script:NyxUi.Palette.Muted}
-        }
-        $disable.Enabled=$false
-        $enable.Enabled=$false
-        $location.Enabled=$false
+    # F-015: every deferred callback resolves its page instance from the sender.
+    # No closure depends on Show-NyxStartupPage's expired function-local scope.
+    $startupState=[pscustomobject]@{
+        Grid=$grid;Refresh=$refresh;Disable=$disable;Enable=$enable
+        Location=$location;Palette=$script:NyxUi.Palette;Loading=$false
     }
+    foreach($control in @($grid,$refresh,$disable,$enable,$location)){$control.Tag=$startupState}
     $grid.Add_SelectionChanged({
-        if($grid.SelectedRows.Count -eq 0){$disable.Enabled=$false;$enable.Enabled=$false;$location.Enabled=$false;return}
-        $app=$grid.SelectedRows[0].Tag
-        if($null -eq $app){return}
-        $disable.Enabled=([bool]$app.Enabled -and [bool]$app.CanModify)
-        $enable.Enabled=(-not [bool]$app.Enabled -and [bool]$app.CanModify)
-        $location.Enabled=(-not [string]::IsNullOrWhiteSpace([string]$app.ExecutablePath))
+        param($sender,$eventArgs)
+        Update-NyxStartupSelection -State $sender.Tag
     })
-    $refresh.Add_Click($load)
-    &$load
+    $refresh.Add_Click({
+        param($sender,$eventArgs)
+        Update-NyxStartupRows -State $sender.Tag
+    })
+    Update-NyxStartupRows -State $startupState
 
     $disable.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        if($state.Grid.IsDisposed -or $state.Loading -or $state.Grid.SelectedRows.Count -eq 0){return}
+        $app=$state.Grid.SelectedRows[0].Tag
+        if($null -eq $app){return}
         if(-not [bool]$app.CanModify){[Windows.Forms.MessageBox]::Show('All-users startup entries are read-only in Version 1. Nyx did not request elevation and made no change.','Nyx PC Checkup','OK','Information')|Out-Null;return}
         if(-not $app.Enabled){[Windows.Forms.MessageBox]::Show('The selected entry is already disabled.','Nyx PC Checkup')|Out-Null;return}
         $answer=[Windows.Forms.MessageBox]::Show("Disable '$($app.Name)' from starting automatically for this Windows user?`r`n`r`nNyx will write the exact rollback state before making the change.",'Confirm reversible startup change','YesNo','Warning')
         if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
         $r=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='DisableStartup';ApplicationId=[string]$app.Id})
         if($r){[Windows.Forms.MessageBox]::Show([string]$r.Message,'Nyx PC Checkup')|Out-Null}
-        &$load
+        Update-NyxStartupRows -State $state
     })
     $enable.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        if($state.Grid.IsDisposed -or $state.Loading -or $state.Grid.SelectedRows.Count -eq 0){return}
+        $app=$state.Grid.SelectedRows[0].Tag
+        if($null -eq $app){return}
         if(-not [bool]$app.CanModify){return}
         if($app.Enabled){[Windows.Forms.MessageBox]::Show('The selected entry is already enabled.','Nyx PC Checkup')|Out-Null;return}
         $answer=[Windows.Forms.MessageBox]::Show("Restore '$($app.Name)' to its exact previous current-user startup location?",'Confirm startup restore','YesNo','Question')
         if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
         $r=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='EnableStartup';RollbackActionId=[string]$app.RollbackActionId})
         if($r){[Windows.Forms.MessageBox]::Show([string]$r.Message,'Nyx PC Checkup')|Out-Null}
-        &$load
+        Update-NyxStartupRows -State $state
     })
     $location.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        if($state.Grid.IsDisposed -or $state.Loading -or $state.Grid.SelectedRows.Count -eq 0){return}
+        $app=$state.Grid.SelectedRows[0].Tag
+        if($null -eq $app){return}
         $path=[string]$app.ExecutablePath
         if($path -and(Test-Path -LiteralPath $path)){Invoke-NyxOpen 'explorer.exe' ('/select,"'+$path+'"')}
         else{[Windows.Forms.MessageBox]::Show('The executable location is unavailable.','Nyx PC Checkup')|Out-Null}
