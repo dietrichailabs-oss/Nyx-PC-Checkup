@@ -108,7 +108,7 @@ function Read-NyxSetupDiagnostic {
             $raw=[IO.File]::ReadAllText($Path,[Text.Encoding]::Unicode)
             $record=$raw|ConvertFrom-Json
             if([string]$record.schema -ne 'dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1'){throw 'Unexpected diagnostics schema.'}
-            if([string]$record.build -ne '2026.09.27-eng-qa21'){throw 'Unexpected diagnostics build identity.'}
+            if([string]$record.build -ne '2026.09.27-eng-qa22'){throw 'Unexpected diagnostics build identity.'}
             if([int]$record.exitCode -ne $ExpectedExitCode){throw ('Diagnostics exit code does not match process exit code: '+$record.exitCode)}
             if([string]::IsNullOrWhiteSpace([string]$record.branchId)){throw 'Diagnostics branchId is missing.'}
             $valid=$true

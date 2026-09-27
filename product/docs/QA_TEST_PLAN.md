@@ -23,7 +23,7 @@ Independent QA10 reproduced `QA10-F-009` on native Windows PowerShell 5.1: closi
 
 ## Preferred manifest-bound phase runner
 
-After extracting the master handoff, use root `RUN_QA15_WINDOWS_GATE.ps1` with inbox `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. The runner verifies identities before execution and emits phase evidence. Each phase must include `QA15_WINDOWS_PARSE_PREFLIGHT.json` and `QA15_WINDOWS_RUN_SUMMARY.json`. Expected `HarnessRevision` is `QA21-F018-PS51-21`.
+After extracting the master handoff, use root `RUN_QA15_WINDOWS_GATE.ps1` with inbox `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. The runner verifies identities before execution and emits phase evidence. Each phase must include `QA15_WINDOWS_PARSE_PREFLIGHT.json` and `QA15_WINDOWS_RUN_SUMMARY.json`. Expected `HarnessRevision` is `QA22-F019-PS51-22`.
 
 Run Smoke, Standard, and Elevated on appropriate disposable Windows 10/11 x64 snapshots. A process exit code is insufficient by itself: expected JSON reports must exist, parse, contain internally valid totals, and report PASS.
 

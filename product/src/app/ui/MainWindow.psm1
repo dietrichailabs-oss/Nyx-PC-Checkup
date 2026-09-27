@@ -157,7 +157,7 @@ function Show-NyxHomePage {
     $groups=[ordered]@{Storage=@('Storage','Downloads','Cleanup');Updates=@('Updates');Security=@('Security');Startup=@('Startup');Backup=@('Backup');System=@('System','Battery','Drive Health','Performance','Network','Applications')}
     $i=0
     foreach($name in $groups.Keys){
-        $col=$i%3;$row=[math]::Floor($i/3);$x=24+($col*268);$y=292+($row*132);$groupResults=Get-NyxResultsByCategory -Categories $groups[$name];$status=Get-NyxGroupStatus -Results $groupResults
+        $col=$i%3;$row=[math]::Floor($i/3);$x=24+($col*268);$y=292+($row*132);$groupResults=@(Get-NyxResultsByCategory -Categories $groups[$name]);$status=Get-NyxGroupStatus -Results $groupResults
         $c=New-NyxCard -X $x -Y $y -Width 250 -Height 112 -Palette $script:NyxUi.Palette
         $c.Controls.Add((New-NyxLabel -Text $name -X 16 -Y 14 -Width 205 -Height 28 -Size 12 -Bold $true -Palette $script:NyxUi.Palette))
         $c.Controls.Add((New-NyxStatusPill -Status $status -X 16 -Y 48 -Palette $script:NyxUi.Palette))
@@ -188,7 +188,9 @@ function Show-NyxCategoryPage {
     $y=116
     if($ActionText){$button=New-NyxButton -Text $ActionText -X 24 -Y $y -Width 205 -Palette $script:NyxUi.Palette -Primary $true;$button.Add_Click($Action);$script:NyxUi.Content.Controls.Add($button);$y+=56}
     if($null -eq $script:NyxUi.Scan){Add-NyxNoScanCard -Y $y;return}
-    $results=Get-NyxResultsByCategory -Categories $Categories
+    # F-019: function output is pipeline-enumerated even when the helper uses
+    # return @(...). Preserve zero/one/many cardinality at the receiving boundary.
+    $results=@(Get-NyxResultsByCategory -Categories $Categories)
     if($results.Count -eq 0){$script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'This module did not return a result in the last scan. Run a Full Check where applicable.' -X 24 -Y $y -Width (Get-NyxPageWidth) -Height 54 -Size 11 -Palette $script:NyxUi.Palette));Add-NyxScanButtons -X 24 -Y ($y+65);return}
     $grid=New-NyxResultsGridControl -Results $results -Y $y -Height 420;$script:NyxUi.Content.Controls.Add($grid)
 }
@@ -200,7 +202,7 @@ function Show-NyxStoragePage {
     $full=New-NyxButton -Text 'Run Full Check' -X 412 -Y 116 -Width 160 -Palette $script:NyxUi.Palette;$full.Add_Click({Start-NyxScan -Mode 'Full'})
     $script:NyxUi.Content.Controls.AddRange(@($open,$downloads,$full))
     if($null -eq $script:NyxUi.Scan){Add-NyxNoScanCard -Y 174;return}
-    $results=Get-NyxResultsByCategory -Categories @('Storage','Downloads');$grid=New-NyxResultsGridControl -Results $results -Y 174 -Height 280;$script:NyxUi.Content.Controls.Add($grid)
+    $results=@(Get-NyxResultsByCategory -Categories @('Storage','Downloads'));$grid=New-NyxResultsGridControl -Results $results -Y 174 -Height 280;$script:NyxUi.Content.Controls.Add($grid)
     $folderResult=@($script:NyxUi.Scan.Results|Where-Object{$_.CheckId -eq 'storage.user-folders'}|Select-Object -First 1)
     if($folderResult.Count -gt 0){
         $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'Measured user folders' -X 24 -Y 474 -Width 360 -Height 32 -Size 14 -Bold $true -Palette $script:NyxUi.Palette))

@@ -56,4 +56,4 @@ def test_windows_smoke_has_exact_f007_empty_state_regressions():
         "F-007 cleanup action safety revalidation remains fail-closed",
     ]:
         assert marker in source
-    assert "HarnessRevision='QA21-F018-PS51-21'" in source
+    assert "HarnessRevision='QA22-F019-PS51-22'" in source
