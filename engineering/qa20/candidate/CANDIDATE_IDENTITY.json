@@ -1,0 +1,41 @@
+{
+  "Build": "2026.09.27-eng-qa20",
+  "Harness": "QA20-F017-PS51-20",
+  "SourceCommit": "31647d5b2c60ea2abf2a49c0d70912b87b1d7dae",
+  "Setup": {
+    "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa20_f017_candidate_build\\dist\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+    "size": 550912,
+    "sha256": "C38BCA235B8F207D7389F4E79B4C0E1C1B11129842932A35AFE8131D307B98EE"
+  },
+  "Portable": {
+    "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa20_f017_candidate_build\\dist\\Nyx_PC_Checkup_1.0.0_Portable.zip",
+    "size": 218252,
+    "sha256": "068A948F34ED80338C1F50ADC575157D22FED87A5AC341FC50FFAC7B709620B9"
+  },
+  "Source": {
+    "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa20_f017_candidate_build\\dist\\Nyx_PC_Checkup_1.0.0_Source.zip",
+    "size": 769996,
+    "sha256": "F9FA44C460710577E21EC6A6FC4E6C0A7A37D97553EF0728A4FD75CDC0139DD8",
+    "treeSha256": "5D2C8DE549914E65AC5E21CCAE9A8509A72F894CAE69BD8CB362F3B145EB8D8C"
+  },
+  "Automated": {
+    "NativeSourcePropertyGuards": "17/17 PASS",
+    "Python": "203/203 PASS",
+    "StructuralLint": "2/2 PASS"
+  },
+  "Status": "FROZEN_CANDIDATE_AWAITING_INSTALLED_ACCEPTANCE",
+  "F017Installed": "NOT_RUN",
+  "F016Installed": "NOT_RUN",
+  "F015": "NOT_RUN",
+  "F008": {
+    "Fail": 0,
+    "Pass": 0,
+    "NotRun": 132
+  },
+  "Standard": "NOT_RUN",
+  "F011": "NOT_RUN",
+  "F012": "NOT_RUN",
+  "F010": "NOT_RUN",
+  "Elevated": "NOT_RUN",
+  "ReleaseAuthorization": false
+}
