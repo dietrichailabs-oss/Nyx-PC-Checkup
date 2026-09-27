@@ -1,0 +1,58 @@
+﻿{
+    "HarnessCorrectionRevision":  "QA16-F013-OBSERVER-PHYSICAL-1",
+    "Status":  "BOUNDS_PASS_PENDING_DPI_AND_IN_PROCESS_REVIEW",
+    "LauncherPID":  9152,
+    "ApplicationPID":  9108,
+    "Window":  {
+                   "Left":  32,
+                   "Top":  32,
+                   "Right":  1366,
+                   "Bottom":  672
+               },
+    "WorkingArea":  {
+                        "Left":  0,
+                        "Top":  0,
+                        "Right":  1366,
+                        "Bottom":  672
+                    },
+    "DPI":  192,
+    "PhysicalCapture":  {
+                            "Window":  {
+                                           "Left":  32,
+                                           "Top":  32,
+                                           "Right":  1366,
+                                           "Bottom":  672
+                                       },
+                            "Monitor":  {
+                                            "cbSize":  40,
+                                            "Monitor":  {
+                                                            "Left":  0,
+                                                            "Top":  0,
+                                                            "Right":  1366,
+                                                            "Bottom":  768
+                                                        },
+                                            "Work":  {
+                                                         "Left":  0,
+                                                         "Top":  0,
+                                                         "Right":  1366,
+                                                         "Bottom":  672
+                                                     },
+                                            "Flags":  1
+                                        },
+                            "Dpi":  192,
+                            "DesktopX":  0,
+                            "DesktopY":  0,
+                            "DesktopWidth":  1366,
+                            "DesktopHeight":  768,
+                            "ObserverPerMonitorV2":  true
+                        },
+    "User":  "Nyx",
+    "PowerShell":  "5.1.26100.7920",
+    "Process":  {
+                    "ProcessId":  9108,
+                    "ParentProcessId":  9152,
+                    "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+                },
+    "CoordinateSpace":  "Physical pixels: GetWindowRect, GetMonitorInfo, desktop metrics and screenshot on the same verified PerMonitorV2 observer thread; application awareness unchanged",
+    "CandidateModified":  false
+}
