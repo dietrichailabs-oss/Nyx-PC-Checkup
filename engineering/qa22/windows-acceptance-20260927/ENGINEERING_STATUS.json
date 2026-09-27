@@ -1,0 +1,51 @@
+{
+  "Build": "2026.09.27-eng-qa22",
+  "Harness": "QA22-F019-PS51-22",
+  "SourceCommit": "958813267b6f69466770701816146de234cf1388",
+  "EngineeringStatus": "HOLD_INCOMPLETE_ACCEPTANCE",
+  "NewProductDefectEstablished": false,
+  "ProductModified": false,
+  "Rebuilt": false,
+  "FrozenHashes": {
+    "Source": "59309A6341EC6FF8C18E0157DEA325BCCAE2D971F82888A8E4B12062211C3712",
+    "SourceTree": "4A3A45CA0F6DA6C67A17DA5AF164CB90B260114FBE3B84D31CCE105572302F50",
+    "Setup": "618D28B330DC2A501DC5B0CFB22C9AFB2EB23876260A1B490A297966FA3CA2C7",
+    "Portable": "E607E726606B64BE3AE1F040587AE1866A90800066B78228D9130A9E32BFF4CF"
+  },
+  "PriorGreen": {
+    "NativeCardinality": "258/258",
+    "Python": "206/206",
+    "Structural": "2/2"
+  },
+  "F019": "PASS - installed persisted zero/one/multiple category cases and repeated navigation; 60 payload entries match",
+  "F018": "PASS - five consecutive installed Full Checks, valid performance and inventory, live per-run cleanup",
+  "F016": {
+    "TighterQuickToFullGapSeconds": 8.995,
+    "SharedReadsNewSessions": 7249,
+    "QuickCancellation": "Two attempts completed before cancellation took effect; neither counted as cancellation PASS",
+    "CancelledFull": 1,
+    "Completed": 8,
+    "NewSessionResultsValid": 9,
+    "IncludingF018SharedReads": 12566,
+    "NewSessionResultsInvalid": 0,
+    "LiveCleanup": "Empty workers and scan artifacts recorded before shutdown after every result",
+    "TighterFullToQuickGapSeconds": 9.169,
+    "Blocker": "UI-driven runs did not establish tightly timed immediate transitions. No product failure established.",
+    "Status": "INCOMPLETE"
+  },
+  "NotRunAfterThisCheckpoint": [
+    "F015 complete Startup matrix",
+    "F008 complete 132-cell matrix",
+    "Standard",
+    "F011",
+    "F012",
+    "F010 cancellation/malformed state",
+    "Elevated",
+    "remaining required lifecycle/privacy/safety gates"
+  ],
+  "Notes": [
+    "Baselines are excluded from new run totals.",
+    "F018 report ProgressFiles has a serialization error: five 1 entries represent five files, not five independent assertions. Raw read counts are authoritative.",
+    "No final release or Independent QA approval is claimed."
+  ]
+}

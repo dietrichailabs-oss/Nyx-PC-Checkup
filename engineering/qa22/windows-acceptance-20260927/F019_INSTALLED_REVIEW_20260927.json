@@ -1,0 +1,42 @@
+{
+  "Build": "2026.09.27-eng-qa22",
+  "Harness": "QA22-F019-PS51-22",
+  "SourceCommit": "958813267b6f69466770701816146de234cf1388",
+  "Scope": "F-019 installed category cardinality",
+  "EngineeringResult": "PASS",
+  "ProductModified": false,
+  "Cases": [
+    {
+      "Evidence": "F019_INTERACTIVE/Backup_single_01.png; Backup_single_02.png; Backup_single_03.png",
+      "Case": "Original persisted Backup exactly one result",
+      "Observed": "Three page openings, one row, no exception"
+    },
+    {
+      "Evidence": "F019_INTERACTIVE/Security_multi.png; Updates_multi.png; System_multi.png",
+      "Case": "Original persisted multi-result generic categories",
+      "Observed": "Security six rows; Updates three rows; System three rows; no exception"
+    },
+    {
+      "Evidence": "F019_CONTROLLED_UI/Backup_zero_01.png; Backup_zero_02.png; System_zero.png",
+      "Case": "Controlled valid persisted zero-result categories",
+      "Observed": "Backup zero opened twice, System zero opened once; no-data actions visible; no stale grid"
+    },
+    {
+      "Evidence": "F019_CONTROLLED_UI/Updates_one_01.png; Updates_one_02.png",
+      "Case": "Controlled valid persisted one-result category",
+      "Observed": "Updates exactly one row on two openings"
+    },
+    {
+      "Evidence": "F019_CONTROLLED_UI/Security_six_01.png; Security_six_02.png",
+      "Case": "Controlled valid persisted multi-result category",
+      "Observed": "Security six rows on two openings"
+    },
+    {
+      "Evidence": "F019_COMPLETE_COLLECTION_20260927_143501/guest-evidence/controlled_20260927_142548/INSTALLED_PAYLOAD_COMPARISON.json",
+      "Case": "Installed identity",
+      "Observed": "60 portable payload entries compared; zero mismatches"
+    }
+  ],
+  "FixtureNote": "Only persisted test data was changed for cardinality coverage. The installed product was not changed. Product loading recomputed the summary from the valid seven-result fixture.",
+  "DispositionBoundary": "Engineering focused F-019 result only. Independent QA owns final disposition; remaining acceptance gates are not implied."
+}

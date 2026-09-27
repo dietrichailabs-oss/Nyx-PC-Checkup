@@ -1,0 +1,38 @@
+[
+  {
+    "action": "Quick start",
+    "time": "2026-09-27T19:05:00.529Z"
+  },
+  {
+    "action": "Quick completion observed; immediate Full start",
+    "time": "2026-09-27T19:05:30.067Z"
+  },
+  {
+    "action": "Full completion observed; immediate Quick start",
+    "time": "2026-09-27T19:06:03.919Z"
+  },
+  {
+    "action": "Full cancellation test start",
+    "time": "2026-09-27T19:06:30.375Z"
+  },
+  {
+    "action": "Cancel Full clicked",
+    "time": "2026-09-27T19:06:39.556Z"
+  },
+  {
+    "action": "Quick cancellation test start",
+    "time": "2026-09-27T19:06:51.841Z"
+  },
+  {
+    "action": "Cancel Quick clicked",
+    "time": "2026-09-27T19:07:05.644Z"
+  },
+  {
+    "action": "Quick completed before cancellation took effect; retry start",
+    "time": "2026-09-27T19:07:16.916Z"
+  },
+  {
+    "action": "Early Quick cancel clicked",
+    "time": "2026-09-27T19:07:28.042Z"
+  }
+]

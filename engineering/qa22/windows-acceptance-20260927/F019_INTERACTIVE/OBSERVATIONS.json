@@ -1,0 +1,26 @@
+{
+  "Build": "2026.09.27-eng-qa22",
+  "Harness": "QA22-F019-PS51-22",
+  "Stage": "Installed interactive partial observations",
+  "ObservedAt": "2026-09-27T17:54:29.751Z",
+  "BackupOpenings": 3,
+  "BackupRowsEach": 1,
+  "SecurityRows": 6,
+  "UpdatesRows": 3,
+  "SystemRows": 3,
+  "UnhandledExceptionObserved": false,
+  "CompleteF019Acceptance": false,
+  "Pending": [
+    "Installed zero-result input and no-data rendering",
+    "Installed identity and guest run-status evidence retrieval",
+    "Additional controlled persisted-input cardinalities"
+  ],
+  "Evidence": [
+    "Backup_single_01.png",
+    "Backup_single_02.png",
+    "Backup_single_03.png",
+    "Security_multi.png",
+    "Updates_multi.png",
+    "System_multi.png"
+  ]
+}

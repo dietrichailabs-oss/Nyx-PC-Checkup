@@ -1,0 +1,128 @@
+{
+  "Build": "2026.09.27-eng-qa22",
+  "Harness": "QA22-F019-PS51-22",
+  "ProductModified": false,
+  "Scope": "Installed F-016 collected run validation",
+  "Disposition": "INCOMPLETE_ACCEPTANCE",
+  "BaselineExcluded": "RESULT_36778C8EF63E3E00A81D13B7008FADBEFDC57249ABE068C2A65B1CA2CFEC9C39.json",
+  "SharedReads": 4417,
+  "ProgressFileCount": 6,
+  "Runs": [
+    {
+      "Run": 1,
+      "File": "RESULT_0D6A95228434E48EF1B67E78D65438E122242D549842F4BA59EDE81C5459B77F.json",
+      "ObserverSchemaValid": true,
+      "Errors": [],
+      "Mode": "Quick",
+      "Cancelled": false,
+      "ReadOnly": true,
+      "Results": 15,
+      "WorkerError": null,
+      "StartedUtc": "2026-09-27T19:05:01.8532645Z",
+      "CompletedUtc": "2026-09-27T19:05:18.1620312Z",
+      "LiveCleanupSamples": 11,
+      "FirstCleanup": "2026-09-27T15:05:18.9895166-04:00",
+      "Pass": true
+    },
+    {
+      "Run": 2,
+      "File": "RESULT_85A9E2DEAF4DD4C6DD3A95D0A442A8C0B8B1A99D1C97A717A5323B931510DD1A.json",
+      "ObserverSchemaValid": true,
+      "Errors": [],
+      "Mode": "Full",
+      "Cancelled": false,
+      "ReadOnly": true,
+      "Results": 21,
+      "WorkerError": null,
+      "StartedUtc": "2026-09-27T19:05:31.0102103Z",
+      "CompletedUtc": "2026-09-27T19:05:48.7226086Z",
+      "LiveCleanupSamples": 15,
+      "FirstCleanup": "2026-09-27T15:05:49.7725208-04:00",
+      "Pass": true
+    },
+    {
+      "Run": 3,
+      "File": "RESULT_A3658A7FCFF69A536988AEC514A14C02028277C94B5CCCE01F860B66B236D709.json",
+      "ObserverSchemaValid": true,
+      "Errors": [],
+      "Mode": "Quick",
+      "Cancelled": false,
+      "ReadOnly": true,
+      "Results": 15,
+      "WorkerError": null,
+      "StartedUtc": "2026-09-27T19:06:04.9170342Z",
+      "CompletedUtc": "2026-09-27T19:06:14.3952679Z",
+      "LiveCleanupSamples": 15,
+      "FirstCleanup": "2026-09-27T15:06:15.3875108-04:00",
+      "Pass": true
+    },
+    {
+      "Run": 4,
+      "File": "RESULT_61B0BF4A122156466C12C69C4A389F3AC131BE8C9A355A7FD41C009C6C482255.json",
+      "ObserverSchemaValid": true,
+      "Errors": [],
+      "Mode": "Full",
+      "Cancelled": true,
+      "ReadOnly": true,
+      "Results": 14,
+      "WorkerError": null,
+      "StartedUtc": "2026-09-27T19:06:31.3087867Z",
+      "CompletedUtc": "2026-09-27T19:06:39.7518242Z",
+      "LiveCleanupSamples": 12,
+      "FirstCleanup": "2026-09-27T15:06:40.0372928-04:00",
+      "Pass": true
+    },
+    {
+      "Run": 5,
+      "File": "RESULT_CA4ACA5A234ACA07E16601E3ABF863711FC4A3CFD0304F61207662267375678C.json",
+      "ObserverSchemaValid": true,
+      "Errors": [],
+      "Mode": "Quick",
+      "Cancelled": false,
+      "ReadOnly": true,
+      "Results": 15,
+      "WorkerError": null,
+      "StartedUtc": "2026-09-27T19:06:52.7579230Z",
+      "CompletedUtc": "2026-09-27T19:07:02.2185824Z",
+      "LiveCleanupSamples": 14,
+      "FirstCleanup": "2026-09-27T15:07:03.5668214-04:00",
+      "Pass": true
+    },
+    {
+      "Run": 6,
+      "File": "RESULT_0E7A807EFDD55B9719E0F42679FCC41D96502DE9B2177BE93EDA525B1A4C7418.json",
+      "ObserverSchemaValid": true,
+      "Errors": [],
+      "Mode": "Quick",
+      "Cancelled": false,
+      "ReadOnly": true,
+      "Results": 15,
+      "WorkerError": null,
+      "StartedUtc": "2026-09-27T19:07:17.8628339Z",
+      "CompletedUtc": "2026-09-27T19:07:27.1333466Z",
+      "LiveCleanupSamples": 1614,
+      "FirstCleanup": "2026-09-27T15:07:28.1806765-04:00",
+      "Pass": true
+    }
+  ],
+  "Transitions": [
+    {
+      "From": "Quick",
+      "To": "Full",
+      "GapSeconds": 12.848
+    },
+    {
+      "From": "Full",
+      "To": "Quick",
+      "GapSeconds": 16.195
+    }
+  ],
+  "Pending": [
+    "Tightly timed immediate Quick-to-Full and Full-to-Quick acceptance remains unproven.",
+    "Quick cancel attempts completed before cancellation took effect; not counted as cancelled runs.",
+    "Remaining F-015, F-008 and required native suites are not implied."
+  ],
+  "EvidenceDirectory": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa22_native_evidence\\F019_COMPLETE_COLLECTION_20260927_153512\\guest-evidence\\f016_20260927_150421",
+  "Passed": 6,
+  "Failed": 0
+}

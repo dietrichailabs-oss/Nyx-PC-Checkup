@@ -1,0 +1,184 @@
+{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+    "Mode":  "Full",
+    "StartedUtc":  "2026-09-27T16:05:45.5213462Z",
+    "CompletedUtc":  "2026-09-27T16:05:55.4043985Z",
+    "Cancelled":  true,
+    "ReadOnly":  true,
+    "Summary":  {
+                    "OverallStatus":  "NeedsAttention",
+                    "Headline":  "2 things need attention.",
+                    "Good":  9,
+                    "NeedsAttention":  2,
+                    "Optional":  1,
+                    "Unknown":  3,
+                    "Total":  15
+                },
+    "Results":  [
+                    {
+                        "CheckId":  "updates.restart",
+                        "Category":  "Updates",
+                        "Name":  "Update restart",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows does not currently report a pending restart.",
+                        "Reason":  "No supported restart-pending marker was found.",
+                        "Evidence":  {
+                                         "Pending":  false,
+                                         "Sources":  [
+
+                                                     ],
+                                         "Complete":  true,
+                                         "Errors":  [
+
+                                                    ]
+                                     },
+                        "Recommendation":  "No restart is required by the checked Windows servicing markers.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T16:05:46.8854812Z",
+                        "DataSource":  "Windows servicing registry",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.antivirus",
+                        "Category":  "Security",
+                        "Name":  "Antivirus protection",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports that Microsoft Defender antivirus and real-time protection are active.",
+                        "Reason":  "Defender status APIs reported protection enabled.",
+                        "Evidence":  {
+                                         "DefenderAntivirusEnabled":  true,
+                                         "DefenderRealTimeProtectionEnabled":  true,
+                                         "RegisteredProducts":  [
+                                                                    "Windows Defender"
+                                                                ]
+                                     },
+                        "Recommendation":  "No antivirus action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T16:05:47.7573612Z",
+                        "DataSource":  "Get-MpComputerStatus and SecurityCenter2",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.firewall",
+                        "Category":  "Security",
+                        "Name":  "Windows Firewall",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows Firewall is enabled for all reported profiles.",
+                        "Reason":  "Firewall profile states were read without changing them.",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "Domain",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Private",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Public",
+                                             "Enabled":  1
+                                         }
+                                     ],
+                        "Recommendation":  "No firewall action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T16:05:48.2970718Z",
+                        "DataSource":  "Get-NetFirewallProfile",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.windows-security-service",
+                        "Category":  "Security",
+                        "Name":  "Windows Security services",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "A supported Windows Security service is running.",
+                        "Reason":  "Service state was read without changing service configuration.",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "SecurityHealthService",
+                                             "Status":  "Running",
+                                             "StartType":  "Manual"
+                                         },
+                                         {
+                                             "Name":  "wscsvc",
+                                             "Status":  "Running",
+                                             "StartType":  "Automatic"
+                                         }
+                                     ],
+                        "Recommendation":  "No action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T16:05:48.2970718Z",
+                        "DataSource":  "Get-Service",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.secure-boot",
+                        "Category":  "Security",
+                        "Name":  "Secure Boot",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T16:05:48.3290182Z",
+                        "DataSource":  "Confirm-SecureBootUEFI",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.tpm",
+                        "Category":  "Security",
+                        "Name":  "Trusted Platform Module",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "TPM status was unavailable through the supported local interface.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T16:05:48.3604530Z",
+                        "DataSource":  "Get-Tpm",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "TPM status was unavailable through the supported local interface.",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.encryption",
+                        "Category":  "Security",
+                        "Name":  "Drive encryption",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T16:05:53.4719257Z",
+                        "DataSource":  "Get-BitLockerVolume",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "Details":  null
+                    }
+                ]
+}

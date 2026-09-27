@@ -1,0 +1,13 @@
+{
+    "ExpectedRows":  {
+                         "Backup":  0,
+                         "Security":  6,
+                         "Updates":  1
+                     },
+    "Build":  "2026.09.27-eng-qa22",
+    "PowerShell":  "5.1.26100.7920",
+    "Acceptance":  "NOT_CLAIMED",
+    "LauncherPID":  9240,
+    "User":  "Nyx",
+    "Status":  "CONTROLLED_UI_READY"
+}
