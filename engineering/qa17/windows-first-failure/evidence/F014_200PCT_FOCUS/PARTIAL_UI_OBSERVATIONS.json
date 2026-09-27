@@ -1,0 +1,23 @@
+{
+  "status": "INCOMPLETE_NOT_ACCEPTANCE_PASS",
+  "candidate": "2026.09.26-eng-qa17",
+  "requestedScaling": 200,
+  "requestedResolution": "1366x768",
+  "guestMetricsPendingCollection": true,
+  "observations": [
+    "Home content vertical scrolling reaches both scan buttons",
+    "Navigation rail scrolling reaches Settings",
+    "Settings opens from rail",
+    "Tab reaches Theme then notifications checkbox",
+    "Shift+Tab returns focus to Theme; visible dotted focus border",
+    "Horizontal content scrollbar changes viewport"
+  ],
+  "notYetTested": [
+    "Complete page matrix",
+    "Theme coverage",
+    "All required keyboard actions and tooltips",
+    "Full resize and close behavior",
+    "Standard/F-011/F-012/F-010/Elevated"
+  ],
+  "productFailureConfirmed": false
+}

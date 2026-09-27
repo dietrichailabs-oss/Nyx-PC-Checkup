@@ -1,0 +1,31 @@
+﻿{
+    "ProcessId":  10216,
+    "ThreadId":  1200,
+    "ProcessAwareness":  2,
+    "ProcessAwarenessHResult":  0,
+    "Thread":  {
+                   "Context":  34,
+                   "Awareness":  2,
+                   "ContextsEqual":  {
+                                         "Unaware":  false,
+                                         "SystemAware":  false,
+                                         "PerMonitor":  false,
+                                         "PerMonitorV2":  true,
+                                         "UnawareGdiScaled":  false
+                                     }
+               },
+    "Window":  {
+                   "Context":  34,
+                   "Awareness":  2,
+                   "ContextsEqual":  {
+                                         "Unaware":  false,
+                                         "SystemAware":  false,
+                                         "PerMonitor":  false,
+                                         "PerMonitorV2":  true,
+                                         "UnawareGdiScaled":  false
+                                     }
+               },
+    "Instrumentation":  "Read-only capture on the application UI thread via an external PowerShell debugger breakpoint and timer.",
+    "LaunchMode":  "Installed script under native-launcher-equivalent PowerShell flags, with an external observation wrapper.",
+    "NativeLauncherAwareness":  "Not observed in this instrumented script process; no equivalence claim made."
+}

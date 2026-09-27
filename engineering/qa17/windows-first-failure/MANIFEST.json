@@ -1,0 +1,27 @@
+{
+  "candidate": "2026.09.26-eng-qa17",
+  "harness": "QA17-F014-PS51-17",
+  "sourceCommit": "ea35cb79805718b2b68e147585df887b9623af56",
+  "branch": "eng/f014-high-dpi-ui-clipping",
+  "engineeringStatus": "FAIL_RETURN_TO_INDEPENDENT_QA",
+  "independentQaDisposition": "PENDING",
+  "candidateUnchangedAfterBuild": true,
+  "qa16Unchanged": true,
+  "sourceTreeSHA256": "F4CE1B96A297B0405727B5B8A445BB1F85F91766306B44018DF52E65C696C16C",
+  "candidateSHA256": {
+    "Nyx_PC_Checkup_1.0.0_Setup.exe": "AB806C00746F3F1661ADD8CD4FFCC5FF26E1E52C533F6408A99A7EEBDAFE6B51",
+    "Nyx_PC_Checkup_1.0.0_Source.zip": "D31B351393E14B7E99DB9CB522D3C169145D96B8F3ABA2FB90D5A0119601687A",
+    "Nyx_PC_Checkup_1.0.0_Portable.zip": "FEEB0BA966889F54E9B3B4D70F40D750925C0CFEC4CEC4F35FC27043E540DD65"
+  },
+  "matrix": {
+    "notRun": 127,
+    "pass": 0,
+    "total": 132,
+    "incomplete": 4,
+    "fail": 1
+  },
+  "downstreamGates": "Standard,F-011,F-012,F-010,Elevated: NOT_RUN (stop-on-first-product-failure)",
+  "environment": "Existing disposable Nyx VM, QA16 checkpoint preserved, QA17 Setup upgrade, native PS5.1, 200%/1366x768",
+  "observationMode": "Native EXE launch/bounds recorded separately; interactive failure observed in installed script launched with native-equivalent flags through read-only external debugger observer",
+  "failureScope": "One observed run; no repeat or root-cause claim"
+}

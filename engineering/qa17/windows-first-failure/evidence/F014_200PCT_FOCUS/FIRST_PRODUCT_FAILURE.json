@@ -1,0 +1,28 @@
+{
+  "status": "ENGINEERING_FAIL_RETURN_TO_INDEPENDENT_QA",
+  "candidate": "2026.09.26-eng-qa17",
+  "harness": "QA17-F014-PS51-17",
+  "theme": "FollowWindows",
+  "scaling": 200,
+  "resolution": "1366x768",
+  "page": "Startup",
+  "action": "Refresh list",
+  "error": "The variable '$grid' cannot be retrieved because it has not been set.",
+  "reproduction": [
+    "Launch installed QA17 in the disposable VM",
+    "Open Checkup and run Quick Check",
+    "Click Cancel Scan and wait for cancellation confirmation",
+    "Open Startup",
+    "Focus and scroll the content pane to the action row",
+    "Click Refresh list"
+  ],
+  "observed": "Unhandled Windows Forms exception dialog",
+  "scope": "Observed once; no retest after first genuine failure",
+  "candidateModifiedAfterFailure": false,
+  "subsequentGates": "NOT_RUN_STOP_ON_FIRST_PRODUCT_FAILURE",
+  "screenshots": [
+    "QA17_STARTUP_REFRESH_UNHANDLED.png",
+    "QA17_STARTUP_REFRESH_EXCEPTION_DETAILS.png"
+  ],
+  "independentQaDecision": "PENDING"
+}
