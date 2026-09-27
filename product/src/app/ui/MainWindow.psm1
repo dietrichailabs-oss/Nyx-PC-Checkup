@@ -705,10 +705,32 @@ function Start-NyxScan {
     $worker=Join-Path $script:NyxUi.AppRoot 'workers\ScanWorker.ps1';$args="-NoLogo -NoProfile -ExecutionPolicy Bypass -File `"$worker`" -Mode $Mode -OutputPath `"$($script:NyxUi.ScanOutput)`" -ProgressPath `"$($script:NyxUi.ProgressPath)`" -CancelPath `"$($script:NyxUi.CancelPath)`""
     try{$script:NyxUi.ScanProcess=Start-Process -FilePath (Get-NyxPowerShellPath) -ArgumentList $args -WindowStyle Hidden -PassThru;$script:NyxUi.FooterProgress.Value=0;$script:NyxUi.FooterLabel.Text="$Mode check starting. Scanning is read-only.";$script:NyxUi.CancelButton.Enabled=$true;$script:NyxUi.ScanTimer.Start()}catch{[Windows.Forms.MessageBox]::Show("The scan could not start.`r`n$($_.Exception.Message)",'Nyx PC Checkup','OK','Error')|Out-Null}
 }
+function Read-NyxCompleteProgressLines {
+    param([Parameter(Mandatory=$true)][string]$Path)
+    $stream=$null;$reader=$null
+    try {
+        $stream=[IO.FileStream]::new($Path,[IO.FileMode]::Open,[IO.FileAccess]::Read,([IO.FileShare]::ReadWrite -bor [IO.FileShare]::Delete))
+        $reader=[IO.StreamReader]::new($stream,[Text.Encoding]::UTF8,$true)
+        $text=$reader.ReadToEnd()
+        # An append may be in flight. Do not consume its incomplete final line;
+        # the next timer tick reads it after the writer has appended a newline.
+        $last=$text.LastIndexOf("`n")
+        if($last -ge 0){$text.Substring(0,$last) -split "`r?`n"}
+    } catch {
+        $cause=$_.Exception.GetBaseException()
+        if($cause -is [IO.FileNotFoundException]){return}
+        if($cause -is [IO.IOException] -and ($cause.HResult -band 0xFFFF) -in @(32,33)){return}
+        throw
+    } finally {
+        if($null -ne $reader){$reader.Dispose()}
+        elseif($null -ne $stream){$stream.Dispose()}
+    }
+}
+
 function Update-NyxScanProgress {
     try{
         if($script:NyxUi.ProgressPath -and(Test-Path -LiteralPath $script:NyxUi.ProgressPath)){
-            $lines=@(Get-Content -LiteralPath $script:NyxUi.ProgressPath -Encoding UTF8 -ErrorAction SilentlyContinue)
+            $lines=@(Read-NyxCompleteProgressLines -Path $script:NyxUi.ProgressPath)
             if($lines.Count -gt $script:NyxUi.ProgressLineCount){
                 for($i=$script:NyxUi.ProgressLineCount;$i -lt $lines.Count;$i++){
                     try{$e=$lines[$i]|ConvertFrom-Json;$script:NyxUi.FooterLabel.Text=[string]$e.Message;$p=[int]$e.Percent;if($p -ge 0 -and $p -le 100){$script:NyxUi.FooterProgress.Value=$p}}catch{}

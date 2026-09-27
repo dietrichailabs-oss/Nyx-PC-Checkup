@@ -19,7 +19,7 @@ def test_native_installer_emits_machine_readable_diagnostics_for_every_exit_bran
     for token in (
         "/diagnostics:",
         "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
-        "2026.09.26-eng-qa18",
+        "2026.09.26-eng-qa19",
         "LOCALAPPDATA_MISSING",
         "INSTALL_PARENT_UNSAFE",
         "RUNNING_INSTANCE",
@@ -81,7 +81,7 @@ def test_current_setup_harnesses_require_valid_branch_diagnostics() -> None:
     assert "QA2SetupInferences" in migration
     assert "CorrectedSetupRuns" in migration
     assert "InstallerEnvironmentPreflight" in migration
-    assert "2026.09.26-eng-qa18" in migration
+    assert "2026.09.26-eng-qa19" in migration
 
 
 def test_qa7_runner_manifest_binds_helper_and_complete_evidence_tree() -> None:
@@ -91,5 +91,5 @@ def test_qa7_runner_manifest_binds_helper_and_complete_evidence_tree() -> None:
     assert "QA15_WINDOWS_PARSE_PREFLIGHT.json" in source
     assert "QA15_WINDOWS_RUN_SUMMARY.json" in source
     assert 'Compress-Archive -LiteralPath $evidence' in source
-    assert "$script:ExpectedHarnessRevision='QA18-F015-PS51-18'" in source
-    assert "$script:ExpectedBuild='2026.09.26-eng-qa18'" in source
+    assert "$script:ExpectedHarnessRevision='QA19-F016-PS51-19'" in source
+    assert "$script:ExpectedBuild='2026.09.26-eng-qa19'" in source

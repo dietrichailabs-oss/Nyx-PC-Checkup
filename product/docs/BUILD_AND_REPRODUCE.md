@@ -61,4 +61,4 @@ RUN_QA15_WINDOWS_GATE.ps1 -Phase Elevated -DestructiveCleanVmAcknowledged
 
 Use `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. Standard and Elevated phases require separate appropriate snapshots. Preserve the generated phase evidence ZIPs and exact outer-delivery hash.
 
-Every mandatory harness report must contain `HarnessRevision='QA18-F015-PS51-18'`. The Standard phase also runs `Run-WindowsInstalledLaunchRegression.ps1` from an interactive non-elevated desktop.
+Every mandatory harness report must contain `HarnessRevision='QA19-F016-PS51-19'`. The Standard phase also runs `Run-WindowsInstalledLaunchRegression.ps1` from an interactive non-elevated desktop.

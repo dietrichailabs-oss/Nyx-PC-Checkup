@@ -30,10 +30,35 @@ function Assert-NyxScanWorkerPaths {
 }
 Assert-NyxScanWorkerPaths
 
+$script:NyxProgressInitialized=$false
 function Write-NyxProgressEvent {
     param([string]$Type,[int]$Percent,[string]$Message,[object]$Payload=$null)
     $event=[pscustomobject][ordered]@{ Type=$Type; Percent=$Percent; Message=$Message; Timestamp=(Get-Date).ToUniversalTime().ToString('o'); Payload=$Payload }
-    Add-Content -LiteralPath $ProgressPath -Value ($event|ConvertTo-Json -Compress -Depth 15) -Encoding UTF8
+    $bytes=[Text.Encoding]::UTF8.GetBytes(($event|ConvertTo-Json -Compress -Depth 15)+[Environment]::NewLine)
+    # Progress is advisory. Only Windows sharing/lock violations degrade after
+    # bounded retries; serialization, permissions and other I/O errors propagate.
+    for($attempt=0;$attempt -lt 5;$attempt++){
+        $stream=$null
+        try {
+            $mode=if($script:NyxProgressInitialized){[IO.FileMode]::Append}else{[IO.FileMode]::Create}
+            $stream=[IO.FileStream]::new($ProgressPath,$mode,[IO.FileAccess]::Write,([IO.FileShare]::ReadWrite -bor [IO.FileShare]::Delete))
+            $stream.Write($bytes,0,$bytes.Length)
+            $stream.Flush()
+            $script:NyxProgressInitialized=$true
+            return
+        } catch {
+            $cause=$_.Exception.GetBaseException()
+            $code=$cause.HResult -band 0xFFFF
+            if($cause -isnot [IO.IOException] -or $code -notin @(32,33)){throw}
+            if($attempt -eq 4){
+                Write-Warning 'Progress telemetry temporarily unavailable; scan results remain authoritative.' -WarningAction Continue
+                return
+            }
+        } finally {
+            if($null -ne $stream){$stream.Dispose()}
+        }
+        Start-Sleep -Milliseconds (10*[math]::Pow(2,$attempt))
+    }
 }
 
 $started=(Get-Date).ToUniversalTime()
@@ -63,7 +88,6 @@ if($Mode -eq 'Full'){
 }
 
 try{
-    if(Test-Path -LiteralPath $ProgressPath){Remove-Item -LiteralPath $ProgressPath -Force}
     Write-NyxProgressEvent -Type 'Started' -Percent 0 -Message "$Mode check started. Scanning is read-only."
     for($i=0;$i -lt $tasks.Count;$i++){
         if(Test-Path -LiteralPath $CancelPath){$cancelled=$true;break}
@@ -89,9 +113,16 @@ try{
     Write-NyxProgressEvent -Type $(if($cancelled){'Cancelled'}else{'Completed'}) -Percent 100 -Message $(if($cancelled){'Check cancelled. Partial results were preserved.'}else{$summary.Headline}) -Payload $summary
     exit 0
 }catch{
-    Write-NyxLog -Level 'ERROR' -Message ("Scan worker failed: {0}" -f $_.Exception.Message)
-    $failure=[pscustomobject]@{ Schema='dietrich-ai-labs.nyx-pc-checkup.scan.v1'; Mode=$Mode; StartedUtc=$started.ToString('o'); CompletedUtc=(Get-Date).ToUniversalTime().ToString('o'); Cancelled=$false; ReadOnly=$true; Summary=(Get-NyxResultSummary -Results @()); Results=@(); WorkerError=$_.Exception.Message }
+    $workerError=$_.Exception.Message
+    Write-NyxLog -Level 'ERROR' -Message ("Scan worker failed: {0}" -f $workerError)
+    $failure=[pscustomobject]@{ Schema='dietrich-ai-labs.nyx-pc-checkup.scan.v1'; Mode=$Mode; StartedUtc=$started.ToString('o'); CompletedUtc=(Get-Date).ToUniversalTime().ToString('o'); Cancelled=$false; ReadOnly=$true; Summary=(Get-NyxResultSummary -Results @()); Results=@(); WorkerError=$workerError }
     $failure|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
-    Write-NyxProgressEvent -Type 'Failed' -Percent 100 -Message 'The scan worker stopped unexpectedly. No changes were made.' -Payload ([pscustomobject]@{ Error=$_.Exception.Message })
+    try {
+        Write-NyxProgressEvent -Type 'Failed' -Percent 100 -Message 'The scan worker stopped unexpectedly. No changes were made.' -Payload ([pscustomobject]@{ Error=$workerError })
+    } catch {
+        # Only this secondary telemetry attempt is contained. The original
+        # failure is already recorded in the authoritative WorkerError result.
+        Write-Warning ("Failed-event telemetry unavailable; original worker error: {0}" -f $workerError) -WarningAction Continue
+    }
     exit 1
 }
