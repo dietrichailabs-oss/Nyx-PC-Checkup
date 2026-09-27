@@ -1,0 +1,28 @@
+{
+  "Build": "2026.09.26-eng-qa19",
+  "Status": "UI_REPETITIONS_COMPLETE_ARTIFACT_VALIDATION_PENDING",
+  "Quick": {
+    "ObservedNormalUiCompletion": 10,
+    "Required": 10
+  },
+  "Full": {
+    "ObservedNormalUiCompletion": 11,
+    "Required": 10,
+    "AdditionalCompletion": "Cancellation attempt finished before Cancel"
+  },
+  "CancelledQuick": 1,
+  "CancelledFull": 1,
+  "EarlyCancellationRelaunchObserved": true,
+  "ScanAfterCancellationObserved": true,
+  "NavigationDuringQuickObserved": true,
+  "UiProgressUpdatesObserved": true,
+  "WindowsRestartBetweenRuns": false,
+  "ApplicationRelaunchAfterEarlyCancellation": true,
+  "PerRunAuthoritativeFilesCaptured": false,
+  "InstalledRapidReaderStress": "NOT_RUN",
+  "AuthoritativeResultAndCleanupValidation": "PENDING",
+  "F015": "NOT_RUN",
+  "F008": "NOT_RUN",
+  "LaterGates": "NOT_RUN",
+  "CandidateModified": false
+}

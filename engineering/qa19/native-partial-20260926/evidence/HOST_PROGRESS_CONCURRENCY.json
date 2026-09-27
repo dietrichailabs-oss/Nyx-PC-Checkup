@@ -1,0 +1,73 @@
+﻿{
+    "Harness":  "QA19-F016-PS51-19",
+    "Type":  "Deterministic extracted product progress-function regression; not installed scan stress",
+    "Passed":  true,
+    "Count":  16,
+    "Checks":  [
+                   {
+                       "Name":  "Initial event is complete valid JSON",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Writer appends while shared reader remains open",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Bounded retry succeeds after deliberate exclusive lock",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Persistent contention returns within bounded time",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Persistent contention emits explicit warning",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "UI polling tolerates active exclusive contention",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Failed-event contention does not throw a secondary error",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Progress resumes after a dropped event",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "UI ignores an incomplete final JSONL line",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Next poll recovers newly completed line exactly once",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Reader works while writer handle remains open",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "100 writes and 300 rapid reads preserve all complete events",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Every retained progress record parses as JSON",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Non-sharing I/O errors are not suppressed",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "No leaked file handle prevents cleanup",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing telemetry file is safe for UI poll",
+                       "Passed":  true
+                   }
+               ],
+    "Failure":  null
+}

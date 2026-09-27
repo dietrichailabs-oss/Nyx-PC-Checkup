@@ -1,0 +1,29 @@
+{
+  "Build": "2026.09.26-eng-qa19",
+  "Harness": "QA19-F016-PS51-19",
+  "SourceCommit": "3c59c7ab419e00f6961811acac7132609a39266f",
+  "EngineeringStatus": "HOLD_INCOMPLETE_ACCEPTANCE",
+  "IndependentQaDecision": "NOT_CLAIMED",
+  "ProductBytesUnchanged": true,
+  "PythonPassed": 203,
+  "StructuralLintPassed": 2,
+  "GuestDeterministicChecksPassed": 16,
+  "QuickUiCompletions": 10,
+  "FullUiCompletions": 11,
+  "QuickCancellations": 1,
+  "FullCancellations": 1,
+  "F016": "PARTIAL; installed rapid-reader stress and per-run authoritative result/cleanup validation pending",
+  "F015": "NOT_RUN",
+  "F008": {
+    "NotRun": 132,
+    "Pass": 0,
+    "Fail": 0
+  },
+  "Standard": "NOT_RUN",
+  "F011": "NOT_RUN",
+  "F012": "NOT_RUN",
+  "F010": "NOT_RUN",
+  "Elevated": "NOT_RUN",
+  "ObservedNewProductFailure": false,
+  "ReleaseAuthorization": false
+}

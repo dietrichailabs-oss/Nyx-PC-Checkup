@@ -1,0 +1,7 @@
+{
+    "TempExists":  true,
+    "ScanArtifacts":  [
+
+                      ],
+    "Capture":  "After graceful guest shutdown; not proof of pre-shutdown cleanup"
+}
