@@ -23,7 +23,9 @@ function Register-NyxFocusScrollTree {
     param([object]$Root)
     if($null -eq $Root){return}
     foreach($control in @($Root.Controls)){
-        if([bool]$control.TabStop){
+        # F-020: grids use Controls' current-cell/ancestor visibility helper.
+        # Scrolling the whole oversized grid into view would reset that work.
+        if([bool]$control.TabStop -and $control -isnot [Windows.Forms.DataGridView]){
             $control.Add_Enter({
                 param($sender,$eventArgs)
                 try{

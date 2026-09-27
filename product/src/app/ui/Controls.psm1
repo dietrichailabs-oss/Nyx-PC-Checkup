@@ -9,7 +9,9 @@ function Get-NyxControlDpiScale {
 function Register-NyxScrollFocus {
     param([object]$Root)
     foreach($control in @($Root.Controls)){
-        if($control.TabStop -and -not $control.PSObject.Properties['NyxFocusRegistered']){
+        if($control -is [Windows.Forms.DataGridView]){
+            Register-NyxGridFocusVisibility -Grid $control
+        }elseif($control.TabStop -and -not $control.PSObject.Properties['NyxFocusRegistered']){
             $control|Add-Member -NotePropertyName NyxFocusRegistered -NotePropertyValue $true
             $control.Add_Enter({
                 param($sender,$eventArgs)
@@ -23,6 +25,96 @@ function Register-NyxScrollFocus {
         }
         Register-NyxScrollFocus -Root $control
     }
+}
+function Show-NyxGridCurrentCell {
+    param([Windows.Forms.DataGridView]$Grid)
+    if($Grid.IsDisposed -or $Grid.Disposing -or -not $Grid.IsHandleCreated -or -not $Grid.ContainsFocus){return}
+    $cell=$Grid.CurrentCell
+    if($null -eq $cell -or -not $cell.Visible){return}
+    $state=$Grid.NyxGridFocusState
+    if($state.Adjusting){return}
+    $state.Adjusting=$true
+    try{
+        # First let the grid reveal its cell within its own viewport. This is
+        # independent of the (possibly much smaller) outer page viewport.
+        $row=$Grid.Rows[$cell.RowIndex]
+        if(-not $row.Displayed -and -not $row.Frozen){$Grid.FirstDisplayedScrollingRowIndex=$cell.RowIndex}
+        $rect=$Grid.GetCellDisplayRectangle($cell.ColumnIndex,$cell.RowIndex,$false)
+        $dataLeft=if($Grid.RowHeadersVisible){$Grid.RowHeadersWidth}else{1}
+        $dataBottom=$Grid.ClientSize.Height-1
+        $dataRight=$Grid.ClientSize.Width-1
+        foreach($bar in $Grid.Controls){
+            if($bar.Visible -and $bar -is [Windows.Forms.HScrollBar]){$dataBottom-=$bar.Height}
+            if($bar.Visible -and $bar -is [Windows.Forms.VScrollBar]){$dataRight-=$bar.Width}
+        }
+        if(-not $row.Frozen -and ($rect.Top -lt $Grid.ColumnHeadersHeight -or $rect.Bottom -gt $dataBottom)){
+            $Grid.FirstDisplayedScrollingRowIndex=$cell.RowIndex
+        }
+        if(-not $Grid.Columns[$cell.ColumnIndex].Frozen){
+            $rect=$Grid.GetCellDisplayRectangle($cell.ColumnIndex,$cell.RowIndex,$false)
+            $dx=0
+            if($rect.Left -lt $dataLeft -or $rect.Width -gt ($dataRight-$dataLeft)){$dx=$rect.Left-$dataLeft}
+            elseif($rect.Right -gt $dataRight){$dx=$rect.Right-$dataRight}
+            if($dx -ne 0){$Grid.HorizontalScrollingOffset=[math]::Max(0,$Grid.HorizontalScrollingOffset+$dx)}
+        }
+        # Coordinates are actual device pixels. Recompute after each ancestor
+        # moves: neither logical DPI assumptions nor a cached page origin work.
+        $parent=$Grid.Parent
+        while($null -ne $parent){
+            if($parent -is [Windows.Forms.ScrollableControl] -and $parent.AutoScroll -and $parent.ClientSize.Width -gt 8 -and $parent.ClientSize.Height -gt 8){
+                $rect=$Grid.GetCellDisplayRectangle($cell.ColumnIndex,$cell.RowIndex,$true)
+                if($rect.Width -le 0 -or $rect.Height -le 0){return}
+                $visible=$parent.RectangleToClient($Grid.RectangleToScreen($rect))
+                $width=[math]::Min($visible.Width,$parent.ClientSize.Width-8)
+                $height=[math]::Min($visible.Height,$parent.ClientSize.Height-8)
+                $dx=0;$dy=0
+                if($visible.Left -lt 4){$dx=$visible.Left-4}
+                elseif(($visible.Left+$width) -gt ($parent.ClientSize.Width-4)){$dx=$visible.Left+$width-$parent.ClientSize.Width+4}
+                if($visible.Top -lt 4){$dy=$visible.Top-4}
+                elseif(($visible.Top+$height) -gt ($parent.ClientSize.Height-4)){$dy=$visible.Top+$height-$parent.ClientSize.Height+4}
+                if($dx -ne 0 -or $dy -ne 0){
+                    $position=$parent.AutoScrollPosition
+                    $parent.AutoScrollPosition=New-Object Drawing.Point(([math]::Max(0,-$position.X+$dx)),([math]::Max(0,-$position.Y+$dy)))
+                }
+            }
+            $parent=$parent.Parent
+        }
+    }finally{$state.Adjusting=$false}
+}
+function Request-NyxGridFocusVisibility {
+    param([Windows.Forms.DataGridView]$Grid)
+    if($Grid.IsDisposed -or $Grid.Disposing -or -not $Grid.IsHandleCreated -or -not $Grid.ContainsFocus){return}
+    if($Grid.NyxGridFocusState.Adjusting){return}
+    # Coalesce until normal DataGridView key processing/internal scrolling has
+    # settled. A per-grid timer carries explicit lifetime-safe sender state.
+    $Grid.NyxGridFocusState.Timer.Start()
+}
+function Register-NyxGridFocusVisibility {
+    param([Windows.Forms.DataGridView]$Grid)
+    if($Grid.PSObject.Properties['NyxGridFocusState']){return}
+    $timer=New-Object Windows.Forms.Timer
+    $timer.Interval=15
+    $timer.Tag=$Grid
+    $Grid|Add-Member -NotePropertyName NyxGridFocusState -NotePropertyValue ([pscustomobject]@{Timer=$timer;Adjusting=$false})
+    $timer.Add_Tick({
+        param($sender,$eventArgs)
+        $sender.Stop()
+        Show-NyxGridCurrentCell -Grid $sender.Tag
+    })
+    $Grid.Add_Enter({param($sender,$eventArgs)Request-NyxGridFocusVisibility -Grid $sender})
+    $Grid.Add_CurrentCellChanged({param($sender,$eventArgs)Request-NyxGridFocusVisibility -Grid $sender})
+    $Grid.Add_KeyUp({
+        param($sender,$eventArgs)
+        if($eventArgs.KeyCode -in @([Windows.Forms.Keys]::Up,[Windows.Forms.Keys]::Down,[Windows.Forms.Keys]::Left,[Windows.Forms.Keys]::Right,[Windows.Forms.Keys]::PageUp,[Windows.Forms.Keys]::PageDown,[Windows.Forms.Keys]::Home,[Windows.Forms.Keys]::End,[Windows.Forms.Keys]::Tab)){
+            Request-NyxGridFocusVisibility -Grid $sender
+        }
+    })
+    $Grid.Add_SizeChanged({param($sender,$eventArgs)Request-NyxGridFocusVisibility -Grid $sender})
+    $Grid.Add_Disposed({
+        param($sender,$eventArgs)
+        $sender.NyxGridFocusState.Timer.Stop()
+        $sender.NyxGridFocusState.Timer.Dispose()
+    })
 }
 function Set-NyxDeviceGeometry {
     param([object]$Root,[double]$Scale,[switch]$ChildrenOnly)
@@ -130,6 +222,7 @@ function New-NyxGrid {
     $grid.ReadOnly=$true;$grid.AllowUserToAddRows=$false;$grid.AllowUserToDeleteRows=$false;$grid.AllowUserToResizeRows=$false
     $grid.SelectionMode='FullRowSelect';$grid.MultiSelect=$false;$grid.AutoSizeColumnsMode='Fill';$grid.RowTemplate.Height=32;$grid.ShowCellToolTips=$true;$grid.ColumnHeadersHeightSizeMode='AutoSize'
     Set-NyxGridTheme -Grid $grid -Palette $Palette
+    Register-NyxGridFocusVisibility -Grid $grid
     return $grid
 }
 

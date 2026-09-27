@@ -98,6 +98,6 @@ try {
     Assert-F015 'Late disposed-page reload cannot affect current page' ($script:loads -eq ($before+1))
 } catch {$failure=$_.Exception.ToString()} finally {
     $script:NyxUi.Content.Dispose()
-    [ordered]@{Harness='QA22-F019-PS51-22';Type='Isolated deferred WinForms event regression, not installed acceptance';Passed=($null -eq $failure);Checks=$script:checks.ToArray();Count=$script:checks.Count;Failure=$failure}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+    [ordered]@{Harness='QA23-F020-PS51-23';Type='Isolated deferred WinForms event regression, not installed acceptance';Passed=($null -eq $failure);Checks=$script:checks.ToArray();Count=$script:checks.Count;Failure=$failure}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
 }
 if($failure){throw $failure}

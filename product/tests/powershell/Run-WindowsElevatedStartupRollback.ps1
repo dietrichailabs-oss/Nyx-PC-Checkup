@@ -173,7 +173,7 @@ try{
 $stopped=(Get-Date).ToUniversalTime()
 $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.privilege-boundary.v2'
-    HarnessRevision='QA22-F019-PS51-22'
+    HarnessRevision='QA23-F020-PS51-23'
     Scope='privilege-boundary and legacy rollback'
     StartedUtc=$started.ToString('o')
     CompletedUtc=$stopped.ToString('o')

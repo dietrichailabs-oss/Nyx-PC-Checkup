@@ -82,6 +82,6 @@ try {
     Assert-F019 'No scan renders scan card' (@($script:NyxUi.Content.Controls|Where-Object{$_ -is [Windows.Forms.Panel]}).Count -eq 1)
 }catch{$failure=$_.Exception.ToString()}finally{
     $script:NyxUi.Content.Dispose()
-    [ordered]@{Harness='QA22-F019-PS51-22';Type='Native PS5.1 source/WinForms cardinality regression; NOT installed acceptance';PowerShell=$PSVersionTable.PSVersion.ToString();Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+    [ordered]@{Harness='QA23-F020-PS51-23';Type='Native PS5.1 source/WinForms cardinality regression; NOT installed acceptance';PowerShell=$PSVersionTable.PSVersion.ToString();Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
 }
 if($failure){throw $failure}
