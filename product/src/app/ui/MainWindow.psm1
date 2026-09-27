@@ -527,7 +527,7 @@ function Show-NyxCleanupPage {
 
 function Show-NyxSettingsPage {
     Clear-NyxPage
-    Add-NyxPageHeading -Title 'Settings & privacy' -Subtitle 'Nyx PC Checkup is local-first. Its optional weekly update check fetches only a public JSON file from DietrichAILabs.com and never downloads or installs software.'
+    Add-NyxPageHeading -Title 'Settings & privacy' -Subtitle 'Nyx PC Checkup is local-first. Its optional update check fetches only a public JSON file from DietrichAILabs.com and never downloads or installs software.'
     $config=Get-NyxConfiguration
     $w=Get-NyxPageWidth
     $inner=[math]::Max(360,$w-44)
@@ -561,7 +561,7 @@ function Show-NyxSettingsPage {
 
     $card.Controls.Add((New-NyxLabel -Text 'Application updates' -X 22 -Y 188 -Width 300 -Height 32 -Size 14 -Bold $true -Palette $script:NyxUi.Palette))
     $autoUpdates=New-Object Windows.Forms.CheckBox
-    $autoUpdates.Text='Automatically check for updates once a week'
+    $autoUpdates.Text='Automatically check for updates'
     $autoUpdates.Location=New-Object Drawing.Point(22,226)
     $autoUpdates.Size=New-Object Drawing.Size($inner,38)
     $autoUpdates.Checked=[bool]$config.updates.enabled
