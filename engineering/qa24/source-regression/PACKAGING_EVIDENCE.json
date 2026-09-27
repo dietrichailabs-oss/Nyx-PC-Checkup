@@ -1,0 +1,98 @@
+{
+  "schema": "dietrich-ai-labs.packaging-evidence.v1",
+  "product": "Nyx PC Checkup",
+  "version": "1.0.0",
+  "build": "2026.09.27-eng-qa24",
+  "cleanStaging": {
+    "path": "release_staging/Nyx_PC_Checkup_1.0.0_Portable",
+    "payloadFileCount": 59,
+    "payloadManifestSha256": "50786DDC030E591B7B826A961DFC23AFD380339868A507795BAB8F1338E9602F",
+    "unexpectedFiles": 0,
+    "symlinks": 0,
+    "reparsePoints": "not applicable in Linux staging; Windows installer rejects reparse points during finalization"
+  },
+  "source": {
+    "treeSha256": "8133F88348B357EECA20A2C0C4BD9D232238755BB823EF86F80850611A4BFA46",
+    "fileCount": 139
+  },
+  "nativePe": [
+    {
+      "path": "Nyx PC Checkup.exe",
+      "size": 33280,
+      "sha256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "machine": "0x8664",
+      "sections": 4,
+      "timestamp": 0,
+      "optionalHeaderMagic": "0x020B",
+      "subsystem": 2,
+      "dllCharacteristics": "0x8160",
+      "dynamicBase": true,
+      "nxCompat": true,
+      "highEntropyVa": true,
+      "resourceRva": 32768,
+      "resourceSize": 27864,
+      "importRva": 8844,
+      "importSize": 60,
+      "containsAsInvokerManifest": true,
+      "containsProductName": true
+    },
+    {
+      "path": "Uninstall Nyx PC Checkup.exe",
+      "size": 35328,
+      "sha256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC",
+      "machine": "0x8664",
+      "sections": 4,
+      "timestamp": 0,
+      "optionalHeaderMagic": "0x020B",
+      "subsystem": 2,
+      "dllCharacteristics": "0x8160",
+      "dynamicBase": true,
+      "nxCompat": true,
+      "highEntropyVa": true,
+      "resourceRva": 36864,
+      "resourceSize": 27928,
+      "importRva": 12748,
+      "importSize": 60,
+      "containsAsInvokerManifest": true,
+      "containsProductName": true
+    },
+    {
+      "path": "Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "size": 558080,
+      "sha256": "52834E3703A42265679727EDB54387E5B84D1BBCEA564B831D6F1B98F04EC73F",
+      "machine": "0x8664",
+      "sections": 5,
+      "timestamp": 0,
+      "optionalHeaderMagic": "0x020B",
+      "subsystem": 2,
+      "dllCharacteristics": "0x8160",
+      "dynamicBase": true,
+      "nxCompat": true,
+      "highEntropyVa": true,
+      "resourceRva": 688128,
+      "resourceSize": 27912,
+      "importRva": 532176,
+      "importSize": 80,
+      "containsAsInvokerManifest": true,
+      "containsProductName": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "Nyx_PC_Checkup_1.0.0_Portable.zip",
+      "size": 220260,
+      "sha256": "E52AF958BD18EC9C5FC298B0CCFE04C0D4816AE709BEEFA98BF745E45EA45095"
+    },
+    {
+      "path": "Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "size": 558080,
+      "sha256": "52834E3703A42265679727EDB54387E5B84D1BBCEA564B831D6F1B98F04EC73F"
+    },
+    {
+      "path": "Nyx_PC_Checkup_1.0.0_Source.zip",
+      "size": 788582,
+      "sha256": "1745C60064D2BBE42B15E20A5089A7CDBDC81FC08177806DA75C1F868BE012B1"
+    }
+  ],
+  "authenticode": "Unsigned Engineering QA candidate; no code-signing certificate was supplied."
+}

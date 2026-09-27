@@ -1,0 +1,18 @@
+{
+  "schema": "dietrich-ai-labs.engineering-environment.v1",
+  "product": "Nyx PC Checkup",
+  "version": "1.0.0",
+  "build": "2026.09.27-eng-qa24",
+  "startEastern": "2026-09-27T19:18:30.098278-04:00",
+  "stopEastern": "2026-09-27T19:18:35.388958-04:00",
+  "elapsedActiveBuildSessionSeconds": 5.291,
+  "host": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "buildTools": {
+    "clang": "clang version 22.1.8 (https://github.com/llvm/llvm-project ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)",
+    "lldLink": "LLD 22.1.8 (https://github.com/llvm/llvm-project ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)"
+  },
+  "networkBuildDependency": false,
+  "githubUsed": false,
+  "windowsRuntimeAvailable": false
+}

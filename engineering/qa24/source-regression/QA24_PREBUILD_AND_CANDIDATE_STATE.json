@@ -1,0 +1,33 @@
+{
+  "Build": "2026.09.27-eng-qa24",
+  "Harness": "QA24-F021-PS51-24",
+  "SourceCommit": "31ff35dead242485bad2ab74c4838e8a5d41cb7f",
+  "Status": "HOLD - installed acceptance pending",
+  "IndependentQaApproval": false,
+  "QA23Modified": false,
+  "Automated": {
+    "NativePS51DeferredCallbacksPassed": 125,
+    "PostbuildPythonPassed": 216,
+    "NativePS51GridGeometryPassed": 740,
+    "PrebuildPythonPassed": 211,
+    "PostbuildSkipped": 0,
+    "PrebuildArtifactDependentSkipped": 5,
+    "StructuralLintPassed": 2
+  },
+  "SetupSHA256": "52834E3703A42265679727EDB54387E5B84D1BBCEA564B831D6F1B98F04EC73F",
+  "PortableSHA256": "E52AF958BD18EC9C5FC298B0CCFE04C0D4816AE709BEEFA98BF745E45EA45095",
+  "SourceSHA256": "1745C60064D2BBE42B15E20A5089A7CDBDC81FC08177806DA75C1F868BE012B1",
+  "SourceTreeSHA256": "8133F88348B357EECA20A2C0C4BD9D232238755BB823EF86F80850611A4BFA46",
+  "InstalledGates": {
+    "F011": "NOT RUN",
+    "Elevated": "NOT RUN",
+    "F010": "NOT RUN",
+    "F008Passed": 0,
+    "F020": "NOT RUN",
+    "F012": "NOT RUN",
+    "F008Required": 132,
+    "Standard": "NOT RUN",
+    "F021": "NOT RUN",
+    "F015": "NOT RUN"
+  }
+}

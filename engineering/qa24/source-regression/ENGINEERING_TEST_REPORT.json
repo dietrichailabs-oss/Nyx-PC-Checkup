@@ -1,0 +1,32 @@
+{
+  "schema": "dietrich-ai-labs.engineering-test-report.v1",
+  "product": "Nyx PC Checkup",
+  "version": "1.0.0",
+  "build": "2026.09.27-eng-qa24",
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "clang": "clang version 22.1.8 (https://github.com/llvm/llvm-project ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)",
+    "lldLink": "LLD 22.1.8 (https://github.com/llvm/llvm-project ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)",
+    "windowsRuntimeExecuted": false
+  },
+  "suites": [
+    {
+      "name": "PowerShell structural lint — app",
+      "status": "PASS",
+      "output": "PowerShell structural lint: PASS"
+    },
+    {
+      "name": "PowerShell structural lint — Windows tests",
+      "status": "PASS",
+      "output": "PowerShell structural lint: PASS"
+    },
+    {
+      "name": "Python engineering contract, safety, PE, manifest, and archive suite",
+      "status": "PASS",
+      "output": "........................................................................ [ 33%]\n........................................................................ [ 66%]\n........................................................................ [100%]\n216 passed in 1.26s"
+    }
+  ],
+  "boundary": "This Linux engineering environment validated source contracts, safety invariants, clean staging, archive safety, native x64 PE structure, embedded manifests/resources, and package identities. The four supplied PowerShell Windows suites (normal-user smoke and privacy/update, privilege-boundary and legacy rollback, exact QA2-to-QA11 user rollback migration (historical suite label: exact QA2-to-QA9 user rollback migration), and installer lifecycle) require independent execution on Windows 10/11 x64.",
+  "verdict": "PASS WITH WINDOWS EXECUTION DEFERRED TO INDEPENDENT QA"
+}

@@ -1,0 +1,41 @@
+﻿{
+    "Harness":  "QA24-F021-PS51-24",
+    "Kind":  "native source callback regression, not installed acceptance",
+    "PowerShell":  "5.1.26100.9444",
+    "Passed":  5,
+    "Failed":  1,
+    "ExternalBoundariesMocked":  [
+                                     "Explorer launch",
+                                     "message-box response: No",
+                                     "destructive action rejected",
+                                     "byte display format"
+                                 ],
+    "Checks":  [
+                   {
+                       "Name":  "expired-local negative control detects render and search",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Controls.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Dialogs.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: MainWindow.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Theme.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "unhandled source regression exception",
+                       "Pass":  false,
+                       "Detail":  "System.Management.Automation.PropertyNotFoundException: The property \u0027Tag\u0027 cannot be found on this object. Verify that the property exists.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)"
+                   }
+               ],
+    "Exception":  "System.Management.Automation.PropertyNotFoundException: The property \u0027Tag\u0027 cannot be found on this object. Verify that the property exists.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)"
+}

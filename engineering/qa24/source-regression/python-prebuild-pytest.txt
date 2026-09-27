@@ -1,0 +1,83 @@
+.......................ssss........................FFF.................. [ 33%]
+................................s....................................... [ 66%]
+........................................................................ [100%]
+================================== FAILURES ===================================
+______ test_qa4_windows_harness_correction_is_documented_and_build_gated ______
+
+    def test_qa4_windows_harness_correction_is_documented_and_build_gated() -> None:
+        matrix = text(ROOT / "docs" / "QA4_WINDOWS_HARNESS_CORRECTION.md")
+        builder = text(ROOT / "tools" / "build_release.py")
+        readme = text(ROOT / "README_FIRST.md")
+        for token in [
+            "D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1",
+            "22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7",
+            "Argument types do not match",
+            "QA24-F021-PS51-24",
+            "ToArray()",
+            "new product candidate",
+        ]:
+            assert token.lower() in matrix.lower()
+>           assert token.lower() in readme.lower()
+E           AssertionError: assert 'qa24-f021-ps51-24' in '# nyx pc checkup 1.0.0 � qa14 f-011 engineering candidate\n\n**publisher:** dietrich ai labs  \n**version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact qa2-to-qa9 user rollback migration`; and `installer lifecycle`.\n'
+E            +  where 'qa24-f021-ps51-24' = <built-in method lower of str object at 0x000001A77BB51630>()
+E            +    where <built-in method lower of str object at 0x000001A77BB51630> = 'QA24-F021-PS51-24'.lower
+E            +  and   '# nyx pc checkup 1.0.0 � qa14 f-011 engineering candidate\n\n**publisher:** dietrich ai labs  \n**version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact qa2-to-qa9 user rollback migration`; and `installer lifecycle`.\n' = <built-in method lower of str object at 0x000001A779934810>()
+E            +    where <built-in method lower of str object at 0x000001A779934810> = '# Nyx PC Checkup 1.0.0 � QA14 F-011 Engineering Candidate\n\n**Publisher:** Dietrich AI Labs  \n**Version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact QA2-to-QA9 user rollback migration`; and `installer lifecycle`.\n'.lower
+
+qa24_clean_source_01b082578f354645ac1d04c1d532cd15\tests\test_engineering_contracts.py:847: AssertionError
+_______ test_qa5_native_windows_failures_are_documented_and_build_gated _______
+
+    def test_qa5_native_windows_failures_are_documented_and_build_gated() -> None:
+        matrix = text(ROOT / "docs" / "QA5_WINDOWS_EXECUTION_CORRECTION.md")
+        builder = text(ROOT / "tools" / "build_release.py")
+        readme = text(ROOT / "README_FIRST.md")
+        for token in [
+            "B72A0BAD2094F37EAE1E853794A72763A9ACF76D3B27E776AC5FB8647F19B349",
+            "5E6DC04424216650720A408BF8E99AAF52FD6EF20DE35489F76D0740ADE36298",
+            "QA5-WIN-001",
+            "QA5-WIN-002",
+            "QA5-ORCH-001",
+            "QA5-ENC-001",
+            "automatic-variable collision",
+            "QA24-F021-PS51-24",
+            "RUN_QA15_WINDOWS_GATE.ps1",
+        ]:
+            assert token.lower() in matrix.lower()
+>           assert token.lower() in readme.lower()
+E           AssertionError: assert 'qa24-f021-ps51-24' in '# nyx pc checkup 1.0.0 � qa14 f-011 engineering candidate\n\n**publisher:** dietrich ai labs  \n**version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact qa2-to-qa9 user rollback migration`; and `installer lifecycle`.\n'
+E            +  where 'qa24-f021-ps51-24' = <built-in method lower of str object at 0x000001A77BB51630>()
+E            +    where <built-in method lower of str object at 0x000001A77BB51630> = 'QA24-F021-PS51-24'.lower
+E            +  and   '# nyx pc checkup 1.0.0 � qa14 f-011 engineering candidate\n\n**publisher:** dietrich ai labs  \n**version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact qa2-to-qa9 user rollback migration`; and `installer lifecycle`.\n' = <built-in method lower of str object at 0x000001A779A63910>()
+E            +    where <built-in method lower of str object at 0x000001A779A63910> = '# Nyx PC Checkup 1.0.0 � QA14 F-011 Engineering Candidate\n\n**Publisher:** Dietrich AI Labs  \n**Version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact QA2-to-QA9 user rollback migration`; and `installer lifecycle`.\n'.lower
+
+qa24_clean_source_01b082578f354645ac1d04c1d532cd15\tests\test_engineering_contracts.py:876: AssertionError
+__ test_qa6_native_module_composition_failure_is_documented_and_build_gated ___
+
+    def test_qa6_native_module_composition_failure_is_documented_and_build_gated() -> None:
+        matrix = text(ROOT / "docs" / "QA6_MODULE_COMPOSITION_CORRECTION.md")
+        builder = text(ROOT / "tools" / "build_release.py")
+        readme = text(ROOT / "README_FIRST.md")
+        routing = text(ROOT / "docs" / "WHO_GETS_WHAT_NEXT.md")
+        for token in [
+            "E81C56200A409B83E3A1B04A045D4726BE41C24494ED459FB9B91EAB4CACE324",
+            "38B28BB535067EB0B8508A364F6D9EE1DB6FC068D72608F83CFD34F8D28D41C7",
+            "QA6-F-005",
+            "New-NyxCheckResult",
+            "RuntimeComposition.psm1",
+            "QA24-F021-PS51-24",
+            "HarnessInferenceFromImmutableQA2Source",
+        ]:
+            assert token.lower() in matrix.lower()
+>           assert token.lower() in readme.lower()
+E           AssertionError: assert 'qa24-f021-ps51-24' in '# nyx pc checkup 1.0.0 � qa14 f-011 engineering candidate\n\n**publisher:** dietrich ai labs  \n**version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact qa2-to-qa9 user rollback migration`; and `installer lifecycle`.\n'
+E            +  where 'qa24-f021-ps51-24' = <built-in method lower of str object at 0x000001A77BB51630>()
+E            +    where <built-in method lower of str object at 0x000001A77BB51630> = 'QA24-F021-PS51-24'.lower
+E            +  and   '# nyx pc checkup 1.0.0 � qa14 f-011 engineering candidate\n\n**publisher:** dietrich ai labs  \n**version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact qa2-to-qa9 user rollback migration`; and `installer lifecycle`.\n' = <built-in method lower of str object at 0x000001A779934810>()
+E            +    where <built-in method lower of str object at 0x000001A779934810> = '# Nyx PC Checkup 1.0.0 � QA14 F-011 Engineering Candidate\n\n**Publisher:** Dietrich AI Labs  \n**Version:** `1.0.0` ...e`; `privilege-boundary and legacy rollback`; `exact QA2-to-QA9 user rollback migration`; and `installer lifecycle`.\n'.lower
+
+qa24_clean_source_01b082578f354645ac1d04c1d532cd15\tests\test_engineering_contracts.py:906: AssertionError
+=========================== short test summary info ===========================
+FAILED qa24_clean_source_01b082578f354645ac1d04c1d532cd15\tests\test_engineering_contracts.py::test_qa4_windows_harness_correction_is_documented_and_build_gated
+FAILED qa24_clean_source_01b082578f354645ac1d04c1d532cd15\tests\test_engineering_contracts.py::test_qa5_native_windows_failures_are_documented_and_build_gated
+FAILED qa24_clean_source_01b082578f354645ac1d04c1d532cd15\tests\test_engineering_contracts.py::test_qa6_native_module_composition_failure_is_documented_and_build_gated
+3 failed, 208 passed, 5 skipped in 1.86s

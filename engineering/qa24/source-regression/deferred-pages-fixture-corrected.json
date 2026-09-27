@@ -1,0 +1,169 @@
+﻿{
+    "Harness":  "QA24-F021-PS51-24",
+    "Kind":  "native source callback regression, not installed acceptance",
+    "PowerShell":  "5.1.26100.9444",
+    "Passed":  37,
+    "Failed":  1,
+    "ExternalBoundariesMocked":  [
+                                     "Explorer launch",
+                                     "message-box response: No",
+                                     "destructive action rejected",
+                                     "byte display format"
+                                 ],
+    "Checks":  [
+                   {
+                       "Name":  "expired-local negative control detects render and search",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Controls.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Dialogs.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: MainWindow.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Theme.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 initial inventory",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 no selection disables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 first character",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 first character resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 multiple characters",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 multiple characters resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 exact name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 exact name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 partial name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 partial name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 publisher match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 publisher match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 no-match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 no-match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 literal regex",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 literal regex resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 1",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 1 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 2",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 2 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 3",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 3 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 4",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 4 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 selection enables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 valid folder target",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 filter clears stale selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 unavailable folder message",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "unhandled source regression exception",
+                       "Pass":  false,
+                       "Detail":  "System.Management.Automation.PropertyNotFoundException: The property \u0027Candidates\u0027 cannot be found on this object. Verify that the property exists.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)"
+                   }
+               ],
+    "Exception":  "System.Management.Automation.PropertyNotFoundException: The property \u0027Candidates\u0027 cannot be found on this object. Verify that the property exists.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)"
+}
