@@ -1,4 +1,28 @@
 Set-StrictMode -Version 2.0
+function Get-NyxUninstallValue {
+    param($Record,[string]$Name)
+    $property=$Record.PSObject.Properties[$Name]
+    if($null -eq $property){return $null}
+    return $property.get_Value()
+}
+function ConvertTo-NyxInstalledApplication {
+    param($Record)
+    $name=[string](Get-NyxUninstallValue $Record 'DisplayName')
+    if([string]::IsNullOrWhiteSpace($name)){return $null}
+    if((Get-NyxUninstallValue $Record 'SystemComponent') -eq 1){return $null}
+    $version=[string](Get-NyxUninstallValue $Record 'DisplayVersion')
+    $publisher=[string](Get-NyxUninstallValue $Record 'Publisher')
+    $key=("{0}|{1}|{2}" -f $name,$version,$publisher).ToLowerInvariant()
+    $size=$null;$kilobytes=[long]0
+    $rawSize=Get-NyxUninstallValue $Record 'EstimatedSize'
+    if($null -ne $rawSize -and [long]::TryParse([string]$rawSize,[ref]$kilobytes) -and $kilobytes -ge 0 -and $kilobytes -le ([long]::MaxValue / 1024)){$size=$kilobytes * [long]1024}
+    return [pscustomobject][ordered]@{
+        Id=Get-NyxStableId -Text $key;Name=$name;Publisher=$publisher;Version=$version
+        InstallDate=[string](Get-NyxUninstallValue $Record 'InstallDate');EstimatedSizeBytes=$size
+        InstallLocation=[string](Get-NyxUninstallValue $Record 'InstallLocation')
+        UninstallAvailable=(-not [string]::IsNullOrWhiteSpace([string](Get-NyxUninstallValue $Record 'UninstallString')))
+    }
+}
 function Get-NyxInstalledApplications {
     $roots = @(
         'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
@@ -7,18 +31,12 @@ function Get-NyxInstalledApplications {
     )
     $map = @{}
     foreach ($root in $roots) {
-        Get-ItemProperty -Path $root -ErrorAction SilentlyContinue | ForEach-Object {
-            if ([string]::IsNullOrWhiteSpace([string]$_.DisplayName)) { return }
-            if ($_.SystemComponent -eq 1) { return }
-            $key = ("{0}|{1}|{2}" -f $_.DisplayName,$_.DisplayVersion,$_.Publisher).ToLowerInvariant()
-            if (-not $map.ContainsKey($key)) {
-                $size = if ($_.EstimatedSize) { [int64]$_.EstimatedSize * 1024 } else { $null }
-                $map[$key] = [pscustomobject][ordered]@{
-                    Id=Get-NyxStableId -Text $key; Name=[string]$_.DisplayName; Publisher=[string]$_.Publisher;
-                    Version=[string]$_.DisplayVersion; InstallDate=[string]$_.InstallDate; EstimatedSizeBytes=$size;
-                    InstallLocation=[string]$_.InstallLocation; UninstallAvailable=(-not [string]::IsNullOrWhiteSpace([string]$_.UninstallString))
-                }
-            }
+        $parent=$root.Substring(0,$root.Length-2)
+        if(-not(Test-Path -LiteralPath $parent -ErrorAction Stop)){continue}
+        foreach($subkey in @(Get-ChildItem -LiteralPath $parent -ErrorAction Stop)){
+            $record=Get-ItemProperty -LiteralPath $subkey.PSPath -ErrorAction Stop
+            $app=ConvertTo-NyxInstalledApplication $record
+            if($null -ne $app -and -not $map.ContainsKey($app.Id)){$map[$app.Id]=$app}
         }
     }
     return @($map.Values | Sort-Object Name)

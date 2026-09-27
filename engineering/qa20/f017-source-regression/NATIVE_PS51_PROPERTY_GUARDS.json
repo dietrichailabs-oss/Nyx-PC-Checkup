@@ -1,0 +1,77 @@
+﻿{
+    "Passed":  true,
+    "Harness":  "QA20-F017-PS51-20",
+    "Checks":  [
+                   {
+                       "Name":  "CPU getter is avoided; runtime snapshot is retained",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Working set is retained",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Process exits before identity read",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "CPU runtime access failure affects only that field",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing runtime is unknown, not fabricated zero",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing working set is unknown",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Mixed process records retain readable entries",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "CPU sort uses only captured readable values",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Unrelated property errors propagate",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing SystemComponent retains entry",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing optional strings are empty",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing size and uninstall are not invented",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "SystemComponent zero retained",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "SystemComponent one excluded",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing display name skipped",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Partial entry preserves valid values",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Malformed optional size does not discard application",
+                       "Passed":  true
+                   }
+               ],
+    "Failure":  null,
+    "Type":  "Deterministic source-function regression, not installed acceptance",
+    "Count":  17
+}

@@ -562,9 +562,10 @@ def test_update_preferences_are_in_existing_configuration_system() -> None:
     assert "another settings database" not in all_runtime_source().lower()
 
 
-def test_update_ui_has_weekly_setting_manual_action_and_nonblocking_worker() -> None:
+def test_update_ui_has_setting_without_weekly_promise_and_nonblocking_worker() -> None:
     ui = text(APP / "ui" / "MainWindow.psm1")
-    assert "Automatically check for updates once a week" in ui
+    assert "Automatically check for updates once a week" not in ui
+    assert "optional weekly update check" not in ui
     assert "Check for Updates Now" in ui
     assert "Start-NyxUpdateCheck -Manual" in ui
     assert "$form.Add_Shown({" in ui
