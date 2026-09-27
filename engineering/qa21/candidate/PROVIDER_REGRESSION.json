@@ -1,0 +1,94 @@
+﻿{
+    "Passed":  true,
+    "Harness":  "QA21-F018-PS51-21",
+    "Checks":  [
+                   {
+                       "Name":  "Real empty registry key is ignored",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Null provider record is ignored",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider missing SystemComponent returns null",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider missing Publisher returns null",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider missing DisplayVersion returns null",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider missing InstallDate returns null",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider missing EstimatedSize returns null",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider missing InstallLocation returns null",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider missing UninstallString returns null",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Minimal real provider application retained",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Real provider SystemComponent zero retained",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Real provider SystemComponent one excluded",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Mixed provider values preserve application and size",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual provider metadata is readable",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Real provider empty DisplayName ignored",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Unrelated getter failure propagates",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual uninstall provider root read: HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall (17 records)",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual uninstall provider root read: HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall (112 records)",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Actual uninstall provider root read: HKLM:\\Software\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall (160 records)",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Integrated real registry inventory retains entries",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Genuine registry provider failure propagates",
+                       "Passed":  true
+                   }
+               ],
+    "Failure":  null,
+    "Type":  "Native registry-provider source regression; not installed acceptance",
+    "PowerShell":  "5.1.26100.9444",
+    "Count":  21
+}
