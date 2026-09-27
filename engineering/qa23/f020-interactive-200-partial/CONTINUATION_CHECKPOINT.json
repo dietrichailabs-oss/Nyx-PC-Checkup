@@ -1,0 +1,30 @@
+{
+  "Build": "2026.09.27-eng-qa23",
+  "Harness": "QA23-F020-PS51-23",
+  "SourceCommit": "109a9f8d73ebc68bbcb678f2c4c356d80cad9af5",
+  "Status": "HOLD_INCOMPLETE_ACCEPTANCE",
+  "ObservedCustomScaling": 200,
+  "GuestDisplayPixels": "1366x768 (VM display image; guest environment JSON pending collection)",
+  "ObservedAt": "2026-09-27T17:55:02.9754366-04:00",
+  "PositiveObservations": [
+    "Refresh after navigating away and back",
+    "Tab into recreated grid",
+    "Down through all six rows with focused cell visible",
+    "Down at bottom remains on final row",
+    "Up through all six rows with focused cell visible",
+    "Home returns to first column",
+    "End shows last column",
+    "Page Down after Refresh shows bottom row",
+    "Manual outer scroll retained without snapback",
+    "Next keyboard movement restores focused cell visibility",
+    "App window closes normally"
+  ],
+  "NewProductFailureObserved": false,
+  "F020Complete": false,
+  "F015Complete": false,
+  "F008CellsAccepted": 0,
+  "F008CellsRequired": 132,
+  "GuestLogsCollected": false,
+  "Next": "150 percent native session; user sign-in required",
+  "ProductBytesChangedDuringAcceptance": false
+}

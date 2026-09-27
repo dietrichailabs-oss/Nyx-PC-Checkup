@@ -1,0 +1,14 @@
+{
+  "Build": "2026.09.27-eng-qa23",
+  "Harness": "QA23-F020-PS51-23",
+  "SourceCommit": "109a9f8d73ebc68bbcb678f2c4c356d80cad9af5",
+  "SourceTreeSHA256": "60D3EAC86DB42E21C1DCEC87685A926C5C6DAD3B0A7D830B53C3E83651C587DC",
+  "Setup": {"File":"Nyx_PC_Checkup_1.0.0_Setup.exe","Bytes":556032,"SHA256":"723BE1B06EB7F415283D855D7C03A1337DE8B187CC59AA2ECFDC20C1C1536910"},
+  "Portable": {"File":"Nyx_PC_Checkup_1.0.0_Portable.zip","Bytes":219743,"SHA256":"A0E33F3FB9F866E6727F8336190F9A9582AACB00C9B14F9822EA779AE4786B95"},
+  "Source": {"File":"Nyx_PC_Checkup_1.0.0_Source.zip","Bytes":781187,"SHA256":"224FAE87FBD173EBEBDAD5FEC0476D41134ACCC163D3B27EB507F1AD854DED38"},
+  "PythonPassed":211,
+  "StructuralPassed":2,
+  "NativeSourceGeometryPassed":740,
+  "InstalledAcceptance":"PENDING",
+  "IndependentQAApproval":false
+}

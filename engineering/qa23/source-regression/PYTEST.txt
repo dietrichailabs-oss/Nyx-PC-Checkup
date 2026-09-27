@@ -1,0 +1,79 @@
+F.......................F.F............................................. [ 34%]
+...............................F........................................ [ 68%]
+...................................................................      [100%]
+================================== FAILURES ===================================
+______________________ test_version_and_product_identity ______________________
+
+    def test_version_and_product_identity() -> None:
+        version = json.loads(text(ROOT / "VERSION.json"))
+>       assert version == {
+            "product": "Nyx PC Checkup",
+            "publisher": "Dietrich AI Labs",
+            "version": "1.0.0",
+            "build": BUILD_ID,
+            "channel": "Engineering QA Candidate",
+            "platform": "Windows 10/11 x64",
+            "architecture": "PowerShell 5.1 modular application with native x64 launchers",
+            "telemetry": False,
+        }
+E       AssertionError: assert {'product': '...ng-qa23', ...} == {'product': '...ng-qa22', ...}
+E         
+E         Omitting 7 identical items, use -vv to show
+E         Differing items:
+E         {'build': '2026.09.27-eng-qa23'} != {'build': '2026.09.27-eng-qa22'}
+E         Use -v to get more diff
+
+product\tests\test_engineering_contracts.py:137: AssertionError
+_______________ test_stage_payload_manifest_is_exact_and_clean ________________
+
+    def test_stage_payload_manifest_is_exact_and_clean() -> None:
+        manifest_path = STAGE / "PAYLOAD_MANIFEST.json"
+        require_artifact(manifest_path)
+        manifest = json.loads(text(manifest_path))
+>       assert manifest["build"] == BUILD_ID
+E       AssertionError: assert '2026.09.01-eng-qa15' == '2026.09.27-eng-qa22'
+E         
+E         - 2026.09.27-eng-qa22
+E         ?         ^^       ^^
+E         + 2026.09.01-eng-qa15
+E         ?         ^^       ^^
+
+product\tests\test_engineering_contracts.py:444: AssertionError
+__________ test_source_archive_identity_is_exact_and_self_excluding ___________
+
+    def test_source_archive_identity_is_exact_and_self_excluding() -> None:
+        source_zip = DIST / "Nyx_PC_Checkup_1.0.0_Source.zip"
+        require_artifact(source_zip)
+        with zipfile.ZipFile(source_zip) as zf:
+            identity_name = next(name for name in zf.namelist() if name.endswith("/SOURCE_TREE_IDENTITY.json"))
+            archive_root = identity_name.rsplit("/", 1)[0] + "/"
+            identity = json.loads(zf.read(identity_name))
+>           assert identity["build"] == BUILD_ID
+E           AssertionError: assert '2026.09.01-eng-qa15' == '2026.09.27-eng-qa22'
+E             
+E             - 2026.09.27-eng-qa22
+E             ?         ^^       ^^
+E             + 2026.09.01-eng-qa15
+E             ?         ^^       ^^
+
+product\tests\test_engineering_contracts.py:480: AssertionError
+______________ test_f011_version_metadata_is_successor_identity _______________
+
+    def test_f011_version_metadata_is_successor_identity() -> None:
+        version = json.loads((ROOT / "VERSION.json").read_text(encoding="utf-8"))
+        assert version["version"] == "1.0.0"
+>       assert version["build"] == BUILD
+E       AssertionError: assert '2026.09.27-eng-qa23' == '2026.09.27-eng-qa22'
+E         
+E         - 2026.09.27-eng-qa22
+E         ?                   ^
+E         + 2026.09.27-eng-qa23
+E         ?                   ^
+
+product\tests\test_qa14_f011_installed_launch.py:115: AssertionError
+=========================== short test summary info ===========================
+FAILED product\tests\test_engineering_contracts.py::test_version_and_product_identity
+FAILED product\tests\test_engineering_contracts.py::test_stage_payload_manifest_is_exact_and_clean
+FAILED product\tests\test_engineering_contracts.py::test_source_archive_identity_is_exact_and_self_excluding
+FAILED product\tests\test_qa14_f011_installed_launch.py::test_f011_version_metadata_is_successor_identity
+4 failed, 207 passed in 1.27s

@@ -1,0 +1,54 @@
+{
+  "Build": "2026.09.27-eng-qa23",
+  "Harness": "QA23-F020-PS51-23",
+  "Status": "PARTIAL_NOT_ACCEPTANCE_COMPLETE",
+  "RecordedAt": "2026-09-27T17:12:43.4616362-04:00",
+  "Scope": "Startup installed UI keyboard reproduction; guest environment and identity logs pending collection",
+  "Cases": [
+    {
+      "Finding": "Focused cell and row text visible after keyboard navigation.",
+      "Result": "OBSERVED_VISIBLE",
+      "Screenshot": "01_tab_entry.png",
+      "Action": "Tab into grid"
+    },
+    {
+      "Finding": "Focused cell and row text visible after keyboard navigation.",
+      "Result": "OBSERVED_VISIBLE",
+      "Screenshot": "02_third_row_visible.png",
+      "Action": "Down to third row"
+    },
+    {
+      "Finding": "Focused cell and row text visible after keyboard navigation.",
+      "Result": "OBSERVED_VISIBLE",
+      "Screenshot": "03_fourth_row_visible.png",
+      "Action": "Down to fourth row OneDrive"
+    },
+    {
+      "Finding": "Focused cell and row text visible after keyboard navigation.",
+      "Result": "OBSERVED_VISIBLE",
+      "Screenshot": "04_ctrl_end_visible.png",
+      "Action": "Ctrl+End"
+    },
+    {
+      "Finding": "Focused cell and row text visible after keyboard navigation.",
+      "Result": "OBSERVED_VISIBLE",
+      "Screenshot": "05_ctrl_home_visible.png",
+      "Action": "Ctrl+Home"
+    },
+    {
+      "Finding": "Focused cell and row text visible after keyboard navigation.",
+      "Result": "OBSERVED_VISIBLE",
+      "Screenshot": "06_page_down_visible.png",
+      "Action": "Page Down"
+    },
+    {
+      "Finding": "Focused cell and row text visible after keyboard navigation.",
+      "Result": "OBSERVED_VISIBLE",
+      "Screenshot": "07_page_up_visible.png",
+      "Action": "Page Up"
+    }
+  ],
+  "AdditionalObservation": "Shift+Tab exposes Open file location and Re-enable actions; screenshot 08_shift_tab_actions.png",
+  "FrozenCandidateModified": false,
+  "Remaining": "Full F-020, other DPI scales, F-015, F-008 132 cells, required regression suites; no full acceptance claimed"
+}

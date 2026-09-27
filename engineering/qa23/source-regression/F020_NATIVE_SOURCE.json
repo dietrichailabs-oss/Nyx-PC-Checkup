@@ -1,0 +1,23 @@
+﻿{
+    "Passed":  false,
+    "PowerShell":  "5.1.26100.9444",
+    "Harness":  "QA23-F020-PS51-23",
+    "Checks":  [
+                   {
+                       "Name":  "1 Tab entry",
+                       "Passed":  true,
+                       "Geometry":  {
+                                        "Internal":  0,
+                                        "Column":  0,
+                                        "Intersection":  "{X=1,Y=24,Width=180,Height=32}",
+                                        "Row":  0,
+                                        "Outer":  "{X=-24,Y=-160}",
+                                        "Cell":  "{X=1,Y=24,Width=180,Height=32}",
+                                        "Viewport":  "{X=0,Y=0,Width=683,Height=163}"
+                                    }
+                   }
+               ],
+    "Failure":  "System.Management.Automation.MethodInvocationException: Exception calling \"Invoke\" with \"2\" argument(s): \"Object of type \u0027System.Management.Automation.PSObject\u0027 cannot be converted to type \u0027System.Windows.Forms.KeyEventArgs\u0027.\" ---\u003e System.ArgumentException: Object of type \u0027System.Management.Automation.PSObject\u0027 cannot be converted to type \u0027System.Windows.Forms.KeyEventArgs\u0027.\r\n   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at CallSite.Target(Closure , CallSite , Object , Object , Object[] )\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)",
+    "Kind":  "Native PS5.1 deterministic source WinForms geometry; scales emulate device geometry, NOT installed DPI acceptance",
+    "Count":  1
+}
