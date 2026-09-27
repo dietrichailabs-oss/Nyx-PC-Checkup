@@ -25,8 +25,9 @@ def test_qa9_f008_global_layout_no_longer_uses_pre_layout_right_anchors() -> Non
     main = function_body(source, "Show-NyxMainWindow")
     assert "Get-NyxResponsiveWindowSize -Form $form" in main
     assert "$headerActions.Dock='Right'" in main
-    assert "$footerActions.Dock='Right'" in main
-    assert "$version.Dock='Bottom'" in main
+    assert "$footerActions.Dock='Bottom'" in main
+    assert "$rail.AutoScroll=$true" in main
+    assert "$version.Location=New-Object Drawing.Point(0,($y+8))" in main
     assert "$export.Anchor='Top,Right'" not in main
     assert "$progress.Anchor='Top,Right'" not in main
     assert "$cancel.Anchor='Top,Right'" not in main

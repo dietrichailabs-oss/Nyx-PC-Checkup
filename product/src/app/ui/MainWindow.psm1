@@ -9,8 +9,10 @@ function Invoke-NyxOpen {
 function Clear-NyxPage {
     foreach($control in @($script:NyxUi.Content.Controls)){try{$control.Dispose()}catch{}}
     $script:NyxUi.Content.Controls.Clear()
+    $script:NyxUi.Content.AutoScrollPosition=[Drawing.Point]::Empty
+    $script:NyxUi.Content.AutoScrollMinSize=[Drawing.Size]::Empty
 }
-function Get-NyxPageWidth { return [math]::Max(430,$script:NyxUi.Content.ClientSize.Width-52) }
+function Get-NyxPageWidth { return [math]::Max(430,([int]($script:NyxUi.Content.ClientSize.Width/$script:NyxUi.LayoutScale)-52)) }
 function Set-NyxPageScrollExtent {
     param([int]$Height)
     if($null -eq $script:NyxUi -or $null -eq $script:NyxUi.Content){return}
@@ -74,7 +76,7 @@ function Set-NyxWindowWithinWorkingArea {
     try{
         # MinimumSize participates in SetBounds. Reduce it before clamping an
         # autoscaled window onto a smaller monitor; restore it on larger ones.
-        $scale=[double]$Form.DeviceDpi/96.0
+        $scale=Get-NyxControlDpiScale -Control $Form
         $minimum=$script:NyxUi.BoundsMinimum96
         $Form.MinimumSize=New-Object Drawing.Size(
             [math]::Min($working.Width,[int][math]::Round($minimum.Width*$scale)),
@@ -710,7 +712,30 @@ function Show-NyxPage {
         'System'{Show-NyxCategoryPage -Title 'System details' -Subtitle 'Hardware class, uptime, battery, drive health, performance snapshot, and basic network status. Serial numbers and product keys are not collected.' -Categories @('System','Battery','Drive Health','Performance','Network') -ActionText 'Open Windows System About' -Action {Invoke-NyxOpen 'ms-settings:about'}};
         'Apps'{Show-NyxAppsPage};'Cleanup'{Show-NyxCleanupPage};'Settings'{Show-NyxSettingsPage};default{Show-NyxHomePage}
     }
+    # Every page is authored in 96-DPI logical units, including dynamically
+    # generated cards, grids, checkboxes and nested controls.
+    foreach($child in @($script:NyxUi.Content.Controls)){$child.Anchor='Top,Left'}
+    Set-NyxDeviceGeometry -Root $script:NyxUi.Content -Scale $script:NyxUi.LayoutScale -ChildrenOnly
+    Set-NyxScrollExtentFromChildren -Root $script:NyxUi.Content -Padding ([int](24*$script:NyxUi.LayoutScale))
     Register-NyxFocusScrollTree -Root $script:NyxUi.Content
+    Register-NyxScrollFocus -Root $script:NyxUi.Content
+}
+
+function Update-NyxDeviceLayout {
+    $ui=$script:NyxUi;$scale=Get-NyxControlDpiScale -Control $ui.Form
+    if($scale -ne $ui.LayoutScale){
+        foreach($part in @($ui.Rail,$ui.Header,$ui.Footer)){Set-NyxDeviceGeometry -Root $part -Scale $scale}
+        $ui.LayoutScale=$scale
+        Set-NyxScrollExtentFromChildren -Root $ui.Rail -Padding ([int](12*$scale))
+    }
+    # Two footer rows keep status, progress and Cancel independent of the
+    # former fixed 500-pixel right-hand strip.
+    $ui.Footer.Height=[int](96*$scale)
+    $ui.FooterLabel.Height=[int](42*$scale)
+    $ui.FooterActions.Height=[int](54*$scale)
+    $ui.CancelButton.Location=New-Object Drawing.Point([math]::Max(0,($ui.FooterActions.ClientSize.Width-[int](176*$scale))),([int](8*$scale)))
+    $ui.FooterProgress.Location=New-Object Drawing.Point(([int](18*$scale)),([int](19*$scale)))
+    $ui.FooterProgress.Width=[math]::Max(1,($ui.CancelButton.Left-[int](32*$scale)))
 }
 
 function Show-NyxMainWindow {
@@ -735,7 +760,7 @@ function Show-NyxMainWindow {
     $form.WindowState=[Windows.Forms.FormWindowState]::Normal
     $form.BackColor=$palette.Window
     $form.ForeColor=$palette.Text
-    $form.AutoScaleMode='Dpi'
+    $form.AutoScaleMode='None'
     $form.Font=New-Object Drawing.Font('Segoe UI',10)
 
     # QA10-F-008: size the initial window for the active DPI while staying
@@ -750,7 +775,8 @@ function Show-NyxMainWindow {
 
     $rail=New-Object Windows.Forms.Panel
     $rail.Dock='Left'
-    $rail.Width=220
+    $rail.Width=240
+    $rail.AutoScroll=$true
     $rail.BackColor=$palette.Rail
     $brand=New-NyxLabel -Text 'NYX' -X 22 -Y 20 -Width 80 -Height 38 -Size 22 -Bold $true -Palette $palette
     $brand.ForeColor=$palette.Accent2
@@ -768,7 +794,7 @@ function Show-NyxMainWindow {
         $y+=46
     }
     $version=New-NyxLabel -Text 'v1.0.0 - Local-first' -X 0 -Y 0 -Width 220 -Height 42 -Size 8 -Palette $palette -Color 'Muted'
-    $version.Dock='Bottom'
+    $version.Location=New-Object Drawing.Point(0,($y+8))
     $version.Padding=New-Object Windows.Forms.Padding(22,8,8,0)
     $rail.Controls.Add($version)
 
@@ -786,6 +812,8 @@ function Show-NyxMainWindow {
     $export.Add_Click({Export-NyxCurrentReport})
     $headerActions.Controls.Add($export)
     $headerTitle=New-NyxLabel -Text 'Home' -X 28 -Y 20 -Width 500 -Height 38 -Size 16 -Bold $true -Palette $palette
+    $headerTitle.Dock='Fill'
+    $headerTitle.Padding=New-Object Windows.Forms.Padding(28,20,0,0)
     $header.Controls.Add($headerTitle)
     $header.Controls.Add($headerActions)
 
@@ -796,7 +824,8 @@ function Show-NyxMainWindow {
     $footer.Height=58
     $footer.BackColor=$palette.Rail
     $footerActions=New-Object Windows.Forms.Panel
-    $footerActions.Dock='Right'
+    $footerActions.Dock='Bottom'
+    $footerActions.Height=54
     $footerActions.Width=500
     $footerActions.BackColor=$palette.Rail
     $progress=New-Object Windows.Forms.ProgressBar
@@ -809,7 +838,7 @@ function Show-NyxMainWindow {
     $cancel.Add_Click({Cancel-NyxScan})
     $footerActions.Controls.AddRange(@($progress,$cancel))
     $footerLabel=New-NyxLabel -Text 'Ready. No background monitor is running.' -X 0 -Y 0 -Width 500 -Height 58 -Size 9 -Palette $palette -Color 'Muted'
-    $footerLabel.Dock='Fill'
+    $footerLabel.Dock='Top'
     $footerLabel.Padding=New-Object Windows.Forms.Padding(22,16,12,0)
     $footer.Controls.Add($footerLabel)
     $footer.Controls.Add($footerActions)
@@ -843,6 +872,8 @@ function Show-NyxMainWindow {
         Header=$header
         HeaderTitle=$headerTitle
         Footer=$footer
+        FooterActions=$footerActions
+        LayoutScale=0.0
         FooterLabel=$footerLabel
         FooterProgress=$progress
         CancelButton=$cancel
@@ -867,8 +898,8 @@ function Show-NyxMainWindow {
         BoundsPending=$true
         BoundsEnvironment=''
         BoundsMinimum96=(New-Object Drawing.Size(
-            ([int][math]::Round($form.MinimumSize.Width*96.0/$form.DeviceDpi)),
-            ([int][math]::Round($form.MinimumSize.Height*96.0/$form.DeviceDpi))))
+            ([int][math]::Round($form.MinimumSize.Width/(Get-NyxControlDpiScale -Control $form))),
+            ([int][math]::Round($form.MinimumSize.Height/(Get-NyxControlDpiScale -Control $form)))))
     }
 
     # Use a UI-thread timer rather than SystemEvents callbacks on a worker
@@ -879,11 +910,14 @@ function Show-NyxMainWindow {
         $f=$script:NyxUi.Form
         if($f.IsDisposed -or -not $f.Visible -or $script:NyxUi.BoundsUserSizing){return}
         $screen=[Windows.Forms.Screen]::FromHandle($f.Handle)
-        $environment='{0}|{1}|{2}' -f $screen.DeviceName,$screen.WorkingArea,$f.DeviceDpi
+        $environment='{0}|{1}|{2}' -f $screen.DeviceName,$screen.WorkingArea,(Get-NyxControlDpiScale -Control $f)
         if($script:NyxUi.BoundsPending -or $environment -ne $script:NyxUi.BoundsEnvironment){
             $script:NyxUi.BoundsPending=$false
             $script:NyxUi.BoundsEnvironment=$environment
             Set-NyxWindowWithinWorkingArea -Form $f
+            $previousScale=$script:NyxUi.LayoutScale
+            Update-NyxDeviceLayout
+            if($previousScale -ne $script:NyxUi.LayoutScale){Show-NyxPage -Page $script:NyxUi.CurrentPage}
         }
     })
     $form.Add_ResizeBegin({$script:NyxUi.BoundsUserSizing=$true})
@@ -939,6 +973,8 @@ function Show-NyxMainWindow {
         [void](Remove-NyxTemporaryArtifacts -Path @($script:NyxUi.ScanOutput,$script:NyxUi.ProgressPath,$script:NyxUi.CancelPath,$script:NyxUi.UpdateOutput))
     })
 
+    Update-NyxDeviceLayout
+    Register-NyxScrollFocus -Root $form
     Show-NyxPage -Page 'Home'
     [void][Windows.Forms.Application]::Run($form)
 }

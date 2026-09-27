@@ -2,8 +2,8 @@
 
 **Publisher:** Dietrich AI Labs  
 **Version:** `1.0.0`  
-**Build:** `2026.09.26-eng-qa16`  
-**Harness revision:** `QA16-F013-PS51-16`  
+**Build:** `2026.09.26-eng-qa17`  
+**Harness revision:** `QA17-F014-PS51-17`  
 **Target:** Windows 10/11 x64 with inbox Windows PowerShell 5.1  
 **Engineering state:** `READY FOR NATIVE WINDOWS VM PRE-QA`  
 **Release authorization:** `FALSE`

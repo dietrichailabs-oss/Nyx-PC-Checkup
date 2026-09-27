@@ -1,4 +1,91 @@
 Set-StrictMode -Version 2.0
+function Get-NyxControlDpiScale {
+    param([object]$Control)
+    # DeviceDpi remains 96 in some inbox PowerShell WinForms hosts. Graphics
+    # uses the actual window DC, matching the font rasterization in that host.
+    $graphics=$Control.CreateGraphics()
+    try {return ([double]$graphics.DpiX/96.0)} finally {$graphics.Dispose()}
+}
+function Register-NyxScrollFocus {
+    param([object]$Root)
+    foreach($control in @($Root.Controls)){
+        if($control.TabStop -and -not $control.PSObject.Properties['NyxFocusRegistered']){
+            $control|Add-Member -NotePropertyName NyxFocusRegistered -NotePropertyValue $true
+            $control.Add_Enter({
+                param($sender,$eventArgs)
+                $target=$sender
+                while($null -ne $target.Parent){
+                    $parent=$target.Parent
+                    if($parent -is [Windows.Forms.ScrollableControl] -and $parent.AutoScroll){$parent.ScrollControlIntoView($target)}
+                    $target=$parent
+                }
+            })
+        }
+        Register-NyxScrollFocus -Root $control
+    }
+}
+function Set-NyxDeviceGeometry {
+    param([object]$Root,[double]$Scale,[switch]$ChildrenOnly)
+    if($Scale -le 0){throw 'Invalid UI scale'}
+    $nodes=[Collections.Generic.List[object]]::new()
+    $pending=[Collections.Generic.Queue[object]]::new()
+    $pending.Enqueue($Root)
+    while($pending.Count){
+        $control=$pending.Dequeue()
+        foreach($child in @($control.Controls)){$pending.Enqueue($child)}
+        if($ChildrenOnly -and $control -eq $Root){continue}
+        $previous=1.0
+        if($control.PSObject.Properties['NyxGeometryScale']){$previous=[double]$control.NyxGeometryScale}
+        $nodes.Add([pscustomobject]@{Control=$control;Bounds=$control.Bounds;Padding=$control.Padding;Margin=$control.Margin;Dock=$control.Dock;Anchor=$control.Anchor;Ratio=($Scale/$previous)})
+        $control.SuspendLayout()
+    }
+    try{
+        # Capture every rectangle before changing any parent. Disable anchors
+        # during conversion so parent resizing cannot scale children twice.
+        foreach($node in $nodes){$node.Control.Dock='None';$node.Control.Anchor='Top,Left'}
+        foreach($node in $nodes){
+            $c=$node.Control;$r=$node.Ratio;$b=$node.Bounds
+            $c.Bounds=New-Object Drawing.Rectangle(([int][math]::Round($b.X*$r)),([int][math]::Round($b.Y*$r)),([int][math]::Round($b.Width*$r)),([int][math]::Round($b.Height*$r)))
+            $p=$node.Padding;$m=$node.Margin
+            $c.Padding=New-Object Windows.Forms.Padding(([int]($p.Left*$r)),([int]($p.Top*$r)),([int]($p.Right*$r)),([int]($p.Bottom*$r)))
+            $c.Margin=New-Object Windows.Forms.Padding(([int]($m.Left*$r)),([int]($m.Top*$r)),([int]($m.Right*$r)),([int]($m.Bottom*$r)))
+            if($c -is [Windows.Forms.DataGridView]){
+                $c.RowTemplate.Height=[int][math]::Ceiling($c.RowTemplate.Height*$r)
+                foreach($row in $c.Rows){$row.Height=[int][math]::Ceiling($row.Height*$r)}
+                foreach($column in $c.Columns){$column.MinimumWidth=[math]::Max(2,[int]($column.MinimumWidth*$r));$column.Width=[math]::Max($column.MinimumWidth,[int]($column.Width*$r))}
+            }
+            $c|Add-Member -NotePropertyName NyxGeometryScale -NotePropertyValue $Scale -Force
+        }
+        foreach($node in $nodes){$node.Control.Anchor=$node.Anchor;$node.Control.Dock=$node.Dock}
+    }finally{
+        for($i=$nodes.Count-1;$i -ge 0;$i--){$nodes[$i].Control.ResumeLayout($true)}
+    }
+    # Font sizes remain in points. Geometry alone is converted to device
+    # pixels; changing point sizes here would double-scale text at high DPI.
+}
+function Set-NyxScrollExtentFromChildren {
+    param([object]$Root,[int]$Padding=24)
+    $right=0;$bottom=0
+    foreach($child in @($Root.Controls)){$right=[math]::Max($right,$child.Right);$bottom=[math]::Max($bottom,$child.Bottom)}
+    $Root.AutoScrollMinSize=New-Object Drawing.Size(($right+$Padding),($bottom+$Padding))
+}
+function Initialize-NyxScrollableDialog {
+    param([object]$Form)
+    $Form.AutoScaleMode='None';$Form.AutoScroll=$true
+    $Form.Add_Shown({
+        param($sender,$eventArgs)
+        $scale=Get-NyxControlDpiScale -Control $sender
+        foreach($child in @($sender.Controls)){$child.Anchor='Top,Left'}
+        Set-NyxDeviceGeometry -Root $sender -Scale $scale -ChildrenOnly
+        Set-NyxScrollExtentFromChildren -Root $sender -Padding ([int](24*$scale))
+        $work=[Windows.Forms.Screen]::FromHandle($sender.Handle).WorkingArea
+        $sender.MinimumSize=New-Object Drawing.Size([math]::Min($work.Width,[int](480*$scale)),[math]::Min($work.Height,[int](320*$scale)))
+        $width=[math]::Min($work.Width,[int]($sender.Width*$scale))
+        $height=[math]::Min($work.Height,[int]($sender.Height*$scale))
+        $sender.Bounds=New-Object Drawing.Rectangle(($work.Left+[int](($work.Width-$width)/2)),($work.Top+[int](($work.Height-$height)/2)),$width,$height)
+        Register-NyxScrollFocus -Root $sender
+    })
+}
 function New-NyxLabel {
     param([string]$Text,[int]$X,[int]$Y,[int]$Width,[int]$Height=28,[float]$Size=10,[bool]$Bold=$false,[object]$Palette,[string]$Color='Text')
     $label=New-Object Windows.Forms.Label
@@ -55,4 +142,4 @@ function New-NyxStatusPill {
     return $label
 }
 
-Export-ModuleMember -Function New-NyxLabel,New-NyxButton,New-NyxNavButton,New-NyxCard,New-NyxGrid,New-NyxStatusPill
+Export-ModuleMember -Function New-NyxLabel,New-NyxButton,New-NyxNavButton,New-NyxCard,New-NyxGrid,New-NyxStatusPill,Get-NyxControlDpiScale,Register-NyxScrollFocus,Set-NyxDeviceGeometry,Set-NyxScrollExtentFromChildren,Initialize-NyxScrollableDialog

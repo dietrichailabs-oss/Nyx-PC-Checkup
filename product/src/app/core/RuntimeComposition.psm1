@@ -38,7 +38,7 @@ $script:NyxRuntimeModules = @(
     [pscustomobject][ordered]@{Name='StartupActions';RelativePath='actions\StartupActions.psm1';Exports=@('Get-NyxCurrentUserSid','Get-NyxStartupBoundary','Test-NyxStartupStateBoundary','Get-NyxLegacyMachineStartupRollbackRoot','Get-NyxLegacyMachineRollbackObligations','Disable-NyxStartupApplication','Enable-NyxStartupApplication','Restore-AllNyxStartupApplications')},
     [pscustomobject][ordered]@{Name='CleanupActions';RelativePath='actions\CleanupActions.psm1';Exports=@('Invoke-NyxCleanup')},
     [pscustomobject][ordered]@{Name='Theme';RelativePath='ui\Theme.psm1';Exports=@('Get-NyxEffectiveTheme','Get-NyxPalette','Get-NyxStatusColor','Set-NyxGridTheme')},
-    [pscustomobject][ordered]@{Name='Controls';RelativePath='ui\Controls.psm1';Exports=@('New-NyxLabel','New-NyxButton','New-NyxNavButton','New-NyxCard','New-NyxGrid','New-NyxStatusPill')},
+    [pscustomobject][ordered]@{Name='Controls';RelativePath='ui\Controls.psm1';Exports=@('New-NyxLabel','New-NyxButton','New-NyxNavButton','New-NyxCard','New-NyxGrid','New-NyxStatusPill','Get-NyxControlDpiScale','Register-NyxScrollFocus','Set-NyxDeviceGeometry','Set-NyxScrollExtentFromChildren','Initialize-NyxScrollableDialog')},
     [pscustomobject][ordered]@{Name='Dialogs';RelativePath='ui\Dialogs.psm1';Exports=@('Show-NyxResultDetailDialog','Show-NyxReportPreviewDialog','Show-NyxUpdateAvailableDialog')},
     [pscustomobject][ordered]@{Name='MainWindow';RelativePath='ui\MainWindow.psm1';Exports=@('Show-NyxMainWindow')}
 )
