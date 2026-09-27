@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "scenario": "Refresh immediately after fresh launch",
+    "status": "PASS",
+    "finding": "Observed real installed UI; no exception after click sequence"
+  },
+  {
+    "id": 2,
+    "scenario": "Refresh after completed Quick Check",
+    "status": "PASS",
+    "finding": "Observed real installed UI; no exception after click sequence"
+  },
+  {
+    "id": 3,
+    "scenario": "Refresh after completed Full Check",
+    "status": "FAIL",
+    "finding": "Full Check stopped unexpectedly; worker progress.jsonl sharing violation prevents completed-scan prerequisite"
+  },
+  {
+    "id": 4,
+    "scenario": "Refresh after cancelled scan",
+    "status": "NOT_RUN",
+    "finding": "Stopped at Full Check failure"
+  },
+  {
+    "id": 5,
+    "scenario": "Refresh three times consecutively",
+    "status": "PASS",
+    "finding": "Observed real installed UI; no exception after click sequence"
+  },
+  {
+    "id": 6,
+    "scenario": "Navigate away and back then Refresh",
+    "status": "PASS",
+    "finding": "Observed real installed UI; no exception after click sequence"
+  },
+  {
+    "id": 7,
+    "scenario": "Current-user selection and transitions",
+    "status": "INCOMPLETE",
+    "finding": "Partial 200% UI observation only; scenario not fully exercised"
+  },
+  {
+    "id": 8,
+    "scenario": "Disable then reload and verify",
+    "status": "NOT_RUN",
+    "finding": "Stopped at Full Check failure"
+  },
+  {
+    "id": 9,
+    "scenario": "Re-enable then reload and verify",
+    "status": "NOT_RUN",
+    "finding": "Stopped at Full Check failure"
+  },
+  {
+    "id": 10,
+    "scenario": "All-users modification read-only",
+    "status": "NOT_RUN",
+    "finding": "Stopped at Full Check failure"
+  },
+  {
+    "id": 11,
+    "scenario": "Open valid location",
+    "status": "NOT_RUN",
+    "finding": "Stopped at Full Check failure"
+  },
+  {
+    "id": 12,
+    "scenario": "Open missing location",
+    "status": "NOT_RUN",
+    "finding": "Stopped at Full Check failure"
+  },
+  {
+    "id": 13,
+    "scenario": "Startup at all four DPI settings",
+    "status": "INCOMPLETE",
+    "finding": "Partial 200% UI observation only; scenario not fully exercised"
+  },
+  {
+    "id": 14,
+    "scenario": "150% and 200% at 1366x768",
+    "status": "INCOMPLETE",
+    "finding": "Partial 200% UI observation only; scenario not fully exercised"
+  },
+  {
+    "id": 15,
+    "scenario": "No exception stale reference hidden action or StrictMode failure",
+    "status": "INCOMPLETE",
+    "finding": "Partial 200% UI observation only; scenario not fully exercised"
+  }
+]

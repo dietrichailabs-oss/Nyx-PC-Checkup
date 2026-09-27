@@ -1,0 +1,22 @@
+{
+  "candidate": "2026.09.26-eng-qa18",
+  "status": "STOPPED_PENDING_FAILURE_CLASSIFICATION",
+  "theme": "FollowWindows",
+  "scaling": 200,
+  "resolution": "1366x768",
+  "launch": "Installed native EXE, no debugger wrapper",
+  "observedPass": [
+    "Fresh launch Startup Refresh: no unhandled exception",
+    "Three consecutive Refresh clicks: no unhandled exception",
+    "Selection of real row: no unhandled exception",
+    "Navigate Home then Startup then Refresh: no unhandled exception",
+    "Completed Quick Check then Startup Refresh: no unhandled exception"
+  ],
+  "failure": {
+    "step": "Full Check completion prerequisite",
+    "message": "The check stopped unexpectedly. No changes were made.",
+    "cancelRequested": false
+  },
+  "remainingTests": "NOT_RUN",
+  "candidateModified": false
+}

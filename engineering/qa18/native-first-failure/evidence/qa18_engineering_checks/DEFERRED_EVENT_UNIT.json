@@ -1,0 +1,65 @@
+﻿{
+    "Harness":  "QA18-F015-PS51-18",
+    "Type":  "Isolated deferred WinForms event regression, not installed acceptance",
+    "Passed":  true,
+    "Checks":  [
+                   {
+                       "Name":  "Initial load contains all three fixtures",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Deferred Refresh 1 reloads inventory",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Deferred Refresh 2 reloads inventory",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Deferred Refresh 3 reloads inventory",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Current-user selection permits Disable only",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Disable survives reload and enables Re-enable",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Re-enable survives reload",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "all-users controls remain disabled",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "all-users callback guards reject forced clicks",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Valid location opens Explorer selection",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Missing target reports unavailable without opening Explorer",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Navigation disposes prior page and creates separate state",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Refresh after navigation loads new page only",
+                       "Passed":  true
+                   },
+                   {
+                       "Name":  "Late disposed-page reload cannot affect current page",
+                       "Passed":  true
+                   }
+               ],
+    "Count":  14,
+    "Failure":  null
+}
