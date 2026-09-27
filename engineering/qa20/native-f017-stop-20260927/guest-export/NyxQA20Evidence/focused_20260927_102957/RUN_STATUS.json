@@ -1,0 +1,8 @@
+{
+    "RequiredConsecutiveFullRuns":  5,
+    "Build":  "2026.09.27-eng-qa20",
+    "Acceptance":  "NOT_CLAIMED",
+    "LauncherPID":  9264,
+    "MonitorPID":  10220,
+    "Status":  "FOCUSED_UI_READY"
+}

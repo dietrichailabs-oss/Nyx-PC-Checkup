@@ -1,0 +1,4 @@
+{
+    "ProcessId":  10220,
+    "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -ExecutionPolicy Bypass -File \"C:\\Q20F017\\Observe-QA20-Installed.ps1\" -Evidence \"C:\\Users\\Nyx\\AppData\\Local\\NyxQA20Evidence\\focused_20260927_102957\" "
+}

@@ -1,0 +1,51 @@
+{
+  "Build": "2026.09.27-eng-qa20",
+  "Harness": "QA20-F017-PS51-20",
+  "SourceCommit": "31647d5b2c60ea2abf2a49c0d70912b87b1d7dae",
+  "Status": "ENGINEERING_STOP_PRODUCT_FAILURE",
+  "ProductModified": false,
+  "IndependentQaDecision": "NOT_CLAIMED",
+  "F017": {
+    "FailedFullRuns": 1,
+    "PerformanceSnapshot": "Good / Complete=true",
+    "RequiredFullRuns": 5,
+    "NotRun": 4,
+    "AppsInventory": "Unknown / Complete=false",
+    "PassedFullRuns": 0,
+    "ExecutedFullRuns": 1,
+    "Error": "The property 'Properties' cannot be found on this object. Verify that the property exists."
+  },
+  "Result": {
+    "WorkerError": null,
+    "Cancelled": false,
+    "SchemaValid": true,
+    "ReadOnly": true,
+    "Mode": "Full"
+  },
+  "ProgressReads": 1535,
+  "InstalledHashesMatched": 61,
+  "PreShutdownWorkerCount": 0,
+  "PreShutdownScanArtifactCount": 0,
+  "Automated": {
+    "StructuralLint": "2/2",
+    "NativeSourceGuards": "17/17",
+    "Python": "203/203"
+  },
+  "F016": "INCOMPLETE",
+  "F015": "NOT_RUN",
+  "F008": {
+    "Fail": 0,
+    "NotRun": 132,
+    "Pass": 0
+  },
+  "Standard": "NOT_RUN",
+  "F011": "NOT_RUN",
+  "F012": "NOT_RUN",
+  "F010": "NOT_RUN",
+  "Elevated": "NOT_RUN",
+  "Asset": {
+    "Name": "QA20_GUEST_EVIDENCE_20260927_103456.zip",
+    "SHA256": "E1D75AC392234385FAAA2E38BC650705AA33C226B7281CC733E6F6DC83570EC7",
+    "Bytes": 47574
+  }
+}

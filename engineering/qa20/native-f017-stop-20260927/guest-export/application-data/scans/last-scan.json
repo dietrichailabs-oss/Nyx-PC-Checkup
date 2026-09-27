@@ -1,0 +1,1216 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+    "Mode":  "Full",
+    "StartedUtc":  "2026-09-27T14:30:52.2033162Z",
+    "CompletedUtc":  "2026-09-27T14:31:16.9646568Z",
+    "Cancelled":  false,
+    "ReadOnly":  true,
+    "Summary":  {
+                    "OverallStatus":  "NeedsAttention",
+                    "Headline":  "2 things need attention.",
+                    "Good":  14,
+                    "NeedsAttention":  2,
+                    "Optional":  1,
+                    "Unknown":  4,
+                    "Total":  21
+                },
+    "Results":  [
+                    {
+                        "CheckId":  "system.overview",
+                        "Category":  "System",
+                        "Name":  "System overview",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Desktop or fixed device with 4.0 GB RAM, running Windows build 26200.",
+                        "Reason":  "Basic system information was read successfully.",
+                        "Evidence":  {
+                                         "ComputerName":  "DESKTOP-4D83OSL",
+                                         "WindowsEdition":  "Microsoft Windows 11 Pro",
+                                         "WindowsVersion":  "10.0.26200",
+                                         "WindowsBuild":  "26200",
+                                         "Is64Bit":  true,
+                                         "Processor":  "AMD Ryzen 9 5900XT 16-Core Processor           ",
+                                         "InstalledRamBytes":  4293808128,
+                                         "AvailableRamBytes":  1831698432,
+                                         "SystemDrive":  "C:\\",
+                                         "SystemDriveCapacityBytes":  135317680128,
+                                         "SystemDriveFreeBytes":  114353221632,
+                                         "UptimeSeconds":  74,
+                                         "DeviceClass":  "Desktop or fixed device",
+                                         "Manufacturer":  "Microsoft Corporation",
+                                         "Model":  "Virtual Machine",
+                                         "BatteryPresent":  false
+                                     },
+                        "Recommendation":  "No action is required. Hardware serial numbers and unique identifiers are intentionally not collected.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:30:54.4250483Z",
+                        "DataSource":  "Windows CIM / local environment",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "ComputerName":  "DESKTOP-4D83OSL",
+                                        "WindowsEdition":  "Microsoft Windows 11 Pro",
+                                        "WindowsVersion":  "10.0.26200",
+                                        "WindowsBuild":  "26200",
+                                        "Is64Bit":  true,
+                                        "Processor":  "AMD Ryzen 9 5900XT 16-Core Processor           ",
+                                        "InstalledRamBytes":  4293808128,
+                                        "AvailableRamBytes":  1831698432,
+                                        "SystemDrive":  "C:\\",
+                                        "SystemDriveCapacityBytes":  135317680128,
+                                        "SystemDriveFreeBytes":  114353221632,
+                                        "UptimeSeconds":  74,
+                                        "DeviceClass":  "Desktop or fixed device",
+                                        "Manufacturer":  "Microsoft Corporation",
+                                        "Model":  "Virtual Machine",
+                                        "BatteryPresent":  false
+                                    }
+                    },
+                    {
+                        "CheckId":  "storage.system-drive",
+                        "Category":  "Storage",
+                        "Name":  "System-drive free space",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "106.5 GB is free on C:\\.",
+                        "Reason":  "The system drive has 84.5% free.",
+                        "Evidence":  {
+                                         "Drive":  "C:\\",
+                                         "TotalBytes":  135317680128,
+                                         "FreeBytes":  114353152000,
+                                         "FreePercent":  84.5,
+                                         "Format":  "NTFS"
+                                     },
+                        "Recommendation":  "No storage action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:30:54.4879000Z",
+                        "DataSource":  ".NET DriveInfo",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.restart",
+                        "Category":  "Updates",
+                        "Name":  "Update restart",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows does not currently report a pending restart.",
+                        "Reason":  "No supported restart-pending marker was found.",
+                        "Evidence":  {
+                                         "Pending":  false,
+                                         "Sources":  [
+
+                                                     ],
+                                         "Complete":  true,
+                                         "Errors":  [
+
+                                                    ]
+                                     },
+                        "Recommendation":  "No restart is required by the checked Windows servicing markers.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:30:54.5512714Z",
+                        "DataSource":  "Windows servicing registry",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.pending",
+                        "Category":  "Updates",
+                        "Name":  "Windows updates",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "No pending software update was found in the local Windows Update cache.",
+                        "Reason":  "The supported local update query returned zero not-installed software updates.",
+                        "Evidence":  {
+                                         "Success":  true,
+                                         "Count":  0,
+                                         "Error":  "",
+                                         "PSComputerName":  "localhost",
+                                         "RunspaceId":  "fee1a4c6-4ad2-4612-a6b2-d35a8ab8f0e6",
+                                         "PSShowComputerName":  false
+                                     },
+                        "Recommendation":  "Open Windows Update for an online check when you need full patch assurance.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:30:55.7417541Z",
+                        "DataSource":  "Microsoft.Update.Session local search",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.last-success",
+                        "Category":  "Updates",
+                        "Name":  "Last successful Windows update",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports a successful installation on Saturday, September 26, 2026.",
+                        "Reason":  "The Windows Update automatic-update result exposed a last success date.",
+                        "Evidence":  {
+                                         "LastSuccessUtc":  "2026-09-27T00:07:26.0000000Z"
+                                     },
+                        "Recommendation":  "No action is required based on this timestamp alone.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:30:56.0910166Z",
+                        "DataSource":  "Microsoft.Update.AutoUpdate",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.antivirus",
+                        "Category":  "Security",
+                        "Name":  "Antivirus protection",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports that Microsoft Defender antivirus and real-time protection are active.",
+                        "Reason":  "Defender status APIs reported protection enabled.",
+                        "Evidence":  {
+                                         "DefenderAntivirusEnabled":  true,
+                                         "DefenderRealTimeProtectionEnabled":  true,
+                                         "RegisteredProducts":  [
+                                                                    "Windows Defender"
+                                                                ]
+                                     },
+                        "Recommendation":  "No antivirus action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:30:56.9196514Z",
+                        "DataSource":  "Get-MpComputerStatus and SecurityCenter2",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.firewall",
+                        "Category":  "Security",
+                        "Name":  "Windows Firewall",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows Firewall is enabled for all reported profiles.",
+                        "Reason":  "Firewall profile states were read without changing them.",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "Domain",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Private",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Public",
+                                             "Enabled":  1
+                                         }
+                                     ],
+                        "Recommendation":  "No firewall action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:30:58.5191333Z",
+                        "DataSource":  "Get-NetFirewallProfile",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.windows-security-service",
+                        "Category":  "Security",
+                        "Name":  "Windows Security services",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "A supported Windows Security service is running.",
+                        "Reason":  "Service state was read without changing service configuration.",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "SecurityHealthService",
+                                             "Status":  "Running",
+                                             "StartType":  "Manual"
+                                         },
+                                         {
+                                             "Name":  "wscsvc",
+                                             "Status":  "Stopped",
+                                             "StartType":  "Automatic"
+                                         }
+                                     ],
+                        "Recommendation":  "No action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:30:58.7406451Z",
+                        "DataSource":  "Get-Service",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.secure-boot",
+                        "Category":  "Security",
+                        "Name":  "Secure Boot",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:30:58.8356769Z",
+                        "DataSource":  "Confirm-SecureBootUEFI",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.tpm",
+                        "Category":  "Security",
+                        "Name":  "Trusted Platform Module",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "TPM status was unavailable through the supported local interface.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:30:58.9154791Z",
+                        "DataSource":  "Get-Tpm",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "TPM status was unavailable through the supported local interface.",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.encryption",
+                        "Category":  "Security",
+                        "Name":  "Drive encryption",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:31:04.3208798Z",
+                        "DataSource":  "Get-BitLockerVolume",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "startup.entries",
+                        "Category":  "Startup",
+                        "Name":  "Startup applications",
+                        "Status":  "Optional",
+                        "Severity":  "Low",
+                        "Finding":  "5 program(s) start automatically with Windows.",
+                        "Reason":  "Startup programs may be useful; review is optional.",
+                        "Evidence":  {
+                                         "EnabledCount":  5,
+                                         "EditableCurrentUserCount":  2,
+                                         "ReadOnlyAllUsersCount":  3,
+                                         "DisabledByNyxCount":  0,
+                                         "BrokenPathCount":  0,
+                                         "RollbackInventoryStatus":  "Clear",
+                                         "RollbackInventoryErrors":  [
+
+                                                                     ],
+                                         "Applications":  [
+                                                              {
+                                                                  "Id":  "284d542d4e5052302c34acac",
+                                                                  "Name":  "desktop",
+                                                                  "Publisher":  "",
+                                                                  "SourceType":  "StartupFile",
+                                                                  "SourcePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                                                  "SourceLabel":  "All users Startup folder",
+                                                                  "ValueName":  "",
+                                                                  "Command":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                                                  "ExecutablePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                                                  "FileExists":  true,
+                                                                  "Enabled":  true,
+                                                                  "RequiresElevation":  true,
+                                                                  "CanModify":  false,
+                                                                  "ReadOnlyReason":  "All-users startup entries are displayed read-only in Version 1.",
+                                                                  "Impact":  "Not measured",
+                                                                  "RollbackActionId":  ""
+                                                              },
+                                                              {
+                                                                  "Id":  "d13c41a4a85949d31072f220",
+                                                                  "Name":  "desktop",
+                                                                  "Publisher":  "",
+                                                                  "SourceType":  "StartupFile",
+                                                                  "SourcePath":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                                                  "SourceLabel":  "Current user Startup folder",
+                                                                  "ValueName":  "",
+                                                                  "Command":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                                                  "ExecutablePath":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                                                  "FileExists":  true,
+                                                                  "Enabled":  true,
+                                                                  "RequiresElevation":  false,
+                                                                  "CanModify":  true,
+                                                                  "ReadOnlyReason":  "",
+                                                                  "Impact":  "Not measured",
+                                                                  "RollbackActionId":  ""
+                                                              },
+                                                              {
+                                                                  "Id":  "8e568447ee0c01936fd35e8f",
+                                                                  "Name":  "OneDrive",
+                                                                  "Publisher":  "Microsoft Corporation",
+                                                                  "SourceType":  "Registry",
+                                                                  "SourcePath":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                                                                  "SourceLabel":  "Current user Run",
+                                                                  "ValueName":  "OneDrive",
+                                                                  "Command":  "\"C:\\Users\\Nyx\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe\" /background",
+                                                                  "ExecutablePath":  "C:\\Users\\Nyx\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe",
+                                                                  "FileExists":  true,
+                                                                  "Enabled":  true,
+                                                                  "RequiresElevation":  false,
+                                                                  "CanModify":  true,
+                                                                  "ReadOnlyReason":  "",
+                                                                  "Impact":  "Not measured",
+                                                                  "RollbackActionId":  ""
+                                                              },
+                                                              {
+                                                                  "Id":  "574afc87a7cd97f126d00703",
+                                                                  "Name":  "QA20 F017",
+                                                                  "Publisher":  "",
+                                                                  "SourceType":  "StartupFile",
+                                                                  "SourcePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\QA20 F017.lnk",
+                                                                  "SourceLabel":  "All users Startup folder",
+                                                                  "ValueName":  "",
+                                                                  "Command":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\QA20 F017.lnk",
+                                                                  "ExecutablePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\QA20 F017.lnk",
+                                                                  "FileExists":  true,
+                                                                  "Enabled":  true,
+                                                                  "RequiresElevation":  true,
+                                                                  "CanModify":  false,
+                                                                  "ReadOnlyReason":  "All-users startup entries are displayed read-only in Version 1.",
+                                                                  "Impact":  "Not measured",
+                                                                  "RollbackActionId":  ""
+                                                              },
+                                                              {
+                                                                  "Id":  "9d063e31a4956e47897d8778",
+                                                                  "Name":  "SecurityHealth",
+                                                                  "Publisher":  "Microsoft Corporation",
+                                                                  "SourceType":  "Registry",
+                                                                  "SourcePath":  "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                                                                  "SourceLabel":  "All users Run",
+                                                                  "ValueName":  "SecurityHealth",
+                                                                  "Command":  "C:\\WINDOWS\\system32\\SecurityHealthSystray.exe",
+                                                                  "ExecutablePath":  "C:\\WINDOWS\\system32\\SecurityHealthSystray.exe",
+                                                                  "FileExists":  true,
+                                                                  "Enabled":  true,
+                                                                  "RequiresElevation":  true,
+                                                                  "CanModify":  false,
+                                                                  "ReadOnlyReason":  "All-users startup entries are displayed read-only in Version 1.",
+                                                                  "Impact":  "Not measured",
+                                                                  "RollbackActionId":  ""
+                                                              }
+                                                          ]
+                                     },
+                        "Recommendation":  "Review startup apps only if useful. Version 1 can reversibly change current-user entries; all-users entries are visible but read-only and never trigger an elevation prompt.",
+                        "ActionSafetyLevel":  "ReversibleLocalChange",
+                        "Timestamp":  "2026-09-27T14:31:04.4748525Z",
+                        "DataSource":  "Windows Run registry keys and Startup folders",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  [
+                                        {
+                                            "Id":  "284d542d4e5052302c34acac",
+                                            "Name":  "desktop",
+                                            "Publisher":  "",
+                                            "SourceType":  "StartupFile",
+                                            "SourcePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                            "SourceLabel":  "All users Startup folder",
+                                            "ValueName":  "",
+                                            "Command":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                            "ExecutablePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                            "FileExists":  true,
+                                            "Enabled":  true,
+                                            "RequiresElevation":  true,
+                                            "CanModify":  false,
+                                            "ReadOnlyReason":  "All-users startup entries are displayed read-only in Version 1.",
+                                            "Impact":  "Not measured",
+                                            "RollbackActionId":  ""
+                                        },
+                                        {
+                                            "Id":  "d13c41a4a85949d31072f220",
+                                            "Name":  "desktop",
+                                            "Publisher":  "",
+                                            "SourceType":  "StartupFile",
+                                            "SourcePath":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                            "SourceLabel":  "Current user Startup folder",
+                                            "ValueName":  "",
+                                            "Command":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                            "ExecutablePath":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+                                            "FileExists":  true,
+                                            "Enabled":  true,
+                                            "RequiresElevation":  false,
+                                            "CanModify":  true,
+                                            "ReadOnlyReason":  "",
+                                            "Impact":  "Not measured",
+                                            "RollbackActionId":  ""
+                                        },
+                                        {
+                                            "Id":  "8e568447ee0c01936fd35e8f",
+                                            "Name":  "OneDrive",
+                                            "Publisher":  "Microsoft Corporation",
+                                            "SourceType":  "Registry",
+                                            "SourcePath":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                                            "SourceLabel":  "Current user Run",
+                                            "ValueName":  "OneDrive",
+                                            "Command":  "\"C:\\Users\\Nyx\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe\" /background",
+                                            "ExecutablePath":  "C:\\Users\\Nyx\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe",
+                                            "FileExists":  true,
+                                            "Enabled":  true,
+                                            "RequiresElevation":  false,
+                                            "CanModify":  true,
+                                            "ReadOnlyReason":  "",
+                                            "Impact":  "Not measured",
+                                            "RollbackActionId":  ""
+                                        },
+                                        {
+                                            "Id":  "574afc87a7cd97f126d00703",
+                                            "Name":  "QA20 F017",
+                                            "Publisher":  "",
+                                            "SourceType":  "StartupFile",
+                                            "SourcePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\QA20 F017.lnk",
+                                            "SourceLabel":  "All users Startup folder",
+                                            "ValueName":  "",
+                                            "Command":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\QA20 F017.lnk",
+                                            "ExecutablePath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\QA20 F017.lnk",
+                                            "FileExists":  true,
+                                            "Enabled":  true,
+                                            "RequiresElevation":  true,
+                                            "CanModify":  false,
+                                            "ReadOnlyReason":  "All-users startup entries are displayed read-only in Version 1.",
+                                            "Impact":  "Not measured",
+                                            "RollbackActionId":  ""
+                                        },
+                                        {
+                                            "Id":  "9d063e31a4956e47897d8778",
+                                            "Name":  "SecurityHealth",
+                                            "Publisher":  "Microsoft Corporation",
+                                            "SourceType":  "Registry",
+                                            "SourcePath":  "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                                            "SourceLabel":  "All users Run",
+                                            "ValueName":  "SecurityHealth",
+                                            "Command":  "C:\\WINDOWS\\system32\\SecurityHealthSystray.exe",
+                                            "ExecutablePath":  "C:\\WINDOWS\\system32\\SecurityHealthSystray.exe",
+                                            "FileExists":  true,
+                                            "Enabled":  true,
+                                            "RequiresElevation":  true,
+                                            "CanModify":  false,
+                                            "ReadOnlyReason":  "All-users startup entries are displayed read-only in Version 1.",
+                                            "Impact":  "Not measured",
+                                            "RollbackActionId":  ""
+                                        }
+                                    ]
+                    },
+                    {
+                        "CheckId":  "backup.status",
+                        "Category":  "Backup",
+                        "Name":  "Backup checkup",
+                        "Status":  "NeedsAttention",
+                        "Severity":  "Medium",
+                        "Finding":  "No supported Windows backup configuration was detected.",
+                        "Reason":  "Nyx could not find File History or Windows Backup evidence. You may already use another backup service that Nyx PC Checkup cannot detect.",
+                        "Evidence":  {
+
+                                     },
+                        "Recommendation":  "Verify that important files are backed up somewhere separate from this PC.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:31:06.3623378Z",
+                        "DataSource":  "File History configuration and Windows Backup scheduled tasks",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "system.uptime",
+                        "Category":  "System",
+                        "Name":  "PC uptime",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Your PC has been running for 0.0 days.",
+                        "Reason":  "The PC has been running for 0.0 days.",
+                        "Evidence":  {
+                                         "LastBootUtc":  "2026-09-27T14:29:40.3269860Z",
+                                         "UptimeDays":  0,
+                                         "RestartPending":  false,
+                                         "RestartStatusComplete":  true
+                                     },
+                        "Recommendation":  "No restart is needed based on uptime alone.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-09-27T14:31:06.4412626Z",
+                        "DataSource":  "Win32_OperatingSystem and restart-pending markers",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "network.basics",
+                        "Category":  "Network",
+                        "Name":  "Network basics",
+                        "Status":  "NeedsAttention",
+                        "Severity":  "Medium",
+                        "Finding":  "A network adapter is connected, but Internet access did not pass both supported checks.",
+                        "Reason":  "The Windows connectivity profile or bounded DNS lookup reported no Internet access.",
+                        "Evidence":  {
+                                         "Adapters":  [
+                                                          {
+                                                              "Name":  "Ethernet",
+                                                              "InterfaceDescription":  "Microsoft Hyper-V Network Adapter",
+                                                              "Status":  "Up",
+                                                              "LinkSpeed":  "10 Gbps",
+                                                              "MediaType":  "802.3"
+                                                          }
+                                                      ],
+                                         "Profiles":  [
+                                                          {
+                                                              "Name":  "Unidentified network",
+                                                              "InterfaceAlias":  "Ethernet",
+                                                              "NetworkCategory":  0,
+                                                              "IPv4Connectivity":  1,
+                                                              "IPv6Connectivity":  1
+                                                          }
+                                                      ],
+                                         "AdapterStatusAvailable":  true,
+                                         "ProfileStatusAvailable":  true,
+                                         "DnsCheckComplete":  true,
+                                         "DnsResolutionSucceeded":  false
+                                     },
+                        "Recommendation":  "Check the router or Internet service. Nyx did not change DNS, proxy, firewall, or adapter settings.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:31:08.8534481Z",
+                        "DataSource":  "Get-NetAdapter, Get-NetConnectionProfile, and one bounded DNS resolution test",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "Adapters":  [
+                                                         {
+                                                             "Name":  "Ethernet",
+                                                             "InterfaceDescription":  "Microsoft Hyper-V Network Adapter",
+                                                             "Status":  "Up",
+                                                             "LinkSpeed":  "10 Gbps",
+                                                             "MediaType":  "802.3"
+                                                         }
+                                                     ],
+                                        "Profiles":  [
+                                                         {
+                                                             "Name":  "Unidentified network",
+                                                             "InterfaceAlias":  "Ethernet",
+                                                             "NetworkCategory":  0,
+                                                             "IPv4Connectivity":  1,
+                                                             "IPv6Connectivity":  1
+                                                         }
+                                                     ],
+                                        "AdapterStatusAvailable":  true,
+                                        "ProfileStatusAvailable":  true,
+                                        "DnsCheckComplete":  true,
+                                        "DnsResolutionSucceeded":  false
+                                    }
+                    },
+                    {
+                        "CheckId":  "storage.user-folders",
+                        "Category":  "Storage",
+                        "Name":  "User profile, folders, and largest files",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "The checked user profile uses 504.3 MB. The largest named user folder is Desktop at 2.8 KB.",
+                        "Reason":  "The user profile and selected user folders were measured without following junctions or symbolic links.",
+                        "Evidence":  {
+                                         "UserProfile":  {
+                                                             "Name":  "User profile",
+                                                             "Path":  "C:\\Users\\Nyx",
+                                                             "Bytes":  528794636,
+                                                             "Files":  2588,
+                                                             "Complete":  true,
+                                                             "AccessDenied":  0
+                                                         },
+                                         "Folders":  [
+                                                         {
+                                                             "Name":  "Downloads",
+                                                             "Path":  "C:\\Users\\Nyx\\Downloads",
+                                                             "Bytes":  282,
+                                                             "Files":  1,
+                                                             "Complete":  true,
+                                                             "AccessDenied":  0
+                                                         },
+                                                         {
+                                                             "Name":  "Desktop",
+                                                             "Path":  "C:\\Users\\Nyx\\Desktop",
+                                                             "Bytes":  2829,
+                                                             "Files":  2,
+                                                             "Complete":  true,
+                                                             "AccessDenied":  0
+                                                         },
+                                                         {
+                                                             "Name":  "Documents",
+                                                             "Path":  "C:\\Users\\Nyx\\Documents",
+                                                             "Bytes":  402,
+                                                             "Files":  1,
+                                                             "Complete":  true,
+                                                             "AccessDenied":  0
+                                                         },
+                                                         {
+                                                             "Name":  "Pictures",
+                                                             "Path":  "C:\\Users\\Nyx\\Pictures",
+                                                             "Bytes":  504,
+                                                             "Files":  1,
+                                                             "Complete":  true,
+                                                             "AccessDenied":  0
+                                                         },
+                                                         {
+                                                             "Name":  "Videos",
+                                                             "Path":  "C:\\Users\\Nyx\\Videos",
+                                                             "Bytes":  504,
+                                                             "Files":  1,
+                                                             "Complete":  true,
+                                                             "AccessDenied":  0
+                                                         }
+                                                     ],
+                                         "LargestFiles":  [
+                                                              {
+                                                                  "Path":  "C:\\Users\\Nyx\\Desktop\\Nyx PC Checkup.lnk",
+                                                                  "SizeBytes":  2547,
+                                                                  "ModifiedUtc":  "2026-09-27T14:29:59.7136450Z",
+                                                                  "Extension":  ".lnk"
+                                                              },
+                                                              {
+                                                                  "Path":  "C:\\Users\\Nyx\\Pictures\\desktop.ini",
+                                                                  "SizeBytes":  504,
+                                                                  "ModifiedUtc":  "2026-08-04T11:53:11.7947713Z",
+                                                                  "Extension":  ".ini"
+                                                              },
+                                                              {
+                                                                  "Path":  "C:\\Users\\Nyx\\Videos\\desktop.ini",
+                                                                  "SizeBytes":  504,
+                                                                  "ModifiedUtc":  "2026-08-04T11:53:11.8005519Z",
+                                                                  "Extension":  ".ini"
+                                                              },
+                                                              {
+                                                                  "Path":  "C:\\Users\\Nyx\\Documents\\desktop.ini",
+                                                                  "SizeBytes":  402,
+                                                                  "ModifiedUtc":  "2026-08-04T11:53:11.9275457Z",
+                                                                  "Extension":  ".ini"
+                                                              },
+                                                              {
+                                                                  "Path":  "C:\\Users\\Nyx\\Downloads\\desktop.ini",
+                                                                  "SizeBytes":  282,
+                                                                  "ModifiedUtc":  "2026-08-04T11:53:11.8798069Z",
+                                                                  "Extension":  ".ini"
+                                                              },
+                                                              {
+                                                                  "Path":  "C:\\Users\\Nyx\\Desktop\\desktop.ini",
+                                                                  "SizeBytes":  282,
+                                                                  "ModifiedUtc":  "2026-08-04T11:53:11.7866689Z",
+                                                                  "Extension":  ".ini"
+                                                              }
+                                                          ],
+                                         "FilesScanned":  6,
+                                         "AccessDenied":  0
+                                     },
+                        "Recommendation":  "Review large items before deciding whether anything should be moved or removed. Old or large does not mean unwanted.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:31:10.8045669Z",
+                        "DataSource":  ".NET file-system enumeration",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "UserProfile":  {
+                                                            "Name":  "User profile",
+                                                            "Path":  "C:\\Users\\Nyx",
+                                                            "Bytes":  528794636,
+                                                            "Files":  2588,
+                                                            "Complete":  true,
+                                                            "AccessDenied":  0
+                                                        },
+                                        "Folders":  [
+                                                        {
+                                                            "Name":  "Downloads",
+                                                            "Path":  "C:\\Users\\Nyx\\Downloads",
+                                                            "Bytes":  282,
+                                                            "Files":  1,
+                                                            "Complete":  true,
+                                                            "AccessDenied":  0
+                                                        },
+                                                        {
+                                                            "Name":  "Desktop",
+                                                            "Path":  "C:\\Users\\Nyx\\Desktop",
+                                                            "Bytes":  2829,
+                                                            "Files":  2,
+                                                            "Complete":  true,
+                                                            "AccessDenied":  0
+                                                        },
+                                                        {
+                                                            "Name":  "Documents",
+                                                            "Path":  "C:\\Users\\Nyx\\Documents",
+                                                            "Bytes":  402,
+                                                            "Files":  1,
+                                                            "Complete":  true,
+                                                            "AccessDenied":  0
+                                                        },
+                                                        {
+                                                            "Name":  "Pictures",
+                                                            "Path":  "C:\\Users\\Nyx\\Pictures",
+                                                            "Bytes":  504,
+                                                            "Files":  1,
+                                                            "Complete":  true,
+                                                            "AccessDenied":  0
+                                                        },
+                                                        {
+                                                            "Name":  "Videos",
+                                                            "Path":  "C:\\Users\\Nyx\\Videos",
+                                                            "Bytes":  504,
+                                                            "Files":  1,
+                                                            "Complete":  true,
+                                                            "AccessDenied":  0
+                                                        }
+                                                    ],
+                                        "LargestFiles":  [
+                                                             {
+                                                                 "Path":  "C:\\Users\\Nyx\\Desktop\\Nyx PC Checkup.lnk",
+                                                                 "SizeBytes":  2547,
+                                                                 "ModifiedUtc":  "2026-09-27T14:29:59.7136450Z",
+                                                                 "Extension":  ".lnk"
+                                                             },
+                                                             {
+                                                                 "Path":  "C:\\Users\\Nyx\\Pictures\\desktop.ini",
+                                                                 "SizeBytes":  504,
+                                                                 "ModifiedUtc":  "2026-08-04T11:53:11.7947713Z",
+                                                                 "Extension":  ".ini"
+                                                             },
+                                                             {
+                                                                 "Path":  "C:\\Users\\Nyx\\Videos\\desktop.ini",
+                                                                 "SizeBytes":  504,
+                                                                 "ModifiedUtc":  "2026-08-04T11:53:11.8005519Z",
+                                                                 "Extension":  ".ini"
+                                                             },
+                                                             {
+                                                                 "Path":  "C:\\Users\\Nyx\\Documents\\desktop.ini",
+                                                                 "SizeBytes":  402,
+                                                                 "ModifiedUtc":  "2026-08-04T11:53:11.9275457Z",
+                                                                 "Extension":  ".ini"
+                                                             },
+                                                             {
+                                                                 "Path":  "C:\\Users\\Nyx\\Downloads\\desktop.ini",
+                                                                 "SizeBytes":  282,
+                                                                 "ModifiedUtc":  "2026-08-04T11:53:11.8798069Z",
+                                                                 "Extension":  ".ini"
+                                                             },
+                                                             {
+                                                                 "Path":  "C:\\Users\\Nyx\\Desktop\\desktop.ini",
+                                                                 "SizeBytes":  282,
+                                                                 "ModifiedUtc":  "2026-08-04T11:53:11.7866689Z",
+                                                                 "Extension":  ".ini"
+                                                             }
+                                                         ]
+                                    }
+                    },
+                    {
+                        "CheckId":  "downloads.analysis",
+                        "Category":  "Downloads",
+                        "Name":  "Downloads checkup",
+                        "Status":  "Good",
+                        "Severity":  "Low",
+                        "Finding":  "Downloads contains at least 1 readable file(s) using 282 B.",
+                        "Reason":  "No notable Downloads cleanup opportunity was found.",
+                        "Evidence":  {
+                                         "Path":  "C:\\Users\\Nyx\\Downloads",
+                                         "TotalBytes":  282,
+                                         "Files":  [
+                                                       {
+                                                           "Path":  "C:\\Users\\Nyx\\Downloads\\desktop.ini",
+                                                           "Name":  "desktop.ini",
+                                                           "Category":  "Other",
+                                                           "SizeBytes":  282,
+                                                           "AgeDays":  54,
+                                                           "OlderThan30Days":  true,
+                                                           "OlderThan90Days":  false,
+                                                           "OlderThanOneYear":  false,
+                                                           "LargerThan100MB":  false,
+                                                           "LargerThan1GB":  false,
+                                                           "CleanupCandidate":  false
+                                                       }
+                                                   ],
+                                         "DuplicateGroups":  [
+
+                                                             ],
+                                         "AccessDenied":  0
+                                     },
+                        "Recommendation":  "Review files yourself. Nyx never assumes that an old file is unwanted.",
+                        "ActionSafetyLevel":  "DestructiveAction",
+                        "Timestamp":  "2026-09-27T14:31:10.9003673Z",
+                        "DataSource":  "Top-level Downloads file metadata and bounded SHA-256 duplicate comparison",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "Files":  [
+                                                      {
+                                                          "Path":  "C:\\Users\\Nyx\\Downloads\\desktop.ini",
+                                                          "Name":  "desktop.ini",
+                                                          "Category":  "Other",
+                                                          "SizeBytes":  282,
+                                                          "AgeDays":  54,
+                                                          "OlderThan30Days":  true,
+                                                          "OlderThan90Days":  false,
+                                                          "OlderThanOneYear":  false,
+                                                          "LargerThan100MB":  false,
+                                                          "LargerThan1GB":  false,
+                                                          "CleanupCandidate":  false
+                                                      }
+                                                  ],
+                                        "DuplicateGroups":  [
+
+                                                            ]
+                                    }
+                    },
+                    {
+                        "CheckId":  "cleanup.preview",
+                        "Category":  "Cleanup",
+                        "Name":  "Safe cleanup preview",
+                        "Status":  "Good",
+                        "Severity":  "Low",
+                        "Finding":  "No supported cleanup candidates were found.",
+                        "Reason":  "Only user temporary files, selected old installers/archives, and the Recycle Bin are included.",
+                        "Evidence":  {
+                                         "Candidates":  [
+
+                                                        ],
+                                         "TotalBytes":  0,
+                                         "Limited":  false,
+                                         "Limit":  5000,
+                                         "VisitedFiles":  27,
+                                         "MaxVisitedFiles":  100000,
+                                         "ElapsedMilliseconds":  98,
+                                         "MaxSeconds":  30,
+                                         "AccessDeniedCount":  0,
+                                         "Cancelled":  false,
+                                         "Complete":  true,
+                                         "LimitReason":  "",
+                                         "IncompleteReason":  ""
+                                     },
+                        "Recommendation":  "Nothing is selected automatically. Review each item and confirm before moving files to the Recycle Bin or emptying it.",
+                        "ActionSafetyLevel":  "DestructiveAction",
+                        "Timestamp":  "2026-09-27T14:31:11.0269140Z",
+                        "DataSource":  "User temp, top-level Downloads metadata, and Recycle Bin shell view",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "Candidates":  [
+
+                                                       ],
+                                        "TotalBytes":  0,
+                                        "Limited":  false,
+                                        "Limit":  5000,
+                                        "VisitedFiles":  27,
+                                        "MaxVisitedFiles":  100000,
+                                        "ElapsedMilliseconds":  98,
+                                        "MaxSeconds":  30,
+                                        "AccessDeniedCount":  0,
+                                        "Cancelled":  false,
+                                        "Complete":  true,
+                                        "LimitReason":  "",
+                                        "IncompleteReason":  ""
+                                    }
+                    },
+                    {
+                        "CheckId":  "drive.health",
+                        "Category":  "Drive Health",
+                        "Name":  "Physical drive health",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "No drive-health warning was reported.",
+                        "Reason":  "All physical drives returned a Healthy state through the available Windows Storage interface.",
+                        "Evidence":  {
+                                         "FriendlyName":  "Msft Virtual Disk",
+                                         "MediaType":  "Unspecified",
+                                         "CapacityBytes":  136365211648,
+                                         "HealthStatus":  "Healthy",
+                                         "OperationalStatus":  [
+                                                                   "OK"
+                                                               ],
+                                         "TemperatureC":  null,
+                                         "WearPercent":  null,
+                                         "ReadErrorsTotal":  null
+                                     },
+                        "Recommendation":  "Continue normal backups. A healthy status does not guarantee that a drive cannot fail.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:31:13.9161502Z",
+                        "DataSource":  "Get-PhysicalDisk / Get-StorageReliabilityCounter",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "FriendlyName":  "Msft Virtual Disk",
+                                        "MediaType":  "Unspecified",
+                                        "CapacityBytes":  136365211648,
+                                        "HealthStatus":  "Healthy",
+                                        "OperationalStatus":  [
+                                                                  "OK"
+                                                              ],
+                                        "TemperatureC":  null,
+                                        "WearPercent":  null,
+                                        "ReadErrorsTotal":  null
+                                    }
+                    },
+                    {
+                        "CheckId":  "performance.snapshot",
+                        "Category":  "Performance",
+                        "Name":  "Current performance snapshot",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "CPU is about 1% and memory use is about 62% in this snapshot.",
+                        "Reason":  "Current CPU and memory use are within ordinary snapshot ranges.",
+                        "Evidence":  {
+                                         "CpuPercent":  1,
+                                         "MemoryPercent":  62,
+                                         "AvailableMemoryBytes":  1632653312,
+                                         "DiskActivityPercent":  2,
+                                         "TopCpu":  [
+                                                        {
+                                                            "Name":  "powershell",
+                                                            "Id":  9240,
+                                                            "CPU":  6.90625,
+                                                            "WorkingSet64":  290164736
+                                                        },
+                                                        {
+                                                            "Name":  "powershell",
+                                                            "Id":  10220,
+                                                            "CPU":  5.453125,
+                                                            "WorkingSet64":  109907968
+                                                        },
+                                                        {
+                                                            "Name":  "powershell",
+                                                            "Id":  9352,
+                                                            "CPU":  3.3125,
+                                                            "WorkingSet64":  155664384
+                                                        },
+                                                        {
+                                                            "Name":  "explorer",
+                                                            "Id":  6248,
+                                                            "CPU":  2.34375,
+                                                            "WorkingSet64":  193150976
+                                                        },
+                                                        {
+                                                            "Name":  "msedgewebview2",
+                                                            "Id":  7492,
+                                                            "CPU":  1.078125,
+                                                            "WorkingSet64":  118693888
+                                                        },
+                                                        {
+                                                            "Name":  "StartMenuExperienceHost",
+                                                            "Id":  6788,
+                                                            "CPU":  0.84375,
+                                                            "WorkingSet64":  132661248
+                                                        },
+                                                        {
+                                                            "Name":  "SearchHost",
+                                                            "Id":  6728,
+                                                            "CPU":  0.796875,
+                                                            "WorkingSet64":  119496704
+                                                        },
+                                                        {
+                                                            "Name":  "sihost",
+                                                            "Id":  6092,
+                                                            "CPU":  0.578125,
+                                                            "WorkingSet64":  49324032
+                                                        }
+                                                    ],
+                                         "TopMemory":  [
+                                                           {
+                                                               "Name":  "MsMpEng",
+                                                               "Id":  3708,
+                                                               "CPU":  null,
+                                                               "WorkingSet64":  312557568
+                                                           },
+                                                           {
+                                                               "Name":  "powershell",
+                                                               "Id":  9240,
+                                                               "CPU":  6.90625,
+                                                               "WorkingSet64":  290164736
+                                                           },
+                                                           {
+                                                               "Name":  "explorer",
+                                                               "Id":  6248,
+                                                               "CPU":  2.34375,
+                                                               "WorkingSet64":  193150976
+                                                           },
+                                                           {
+                                                               "Name":  "powershell",
+                                                               "Id":  9352,
+                                                               "CPU":  3.3125,
+                                                               "WorkingSet64":  155664384
+                                                           },
+                                                           {
+                                                               "Name":  "StartMenuExperienceHost",
+                                                               "Id":  6788,
+                                                               "CPU":  0.84375,
+                                                               "WorkingSet64":  132661248
+                                                           },
+                                                           {
+                                                               "Name":  "OneDrive",
+                                                               "Id":  8836,
+                                                               "CPU":  0.453125,
+                                                               "WorkingSet64":  121896960
+                                                           },
+                                                           {
+                                                               "Name":  "SearchHost",
+                                                               "Id":  6728,
+                                                               "CPU":  0.796875,
+                                                               "WorkingSet64":  119496704
+                                                           },
+                                                           {
+                                                               "Name":  "msedgewebview2",
+                                                               "Id":  7492,
+                                                               "CPU":  1.078125,
+                                                               "WorkingSet64":  118693888
+                                                           }
+                                                       ]
+                                     },
+                        "Recommendation":  "No performance action is required from this snapshot.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:31:16.8539723Z",
+                        "DataSource":  "Windows CIM, process list, and optional performance counter",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "CpuPercent":  1,
+                                        "MemoryPercent":  62,
+                                        "AvailableMemoryBytes":  1632653312,
+                                        "DiskActivityPercent":  2,
+                                        "TopCpu":  [
+                                                       {
+                                                           "Name":  "powershell",
+                                                           "Id":  9240,
+                                                           "CPU":  6.90625,
+                                                           "WorkingSet64":  290164736
+                                                       },
+                                                       {
+                                                           "Name":  "powershell",
+                                                           "Id":  10220,
+                                                           "CPU":  5.453125,
+                                                           "WorkingSet64":  109907968
+                                                       },
+                                                       {
+                                                           "Name":  "powershell",
+                                                           "Id":  9352,
+                                                           "CPU":  3.3125,
+                                                           "WorkingSet64":  155664384
+                                                       },
+                                                       {
+                                                           "Name":  "explorer",
+                                                           "Id":  6248,
+                                                           "CPU":  2.34375,
+                                                           "WorkingSet64":  193150976
+                                                       },
+                                                       {
+                                                           "Name":  "msedgewebview2",
+                                                           "Id":  7492,
+                                                           "CPU":  1.078125,
+                                                           "WorkingSet64":  118693888
+                                                       },
+                                                       {
+                                                           "Name":  "StartMenuExperienceHost",
+                                                           "Id":  6788,
+                                                           "CPU":  0.84375,
+                                                           "WorkingSet64":  132661248
+                                                       },
+                                                       {
+                                                           "Name":  "SearchHost",
+                                                           "Id":  6728,
+                                                           "CPU":  0.796875,
+                                                           "WorkingSet64":  119496704
+                                                       },
+                                                       {
+                                                           "Name":  "sihost",
+                                                           "Id":  6092,
+                                                           "CPU":  0.578125,
+                                                           "WorkingSet64":  49324032
+                                                       }
+                                                   ],
+                                        "TopMemory":  [
+                                                          {
+                                                              "Name":  "MsMpEng",
+                                                              "Id":  3708,
+                                                              "CPU":  null,
+                                                              "WorkingSet64":  312557568
+                                                          },
+                                                          {
+                                                              "Name":  "powershell",
+                                                              "Id":  9240,
+                                                              "CPU":  6.90625,
+                                                              "WorkingSet64":  290164736
+                                                          },
+                                                          {
+                                                              "Name":  "explorer",
+                                                              "Id":  6248,
+                                                              "CPU":  2.34375,
+                                                              "WorkingSet64":  193150976
+                                                          },
+                                                          {
+                                                              "Name":  "powershell",
+                                                              "Id":  9352,
+                                                              "CPU":  3.3125,
+                                                              "WorkingSet64":  155664384
+                                                          },
+                                                          {
+                                                              "Name":  "StartMenuExperienceHost",
+                                                              "Id":  6788,
+                                                              "CPU":  0.84375,
+                                                              "WorkingSet64":  132661248
+                                                          },
+                                                          {
+                                                              "Name":  "OneDrive",
+                                                              "Id":  8836,
+                                                              "CPU":  0.453125,
+                                                              "WorkingSet64":  121896960
+                                                          },
+                                                          {
+                                                              "Name":  "SearchHost",
+                                                              "Id":  6728,
+                                                              "CPU":  0.796875,
+                                                              "WorkingSet64":  119496704
+                                                          },
+                                                          {
+                                                              "Name":  "msedgewebview2",
+                                                              "Id":  7492,
+                                                              "CPU":  1.078125,
+                                                              "WorkingSet64":  118693888
+                                                          }
+                                                      ]
+                                    }
+                    },
+                    {
+                        "CheckId":  "apps.inventory",
+                        "Category":  "Applications",
+                        "Name":  "Installed applications",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "The property \u0027Properties\u0027 cannot be found on this object. Verify that the property exists.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-09-27T14:31:16.9487947Z",
+                        "DataSource":  "Uninstall registry",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "The property \u0027Properties\u0027 cannot be found on this object. Verify that the property exists.",
+                        "Details":  null
+                    }
+                ]
+}

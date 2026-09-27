@@ -1,0 +1,9 @@
+{
+    "Status":  "MONITORING",
+    "PID":  10220,
+    "PS":  "5.1.26100.7920",
+    "Started":  "2026-09-27T10:30:02.4894116-04:00",
+    "BaselineHash":  "52FD434BE824F59F7314673DA6B191D732D11A2922A2A3A96CED7A1CFBB791BB",
+    "PollingDelayMs":  10,
+    "ProductModified":  false
+}
