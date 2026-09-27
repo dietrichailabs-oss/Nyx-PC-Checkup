@@ -1,0 +1,16 @@
+{
+  "SourceCommit": "9cdf56b6c3bc6e105035df328c902d0af12f781c",
+  "Build": "2026.09.26-eng-qa18",
+  "Harness": "QA18-F015-PS51-18",
+  "Status": "NATIVE_F015_PENDING",
+  "PythonChecksPassed": 199,
+  "IsolatedDeferredEventChecksPassed": 14,
+  "F015InstalledInteractive": "NOT_RUN",
+  "F008": "NOT_RUN",
+  "Standard": "NOT_RUN",
+  "Elevated": "NOT_RUN",
+  "IndependentQaDecision": "PENDING",
+  "PriorQA17ArtifactsUnchanged": true,
+  "FailedBuildDirectory": "qa18_f015_build is a rejected build attempt, not the frozen candidate",
+  "FrozenBuildDirectory": "qa18_f015_candidate_build"
+}
