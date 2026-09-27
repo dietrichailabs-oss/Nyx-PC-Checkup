@@ -1,0 +1,40 @@
+{
+  "mode": "candidate-only",
+  "handoff": null,
+  "setup": {
+    "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa19_f016_candidate_build\\dist\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+    "size": 546816,
+    "sha256": "E8F7105248C56646DF72E28371E403A250320B67EC1780FF007750E5125E5E6B"
+  },
+  "portable": {
+    "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa19_f016_candidate_build\\dist\\Nyx_PC_Checkup_1.0.0_Portable.zip",
+    "size": 217480,
+    "sha256": "441232ED0E96DEF1BDCE0803905366EAAE766E7876740AD88CA94EB0192CE868"
+  },
+  "source": {
+    "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa19_f016_candidate_build\\dist\\Nyx_PC_Checkup_1.0.0_Source.zip",
+    "size": 766943,
+    "sha256": "77849F0F5F37E338ED527266B9E79E0D6E50279CC281554919FAFA7BA855875A",
+    "treeSha256": "69DF32006DB72F7CF082A953DE31443F57859C2F69C2372315610CEC7C43F07F"
+  },
+  "tests": [
+    {
+      "name": "PowerShell structural lint — app",
+      "status": "PASS",
+      "output": "PowerShell structural lint: PASS"
+    },
+    {
+      "name": "PowerShell structural lint — Windows tests",
+      "status": "PASS",
+      "output": "PowerShell structural lint: PASS"
+    },
+    {
+      "name": "Python engineering contract, safety, PE, manifest, and archive suite",
+      "status": "PASS",
+      "output": "........................................................................ [ 35%]\n........................................................................ [ 70%]\n...........................................................              [100%]\n203 passed in 1.29s"
+    }
+  ],
+  "engineeringVerdict": "CANDIDATE ARTIFACTS REPRODUCED — QA HANDOFF NOT CONSTRUCTED IN THIS MODE",
+  "releaseAuthorization": false,
+  "githubUsed": false
+}
