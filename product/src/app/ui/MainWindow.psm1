@@ -376,6 +376,59 @@ function Show-NyxStartupPage {
     Set-NyxPageScrollExtent -Height 660
 }
 
+function Test-NyxDeferredPageState {
+    param($State)
+    if($null -eq $State -or -not $State.Active){return $false}
+    foreach($control in $State.Controls){
+        if($null -eq $control -or $control.IsDisposed -or $control.Disposing){return $false}
+    }
+    return $true
+}
+
+function Show-NyxPageMessage {
+    param([string]$Text,[string]$Title='Nyx PC Checkup',[string]$Buttons='OK',[string]$Icon='None')
+    return [Windows.Forms.MessageBox]::Show($Text,$Title,$Buttons,$Icon)
+}
+
+function Update-NyxAppsSelection {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $State.Folder.Enabled=(-not $State.Loading -and $State.Grid.SelectedRows.Count -gt 0)
+}
+
+function Update-NyxAppsRows {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $State.Loading=$true
+    $State.Folder.Enabled=$false
+    try{
+        $State.Grid.Rows.Clear()
+        $filter=[string]$State.Search.Text
+        foreach($app in $State.Apps){
+            if($filter -and (([string]$app.Name+' '+[string]$app.Publisher) -notmatch [regex]::Escape($filter))){continue}
+            $size=if($null -ne $app.EstimatedSizeBytes){ConvertTo-NyxBytesText ([int64]$app.EstimatedSizeBytes)}else{'Unknown'}
+            $i=$State.Grid.Rows.Add([string]$app.Name,[string]$app.Publisher,[string]$app.Version,[string]$app.InstallDate,$size)
+            $State.Grid.Rows[$i].Tag=$app
+        }
+        $State.Grid.CurrentCell=$null
+        $State.Grid.ClearSelection()
+    }finally{
+        $State.Loading=$false
+        Update-NyxAppsSelection -State $State
+    }
+}
+
+function Open-NyxAppsSelectedFolder {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    if($State.Loading -or $State.Grid.SelectedRows.Count -eq 0){return}
+    $app=$State.Grid.SelectedRows[0].Tag
+    if($null -eq $app){return}
+    if($app.InstallLocation -and (Test-Path -LiteralPath ([string]$app.InstallLocation) -PathType Container)){
+        Invoke-NyxOpen 'explorer.exe' ('"'+[string]$app.InstallLocation+'"')
+    }else{Show-NyxPageMessage -Text 'No usable install folder was reported for this application.'|Out-Null}
+}
+
 function Show-NyxAppsPage {
     Clear-NyxPage
     Add-NyxPageHeading -Title 'Installed applications' -Subtitle 'Search the supported Windows uninstall inventory. Nyx does not call programs junk and does not uninstall anything automatically.'
@@ -414,32 +467,60 @@ function Show-NyxAppsPage {
         $r=@($script:NyxUi.Scan.Results|Where-Object{$_.CheckId -eq 'apps.inventory'}|Select-Object -First 1)
         if($r.Count -gt 0){$apps=@($r[0].Details)}
     }
-    $render={
-        param([string]$Filter='')
-        $grid.Rows.Clear()
-        foreach($app in $apps){
-            if($Filter -and((([string]$app.Name)+' '+([string]$app.Publisher)) -notmatch [regex]::Escape($Filter))){continue}
-            $size=if($null -ne $app.EstimatedSizeBytes){ConvertTo-NyxBytesText ([int64]$app.EstimatedSizeBytes)}else{'Unknown'}
-            $i=$grid.Rows.Add([string]$app.Name,[string]$app.Publisher,[string]$app.Version,[string]$app.InstallDate,$size)
-            $grid.Rows[$i].Tag=$app
-        }
-        $folder.Enabled=$false
+    # F-021: callbacks retain this page instance, never constructor locals.
+    $appsState=[pscustomobject]@{
+        Search=$search;Grid=$grid;Folder=$folder;Apps=$apps
+        Controls=@($search,$grid,$folder);Loading=$false;Active=$true
     }
-    $search.Add_TextChanged({&$render $search.Text})
-    $grid.Add_SelectionChanged({$folder.Enabled=($grid.SelectedRows.Count -gt 0)})
-    &$render ''
-
-    $folder.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
-        if($app.InstallLocation -and(Test-Path -LiteralPath ([string]$app.InstallLocation))){Invoke-NyxOpen 'explorer.exe' ('"'+[string]$app.InstallLocation+'"')}
-        else{[Windows.Forms.MessageBox]::Show('No usable install folder was reported for this application.','Nyx PC Checkup')|Out-Null}
-    })
+    foreach($control in $appsState.Controls){$control.Tag=$appsState}
+    $search.Add_TextChanged({param($sender,$eventArgs)Update-NyxAppsRows -State $sender.Tag})
+    $grid.Add_SelectionChanged({param($sender,$eventArgs)Update-NyxAppsSelection -State $sender.Tag})
+    $grid.Add_Disposed({param($sender,$eventArgs)$sender.Tag.Active=$false})
+    $folder.Add_Click({param($sender,$eventArgs)Open-NyxAppsSelectedFolder -State $sender.Tag})
+    Update-NyxAppsRows -State $appsState
 
     if($apps.Count -eq 0){
         $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'No application inventory is loaded yet. Run Full Check using the visible action above to populate this list.' -X 24 -Y 598 -Width (Get-NyxPageWidth) -Height 48 -Size 10 -Palette $script:NyxUi.Palette -Color 'Muted'))
     }
     Set-NyxPageScrollExtent -Height 670
+}
+
+function Update-NyxCleanupSelection {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $count=0;$bytes=[int64]0
+    foreach($row in $State.Grid.Rows){
+        if([bool]$row.Cells['Select'].Value){$count++;$bytes += [int64]$row.Tag.SizeBytes}
+    }
+    $State.Summary.Text="Selected: $count item(s), $(ConvertTo-NyxBytesText $bytes)"
+}
+
+function Invoke-NyxCleanupSelection {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $ids=[System.Collections.Generic.List[string]]::new()
+    $bytes=[int64]0;$recycle=$false
+    foreach($row in $State.Grid.Rows){
+        if([bool]$row.Cells['Select'].Value){
+            $ids.Add([string]$row.Tag.Id);$bytes += [int64]$row.Tag.SizeBytes
+            if($row.Tag.Category -eq 'Recycle Bin'){$recycle=$true}
+        }
+    }
+    if($ids.Count -eq 0){Show-NyxPageMessage -Text 'Select at least one displayed item.'|Out-Null;return}
+    $text="You selected $($ids.Count) item(s) totaling $(ConvertTo-NyxBytesText $bytes).`r`n`r`nFiles will be moved to the Windows Recycle Bin."
+    if($recycle){$text+="`r`n`r`nThe Recycle Bin selection will be emptied permanently."}
+    $text+="`r`n`r`nContinue?"
+    $answer=Show-NyxPageMessage -Text $text -Title 'Confirm destructive cleanup action' -Buttons 'YesNo' -Icon 'Warning'
+    if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
+    $res=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='Cleanup';CandidateIds=@($ids.ToArray())})
+    if($res){
+        Show-NyxPageMessage -Text ([string]$res.Message)|Out-Null
+        if([string]$res.Status -in @('Completed','Partial')){
+            $script:NyxUi.FooterLabel.Text='Cleanup finished. Refreshing the read-only cleanup preview.'
+            Start-NyxScan -Mode 'Full';return
+        }
+    }
+    Show-NyxCleanupPage
 }
 
 function Show-NyxCleanupPage {
@@ -485,45 +566,16 @@ function Show-NyxCleanupPage {
 
     $summary=New-NyxLabel -Text 'Selected: 0 items, 0 B' -X 24 -Y 516 -Width 420 -Height 32 -Size 10 -Bold $true -Palette $script:NyxUi.Palette
     $script:NyxUi.Content.Controls.Add($summary)
-    $update={
-        $count=0
-        $bytes=[int64]0
-        foreach($row in $grid.Rows){
-            if([bool]$row.Cells['Select'].Value){$count++;$bytes += [int64]$row.Tag.SizeBytes}
-        }
-        $summary.Text="Selected: $count item(s), $(ConvertTo-NyxBytesText $bytes)"
-    }
-    $grid.Add_CellValueChanged($update)
-    $grid.Add_CurrentCellDirtyStateChanged({if($grid.IsCurrentCellDirty){$grid.CommitEdit([Windows.Forms.DataGridViewDataErrorContexts]::Commit)}})
-
     $run=New-NyxButton -Text 'Review and clean selected' -X 24 -Y 556 -Width 245 -Palette $script:NyxUi.Palette -Primary $true
-    $run.Add_Click({
-        $ids=[System.Collections.Generic.List[string]]::new()
-        $bytes=[int64]0
-        $recycle=$false
-        foreach($row in $grid.Rows){
-            if([bool]$row.Cells['Select'].Value){
-                $ids.Add([string]$row.Tag.Id)
-                $bytes += [int64]$row.Tag.SizeBytes
-                if($row.Tag.Category -eq 'Recycle Bin'){$recycle=$true}
-            }
-        }
-        if($ids.Count -eq 0){[Windows.Forms.MessageBox]::Show('Select at least one displayed item.','Nyx PC Checkup')|Out-Null;return}
-        $text="You selected $($ids.Count) item(s) totaling $(ConvertTo-NyxBytesText $bytes).`r`n`r`nFiles will be moved to the Windows Recycle Bin."
-        if($recycle){$text+="`r`n`r`nThe Recycle Bin selection will be emptied permanently."}
-        $text+="`r`n`r`nContinue?"
-        $answer=[Windows.Forms.MessageBox]::Show($text,'Confirm destructive cleanup action','YesNo','Warning')
-        if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
-        $res=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='Cleanup';CandidateIds=@($ids.ToArray())})
-        if($res){
-            [Windows.Forms.MessageBox]::Show([string]$res.Message,'Nyx PC Checkup')|Out-Null
-            if([string]$res.Status -in @('Completed','Partial')){
-                $script:NyxUi.FooterLabel.Text='Cleanup finished. Refreshing the read-only cleanup preview.'
-                Start-NyxScan -Mode 'Full';return
-            }
-        }
-        Show-NyxCleanupPage
+    $cleanupState=[pscustomobject]@{Grid=$grid;Summary=$summary;Run=$run;Controls=@($grid,$summary,$run);Active=$true}
+    foreach($control in $cleanupState.Controls){$control.Tag=$cleanupState}
+    $grid.Add_CellValueChanged({param($sender,$eventArgs)Update-NyxCleanupSelection -State $sender.Tag})
+    $grid.Add_CurrentCellDirtyStateChanged({
+        param($sender,$eventArgs)
+        if((Test-NyxDeferredPageState $sender.Tag) -and $sender.IsCurrentCellDirty){[void]$sender.CommitEdit([Windows.Forms.DataGridViewDataErrorContexts]::Commit)}
     })
+    $grid.Add_Disposed({param($sender,$eventArgs)$sender.Tag.Active=$false})
+    $run.Add_Click({param($sender,$eventArgs)Invoke-NyxCleanupSelection -State $sender.Tag})
     $script:NyxUi.Content.Controls.Add($run)
     $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'If a deletion fails, the file is preserved and the exact failure is reported. Nyx never touches Documents, Photos, Videos, browser profiles, update caches, restore points, or application databases through this module.' -X 288 -Y 548 -Width ([math]::Max(300,(Get-NyxPageWidth)-288)) -Height 88 -Size 9 -Palette $script:NyxUi.Palette -Color 'Muted'))
     Set-NyxPageScrollExtent -Height 660

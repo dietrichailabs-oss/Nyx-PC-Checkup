@@ -108,4 +108,4 @@ def test_app_acceptance_probe_is_guarded_and_uses_real_scan_worker() -> None:
     assert "ScanWorker.ps1" in text
     assert "-Mode Quick" in text
     assert "RuntimeComposition" in text
-    assert "2026.09.27-eng-qa23" in text
+    assert "2026.09.27-eng-qa24" in text

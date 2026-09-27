@@ -1,7 +1,7 @@
 # Nyx PC Checkup 1.0.0 — QA15 Engineering Notes
 
-**Build:** `2026.09.27-eng-qa23`  
-**Harness:** `QA23-F020-PS51-23`  
+**Build:** `2026.09.27-eng-qa24`  
+**Harness:** `QA24-F021-PS51-24`  
 **Status:** New immutable F-011 correction candidate; native Windows VM pre-QA required; not approved for release.
 
 ## Candidate-lineage clarification

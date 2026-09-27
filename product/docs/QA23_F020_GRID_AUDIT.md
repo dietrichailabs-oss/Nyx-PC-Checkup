@@ -1,7 +1,7 @@
 # QA23 F-020 grid-focus correction
 
-QA22 remains frozen. QA23 source build identity is 2026.09.27-eng-qa23;
-harness identity is QA23-F020-PS51-23. Candidate acceptance is not asserted.
+QA22 remains frozen. QA23 source build identity is 2026.09.27-eng-qa24;
+harness identity is QA24-F021-PS51-24. Candidate acceptance is not asserted.
 
 The QA22 native failure recorded a selected row below the outer page viewport.
 Both prior focus-tree handlers only reacted to control Enter. A DataGridView
