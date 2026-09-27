@@ -1,0 +1,16 @@
+﻿{
+    "GuestRunning":  true,
+    "CleanupPerformedBy":  "Frozen product UI, not harness",
+    "WorkerPids":  [
+                       9668,
+                       9840,
+                       1236,
+                       5972
+                   ],
+    "Artifacts":  [
+
+                  ],
+    "ScanProcess":  null,
+    "Time":  "2026-09-27T20:14:33.2845378Z",
+    "AllWorkerProcessesExited":  true
+}

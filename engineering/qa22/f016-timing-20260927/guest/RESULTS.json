@@ -1,0 +1,120 @@
+﻿{
+    "Status":  "F016_THREE_CASES_PASS",
+    "Build":  "2026.09.27-eng-qa22",
+    "Harness":  "QA22-F019-PS51-22",
+    "TimingHarness":  "QA22-F016-TIMING-1",
+    "ProductModified":  false,
+    "Method":  "Full installed runtime graph and real WinForms message loop/timers. Unchanged Start-NyxScan and Cancel-NyxScan entry points; no extracted functions, substituted worker, rewritten result, or scan delay. UI cleanup is performed by the product.",
+    "NativeLauncherGateClaimed":  false,
+    "Runs":  [
+                 {
+                     "Run":  1,
+                     "File":  "RESULT_1_Quick.json",
+                     "Mode":  "Quick",
+                     "Cancelled":  true,
+                     "ReadOnly":  true,
+                     "ResultCount":  2,
+                     "StartedUtc":  "2026-09-27T20:13:41.6783292Z",
+                     "CompletedUtc":  "2026-09-27T20:13:44.1085756Z",
+                     "RequestedUtc":  "2026-09-27T20:13:40.8047602Z",
+                     "WorkerPid":  9668,
+                     "WorkerAliveAtCancel":  true,
+                     "CancelRequestedUtc":  "2026-09-27T20:13:44.0767453Z",
+                     "CleanupObservedUtc":  "2026-09-27T20:13:44.5688372Z",
+                     "ProgressReads":  173,
+                     "Errors":  [
+
+                                ],
+                     "Pass":  true
+                 },
+                 {
+                     "Run":  2,
+                     "File":  "RESULT_2_Quick.json",
+                     "Mode":  "Quick",
+                     "Cancelled":  false,
+                     "ReadOnly":  true,
+                     "ResultCount":  15,
+                     "StartedUtc":  "2026-09-27T20:13:45.3938220Z",
+                     "CompletedUtc":  "2026-09-27T20:14:01.8895128Z",
+                     "RequestedUtc":  "2026-09-27T20:13:44.5688372Z",
+                     "WorkerPid":  9840,
+                     "WorkerAliveAtCancel":  false,
+                     "CancelRequestedUtc":  null,
+                     "CleanupObservedUtc":  "2026-09-27T20:14:02.1443980Z",
+                     "ProgressReads":  1047,
+                     "Errors":  [
+
+                                ],
+                     "Pass":  true
+                 },
+                 {
+                     "Run":  3,
+                     "File":  "RESULT_3_Full.json",
+                     "Mode":  "Full",
+                     "Cancelled":  false,
+                     "ReadOnly":  true,
+                     "ResultCount":  21,
+                     "StartedUtc":  "2026-09-27T20:14:02.9698850Z",
+                     "CompletedUtc":  "2026-09-27T20:14:20.9642045Z",
+                     "RequestedUtc":  "2026-09-27T20:14:02.1443980Z",
+                     "WorkerPid":  1236,
+                     "WorkerAliveAtCancel":  false,
+                     "CancelRequestedUtc":  null,
+                     "CleanupObservedUtc":  "2026-09-27T20:14:21.3299957Z",
+                     "ProgressReads":  1145,
+                     "Errors":  [
+
+                                ],
+                     "Pass":  true
+                 },
+                 {
+                     "Run":  4,
+                     "File":  "RESULT_4_Quick.json",
+                     "Mode":  "Quick",
+                     "Cancelled":  false,
+                     "ReadOnly":  true,
+                     "ResultCount":  15,
+                     "StartedUtc":  "2026-09-27T20:14:22.1710344Z",
+                     "CompletedUtc":  "2026-09-27T20:14:33.0455360Z",
+                     "RequestedUtc":  "2026-09-27T20:14:21.3299957Z",
+                     "WorkerPid":  5972,
+                     "WorkerAliveAtCancel":  false,
+                     "CancelRequestedUtc":  null,
+                     "CleanupObservedUtc":  "2026-09-27T20:14:33.2172544Z",
+                     "ProgressReads":  686,
+                     "Errors":  [
+
+                                ],
+                     "Pass":  true
+                 }
+             ],
+    "Transitions":  [
+                        {
+                            "From":  "Quick",
+                            "To":  "Full",
+                            "CompletedUtc":  "2026-09-27T20:14:01.8895128Z",
+                            "CleanupObservedUtc":  "2026-09-27T20:14:02.1443980Z",
+                            "NextRequestedUtc":  "2026-09-27T20:14:02.1443980Z",
+                            "NextWorkerStartedUtc":  "2026-09-27T20:14:02.9698850Z",
+                            "HarnessDispatchMilliseconds":  0,
+                            "CompletionToWorkerStartMilliseconds":  1080.3722,
+                            "NoDeliberateDelay":  true,
+                            "Pass":  true
+                        },
+                        {
+                            "From":  "Full",
+                            "To":  "Quick",
+                            "CompletedUtc":  "2026-09-27T20:14:20.9642045Z",
+                            "CleanupObservedUtc":  "2026-09-27T20:14:21.3299957Z",
+                            "NextRequestedUtc":  "2026-09-27T20:14:21.3299957Z",
+                            "NextWorkerStartedUtc":  "2026-09-27T20:14:22.1710344Z",
+                            "HarnessDispatchMilliseconds":  0,
+                            "CompletionToWorkerStartMilliseconds":  1206.8299,
+                            "NoDeliberateDelay":  true,
+                            "Pass":  true
+                        }
+                    ],
+    "QuickCancellationPass":  true,
+    "AllThreeCasesPass":  true,
+    "GuestRunningAtCleanup":  true
+}
