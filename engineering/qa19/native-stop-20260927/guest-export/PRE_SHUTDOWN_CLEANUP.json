@@ -1,0 +1,19 @@
+{
+    "Time":  "2026-09-27T10:01:44.5449348-04:00",
+    "Computer":  "DESKTOP-4D83OSL",
+    "User":  "Nyx",
+    "PowerShell":  "5.1.26100.7920",
+    "GuestRunning":  true,
+    "CapturedBeforeShutdown":  true,
+    "WorkerCount":  0,
+    "Workers":  [
+
+                ],
+    "ScanArtifacts":  [
+
+                      ],
+    "ScanArtifactsAbsent":  true,
+    "ProductModified":  false,
+    "ObserverProcessesStopped":  2,
+    "HandleDeletionTest":  "Not independently exercised; absence records actual product cleanup, not a synthetic deletion test"
+}

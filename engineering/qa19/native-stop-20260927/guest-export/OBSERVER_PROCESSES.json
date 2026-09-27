@@ -1,0 +1,10 @@
+[
+    {
+        "ProcessId":  9464,
+        "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"C:\\Q19F016\\Observe-QA19-Installed.ps1\" -Evidence \"C:\\Users\\Nyx\\AppData\\Local\\NyxQA19Evidence\\continuation_20260927_094731_235\" "
+    },
+    {
+        "ProcessId":  4348,
+        "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"C:\\Q19F016\\Observe-QA19-Installed.ps1\" -Evidence \"C:\\Users\\Nyx\\AppData\\Local\\NyxQA19Evidence\\continuation_20260927_095025_799\" "
+    }
+]

@@ -1,0 +1,68 @@
+{
+  "Build": "2026.09.26-eng-qa19",
+  "Harness": "QA19-F016-PS51-19",
+  "SourceCommit": "3c59c7ab419e00f6961811acac7132609a39266f",
+  "Status": "ENGINEERING_STOP_PRODUCT_CHECK_FAILURE",
+  "IndependentQaDecision": "NOT_CLAIMED",
+  "ProductModified": false,
+  "Rebuilt": false,
+  "SuccessorCreated": false,
+  "InstalledHashesMatched": 61,
+  "FrozenEarlierResults": {
+    "QuickUiCompletions": 10,
+    "DeterministicConcurrency": "16/16",
+    "Python": "203/203",
+    "PerRunAuthoritativeValidation": "Not established for every earlier run",
+    "FullUiCompletions": 11,
+    "StructuralLint": "2/2"
+  },
+  "NewMonitoredRuns": {
+    "CompletedRunsCancelled": false,
+    "FullProgressReadsReader1": 995,
+    "Quick": 2,
+    "QuickProgressReadsReader1": 1092,
+    "NewRunSchemaValidation": "3/3 observer records valid",
+    "FullFunctionalResult": "FAIL: two checks incomplete",
+    "Full": 1,
+    "QuickProgressReadsEarly": 1042,
+    "QuickProgressReadsReader2": 1092,
+    "FullProgressReadsReader2": 994
+  },
+  "Cleanup": {
+    "IndependentHandleDeletionTest": "NOT_RUN",
+    "RecordedBeforeShutdown": true,
+    "WorkerCount": 0,
+    "StaleScanArtifactCount": 0
+  },
+  "Findings": [
+    {
+      "Complete": false,
+      "Status": "Unknown",
+      "Error": "Exception getting CPU: The property 'TotalSeconds' cannot be found on this object",
+      "CheckId": "performance.snapshot"
+    },
+    {
+      "Complete": false,
+      "Status": "Unknown",
+      "Error": "The property 'SystemComponent' cannot be found on this object",
+      "CheckId": "apps.inventory"
+    }
+  ],
+  "F016Acceptance": "INCOMPLETE; stop due to product check failures; no progress sharing abort observed",
+  "F015": "NOT_RUN",
+  "F008": {
+    "NotRun": 132,
+    "Fail": 0,
+    "Pass": 0
+  },
+  "Standard": "NOT_RUN",
+  "F011": "NOT_RUN",
+  "F012": "NOT_RUN",
+  "F010": "NOT_RUN",
+  "Elevated": "NOT_RUN",
+  "EvidenceAsset": {
+    "SHA256": "763BC6DD3E8055307D972D1702839F1E9C5E39BDC5795AD8621E3C006D79B77C",
+    "Name": "QA19_GUEST_EVIDENCE_20260927_100144.zip",
+    "Bytes": 110006
+  }
+}
