@@ -1,0 +1,98 @@
+{
+  "Build": "2026.09.27-eng-qa24",
+  "Harness": "QA24-F021-PS51-24",
+  "SourceCommit": "31ff35dead242485bad2ab74c4838e8a5d41cb7f",
+  "Gate": "INCOMPLETE",
+  "ObservedPass": 14,
+  "Pending": 2,
+  "ProductFailureEstablished": false,
+  "GuestIdentityCollection": "PENDING",
+  "Cases": [
+    {
+      "Id": 1,
+      "Case": "Open populated Apps",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 2,
+      "Case": "First-character search",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 3,
+      "Case": "Multiple-character search",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 4,
+      "Case": "Clear query restores inventory",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 5,
+      "Case": "Exact application name",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 6,
+      "Case": "Partial application name",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 7,
+      "Case": "Publisher matching",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 8,
+      "Case": "No-match query",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 9,
+      "Case": "Rapid repeated filter changes",
+      "Status": "PENDING"
+    },
+    {
+      "Id": 10,
+      "Case": "Navigate away/back and search",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 11,
+      "Case": "Select filtered row",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 12,
+      "Case": "Folder enablement and selection reset",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 13,
+      "Case": "Valid install folder",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 14,
+      "Case": "Unavailable install folder",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 15,
+      "Case": "No stale controls observed after recreation",
+      "Status": "OBSERVED_PASS"
+    },
+    {
+      "Id": 16,
+      "Case": "No unhandled exceptions in guest logs",
+      "Status": "PENDING"
+    }
+  ],
+  "Limitations": [
+    "Six tool-paced alternating queries took 37.863 seconds; not counted as rapid typing stress.",
+    "User-assisted rapid typing requested; awaiting result.",
+    "Guest payload hashes, process records, and logs not collected yet.",
+    "Screenshots are observations, not Independent QA approval."
+  ]
+}

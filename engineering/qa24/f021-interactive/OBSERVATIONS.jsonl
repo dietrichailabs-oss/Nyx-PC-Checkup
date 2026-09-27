@@ -1,0 +1,18 @@
+{"utc":"2026-09-27T23:27:01.229Z","name":"01-populated-inventory","note":"Installed Apps displays Microsoft inventory after a real Full Check; authoritative scan JSON remains to be collected.","screenshot":"01-populated-inventory.jpg"}
+{"utc":"2026-09-27T23:27:22.149Z","name":"02-first-character-n","note":"PASS observation: first character n filters populated rows immediately; no exception dialog.","screenshot":"02-first-character-n.jpg"}
+{"utc":"2026-09-27T23:27:29.452Z","name":"03-multiple-characters-ny","note":"PASS observation: ny reduces inventory to Nyx PC Checkup.","screenshot":"03-multiple-characters-ny.jpg"}
+{"utc":"2026-09-27T23:27:37.726Z","name":"04-partial-name-nyx","note":"PASS observation: partial name nyx matches only Nyx PC Checkup.","screenshot":"04-partial-name-nyx.jpg"}
+{"utc":"2026-09-27T23:27:45.354Z","name":"05-no-match-nyxz","note":"PASS observation: nyxz yields zero rows without exception.","screenshot":"05-no-match-nyxz.jpg"}
+{"utc":"2026-09-27T23:28:04.391Z","name":"06-clear-restores-inventory","note":"PASS observation: clearing query restores the populated Microsoft inventory, with no selection.","screenshot":"06-clear-restores-inventory.jpg"}
+{"utc":"2026-09-27T23:48:43.488Z","name":"07-publisher-di","note":"PASS observation: publisher-only query di matches Dietrich AI Labs and returns Nyx PC Checkup.","screenshot":"07-publisher-di.jpg"}
+{"utc":"2026-09-27T23:49:17.925Z","name":"08-valid-folder-opened","note":"PASS observation: selecting publisher-filtered Nyx row enabled folder action; Explorer opened the Nyx PC Checkup install folder.","screenshot":"08-valid-folder-opened.jpg"}
+{"utc":"2026-09-27T23:49:54.465Z","name":"09-stale-selection-cleared","note":"PASS observation: changing selected publisher query to diz removed all rows; clicking folder action did not reopen prior folder.","screenshot":"09-stale-selection-cleared.jpg"}
+{"utc":"2026-09-27T23:52:58.525Z","name":"10-exact-name-match","note":"PASS observation: complete name nyx pc checkup returns the single Nyx PC Checkup row without exception.","screenshot":"10-exact-name-match.jpg"}
+{"utc":"2026-09-27T23:53:54.474Z","name":"11-search-after-recreation","note":"PASS observation: Apps recreated after Cleanup; new query upd returns Microsoft Edge Update without a deferred-state exception.","screenshot":"11-search-after-recreation.jpg"}
+{"utc":"2026-09-27T23:54:58.863Z","name":"12-unavailable-folder-message","note":"PASS observation: Microsoft Edge Update produced the safe No usable install folder message, not an exception.","screenshot":"12-unavailable-folder-message.jpg"}
+{"utc":"2026-09-27T23:55:40.572Z","name":"13-repeat-up-1","note":"Query up returned Edge Update and Nyx; selection cleared.","screenshot":"13-repeat-up-1.jpg"}
+{"utc":"2026-09-27T23:55:47.183Z","name":"14-repeat-upd-1","note":"Query upd returned only Edge Update; no exception.","screenshot":"14-repeat-upd-1.jpg"}
+{"utc":"2026-09-27T23:55:54.374Z","name":"15-repeat-up-2","note":"Second up returned both expected rows without stale selection.","screenshot":"15-repeat-up-2.jpg"}
+{"utc":"2026-09-27T23:56:03.186Z","name":"16-repeat-upd-2","note":"Second upd returned one expected row.","screenshot":"16-repeat-upd-2.jpg"}
+{"utc":"2026-09-27T23:56:11.503Z","name":"17-repeat-up-3","note":"Third up returned both expected rows without exception.","screenshot":"17-repeat-up-3.jpg"}
+{"utc":"2026-09-27T23:56:40.159Z","name":"18-repeat-upd-3","note":"Third upd returned only Edge Update. Six separately observed tool-paced edits passed; this does not establish fast human typing stress.","screenshot":"18-repeat-upd-3.jpg"}

@@ -1,0 +1,7 @@
+{
+  "startUtc": "2026-09-27T23:55:33.899Z",
+  "endUtc": "2026-09-27T23:56:11.762Z",
+  "changes": 6,
+  "addedWaitMilliseconds": 0,
+  "limitation": "Tool round trips between each input; not equivalent to a fast typing burst."
+}

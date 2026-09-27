@@ -1,0 +1,31 @@
+{
+  "Build": "2026.09.27-eng-qa24",
+  "Harness": "QA24-F021-PS51-24",
+  "Status": "IN PROGRESS - desktop input coordination required",
+  "ProductFailureEstablished": false,
+  "SourceCommit": "31ff35dead242485bad2ab74c4838e8a5d41cb7f",
+  "FrozenProductModified": false,
+  "Observed": [
+    "Installed application opened",
+    "Real Full Check visibly completed",
+    "Populated Apps inventory displayed",
+    "First character n filtered without an exception",
+    "Multiple characters ny filtered to Nyx PC Checkup",
+    "Partial-name nyx matched",
+    "No-match nyxz showed zero rows",
+    "Clearing restored the inventory"
+  ],
+  "Remaining": [
+    "Collect guest installed-payload hashes and scan JSON",
+    "Exact-name and publisher search",
+    "Rapid repeated filters",
+    "Selection and stale-selection reset",
+    "Valid and unavailable folder actions",
+    "Navigation and page recreation",
+    "F020",
+    "F015",
+    "F008 132 cells",
+    "Standard/F011/F012/F010/Elevated and safety gates"
+  ],
+  "Caveat": "These screenshots are partial observations, not a completed F021 gate or Independent QA approval."
+}
