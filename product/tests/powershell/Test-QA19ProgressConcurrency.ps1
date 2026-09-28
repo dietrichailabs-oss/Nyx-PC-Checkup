@@ -80,7 +80,7 @@ try {
 }catch{$failure=$_.Exception.ToString()}finally{
     if($null -ne $lease){$lease.Dispose()}
     if($null -ne $shared){$shared.Dispose()}
-    [ordered]@{Harness='QA24-F021-PS51-24';Type='Deterministic extracted product progress-function regression; not installed scan stress';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+    [ordered]@{Harness='QA25-F022-PS51-25';Type='Deterministic extracted product progress-function regression; not installed scan stress';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath $OutputPath -Encoding UTF8
     Remove-Item -LiteralPath $root -Recurse -Force
 }
 if($failure){throw $failure}

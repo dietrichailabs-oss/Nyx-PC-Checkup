@@ -54,6 +54,6 @@ try{
 }catch{$failure=$_.Exception.ToString()}finally{
     if($key -notmatch '^HKCU:\\Software\\NyxQA21_F018_[0-9a-f]{32}$'){throw 'Unsafe fixture cleanup path'}
     Microsoft.PowerShell.Management\Remove-Item -LiteralPath $key -Recurse -Force -ErrorAction SilentlyContinue
-    @{Harness='QA24-F021-PS51-24';Type='Native registry-provider source regression; not installed acceptance';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure;PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+    @{Harness='QA25-F022-PS51-25';Type='Native registry-provider source regression; not installed acceptance';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure;PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath $OutputPath -Encoding UTF8
 }
 if($failure){throw $failure}

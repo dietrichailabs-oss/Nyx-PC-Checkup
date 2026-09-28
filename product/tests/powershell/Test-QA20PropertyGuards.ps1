@@ -47,6 +47,6 @@ try{
     $app=ConvertTo-NyxInstalledApplication ([pscustomobject]@{DisplayName='InvalidSize';EstimatedSize='unknown'})
     Assert-F017 'Malformed optional size does not discard application' ($app.Name -eq 'InvalidSize' -and $null -eq $app.EstimatedSizeBytes)
 }catch{$failure=$_.Exception.ToString()}finally{
-    @{Harness='QA24-F021-PS51-24';Type='Deterministic source-function regression, not installed acceptance';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+    @{Harness='QA25-F022-PS51-25';Type='Deterministic source-function regression, not installed acceptance';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath $OutputPath -Encoding UTF8
 }
 if($failure){throw $failure}

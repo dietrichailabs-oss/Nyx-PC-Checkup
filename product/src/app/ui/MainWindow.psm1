@@ -429,6 +429,21 @@ function Open-NyxAppsSelectedFolder {
     }else{Show-NyxPageMessage -Text 'No usable install folder was reported for this application.'|Out-Null}
 }
 
+function Set-NyxAppsColumnPolicy {
+    param([Windows.Forms.DataGridView]$Grid)
+    # Use logical pixels here. Set-NyxDeviceGeometry scales each width and
+    # minimum once with the rest of the page. Fill redistribution during that
+    # sequential scaling must not squeeze the remaining inventory columns.
+    $Grid.AutoSizeColumnsMode='None'
+    $Grid.ScrollBars='Both'
+    foreach($spec in @(@('Name',240),@('Publisher',200),@('Version',150),@('Date',130),@('Size',150))){
+        $column=$Grid.Columns[[string]$spec[0]]
+        $column.AutoSizeMode='None'
+        $column.MinimumWidth=[int]$spec[1]
+        $column.Width=[int]$spec[1]
+    }
+}
+
 function Show-NyxAppsPage {
     Clear-NyxPage
     Add-NyxPageHeading -Title 'Installed applications' -Subtitle 'Search the supported Windows uninstall inventory. Nyx does not call programs junk and does not uninstall anything automatically.'
@@ -460,6 +475,7 @@ function Show-NyxAppsPage {
     [void]$grid.Columns.Add('Version','Version')
     [void]$grid.Columns.Add('Date','Install date')
     [void]$grid.Columns.Add('Size','Reported size')
+    Set-NyxAppsColumnPolicy -Grid $grid
     $script:NyxUi.Content.Controls.Add($grid)
 
     $apps=@()

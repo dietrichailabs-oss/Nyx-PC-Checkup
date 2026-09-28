@@ -144,7 +144,14 @@ function Set-NyxDeviceGeometry {
             if($c -is [Windows.Forms.DataGridView]){
                 $c.RowTemplate.Height=[int][math]::Ceiling($c.RowTemplate.Height*$r)
                 foreach($row in $c.Rows){$row.Height=[int][math]::Ceiling($row.Height*$r)}
-                foreach($column in $c.Columns){$column.MinimumWidth=[math]::Max(2,[int]($column.MinimumWidth*$r));$column.Width=[math]::Max($column.MinimumWidth,[int]($column.Width*$r))}
+                foreach($column in $c.Columns){
+                    # Raising MinimumWidth can immediately clamp Width. Capture
+                    # both original values before either setter changes them.
+                    $scaledWidth=[int]($column.Width*$r)
+                    $scaledMinimum=[math]::Max(2,[int]($column.MinimumWidth*$r))
+                    $column.MinimumWidth=$scaledMinimum
+                    $column.Width=[math]::Max($scaledMinimum,$scaledWidth)
+                }
             }
             $c|Add-Member -NotePropertyName NyxGeometryScale -NotePropertyValue $Scale -Force
         }

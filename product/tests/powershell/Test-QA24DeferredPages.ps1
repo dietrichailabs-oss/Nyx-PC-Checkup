@@ -179,7 +179,7 @@ try{
     $passed=@($checks | Where-Object Pass).Count
     $failed=@($checks | Where-Object {-not $_.Pass}).Count
     [pscustomobject]@{
-        Harness='QA24-F021-PS51-24';Kind='native source callback regression, not installed acceptance'
+        Harness='QA25-F022-PS51-25';Kind='native source callback regression, not installed acceptance'
         PowerShell=$PSVersionTable.PSVersion.ToString();Passed=$passed;Failed=$failed
         ExternalBoundariesMocked=@('Explorer launch','message-box response: No','destructive action rejected','byte display format')
         Checks=$checks.ToArray();Exception=$failure

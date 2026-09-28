@@ -12,8 +12,8 @@ Set-StrictMode -Version 2.0
 if($env:OS -ne 'Windows_NT'){throw 'This QA13 gate runner requires native Windows.'}
 if($PSVersionTable.PSEdition -ne 'Desktop' -or $PSVersionTable.PSVersion.Major -ne 5 -or $PSVersionTable.PSVersion.Minor -ne 1){throw 'Run this orchestrator with inbox Windows PowerShell 5.1 Desktop edition.'}
 
-$script:ExpectedBuild='2026.09.27-eng-qa24'
-$script:ExpectedHarnessRevision='QA24-F021-PS51-24'
+$script:ExpectedBuild='2026.09.28-eng-qa25'
+$script:ExpectedHarnessRevision='QA25-F022-PS51-25'
 $script:RunResults=[System.Collections.Generic.List[object]]::new()
 $script:RunnerFailures=[System.Collections.Generic.List[string]]::new()
 

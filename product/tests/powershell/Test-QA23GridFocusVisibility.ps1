@@ -87,6 +87,6 @@ try{
     }
 }catch{$failure=$_.Exception.ToString()}finally{
     if($null -ne $form){$form.Dispose()}
-    @{Harness='QA24-F021-PS51-24';Kind='Native PS5.1 deterministic source WinForms geometry; scales emulate device geometry, NOT installed DPI acceptance';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure;PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+    @{Harness='QA25-F022-PS51-25';Kind='Native PS5.1 deterministic source WinForms geometry; scales emulate device geometry, NOT installed DPI acceptance';Passed=($null -eq $failure);Count=$checks.Count;Checks=$checks.ToArray();Failure=$failure;PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
 }
 if($failure){throw $failure}
