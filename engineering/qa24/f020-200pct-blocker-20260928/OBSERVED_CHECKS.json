@@ -1,0 +1,110 @@
+[
+  {
+    "result": "OBSERVED_PASS",
+    "id": "ENV-200",
+    "finding": "Windows Custom scaling shows 200 after sign-in, with no pending sign-out notice.",
+    "evidence": "03-custom200-applied.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "ENV-RES",
+    "finding": "Windows Display resolution shows 1366 x 768.",
+    "evidence": "02-resolution-1366x768.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-FOCUS",
+    "finding": "Focusing the partially visible first row scrolls parent to show selected row.",
+    "evidence": "04-startup-grid-focus-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-DOWN",
+    "finding": "Down reveals previously offscreen OneDrive row.",
+    "evidence": "05-startup-down-reveals-onedrive.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-CTRLEND",
+    "finding": "Ctrl+End reveals final row and rightmost cell.",
+    "evidence": "06-startup-ctrlend-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-CTRLHOME",
+    "finding": "Ctrl+Home returns first selected row and leftmost column.",
+    "evidence": "07-startup-ctrlhome-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-PAGEDOWN",
+    "finding": "PageDown reveals selected final SecurityHealth row; no security entry modified.",
+    "evidence": "08-startup-pagedown-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-END",
+    "finding": "End reveals rightmost selected-row cell.",
+    "evidence": "09-startup-end-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-MANUAL-SCROLL",
+    "finding": "After manual scroll hides grid, Down reveals new selected row.",
+    "evidence": "11-startup-down-recovers-focus.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-SHIFTTAB",
+    "finding": "Shift+Tab from first grid cell reveals Open file location with visible focus border.",
+    "evidence": "12-startup-shifttab-folder-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-READONLY-TAB",
+    "finding": "Reverse tab skips disabled modification buttons for all-users selection.",
+    "evidence": "13-startup-readonly-tab-skip.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-REFRESH-X3",
+    "finding": "Three keyboard Refresh activations returned without visible exception; data change/reload proof not asserted.",
+    "evidence": "14-startup-refresh-x3-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-CELL-TAB",
+    "finding": "Reverse Tab across row boundary reveals prior last cell; forward Tab returns next first cell.",
+    "evidence": "15-startup-reverse-tab-cell-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STARTUP-AWAY-BACK",
+    "finding": "Storage then Startup then Refresh returned populated grid without visible exception.",
+    "evidence": "17-startup-return-refresh-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "CHECKUP-CTRLEND",
+    "finding": "Checkup final selected row is visible; check-name tooltip observed. Ctrl+Home also returned first row.",
+    "evidence": "18-checkup-ctrlend-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "STORAGE-CTRLEND",
+    "finding": "Storage final selected row is visible with Downloads tooltip. Ctrl+Home also returned first row.",
+    "evidence": "19-storage-ctrlend-200.jpg"
+  },
+  {
+    "result": "OBSERVED_PASS",
+    "id": "APPS-TAB-ENTRY",
+    "finding": "Tab from search reveals first inventory row and dotted focus rectangle.",
+    "evidence": "20-apps-tab-grid-200.jpg"
+  },
+  {
+    "result": "OBSERVED_FAIL",
+    "id": "APPS-LAST-CELL-READABILITY",
+    "finding": "Ctrl+End selects final inventory row but rightmost focused cell is a narrow unreadable strip showing only U. End and manual outer horizontal scroll do not restore readable width. Repeated Ctrl+Home then Ctrl+End reproduces it.",
+    "evidence": "24-apps-ctrlend-repeat-clipping.jpg"
+  }
+]

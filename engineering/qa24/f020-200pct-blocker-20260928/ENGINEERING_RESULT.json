@@ -1,0 +1,57 @@
+{
+  "Schema": "nyx.engineering.ui-blocker.v1",
+  "CreatedUtc": "2026-09-28T11:16:20.1686359Z",
+  "EngineeringStatus": "BLOCKED_PRODUCT_UI_FINDING",
+  "IndependentQADecision": "NOT_ISSUED",
+  "Build": "2026.09.27-eng-qa24",
+  "Harness": "QA24-F021-PS51-24",
+  "Branch": "eng/f021-apps-deferred-search-state",
+  "FrozenSourceCommit": "31ff35dead242485bad2ab74c4838e8a5d41cb7f",
+  "PreviousEvidenceHead": "d52ad72a6bc2469195dd4a3acae1a87d766c5c4e",
+  "CandidateRelease": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/releases/tag/qa24-f021-candidate-20260927",
+  "CandidateRebuilt": false,
+  "ProductFilesModified": false,
+  "CandidateArtifactHashesVerifiedUnchanged": true,
+  "Hashes": {
+    "Source": "1745C60064D2BBE42B15E20A5089A7CDBDC81FC08177806DA75C1F868BE012B1",
+    "Portable": "E52AF958BD18EC9C5FC298B0CCFE04C0D4816AE709BEEFA98BF745E45EA45095",
+    "Setup": "52834E3703A42265679727EDB54387E5B84D1BBCEA564B831D6F1B98F04EC73F",
+    "FrozenSourceTreePreviouslyRecorded": "8133F88348B357EECA20A2C0C4BD9D232238755BB823EF86F80850611A4BFA46"
+  },
+  "Environment": {
+    "VM": "Nyx",
+    "User": "Nyx",
+    "ScalingPercent": 200,
+    "Resolution": "1366x768",
+    "PaletteObserved": "Light appearance; selected theme mode not independently verified this session",
+    "OS": "Windows 11 x64"
+  },
+  "Finding": {
+    "Title": "Apps rightmost focused inventory cell unreadable at 200% / 1366x768",
+    "Reproductions": 2,
+    "Classification": "Observed installed product UI readability failure; exact root cause unproven",
+    "SourceFixAttempted": false,
+    "CrashObserved": false
+  },
+  "ObservedChecks": {
+    "Pass": 17,
+    "Meaning": "Discrete observations, not a complete gate or independent automated test count.",
+    "Fail": 1
+  },
+  "F008": {
+    "FullyAcceptedCells": 0,
+    "Status": "NOT_COMPLETED",
+    "RequiredCells": 132
+  },
+  "F020": "PARTIAL; cross-page Apps readability failure observed at200%",
+  "F015": "PARTIAL; no reversible mutation or all-DPI completion claimed",
+  "StoppedAtFirstObservedProductFailure": true,
+  "LaterGates": "NOT_RUN: remaining DPI, Cleanup cross-grid, full F008 matrix, Standard, F011, F012, F010, Elevated and remaining safety/lifecycle",
+  "Limitations": [
+    "No fresh guest logs/events or current-session installed-payload hash inventory collected in this return. Prior verified49-file native evidence remains separately published.",
+    "Current candidate archive hashes verified on host. Source-tree hash is historical frozen identity, not recomputed.",
+    "No assertion of an unhandled exception or worker failure. This is screenshot-supported UI readability evidence.",
+    "No final Independent QA disposition. No full F020/F015/F008 PASS claim.",
+    "No tooltip workaround or root-cause fix is asserted for the narrow rightmost Apps cell."
+  ]
+}

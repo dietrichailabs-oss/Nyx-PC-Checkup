@@ -1,0 +1,147 @@
+[
+  {
+    "Path": "ENGINEERING_RESULT.json",
+    "Bytes": 2872,
+    "SHA256": "FEC45F162F241B7B861786BADB3FC9B8354E37EECD2AF41567DEA0D458D56964"
+  },
+  {
+    "Path": "OBSERVED_CHECKS.json",
+    "Bytes": 4038,
+    "SHA256": "E205B846131096543E2E84D665EDA846A7BC2434B86D12B523EE7D68B4DD350C"
+  },
+  {
+    "Path": "README.md",
+    "Bytes": 2500,
+    "SHA256": "1C210E84C4FC32E1A78C818A93CA9B6F6F378BF82CD5E852EEF7AAF595546A6A"
+  },
+  {
+    "Path": "screenshots/00-prechange-custom150.jpg",
+    "Bytes": 111137,
+    "SHA256": "B895988EA363807C3DF6CC0A264077864AEE0AC4E9FCC7905135C995FA56F81B"
+  },
+  {
+    "Path": "screenshots/01-custom200-pending-signout.jpg",
+    "Bytes": 115301,
+    "SHA256": "24A6B31D60554A4DEB2A2DEC9F684ECFD7EF922AE7CF41334600DD7286A14CDF"
+  },
+  {
+    "Path": "screenshots/02-resolution-1366x768.jpg",
+    "Bytes": 94339,
+    "SHA256": "570EB52B8ED308D07E8C14B13861CC1207A4B6864E2D1DA916D5B666B6D42254"
+  },
+  {
+    "Path": "screenshots/03-custom200-applied.jpg",
+    "Bytes": 111203,
+    "SHA256": "D98370310B182FA5E507DEFA12DB67EE30C0370486BA02163124545003E6E5E0"
+  },
+  {
+    "Path": "screenshots/04-startup-grid-focus-200.jpg",
+    "Bytes": 108786,
+    "SHA256": "694BD820A6BCA494B4748A6C883C39F5C0D94A95E7913371D2877941D9B66664"
+  },
+  {
+    "Path": "screenshots/05-startup-down-reveals-onedrive.jpg",
+    "Bytes": 106957,
+    "SHA256": "131493C580B3403EE8A67C173EBC5BACC3DB3D2F1B021DFFB3193BDB6AD836AC"
+  },
+  {
+    "Path": "screenshots/06-startup-ctrlend-200.jpg",
+    "Bytes": 109318,
+    "SHA256": "DC617286038A14417D9FAB87D2C8950AEFC91D3B680A75EEC9E55E28820A1179"
+  },
+  {
+    "Path": "screenshots/07-startup-ctrlhome-200.jpg",
+    "Bytes": 107433,
+    "SHA256": "B072AF9B480978DE0438B3CD63E85DA516624F32BF5FA2977C48077E95D79B79"
+  },
+  {
+    "Path": "screenshots/08-startup-pagedown-200.jpg",
+    "Bytes": 110414,
+    "SHA256": "0F6911C14354CFB21B6CDDE7FB68B9894C6ACE6EC7579FC0FC1B94A9BFEBF40A"
+  },
+  {
+    "Path": "screenshots/09-startup-end-200.jpg",
+    "Bytes": 109882,
+    "SHA256": "6B8645FBC10BB4A158A4ADD1B8561FA0478CBE6C1126D02A29B53AF48876414D"
+  },
+  {
+    "Path": "screenshots/10-startup-manual-scroll-hides-grid.jpg",
+    "Bytes": 116014,
+    "SHA256": "341B2B5ED5C221A84CBC1C32343C11E1E22A4045F2B926E0EA1529542DB37153"
+  },
+  {
+    "Path": "screenshots/11-startup-down-recovers-focus.jpg",
+    "Bytes": 109007,
+    "SHA256": "4CF105914E3F6E28ED1072ED320C7B4F1BE120BD7B03595CD269D1530D6B566F"
+  },
+  {
+    "Path": "screenshots/12-startup-shifttab-folder-200.jpg",
+    "Bytes": 105170,
+    "SHA256": "295CF2F0C545889F4ABC0B3B7CD82B887C642822C040DE8799D974AD2A9A574F"
+  },
+  {
+    "Path": "screenshots/13-startup-readonly-tab-skip.jpg",
+    "Bytes": 112400,
+    "SHA256": "F4EF536067EE21179041A3A818C7F460C8EE052629806170FE58930F86B2AFC6"
+  },
+  {
+    "Path": "screenshots/14-startup-refresh-x3-200.jpg",
+    "Bytes": 112065,
+    "SHA256": "BFF2F77E3DE984BE289A0316B4AE0F4C9270F67B21672D8AFBEE08A435DEE70C"
+  },
+  {
+    "Path": "screenshots/15-startup-reverse-tab-cell-200.jpg",
+    "Bytes": 111683,
+    "SHA256": "EBBA03BBF956E06B7860C619A4705E7CC0D636CD633E606E2AA6486E0AE5C692"
+  },
+  {
+    "Path": "screenshots/16-current-user-action-visible.jpg",
+    "Bytes": 112612,
+    "SHA256": "853AB3F62400853925EA13E96F450EA6B17FF16A096778CBDEF102F596ECD3C9"
+  },
+  {
+    "Path": "screenshots/17-startup-return-refresh-200.jpg",
+    "Bytes": 110572,
+    "SHA256": "31DB1343D9A428B7BDFADEB2F50BA31906DCC97502448B080C4FB2B874C17BD0"
+  },
+  {
+    "Path": "screenshots/18-checkup-ctrlend-200.jpg",
+    "Bytes": 119336,
+    "SHA256": "8A9782DAAA31EB8E16EAC5B4E1DD17B9DF1F81025F2A2BB7885EBDEFB17BDAD1"
+  },
+  {
+    "Path": "screenshots/19-storage-ctrlend-200.jpg",
+    "Bytes": 118435,
+    "SHA256": "DF4D5E84982BCB5AF4D8ACB6F24FA1F4A20AA034B453E79113F52348F2D4C21B"
+  },
+  {
+    "Path": "screenshots/20-apps-tab-grid-200.jpg",
+    "Bytes": 117958,
+    "SHA256": "CAAFD77F8858E46AFF5D7C87CDEE6035841798E5B33A5EE9A73939E798098B80"
+  },
+  {
+    "Path": "screenshots/21-apps-ctrlend-suspected-clipped-focus.jpg",
+    "Bytes": 115973,
+    "SHA256": "49403C3EFE59AC04E637B63B8A81F3EAEE2ADA96AC7521A7E8F2F8D1E60E511D"
+  },
+  {
+    "Path": "screenshots/22-apps-end-still-clipped.jpg",
+    "Bytes": 115973,
+    "SHA256": "49403C3EFE59AC04E637B63B8A81F3EAEE2ADA96AC7521A7E8F2F8D1E60E511D"
+  },
+  {
+    "Path": "screenshots/23-apps-manual-horizontal-still-narrow.jpg",
+    "Bytes": 102124,
+    "SHA256": "1D2917FED38885F3F3BD4FE77477E2C1D0E2E5152339380EA67610CE4713B43F"
+  },
+  {
+    "Path": "screenshots/24-apps-ctrlend-repeat-clipping.jpg",
+    "Bytes": 114127,
+    "SHA256": "4C4A3DBD2913F4592CE43AB5C57B8A8EF98C0F4E3EBDC95CA53130208EDFF799"
+  },
+  {
+    "Path": "screenshots/OBSERVATIONS.jsonl",
+    "Bytes": 5831,
+    "SHA256": "AE56650A480FA002321C1098E561FBF9B822C251210DBB31894ABF4EB197B908"
+  }
+]
