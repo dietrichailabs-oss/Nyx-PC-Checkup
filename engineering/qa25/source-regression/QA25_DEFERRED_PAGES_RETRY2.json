@@ -1,0 +1,516 @@
+﻿{
+    "Harness":  "QA24-F021-PS51-24",
+    "Kind":  "native source callback regression, not installed acceptance",
+    "PowerShell":  "5.1.26100.9444",
+    "Passed":  125,
+    "Failed":  0,
+    "ExternalBoundariesMocked":  [
+                                     "Explorer launch",
+                                     "message-box response: No",
+                                     "destructive action rejected",
+                                     "byte display format"
+                                 ],
+    "Checks":  [
+                   {
+                       "Name":  "expired-local negative control detects render and search",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Controls.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Dialogs.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: MainWindow.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "deferred callback audit: Theme.psm1; ",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 initial inventory",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 no selection disables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 first character",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 first character resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 multiple characters",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 multiple characters resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 exact name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 exact name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 partial name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 partial name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 publisher match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 publisher match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 no-match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 no-match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 literal regex",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 literal regex resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 1",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 1 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 2",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 2 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 3",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 3 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 4",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid 4 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 rapid clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 selection enables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 valid folder target",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 filter clears stale selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 unavailable folder message",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 disposed old page state",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 disposed callbacks safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 1 CellValueChanged updates summary",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 1 both selected",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 1 confirmation retained and denied",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 1 empty selection safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 1 disposed state",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 1 navigation back search works",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 initial inventory",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 no selection disables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 first character",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 first character resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 multiple characters",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 multiple characters resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 exact name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 exact name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 partial name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 partial name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 publisher match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 publisher match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 no-match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 no-match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 literal regex",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 literal regex resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 1",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 1 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 2",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 2 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 3",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 3 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 4",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid 4 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 rapid clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 selection enables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 valid folder target",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 filter clears stale selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 unavailable folder message",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 disposed old page state",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 disposed callbacks safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 2 CellValueChanged updates summary",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 2 both selected",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 2 confirmation retained and denied",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 2 empty selection safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 2 disposed state",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 2 navigation back search works",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 initial inventory",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 no selection disables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 first character",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 first character resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 multiple characters",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 multiple characters resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 exact name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 exact name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 partial name",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 partial name resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 publisher match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 publisher match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 no-match",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 no-match resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 literal regex",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 literal regex resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 1",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 1 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 2",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 2 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 3",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 3 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 4",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid 4 resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid clear",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 rapid clear resets selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 selection enables folder",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 valid folder target",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 filter clears stale selection",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 unavailable folder message",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 disposed old page state",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 disposed callbacks safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 3 CellValueChanged updates summary",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 3 both selected",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 3 confirmation retained and denied",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 3 empty selection safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Cleanup 3 disposed state",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Apps 3 navigation back search works",
+                       "Pass":  true
+                   }
+               ],
+    "Exception":  null
+}

@@ -1,0 +1,46 @@
+{
+  "Build": "2026.09.28-eng-qa25",
+  "Harness": "QA25-F022-PS51-25",
+  "SourceCommit": "f55c0d3bda6a99a20d218a2a390f217963a0d9be",
+  "Setup": {
+    "Bytes": 559104,
+    "SHA256": "5F5C1C294F23487DE1B4325173DC72C89950A2AAA96EBB1AC3F80B6CDE788112",
+    "Name": "Nyx_PC_Checkup_1.0.0_Setup.exe"
+  },
+  "Portable": {
+    "Bytes": 220566,
+    "SHA256": "B38A40D40CFFE86E30F1EA8E88D21295D14B1DD792D60A27962A22783E63D19C",
+    "Name": "Nyx_PC_Checkup_1.0.0_Portable.zip"
+  },
+  "Source": {
+    "Bytes": 794752,
+    "SHA256": "A4ED460A880BA04A289F504312BF7A1B8D0F3C1A5956DE46E19AFC837CF7049C",
+    "Name": "Nyx_PC_Checkup_1.0.0_Source.zip"
+  },
+  "SourceTree": "25D71479533E639EFC8A82ED2B93FDE3A6D47B632BB8EFBBEDAE819F9C3B0A60",
+  "PythonPostBuild": {
+    "Pass": 220,
+    "Fail": 0
+  },
+  "Lint": {
+    "Pass": 2,
+    "Fail": 0
+  },
+  "AppsSourceGeometry": {
+    "Pass": 1328,
+    "Fail": 0
+  },
+  "DeferredCallbacks": {
+    "Pass": 125,
+    "Fail": 0
+  },
+  "NativeInstalledAcceptance": "PENDING",
+  "F008": "NOT_RUN",
+  "IndependentQA": "NOT_ISSUED",
+  "Limitations": [
+    "Source geometry emulates scales; not installed DPI acceptance.",
+    "RETRY2 is successful correction; baseline and earlier failures retained as historical diagnostics.",
+    "Shared-grid and callback output files retain previous QA24 harness label because they started before metadata advancement; product correction source was the same.",
+    "No final handoff or release approval."
+  ]
+}

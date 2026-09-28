@@ -1,0 +1,1957 @@
+﻿{
+    "Harness":  "QA25-F022-PS51-25",
+    "Kind":  "Real Apps page source WinForms geometry, emulated scales; NOT installed native DPI acceptance",
+    "MeasureOnly":  false,
+    "Passed":  166,
+    "Failed":  0,
+    "Failure":  "System.Management.Automation.CommandNotFoundException: The term \u0027Get-NyxPrivacyStatement\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)",
+    "Measurements":  [
+                         {
+                             "Scale":  1,
+                             "Stage":  "page construction 1",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "filter \u0027\u0027 cycle 1",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "after navigation and filtering",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  167
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "filter \u0027Application 2\u0027 cycle 1",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  150
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "after navigation and filtering",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  150
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "filter \u0027Long Publisher\u0027 cycle 1",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  150
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "after navigation and filtering",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  167
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "filter \u0027\u0027 cycle 1",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  150
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "after navigation and filtering",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  240,
+                                                 "MinimumWidth":  240,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  200,
+                                                 "MinimumWidth":  200,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  130,
+                                                 "MinimumWidth":  130,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  150,
+                                                 "MinimumWidth":  150,
+                                                 "FillWeight":  100,
+                                                 "AutoSizeMode":  "None"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  167
+                         }
+                     ],
+    "Checks":  [
+                   {
+                       "Name":  "1 page construction 1 Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Tab entry fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  0,
+                                      "Visible":  "{X=25,Y=24,Width=240,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Home, Control filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  0,
+                                      "Visible":  "{X=25,Y=4,Width=240,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=24,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=24,Width=150,Height=32}",
+                                      "Row":  19,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=4,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=280,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=280,Width=150,Height=32}",
+                                      "Row":  28,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=105,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "117.7 MB",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 internal horizontal scrolling used",
+                       "Pass":  true,
+                       "Detail":  167
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Application 2\u0027 cycle 1 Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Tab entry fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=90,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=90,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=25,Y=24,Width=90,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Row":  9,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Application 2\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Row":  9,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027Application 2\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Home, Control filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  0,
+                                      "Visible":  "{X=25,Y=4,Width=240,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Row":  9,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Application 2\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=24,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=24,Width=150,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=4,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027Application 2\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "117.7 MB",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Row":  9,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027Application 2\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=280,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=280,Width=150,Height=32}",
+                                      "Row":  8,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=105,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027Application 2\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "117.7 MB",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027Application 2\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Row":  9,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027Application 2\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 internal horizontal scrolling used",
+                       "Pass":  true,
+                       "Detail":  150
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=571,Y=312,Width=150,Height=32}",
+                                      "Row":  9,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=595,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027Long Publisher\u0027 cycle 1 Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Tab entry fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=90,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=90,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=25,Y=24,Width=90,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Long Publisher\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027Long Publisher\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Home, Control filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  0,
+                                      "Visible":  "{X=25,Y=4,Width=240,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027Long Publisher\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=24,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=24,Width=150,Height=32}",
+                                      "Row":  19,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=4,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027Long Publisher\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027Long Publisher\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=280,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=280,Width=150,Height=32}",
+                                      "Row":  28,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=105,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027Long Publisher\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "117.7 MB",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027Long Publisher\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027Long Publisher\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 internal horizontal scrolling used",
+                       "Pass":  true,
+                       "Detail":  167
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 filter \u0027\u0027 cycle 1 Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Tab entry fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=90,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=90,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  150,
+                                      "Visible":  "{X=25,Y=24,Width=90,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Home, Control filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Column":  0,
+                                      "Whole":  "{X=1,Y=24,Width=240,Height=32}",
+                                      "Row":  0,
+                                      "InternalOffset":  0,
+                                      "Visible":  "{X=25,Y=4,Width=240,Height=32}",
+                                      "Width":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End, Control filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=24,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=24,Width=150,Height=32}",
+                                      "Row":  19,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=4,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 PageUp filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Next filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=280,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=280,Width=150,Height=32}",
+                                      "Row":  28,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=105,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Up filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "117.7 MB",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027\u0027 cycle 1 fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 Down filter \u0027\u0027 cycle 1 size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 internal horizontal scrolling used",
+                       "Pass":  true,
+                       "Detail":  167
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll fully visible focused cell",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Clipped":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Column":  4,
+                                      "Whole":  "{X=554,Y=312,Width=150,Height=32}",
+                                      "Row":  29,
+                                      "InternalOffset":  167,
+                                      "Visible":  "{X=578,Y=137,Width=150,Height=32}",
+                                      "Width":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 End after manual outer scroll size value readable without tooltip",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Value":  "Unknown",
+                                      "Visible":  150,
+                                      "Text":  53
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Name MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  240,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Publisher MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  200,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Version MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Date MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  130,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 after navigation and filtering Size MinimumWidth",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  150,
+                                      "Required":  150
+                                  }
+                   }
+               ],
+    "PowerShell":  "5.1.26100.9444"
+}

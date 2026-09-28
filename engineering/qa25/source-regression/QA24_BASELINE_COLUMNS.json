@@ -1,0 +1,1005 @@
+﻿{
+    "Harness":  "QA25-F022-PS51-25",
+    "Kind":  "Real Apps page source WinForms geometry, emulated scales; NOT installed native DPI acceptance",
+    "MeasureOnly":  true,
+    "Passed":  2,
+    "Failed":  78,
+    "Failure":  null,
+    "Measurements":  [
+                         {
+                             "Scale":  1,
+                             "Stage":  "page construction 1",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  141,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  100.284492,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  140,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  99.5732651,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  141,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  100.284508,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  141,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  100.284492,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  140,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  99.57326,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  1,
+                             "Stage":  "page construction 2",
+                             "GridClientSize":  "{Width=721, Height=376}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  141,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  100.284492,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  140,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  99.5732651,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  141,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  100.284508,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  141,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  100.284492,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  140,
+                                                 "MinimumWidth":  5,
+                                                 "FillWeight":  99.57326,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  1.25,
+                             "Stage":  "page construction 1",
+                             "GridClientSize":  "{Width=708, Height=470}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  166,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  120.564552,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  156,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  112.854027,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  144,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  104.442535,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  126,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  91.12437,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  98,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  71.0144958,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  1.25,
+                             "Stage":  "page construction 2",
+                             "GridClientSize":  "{Width=708, Height=470}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  166,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  120.564552,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  156,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  112.854027,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  144,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  104.442535,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  126,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  91.12437,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  98,
+                                                 "MinimumWidth":  6,
+                                                 "FillWeight":  71.0144958,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  1.5,
+                             "Stage":  "page construction 1",
+                             "GridClientSize":  "{Width=694, Height=564}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  195,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  144.2412,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  173,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  127.735977,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  143,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  106.207443,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  108,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  79.65559,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  57,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  42.15976,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  1.5,
+                             "Stage":  "page construction 2",
+                             "GridClientSize":  "{Width=694, Height=564}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  195,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  144.2412,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  173,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  127.735977,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  143,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  106.207443,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  108,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  79.65559,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  57,
+                                                 "MinimumWidth":  8,
+                                                 "FillWeight":  42.15976,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  2,
+                             "Stage":  "page construction 1",
+                             "GridClientSize":  "{Width=860, Height=752}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  330,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  195.949219,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  247,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  146.961914,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  167,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  99.14097,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  78,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  46.0713921,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  20,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  11.876483,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         },
+                         {
+                             "Scale":  2,
+                             "Stage":  "page construction 2",
+                             "GridClientSize":  "{Width=860, Height=752}",
+                             "Columns":  [
+                                             {
+                                                 "Name":  "Name",
+                                                 "Width":  330,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  195.949219,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Publisher",
+                                                 "Width":  247,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  146.961914,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Version",
+                                                 "Width":  167,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  99.14097,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Date",
+                                                 "Width":  78,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  46.0713921,
+                                                 "AutoSizeMode":  "NotSet"
+                                             },
+                                             {
+                                                 "Name":  "Size",
+                                                 "Width":  20,
+                                                 "MinimumWidth":  10,
+                                                 "FillWeight":  11.876483,
+                                                 "AutoSizeMode":  "NotSet"
+                                             }
+                                         ],
+                             "OuterViewport":  "{Width=773, Height=173}",
+                             "InternalOffset":  0
+                         }
+                     ],
+    "Checks":  [
+                   {
+                       "Name":  "1 page construction 1 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  141,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  140,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  141,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  141,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  140,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 1 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  141,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  240
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  140,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  200
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  141,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Date practical Width",
+                       "Pass":  true,
+                       "Detail":  {
+                                      "Actual":  141,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  130
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  140,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1 page construction 2 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  5,
+                                      "Required":  150
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  166,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  156,
+                                      "Required":  250
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  250
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  144,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Date practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  126,
+                                      "Required":  162
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  162
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  98,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 1 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  166,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  156,
+                                      "Required":  250
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  250
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  144,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Date practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  126,
+                                      "Required":  162
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  162
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  98,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.25 page construction 2 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  6,
+                                      "Required":  188
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  195,
+                                      "Required":  360
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  360
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  173,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  143,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Date practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  108,
+                                      "Required":  195
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  195
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  57,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 1 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  195,
+                                      "Required":  360
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  360
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  173,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  143,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Date practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  108,
+                                      "Required":  195
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  195
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  57,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "1.5 page construction 2 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  8,
+                                      "Required":  225
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  330,
+                                      "Required":  480
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  480
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  247,
+                                      "Required":  400
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  400
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  167,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Date practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  78,
+                                      "Required":  260
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  260
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  20,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 1 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Name practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  330,
+                                      "Required":  480
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Name MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  480
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Publisher practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  247,
+                                      "Required":  400
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Publisher MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  400
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Version practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  167,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Version MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Date practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  78,
+                                      "Required":  260
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Date MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  260
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Size practical Width",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  20,
+                                      "Required":  300
+                                  }
+                   },
+                   {
+                       "Name":  "2 page construction 2 Size MinimumWidth",
+                       "Pass":  false,
+                       "Detail":  {
+                                      "Actual":  10,
+                                      "Required":  300
+                                  }
+                   }
+               ],
+    "PowerShell":  "5.1.26100.9444"
+}
