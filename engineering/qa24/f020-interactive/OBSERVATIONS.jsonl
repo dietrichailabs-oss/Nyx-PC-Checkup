@@ -1,0 +1,2 @@
+{"utc":"2026-09-28T10:40:36.076Z","name":"00-prechange-custom150","note":"Windows Custom scaling visibly shows 150 before changing the disposable guest to 200.","screenshot":"00-prechange-custom150.jpg"}
+{"utc":"2026-09-28T10:41:21.332Z","name":"01-custom200-pending-signout","note":"Windows confirms custom scale 200 is configured and requires sign-out; not yet evidence of applied DPI.","screenshot":"01-custom200-pending-signout.jpg"}

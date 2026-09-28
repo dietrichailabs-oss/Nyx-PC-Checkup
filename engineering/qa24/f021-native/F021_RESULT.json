@@ -1,0 +1,48 @@
+{
+  "Build": "2026.09.27-eng-qa24",
+  "Harness": "QA24-F021-PS51-24",
+  "SourceCommit": "31ff35dead242485bad2ab74c4838e8a5d41cb7f",
+  "F021": "FOCUSED_FUNCTIONAL_PASS_WITH_USER_ASSISTANCE",
+  "TotalCases": 16,
+  "DirectObservationOrGuestRecordCases": 15,
+  "UserAssistedCases": 1,
+  "UserAssistedCase": "Rapid typing: user replied done; post-test long query and no exception dialog captured. Manual keystrokes and timing were not independently instrumented.",
+  "ProductFailureEstablished": false,
+  "InstalledPayloadFilesMatched": 49,
+  "InstalledOfflineInventoryFiles": 61,
+  "PayloadMismatches": 0,
+  "SetupExitCode": 0,
+  "Scan": {
+    "Cancelled": false,
+    "ReadOnly": true,
+    "AppsInventory": "Good / Complete=true",
+    "Results": 21,
+    "StartedUtc": "2026-09-27T23:25:30.6915633Z",
+    "Mode": "Full",
+    "PerformanceSnapshot": "Good / Complete=true",
+    "CompletedUtc": "2026-09-27T23:25:55.2183986Z"
+  },
+  "Session": {
+    "WarningsOrErrorsDuringQA24Session": 0,
+    "FinalEmptyProcessObservations": 3,
+    "AppClosedUtc": "2026-09-28T10:37:24.8966735Z",
+    "ProcessObservations": 20052,
+    "NoAppChildConfirmedUtc": "2026-09-28T10:37:31.4143512Z",
+    "AppStartedUtc": "2026-09-27T23:23:28.6398592Z"
+  },
+  "ProcessEvidence": {
+    "OriginalBytes": 8019711,
+    "StoredAs": "PROCESS_OBSERVATIONS.jsonl.gz",
+    "OriginalSHA256": "A267B1346C1C49DF7A0DF5D6E11DCD3BDCEC60A7C50D975531B7EF30B70EDA42",
+    "OriginalName": "PROCESS_OBSERVATIONS.jsonl"
+  },
+  "Limitations": [
+    "Historical log warnings/errors predate the QA24 session and are retained unchanged.",
+    "ENVIRONMENT.json was recorded by a DPI-unaware helper and reports virtualized 96 DPI / 911x512; do not use those fields for DPI acceptance. Windows Custom scaling screenshot confirms prior scale 150%.",
+    "Offline disk inventory is not live scan-temp cleanup proof.",
+    "Focused F021 does not establish F020/F015/F008/Standard/F011/F012/F010/Elevated acceptance."
+  ],
+  "ProductBytesModified": false,
+  "IndependentQaApproval": false,
+  "Overall": "HOLD - remaining acceptance gates pending"
+}

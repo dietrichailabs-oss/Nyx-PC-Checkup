@@ -1,0 +1,13 @@
+﻿{
+    "Build":  "2026.09.27-eng-qa24",
+    "Harness":  "QA24-F021-PS51-24",
+    "SourceCommit":  "31ff35dead242485bad2ab74c4838e8a5d41cb7f",
+    "User":  "DESKTOP-4D83OSL\\Nyx",
+    "OS":  "Microsoft Windows NT 10.0.26200.0",
+    "PowerShell":  "5.1.26100.7920",
+    "Dpi":  96,
+    "Screen":  "{X=0,Y=0,Width=911,Height=512}",
+    "WorkingArea":  "{X=0,Y=0,Width=911,Height=464}",
+    "Utc":  "2026-09-27T23:23:23.0842187Z",
+    "Kind":  "installed interactive observation session; not an automatic acceptance verdict"
+}

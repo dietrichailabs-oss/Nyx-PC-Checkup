@@ -16,3 +16,4 @@
 {"utc":"2026-09-27T23:56:03.186Z","name":"16-repeat-upd-2","note":"Second upd returned one expected row.","screenshot":"16-repeat-upd-2.jpg"}
 {"utc":"2026-09-27T23:56:11.503Z","name":"17-repeat-up-3","note":"Third up returned both expected rows without exception.","screenshot":"17-repeat-up-3.jpg"}
 {"utc":"2026-09-27T23:56:40.159Z","name":"18-repeat-upd-3","note":"Third upd returned only Edge Update. Six separately observed tool-paced edits passed; this does not establish fast human typing stress.","screenshot":"18-repeat-upd-3.jpg"}
+{"utc":"2026-09-28T10:37:25.348Z","name":"19-after-user-rapid-typing","note":"User replied done to the rapid-typing request. Observed afterward: long no-match query, empty grid, no visible exception dialog. Timing and individual manual keystrokes were not instrumented.","screenshot":"19-after-user-rapid-typing.jpg"}
