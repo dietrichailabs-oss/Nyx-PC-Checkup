@@ -1,0 +1,31 @@
+{
+  "schema": "nyx.qa25.deep-audit-selftest.v1",
+  "review_date": "2026-09-29",
+  "runtime": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux",
+  "scope": "Evidence guard only; not Nyx product or Windows acceptance",
+  "tests": {
+    "executed": 43,
+    "passed": 43,
+    "failed": 0,
+    "skipped": 0
+  },
+  "native_product_tests_executed": 0,
+  "f008_native_cells_executed": 0,
+  "candidate_source": "f55c0d3bda6a99a20d218a2a390f217963a0d9be",
+  "published_code_commit": "778fe621e5c9098b4646726176c1c429cf9cc30f",
+  "files": [
+    {
+      "path": "tools/qa25_evidence_guard.py",
+      "bytes": 15006,
+      "sha256": "AFF368C698D85C975C57E2BFB926FE9EE0ED668792070D4DC37D909F39DF5C5C",
+      "git_blob_sha1": "155f441a1a871701b70e54269e771784e669588c"
+    },
+    {
+      "path": "tests/test_evidence_guard.py",
+      "bytes": 9902,
+      "sha256": "F00A3CCDC54082F580ACDFD47544D2C4DDB288AC9BDD73BBF40DA1A14176F48B",
+      "git_blob_sha1": "f57667e6f3e04efb0c3a2616bedbc7528cb0c0ea"
+    }
+  ]
+}
