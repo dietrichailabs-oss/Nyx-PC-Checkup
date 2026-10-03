@@ -1,0 +1,27 @@
+{
+  "GeometrySession": "geometry_v2_20261003_192624",
+  "Samples": 1,
+  "Dpi": 120,
+  "Screen": {
+    "X": 0,
+    "Y": 0,
+    "Width": 1366,
+    "Height": 768
+  },
+  "WorkArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 1366,
+    "Height": 708
+  },
+  "PMv2": true,
+  "Mode": "Quick",
+  "StartedUtc": "2026-10-03T23:24:34.2357222Z",
+  "CompletedUtc": "2026-10-03T23:24:49.7987089Z",
+  "ReadOnly": true,
+  "Cancelled": false,
+  "ResultCount": 15,
+  "ResultShapeErrors": [],
+  "WorkerError": null,
+  "Scope": "Result shape checks; top-level values recorded, not full acceptance or live cleanup proof"
+}

@@ -1,0 +1,7 @@
+# QA26 strict 125% Startup continuation
+
+Native observer confirms120 DPI,1366x768,1366x708 work area,PMv2. Observer Home sample establishes this session scale, not full Startup geometry acceptance. Original installed candidate unchanged.
+Three consecutive Refresh actions, visible grid focus, all-users row modification controls unavailable, keyboard valid Startup location opens Explorer, missing target returns handled unavailable message. Explicit user-authorized current-user fixture Disable -> rollback-written success -> Refresh preserves Disabled by Nyx -> Re-enable -> restored/journal-closed success -> Refresh preserves Enabled. OneDrive not modified.
+Quick completed: 2026-10-03T23:24:34.2357222Z to23:24:49.7987089Z;15 results;ReadOnly=true;Cancelled=false;no WorkerError;16 required result fields/enums/booleans/timestamp shape checks show zero errors. Returned Startup/Refresh/Tab positive with fixture Enabled.
+Remaining125: completed Full and post-Full Refresh; genuine cancellation and post-cancel Refresh; complete navigation/action/containment predicates/live scan cleanup. Strict100 remains. No complete F008 cell credited from this partial run. Not Independent QA approval.
+Scoreboard: F023 PASS;F015/F020/F022 INCOMPLETE. F008 strict PASS0/99 FAIL0 NOT_RUN99; best-effort PASS0/33 FAIL0 NOT_RUN33. All downstream Standard/Smoke/migration/privilege/lifecycle/F011/F012/F010/F016/Elevated/privacy suites NOT_RUN in current acceptance campaign.
