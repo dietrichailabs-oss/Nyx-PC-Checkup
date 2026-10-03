@@ -1,0 +1,19 @@
+{
+  "Mode": "Full",
+  "StartedUtc": "2026-10-03T20:57:48.3628816Z",
+  "CompletedUtc": "2026-10-03T20:58:14.1955291Z",
+  "Results": 21,
+  "Checks": {
+    "Parsed": true,
+    "Schema": true,
+    "Mode": true,
+    "ReadOnly": true,
+    "NotCancelled": true,
+    "TimestampOrder": true,
+    "ResultCount": true,
+    "Statuses": true,
+    "ResultIdentifiers": true,
+    "NoWorkerError": true
+  },
+  "Scope": "Ten bounded checks, not full frozen-contract validation"
+}
