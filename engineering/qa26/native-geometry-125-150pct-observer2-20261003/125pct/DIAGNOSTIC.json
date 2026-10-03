@@ -1,0 +1,1577 @@
+{
+  "Schema": "QA26-GEOMETRY-DIAGNOSTIC-1",
+  "Source": ".\\qa26_vm_automation\\geometry_collection_20261003_154131\\NyxQA26Geometry\\geometry_v2_20261003_153309\\CONTROL_GEOMETRY.jsonl",
+  "SourceSHA256": "4A40EB72683E23532A340BF404B8ADF3C3BD450ED51B6BB85E2ACEBE1009DC95",
+  "Samples": 12,
+  "AllPerMonitorV2": true,
+  "Dpi": [
+    120
+  ],
+  "ScreenBounds": [
+    "{\"X\":0,\"Y\":0,\"Width\":1366,\"Height\":768}"
+  ],
+  "WorkAreas": [
+    "{\"X\":0,\"Y\":0,\"Width\":1366,\"Height\":708}"
+  ],
+  "GridSnapshots": 10,
+  "AppsGridSnapshots": 9,
+  "FontFallbackRecords": 0,
+  "HeaderMetrics": [
+    {
+      "Sequence": 3,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 425,
+        "Width": 300,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 3,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 672,
+        "Y": 425,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 3,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 922,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 3,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1110,
+        "Y": 425,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 3,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1272,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 4,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 425,
+        "Width": 300,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 4,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 672,
+        "Y": 425,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 4,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 922,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 4,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1110,
+        "Y": 425,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 4,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1272,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 5,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 425,
+        "Width": 300,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 5,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 672,
+        "Y": 425,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 5,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 922,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 5,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1110,
+        "Y": 425,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 5,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1272,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 6,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 425,
+        "Width": 300,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 6,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 672,
+        "Y": 425,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 6,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 922,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 6,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1110,
+        "Y": 425,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 6,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1272,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 7,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 165,
+        "Width": 300,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 7,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 672,
+        "Y": 165,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 7,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 922,
+        "Y": 165,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 7,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1110,
+        "Y": 165,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 7,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1272,
+        "Y": 165,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 8,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 165,
+        "Width": 136,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 8,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 508,
+        "Y": 165,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 8,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 758,
+        "Y": 165,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 8,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 946,
+        "Y": 165,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 8,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1108,
+        "Y": 165,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 9,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 331,
+        "Y": 124,
+        "Width": 136,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 9,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 467,
+        "Y": 124,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 9,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 717,
+        "Y": 124,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 9,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 905,
+        "Y": 124,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 9,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1067,
+        "Y": 124,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 10,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 165,
+        "Width": 136,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 10,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 508,
+        "Y": 165,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 10,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 758,
+        "Y": 165,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 10,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 946,
+        "Y": 165,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 10,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1108,
+        "Y": 165,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 11,
+      "Dpi": 120,
+      "Apps": false,
+      "Header": "Status",
+      "Width": 120,
+      "MinimumWidth": 6,
+      "MeasuredWidth": 57,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 380,
+        "Width": 120,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 11,
+      "Dpi": 120,
+      "Apps": false,
+      "Header": "Category",
+      "Width": 120,
+      "MinimumWidth": 6,
+      "MeasuredWidth": 81,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 492,
+        "Y": 380,
+        "Width": 120,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 11,
+      "Dpi": 120,
+      "Apps": false,
+      "Header": "Check",
+      "Width": 159,
+      "MinimumWidth": 6,
+      "MeasuredWidth": 57,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 612,
+        "Y": 380,
+        "Width": 159,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 11,
+      "Dpi": 120,
+      "Apps": false,
+      "Header": "What Nyx found",
+      "Width": 525,
+      "MinimumWidth": 6,
+      "MeasuredWidth": 138,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 771,
+        "Y": 380,
+        "Width": 525,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 12,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Application",
+      "Width": 300,
+      "MinimumWidth": 300,
+      "MeasuredWidth": 96,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 372,
+        "Y": 425,
+        "Width": 300,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 12,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Publisher",
+      "Width": 250,
+      "MinimumWidth": 250,
+      "MeasuredWidth": 80,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 672,
+        "Y": 425,
+        "Width": 250,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 12,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Version",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 66,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 922,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 12,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Install date",
+      "Width": 162,
+      "MinimumWidth": 162,
+      "MeasuredWidth": 94,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1110,
+        "Y": 425,
+        "Width": 162,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    },
+    {
+      "Sequence": 12,
+      "Dpi": 120,
+      "Apps": true,
+      "Header": "Reported size",
+      "Width": 188,
+      "MinimumWidth": 188,
+      "MeasuredWidth": 114,
+      "MeasuredHeight": 23,
+      "Font": {
+        "Name": "Segoe UI Semibold",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "Wrap": "True",
+      "Rectangle": {
+        "X": 1272,
+        "Y": 425,
+        "Width": 188,
+        "Height": 28
+      },
+      "PotentialOverflow": false
+    }
+  ],
+  "FocusedCellGeometry": [
+    {
+      "Sequence": 7,
+      "Apps": true,
+      "Row": 0,
+      "Column": 0,
+      "Text": "Microsoft Edge",
+      "Rectangle": {
+        "X": 372,
+        "Y": 193,
+        "Width": 300,
+        "Height": 40
+      },
+      "VisibleWidth": 300,
+      "VisibleHeight": 40,
+      "FullyWithinClientAncestors": true,
+      "Classification": "GEOMETRY_OBSERVATION_NOT_FINAL_ACCESSIBILITY_VERDICT"
+    },
+    {
+      "Sequence": 8,
+      "Apps": true,
+      "Row": 4,
+      "Column": 4,
+      "Text": "Unknown",
+      "Rectangle": {
+        "X": 1108,
+        "Y": 353,
+        "Width": 188,
+        "Height": 40
+      },
+      "VisibleWidth": 188,
+      "VisibleHeight": 40,
+      "FullyWithinClientAncestors": true,
+      "Classification": "GEOMETRY_OBSERVATION_NOT_FINAL_ACCESSIBILITY_VERDICT"
+    },
+    {
+      "Sequence": 9,
+      "Apps": true,
+      "Row": 4,
+      "Column": 4,
+      "Text": "Unknown",
+      "Rectangle": {
+        "X": 1067,
+        "Y": 312,
+        "Width": 188,
+        "Height": 40
+      },
+      "VisibleWidth": 188,
+      "VisibleHeight": 40,
+      "FullyWithinClientAncestors": true,
+      "Classification": "GEOMETRY_OBSERVATION_NOT_FINAL_ACCESSIBILITY_VERDICT"
+    },
+    {
+      "Sequence": 10,
+      "Apps": true,
+      "Row": 4,
+      "Column": 4,
+      "Text": "Unknown",
+      "Rectangle": {
+        "X": 1108,
+        "Y": 353,
+        "Width": 188,
+        "Height": 40
+      },
+      "VisibleWidth": 188,
+      "VisibleHeight": 40,
+      "FullyWithinClientAncestors": true,
+      "Classification": "GEOMETRY_OBSERVATION_NOT_FINAL_ACCESSIBILITY_VERDICT"
+    }
+  ],
+  "PotentialTextOverflow": [
+    {
+      "Sequence": 8,
+      "Apps": true,
+      "Row": 1,
+      "Column": 0,
+      "Text": "Microsoft Edge Update",
+      "MeasuredWidth": 185,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 8,
+      "Apps": true,
+      "Row": 2,
+      "Column": 0,
+      "Text": "Microsoft Edge WebView2 Runtime",
+      "MeasuredWidth": 277,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 8,
+      "Apps": true,
+      "Row": 3,
+      "Column": 0,
+      "Text": "Microsoft OneDrive",
+      "MeasuredWidth": 157,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 9,
+      "Apps": true,
+      "Row": 1,
+      "Column": 0,
+      "Text": "Microsoft Edge Update",
+      "MeasuredWidth": 185,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 9,
+      "Apps": true,
+      "Row": 2,
+      "Column": 0,
+      "Text": "Microsoft Edge WebView2 Runtime",
+      "MeasuredWidth": 277,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 9,
+      "Apps": true,
+      "Row": 3,
+      "Column": 0,
+      "Text": "Microsoft OneDrive",
+      "MeasuredWidth": 157,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 10,
+      "Apps": true,
+      "Row": 1,
+      "Column": 0,
+      "Text": "Microsoft Edge Update",
+      "MeasuredWidth": 185,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 10,
+      "Apps": true,
+      "Row": 2,
+      "Column": 0,
+      "Text": "Microsoft Edge WebView2 Runtime",
+      "MeasuredWidth": 277,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 10,
+      "Apps": true,
+      "Row": 3,
+      "Column": 0,
+      "Text": "Microsoft OneDrive",
+      "MeasuredWidth": 157,
+      "CellWidth": 136,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 11,
+      "Apps": false,
+      "Row": 0,
+      "Column": 3,
+      "Text": "Desktop or fixed device with 2.7 GB RAM, running Windows build 26200.",
+      "MeasuredWidth": 559,
+      "CellWidth": 525,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 11,
+      "Apps": false,
+      "Row": 2,
+      "Column": 0,
+      "Text": "! Needs Attention",
+      "MeasuredWidth": 145,
+      "CellWidth": 120,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 11,
+      "Apps": false,
+      "Row": 2,
+      "Column": 3,
+      "Text": "A network adapter is connected, but Internet access did not pass both supported checks.",
+      "MeasuredWidth": 687,
+      "CellWidth": 525,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 11,
+      "Apps": false,
+      "Row": 3,
+      "Column": 2,
+      "Text": "Physical drive health",
+      "MeasuredWidth": 165,
+      "CellWidth": 159,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    },
+    {
+      "Sequence": 11,
+      "Apps": false,
+      "Row": 4,
+      "Column": 2,
+      "Text": "Current performance snapshot",
+      "MeasuredWidth": 244,
+      "CellWidth": 159,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 10,
+        "Unit": "Point",
+        "Style": "Regular",
+        "Height": 23
+      },
+      "ToolTip": "",
+      "Classification": "DIAGNOSTIC_ONLY_NOT_PRODUCT_FAIL"
+    }
+  ],
+  "Acceptance": "NOT_AUTOMATICALLY_DECIDED",
+  "Caveats": [
+    "Measured text overflow requires tooltip/wrapping/action-access evaluation, not automatic product failure",
+    "Maximized outer form bounds alone do not establish visible-frame work-area containment",
+    "This diagnostic wrapper is not native EXE launch evidence",
+    "No completed F-008 matrix cells are inferred from these samples"
+  ]
+}
