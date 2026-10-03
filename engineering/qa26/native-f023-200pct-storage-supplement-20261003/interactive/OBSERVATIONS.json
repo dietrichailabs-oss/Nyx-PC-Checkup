@@ -1,0 +1,20 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "ProductModified": false,
+  "RequestedScale": 200,
+  "NativeAppliedDpi": "Current session collection pending",
+  "ObservedUtc": "2026-10-03T18:39:00.373Z",
+  "Observations": [
+    {
+      "Check": "Storage double-click selects exact Desktop shortcut",
+      "Result": "PASS",
+      "Evidence": "01_storage_doubleclick_exact_target.png"
+    },
+    {
+      "Check": "Storage Enter after away/back selects exact Desktop shortcut",
+      "Result": "PASS",
+      "Evidence": "02_storage_enter_after_away_back.png"
+    }
+  ],
+  "CompleteF008Cells": 0
+}
