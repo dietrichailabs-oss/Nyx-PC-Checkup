@@ -1,0 +1,51 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "ProductModified": false,
+  "RequestedScale": 100,
+  "NativeDpi": "Pending collection",
+  "ObservedUtc": "2026-10-03T18:47:29.407Z",
+  "ExcludedAttempts": [
+    {
+      "Evidence": "01_storage_doubleclick_exact_target.png",
+      "Reason": "Initial click triggered nested focus scrolling; exact row not proven, not counted"
+    }
+  ],
+  "Observations": [
+    {
+      "Check": "Storage double-click stable first row selects exact Desktop shortcut",
+      "Result": "PASS",
+      "Evidence": "02_storage_doubleclick_stable_exact_target.png"
+    },
+    {
+      "Check": "Checkup double-click exact System overview",
+      "Result": "PASS",
+      "Evidence": "03_checkup_doubleclick_exact_first_result.png"
+    },
+    {
+      "Check": "Up visible navigation only",
+      "Result": "PASS",
+      "Evidence": "04_up_navigation_only.png"
+    },
+    {
+      "Check": "End visible cell navigation only",
+      "Result": "PASS",
+      "Evidence": "05_end_navigation_only.png"
+    },
+    {
+      "Check": "Home visible cell navigation only",
+      "Result": "PASS",
+      "Evidence": "06_home_navigation_only.png"
+    },
+    {
+      "Check": "Storage Enter after away/back selects exact file",
+      "Result": "PASS",
+      "Evidence": "07_storage_enter_after_away_back.png"
+    },
+    {
+      "Check": "Storage repeated Enter without mouse refocus selects same exact file",
+      "Result": "PASS",
+      "Evidence": "08_storage_repeat_enter_exact_target.png"
+    }
+  ],
+  "CompleteF008Cells": 0
+}
