@@ -1,0 +1,132 @@
+﻿2026-09-26T19:48:13.7462104Z [INFO] [USER] PC Checkup started.
+2026-09-26T19:48:21.4484080Z [INFO] [USER] PC Checkup closed.
+2026-09-26T19:48:24.6238860Z [INFO] [USER] PC Checkup started.
+2026-09-26T19:52:28.4902467Z [INFO] [USER] PC Checkup started.
+2026-09-26T19:52:34.5258639Z [INFO] [USER] PC Checkup closed.
+2026-09-26T19:52:36.8922890Z [INFO] [USER] PC Checkup started.
+2026-09-26T19:53:09.2588241Z [INFO] [USER] PC Checkup closed.
+2026-09-26T23:39:15.9693609Z [INFO] [USER] PC Checkup started.
+2026-09-26T23:59:53.3693685Z [INFO] [USER] PC Checkup started.
+2026-09-26T23:59:59.4787165Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:00:01.1309467Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:05:42.2135180Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:05:48.4517589Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:05:50.0389412Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:06:03.7564256Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:08:16.2612900Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:08:22.2331887Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:08:23.8868262Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:14:08.6056962Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:14:14.4862682Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:14:16.0895560Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:22:00.0381968Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:23:50.4964448Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:23:56.5033174Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:23:58.1076131Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:45:48.3777302Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:45:54.6106642Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:45:56.4220821Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:50:30.9102141Z [INFO] [USER] PC Checkup started.
+2026-09-27T00:50:37.0011352Z [INFO] [USER] PC Checkup closed.
+2026-09-27T00:50:38.7634249Z [INFO] [USER] PC Checkup started.
+2026-09-27T01:20:01.3204453Z [INFO] [USER] PC Checkup started.
+2026-09-27T01:25:13.1796492Z [ERROR] Scan worker failed: The process cannot access the file '%USERPROFILE%\AppData\Local\Dietrich AI Labs\[USER] PC Checkup\temp\scan-ca7187bb086844c2b198be963fc7e94f-progress.jsonl' because it is being used by another process.
+2026-09-27T01:53:35.7658114Z [INFO] [USER] PC Checkup started.
+2026-09-27T01:56:53.1283906Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T01:56:53.1917440Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:01:19.7826544Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:01:19.8144176Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:03:17.4767689Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:03:17.5239871Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:05:37.5222465Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:05:37.5698598Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:06:47.9212832Z [INFO] [USER] PC Checkup closed.
+2026-09-27T02:06:59.4107974Z [INFO] [USER] PC Checkup started.
+2026-09-27T02:09:41.3108058Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:09:41.3583386Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:11:44.9437284Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:11:44.9912739Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:13:55.7633488Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:13:55.8099366Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:16:03.6840356Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:16:03.7475166Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:18:08.7334308Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:18:08.7655299Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:20:18.9042393Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:20:18.9511645Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T02:21:30.5886235Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T02:21:30.6363712Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T13:38:42.8283811Z [INFO] [USER] PC Checkup started.
+2026-09-27T13:47:34.8966563Z [INFO] [USER] PC Checkup started.
+2026-09-27T13:53:32.5084860Z [WARN] Check performance.snapshot failed: Exception getting "CPU": "The property 'TotalSeconds' cannot be found on this object. Verify that the property exists."
+2026-09-27T13:53:32.5721364Z [WARN] Check apps.inventory failed: The property 'SystemComponent' cannot be found on this object. Verify that the property exists.
+2026-09-27T14:30:04.8207100Z [INFO] [USER] PC Checkup started.
+2026-09-27T14:31:16.9487947Z [WARN] Check apps.inventory failed: The property 'Properties' cannot be found on this object. Verify that the property exists.
+2026-09-27T14:55:10.5452013Z [INFO] [USER] PC Checkup started.
+2026-09-27T15:03:02.0566979Z [INFO] [USER] PC Checkup started.
+2026-09-27T15:28:09.5239813Z [INFO] [USER] PC Checkup started.
+2026-09-27T15:42:35.5751785Z [INFO] [USER] PC Checkup started.
+2026-09-27T15:49:19.3977160Z [INFO] Disabled current-user startup entry 'OneDrive' with rollback ad1f3c08adf141e7b2fa6b9dfa46f8dc.
+2026-09-27T15:52:14.4625760Z [INFO] Restored current-user startup entry 'OneDrive' from rollback ad1f3c08adf141e7b2fa6b9dfa46f8dc.
+2026-09-27T16:01:13.0971709Z [INFO] [USER] PC Checkup started.
+2026-09-27T16:09:26.2847718Z [INFO] [USER] PC Checkup started.
+2026-09-27T16:13:54.9528740Z [INFO] [USER] PC Checkup started.
+2026-09-27T16:18:12.1788078Z [INFO] [USER] PC Checkup started.
+2026-09-27T16:21:33.3712583Z [INFO] [USER] PC Checkup started.
+2026-09-27T16:30:10.4084703Z [INFO] [USER] PC Checkup started.
+2026-09-27T16:31:41.6764348Z [INFO] Disabled current-user startup entry 'NyxQA21_MissingTarget_F015' with rollback 6e237eebb77644c5971d3c81dee38076.
+2026-09-27T16:32:39.4163167Z [INFO] Restored current-user startup entry 'NyxQA21_MissingTarget_F015' from rollback 6e237eebb77644c5971d3c81dee38076.
+2026-09-27T16:33:39.5357368Z [INFO] [USER] PC Checkup closed.
+2026-09-27T16:41:00.4023781Z [INFO] [USER] PC Checkup started.
+2026-09-27T17:52:50.6232687Z [INFO] [USER] PC Checkup started.
+2026-09-27T18:25:51.5845149Z [INFO] [USER] PC Checkup started.
+2026-09-27T18:34:15.9396428Z [INFO] [USER] PC Checkup closed.
+2026-09-27T18:35:28.9144165Z [INFO] [USER] PC Checkup started.
+2026-09-27T19:04:27.3641195Z [INFO] [USER] PC Checkup started.
+2026-09-27T19:35:38.8171299Z [INFO] [USER] PC Checkup started.
+2026-09-27T19:40:53.9010375Z [INFO] [USER] PC Checkup closed.
+2026-09-27T19:42:13.9180780Z [INFO] [USER] PC Checkup started.
+2026-09-27T20:15:12.1737657Z [INFO] [USER] PC Checkup started.
+2026-09-27T20:21:49.6846830Z [INFO] Disabled current-user startup entry 'OneDrive' with rollback 4a0a76531e664f2194e6c92428bce9f0.
+2026-09-27T20:26:15.1005690Z [INFO] Restored current-user startup entry 'OneDrive' from rollback 4a0a76531e664f2194e6c92428bce9f0.
+2026-09-27T20:33:31.4129321Z [INFO] [USER] PC Checkup closed.
+2026-09-27T20:34:34.3962857Z [INFO] [USER] PC Checkup started.
+2026-09-27T20:37:18.5534787Z [INFO] [USER] PC Checkup closed.
+2026-09-27T20:39:06.4254762Z [INFO] [USER] PC Checkup started.
+2026-09-27T20:45:06.1658356Z [INFO] [USER] PC Checkup closed.
+2026-09-27T21:10:00.5731263Z [INFO] [USER] PC Checkup started.
+2026-09-27T21:52:28.9224785Z [INFO] [USER] PC Checkup closed.
+2026-09-27T21:54:44.4118379Z [INFO] [USER] PC Checkup started.
+2026-09-27T21:58:00.7628417Z [INFO] Disabled current-user startup entry 'NyxQA23_MissingTarget_F020' with rollback e125a1d626184271ae02665fd0f6c51c.
+2026-09-27T21:59:31.4797565Z [INFO] Restored current-user startup entry 'NyxQA23_MissingTarget_F020' from rollback e125a1d626184271ae02665fd0f6c51c.
+2026-09-27T23:23:28.6398592Z [INFO] [USER] PC Checkup started.
+2026-09-28T10:37:24.8966735Z [INFO] [USER] PC Checkup closed.
+2026-09-28T10:38:30.2835653Z [INFO] [USER] PC Checkup started.
+2026-09-28T10:39:27.5496937Z [INFO] [USER] PC Checkup closed.
+2026-09-28T10:56:50.4663058Z [INFO] [USER] PC Checkup started.
+2026-10-03T01:50:28.9075634Z [INFO] [USER] PC Checkup started.
+2026-10-03T02:14:37.9287029Z [INFO] [USER] PC Checkup closed.
+2026-10-03T03:02:53.4067990Z [INFO] [USER] PC Checkup started.
+2026-10-03T03:25:06.1286470Z [INFO] [USER] PC Checkup closed.
+2026-10-03T03:26:18.9893971Z [INFO] [USER] PC Checkup started.
+2026-10-03T03:33:03.0991242Z [INFO] [USER] PC Checkup closed.
+2026-10-03T03:36:53.5902821Z [INFO] [USER] PC Checkup started.
+2026-10-03T03:45:29.0430402Z [INFO] [USER] PC Checkup closed.
+2026-10-03T03:49:07.3623548Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:02:27.8432853Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:08:33.2390584Z [INFO] [USER] PC Checkup closed.
+2026-10-03T04:09:57.5743750Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:10:47.6611466Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:18:47.3902953Z [INFO] [USER] PC Checkup closed.
+2026-10-03T04:19:59.9465541Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:26:04.6092863Z [INFO] [USER] PC Checkup closed.
+2026-10-03T04:27:22.6818818Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:34:38.8524260Z [INFO] [USER] PC Checkup closed.
+2026-10-03T04:35:48.9317020Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:39:05.3571019Z [INFO] [USER] PC Checkup closed.
+2026-10-03T04:40:49.8605631Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:48:16.4549689Z [INFO] [USER] PC Checkup closed.
+2026-10-03T04:49:36.8827692Z [INFO] [USER] PC Checkup started.
+2026-10-03T04:51:24.6663668Z [INFO] [USER] PC Checkup closed.
+2026-10-03T04:53:37.5941275Z [INFO] [USER] PC Checkup started.
+2026-10-03T05:03:42.7887563Z [INFO] [USER] PC Checkup closed.

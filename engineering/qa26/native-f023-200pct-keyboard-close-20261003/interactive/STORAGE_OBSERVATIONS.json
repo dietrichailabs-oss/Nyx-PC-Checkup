@@ -1,0 +1,24 @@
+{
+  "Candidate": "2026.10.02-eng-qa26",
+  "RequestedScale": 200,
+  "NativeDpi": "Pending native collection",
+  "ObservedUtc": "2026-10-03T05:03:42.595Z",
+  "Observations": [
+    {
+      "Check": "Tab exposes visible Size-cell focus",
+      "Result": "PASS",
+      "Evidence": "10_storage_tab_visible_focus.png"
+    },
+    {
+      "Check": "Shift+Tab restores visible File-cell focus",
+      "Result": "PASS",
+      "Evidence": "11_storage_reverse_tab_visible_focus.png"
+    },
+    {
+      "Check": "Enter selects exact desktop shortcut in Explorer",
+      "Result": "PASS",
+      "Evidence": "12_storage_enter_exact_file.png"
+    }
+  ],
+  "ProductModified": false
+}

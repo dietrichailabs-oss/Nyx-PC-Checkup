@@ -1,0 +1,56 @@
+{
+  "Candidate": "2026.10.02-eng-qa26",
+  "Scope": "Bounded installed F-023 keyboard observations; not complete F-008 acceptance",
+  "RequestedScale": 200,
+  "NativeDpi": "Pending current session collection",
+  "ObservedUtc": "2026-10-03T05:01:47.512Z",
+  "Observations": [
+    {
+      "Check": "Enter first selected System result",
+      "Result": "PASS",
+      "Evidence": "01_enter_exact_system_overview.png"
+    },
+    {
+      "Check": "Tab exposes Close at constrained high DPI",
+      "Result": "PASS",
+      "Evidence": "02_tab_exposes_close.png"
+    },
+    {
+      "Check": "Tab visible grid focus",
+      "Result": "PASS",
+      "Evidence": "03_tab_visible_grid_focus.png"
+    },
+    {
+      "Check": "Shift+Tab visible first-cell focus",
+      "Result": "PASS",
+      "Evidence": "04_reverse_tab_visible_first_cell.png"
+    },
+    {
+      "Check": "Down changes selection without activation",
+      "Result": "PASS",
+      "Evidence": "05_down_navigation_only.png"
+    },
+    {
+      "Check": "Enter activates exact second Storage result",
+      "Result": "PASS",
+      "Evidence": "06_enter_exact_second_result.png"
+    },
+    {
+      "Check": "Keyboard Close restores same-cell visible focus",
+      "Result": "PASS",
+      "Evidence": "07_same_cell_focus_restored.png"
+    },
+    {
+      "Check": "Repeat Enter without mouse refocus activates same result",
+      "Result": "PASS",
+      "Evidence": "08_repeat_enter_same_result.png"
+    },
+    {
+      "Check": "Enter while modal open then one keyboard Close leaves no duplicate",
+      "Result": "PASS",
+      "Evidence": "09_single_close_no_duplicate.png"
+    }
+  ],
+  "ProductModified": false,
+  "CompleteF008Cells": 0
+}
