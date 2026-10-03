@@ -1,0 +1,19 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "RequestedScaling": 100,
+  "ActualDpiConfirmation": "pending guest log collection",
+  "CandidateModified": false,
+  "Observations": [
+    {
+      "Case": "Largest-file Enter opens Desktop with shortcut selected",
+      "Result": "PASS",
+      "Evidence": "06_storage_enter_desktop_selection.png"
+    },
+    {
+      "Case": "Down after Explorer close selects next row without Explorer activation",
+      "Result": "PASS",
+      "Evidence": "07_storage_down_no_activation.png"
+    }
+  ],
+  "CompleteF008Cells": 0
+}

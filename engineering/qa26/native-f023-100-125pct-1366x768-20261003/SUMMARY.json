@@ -1,0 +1,21 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "Harness": "QA26-F023-PS51-26",
+  "SourceCommit": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "CandidateModified": false,
+  "Acceptance": "HOLD_INCOMPLETE",
+  "BoundedObservations100Pct": 23,
+  "BoundedObservations125Pct": 28,
+  "SystemDpi100Pct": 96,
+  "SystemDpi125Pct": 120,
+  "Resolution": "1366x768",
+  "WorkArea100Pct": "1366x720",
+  "WorkArea125Pct": "1366x708",
+  "CompleteF008Cells": 0,
+  "RequiredF008Cells": 132,
+  "NewProductDefectEstablished": false,
+  "AppExit100PctUtc": "2026-10-03T04:08:44.2799453Z",
+  "AppExit125PctUtc": "2026-10-03T04:18:56.5181701Z",
+  "CleanExitScope": "App process absent three samples; not scan-worker/temp cleanup proof",
+  "Pending": "Complete F023 focused coverage, F022 geometry, F020/F015, 132-cell F008, downstream native suites"
+}

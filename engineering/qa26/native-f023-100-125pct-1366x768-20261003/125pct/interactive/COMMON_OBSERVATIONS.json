@@ -1,0 +1,91 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "Scaling": 125,
+  "CollectedSystemDpi": 120,
+  "PhysicalResolution": "1366x768",
+  "CandidateModified": false,
+  "Observations": [
+    {
+      "Case": "Enter exact System overview",
+      "Result": "PASS",
+      "Evidence": "01_enter_system_overview.png"
+    },
+    {
+      "Case": "Tab exposes focused Close",
+      "Result": "PASS",
+      "Evidence": "02_close_scrolled_into_view_keyboard.png"
+    },
+    {
+      "Case": "Tab visible cell focus",
+      "Result": "PASS",
+      "Evidence": "03_grid_visible_keyboard_focus.png"
+    },
+    {
+      "Case": "Shift Tab visible first-cell focus",
+      "Result": "PASS",
+      "Evidence": "04_grid_reverse_tab_focus.png"
+    },
+    {
+      "Case": "Down navigation only",
+      "Result": "PASS",
+      "Evidence": "05_down_no_activation.png"
+    },
+    {
+      "Case": "Enter exact second result",
+      "Result": "PASS",
+      "Evidence": "06_enter_exact_second_result.png"
+    },
+    {
+      "Case": "Keyboard Close same-cell focus",
+      "Result": "PASS",
+      "Evidence": "07_same_cell_focus_restored.png"
+    },
+    {
+      "Case": "Repeat Enter without refocus",
+      "Result": "PASS",
+      "Evidence": "08_repeat_enter_same_result.png"
+    },
+    {
+      "Case": "Enter while modal open and one Close no duplicate",
+      "Result": "PASS",
+      "Evidence": "09_single_close_no_duplicate.png"
+    },
+    {
+      "Case": "Page Down navigation only",
+      "Result": "PASS",
+      "Evidence": "10_page_down_no_activation.png"
+    },
+    {
+      "Case": "Page Up navigation only",
+      "Result": "PASS",
+      "Evidence": "11_page_up_no_activation.png"
+    },
+    {
+      "Case": "Up navigation only",
+      "Result": "PASS",
+      "Evidence": "12_up_no_activation.png"
+    },
+    {
+      "Case": "End navigation only",
+      "Result": "PASS",
+      "Evidence": "13_end_no_activation.png"
+    },
+    {
+      "Case": "Home navigation only",
+      "Result": "PASS",
+      "Evidence": "14_home_no_activation.png"
+    },
+    {
+      "Case": "Ctrl End navigation only",
+      "Result": "PASS",
+      "Evidence": "15_ctrl_end_no_activation.png"
+    },
+    {
+      "Case": "Ctrl Home navigation only",
+      "Result": "PASS",
+      "Evidence": "16_ctrl_home_no_activation.png"
+    }
+  ],
+  "CompleteF008Cells": 0,
+  "LayoutAcceptance": "not determined by focused keyboard checks"
+}

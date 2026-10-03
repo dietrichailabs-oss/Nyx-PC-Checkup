@@ -1,0 +1,38 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "RequestedScaling": 100,
+  "CandidateModified": false,
+  "ActualDpiConfirmation": "pending guest log collection",
+  "Observations": [
+    {
+      "Case": "Ctrl End navigation only",
+      "Result": "PASS",
+      "Evidence": "17_common_ctrl_end_no_activation.png"
+    },
+    {
+      "Case": "Page Up navigation only",
+      "Result": "PASS",
+      "Evidence": "18_common_page_up_no_activation.png"
+    },
+    {
+      "Case": "Page Down navigation only",
+      "Result": "PASS",
+      "Evidence": "19_common_page_down_no_activation.png"
+    },
+    {
+      "Case": "Ctrl Home navigation only",
+      "Result": "PASS",
+      "Evidence": "20_common_ctrl_home_no_activation.png"
+    },
+    {
+      "Case": "Recreated grid Enter exact System overview",
+      "Result": "PASS",
+      "Evidence": "21_common_recreated_enter.png"
+    },
+    {
+      "Case": "Recreated dialog keyboard Close",
+      "Result": "PASS"
+    }
+  ],
+  "CompleteF008Cells": 0
+}

@@ -1,0 +1,68 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "Scaling": 125,
+  "CandidateModified": false,
+  "CompleteF008Cells": 0,
+  "Observations": [
+    {
+      "Case": "Enter exact shortcut",
+      "Result": "PASS",
+      "Evidence": "17_storage_enter_exact_shortcut.png"
+    },
+    {
+      "Case": "Tab visible focus",
+      "Result": "PASS",
+      "Evidence": "18_storage_tab_focus.png"
+    },
+    {
+      "Case": "Shift Tab visible focus",
+      "Result": "PASS",
+      "Evidence": "19_storage_reverse_tab_focus.png"
+    },
+    {
+      "Case": "Down navigation only",
+      "Result": "PASS",
+      "Evidence": "20_storage_down_no_activation.png"
+    },
+    {
+      "Case": "Up navigation only",
+      "Result": "PASS",
+      "Evidence": "21_storage_up_no_activation.png"
+    },
+    {
+      "Case": "Page Down navigation only",
+      "Result": "PASS",
+      "Evidence": "22_storage_page_down_no_activation.png"
+    },
+    {
+      "Case": "Page Up navigation only",
+      "Result": "PASS",
+      "Evidence": "23_storage_page_up_no_activation.png"
+    },
+    {
+      "Case": "End navigation only",
+      "Result": "PASS",
+      "Evidence": "24_storage_end_no_activation.png"
+    },
+    {
+      "Case": "Home navigation only",
+      "Result": "PASS",
+      "Evidence": "25_storage_home_no_activation.png"
+    },
+    {
+      "Case": "Ctrl End navigation only",
+      "Result": "PASS",
+      "Evidence": "26_storage_ctrl_end_no_activation.png"
+    },
+    {
+      "Case": "Ctrl Home navigation only",
+      "Result": "PASS",
+      "Evidence": "27_storage_ctrl_home_no_activation.png"
+    },
+    {
+      "Case": "Double click exact shortcut",
+      "Result": "PASS",
+      "Evidence": "28_storage_double_click_exact_shortcut.png"
+    }
+  ]
+}

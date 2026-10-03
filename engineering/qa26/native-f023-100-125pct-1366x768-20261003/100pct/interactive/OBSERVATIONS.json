@@ -1,0 +1,40 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "Harness": "QA26-F023-PS51-26",
+  "RequestedScaling": 100,
+  "ActualDpiConfirmation": "pending guest log collection",
+  "CandidateModified": false,
+  "CompleteF008Cells": 0,
+  "Observations": [
+    {
+      "Case": "Enter exact System overview",
+      "Result": "PASS",
+      "Evidence": "01_enter_system_overview.png"
+    },
+    {
+      "Case": "Tab focuses Close visibly",
+      "Result": "PASS",
+      "Evidence": "02_close_keyboard_focus.png"
+    },
+    {
+      "Case": "Return on Close dismisses modal",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Repeat Enter without mouse refocus",
+      "Result": "PASS",
+      "Evidence": "03_repeat_enter_without_refocus.png"
+    },
+    {
+      "Case": "Down navigation does not activate dialog",
+      "Result": "PASS",
+      "Evidence": "04_down_navigation_no_activation.png"
+    },
+    {
+      "Case": "Enter exact second System-drive free space result",
+      "Result": "PASS",
+      "Evidence": "05_enter_exact_second_result.png"
+    }
+  ],
+  "AdditionalObservation": "Escape did not dismiss modal; explicit Tab then Return Close worked. No complete matrix acceptance claimed."
+}

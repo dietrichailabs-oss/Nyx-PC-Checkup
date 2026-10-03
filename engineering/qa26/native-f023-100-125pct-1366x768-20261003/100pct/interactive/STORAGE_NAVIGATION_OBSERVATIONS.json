@@ -1,0 +1,56 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "RequestedScaling": 100,
+  "ActualDpiConfirmation": "pending guest log collection",
+  "CandidateModified": false,
+  "NavigationKeys": [
+    {
+      "Key": "Up",
+      "Result": "PASS",
+      "Evidence": "08_storage_up_no_activation.png"
+    },
+    {
+      "Key": "Page_Down",
+      "Result": "PASS",
+      "Evidence": "09_storage_page_down_no_activation.png"
+    },
+    {
+      "Key": "Page_Up",
+      "Result": "PASS",
+      "Evidence": "10_storage_page_up_no_activation.png"
+    },
+    {
+      "Key": "End",
+      "Result": "PASS",
+      "Evidence": "11_storage_end_no_activation.png"
+    },
+    {
+      "Key": "Home",
+      "Result": "PASS",
+      "Evidence": "12_storage_home_no_activation.png"
+    },
+    {
+      "Key": "Control_L+End",
+      "Result": "PASS",
+      "Evidence": "13_storage_ctrl_end_no_activation.png"
+    },
+    {
+      "Key": "Control_L+Home",
+      "Result": "PASS",
+      "Evidence": "14_storage_ctrl_home_no_activation.png"
+    }
+  ],
+  "Focus": [
+    {
+      "Key": "Tab",
+      "Result": "PASS",
+      "Evidence": "15_storage_tab_visible_focus.png"
+    },
+    {
+      "Key": "Shift_L+Tab",
+      "Result": "PASS",
+      "Evidence": "16_storage_shift_tab_visible_focus.png"
+    }
+  ],
+  "CompleteF008Cells": 0
+}
