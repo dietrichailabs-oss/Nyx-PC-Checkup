@@ -17,3 +17,5 @@ Earlier source gate: Python 224/224; structural lint 2/2; registered-handler/mod
 F-023 remains focused acceptance INCOMPLETE pending full case/scale coverage. F-022/F-020/F-015 and 132-cell F-008 remain incomplete. Accepted complete F-008 cells: 0/132. Standard/Elevated and remaining lifecycle/privacy/safety suites are not yet run on QA26. Live pre-shutdown worker/artifact cleanup is not claimed from disk collection. Window/process records and app-close evidence are included.
 
 Candidate product files were not modified or rebuilt. The evidence collector's PS5.1 top-level JSON array handling was corrected without changing product bytes. CANDIDATE.json in guest-session is the frozen baseline record and its NOT_RUN fields are not the current continuation result. App-data logs contain inherited historical entries; only the current session timestamps establish QA26 observations.
+
+Evidence-publication correction: this directory disables Git text normalization so SHA256SUMS describes the exact committed bytes. The raw inherited/current application log is explicitly included despite the repository-wide .log ignore rule.
