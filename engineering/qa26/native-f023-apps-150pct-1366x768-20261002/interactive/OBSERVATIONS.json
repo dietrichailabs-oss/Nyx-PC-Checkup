@@ -1,0 +1,69 @@
+{
+  "build": "2026.10.02-eng-qa26",
+  "utc": "2026-10-03T03:45:28.866Z",
+  "requestedScalingPercent": 150,
+  "appliedDpiVerification": "PENDING_GUEST_LOG_COLLECTION",
+  "focusedChecks": [
+    {
+      "id": "ENTER_EXACT_SYSTEM_RESULT",
+      "result": "PASS"
+    },
+    {
+      "id": "TAB_VISIBLE_FOCUS_AFTER_CLOSE",
+      "result": "PASS"
+    },
+    {
+      "id": "DOWN_NAVIGATION_ONLY",
+      "result": "PASS"
+    },
+    {
+      "id": "ENTER_EXACT_SECOND_RESULT",
+      "result": "PASS"
+    },
+    {
+      "id": "REPEAT_SECOND_RESULT_AFTER_CLOSE",
+      "result": "PASS"
+    }
+  ],
+  "appsChecks": [
+    {
+      "id": "FILTER_NYX_ONE_ROW",
+      "result": "PASS"
+    },
+    {
+      "id": "CLEAR_FILTER_FIVE_ROWS",
+      "result": "PASS"
+    },
+    {
+      "id": "END_EXPOSES_READABLE_COLUMNS",
+      "result": "PASS"
+    },
+    {
+      "id": "SHIFT_TAB_VISIBLE_FOCUS",
+      "result": "PASS"
+    },
+    {
+      "id": "CTRL_HOME_READABLE_NAMES",
+      "result": "PASS"
+    },
+    {
+      "id": "RECREATED_SEARCH_AFTER_RESIZE",
+      "result": "PASS"
+    },
+    {
+      "id": "MAXIMIZE_RESTORE",
+      "result": "PASS"
+    },
+    {
+      "id": "RECREATED_OPEN_SELECTED_FOLDER",
+      "result": "PASS"
+    }
+  ],
+  "nativeCellGeometryOracle": "NOT_COMPLETED",
+  "F023": "INCOMPLETE",
+  "F022": "INCOMPLETE",
+  "F008CompleteCells": 0,
+  "F008RequiredCells": 132,
+  "productModified": false,
+  "independentQaApproval": false
+}

@@ -1,0 +1,15 @@
+{
+  "requestedScalePercent": 150,
+  "confirmedSystemDpi": 144,
+  "confirmedWindowDpi": [
+    144
+  ],
+  "resolution": "1366x768",
+  "workingArea": "1366x696",
+  "observerPerMonitorV2": true,
+  "session": "native_20261002_233648",
+  "sampleCount": 128,
+  "source": "guest-session/ENVIRONMENT.json and WINDOW_OBSERVATIONS.jsonl",
+  "acceptedF008Cells": 0,
+  "exactCellGeometry": "NOT_COMPLETED"
+}
