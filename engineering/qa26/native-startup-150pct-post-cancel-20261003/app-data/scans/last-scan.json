@@ -1,0 +1,305 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+    "Mode":  "Full",
+    "StartedUtc":  "2026-10-03T21:02:53.1796796Z",
+    "CompletedUtc":  "2026-10-03T21:03:04.9580687Z",
+    "Cancelled":  true,
+    "ReadOnly":  true,
+    "Summary":  {
+                    "OverallStatus":  "Good",
+                    "Headline":  "Your PC looks good. Some information could not be checked.",
+                    "Good":  8,
+                    "NeedsAttention":  0,
+                    "Optional":  0,
+                    "Unknown":  3,
+                    "Total":  11
+                },
+    "Results":  [
+                    {
+                        "CheckId":  "system.overview",
+                        "Category":  "System",
+                        "Name":  "System overview",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Desktop or fixed device with 4.0 GB RAM, running Windows build 26200.",
+                        "Reason":  "Basic system information was read successfully.",
+                        "Evidence":  {
+                                         "ComputerName":  "DESKTOP-4D83OSL",
+                                         "WindowsEdition":  "Microsoft Windows 11 Pro",
+                                         "WindowsVersion":  "10.0.26200",
+                                         "WindowsBuild":  "26200",
+                                         "Is64Bit":  true,
+                                         "Processor":  "AMD Ryzen 9 5900XT 16-Core Processor           ",
+                                         "InstalledRamBytes":  4293808128,
+                                         "AvailableRamBytes":  1804103680,
+                                         "SystemDrive":  "C:\\",
+                                         "SystemDriveCapacityBytes":  135317680128,
+                                         "SystemDriveFreeBytes":  115091820544,
+                                         "UptimeSeconds":  207,
+                                         "DeviceClass":  "Desktop or fixed device",
+                                         "Manufacturer":  "Microsoft Corporation",
+                                         "Model":  "Virtual Machine",
+                                         "BatteryPresent":  false
+                                     },
+                        "Recommendation":  "No action is required. Hardware serial numbers and unique identifiers are intentionally not collected.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-10-03T21:02:55.3303229Z",
+                        "DataSource":  "Windows CIM / local environment",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "ComputerName":  "DESKTOP-4D83OSL",
+                                        "WindowsEdition":  "Microsoft Windows 11 Pro",
+                                        "WindowsVersion":  "10.0.26200",
+                                        "WindowsBuild":  "26200",
+                                        "Is64Bit":  true,
+                                        "Processor":  "AMD Ryzen 9 5900XT 16-Core Processor           ",
+                                        "InstalledRamBytes":  4293808128,
+                                        "AvailableRamBytes":  1804103680,
+                                        "SystemDrive":  "C:\\",
+                                        "SystemDriveCapacityBytes":  135317680128,
+                                        "SystemDriveFreeBytes":  115091820544,
+                                        "UptimeSeconds":  207,
+                                        "DeviceClass":  "Desktop or fixed device",
+                                        "Manufacturer":  "Microsoft Corporation",
+                                        "Model":  "Virtual Machine",
+                                        "BatteryPresent":  false
+                                    }
+                    },
+                    {
+                        "CheckId":  "storage.system-drive",
+                        "Category":  "Storage",
+                        "Name":  "System-drive free space",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "107.2 GB is free on C:\\.",
+                        "Reason":  "The system drive has 85.1% free.",
+                        "Evidence":  {
+                                         "Drive":  "C:\\",
+                                         "TotalBytes":  135317680128,
+                                         "FreeBytes":  115091816448,
+                                         "FreePercent":  85.1,
+                                         "Format":  "NTFS"
+                                     },
+                        "Recommendation":  "No storage action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-03T21:02:55.4098274Z",
+                        "DataSource":  ".NET DriveInfo",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.restart",
+                        "Category":  "Updates",
+                        "Name":  "Update restart",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows does not currently report a pending restart.",
+                        "Reason":  "No supported restart-pending marker was found.",
+                        "Evidence":  {
+                                         "Pending":  false,
+                                         "Sources":  [
+
+                                                     ],
+                                         "Complete":  true,
+                                         "Errors":  [
+
+                                                    ]
+                                     },
+                        "Recommendation":  "No restart is required by the checked Windows servicing markers.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-03T21:02:55.4891883Z",
+                        "DataSource":  "Windows servicing registry",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.pending",
+                        "Category":  "Updates",
+                        "Name":  "Windows updates",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "No pending software update was found in the local Windows Update cache.",
+                        "Reason":  "The supported local update query returned zero not-installed software updates.",
+                        "Evidence":  {
+                                         "Success":  true,
+                                         "Count":  0,
+                                         "Error":  "",
+                                         "PSComputerName":  "localhost",
+                                         "RunspaceId":  "a448ac49-665a-41b5-b9a5-80fa1124c9a5",
+                                         "PSShowComputerName":  false
+                                     },
+                        "Recommendation":  "Open Windows Update for an online check when you need full patch assurance.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-03T21:02:56.6136848Z",
+                        "DataSource":  "Microsoft.Update.Session local search",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.last-success",
+                        "Category":  "Updates",
+                        "Name":  "Last successful Windows update",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports a successful installation on Saturday, October 3, 2026.",
+                        "Reason":  "The Windows Update automatic-update result exposed a last success date.",
+                        "Evidence":  {
+                                         "LastSuccessUtc":  "2026-10-03T05:48:04.0000000Z"
+                                     },
+                        "Recommendation":  "No action is required based on this timestamp alone.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-10-03T21:02:56.7339831Z",
+                        "DataSource":  "Microsoft.Update.AutoUpdate",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.antivirus",
+                        "Category":  "Security",
+                        "Name":  "Antivirus protection",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports that Microsoft Defender antivirus and real-time protection are active.",
+                        "Reason":  "Defender status APIs reported protection enabled.",
+                        "Evidence":  {
+                                         "DefenderAntivirusEnabled":  true,
+                                         "DefenderRealTimeProtectionEnabled":  true,
+                                         "RegisteredProducts":  [
+                                                                    "Windows Defender"
+                                                                ]
+                                     },
+                        "Recommendation":  "No antivirus action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-03T21:02:57.5975824Z",
+                        "DataSource":  "Get-MpComputerStatus and SecurityCenter2",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.firewall",
+                        "Category":  "Security",
+                        "Name":  "Windows Firewall",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows Firewall is enabled for all reported profiles.",
+                        "Reason":  "Firewall profile states were read without changing them.",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "Domain",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Private",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Public",
+                                             "Enabled":  1
+                                         }
+                                     ],
+                        "Recommendation":  "No firewall action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-03T21:02:59.1188589Z",
+                        "DataSource":  "Get-NetFirewallProfile",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.windows-security-service",
+                        "Category":  "Security",
+                        "Name":  "Windows Security services",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "A supported Windows Security service is running.",
+                        "Reason":  "Service state was read without changing service configuration.",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "SecurityHealthService",
+                                             "Status":  "Running",
+                                             "StartType":  "Manual"
+                                         },
+                                         {
+                                             "Name":  "wscsvc",
+                                             "Status":  "Running",
+                                             "StartType":  "Automatic"
+                                         }
+                                     ],
+                        "Recommendation":  "No action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-03T21:02:59.3413013Z",
+                        "DataSource":  "Get-Service",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.secure-boot",
+                        "Category":  "Security",
+                        "Name":  "Secure Boot",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-10-03T21:02:59.4837667Z",
+                        "DataSource":  "Confirm-SecureBootUEFI",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.tpm",
+                        "Category":  "Security",
+                        "Name":  "Trusted Platform Module",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "TPM status was unavailable through the supported local interface.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-10-03T21:02:59.5981654Z",
+                        "DataSource":  "Get-Tpm",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "TPM status was unavailable through the supported local interface.",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "security.encryption",
+                        "Category":  "Security",
+                        "Name":  "Drive encryption",
+                        "Status":  "Unknown",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "Evidence":  null,
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-10-03T21:03:04.9426003Z",
+                        "DataSource":  "Get-BitLockerVolume",
+                        "RequiresElevation":  false,
+                        "Complete":  false,
+                        "ErrorReason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "Details":  null
+                    }
+                ]
+}

@@ -1,0 +1,12 @@
+{
+  "Mode": "Full",
+  "StartedUtc": "2026-10-03T21:02:53.1796796Z",
+  "CompletedUtc": "2026-10-03T21:03:04.9580687Z",
+  "Cancelled": true,
+  "ReadOnly": true,
+  "Results": 11,
+  "Schema": "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+  "InvalidStatusCount": 0,
+  "WorkerError": null,
+  "Scope": "Bounded cancellation evidence; full result-contract and live worker cleanup not proven by this collection"
+}
