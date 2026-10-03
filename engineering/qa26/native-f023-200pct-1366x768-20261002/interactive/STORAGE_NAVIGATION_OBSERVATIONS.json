@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-03T03:18:47.318Z",
+  "keys": [
+    {
+      "key": "Down",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    },
+    {
+      "key": "Home",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    },
+    {
+      "key": "End",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    },
+    {
+      "key": "Ctrl+Home",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    },
+    {
+      "key": "Ctrl+End",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    },
+    {
+      "key": "PageUp",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    },
+    {
+      "key": "PageDown",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    },
+    {
+      "key": "Up",
+      "navigationOnly": "PASS",
+      "noExplorerActivation": true
+    }
+  ],
+  "tab": "Cell traversal with visible dotted focus",
+  "shiftTab": "Returned to previous row folder cell; horizontal scrolling exposed focused cell",
+  "screenshot": "STORAGE_SHIFT_TAB_VISIBLE_FOCUS.png",
+  "scope": "Installed populated largest-file grid, current guest DPI only"
+}

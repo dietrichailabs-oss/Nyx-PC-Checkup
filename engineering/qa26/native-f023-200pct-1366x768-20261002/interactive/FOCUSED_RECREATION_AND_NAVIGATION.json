@@ -1,0 +1,82 @@
+{
+  "utc": "2026-10-03T03:25:05.952Z",
+  "build": "2026.10.02-eng-qa26",
+  "commonNavigation": [
+    {
+      "key": "Up",
+      "result": "PASS",
+      "noDetailActivation": true
+    },
+    {
+      "key": "Down",
+      "result": "PASS",
+      "noDetailActivation": true
+    },
+    {
+      "key": "PageUp",
+      "result": "PASS",
+      "noDetailActivation": true
+    },
+    {
+      "key": "PageDown",
+      "result": "PASS",
+      "noDetailActivation": true
+    },
+    {
+      "key": "Home",
+      "result": "PASS",
+      "noDetailActivation": true
+    },
+    {
+      "key": "End",
+      "result": "PASS",
+      "noDetailActivation": true
+    },
+    {
+      "key": "Ctrl+Home",
+      "result": "PASS",
+      "noDetailActivation": true
+    },
+    {
+      "key": "Ctrl+End",
+      "result": "PASS",
+      "noDetailActivation": true
+    }
+  ],
+  "additionalChecks": [
+    {
+      "id": "TAB_INTO_RECREATED_GRID",
+      "result": "PASS",
+      "evidence": "TAB_INTO_RECREATED_CHECKUP_GRID.png"
+    },
+    {
+      "id": "ENTER_AFTER_FULL_AND_RECREATION",
+      "result": "PASS",
+      "evidence": "TAB_ENTER_AFTER_FULL_AND_RECREATION.png"
+    },
+    {
+      "id": "SAME_CELL_VISIBLE_FOCUS_AFTER_CLOSE",
+      "result": "PASS",
+      "evidence": "AFTER_DETAIL_CLOSE_SAME_CELL_FOCUS.png"
+    },
+    {
+      "id": "DOUBLE_CLICK_AFTER_RECREATION",
+      "result": "PASS",
+      "evidence": "DOUBLE_CLICK_POSITIVE_AFTER_RECREATION.png"
+    },
+    {
+      "id": "ENTER_WHILE_MODAL_SINGLE_CLOSE_NO_DUPLICATE",
+      "result": "PASS",
+      "finding": "Enter while modal open followed by one close returned to grid"
+    }
+  ],
+  "remaining": [
+    "Applied DPI confirmation",
+    "Full focused coverage at all scales",
+    "F022 native geometry",
+    "F008 132 complete cells",
+    "Lifecycle/regression suites"
+  ],
+  "focusedAcceptance": "INCOMPLETE",
+  "productModified": false
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T03:06:29.279Z",
+  "action": "Alt+F4 inside guest detail dialog",
+  "input": "Human user",
+  "userReported": "worked",
+  "observed": "Detail dialog absent; Checkup grid remains open",
+  "result": "PASS"
+}

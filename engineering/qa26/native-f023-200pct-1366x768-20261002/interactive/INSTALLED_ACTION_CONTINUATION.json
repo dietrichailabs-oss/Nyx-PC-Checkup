@@ -1,0 +1,55 @@
+{
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "utc": "2026-10-03T03:11:40.218Z",
+  "checks": [
+    {
+      "id": "COMMON_ENTER_MATCHING_RESULT",
+      "result": "PASS",
+      "evidence": "ENTER_SYSTEM_DETAIL.png"
+    },
+    {
+      "id": "COMMON_REPEAT_AFTER_CLOSE",
+      "result": "PASS",
+      "evidence": "ENTER_REPEAT_SYSTEM_DETAIL.png"
+    },
+    {
+      "id": "ARROW_NAVIGATION_NO_ACTIVATION",
+      "result": "PASS",
+      "input": "Down",
+      "observation": "Selection changed to Storage, no dialog"
+    },
+    {
+      "id": "ENTER_AFTER_NAVIGATION_MATCHING_RESULT",
+      "result": "PASS",
+      "evidence": "ENTER_NAVIGATED_STORAGE_DETAIL.png"
+    },
+    {
+      "id": "MANUAL_ALT_F4_CONTROL",
+      "result": "PASS",
+      "evidence": "MANUAL_KEYBOARD_CLOSE_CONTROL.json",
+      "input": "human"
+    },
+    {
+      "id": "STORAGE_ENTER_EXACT_FILE_SELECTION",
+      "result": "PASS",
+      "evidence": "STORAGE_ENTER_EXPLORER_EXACT_SELECTION.png"
+    },
+    {
+      "id": "STORAGE_REPEAT_AFTER_RETURN",
+      "result": "PASS",
+      "evidence": "STORAGE_ENTER_REPEAT_EXPLORER.png"
+    }
+  ],
+  "focusedAcceptance": "INCOMPLETE",
+  "remaining": [
+    "Multiple constructed page cycles",
+    "Full keyboard/focus and reentrancy matrix",
+    "100/125/150/200% native coverage",
+    "F022 geometry",
+    "132-cell F008",
+    "Required native lifecycle/safety suites"
+  ],
+  "productModified": false,
+  "independentQaApproval": false
+}

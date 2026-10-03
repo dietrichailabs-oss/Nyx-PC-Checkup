@@ -1,0 +1,20 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "SourceCommit": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "EngineeringStatus": "HOLD_INCOMPLETE_ACCEPTANCE",
+  "FocusedObservationPass": 28,
+  "FocusedObservationFail": 0,
+  "AuthoritativeFullValidationPass": 10,
+  "AuthoritativeFullValidationFail": 0,
+  "FullCompleted": 1,
+  "PersistedResults": 21,
+  "F023": "INCOMPLETE",
+  "F008Completed": 0,
+  "F008Required": 132,
+  "Dpi": 192,
+  "ScalingPercent": 200,
+  "Resolution": "1366x768",
+  "WorkingArea": "1366x672",
+  "ProductModified": false,
+  "IndependentQaApproval": false
+}

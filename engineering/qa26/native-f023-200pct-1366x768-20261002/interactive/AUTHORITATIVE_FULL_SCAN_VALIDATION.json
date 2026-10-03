@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-03T03:27:28.093Z",
+  "source": "native_20261002_230247/app-data-at-end/scans/last-scan.json",
+  "checks": [
+    {
+      "id": "PARSE_COMPLETE_JSON",
+      "pass": true
+    },
+    {
+      "id": "SCAN_SCHEMA",
+      "pass": true
+    },
+    {
+      "id": "FULL_MODE",
+      "pass": true
+    },
+    {
+      "id": "TIMESTAMP_ORDER",
+      "pass": true
+    },
+    {
+      "id": "READ_ONLY",
+      "pass": true
+    },
+    {
+      "id": "COMPLETED_NOT_CANCELLED",
+      "pass": true
+    },
+    {
+      "id": "RESULT_FIELDS",
+      "pass": true
+    },
+    {
+      "id": "RESULT_STATUSES",
+      "pass": true
+    },
+    {
+      "id": "RESULT_TYPES_TIMESTAMPS",
+      "pass": true
+    },
+    {
+      "id": "NO_WORKER_ERROR",
+      "pass": true
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "resultCount": 21,
+  "StartedUtc": "2026-10-03T03:09:08.2792905Z",
+  "CompletedUtc": "2026-10-03T03:09:34.8659670Z",
+  "liveCleanupProven": false
+}

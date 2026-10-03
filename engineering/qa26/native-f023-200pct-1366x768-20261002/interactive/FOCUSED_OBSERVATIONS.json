@@ -1,0 +1,22 @@
+{
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "utc": "2026-10-03T03:05:34.098Z",
+  "observations": [
+    {
+      "case": "Selected System result Enter opens matching System overview",
+      "result": "PASS"
+    },
+    {
+      "case": "Mouse-close followed by Enter without refocusing reopens same result",
+      "result": "PASS"
+    },
+    {
+      "case": "Keyboard dismissal Escape and Alt-F4",
+      "result": "UNPROVEN",
+      "finding": "Injected keyboard close did not dismiss dialog; console delivery control needed"
+    }
+  ],
+  "focusedGate": "INCOMPLETE",
+  "independentQaDecision": "NOT_CLAIMED"
+}
