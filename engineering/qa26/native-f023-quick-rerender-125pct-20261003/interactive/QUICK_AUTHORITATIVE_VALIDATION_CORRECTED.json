@@ -1,0 +1,57 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "ValidatorRevision": "QA26-EVIDENCE-NULLABLE-1",
+  "Correction": "Frozen Models.psm1 permits Evidence=null. Original strict validation preserved in QUICK_AUTHORITATIVE_VALIDATION.json.",
+  "ProductModified": false,
+  "Mode": "Quick",
+  "StartedUtc": "2026-10-03T04:23:26.6146932Z",
+  "CompletedUtc": "2026-10-03T04:23:44.1075960Z",
+  "ReadOnly": true,
+  "Cancelled": false,
+  "ResultCount": 15,
+  "Checks": [
+    {
+      "Case": "JSON parses",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Exact scan schema",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Mode Quick",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Ordered valid scan timestamps",
+      "Result": "PASS"
+    },
+    {
+      "Case": "ReadOnly true",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Completed not cancelled",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Results nonempty array",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Required result fields and boolean types; nullable Evidence per frozen Models.psm1",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Allowed statuses and valid result timestamps",
+      "Result": "PASS"
+    },
+    {
+      "Case": "No WorkerError",
+      "Result": "PASS"
+    }
+  ],
+  "Passed": 10,
+  "Failed": 0,
+  "RawEvidence": "launch_diagnostic_20261003_002642/Nyx PC Checkup/scans/last-scan.json"
+}

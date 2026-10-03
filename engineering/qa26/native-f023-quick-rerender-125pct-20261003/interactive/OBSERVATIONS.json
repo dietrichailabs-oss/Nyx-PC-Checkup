@@ -1,0 +1,32 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "Scaling": 125,
+  "CandidateModified": false,
+  "Observations": [
+    {
+      "Case": "Real Quick progress and Cancel visible",
+      "Result": "PASS",
+      "Evidence": "02_quick_scan_progress_visible.png"
+    },
+    {
+      "Case": "Real Quick completion observed in UI",
+      "Result": "OBSERVED_AWAITING_AUTHORITATIVE_JSON",
+      "Evidence": "03_quick_scan_ui_complete.png"
+    },
+    {
+      "Case": "Enter exact System overview after real Quick rerender",
+      "Result": "PASS",
+      "Evidence": "04_enter_after_quick_rerender.png"
+    },
+    {
+      "Case": "Keyboard Close after rerender",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Away back recreation double click exact System overview",
+      "Result": "PASS",
+      "Evidence": "05_double_click_after_away_back.png"
+    }
+  ],
+  "CompleteF008Cells": 0
+}
