@@ -1,0 +1,14 @@
+﻿{
+    "Harness":  "QA26-F023-PS51-26",
+    "Kind":  "Native PS5.1 registered real grid handlers with observed action test double; not installed desktop acceptance",
+    "Passed":  0,
+    "Failed":  1,
+    "Failure":  "System.Management.Automation.RuntimeException: cycle 1 row 0 exact result",
+    "Checks":  [
+                   {
+                       "Name":  "cycle 1 row 0 exact result",
+                       "Pass":  false
+                   }
+               ],
+    "PowerShell":  "5.1.26100.9444"
+}

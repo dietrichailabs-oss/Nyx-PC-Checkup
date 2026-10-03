@@ -1,0 +1,474 @@
+﻿{
+    "Harness":  "QA26-F023-PS51-26",
+    "Kind":  "Native PS5.1 registered real grid handlers with observed action test double; not installed desktop acceptance",
+    "Passed":  116,
+    "Failed":  0,
+    "Failure":  null,
+    "Checks":  [
+                   {
+                       "Name":  "cycle 1 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Up does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Down does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation PageUp does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Next does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Home does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation End does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Home, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation End, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Tab does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Tab, Shift does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 double-click exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 null current cell safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 empty grid safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 invalid row safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 disposed grid safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 1 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 1 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 1 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 1 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 2 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 2 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 2 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 2 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation Up does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation Down does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation PageUp does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation Next does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation Home does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation End does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation Home, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation End, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation Tab does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 navigation Tab, Shift does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 double-click exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 null current cell safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 empty grid safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 invalid row safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 2 disposed grid safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 1 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 1 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 1 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 1 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 2 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 2 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 2 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 2 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation Up does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation Down does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation PageUp does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation Next does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation Home does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation End does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation Home, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation End, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation Tab does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 navigation Tab, Shift does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 double-click exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 null current cell safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 empty grid safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 invalid row safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 3 disposed grid safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage fixture resolves real result IDs",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage real largest-file grid exists",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 0 exact Explorer action",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 0 single consumed activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 0 focus preserved",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 1 exact Explorer action",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 1 single consumed activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 1 focus preserved",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 0 exact Explorer action",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 0 single consumed activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage row 0 focus preserved",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage mouse uses same selected target",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation Up does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation Down does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation PageUp does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation Next does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation Home does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation End does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation Home, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation End, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation Tab does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage navigation Tab, Shift does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "Storage null current cell safe",
+                       "Pass":  true
+                   }
+               ],
+    "PowerShell":  "5.1.26100.9444"
+}

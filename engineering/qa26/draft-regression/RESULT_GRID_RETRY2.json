@@ -1,0 +1,78 @@
+﻿{
+    "Harness":  "QA26-F023-PS51-26",
+    "Kind":  "Native PS5.1 registered real grid handlers with observed action test double; not installed desktop acceptance",
+    "Passed":  16,
+    "Failed":  1,
+    "Failure":  "System.Management.Automation.RuntimeException: cycle 1 navigation Up does not activate",
+    "Checks":  [
+                   {
+                       "Name":  "cycle 1 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Up does not activate",
+                       "Pass":  false
+                   }
+               ],
+    "PowerShell":  "5.1.26100.9444"
+}

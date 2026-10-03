@@ -1,0 +1,17 @@
+{
+  "sourceCommit": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "branch": "eng/f023-result-detail-keyboard-activation",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "setup": {"name": "Nyx_PC_Checkup_1.0.0_Setup.exe", "bytes": 562688, "sha256": "A2D3571A1C96FCD39A95E40376FE0861AAC27C58545C3842DE75EB19B2E9331C"},
+  "portable": {"name": "Nyx_PC_Checkup_1.0.0_Portable.zip", "bytes": 221132, "sha256": "F69B123AA1615AC6AE8F662A9D2200FA397D5D39B55A20CA6BFC055D3B5521B4"},
+  "source": {"name": "Nyx_PC_Checkup_1.0.0_Source.zip", "bytes": 802906, "sha256": "4BDAC6FD0E071A100550CFCEEA59C5CED0180C36C05873981D623147F02B9C25", "treeSha256": "AD7CAD8E05E0B35B9ACC89BA03718D12CC4E90B03C7C101D19B0A247B972E4D0"},
+  "sourceTests": {"pythonPassed": 224, "pythonFailed": 0, "lintPassed": 2, "lintFailed": 0, "registeredHandlerIntegrationPassed": 116, "registeredHandlerIntegrationFailed": 0},
+  "integrationScope": "Native PS5.1 real constructed grids and registered reflected handlers, real modal closure; not installed desktop acceptance",
+  "nativeInstalledF023": "NOT_RUN",
+  "F008CompleteCells": 0,
+  "F008TotalCells": 132,
+  "independentQAVerdict": "NOT_ISSUED",
+  "releaseApproved": false,
+  "priorQA25Frozen": true
+}

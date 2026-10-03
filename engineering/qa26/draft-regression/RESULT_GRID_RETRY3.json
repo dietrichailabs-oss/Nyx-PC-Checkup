@@ -1,0 +1,126 @@
+﻿{
+    "Harness":  "QA26-F023-PS51-26",
+    "Kind":  "Native PS5.1 registered real grid handlers with observed action test double; not installed desktop acceptance",
+    "Passed":  29,
+    "Failed":  0,
+    "Failure":  "System.Management.Automation.MethodInvocationException: Exception calling \"Invoke\" with \"2\" argument(s): \"Specified argument was out of the range of valid values.\r\nParameter name: e.RowIndex\" ---\u003e System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.\r\nParameter name: e.RowIndex\r\n   at System.Windows.Forms.DataGridView.OnCellDoubleClick(DataGridViewCellEventArgs e)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)",
+    "Checks":  [
+                   {
+                       "Name":  "cycle 1 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 1 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 2 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 one activation",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 Enter consumed",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 row 0 focus restored",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Up does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Down does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation PageUp does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Next does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Home does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation End does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Home, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation End, Control does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Tab does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 navigation Tab, Shift does not activate",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 double-click exact result",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 null current cell safe",
+                       "Pass":  true
+                   },
+                   {
+                       "Name":  "cycle 1 empty grid safe",
+                       "Pass":  true
+                   }
+               ],
+    "PowerShell":  "5.1.26100.9444"
+}
