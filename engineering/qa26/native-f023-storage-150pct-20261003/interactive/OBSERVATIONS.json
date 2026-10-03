@@ -1,0 +1,79 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "RequestedScaling": 150,
+  "ProductModified": false,
+  "ActualDpiConfirmation": "pending current native session collection",
+  "CompleteF008Cells": 0,
+  "Observations": [
+    {
+      "Case": "Enter exact Desktop shortcut",
+      "Result": "PASS",
+      "Evidence": "01_enter_exact_desktop_shortcut.png"
+    },
+    {
+      "Case": "Tab visible Size cell focus",
+      "Result": "PASS",
+      "Evidence": "02_tab_visible_size_cell.png"
+    },
+    {
+      "Case": "Shift Tab visible File cell focus",
+      "Result": "PASS",
+      "Evidence": "03_reverse_tab_visible_file_cell.png"
+    },
+    {
+      "Case": "Down navigation only",
+      "Result": "PASS",
+      "Evidence": "04_down_no_activation.png"
+    },
+    {
+      "Case": "Up navigation only",
+      "Result": "PASS",
+      "Evidence": "05_up_no_activation.png"
+    },
+    {
+      "Case": "Page Down navigation only",
+      "Result": "PASS",
+      "Evidence": "06_page_down_no_activation.png"
+    },
+    {
+      "Case": "Page Up navigation only",
+      "Result": "PASS",
+      "Evidence": "07_page_up_no_activation.png"
+    },
+    {
+      "Case": "End navigation only",
+      "Result": "PASS",
+      "Evidence": "08_end_no_activation.png"
+    },
+    {
+      "Case": "Home navigation only",
+      "Result": "PASS",
+      "Evidence": "09_home_no_activation.png"
+    },
+    {
+      "Case": "Ctrl End navigation only",
+      "Result": "PASS",
+      "Evidence": "10_ctrl_end_no_activation.png"
+    },
+    {
+      "Case": "Ctrl Home navigation only",
+      "Result": "PASS",
+      "Evidence": "11_ctrl_home_no_activation.png"
+    },
+    {
+      "Case": "Double click exact Desktop shortcut",
+      "Result": "PASS",
+      "Evidence": "12_double_click_exact_desktop_shortcut.png"
+    },
+    {
+      "Case": "Enter after away back recreation",
+      "Result": "PASS",
+      "Evidence": "13_enter_after_page_recreation.png"
+    },
+    {
+      "Case": "Repeat Enter without mouse refocus",
+      "Result": "PASS",
+      "Evidence": "14_repeat_enter_without_refocus.png"
+    }
+  ]
+}
