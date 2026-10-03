@@ -1,0 +1,8 @@
+﻿{
+    "CollectedUtc":  "2026-10-03T02:15:21.0560385Z",
+    "DiskMountedReadOnly":  true,
+    "Shutdown":  "Graceful",
+    "VmId":  "275a191c-cf8a-4929-9849-b9a293e9149d",
+    "Caveat":  "Offline inventory does not establish live pre-shutdown cleanup, DPI, or coordinate basis",
+    "VmName":  "Nyx"
+}

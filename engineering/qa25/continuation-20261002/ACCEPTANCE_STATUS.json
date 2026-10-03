@@ -1,0 +1,30 @@
+{
+  "build": "2026.09.28-eng-qa25",
+  "productSource": "f55c0d3bda6a99a20d218a2a390f217963a0d9be",
+  "productHarness": "QA25-F022-PS51-25",
+  "candidateChanged": false,
+  "engineeringStatus": "STOPPED_FOR_INDEPENDENT_QA_CLASSIFICATION",
+  "independentQAVerdict": "NOT_ISSUED",
+  "stopObservation": "A06 keyboard activation gap: Enter/Space/Shift+F10 did not open result details; same-result double-click did",
+  "alternateRoutesExhaustivelyProvenAbsent": false,
+  "F022": "PARTIAL",
+  "F008": {"total": 132, "pass": 0, "fail": 0, "completeCells": 0, "outstanding": 132},
+  "auditRisks": {
+    "A01": "UNPROVEN",
+    "A02": "GUARD_NEGATIVE_CONTROLS_ONLY_NATIVE_GEOMETRY_UNPROVEN",
+    "A03": "UNPROVEN",
+    "A04": "UNPROVEN",
+    "A05": "UNPROVEN",
+    "A06": "NATIVE_KEYBOARD_GAP_REPRODUCED_PENDING_QA_CLASSIFICATION",
+    "A07": "PARTIAL_APPS_RECREATION_ONLY",
+    "A08": "ARCHIVES_SOURCE_MANIFEST_AND_INSTALLED_FILE_SET_VERIFIED_ENVIRONMENT_INCOMPLETE"
+  },
+  "sourceResultsPreviouslyReported": {"python": "220/220", "lint": "2/2", "appsSourceGeometry": "1328/1328", "deferredPageCallbacks": "125/125"},
+  "sourceCountsAreNativeAcceptance": false,
+  "guardSelfTestsThisContinuation": {"passed": 43, "failed": 0, "scope": "Evidence guard only"},
+  "installedFiles": {"portableExpected": 60, "matched": 60, "runtimeMatched": 49, "missing": 0, "mismatches": 0, "generatedExtra": "install-state.json"},
+  "nativeSetupExitCode": 0,
+  "newScanCompletionsThisContinuation": 0,
+  "remainingNativeSuites": ["Standard", "Smoke", "migration", "privilege/rollback", "installer lifecycle", "F-011", "F-012", "F-010", "F-016", "Elevated", "privacy/safety"],
+  "screenshotCoordinates": "Host VM console raster; not asserted physical guest pixels"
+}

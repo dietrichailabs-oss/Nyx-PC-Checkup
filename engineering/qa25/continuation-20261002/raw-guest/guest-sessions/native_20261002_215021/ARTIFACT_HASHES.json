@@ -1,0 +1,14 @@
+﻿[
+    {
+        "Name":  "Nyx_PC_Checkup_1.0.0_Setup.exe",
+        "SHA256":  "5F5C1C294F23487DE1B4325173DC72C89950A2AAA96EBB1AC3F80B6CDE788112"
+    },
+    {
+        "Name":  "Nyx_PC_Checkup_1.0.0_Source.zip",
+        "SHA256":  "A4ED460A880BA04A289F504312BF7A1B8D0F3C1A5956DE46E19AFC837CF7049C"
+    },
+    {
+        "Name":  "Nyx_PC_Checkup_1.0.0_Portable.zip",
+        "SHA256":  "B38A40D40CFFE86E30F1EA8E88D21295D14B1DD792D60A27962A22783E63D19C"
+    }
+]

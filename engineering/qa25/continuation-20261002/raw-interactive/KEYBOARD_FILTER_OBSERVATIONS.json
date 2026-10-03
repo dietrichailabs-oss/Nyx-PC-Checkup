@@ -1,0 +1,22 @@
+{
+  "build": "2026.09.28-eng-qa25",
+  "classification": "PARTIAL_NATIVE_OBSERVATIONS_NOT_GATE_PASS",
+  "observations": [
+    "Search Tab focused first cell",
+    "Ctrl+End focused last-row rightmost cell with readable Unknown",
+    "Ctrl+Home returned first cell",
+    "End reached first-row rightmost cell",
+    "Shift+Tab from first cell returned Search and scrolled it into view",
+    "Native e/d/g/e keystrokes populated filter",
+    "Filtered Tab Ctrl+End remained usable",
+    "Filter cleared with Ctrl+A Backspace",
+    "Home navigation and Apps recreation exercised"
+  ],
+  "transportIssue": "sky.type_text did not populate basic-session guest; ordinary key input worked",
+  "requiredMeasurementsStillUnproven": [
+    "Applied DPI and resolution",
+    "Full cell clipping and font text measurements",
+    "Installed file-set reconciliation",
+    "Complete matrix and regression gates"
+  ]
+}

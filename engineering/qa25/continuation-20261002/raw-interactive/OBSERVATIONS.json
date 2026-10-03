@@ -1,0 +1,20 @@
+{
+  "candidate": "2026.09.28-eng-qa25",
+  "scope": "Native desktop observations only; not completed acceptance",
+  "actions": [
+    {
+      "action": "Apps Search Tab",
+      "observation": "Grid focus visible; Microsoft Edge selected"
+    },
+    {
+      "action": "Ctrl+End",
+      "observation": "Final row/rightmost cell focused; Unknown readable"
+    }
+  ],
+  "unproven": [
+    "Actual DPI/resolution/work area",
+    "Installed complete file-set reconciliation",
+    "Physical cell and clipping geometry",
+    "Full F022 sequence"
+  ]
+}

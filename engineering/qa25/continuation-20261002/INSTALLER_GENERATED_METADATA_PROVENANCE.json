@@ -1,0 +1,42 @@
+{
+  "generatedFile": "install-state.json",
+  "portableWorker": "Nyx_PC_Checkup_1.0.0_Portable/app/workers/InstallWorker.ps1",
+  "workerSHA256": "129D76ED34B25A27229751984C683C1F6D8AF8ED82E9C42C1F339443D2802194",
+  "references": [
+    {
+      "line": 110,
+      "context": [
+        {
+          "line": 107,
+          "text": "    $snapshotsCaptured=$true"
+        },
+        {
+          "line": 108,
+          "text": ""
+        },
+        {
+          "line": 109,
+          "text": "    # Internal install-state is written before external integration changes."
+        },
+        {
+          "line": 110,
+          "text": "    [pscustomobject]@{Product='Nyx PC Checkup';Version='1.0.0';Build='2026.09.28-eng-qa25';InstalledUtc=(Get-Date).ToUniversalTime().ToString('o');InstallRoot=$InstallRoot;PayloadManifestSha256=(Get-FileHash -LiteralPath $manifestPath -Algorithm SHA256).Hash}|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $InstallRoot 'install-state.json') -Encoding UTF8"
+        },
+        {
+          "line": 111,
+          "text": ""
+        },
+        {
+          "line": 112,
+          "text": "    $shell=New-Object -ComObject WScript.Shell"
+        },
+        {
+          "line": 113,
+          "text": "    New-Item -ItemType Directory -Path $startFolder -Force|Out-Null"
+        }
+      ]
+    }
+  ],
+  "installedScope": "60 exact Portable files plus one installer-generated state record",
+  "stateContentsCollected": false
+}

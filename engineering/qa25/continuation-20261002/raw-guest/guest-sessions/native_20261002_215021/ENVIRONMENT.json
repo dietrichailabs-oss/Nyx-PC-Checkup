@@ -1,0 +1,9 @@
+﻿{
+    "Build":  "2026.09.28-eng-qa25",
+    "Harness":  "QA25-F022-PS51-25",
+    "PowerShell":  "5.1.26100.7920",
+    "DpiAcceptance":  "Record actual Windows Settings; no DPI-unaware size accepted as proof",
+    "User":  "DESKTOP-4D83OSL\\Nyx",
+    "Utc":  "2026-10-03T01:50:22.3284068Z",
+    "OS":  "Microsoft Windows NT 10.0.26200.0"
+}
