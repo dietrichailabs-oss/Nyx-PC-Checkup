@@ -1,0 +1,72 @@
+[
+  {
+    "Run": "20261003_192743",
+    "End": {
+      "Scope": "HKLM Run comparison only; temp records require interpretation, not automatic cleanup PASS",
+      "FixtureRemoved": true,
+      "AllUsersRunUnchanged": true,
+      "AppSeen": true,
+      "EmptyPolls": 3,
+      "Utc": "2026-10-03T23:36:41.0312241Z"
+    },
+    "Samples": 265,
+    "LastUtc": "2026-10-03T23:36:41.0154021Z",
+    "FinalProcesses": [
+      {
+        "ProcessId": 9132,
+        "ParentProcessId": 6168,
+        "Name": "powershell.exe",
+        "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Q26F023\\Start-QA26-Guest.ps1\""
+      },
+      {
+        "ProcessId": 9636,
+        "ParentProcessId": 4812,
+        "Name": "powershell.exe",
+        "CommandLine": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\Q26EvidenceHarness\\Wait-And-Observe.ps1"
+      }
+    ],
+    "FinalMatchingTemp": [],
+    "ObservedCommandLines": [
+      "\"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe\" ",
+      "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Full -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-44485ab6aa5348c18dd8589507dce24c.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-44485ab6aa5348c18dd8589507dce24c-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-44485ab6aa5348c18dd8589507dce24c.cancel\" ",
+      "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+      "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Q26F023\\Start-QA26-Guest.ps1\"",
+      "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\Q26EvidenceHarness\\Wait-And-Observe.ps1"
+    ]
+  },
+  {
+    "Run": "20261003_193744",
+    "End": {
+      "Scope": "HKLM Run comparison only; temp records require interpretation, not automatic cleanup PASS",
+      "FixtureRemoved": true,
+      "AllUsersRunUnchanged": true,
+      "AppSeen": true,
+      "EmptyPolls": 3,
+      "Utc": "2026-10-03T23:42:11.7642994Z"
+    },
+    "Samples": 132,
+    "LastUtc": "2026-10-03T23:42:11.7484877Z",
+    "FinalProcesses": [
+      {
+        "ProcessId": 1264,
+        "ParentProcessId": 6220,
+        "Name": "powershell.exe",
+        "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Q26F023\\Start-QA26-Guest.ps1\""
+      },
+      {
+        "ProcessId": 9296,
+        "ParentProcessId": 8456,
+        "Name": "powershell.exe",
+        "CommandLine": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\Q26EvidenceHarness\\Wait-And-Observe.ps1"
+      }
+    ],
+    "FinalMatchingTemp": [],
+    "ObservedCommandLines": [
+      "\"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe\" ",
+      "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Full -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-65666db857674804a48d92bd6f5b1ea0.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-65666db857674804a48d92bd6f5b1ea0-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-65666db857674804a48d92bd6f5b1ea0.cancel\" ",
+      "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+      "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Q26F023\\Start-QA26-Guest.ps1\"",
+      "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\Q26EvidenceHarness\\Wait-And-Observe.ps1"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+﻿{
+    "Scope":  "HKLM Run comparison only; temp records require interpretation, not automatic cleanup PASS",
+    "FixtureRemoved":  true,
+    "AllUsersRunUnchanged":  true,
+    "AppSeen":  true,
+    "EmptyPolls":  3,
+    "Utc":  "2026-10-03T23:42:11.7642994Z"
+}
