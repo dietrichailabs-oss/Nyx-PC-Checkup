@@ -1,0 +1,27 @@
+{
+  "Result": "PASS",
+  "Mode": "Full",
+  "Cancelled": true,
+  "ResultsValidated": 11,
+  "RequiredResultFields": [
+    "CheckId",
+    "Category",
+    "Name",
+    "Status",
+    "Severity",
+    "Finding",
+    "Reason",
+    "Evidence",
+    "Recommendation",
+    "ActionSafetyLevel",
+    "Timestamp",
+    "DataSource",
+    "RequiresElevation",
+    "Complete",
+    "ErrorReason",
+    "Details"
+  ],
+  "Errors": [],
+  "NullableEvidenceAllowed": true,
+  "Scope": "Shape/enums/types/timestamp/summary validation against frozen Models contract; not product execution or cleanup test"
+}

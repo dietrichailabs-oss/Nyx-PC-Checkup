@@ -1,0 +1,37 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Focused": {
+    "F020": "INCOMPLETE",
+    "F023": "PASS",
+    "F022": "INCOMPLETE",
+    "F015": "INCOMPLETE"
+  },
+  "F008": {
+    "Strict": {
+      "PASS": 0,
+      "NOT_RUN": 99,
+      "FAIL": 0
+    },
+    "BestEffort": {
+      "PASS": 0,
+      "NOT_RUN": 33,
+      "FAIL": 0
+    }
+  },
+  "Downstream": {
+    "Standard": "NOT_RUN",
+    "Smoke": "NOT_RUN",
+    "Migration": "NOT_RUN",
+    "PrivilegeRollback": "NOT_RUN",
+    "InstallerLifecycle": "NOT_RUN",
+    "F011": "NOT_RUN",
+    "F012": "NOT_RUN",
+    "F010CancellationRelaunch": "NOT_RUN",
+    "F010MalformedState": "NOT_RUN",
+    "F016": "NOT_RUN",
+    "ElevatedPrivilegeRollback": "NOT_RUN",
+    "ElevatedLifecycle": "NOT_RUN",
+    "PrivacySafetyLifecycle": "NOT_RUN"
+  },
+  "Remaining": "Strict100/125 Startup checklist; finish strict150 all-users Startup-folder unchanged proof and completed-result contracts/live scan cleanup where applicable; cross-page F020/F022; full matrix and downstream"
+}

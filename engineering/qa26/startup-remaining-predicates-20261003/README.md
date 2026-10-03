@@ -1,0 +1,7 @@
+# QA26 remaining Startup predicates
+
+Exact frozen QA26 unchanged. Keyboard Open file location opened valid Startup folder. Missing-target fixture selected and keyboard action returned handled message: The executable location is unavailable. No exception observed. Ctrl+Shift+Tab exposed action while preserving missing-target selection.
+Cancelled authoritative result shape validated: 11 results, all required Models fields present, enums/booleans/timestamps/summary checks PASS, nullable Evidence allowed. This report is narrower than complete validation of every prior completed output.
+Live observer recorded 129 samples, ending before shutdown at 2026-10-03T21:22:44.3828036Z; final records show only launcher/waiter, three empty app polls; no matching Nyx/scan/progress/cancel temp filenames. No scan ran in this observer session, so these records DO NOT prove cleanup of prior scan runs or leaked handles. Fixture removed. HKLM Run unchanged before/after. This is not a Startup-folder hash comparison.
+Missing-target helper/Startup launcher remain staged for strict100/125 testing; helper removes its exact HKCU fixture after normal app exit. No frozen installed/source artifact edited.
+SCOREBOARD is authoritative for current incomplete acceptance. No F008 complete cell credited because theme/payload/page-specific predicates remain incomplete. Stop on genuine failure; Independent QA owns final disposition.
