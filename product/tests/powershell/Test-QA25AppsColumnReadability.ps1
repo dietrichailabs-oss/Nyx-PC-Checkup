@@ -94,6 +94,6 @@ try{
 }catch{$failure=$_.Exception.ToString()}finally{
     if($null -ne $form){$form.Dispose()}
     $parent=Split-Path -Parent $OutputPath;if($parent){[void][IO.Directory]::CreateDirectory($parent)}
-    [pscustomobject]@{Harness='QA25-F022-PS51-25';Kind='Real Apps page source WinForms geometry, emulated scales; NOT installed native DPI acceptance';MeasureOnly=[bool]$MeasureOnly;Passed=@($checks|Where-Object Pass).Count;Failed=@($checks|Where-Object {-not $_.Pass}).Count;Failure=$failure;Measurements=$measurements.ToArray();Checks=$checks.ToArray();PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+    [pscustomobject]@{Harness='QA26-F023-PS51-26';Kind='Real Apps page source WinForms geometry, emulated scales; NOT installed native DPI acceptance';MeasureOnly=[bool]$MeasureOnly;Passed=@($checks|Where-Object Pass).Count;Failed=@($checks|Where-Object {-not $_.Pass}).Count;Failure=$failure;Measurements=$measurements.ToArray();Checks=$checks.ToArray();PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $OutputPath -Encoding UTF8
 }
 if($failure){throw $failure}

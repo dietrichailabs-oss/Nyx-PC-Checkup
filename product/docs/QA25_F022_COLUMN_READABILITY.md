@@ -48,3 +48,8 @@ emulates scales; it is NOT installed native Windows DPI acceptance.
 Page reconstruction uses Clear-NyxPage then Show-NyxPage Apps. Real navigation
 away/back, all pages, actual fonts/DPI and the132-cell matrix remain native gates.
 Focused installed200%/1366x768 must run first, with stop-on-first-product-failure.
+
+
+## Current successor identity (QA26)
+
+Historical candidate identities above remain unchanged. The current successor build is 2026.10.02-eng-qa26; its active harness is QA26-F023-PS51-26. QA25 remains frozen; native successor acceptance is required.

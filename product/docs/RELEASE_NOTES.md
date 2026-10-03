@@ -31,3 +31,8 @@ Engineering/Codex must execute the full Standard/Elevated/F-010/F-011 Windows ma
 ## Update availability
 
 The Dietrich AI Labs weekly checker remains notification-only. It does not silently download or execute an installer and does not publish QA13 through the website manifest.
+
+
+## Current successor identity (QA26)
+
+Historical candidate identities above remain unchanged. The current successor build is 2026.10.02-eng-qa26; its active harness is QA26-F023-PS51-26. QA25 remains frozen; native successor acceptance is required.

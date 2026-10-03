@@ -8,8 +8,8 @@ param(
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version 2.0
 
-$script:ExpectedBuild='2026.09.28-eng-qa25'
-$script:ExpectedHarnessRevision='QA25-F022-PS51-25'
+$script:ExpectedBuild='2026.10.02-eng-qa26'
+$script:ExpectedHarnessRevision='QA26-F023-PS51-26'
 $script:Results=[System.Collections.Generic.List[object]]::new()
 $script:Failures=0
 $script:ControlRecords=[System.Collections.Generic.List[object]]::new()

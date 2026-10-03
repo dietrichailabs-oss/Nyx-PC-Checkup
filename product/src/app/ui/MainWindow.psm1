@@ -114,6 +114,54 @@ function Add-NyxScanButtons {
     $quick.Add_Click({Start-NyxScan -Mode 'Quick'});$full.Add_Click({Start-NyxScan -Mode 'Full'})
     $script:NyxUi.Content.Controls.AddRange(@($quick,$full))
 }
+function Invoke-NyxGridPrimaryAction {
+    param([Windows.Forms.DataGridView]$Grid)
+    if($null -eq $Grid -or $Grid.IsDisposed -or $Grid.Disposing){return}
+    if($null -eq $Grid.PSObject.Properties['NyxPrimaryActionState']){return}
+    $state=$Grid.NyxPrimaryActionState
+    if($state.Busy){return}
+    $cell=$Grid.CurrentCell
+    if($null -eq $cell -or $cell.RowIndex -lt 0 -or $cell.RowIndex -ge $Grid.Rows.Count){return}
+    $row=$Grid.Rows[$cell.RowIndex]
+    if($row.IsNewRow -or $null -eq $row.Tag){return}
+    $result=$row.Tag
+    $state.Busy=$true
+    try{
+        & $state.Action $Grid $result
+    }finally{
+        $state.Busy=$false
+        if(-not $Grid.IsDisposed -and -not $Grid.Disposing){
+            if($cell.DataGridView -eq $Grid -and $cell.RowIndex -ge 0 -and $cell.RowIndex -lt $Grid.Rows.Count){$Grid.CurrentCell=$cell}
+            [void]$Grid.Focus()
+            if($null -ne $Grid.PSObject.Properties['NyxGridFocusState']){$Grid.NyxGridFocusState.Timer.Start()}
+        }
+    }
+}
+function Register-NyxGridPrimaryAction {
+    param([Windows.Forms.DataGridView]$Grid,[scriptblock]$Action)
+    if($Grid.PSObject.Properties['NyxPrimaryActionState']){throw 'A grid primary action is already registered.'}
+    $Grid|Add-Member -NotePropertyName NyxPrimaryActionState -NotePropertyValue ([pscustomobject]@{Action=$Action;Busy=$false})
+    $Grid.Add_PreviewKeyDown({
+        param($sender,$eventArgs)
+        if($eventArgs.KeyData -eq [Windows.Forms.Keys]::Enter){$eventArgs.IsInputKey=$true}
+    })
+    $Grid.Add_KeyDown({
+        param($sender,$eventArgs)
+        if($eventArgs.KeyData -eq [Windows.Forms.Keys]::Enter){
+            $eventArgs.Handled=$true
+            $eventArgs.SuppressKeyPress=$true
+            Invoke-NyxGridPrimaryAction -Grid $sender
+        }
+    })
+    $Grid.Add_CellDoubleClick({
+        param($sender,$eventArgs)
+        if($sender.IsDisposed -or $sender.Disposing -or $eventArgs.RowIndex -lt 0 -or $eventArgs.RowIndex -ge $sender.Rows.Count){return}
+        $column=if($eventArgs.ColumnIndex -ge 0){$eventArgs.ColumnIndex}else{0}
+        if($column -ge $sender.Columns.Count){return}
+        $sender.CurrentCell=$sender.Rows[$eventArgs.RowIndex].Cells[$column]
+        Invoke-NyxGridPrimaryAction -Grid $sender
+    })
+}
 function New-NyxResultsGridControl {
     param([object[]]$Results,[int]$Y,[int]$Height=420)
     $w=Get-NyxPageWidth
@@ -126,7 +174,7 @@ function New-NyxResultsGridControl {
         $index=$grid.Rows.Add("$symbol $label",[string]$result.Category,[string]$result.Name,[string]$result.Finding)
         $grid.Rows[$index].Tag=$result;$grid.Rows[$index].Cells[0].Style.ForeColor=Get-NyxStatusColor -Status ([string]$result.Status) -Palette $script:NyxUi.Palette
     }
-    $grid.Add_CellDoubleClick({param($sender,$eventArgs)if($eventArgs.RowIndex -ge 0){$r=$sender.Rows[$eventArgs.RowIndex].Tag;if($r){Show-NyxResultDetailDialog -Result $r -Palette $script:NyxUi.Palette}}})
+    Register-NyxGridPrimaryAction -Grid $grid -Action {param($sender,$result)Show-NyxResultDetailDialog -Result $result -Palette $script:NyxUi.Palette}
     return $grid
 }
 function Add-NyxNoScanCard {
@@ -181,7 +229,7 @@ function Show-NyxCheckupPage {
     Add-NyxScanButtons -X 24 -Y 116
     if($null -eq $script:NyxUi.Scan){Add-NyxNoScanCard -Y 174;return}
     $grid=New-NyxResultsGridControl -Results @($script:NyxUi.Scan.Results) -Y 174 -Height 396;$script:NyxUi.Content.Controls.Add($grid)
-    $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'Double-click any result to see evidence, limitations, and the exact recommendation.' -X 24 -Y 584 -Width (Get-NyxPageWidth) -Height 42 -Size 9 -Palette $script:NyxUi.Palette -Color 'Muted'))
+    $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'Press Enter or double-click a result to see evidence, limitations, and the exact recommendation.' -X 24 -Y 584 -Width (Get-NyxPageWidth) -Height 42 -Size 9 -Palette $script:NyxUi.Palette -Color 'Muted'))
 }
 
 function Show-NyxCategoryPage {
@@ -214,7 +262,7 @@ function Show-NyxStoragePage {
         $lg=New-NyxGrid -X 24 -Y 780 -Width (Get-NyxPageWidth) -Height 330 -Palette $script:NyxUi.Palette;[void]$lg.Columns.Add('Name','File');[void]$lg.Columns.Add('Size','Size');[void]$lg.Columns.Add('Folder','Folder')
         $lg.Columns['Name'].FillWeight=45;$lg.Columns['Size'].FillWeight=15;$lg.Columns['Folder'].FillWeight=70
         foreach($f in @($folderResult[0].Details.LargestFiles)){$i=$lg.Rows.Add([IO.Path]::GetFileName([string]$f.Path),(ConvertTo-NyxBytesText ([int64]$f.SizeBytes)),[IO.Path]::GetDirectoryName([string]$f.Path));$lg.Rows[$i].Tag=$f}
-        $lg.Add_CellDoubleClick({param($s,$e)if($e.RowIndex -ge 0){$f=$s.Rows[$e.RowIndex].Tag;if($f){Invoke-NyxOpen 'explorer.exe' ('/select,"'+[string]$f.Path+'"')}}});$script:NyxUi.Content.Controls.Add($lg)
+        Register-NyxGridPrimaryAction -Grid $lg -Action {param($sender,$file)Invoke-NyxOpen 'explorer.exe' ('/select,"'+[string]$file.Path+'"')};$script:NyxUi.Content.Controls.Add($lg)
         $script:NyxUi.Content.AutoScrollMinSize=New-Object Drawing.Size(0,1140)
     }
 }

@@ -104,3 +104,9 @@ These immutable identities remain regression references without being recursivel
 - QA6 FAIL: `E81C56200A409B83E3A1B04A045D4726BE41C24494ED459FB9B91EAB4CACE324`; nested Windows evidence: `38B28BB535067EB0B8508A364F6D9EE1DB6FC068D72608F83CFD34F8D28D41C7`. `QA6-F-005`, `New-NyxCheckResult`, `RuntimeComposition.psm1`, and `HarnessInferenceFromImmutableQA2Source` remain mandatory.
 
 Historical suite wording retained for traceability: `normal-user smoke and privacy/update`; `privilege-boundary and legacy rollback`; `exact QA2-to-QA9 user rollback migration`; and `installer lifecycle`.
+
+
+## Current QA26 successor
+
+Build: 2026.10.02-eng-qa26. Active harness: QA26-F023-PS51-26.
+Enter activates focused result details and Storage largest-file actions. Historical candidate records above are retained. QA25 is frozen. QA26 native acceptance and Independent QA classification remain required; this document grants no release approval.

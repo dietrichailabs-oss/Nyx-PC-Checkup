@@ -124,3 +124,8 @@ QA2 serialized objects before regex redaction. It missed `::1`, `2001:db8::1`, I
 - Release authorization: `FALSE`
 - Engineering verdict after local source/package testing: eligible only for **Independent Windows QA**
 - Windows PowerShell, WinForms, UAC, registry, DPAPI, and installer lifecycle execution remain unverified until QA runs them on Windows 10/11 x64.
+
+
+## Current successor identity (QA26)
+
+Historical candidate identities above remain unchanged. The current successor build is 2026.10.02-eng-qa26; its active harness is QA26-F023-PS51-26. QA25 remains frozen; native successor acceptance is required.

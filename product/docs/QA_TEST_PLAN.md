@@ -192,3 +192,8 @@ Any required control clipped, unreachable, visually hidden, or keyboard-inaccess
 ## Verdict gate
 
 PASS requires the exact immutable **QA13** bytes to satisfy functional, migration/recovery, safety, privacy, privilege, weekly-update, **complete UI/accessibility matrix**, packaging, and lifecycle gates with no release blocker. Any shipped-byte correction creates a new immutable candidate and invalidates this verdict.
+
+
+## Current successor identity (QA26)
+
+Historical candidate identities above remain unchanged. The current successor build is 2026.10.02-eng-qa26; its active harness is QA26-F023-PS51-26. QA25 remains frozen; native successor acceptance is required.

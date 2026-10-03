@@ -62,3 +62,8 @@ RUN_QA15_WINDOWS_GATE.ps1 -Phase Elevated -DestructiveCleanVmAcknowledged
 Use `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. Standard and Elevated phases require separate appropriate snapshots. Preserve the generated phase evidence ZIPs and exact outer-delivery hash.
 
 Every mandatory harness report must contain `HarnessRevision='QA25-F022-PS51-25'`. The Standard phase also runs `Run-WindowsInstalledLaunchRegression.ps1` from an interactive non-elevated desktop.
+
+
+## Current successor identity (QA26)
+
+Historical candidate identities above remain unchanged. The current successor build is 2026.10.02-eng-qa26; its active harness is QA26-F023-PS51-26. QA25 remains frozen; native successor acceptance is required.
