@@ -1,0 +1,63 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "ValidatorRevision": "QA26-EVIDENCE-NULLABLE-1",
+  "ProductModified": false,
+  "Mode": "Full",
+  "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+  "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+  "ReadOnly": true,
+  "Cancelled": false,
+  "ResultCount": 21,
+  "Checks": [
+    {
+      "Case": "JSON parses",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Exact scan schema",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Mode Full",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Ordered valid scan timestamps",
+      "Result": "PASS"
+    },
+    {
+      "Case": "ReadOnly true",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Completed not cancelled",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Results nonempty array",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Required result fields and boolean types with nullable Evidence",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Allowed statuses and valid result timestamps",
+      "Result": "PASS"
+    },
+    {
+      "Case": "No WorkerError",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Performance Good and Complete",
+      "Result": "PASS"
+    },
+    {
+      "Case": "Apps Good and Complete",
+      "Result": "PASS"
+    }
+  ],
+  "Passed": 12,
+  "Failed": 0
+}

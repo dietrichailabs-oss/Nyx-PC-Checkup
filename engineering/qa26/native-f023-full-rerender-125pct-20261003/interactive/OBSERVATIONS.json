@@ -1,0 +1,23 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "Scaling": 125,
+  "ProductModified": false,
+  "Observations": [
+    {
+      "Case": "Actual Full progress and Cancel visible",
+      "Result": "PASS",
+      "Evidence": "02_full_scan_progress_visible.png"
+    },
+    {
+      "Case": "Actual Full UI completion",
+      "Result": "OBSERVED_AWAITING_AUTHORITATIVE_JSON",
+      "Evidence": "03_full_scan_ui_complete.png"
+    },
+    {
+      "Case": "Storage Enter exact shortcut after actual Full rerender",
+      "Result": "PASS",
+      "Evidence": "04_storage_enter_after_full_rerender.png"
+    }
+  ],
+  "CompleteF008Cells": 0
+}
