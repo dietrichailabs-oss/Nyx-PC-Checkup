@@ -1,0 +1,48 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "ProductModified": false,
+  "NewCompletedFullRuns": 2,
+  "NewResultsValidated": 42,
+  "FullRuns": [
+    {
+      "ReadOnly": true,
+      "CompletedUtc": "2026-10-04T15:23:03.6950932Z",
+      "Results": 21,
+      "Cancelled": false,
+      "StartedUtc": "2026-10-04T15:22:41.6193574Z",
+      "Contract": "PASS"
+    },
+    {
+      "ReadOnly": true,
+      "CompletedUtc": "2026-10-04T15:45:49.4924264Z",
+      "Results": 21,
+      "Cancelled": false,
+      "StartedUtc": "2026-10-04T15:45:29.9865211Z",
+      "Contract": "PASS"
+    }
+  ],
+  "CancellationAttempts": "Quick and Full completed before the attempted keyboard Cancel sequence could be credited. Quick was followed by a report preview; timing/focus reconciliation remains pending. No successful cancellation claimed.",
+  "Storage": "Partial cell: readable details for three findings, settings/Downloads redirects, real completed Full scan, focus restoration and technical scrolling. Pending final reconciliation/recreation.",
+  "Apps": "Partial cell: five-entry population, one-entry filter, five-column keyboard traversal, selected install-folder redirect. Remaining action/filter restoration/recreation checks not credited.",
+  "ScanLoadFixture": {
+    "GuestPath": "C:\\Users\\Nyx\\Documents\\NyxQA26_ReadOnlyScanLoad_20261004",
+    "Files": 25000,
+    "BytesPerFile": 92,
+    "Cleanup": "Pending after acceptance tests",
+    "Purpose": "Legitimate bounded test workload, not modified product or result JSON"
+  },
+  "LiveCleanup": "No new pre-shutdown cleanup credit from read-only disk collection alone",
+  "F023": "PASS",
+  "F015": "PASS_RECONCILED",
+  "F020": "INCOMPLETE",
+  "F022": "INCOMPLETE",
+  "StrictPass": 2,
+  "StrictFail": 0,
+  "StrictNotRun": 97,
+  "BestEffortPass": 0,
+  "BestEffortFail": 0,
+  "BestEffortNotRun": 33,
+  "Downstream": "NOT_RUN",
+  "IndependentQaApproval": false
+}

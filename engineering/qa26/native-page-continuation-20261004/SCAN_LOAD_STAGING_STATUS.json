@@ -1,0 +1,12 @@
+﻿{
+    "Status":  "STAGED",
+    "Utc":  "2026-10-04T15:50:22.3355988Z",
+    "VM":  "275a191c-cf8a-4929-9849-b9a293e9149d",
+    "FrozenSource":  "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+    "ProductModified":  false,
+    "InstalledIdentityChecks":  3,
+    "FixtureGuestPath":  "C:\\Users\\Nyx\\Documents\\NyxQA26_ReadOnlyScanLoad_20261004",
+    "Files":  25000,
+    "BytesPerFile":  92,
+    "Purpose":  "Bounded disposable workload for actual installed Full Check cancellation/accessibility; not a modified worker or fabricated result."
+}
