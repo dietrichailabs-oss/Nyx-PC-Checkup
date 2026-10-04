@@ -1,0 +1,1467 @@
+{
+  "schema": "QA26-UNATTENDED-CAMPAIGN-1",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "candidate": "qa26-f023-candidate-20261002",
+  "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
+  "productModified": false,
+  "currentBatch": "B_FOLLOWWINDOWS_100",
+  "currentTheme": "FollowWindows",
+  "currentScale": 100,
+  "currentPage": "Settings",
+  "currentSuite": null,
+  "focused": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE",
+    "F010": "INCOMPLETE",
+    "F016": "INCOMPLETE"
+  },
+  "scoreboard": {
+    "strict": {
+      "PASS": 11,
+      "FAIL": 0,
+      "NOT_RUN": 88,
+      "BLOCKED_HUMAN": 0
+    },
+    "bestEffort": {
+      "PASS": 0,
+      "FAIL": 0,
+      "NOT_RUN": 33,
+      "BLOCKED_HUMAN": 0
+    }
+  },
+  "completedPredicates": [
+    {
+      "id": "apps_current_scale_ctrl_end_readable",
+      "status": "PASS_OBSERVED",
+      "details": "Nyx final row Reported size Unknown fully readable; visible dotted keyboard focus; scale verification referenced separately",
+      "evidence": "screenshots/apps_current_scale_ctrl_end_readable.png",
+      "utc": "2026-10-04T19:56:24.654Z"
+    },
+    {
+      "id": "apps_current_scale_pageup",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp moves focus to first row; Reported size Unknown readable; no dialog activation",
+      "evidence": "screenshots/apps_current_scale_pageup.png",
+      "utc": "2026-10-04T19:56:41.468Z"
+    },
+    {
+      "id": "apps_current_scale_end_pagedown",
+      "status": "PASS_OBSERVED",
+      "details": "End/PageDown keep final row and Reported size readable; no unintended activation",
+      "evidence": "screenshots/apps_current_scale_end_pagedown.png",
+      "utc": "2026-10-04T19:56:58.265Z"
+    },
+    {
+      "id": "apps_current_scale_home_up",
+      "status": "PASS_OBSERVED",
+      "details": "Home selects Application column, Up selects OneDrive; row readable, numeric Reported size 413.5 MB visible, no action fired",
+      "evidence": "screenshots/apps_current_scale_home_up.png",
+      "utc": "2026-10-04T19:57:44.510Z"
+    },
+    {
+      "id": "startup_current_scale_first_row",
+      "status": "PASS_OBSERVED",
+      "details": "First row focus visible after Refresh and CtrlHome; all-users action buttons disabled",
+      "evidence": "screenshots/startup_current_scale_first_row.png",
+      "utc": "2026-10-04T19:58:17.007Z"
+    },
+    {
+      "id": "startup_current_scale_rows_2_to_4",
+      "status": "PASS_OBSERVED",
+      "details": "Focused rows remain visible; current-user Disable enabled; no exception",
+      "evidence": "screenshots/startup_current_scale_rows_2_to_4.png",
+      "utc": "2026-10-04T19:58:32.034Z"
+    },
+    {
+      "id": "startup_current_scale_down_all_rows",
+      "status": "PASS_OBSERVED",
+      "details": "All nine focused rows visible; SecurityHealth all-users final row disables both modification buttons",
+      "evidence": "screenshots/startup_current_scale_down_all_rows.png",
+      "utc": "2026-10-04T19:58:44.565Z"
+    },
+    {
+      "id": "startup_current_scale_up_midpoint",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse arrow navigation reaches OneDrive with visible focus; no mutation",
+      "evidence": "screenshots/startup_current_scale_up_midpoint.png",
+      "utc": "2026-10-04T19:59:05.156Z"
+    },
+    {
+      "id": "startup_current_scale_pagedown",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown final row focused visibly, all-users buttons read-only",
+      "evidence": "screenshots/startup_current_scale_pagedown.png",
+      "utc": "2026-10-04T19:59:22.384Z"
+    },
+    {
+      "id": "startup_current_scale_pageup_home_end",
+      "status": "PASS_OBSERVED",
+      "details": "Paging and Home/End reach rightmost Impact cell Not measured with visible focus and horizontal scrolling; all-users modification remains disabled",
+      "evidence": "screenshots/startup_current_scale_pageup_home_end.png",
+      "utc": "2026-10-04T19:59:51.696Z"
+    },
+    {
+      "id": "settings_followwindows_saved",
+      "status": "PASS_OBSERVED",
+      "details": "FollowWindows selected and saved; immediate health/update preference semantics shown; theme applies next launch",
+      "evidence": "screenshots/settings_followwindows_saved.png",
+      "utc": "2026-10-04T20:00:39.489Z"
+    },
+    {
+      "id": "settings_idle_normal_close",
+      "status": "PASS_OBSERVED",
+      "details": "App window/taskbar entry disappeared following normal close; process-exit evidence collected separately",
+      "evidence": "screenshots/settings_idle_normal_close.png",
+      "utc": "2026-10-04T20:00:58.096Z"
+    },
+    {
+      "id": "followwindows_relaunch_duplicate_handled",
+      "status": "PASS_OBSERVED",
+      "details": "FollowWindows light presentation present; shortcut attempt reports already open; no duplicate visible main window. Existing guest harness may relaunch automatically; no manual launch-only attribution claimed",
+      "evidence": "screenshots/followwindows_relaunch_duplicate_handled.png",
+      "utc": "2026-10-04T20:01:20.183Z"
+    },
+    {
+      "id": "followwindows_settings_log_action_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Delete local logs reachable by Tab with visible focus; no deletion executed",
+      "evidence": "screenshots/followwindows_settings_log_action_focus.png",
+      "utc": "2026-10-04T20:02:01.919Z"
+    },
+    {
+      "id": "followwindows_settings_log_confirmation",
+      "status": "PASS_OBSERVED",
+      "details": "Explicit Delete all local Nyx diagnostic logs Yes/No prompt; cancellation tested, no deletion authorized",
+      "evidence": "screenshots/followwindows_settings_log_confirmation.png",
+      "utc": "2026-10-04T20:02:20.422Z"
+    },
+    {
+      "id": "followwindows_settings_privacy_readable",
+      "status": "PASS_OBSERVED",
+      "details": "Lower Privacy promise and update/data controls readable through ordinary vertical scrolling; log deletion cancelled with No; no data deletion.",
+      "evidence": "screenshots/followwindows_settings_privacy_readable.png",
+      "utc": "2026-10-04T20:06:17.272Z"
+    },
+    {
+      "id": "followwindows_settings_export_preview",
+      "status": "PASS_OBSERVED",
+      "details": "Export opens privacy-safe report preview with Cancel and Continue to save visible; no export written.",
+      "evidence": "screenshots/followwindows_settings_export_preview.png",
+      "utc": "2026-10-04T20:06:37.601Z"
+    },
+    {
+      "id": "followwindows_settings_export_cancel_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Cancel closes report preview; Tab/ShiftTab restores visibly focused Export report; no file created.",
+      "evidence": "screenshots/followwindows_settings_export_cancel_focus.png",
+      "utc": "2026-10-04T20:06:49.551Z"
+    },
+    {
+      "id": "guest_display_actual_125pct_1366x768",
+      "status": "ENVIRONMENT_VERIFIED",
+      "details": "Windows System Display shows custom scale 125% and 1366x768 recommended resolution; earlier current-scale screenshots must not be credited as 100%. App-specific DPI requires observer corroboration.",
+      "evidence": "screenshots/guest_display_actual_125pct_1366x768.png",
+      "utc": "2026-10-04T20:08:05.783Z"
+    },
+    {
+      "id": "settings_current_context_update_handled",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard Enter on Check for Updates opens handled Unable to check for updates right now dialog in offline VM; no unhandled exception.",
+      "evidence": "screenshots/settings_current_context_update_handled.png",
+      "utc": "2026-10-04T20:10:17.131Z"
+    },
+    {
+      "id": "settings_current_context_open_data_folder",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard activation opens expected Nyx current-user LocalAppData folder; actions/logs/reports/scans/temp/config visible.",
+      "evidence": "screenshots/settings_current_context_open_data_folder.png",
+      "utc": "2026-10-04T20:10:56.258Z"
+    },
+    {
+      "id": "current_settings_native_96dpi_geometry",
+      "status": "ENVIRONMENT_VERIFIED",
+      "details": "Existing read-only geometry observer record UTC 2026-10-04T20:00:51.4359514Z shows Nyx form Dpi=96, bounds X86 Y32 Width1280 Height688, normal state. Windows custom-scale configuration showed125%, but applied current app DPI is96. Guest file NyxQA26Geometry/geometry_v2_20261004_160045/CONTROL_GEOMETRY.jsonl.",
+      "evidence": "screenshots/current_settings_native_96dpi_geometry.png",
+      "utc": "2026-10-04T20:15:03.213Z"
+    },
+    {
+      "id": "followwindows_100_settings_notify_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Applied96DPI Settings notification label fully readable with visible dotted Tab focus; preference left unchanged.",
+      "evidence": "screenshots/followwindows_100_settings_notify_focus.png",
+      "utc": "2026-10-04T20:15:58.462Z"
+    },
+    {
+      "id": "followwindows_100_settings_save_focus_scroll",
+      "status": "PASS_OBSERVED",
+      "details": "Five Tabs from notification traverse automatic updates, update action, data folder, delete logs, Save; Save focused and automatically scrolled fully into view.",
+      "evidence": "screenshots/followwindows_100_settings_save_focus_scroll.png",
+      "utc": "2026-10-04T20:16:09.882Z"
+    },
+    {
+      "id": "followwindows_100_settings_maximized",
+      "status": "PASS_OBSERVED",
+      "details": "Maximized Settings navigation, primary actions, focused Delete logs, footer and taskbar remain within work area; no exception.",
+      "evidence": "screenshots/followwindows_100_settings_maximized.png",
+      "utc": "2026-10-04T20:16:27.392Z"
+    },
+    {
+      "id": "followwindows_100_settings_restored",
+      "status": "PASS_OBSERVED",
+      "details": "Restore returns contained normal window; Settings text/actions remain reachable and reverse Tab focus retained.",
+      "evidence": "screenshots/followwindows_100_settings_restored.png",
+      "utc": "2026-10-04T20:17:19.249Z"
+    }
+  ],
+  "evidenceReferences": [
+    "engineering/qa26/FOCUSED_GATE_RECONCILIATION.json",
+    "engineering/qa26/installed-observer-v5-native-scans-20261004/"
+  ],
+  "vm": {
+    "name": "Nyx",
+    "id": "275a191c-cf8a-4929-9849-b9a293e9149d",
+    "checkpoint": "NOT_YET_VERIFIED",
+    "session": "Desktop visible; display was asleep and woke without authentication"
+  },
+  "lastCompletedAction": "FollowWindows/100 full11page batch complete",
+  "nextAction": "Apply125% DPI and verify new app DPI before next11page batch",
+  "downstream": {
+    "Standard": "NOT_RUN",
+    "Smoke": "NOT_RUN",
+    "Migration": "NOT_RUN",
+    "PrivilegeRollback": "NOT_RUN",
+    "InstallerLifecycle": "NOT_RUN",
+    "F011": "NOT_RUN",
+    "F012": "NOT_RUN",
+    "F010Malformed": "NOT_RUN",
+    "ElevatedPrivilege": "NOT_RUN",
+    "ElevatedLifecycle": "NOT_RUN",
+    "PrivacySafety": "NOT_RUN"
+  },
+  "updatedUtc": "2026-10-04T20:17:19.251Z",
+  "environment": {
+    "osDisplayScale": 125,
+    "resolution": "1366x768",
+    "verification": "screenshots/guest_display_actual_125pct_1366x768.png",
+    "appDpi": 96,
+    "appliedAppScale": 100,
+    "configuredCustomScale": 125,
+    "note": "Configured scale is not applied DPI; native96 record authoritative for this session"
+  },
+  "matrix": [
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-home-checkup-followwindows-100-20261004/CELL_RESULTS.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-home-checkup-followwindows-100-20261004/CELL_RESULTS.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-storage-startup-updates-followwindows-100-20261004/CELL_RESULTS.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-storage-startup-updates-followwindows-100-20261004/CELL_RESULTS.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-security-followwindows-100-20261004/CELL_RESULT.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-storage-startup-updates-followwindows-100-20261004/CELL_RESULTS.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-backup-followwindows-100-20261004"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-system-followwindows-100-20261004"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-apps-cleanup-followwindows-100-20261004/CELL_RESULTS.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/f008-apps-cleanup-followwindows-100-20261004/CELL_RESULTS.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 100,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "PASS",
+      "evidence": [
+        "engineering/qa26/unattended-campaign/SETTINGS_FOLLOWWINDOWS_100.json"
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 100,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 125,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 100,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "STRICT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Home",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Checkup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Storage",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Startup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Security",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Updates",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Backup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "System",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Apps",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Cleanup",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Settings",
+      "resolution": "1366x768",
+      "supportPolicy": "BEST_EFFORT",
+      "status": "NOT_RUN",
+      "evidence": []
+    }
+  ]
+}

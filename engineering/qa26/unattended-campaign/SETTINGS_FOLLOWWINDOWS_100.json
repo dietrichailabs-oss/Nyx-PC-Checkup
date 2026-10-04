@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "theme": "FollowWindows",
+  "scale": 100,
+  "dpi": 96,
+  "resolution": "1366x768",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "identityEvidence": "engineering/qa26/installed-observer-v5-native-scans-20261004/",
+  "predicates": [
+    {
+      "id": "settings_followwindows_saved",
+      "status": "PASS_OBSERVED",
+      "details": "FollowWindows selected and saved; immediate health/update preference semantics shown; theme applies next launch",
+      "evidence": "screenshots/settings_followwindows_saved.png",
+      "utc": "2026-10-04T20:00:39.489Z"
+    },
+    {
+      "id": "settings_idle_normal_close",
+      "status": "PASS_OBSERVED",
+      "details": "App window/taskbar entry disappeared following normal close; process-exit evidence collected separately",
+      "evidence": "screenshots/settings_idle_normal_close.png",
+      "utc": "2026-10-04T20:00:58.096Z"
+    },
+    {
+      "id": "followwindows_relaunch_duplicate_handled",
+      "status": "PASS_OBSERVED",
+      "details": "FollowWindows light presentation present; shortcut attempt reports already open; no duplicate visible main window. Existing guest harness may relaunch automatically; no manual launch-only attribution claimed",
+      "evidence": "screenshots/followwindows_relaunch_duplicate_handled.png",
+      "utc": "2026-10-04T20:01:20.183Z"
+    },
+    {
+      "id": "followwindows_settings_log_action_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Delete local logs reachable by Tab with visible focus; no deletion executed",
+      "evidence": "screenshots/followwindows_settings_log_action_focus.png",
+      "utc": "2026-10-04T20:02:01.919Z"
+    },
+    {
+      "id": "followwindows_settings_log_confirmation",
+      "status": "PASS_OBSERVED",
+      "details": "Explicit Delete all local Nyx diagnostic logs Yes/No prompt; cancellation tested, no deletion authorized",
+      "evidence": "screenshots/followwindows_settings_log_confirmation.png",
+      "utc": "2026-10-04T20:02:20.422Z"
+    },
+    {
+      "id": "followwindows_settings_privacy_readable",
+      "status": "PASS_OBSERVED",
+      "details": "Lower Privacy promise and update/data controls readable through ordinary vertical scrolling; log deletion cancelled with No; no data deletion.",
+      "evidence": "screenshots/followwindows_settings_privacy_readable.png",
+      "utc": "2026-10-04T20:06:17.272Z"
+    },
+    {
+      "id": "followwindows_settings_export_preview",
+      "status": "PASS_OBSERVED",
+      "details": "Export opens privacy-safe report preview with Cancel and Continue to save visible; no export written.",
+      "evidence": "screenshots/followwindows_settings_export_preview.png",
+      "utc": "2026-10-04T20:06:37.601Z"
+    },
+    {
+      "id": "followwindows_settings_export_cancel_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Cancel closes report preview; Tab/ShiftTab restores visibly focused Export report; no file created.",
+      "evidence": "screenshots/followwindows_settings_export_cancel_focus.png",
+      "utc": "2026-10-04T20:06:49.551Z"
+    },
+    {
+      "id": "settings_current_context_update_handled",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard Enter on Check for Updates opens handled Unable to check for updates right now dialog in offline VM; no unhandled exception.",
+      "evidence": "screenshots/settings_current_context_update_handled.png",
+      "utc": "2026-10-04T20:10:17.131Z"
+    },
+    {
+      "id": "settings_current_context_open_data_folder",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard activation opens expected Nyx current-user LocalAppData folder; actions/logs/reports/scans/temp/config visible.",
+      "evidence": "screenshots/settings_current_context_open_data_folder.png",
+      "utc": "2026-10-04T20:10:56.258Z"
+    },
+    {
+      "id": "current_settings_native_96dpi_geometry",
+      "status": "ENVIRONMENT_VERIFIED",
+      "details": "Existing read-only geometry observer record UTC 2026-10-04T20:00:51.4359514Z shows Nyx form Dpi=96, bounds X86 Y32 Width1280 Height688, normal state. Windows custom-scale configuration showed125%, but applied current app DPI is96. Guest file NyxQA26Geometry/geometry_v2_20261004_160045/CONTROL_GEOMETRY.jsonl.",
+      "evidence": "screenshots/current_settings_native_96dpi_geometry.png",
+      "utc": "2026-10-04T20:15:03.213Z"
+    },
+    {
+      "id": "followwindows_100_settings_notify_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Applied96DPI Settings notification label fully readable with visible dotted Tab focus; preference left unchanged.",
+      "evidence": "screenshots/followwindows_100_settings_notify_focus.png",
+      "utc": "2026-10-04T20:15:58.462Z"
+    },
+    {
+      "id": "followwindows_100_settings_save_focus_scroll",
+      "status": "PASS_OBSERVED",
+      "details": "Five Tabs from notification traverse automatic updates, update action, data folder, delete logs, Save; Save focused and automatically scrolled fully into view.",
+      "evidence": "screenshots/followwindows_100_settings_save_focus_scroll.png",
+      "utc": "2026-10-04T20:16:09.882Z"
+    },
+    {
+      "id": "followwindows_100_settings_maximized",
+      "status": "PASS_OBSERVED",
+      "details": "Maximized Settings navigation, primary actions, focused Delete logs, footer and taskbar remain within work area; no exception.",
+      "evidence": "screenshots/followwindows_100_settings_maximized.png",
+      "utc": "2026-10-04T20:16:27.392Z"
+    },
+    {
+      "id": "followwindows_100_settings_restored",
+      "status": "PASS_OBSERVED",
+      "details": "Restore returns contained normal window; Settings text/actions remain reachable and reverse Tab focus retained.",
+      "evidence": "screenshots/followwindows_100_settings_restored.png",
+      "utc": "2026-10-04T20:17:19.249Z"
+    }
+  ],
+  "scopeNote": "Installed immutable payload; visible UI hosted by existing guest geometry harness. Native EXE-only launch is not claimed here.",
+  "configuredScaleNote": "Configured scale is not applied DPI; native96 record authoritative for this session",
+  "limitations": [
+    "Offline update check returns handled warning; online update transport is not credited",
+    "Raw guest geometry JSONL awaiting collection; exact96DPI record captured in screenshot"
+  ]
+}
