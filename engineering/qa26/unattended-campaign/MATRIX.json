@@ -1,23 +1,13 @@
 {
-  "schema": "QA26-F008-UNATTENDED-MATRIX-1",
+  "schema": "QA26-F008-MATRIX-1",
   "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
   "build": "2026.10.02-eng-qa26",
   "harness": "QA26-F023-PS51-26",
-  "policy": {
-    "strict": [
-      100,
-      125,
-      150
-    ],
-    "bestEffort": [
-      200
-    ]
-  },
-  "counts": {
+  "scoreboard": {
     "strict": {
-      "PASS": 20,
+      "PASS": 29,
       "FAIL": 0,
-      "NOT_RUN": 79
+      "NOT_RUN": 70
     },
     "bestEffort": {
       "PASS": 0,
@@ -1044,8 +1034,16 @@
       "page": "Storage",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_storage_detail_keyboard.png",
+        "screenshots/light100_storage_action_focus.png",
+        "screenshots/light100_storage_downloads_dispatch.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:52:20.868Z",
+      "predicates": "Light native96 DPI; three rows and statuses, keyboard equivalent detail exposing full value/safety/source, reverse Tab primary controls and actual Downloads dispatch, scrolling and containment. Same-byte Storage OS redirect control already proven FollowWindows100; do not reopen credential prompt."
     },
     {
       "theme": "Light",
@@ -1053,8 +1051,17 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_startup_refresh.png",
+        "screenshots/light100_startup_readonly_horizontal.png",
+        "screenshots/light100_startup_action_focus.png",
+        "screenshots/light100_startup_file_location.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:50:28.681Z",
+      "predicates": "Native 96 DPI Light; real Refresh, horizontal keyboard scroll, visible action focus, actual valid location dispatch, all-users modification disabled; reversible/unavailable target predicates reuse same-candidate F-015 reconciled evidence commit 4990c049. Work-area contained, no exception."
     },
     {
       "theme": "Light",
@@ -1062,8 +1069,24 @@
       "page": "Security",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_security_grid_keyboard.png",
+        "screenshots/light100_security_detail_readability.png",
+        "screenshots/light100_security_toolbar_focus.png",
+        "screenshots/light100_security_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:36:53.842Z",
+      "predicates": {
+        "readability": "All six rows/detail text readable; unknown status full in detail",
+        "keyboard": "CtrlEnd/Enter detail and reverse Tab/Enter OS redirect; focus visible",
+        "scrolling": "Required toolbar brought fully into view by focus",
+        "actions": "Actual OS Security redirect, no protection change",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Native page/dialog within work area"
+      }
     },
     {
       "theme": "Light",
@@ -1071,8 +1094,23 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_updates_keyboard_value.png",
+        "screenshots/light100_updates_toolbar_focus.png",
+        "screenshots/light100_updates_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:38:43.399Z",
+      "predicates": {
+        "readability": "All three results/full successful-installation date and textual Good readable",
+        "keyboard": "CtrlEnd and reverse Tab primary focus; Enter actual OS redirect",
+        "scrolling": "Focused toolbar scrolls fully into view",
+        "actions": "Actual Windows Update redirect, no update/policy mutation",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page contained in unchanged work area"
+      }
     },
     {
       "theme": "Light",
@@ -1080,8 +1118,23 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_backup_detail_keyboard.png",
+        "screenshots/light100_backup_toolbar_focus.png",
+        "screenshots/light100_backup_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:40:43.325Z",
+      "predicates": {
+        "readability": "Single result, full detail and all labels readable",
+        "keyboard": "CtrlEnd/Enter detail, reverse Tab visible action focus, Enter OS redirect",
+        "scrolling": "Focus scroll restores full toolbar",
+        "actions": "Actual Windows backup redirect, no configuration mutation",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Native page/detail within work area"
+      }
     },
     {
       "theme": "Light",
@@ -1089,8 +1142,23 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_system_detail_keyboard.png",
+        "screenshots/light100_system_toolbar_keyboard.png",
+        "screenshots/light100_system_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:42:41.417Z",
+      "predicates": {
+        "readability": "Five rows and full performance detail readable; required text available through detail",
+        "keyboard": "CtrlEnd/Enter, reverse Tab visible toolbar focus, Enter System About dispatch",
+        "scrolling": "Toolbar focus restores fully visible primary action",
+        "actions": "Actual System About redirect, read-only",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page/detail within work area"
+      }
     },
     {
       "theme": "Light",
@@ -1098,8 +1166,25 @@
       "page": "Apps",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_apps_no_match_filter.png",
+        "screenshots/light100_apps_version_focus_restore.png",
+        "screenshots/light100_apps_last_cell.png",
+        "screenshots/light100_apps_keyboard_folder_dispatch.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:44:42.828Z",
+      "predicates": {
+        "readability": "Five columns/five rows, Version and Reported size values readable",
+        "keyboard": "Tab/arrow Version; CtrlEnd/CtrlHome; reverse Tab/Enter actual selected folder",
+        "filter": "No match safely empty; clear restores inventory",
+        "scrolling": "Focus scroll restores toolbar and all data reachable",
+        "actions": "Actual folder dispatch; same-byte Installed Apps/Full dispatch already demonstrated in Dark100, reused without extra scans",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Native page in work area"
+      }
     },
     {
       "theme": "Light",
@@ -1107,8 +1192,17 @@
       "page": "Cleanup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_cleanup_grid_scroll.png",
+        "screenshots/light100_cleanup_zero_guard.png",
+        "screenshots/light100_cleanup_full_tooltip.png",
+        "screenshots/light100_cleanup_primary_focus.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:55:02.974Z",
+      "predicates": "Light96DPI: populated optional inventory, final-row keyboard scrolling and native full consequence tooltip, lower warning/count and primary action reachable with visible keyboard focus, zero-selection guard. Same-byte explicit selection/review/No restoration proven Dark100; no destructive action repeated. No exception, contained."
     },
     {
       "theme": "Light",
@@ -1116,8 +1210,22 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_settings_saved_pending_relaunch.png",
+        "screenshots/light100_settings_applied_theme.png",
+        "screenshots/light100_settings_save_result.png",
+        "screenshots/light100_settings_reverse_focus.png",
+        "screenshots/light100_settings_data_folder_dispatch.png",
+        "screenshots/light100_settings_privacy_scroll.png",
+        "screenshots/light100_settings_maximized.png",
+        "screenshots/light100_settings_restore.png",
+        "screenshots/light100_settings_export_review.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:58:36.248Z",
+      "predicates": "Light96 DPI normal save/relaunch and applied theme; real Save acknowledgement, reverse-Tab visible focus and auto-scroll, actual data-folder dispatch, complete privacy text, maximize/restore containment, export preview and safe Cancel. Existing same-byte delete-log confirmation/No and update-handler evidence retained; preferences not altered. No exception."
     },
     {
       "theme": "Light",

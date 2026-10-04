@@ -1,40 +1,24 @@
-# QA26 unattended acceptance checkpoint
+# QA26 unattended acceptance continuation
+
+Disposition: Engineering HOLD / incomplete acceptance. Independent QA owns final decision.
 
 Frozen source: 0303a78a06f67252c86634cd73f1e4bda32dd3cc
 Build: 2026.10.02-eng-qa26
 Harness: QA26-F023-PS51-26
-Candidate: qa26-f023-candidate-20261002
-
-Product source and candidate bytes were not modified or rebuilt. No QA27.
+No rebuild, product source change, candidate repackaging or successor.
 
 ## Scoreboard
+F-023 PASS; F-015 PASS_RECONCILED; F-020 INCOMPLETE; F-022 INCOMPLETE; F-010/F-016 INCOMPLETE.
+Strict: 29/99 PASS, 0 FAIL, 70 NOT_RUN. Best-effort: 0/33 PASS, 0 FAIL, 33 NOT_RUN.
+FollowWindows100: 11/11 PASS. Dark100: 9/11 PASS; Home/Checkup pending authoritative scan validation. Light100: 9/11 PASS; Home/Checkup incomplete.
+All other theme/scale batches not completed. Configured125% is NOT applied DPI: this continuous session remains native96DPI/100%, 1366x768.
+All listed downstream suites remain NOT_RUN in this campaign.
 
-F-023 PASS. F-015 PASS_RECONCILED. F-020 and F-022 INCOMPLETE. F-010 and F-016 INCOMPLETE.
-Strict: 20/99 PASS, 0 FAIL, 79 NOT_RUN.
-Best-effort: 0/33 PASS, 0 FAIL, 33 NOT_RUN.
-All downstream suites remain NOT_RUN in this continuation.
+## New evidence
+Light100 Security, Updates, Backup, System, Apps, Startup, Storage, Cleanup and Settings credited only after required predicates/evidence or explicitly referenced same-byte acceptance. Keyboard grid navigation, equivalent details, actual folder/settings redirects, filters, visible focus, safe zero-selection guard, full consequence tooltip, theme persistence, privacy text, maximize/restore and export Cancel observed. No destructive deletion, all-users startup modification, security preference change or new genuine product defect.
 
-FollowWindows/100: 11/11 cells complete, published at 7cc9ae9189cc5d1a29aad321438cb913315d3e6a.
-Dark/100: 9/11 cells complete: Storage, Startup, Security, Updates, Backup, System, Apps, Cleanup, Settings.
-Dark Home and Checkup have positive native UI evidence but remain uncredited pending authoritative scan-result collection/validation.
-Light/100 and other scale/theme batches are not credited.
+## Pending raw validation / human queue
+Preserved original Dark Quick JSON at guest reports/quickdark100.json and latest Dark Full JSON at reports/fulldark100.json. Earlier overwritten Full is explicitly UNVALIDATED_SUPERSEDED and is not counted as validated. New raw contract/worker/live-cleanup acceptance is not inferred from screenshots.
+Normal host collector UAC was cancelled; collector never started and no disk collection/restart occurred. Exact collection and future DPI login actions queued in HUMAN_ACTION_QUEUE.json. No UAC bypass or authentication automation. Native UI recovered and independent Light tests continued.
 
-## Evidence and limitations
-
-STATE.json is the durable resume record; MATRIX.json records credited cells. Screenshots preserve actual native actions, keyboard focus/navigation, result detail, filters, tooltips, scrolling, contained maximize/restore, and cleanup Yes/No cancellation. Cleanup selection was restored to zero; no file deletion was approved. Current-user OneDrive remains Enabled; no all-users entry was modified.
-
-Native 96 DPI was reconciled against the running app. Windows configured custom125% was not assumed to be applied125%.
-
-Quick authoritative JSON was preserved using Explorer copy into the guest reports/last-scan.json before further scanning. The latest Full result remains scans/last-scan.json. Those copies still need byte/schema validation. An earlier Full completed visibly but its authoritative file was subsequently superseded by the Cleanup Refresh Full action; it is not counted as an authoritative validated run.
-
-The small-preview QA25 build reading was an observer false alarm. Enlarged direct-native report header and installed VERSION.json show QA26. Original observation and resolution are both retained.
-
-## Human action boundary
-
-The normal host read-only collection launch awaits secure UAC; normal VM input failed to activate its captured window. HUMAN_ACTION_QUEUE.json records the exact UAC/guest-login/DPI-login tasks. No UAC, credentials, or security controls were bypassed. Independent local evidence processing continued.
-
-The collector performs normal guest shutdown, mounts only the identified Nyx disk read-only without assigning a drive letter, copies logs/scans/reports/geometry/installed hashes, dismounts and restarts. Offline inventory is explicitly NOT live pre-shutdown cleanup proof.
-
-After collection: validate every preserved scan contract, compare installed immutable hashes, reconcile actual guest DPI after login, credit only fully satisfied missing cells, and resume the next incomplete owner-ordered batch. Do not rebuild.
-
-Engineering status: HOLD / INCOMPLETE ACCEPTANCE. No new genuine product defect established. Independent QA owns final PASS/HOLD/FAIL.
+STATE.json is the current resume authority. Completed cells must not be rerun without invalid evidence or a specific QA request. Screenshot references and manifest accompany this evidence-only checkpoint.

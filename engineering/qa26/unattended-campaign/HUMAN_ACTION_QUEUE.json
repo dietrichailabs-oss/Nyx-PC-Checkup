@@ -16,7 +16,8 @@
       "action": "Approve only normal host UAC for Collect-QA26-Unattended.ps1; then sign into Nyx after its normal restart. No credential/security bypass.",
       "affectedTest": "Dark100 Home/Checkup authoritative-result reconciliation and guest geometry collection",
       "queuedUtc": "2026-10-04T21:20:02.932Z",
-      "promptShown": true
+      "promptShown": false,
+      "launchResult": "Windows reported operation cancelled; collector did not start"
     }
   ]
 }

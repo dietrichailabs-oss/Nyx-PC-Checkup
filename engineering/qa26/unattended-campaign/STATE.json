@@ -6,11 +6,11 @@
   "candidate": "qa26-f023-candidate-20261002",
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
-  "currentBatch": "B_DARK_100_RAW_RECONCILIATION",
-  "currentTheme": "Dark",
+  "currentBatch": "B_LIGHT_100_INDEPENDENT",
+  "currentTheme": "Light",
   "currentScale": 100,
-  "currentPage": "Home",
-  "currentSuite": "BLOCKED_HUMAN_ReadOnlyEvidenceCollection",
+  "currentPage": "Settings",
+  "currentSuite": null,
   "focused": {
     "F023": "PASS",
     "F015": "PASS_RECONCILED",
@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 20,
+      "PASS": 29,
       "FAIL": 0,
-      "NOT_RUN": 79
+      "NOT_RUN": 70
     },
     "bestEffort": {
       "PASS": 0,
@@ -639,6 +639,300 @@
       "status": "BLOCKED_HUMAN",
       "details": "Start-Process -Verb RunAs remains pending; normal VM page click failed to activate captured window. No UAC/security bypass attempted.",
       "utc": "2026-10-04T21:23:17.960Z"
+    },
+    {
+      "id": "dark100_quick_unique_copy_name",
+      "status": "PASS",
+      "details": "Preserved Quick evidence copy renamed quickdark100.json through Explorer; 52.7 KB and original timestamp retained. JSON not edited.",
+      "evidence": "screenshots/dark100_quick_unique_copy_name.png",
+      "utc": "2026-10-04T21:29:22.149Z"
+    },
+    {
+      "id": "dark100_full_authoritative_copy_preserved",
+      "status": "PASS",
+      "details": "Explorer preserved latest Full last-scan.json beside quickdark100.json, without overwriting Quick or editing JSON. Raw files still require collector/hash/schema validation.",
+      "evidence": "screenshots/dark100_full_authoritative_copy_preserved.png",
+      "utc": "2026-10-04T21:30:26.698Z"
+    },
+    {
+      "id": "dark100_full_unique_copy_name",
+      "status": "PASS",
+      "details": "Latest Full copy now fulldark100.json, ~302 KB, original displayed timestamp retained; separate from quickdark100.json. No JSON edits. Exact timestamps await raw collection.",
+      "evidence": "screenshots/dark100_full_unique_copy_name.png",
+      "utc": "2026-10-04T21:31:12.483Z"
+    },
+    {
+      "id": "light100_settings_saved_pending_relaunch",
+      "status": "PASS_OBSERVED",
+      "details": "Light theme saved via six Tab stops/Enter; native dialog states theme changes apply next launch. Do not credit Light presentation before relaunch.",
+      "evidence": "screenshots/light100_settings_saved_pending_relaunch.png",
+      "utc": "2026-10-04T21:33:01.627Z"
+    },
+    {
+      "id": "light100_prelaunch_clean_close",
+      "status": "PASS_OBSERVED",
+      "details": "Idle native app closes; main window and app taskbar entry disappear before direct installed EXE relaunch. No scan active.",
+      "evidence": "screenshots/light100_prelaunch_clean_close.png",
+      "utc": "2026-10-04T21:33:42.370Z"
+    },
+    {
+      "id": "light100_home_native_launch",
+      "status": "PASS_OBSERVED",
+      "details": "Direct installed native EXE launches visibly in saved Light theme with full existing Full-scan summary. Source/candidate unchanged, no singleton error. DPI session unchanged since native96DPI proof.",
+      "evidence": "screenshots/light100_home_native_launch.png",
+      "utc": "2026-10-04T21:34:48.402Z"
+    },
+    {
+      "id": "light100_security_grid_keyboard",
+      "status": "PASS_OBSERVED",
+      "details": "Light Security all six rows readable; CtrlEnd reaches Drive encryption. Full interpretation accessible through detail action. No protection changed.",
+      "evidence": "screenshots/light100_security_grid_keyboard.png",
+      "utc": "2026-10-04T21:35:29.321Z"
+    },
+    {
+      "id": "light100_security_detail_readability",
+      "status": "PASS_OBSERVED",
+      "details": "Light Enter detail shows full Drive encryption Unknown/Complete=False explanation, source, safety and readable Close; contained dialog, no exception.",
+      "evidence": "screenshots/light100_security_detail_readability.png",
+      "utc": "2026-10-04T21:35:56.279Z"
+    },
+    {
+      "id": "light100_security_toolbar_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab scrolls primary Open Windows Security fully into view with visible focus.",
+      "evidence": "screenshots/light100_security_toolbar_focus.png",
+      "utc": "2026-10-04T21:36:20.242Z"
+    },
+    {
+      "id": "light100_security_keyboard_redirect",
+      "status": "PASS",
+      "details": "Enter on focused Open Windows Security opens Security at a glance. No security setting changed.",
+      "evidence": "screenshots/light100_security_keyboard_redirect.png",
+      "utc": "2026-10-04T21:36:53.718Z"
+    },
+    {
+      "id": "light100_updates_keyboard_value",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches final update result; Good and full successful-installation date readable under Light theme; contained grid.",
+      "evidence": "screenshots/light100_updates_keyboard_value.png",
+      "utc": "2026-10-04T21:37:56.302Z"
+    },
+    {
+      "id": "light100_updates_toolbar_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab restores complete primary Windows Update button into view with visible keyboard focus.",
+      "evidence": "screenshots/light100_updates_toolbar_focus.png",
+      "utc": "2026-10-04T21:38:15.586Z"
+    },
+    {
+      "id": "light100_updates_keyboard_redirect",
+      "status": "PASS",
+      "details": "Enter opens actual Windows Update Settings; no update initiated or policy changed.",
+      "evidence": "screenshots/light100_updates_keyboard_redirect.png",
+      "utc": "2026-10-04T21:38:43.268Z"
+    },
+    {
+      "id": "light100_backup_detail_keyboard",
+      "status": "PASS_OBSERVED",
+      "details": "Single Backup row Enter opens full readable Needs Attention recommendation, SafeRedirect, source and Complete=False; contained dialog.",
+      "evidence": "screenshots/light100_backup_detail_keyboard.png",
+      "utc": "2026-10-04T21:39:54.498Z"
+    },
+    {
+      "id": "light100_backup_toolbar_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab reveals full Open Windows Backup with visible focus and usable Light-theme contrast.",
+      "evidence": "screenshots/light100_backup_toolbar_focus.png",
+      "utc": "2026-10-04T21:40:17.420Z"
+    },
+    {
+      "id": "light100_backup_keyboard_redirect",
+      "status": "PASS",
+      "details": "Keyboard Enter opens Accounts > Windows backup, with no account/sync/backup preference changes.",
+      "evidence": "screenshots/light100_backup_keyboard_redirect.png",
+      "utc": "2026-10-04T21:40:43.192Z"
+    },
+    {
+      "id": "light100_system_detail_keyboard",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd/Enter opens current performance snapshot full detail under Light. Required system overview values and all five rows reachable; detail Good/CompleteTrue and technical values readable.",
+      "evidence": "screenshots/light100_system_detail_keyboard.png",
+      "utc": "2026-10-04T21:41:45.790Z"
+    },
+    {
+      "id": "light100_system_toolbar_keyboard",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab brings full System About into view with visible focus; required RAM/build/uptime values and results readable.",
+      "evidence": "screenshots/light100_system_toolbar_keyboard.png",
+      "utc": "2026-10-04T21:42:10.456Z"
+    },
+    {
+      "id": "light100_system_keyboard_redirect",
+      "status": "PASS",
+      "details": "Enter opens actual System > About; no machine configuration changed.",
+      "evidence": "screenshots/light100_system_keyboard_redirect.png",
+      "utc": "2026-10-04T21:42:41.100Z"
+    },
+    {
+      "id": "light100_apps_no_match_filter",
+      "status": "PASS_OBSERVED",
+      "details": "Light filter zzz produces safe empty inventory with folder disabled and required controls reachable.",
+      "evidence": "screenshots/light100_apps_no_match_filter.png",
+      "utc": "2026-10-04T21:43:41.831Z"
+    },
+    {
+      "id": "light100_apps_version_focus_restore",
+      "status": "PASS_OBSERVED",
+      "details": "Clear restores all five rows; Tab/Right x2 reaches fully readable Version 145.0.3800.97 with visible dotted focus under Light.",
+      "evidence": "screenshots/light100_apps_version_focus_restore.png",
+      "utc": "2026-10-04T21:43:56.421Z"
+    },
+    {
+      "id": "light100_apps_last_cell",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches last-row Reported size Unknown with visible focus; all columns readable and no inaccessible horizontal content at100%.",
+      "evidence": "screenshots/light100_apps_last_cell.png",
+      "utc": "2026-10-04T21:44:12.119Z"
+    },
+    {
+      "id": "light100_apps_keyboard_folder_dispatch",
+      "status": "PASS",
+      "details": "Keyboard reverse Tab/Enter opens actual selected Edge Application folder; no program execution or uninstall.",
+      "evidence": "screenshots/light100_apps_keyboard_folder_dispatch.png",
+      "utc": "2026-10-04T21:44:42.739Z"
+    },
+    {
+      "id": "light100_startup_refresh",
+      "status": "PASS_OBSERVED",
+      "details": "Real Refresh reloads eight installed Startup entries after completed Full; source, reversible/read-only labels and file availability readable. No exception.",
+      "evidence": "screenshots/light100_startup_refresh.png",
+      "utc": "2026-10-04T21:49:42.168Z"
+    },
+    {
+      "id": "light100_startup_readonly_horizontal",
+      "status": "PASS_OBSERVED",
+      "details": "All-users SecurityHealth selected: both modification controls disabled; horizontal keyboard scroll exposes Impact text. No all-users modification.",
+      "evidence": "screenshots/light100_startup_readonly_horizontal.png",
+      "utc": "2026-10-04T21:50:00.117Z"
+    },
+    {
+      "id": "light100_startup_action_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab leaves grid and reveals full Open file location focus outline; disabled modification actions remain visibly read-only.",
+      "evidence": "screenshots/light100_startup_action_focus.png",
+      "utc": "2026-10-04T21:50:09.230Z"
+    },
+    {
+      "id": "light100_startup_file_location",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard action opens Windows System32 and selects SecurityHealthSystray; no target execution or modification.",
+      "evidence": "screenshots/light100_startup_file_location.png",
+      "utc": "2026-10-04T21:50:28.680Z"
+    },
+    {
+      "id": "light100_storage_detail_keyboard",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens Downloads equivalent detail with Good status, complete value, action safety, source, Complete=true and technical evidence. Scroll route available and dialog contained.",
+      "evidence": "screenshots/light100_storage_detail_keyboard.png",
+      "utc": "2026-10-04T21:51:32.602Z"
+    },
+    {
+      "id": "light100_storage_action_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse keyboard navigation reaches fully visible Run Full Check and Open Downloads controls without invoking an unwanted scan.",
+      "evidence": "screenshots/light100_storage_action_focus.png",
+      "utc": "2026-10-04T21:52:00.671Z"
+    },
+    {
+      "id": "light100_storage_downloads_dispatch",
+      "status": "PASS_OBSERVED",
+      "details": "Enter from visible focused Open Downloads opens exact current-user Downloads folder. Hidden desktop.ini explains scan metadata; no deletion or mutation.",
+      "evidence": "screenshots/light100_storage_downloads_dispatch.png",
+      "utc": "2026-10-04T21:52:20.867Z"
+    },
+    {
+      "id": "light100_cleanup_grid_scroll",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End reaches final inventory row, visible selection/focus, no automatic checkbox selection. Full consequence tooltip not captured in this Light observation; retained as pending rather than assumed PASS.",
+      "evidence": "screenshots/light100_cleanup_grid_scroll.png",
+      "utc": "2026-10-04T21:53:46.325Z"
+    },
+    {
+      "id": "light100_cleanup_zero_guard",
+      "status": "PASS_OBSERVED",
+      "details": "Scrolled lower required actions and warning readable; selected count zero; Review refuses without selection, no deletion.",
+      "evidence": "screenshots/light100_cleanup_zero_guard.png",
+      "utc": "2026-10-04T21:54:05.800Z"
+    },
+    {
+      "id": "light100_cleanup_full_tooltip",
+      "status": "PASS_OBSERVED",
+      "details": "Settled native tooltip exposes complete consequence: Moves this exact item to the Windows Recycle Bin. Count remains zero, warning and lower primary action accessible.",
+      "evidence": "screenshots/light100_cleanup_full_tooltip.png",
+      "utc": "2026-10-04T21:54:46.834Z"
+    },
+    {
+      "id": "light100_cleanup_primary_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+Tab exits grid to fully visible Review action with distinct focus border. Exact item/safety consequence readable, no deletion and zero selection.",
+      "evidence": "screenshots/light100_cleanup_primary_focus.png",
+      "utc": "2026-10-04T21:55:02.973Z"
+    },
+    {
+      "id": "light100_settings_applied_theme",
+      "status": "PASS_OBSERVED",
+      "details": "Light theme selected after normal save/relaunch; appearance labels and update/privacy explanation readable. No privacy/security preference changed.",
+      "evidence": "screenshots/light100_settings_applied_theme.png",
+      "utc": "2026-10-04T21:55:16.844Z"
+    },
+    {
+      "id": "light100_settings_save_result",
+      "status": "PASS_OBSERVED",
+      "details": "Real Save acknowledges persistence and next-launch theme behavior without changing privacy/security preferences. No exception.",
+      "evidence": "screenshots/light100_settings_save_result.png",
+      "utc": "2026-10-04T21:56:02.447Z"
+    },
+    {
+      "id": "light100_settings_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Shift+Tab restores fully visible Delete local logs focus; auto-scroll keeps required control within page. No deletion invoked.",
+      "evidence": "screenshots/light100_settings_reverse_focus.png",
+      "utc": "2026-10-04T21:56:23.756Z"
+    },
+    {
+      "id": "light100_settings_data_folder_dispatch",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard Enter opens exact Nyx LocalAppData folder including reports/scans/logs; no data deletion.",
+      "evidence": "screenshots/light100_settings_data_folder_dispatch.png",
+      "utc": "2026-10-04T21:56:56.738Z"
+    },
+    {
+      "id": "light100_settings_privacy_scroll",
+      "status": "PASS_OBSERVED",
+      "details": "Full privacy promise and wrapping reachable by normal vertical scroll; update/data/save controls remain accessible.",
+      "evidence": "screenshots/light100_settings_privacy_scroll.png",
+      "utc": "2026-10-04T21:57:16.550Z"
+    },
+    {
+      "id": "light100_settings_maximized",
+      "status": "PASS_OBSERVED",
+      "details": "Maximized app remains inside guest work area; navigation, privacy text, primary actions and scan status visible.",
+      "evidence": "screenshots/light100_settings_maximized.png",
+      "utc": "2026-10-04T21:57:37.044Z"
+    },
+    {
+      "id": "light100_settings_restore",
+      "status": "PASS_OBSERVED",
+      "details": "Restore preserves normal work-area containment, readable privacy promise and accessible navigation/actions.",
+      "evidence": "screenshots/light100_settings_restore.png",
+      "utc": "2026-10-04T21:57:57.883Z"
+    },
+    {
+      "id": "light100_settings_export_review",
+      "status": "PASS_OBSERVED",
+      "details": "Privacy-safe report review is readable and scrollable with Cancel/Continue accessible; no save/upload performed. Runtime build identity separately reconciled against enlarged QA26 header.",
+      "evidence": "screenshots/light100_settings_export_review.png",
+      "utc": "2026-10-04T21:58:20.889Z"
     }
   ],
   "evidenceReferences": [
@@ -649,11 +943,11 @@
     "name": "Nyx",
     "id": "275a191c-cf8a-4929-9849-b9a293e9149d",
     "checkpoint": "NOT_YET_VERIFIED",
-    "session": "BLOCKED_HUMAN: normal elevated evidence collector launch pending; Sky failed to activate captured VM window",
+    "session": "Native input recovered after cancelled UAC; normal Nyx desktop",
     "plannedTransition": "Normal shutdown/read-only evidence collection/restart; sign-in may require human"
   },
-  "lastCompletedAction": "Credited 20 strict cells total; collection and native input now require secure human action",
-  "nextAction": "After normal UAC approval/collection, validate reports/last-scan.json (Quick) and scans/last-scan.json (latest Full), reconcile actual DPI on login, complete Dark100 Home/Checkup if contracts pass, resume next incomplete owner-ordered batch",
+  "lastCompletedAction": "Light100 Settings credited; strict29/99, bestEffort0/33; no frozen-product failure established",
+  "nextAction": "Complete Light100 Home/Checkup missing scan predicates; collect and validate preserved Dark100 Quick/Full JSON via queued normal host UAC; reconcile F020/F022 missing scale predicates; then normal DPI125 sign-out/sign-in and FollowWindows125 batch. Do not rerun credited cells.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -667,7 +961,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-04T21:23:17.960Z",
+  "updatedUtc": "2026-10-04T21:59:45.105Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -1696,8 +1990,16 @@
       "page": "Storage",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_storage_detail_keyboard.png",
+        "screenshots/light100_storage_action_focus.png",
+        "screenshots/light100_storage_downloads_dispatch.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:52:20.868Z",
+      "predicates": "Light native96 DPI; three rows and statuses, keyboard equivalent detail exposing full value/safety/source, reverse Tab primary controls and actual Downloads dispatch, scrolling and containment. Same-byte Storage OS redirect control already proven FollowWindows100; do not reopen credential prompt."
     },
     {
       "theme": "Light",
@@ -1705,8 +2007,17 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_startup_refresh.png",
+        "screenshots/light100_startup_readonly_horizontal.png",
+        "screenshots/light100_startup_action_focus.png",
+        "screenshots/light100_startup_file_location.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:50:28.681Z",
+      "predicates": "Native 96 DPI Light; real Refresh, horizontal keyboard scroll, visible action focus, actual valid location dispatch, all-users modification disabled; reversible/unavailable target predicates reuse same-candidate F-015 reconciled evidence commit 4990c049. Work-area contained, no exception."
     },
     {
       "theme": "Light",
@@ -1714,8 +2025,24 @@
       "page": "Security",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_security_grid_keyboard.png",
+        "screenshots/light100_security_detail_readability.png",
+        "screenshots/light100_security_toolbar_focus.png",
+        "screenshots/light100_security_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:36:53.842Z",
+      "predicates": {
+        "readability": "All six rows/detail text readable; unknown status full in detail",
+        "keyboard": "CtrlEnd/Enter detail and reverse Tab/Enter OS redirect; focus visible",
+        "scrolling": "Required toolbar brought fully into view by focus",
+        "actions": "Actual OS Security redirect, no protection change",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Native page/dialog within work area"
+      }
     },
     {
       "theme": "Light",
@@ -1723,8 +2050,23 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_updates_keyboard_value.png",
+        "screenshots/light100_updates_toolbar_focus.png",
+        "screenshots/light100_updates_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:38:43.399Z",
+      "predicates": {
+        "readability": "All three results/full successful-installation date and textual Good readable",
+        "keyboard": "CtrlEnd and reverse Tab primary focus; Enter actual OS redirect",
+        "scrolling": "Focused toolbar scrolls fully into view",
+        "actions": "Actual Windows Update redirect, no update/policy mutation",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page contained in unchanged work area"
+      }
     },
     {
       "theme": "Light",
@@ -1732,8 +2074,23 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_backup_detail_keyboard.png",
+        "screenshots/light100_backup_toolbar_focus.png",
+        "screenshots/light100_backup_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:40:43.325Z",
+      "predicates": {
+        "readability": "Single result, full detail and all labels readable",
+        "keyboard": "CtrlEnd/Enter detail, reverse Tab visible action focus, Enter OS redirect",
+        "scrolling": "Focus scroll restores full toolbar",
+        "actions": "Actual Windows backup redirect, no configuration mutation",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Native page/detail within work area"
+      }
     },
     {
       "theme": "Light",
@@ -1741,8 +2098,23 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_system_detail_keyboard.png",
+        "screenshots/light100_system_toolbar_keyboard.png",
+        "screenshots/light100_system_keyboard_redirect.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:42:41.417Z",
+      "predicates": {
+        "readability": "Five rows and full performance detail readable; required text available through detail",
+        "keyboard": "CtrlEnd/Enter, reverse Tab visible toolbar focus, Enter System About dispatch",
+        "scrolling": "Toolbar focus restores fully visible primary action",
+        "actions": "Actual System About redirect, read-only",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page/detail within work area"
+      }
     },
     {
       "theme": "Light",
@@ -1750,8 +2122,25 @@
       "page": "Apps",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_apps_no_match_filter.png",
+        "screenshots/light100_apps_version_focus_restore.png",
+        "screenshots/light100_apps_last_cell.png",
+        "screenshots/light100_apps_keyboard_folder_dispatch.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:44:42.828Z",
+      "predicates": {
+        "readability": "Five columns/five rows, Version and Reported size values readable",
+        "keyboard": "Tab/arrow Version; CtrlEnd/CtrlHome; reverse Tab/Enter actual selected folder",
+        "filter": "No match safely empty; clear restores inventory",
+        "scrolling": "Focus scroll restores toolbar and all data reachable",
+        "actions": "Actual folder dispatch; same-byte Installed Apps/Full dispatch already demonstrated in Dark100, reused without extra scans",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Native page in work area"
+      }
     },
     {
       "theme": "Light",
@@ -1759,8 +2148,17 @@
       "page": "Cleanup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_cleanup_grid_scroll.png",
+        "screenshots/light100_cleanup_zero_guard.png",
+        "screenshots/light100_cleanup_full_tooltip.png",
+        "screenshots/light100_cleanup_primary_focus.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:55:02.974Z",
+      "predicates": "Light96DPI: populated optional inventory, final-row keyboard scrolling and native full consequence tooltip, lower warning/count and primary action reachable with visible keyboard focus, zero-selection guard. Same-byte explicit selection/review/No restoration proven Dark100; no destructive action repeated. No exception, contained."
     },
     {
       "theme": "Light",
@@ -1768,8 +2166,22 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_settings_saved_pending_relaunch.png",
+        "screenshots/light100_settings_applied_theme.png",
+        "screenshots/light100_settings_save_result.png",
+        "screenshots/light100_settings_reverse_focus.png",
+        "screenshots/light100_settings_data_folder_dispatch.png",
+        "screenshots/light100_settings_privacy_scroll.png",
+        "screenshots/light100_settings_maximized.png",
+        "screenshots/light100_settings_restore.png",
+        "screenshots/light100_settings_export_review.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-04T21:58:36.248Z",
+      "predicates": "Light96 DPI normal save/relaunch and applied theme; real Save acknowledgement, reverse-Tab visible focus and auto-scroll, actual data-folder dispatch, complete privacy text, maximize/restore containment, export preview and safe Cancel. Existing same-byte delete-log confirmation/No and update-handler evidence retained; preferences not altered. No exception."
     },
     {
       "theme": "Light",
@@ -2080,19 +2492,21 @@
     },
     {
       "id": "Dark100HomeQuickPreserved",
-      "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\last-scan.json",
+      "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\quickdark100.json",
       "status": "PENDING_RESULT_VALIDATION",
       "evidence": "screenshots/dark100_quick_authoritative_copy_preserved.png"
     },
     {
       "id": "Dark100FullCategoryPopulation",
       "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
-      "status": "PENDING_RESULT_VALIDATION"
+      "status": "UNVALIDATED_SUPERSEDED",
+      "details": "UI completed; authoritative file superseded by explicit Cleanup Refresh Full action before collection. Not counted as validated."
     },
     {
       "id": "Dark100CleanupRefreshFull",
       "status": "PENDING_RESULT_VALIDATION",
-      "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json"
+      "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\fulldark100.json"
     }
-  ]
+  ],
+  "campaignStatus": "HOLD_INCOMPLETE"
 }
