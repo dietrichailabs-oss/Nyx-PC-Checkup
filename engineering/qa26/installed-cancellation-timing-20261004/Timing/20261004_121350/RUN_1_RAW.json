@@ -1,0 +1,167 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+    "Mode":  "Quick",
+    "StartedUtc":  "2026-10-04T16:20:07.3991705Z",
+    "CompletedUtc":  "2026-10-04T16:20:40.7754372Z",
+    "Cancelled":  true,
+    "ReadOnly":  true,
+    "Summary":  {
+                    "OverallStatus":  "Good",
+                    "Headline":  "Your PC looks good. Nothing needs fixing.",
+                    "Good":  5,
+                    "NeedsAttention":  0,
+                    "Optional":  0,
+                    "Unknown":  0,
+                    "Total":  5
+                },
+    "Results":  [
+                    {
+                        "CheckId":  "system.overview",
+                        "Category":  "System",
+                        "Name":  "System overview",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Desktop or fixed device with 2.9 GB RAM, running Windows build 26200.",
+                        "Reason":  "Basic system information was read successfully.",
+                        "Evidence":  {
+                                         "ComputerName":  "DESKTOP-4D83OSL",
+                                         "WindowsEdition":  "Microsoft Windows 11 Pro",
+                                         "WindowsVersion":  "10.0.26200",
+                                         "WindowsBuild":  "26200",
+                                         "Is64Bit":  true,
+                                         "Processor":  "AMD Ryzen 9 5900XT 16-Core Processor           ",
+                                         "InstalledRamBytes":  3113111552,
+                                         "AvailableRamBytes":  768421888,
+                                         "SystemDrive":  "C:\\",
+                                         "SystemDriveCapacityBytes":  135317680128,
+                                         "SystemDriveFreeBytes":  114868363264,
+                                         "UptimeSeconds":  393,
+                                         "DeviceClass":  "Desktop or fixed device",
+                                         "Manufacturer":  "Microsoft Corporation",
+                                         "Model":  "Virtual Machine",
+                                         "BatteryPresent":  false
+                                     },
+                        "Recommendation":  "No action is required. Hardware serial numbers and unique identifiers are intentionally not collected.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-10-04T16:20:09.5141346Z",
+                        "DataSource":  "Windows CIM / local environment",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  {
+                                        "ComputerName":  "DESKTOP-4D83OSL",
+                                        "WindowsEdition":  "Microsoft Windows 11 Pro",
+                                        "WindowsVersion":  "10.0.26200",
+                                        "WindowsBuild":  "26200",
+                                        "Is64Bit":  true,
+                                        "Processor":  "AMD Ryzen 9 5900XT 16-Core Processor           ",
+                                        "InstalledRamBytes":  3113111552,
+                                        "AvailableRamBytes":  768421888,
+                                        "SystemDrive":  "C:\\",
+                                        "SystemDriveCapacityBytes":  135317680128,
+                                        "SystemDriveFreeBytes":  114868363264,
+                                        "UptimeSeconds":  393,
+                                        "DeviceClass":  "Desktop or fixed device",
+                                        "Manufacturer":  "Microsoft Corporation",
+                                        "Model":  "Virtual Machine",
+                                        "BatteryPresent":  false
+                                    }
+                    },
+                    {
+                        "CheckId":  "storage.system-drive",
+                        "Category":  "Storage",
+                        "Name":  "System-drive free space",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "107.0 GB is free on C:\\.",
+                        "Reason":  "The system drive has 84.9% free.",
+                        "Evidence":  {
+                                         "Drive":  "C:\\",
+                                         "TotalBytes":  135317680128,
+                                         "FreeBytes":  114868359168,
+                                         "FreePercent":  84.9,
+                                         "Format":  "NTFS"
+                                     },
+                        "Recommendation":  "No storage action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-04T16:20:09.6295098Z",
+                        "DataSource":  ".NET DriveInfo",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.restart",
+                        "Category":  "Updates",
+                        "Name":  "Update restart",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows does not currently report a pending restart.",
+                        "Reason":  "No supported restart-pending marker was found.",
+                        "Evidence":  {
+                                         "Pending":  false,
+                                         "Sources":  [
+
+                                                     ],
+                                         "Complete":  true,
+                                         "Errors":  [
+
+                                                    ]
+                                     },
+                        "Recommendation":  "No restart is required by the checked Windows servicing markers.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-04T16:20:09.7051888Z",
+                        "DataSource":  "Windows servicing registry",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.pending",
+                        "Category":  "Updates",
+                        "Name":  "Windows updates",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "No pending software update was found in the local Windows Update cache.",
+                        "Reason":  "The supported local update query returned zero not-installed software updates.",
+                        "Evidence":  {
+                                         "Success":  true,
+                                         "Count":  0,
+                                         "Error":  "",
+                                         "PSComputerName":  "localhost",
+                                         "RunspaceId":  "72c22d5b-97fe-4e8b-b9df-ea8f104193b6",
+                                         "PSShowComputerName":  false
+                                     },
+                        "Recommendation":  "Open Windows Update for an online check when you need full patch assurance.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Timestamp":  "2026-10-04T16:20:40.6878161Z",
+                        "DataSource":  "Microsoft.Update.Session local search",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    },
+                    {
+                        "CheckId":  "updates.last-success",
+                        "Category":  "Updates",
+                        "Name":  "Last successful Windows update",
+                        "Status":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports a successful installation on Saturday, October 3, 2026.",
+                        "Reason":  "The Windows Update automatic-update result exposed a last success date.",
+                        "Evidence":  {
+                                         "LastSuccessUtc":  "2026-10-03T05:48:04.0000000Z"
+                                     },
+                        "Recommendation":  "No action is required based on this timestamp alone.",
+                        "ActionSafetyLevel":  "None",
+                        "Timestamp":  "2026-10-04T16:20:40.7563891Z",
+                        "DataSource":  "Microsoft.Update.AutoUpdate",
+                        "RequiresElevation":  false,
+                        "Complete":  true,
+                        "ErrorReason":  "",
+                        "Details":  null
+                    }
+                ]
+}

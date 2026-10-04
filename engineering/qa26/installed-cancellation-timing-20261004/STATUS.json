@@ -1,0 +1,8 @@
+﻿{
+    "Status":  "COLLECTED_READ_ONLY_AND_TIMING_AUTOSTART_REMOVED",
+    "Utc":  "2026-10-04T16:24:19.9423343Z",
+    "ProductModified":  false,
+    "InstalledIdentityChecks":  2,
+    "LiveCleanupProofSource":  "Timing EVENTS.jsonl only, not shutdown inventory",
+    "ScanLoadFixtureCleanupPending":  true
+}

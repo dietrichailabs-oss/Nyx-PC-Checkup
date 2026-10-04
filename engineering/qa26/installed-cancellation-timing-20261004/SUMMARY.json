@@ -1,0 +1,31 @@
+{
+  "Build": "2026.10.02-eng-qa26",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "ProductModified": false,
+  "QuickCancellation": "PASS",
+  "QuickPartialResults": 5,
+  "FullCancellation": "PASS",
+  "FullPartialResults": 11,
+  "WorkerError": null,
+  "LiveWorkerExitAndCleanup": "PASS for both runs; see Timing EVENTS.jsonl",
+  "TimingMethod": "External bounded 30-second pause of exact installed worker; independent 45-second resume watchdog",
+  "NormalPerformanceCredit": false,
+  "TimingAutostartRemoved": true,
+  "ScanLoadFixtureCleanupPending": true,
+  "Focused": {
+    "F020": "INCOMPLETE",
+    "F015": "PASS_RECONCILED",
+    "F023": "PASS",
+    "F022": "INCOMPLETE"
+  },
+  "F008": {
+    "StrictFail": 0,
+    "BestEffortNotRun": 33,
+    "BestEffortFail": 0,
+    "StrictPass": 2,
+    "StrictNotRun": 97,
+    "BestEffortPass": 0
+  },
+  "DownstreamSuites": "NOT_RUN in current campaign",
+  "IndependentQADecision": "NOT_CLAIMED"
+}
