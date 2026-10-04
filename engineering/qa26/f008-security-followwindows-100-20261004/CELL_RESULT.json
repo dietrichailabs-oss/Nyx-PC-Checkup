@@ -1,0 +1,27 @@
+{
+  "Page": "Security",
+  "Result": "PASS",
+  "Theme": "FollowWindows",
+  "Scaling": 100,
+  "Dpi": 96,
+  "Resolution": "1366x768",
+  "WorkArea": "1366x720",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "ProductModified": false,
+  "Readability": "Heading/description/statuses; full antivirus finding and technical evidence readable through keyboard dialog scrolling",
+  "Keyboard": "Enter details, Ctrl+End, Tab Close, Enter return; Ctrl+Shift+Tab reaches primary action; Tab after external return gives visible Finding focus",
+  "PrimaryAction": "Human activated Open Windows Security; user confirmed success, live screenshot shows Windows Security over Nyx; user closed without agent interaction or changes",
+  "Scrolling": "Outer scroll restored heading and action; keyboard dialog scrolling reached technical end",
+  "Recreation": "Security/Apps/Security verified",
+  "NoUnhandledExceptionObserved": true,
+  "SharedEvidence": "Same-candidate/context System cell window containment/resize/Export; preceding native identity and 96-DPI config/geometry",
+  "Screenshots": [
+    "security_00_antivirus_details.png",
+    "security_01_primary_keyboard_focus.png",
+    "security_02_manual_windows_security_launch.png",
+    "security_03_return_grid_focus.png",
+    "security_04_heading_restored.png",
+    "security_05_recreated.png"
+  ],
+  "Limitations": "security_01 is the immediate transient snapshot; settled primary focus verified in subsequent live capture before human activation. Security launch screenshot partly occluded by host overlay; Windows Security is visibly open. No security policy/protection was changed."
+}

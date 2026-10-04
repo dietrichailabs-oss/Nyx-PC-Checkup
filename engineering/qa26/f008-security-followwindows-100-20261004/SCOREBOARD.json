@@ -1,0 +1,18 @@
+{
+  "Focused": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE"
+  },
+  "F008": {
+    "StrictPass": 8,
+    "StrictFail": 0,
+    "StrictNotRun": 91,
+    "BestEffortPass": 0,
+    "BestEffortFail": 0,
+    "BestEffortNotRun": 33
+  },
+  "DownstreamSuites": "NOT_RUN/incomplete in current campaign",
+  "IndependentQADecision": "NOT_CLAIMED"
+}
