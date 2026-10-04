@@ -1,0 +1,177 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "ProductModified": false,
+  "InstalledPayloadMatched": 60,
+  "RawResults": {
+    "Runs": 5,
+    "SchemaValidatedResults": 87,
+    "Captures": [
+      {
+        "Utc": "2026-10-04T17:57:20.7321269Z",
+        "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+        "Details": {
+          "Mode": "Quick",
+          "CompletedUtc": "2026-10-04T17:57:20.2242088Z",
+          "StartedUtc": "2026-10-04T17:57:04.7996310Z",
+          "Validation": "Host contract validation required",
+          "RawPath": "SCAN_001_RAW.json",
+          "Results": 15,
+          "SHA256": "2BCF0C78791AB9D367D0ED1728B5BEB4755A53B33A7A0202D10B9BB0F05D2B76",
+          "Cancelled": false,
+          "WorkerError": null,
+          "ReadOnly": true
+        }
+      },
+      {
+        "Utc": "2026-10-04T17:58:36.7305743Z",
+        "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+        "Details": {
+          "Mode": "Full",
+          "CompletedUtc": "2026-10-04T17:58:36.6536715Z",
+          "StartedUtc": "2026-10-04T17:57:55.2494666Z",
+          "Validation": "Host contract validation required",
+          "RawPath": "SCAN_002_RAW.json",
+          "Results": 21,
+          "SHA256": "73DCB99728212492B670F972D4C7A818829EC683067E6699A986F1D17C4CA271",
+          "Cancelled": false,
+          "WorkerError": null,
+          "ReadOnly": true
+        }
+      },
+      {
+        "Utc": "2026-10-04T17:59:40.0971222Z",
+        "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+        "Details": {
+          "Mode": "Quick",
+          "CompletedUtc": "2026-10-04T17:59:39.7860698Z",
+          "StartedUtc": "2026-10-04T17:59:29.9327765Z",
+          "Validation": "Host contract validation required",
+          "RawPath": "SCAN_003_RAW.json",
+          "Results": 15,
+          "SHA256": "14A917201EA485956C3C3DB3D319329DBC3E04A27EB35C88327091B9658D6644",
+          "Cancelled": false,
+          "WorkerError": null,
+          "ReadOnly": true
+        }
+      },
+      {
+        "Utc": "2026-10-04T18:03:37.3200764Z",
+        "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+        "Details": {
+          "Mode": "Quick",
+          "CompletedUtc": "2026-10-04T18:03:36.8589864Z",
+          "StartedUtc": "2026-10-04T18:03:27.0596310Z",
+          "Validation": "Host contract validation required",
+          "RawPath": "SCAN_004_RAW.json",
+          "Results": 15,
+          "SHA256": "18604E722DE487188904ED3915EDEB01C5D393CEEAC6BA4AC8F32B6F70F4DEB4",
+          "Cancelled": false,
+          "WorkerError": null,
+          "ReadOnly": true
+        }
+      },
+      {
+        "Utc": "2026-10-04T18:06:12.6680229Z",
+        "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+        "Details": {
+          "Mode": "Full",
+          "CompletedUtc": "2026-10-04T18:06:12.1598794Z",
+          "StartedUtc": "2026-10-04T18:05:34.7771090Z",
+          "Validation": "Host contract validation required",
+          "RawPath": "SCAN_005_RAW.json",
+          "Results": 21,
+          "SHA256": "24D572C942C27C31A0CE9A9C732F39707B5AAE9332FAD334637C82B28692594F",
+          "Cancelled": false,
+          "WorkerError": null,
+          "ReadOnly": true
+        }
+      }
+    ],
+    "CancelledRuns": 0,
+    "NoWorkerError": true
+  },
+  "Observer": {
+    "ProgressReads": 137497,
+    "BytesRead": 3150366279,
+    "IORetries": 23,
+    "ProcessAttributionLostAt": "2026-10-04T17:52:39.9559509Z",
+    "AppTransitions": [
+      {
+        "Utc": "2026-10-04T17:46:57.9311959Z",
+        "AppPids": []
+      },
+      {
+        "Utc": "2026-10-04T17:47:00.0678711Z",
+        "AppPids": [
+          10136
+        ]
+      },
+      {
+        "Utc": "2026-10-04T17:52:39.9559509Z",
+        "AppPids": []
+      }
+    ],
+    "WorkerStartsCaptured": 0,
+    "WorkerExitAndInstalledLaunchProof": "NOT_CREDITED_FOR_THIS_BATCH"
+  },
+  "Timing": {
+    "QuickToFullSeconds": 35.025,
+    "FullToQuickSeconds": 53.279,
+    "ImmediateTransitionsCredited": false
+  },
+  "DarkUIObservations": [
+    "Home primary action by mouse and Enter dispatches Quick.",
+    "Lower cards/findings accessible through visible scrollbar; status has readable text labels.",
+    "Reverse keyboard flow reaches primary Home action with visible focus.",
+    "Checkup primary Full action dispatches by keyboard.",
+    "Grid Ctrl+End reaches last result; Enter opens readable detail; Ctrl+End reads lower technical evidence.",
+    "Grid escape returns to Full; Shift+Tab reaches Quick with visible focus."
+  ],
+  "NotClaimed": [
+    "Genuine cancellation for latest attempt",
+    "Immediate transitions",
+    "Installed worker lifecycle for this process-attribution-gap batch",
+    "New Dark F-008 cell PASS",
+    "Independent QA approval"
+  ],
+  "V3Correction": {
+    "Scope": "Evidence-only process attribution and collector restart",
+    "ProductModified": false,
+    "NativePS51ParserFiles": 3,
+    "Diagnostics": 0,
+    "StagedUtc": "2026-10-04T18:19:27.0581985Z",
+    "CriticalInstalledHashChecks": 3
+  },
+  "Scoreboard": {
+    "Focused": {
+      "F023": "PASS",
+      "F015": "PASS_RECONCILED",
+      "F020": "INCOMPLETE",
+      "F022": "INCOMPLETE"
+    },
+    "F008": {
+      "StrictPASS": 10,
+      "StrictFAIL": 0,
+      "StrictNOT_RUN": 89,
+      "BestEffortPASS": 0,
+      "BestEffortFAIL": 0,
+      "BestEffortNOT_RUN": 33
+    },
+    "Downstream": {
+      "Standard": "NOT_RUN",
+      "Smoke": "NOT_RUN",
+      "Migration": "NOT_RUN",
+      "PrivilegeRollback": "NOT_RUN",
+      "InstallerLifecycle": "NOT_RUN",
+      "F011": "NOT_RUN",
+      "F012": "NOT_RUN",
+      "F010CancellationRelaunch": "INCOMPLETE",
+      "F010MalformedState": "NOT_RUN",
+      "F016": "INCOMPLETE",
+      "Elevated": "NOT_RUN",
+      "PrivacySafetyLifecycle": "NOT_RUN"
+    },
+    "EngineeringStatus": "HOLD_INCOMPLETE_ACCEPTANCE"
+  }
+}
