@@ -1,0 +1,90 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "Harness": "QA26-F023-PS51-26",
+  "ProductModified": false,
+  "F015FocusedResult": "PASS_RECONCILED",
+  "PredicateGroups": [
+    "Fresh Refresh",
+    "Repeated Refresh x3",
+    "Navigate away and back",
+    "Refresh after Quick",
+    "Refresh after Full",
+    "Refresh after cancellation",
+    "Current-user Disable",
+    "Refresh confirms Disabled",
+    "Current-user Re-enable",
+    "Refresh confirms restored Enabled",
+    "All-users modification actions read-only",
+    "Valid Open file location",
+    "Unavailable Open file location handled",
+    "Visible keyboard focus",
+    "Required Startup actions reachable",
+    "No observed deferred-state or StrictMode exception",
+    "Work-area containment"
+  ],
+  "PredicateGroupCount": 17,
+  "CountsCaveat": "17 requirement groups reconciled across evidence; not 51 newly executed tests",
+  "Contexts": [
+    {
+      "Scale": 100,
+      "Dpi": 96,
+      "Resolution": "1366x768",
+      "WorkArea": "1366x720",
+      "Result": "PASS_RECONCILED",
+      "EvidenceCommits": [
+        "ce61f8af7068eb86c5fd0347ae46ef29f6de4f72",
+        "377311298cc59a47bf0507137dd060a9736c4aa2"
+      ],
+      "NewScanResultsValidated": 47,
+      "CancellationPartialResults": 11,
+      "LiveCleanup": "Native app running, zero workers, actual LocalAppData temp empty before shutdown",
+      "StartupFixture": "Approved disposable missing-target fixture restored Enabled after Refresh"
+    },
+    {
+      "Scale": 125,
+      "Dpi": 120,
+      "Resolution": "1366x768",
+      "Result": "PASS_RECONCILED",
+      "EvidenceCommits": [
+        "7dfe5620081e530cf5cdbc9047c10a14cd88e9cb",
+        "c5d24090a3668cb655aac05aa2420e2c3097f45c",
+        "af7377b537ae7662cee36410f89801a8966c4e70"
+      ],
+      "StartupFixture": "Approved disposable missing-target fixture restored",
+      "OriginalFullContractResults": 21,
+      "OriginalCancelledContractResults": 16,
+      "CorrectedObserverNewResultsValidated": 78,
+      "CorrectedObserverCancelledPartialResults": 15,
+      "LiveCleanup": "Corrected observer actual temp empty and zero workers before shutdown",
+      "HistoricalWrongTempRecords": "Preserved; not cleanup proof"
+    },
+    {
+      "Scale": 150,
+      "Dpi": 144,
+      "Resolution": "1366x768",
+      "Result": "PASS_RECONCILED",
+      "EvidenceCommits": [
+        "1187c447404449174ed642ffeca48a161b92929c",
+        "013429be0d72d74a4cf0bc55842947e20dcff26a",
+        "b5d631b352a725e364bd3e2415a0bba253b7dbe0",
+        "7ec5322658796391dd08a243b68ed899e5d2276e"
+      ],
+      "QuickResultCount": 15,
+      "FullResultCount": 21,
+      "CancelledPartialResults": 11,
+      "StartupFixture": "Current-user OneDrive restored Enabled before collection",
+      "AllUsersEvidenceScope": "Read-only UI actions and unchanged Run evidence; no claim of v2 Startup-folder hashing at this historical scale"
+    },
+    {
+      "Scale": 200,
+      "Dpi": 192,
+      "Resolution": "1366x768",
+      "Result": "BEST_EFFORT_POSITIVE",
+      "EvidenceCommit": "af8ea8f625d68cb683180ea9d71b7b37c175bcdb",
+      "Scope": "Functional Refresh, reachable actions and keyboard navigation; no perfect geometry claim"
+    }
+  ],
+  "Scope": "Focused Startup deferred state, callbacks, reversible current-user actions and accessible functional flow; not complete F008 visual/theme matrix",
+  "IndependentQAOwnsDisposition": true
+}

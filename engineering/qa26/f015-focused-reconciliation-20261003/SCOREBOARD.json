@@ -1,0 +1,30 @@
+{
+  "F023": "PASS",
+  "F015": "PASS_RECONCILED",
+  "F020": "INCOMPLETE",
+  "F022": "INCOMPLETE",
+  "F008Strict": {
+    "NOT_RUN": 99,
+    "FAIL": 0,
+    "PASS": 0
+  },
+  "F008BestEffort": {
+    "NOT_RUN": 33,
+    "FAIL": 0,
+    "PASS": 0
+  },
+  "Downstream": {
+    "Smoke": "NOT_RUN",
+    "InstallerLifecycle": "NOT_RUN",
+    "Elevated": "NOT_RUN",
+    "Standard": "NOT_RUN",
+    "F012": "NOT_RUN",
+    "PrivacySafetyLifecycle": "NOT_RUN",
+    "PrivilegeRollback": "NOT_RUN",
+    "F011": "NOT_RUN",
+    "F010MalformedState": "NOT_RUN",
+    "F016": "NOT_RUN",
+    "Migration": "NOT_RUN",
+    "F010CancellationRelaunch": "NOT_RUN"
+  }
+}
