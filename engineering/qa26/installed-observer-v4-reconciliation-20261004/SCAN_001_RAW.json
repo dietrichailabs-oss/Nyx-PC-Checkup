@@ -1,0 +1,20 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+    "Mode":  "Quick",
+    "StartedUtc":  "2026-10-04T19:34:46.4581762Z",
+    "CompletedUtc":  "2026-10-04T19:34:46.5383007Z",
+    "Cancelled":  true,
+    "ReadOnly":  true,
+    "Summary":  {
+                    "OverallStatus":  "Unknown",
+                    "Headline":  "The check could not determine enough information.",
+                    "Good":  0,
+                    "NeedsAttention":  0,
+                    "Optional":  0,
+                    "Unknown":  0,
+                    "Total":  0
+                },
+    "Results":  [
+
+                ]
+}

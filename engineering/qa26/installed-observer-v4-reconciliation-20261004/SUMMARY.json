@@ -1,0 +1,28 @@
+{
+  "schema": "QA26-INSTALLED-OBSERVER-V4-RECONCILIATION-1",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "productModified": false,
+  "quickCancellation": {
+    "authoritativeContract": "PASS",
+    "cancelled": true,
+    "readOnly": true,
+    "validPartialResults": 0,
+    "workerError": null,
+    "workerExitObserved": true,
+    "liveCleanupNotEstablishedByThisObserver": true
+  },
+  "observerFailure": "UnauthorizedAccessException during shared progress read after worker exit; original preserved; not classified as product defect",
+  "laterSequentialRuns": "Visible completion observed, but per-run raw capture absent; not credited",
+  "acceptance": "HOLD_INCOMPLETE",
+  "scoreboard": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE",
+    "strictPass": 10,
+    "strictRequired": 99,
+    "bestEffortPass": 0,
+    "bestEffortRequired": 33
+  },
+  "finalDecisionOwner": "Independent QA"
+}
