@@ -14,10 +14,11 @@
       "id": "COLLECT_DARK100_RAW_EVIDENCE_UAC",
       "status": "BLOCKED_HUMAN",
       "action": "Approve only normal host UAC for Collect-QA26-Unattended.ps1; then sign into Nyx after its normal restart. No credential/security bypass.",
-      "affectedTest": "Dark100 Home/Checkup authoritative-result reconciliation and guest geometry collection",
+      "affectedTest": "Dark100 and Light100 Home/Checkup raw contracts, installed identity/geometry collection; future native DPI transitions and suites require normal authorized host access/sign-in",
       "queuedUtc": "2026-10-04T21:20:02.932Z",
       "promptShown": false,
-      "launchResult": "Windows reported operation cancelled; collector did not start"
+      "launchResult": "Retry cancelled by Windows: operation was canceled by the user. Collector did not start. Host MARK/bossm process confirmed non-elevated.",
+      "lastAttemptUtc": "2026-10-04T22:51:47.963Z"
     }
   ]
 }

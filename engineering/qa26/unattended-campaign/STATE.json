@@ -6,10 +6,10 @@
   "candidate": "qa26-f023-candidate-20261002",
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
-  "currentBatch": "B_LIGHT_100_INDEPENDENT",
+  "currentBatch": "B_LIGHT_100_PENDING_RAW_VALIDATION",
   "currentTheme": "Light",
   "currentScale": 100,
-  "currentPage": "Settings",
+  "currentPage": "Home",
   "currentSuite": null,
   "focused": {
     "F023": "PASS",
@@ -933,21 +933,62 @@
       "details": "Privacy-safe report review is readable and scrollable with Cancel/Continue accessible; no save/upload performed. Runtime build identity separately reconciled against enlarged QA26 header.",
       "evidence": "screenshots/light100_settings_export_review.png",
       "utc": "2026-10-04T21:58:20.889Z"
+    },
+    {
+      "id": "light100_checkup_detail_keyboard",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End reaches installed applications; Enter opens readable Good/Complete=true detail with safety/source and technical evidence. Raw full scan contract remains pending collector.",
+      "evidence": "screenshots/light100_checkup_detail_keyboard.png",
+      "utc": "2026-10-04T22:46:39.993Z"
+    },
+    {
+      "id": "light100_checkup_action_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+Shift+Tab restores fully visible Full Check action focus; result statuses use text, no exception.",
+      "evidence": "screenshots/light100_checkup_action_focus.png",
+      "utc": "2026-10-04T22:47:01.601Z"
+    },
+    {
+      "id": "light100_home_scan_progress",
+      "status": "PASS_OBSERVED",
+      "details": "Real Quick worker running; progress/status and Cancel Scan visible while Home remains readable. Completion/contract not yet credited.",
+      "evidence": "screenshots/light100_home_scan_progress.png",
+      "utc": "2026-10-04T22:47:39.166Z"
+    },
+    {
+      "id": "light100_home_quick_complete_ui",
+      "status": "PASS_OBSERVED",
+      "details": "Quick completes visibly, textual counts Good9/NeedsAttention2/Optional1/Unknown3, visible primary action focus. Raw JSON validation still pending.",
+      "evidence": "screenshots/light100_home_quick_complete_ui.png",
+      "utc": "2026-10-04T22:47:51.970Z"
+    },
+    {
+      "id": "light100_home_lower_readability",
+      "status": "PASS_OBSERVED",
+      "details": "Normal vertical scrollbar exposes Startup/Backup/System cards and all six findings; text conveys meaning without color, no clipping of essential findings or exception.",
+      "evidence": "screenshots/light100_home_lower_readability.png",
+      "utc": "2026-10-04T22:48:22.362Z"
     }
   ],
   "evidenceReferences": [
     "engineering/qa26/FOCUSED_GATE_RECONCILIATION.json",
-    "engineering/qa26/installed-observer-v5-native-scans-20261004/"
+    "engineering/qa26/installed-observer-v5-native-scans-20261004/",
+    {
+      "kind": "secure-collection-attempt",
+      "result": "BLOCKED_HUMAN",
+      "productFailure": false,
+      "detail": "Two normal UAC collector launches returned operation canceled; no shutdown/mount/restart or collection. Current host process not elevated."
+    }
   ],
   "vm": {
     "name": "Nyx",
     "id": "275a191c-cf8a-4929-9849-b9a293e9149d",
     "checkpoint": "NOT_YET_VERIFIED",
-    "session": "Native input recovered after cancelled UAC; normal Nyx desktop",
-    "plannedTransition": "Normal shutdown/read-only evidence collection/restart; sign-in may require human"
+    "session": "Normal guest session retained; collector never started",
+    "plannedTransition": "Normal read-only evidence collection; persist latest Quick and two preserved Dark JSON runs before any further scans/restart"
   },
-  "lastCompletedAction": "Light100 Settings credited; strict29/99, bestEffort0/33; no frozen-product failure established",
-  "nextAction": "Complete Light100 Home/Checkup missing scan predicates; collect and validate preserved Dark100 Quick/Full JSON via queued normal host UAC; reconcile F020/F022 missing scale predicates; then normal DPI125 sign-out/sign-in and FollowWindows125 batch. Do not rerun credited cells.",
+  "lastCompletedAction": "Light100 Checkup Enter/detail and reverse focus; Light100 Home real Quick completion/progress/lower findings captured. Await raw validation; no extra matrix PASS inferred.",
+  "nextAction": "Owner-assisted normal host UAC for read-only collector, then guest sign-in. Collect latest Light Quick and reports/quickdark100.json plus reports/fulldark100.json; validate contracts without overwriting. Resume missing applied-DPI tests after confirmed login/DPI. No product rebuild.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -961,7 +1002,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-04T21:59:45.105Z",
+  "updatedUtc": "2026-10-04T22:51:47.963Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -969,7 +1010,8 @@
     "appDpi": 96,
     "appliedAppScale": 100,
     "configuredCustomScale": 125,
-    "note": "Configured scale is not applied DPI; native96 record authoritative for this session"
+    "note": "Configured scale is not applied DPI; native96 record authoritative for this session",
+    "hostElevated": false
   },
   "matrix": [
     {
@@ -2506,6 +2548,13 @@
       "id": "Dark100CleanupRefreshFull",
       "status": "PENDING_RESULT_VALIDATION",
       "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\fulldark100.json"
+    },
+    {
+      "id": "Light100HomeQuick",
+      "status": "PENDING_RESULT_VALIDATION",
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "startObservedUtc": "2026-10-04T22:47:16.123Z",
+      "completionObservedUtc": "2026-10-04T22:47:51.971Z"
     }
   ],
   "campaignStatus": "HOLD_INCOMPLETE"

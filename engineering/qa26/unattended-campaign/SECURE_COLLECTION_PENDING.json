@@ -1,0 +1,27 @@
+{
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "status": "BLOCKED_HUMAN",
+  "productFailure": false,
+  "productModified": false,
+  "collectorStarted": false,
+  "hostElevated": false,
+  "strict": {
+    "PASS": 29,
+    "FAIL": 0,
+    "NOT_RUN": 70
+  },
+  "bestEffort": {
+    "PASS": 0,
+    "FAIL": 0,
+    "NOT_RUN": 33
+  },
+  "newObservations": [
+    "Light100 Checkup keyboard detail and visible reverse-focus action",
+    "Light100 Home real Quick progress and completion",
+    "Light100 Home lower findings readability"
+  ],
+  "uncreditedReason": "Raw authoritative result contract validation pending; no completed cell inferred from screenshots alone",
+  "nextAction": "Owner-assisted normal host UAC for read-only collector, then guest sign-in. Collect latest Light Quick and reports/quickdark100.json plus reports/fulldark100.json; validate contracts without overwriting. Resume missing applied-DPI tests after confirmed login/DPI. No product rebuild."
+}
