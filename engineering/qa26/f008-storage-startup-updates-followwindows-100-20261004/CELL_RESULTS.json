@@ -1,0 +1,41 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "Theme": "FollowWindows",
+  "Scaling": 100,
+  "Dpi": 96,
+  "Resolution": "1366x768",
+  "WorkArea": "1366x720",
+  "ProductModified": false,
+  "SharedEvidence": "System/Backup/Home/Checkup same-candidate 100% cell evidence: installed identity, window containment, Export, keyboard and native context",
+  "Storage": {
+    "Result": "PASS",
+    "Reuse": "native-page-continuation-20261004 screenshots: three Storage detail routes/technical ends; Full action/42 valid Full results; Open Downloads exact directory; keyboard Open Storage Settings exact landing with human UAC dismissal; no settings changed",
+    "RemainingPredicate": "Storage recreated after intervening Home/Checkup; heading/actions and one-result Quick cardinality readable",
+    "Evidence": "storage_12_recreated_after_quick.png"
+  },
+  "Startup": {
+    "Result": "PASS",
+    "Reuse": "f015-focused-reconciliation-20261003 plus startup-100 evidence and native geometry: 17 required groups reconciled; Refresh, current-user fixture disable/reload/re-enable/restore, all-users read-only/no modification, valid/unavailable location, Quick/Full/cancel refresh, keyboard/action visibility, actual live cleanup",
+    "ThemeContext": "Same FollowWindows/96 DPI config and unchanged payload; no additional state transition claimed in this checkpoint",
+    "RemainingPredicate": "Page recreation/current state readable; all required actions visible; full grid practical keyboard/horizontal access inherited from strict 100% focused checks",
+    "Evidence": "startup_100_cell_reconciliation.png"
+  },
+  "Updates": {
+    "Result": "PASS",
+    "Readability": "Heading/description/three result rows; full finding and technical evidence through keyboard dialog route",
+    "Keyboard": "Enter result details, Ctrl+End, Tab Close, Enter return; Ctrl+Shift+Tab primary action; Enter exact Windows Update landing; return Tab visible grid focus",
+    "Scrolling": "Detail technical end and outer heading/action restore",
+    "Recreation": "Updates/System/Updates positive",
+    "Safety": "No Windows Update setting or policy changed",
+    "Evidence": [
+      "updates_00_result_details.png",
+      "updates_01_primary_keyboard_focus.png",
+      "updates_02_windows_update_redirect.png",
+      "updates_03_grid_focus_after_redirect.png",
+      "updates_04_heading_restored.png",
+      "updates_05_recreated.png"
+    ]
+  },
+  "NoUnhandledExceptionObserved": true
+}
