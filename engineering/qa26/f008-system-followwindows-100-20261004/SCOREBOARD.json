@@ -1,0 +1,13 @@
+{
+  "F015": "PASS_RECONCILED",
+  "BestEffortPass": 0,
+  "StrictPass": 1,
+  "BestEffortFail": 0,
+  "F023": "PASS",
+  "Downstream": "NOT_RUN",
+  "BestEffortNotRun": 33,
+  "StrictFail": 0,
+  "F022": "INCOMPLETE",
+  "StrictNotRun": 98,
+  "F020": "INCOMPLETE"
+}

@@ -1,0 +1,1190 @@
+[
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "PASS",
+    "Evidence": "CELL.json"
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "STRICT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Policy": "BEST_EFFORT",
+    "Disposition": "NOT_RUN",
+    "Evidence": null
+  }
+]

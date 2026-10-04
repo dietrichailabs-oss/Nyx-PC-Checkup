@@ -1,0 +1,29 @@
+{
+  "Theme": "FollowWindows",
+  "Scaling": 100,
+  "Resolution": "1366x768",
+  "Page": "System",
+  "Disposition": "PASS",
+  "Authority": "Engineering evidence only",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "ProductModified": false,
+  "Checks": {
+    "AppliedDpi": "96 DPI same guest/session, preserved native environment and geometry",
+    "Theme": "FollowWindows preserved native config, no theme change",
+    "InstalledIdentity": "60/60 frozen payload matches in f015-focused-reconciliation-20261003/INSTALLED_100_FROZEN_COMPARISON.json",
+    "RequiredText": "System heading and description readable after normal vertical scroll; all three result meanings read via grid and keyboard details",
+    "RequiredControls": "About, result grid, Export and modal Close/Cancel reachable",
+    "KeyboardFocus": "Visible grid current cell, primary action, modal Close and export Cancel",
+    "KeyboardActions": "Enter details, Tab Close/Cancel, Enter Close/Cancel, Ctrl+Shift+Tab About, Enter About, navigation away/back",
+    "Scrolling": "Vertical page and technical-detail Ctrl+End access demonstrated; three-row grid needs no additional vertical scrolling",
+    "PageState": "System overview, uptime, network details; About redirect; page recreation; preview Cancel returns without export",
+    "Exceptions": "No unhandled exception observed during recorded interactions",
+    "WorkArea": "Normal/maximized/restored bounds within guest work area",
+    "Resize": "Maximize and restore positive",
+    "StatusMeaning": "Good/Needs Attention labels and explanatory text, not color alone"
+  },
+  "Evidence": [
+    "engineering/qa26/unattended-system-home-20261003/screenshots/system_00_initial.png engineering/qa26/unattended-system-home-20261003/screenshots/system_01_enter_result.png engineering/qa26/unattended-system-home-20261003/screenshots/system_02_detail_keyboard_scroll.png engineering/qa26/unattended-system-home-20261003/screenshots/system_04_network_complete_finding.png engineering/qa26/unattended-system-home-20261003/screenshots/system_05_network_keyboard_end.png engineering/qa26/unattended-system-home-20261003/screenshots/system_07_primary_action_focus.png engineering/qa26/unattended-system-home-20261003/screenshots/system_08_windows_about_redirect.png system_10_maximized.png system_11_restored.png system_12_recreated.png system_13_uptime_detail.png system_14_export_preview.png system_15_export_cancel_focus.png system_16_export_cancel_return.png"
+  ],
+  "Limit": "Grid finding ellipsis has an observed full keyboard-detail reading route; this does not close the entire F-022 gate."
+}

@@ -1,0 +1,1 @@
+One completed Engineering F-008 cell: System / FollowWindows / 100%. All other cells remain NOT_RUN (partial observations are not credited). Product unchanged; Independent QA owns final disposition. Native DPI/theme/identity records are reused from the same unchanged guest session and the referenced reconciliation.
