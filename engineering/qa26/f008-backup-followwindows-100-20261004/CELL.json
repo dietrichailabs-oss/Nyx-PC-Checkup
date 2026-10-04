@@ -1,0 +1,34 @@
+{
+  "Theme": "FollowWindows",
+  "Scaling": 100,
+  "Resolution": "1366x768",
+  "Page": "Backup",
+  "Disposition": "PASS",
+  "Authority": "Engineering evidence only",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "ProductModified": false,
+  "Checks": {
+    "Navigation": "Away to System and back recreates live Backup",
+    "Text": "Heading, description, finding, recommendation, safety, data source and technical detail readable",
+    "WorkArea": "Page and detail within guest work area",
+    "Focus": "Visible primary, current grid cell and Close focus",
+    "DpiThemeIdentity": "Same unchanged guest session; native 96-DPI/config and 60/60 frozen payload comparison referenced in System cell",
+    "SharedEvidence": "System same-scale window maximize/restore and Export preview/keyboard Cancel reused without redundant execution",
+    "Keyboard": "Enter details, Tab Close, Enter Close, Ctrl+Shift+Tab primary action, Enter redirect, forward Tab returns grid focus",
+    "Scrolling": "Page outer scrollbar restores heading after focus scroll; one result needs no additional grid scrolling",
+    "Exceptions": "No unhandled exception observed",
+    "PrimaryAction": "Windows Accounts / Windows backup opened; no configuration/account/privacy change"
+  },
+  "Evidence": [
+    "backup_00_initial.png",
+    "backup_01_detail.png",
+    "backup_02_close_focus.png",
+    "backup_03_primary_focus.png",
+    "backup_04_windows_backup_redirect.png",
+    "backup_05_return_grid_focus.png",
+    "backup_06_page_scroll_recovered.png",
+    "backup_07_recreated.png",
+    "engineering/qa26/f008-system-followwindows-100-20261004/CELL.json",
+    "engineering/qa26/f015-focused-reconciliation-20261003/INSTALLED_100_FROZEN_COMPARISON.json"
+  ]
+}
