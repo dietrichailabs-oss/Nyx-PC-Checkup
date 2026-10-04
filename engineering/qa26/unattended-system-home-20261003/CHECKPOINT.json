@@ -1,0 +1,37 @@
+{
+  "Schema": "QA26-UNATTENDED-CHECKPOINT-1",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "ProductModified": false,
+  "Rebuilt": false,
+  "Theme": "FollowWindows",
+  "Scaling": 100,
+  "Status": "INCOMPLETE",
+  "Observations": [
+    "Home report preview keyboard Cancel reached using forward Tab; reverse Tab from Continue targets report text, not Cancel",
+    "System result Enter activation; Ctrl+End reaches technical evidence; Tab and Enter close result",
+    "System primary action keyboard activation opened Windows System About; settings not changed; returned to Nyx",
+    "System forward Tab restored visible grid focus"
+  ],
+  "ProductFailureEstablished": false,
+  "Focused": {
+    "F022": "INCOMPLETE",
+    "F020": "INCOMPLETE",
+    "F015": "PASS_RECONCILED",
+    "F023": "PASS"
+  },
+  "Matrix": {
+    "BestEffortFail": 0,
+    "StrictNotRun": 99,
+    "StrictPass": 0,
+    "BestEffortNotRun": 33,
+    "StrictFail": 0,
+    "BestEffortPass": 0
+  },
+  "Downstream": "NOT_RUN",
+  "Limits": [
+    "Partial observations, not complete matrix cells",
+    "No new scan contract count claimed",
+    "Current checkpoint does not establish final Independent QA approval"
+  ]
+}
