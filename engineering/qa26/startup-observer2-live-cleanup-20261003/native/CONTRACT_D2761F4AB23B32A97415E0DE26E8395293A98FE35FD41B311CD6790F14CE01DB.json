@@ -1,0 +1,32 @@
+{
+  "Result": "PASS",
+  "Mode": "Full",
+  "StartedUtc": "2026-10-03T23:55:11.6744708Z",
+  "CompletedUtc": "2026-10-03T23:55:21.3642826Z",
+  "Cancelled": true,
+  "ReadOnly": true,
+  "ResultsValidated": 15,
+  "RequiredResultFields": [
+    "CheckId",
+    "Category",
+    "Name",
+    "Status",
+    "Severity",
+    "Finding",
+    "Reason",
+    "Evidence",
+    "Recommendation",
+    "ActionSafetyLevel",
+    "Timestamp",
+    "DataSource",
+    "RequiresElevation",
+    "Complete",
+    "ErrorReason",
+    "Details"
+  ],
+  "NullableEvidenceAllowed": true,
+  "WorkerError": null,
+  "Errors": [],
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Scope": "Frozen Models shape and scan wrapper/summary contract; not live cleanup or execution proof"
+}
