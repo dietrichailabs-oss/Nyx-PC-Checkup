@@ -1,0 +1,18 @@
+{
+  "Result": "INCOMPLETE",
+  "Observed": [
+    "Tab and Shift+Tab expose primary Settings actions with visible focus.",
+    "Check for Updates dispatches and returns handled unavailable dialog; network/update success not proven.",
+    "Open local data folder via Enter lands in expected Nyx data directory.",
+    "Save unchanged preferences produces readable confirmation.",
+    "Page recreation retains FollowWindows and existing update preference.",
+    "Dark selected and saved; after close request Dark Home is visible."
+  ],
+  "NotClaimed": [
+    "Clean process exit/relaunch proof",
+    "Delete logs functional/safety test",
+    "Full Settings cell PASS",
+    "F-012 suite PASS"
+  ],
+  "PrivacyPreferencesNotIntentionallyChanged": true
+}

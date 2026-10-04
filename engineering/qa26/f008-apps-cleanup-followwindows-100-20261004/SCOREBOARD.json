@@ -1,0 +1,31 @@
+{
+  "Focused": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE"
+  },
+  "F008": {
+    "StrictPASS": 10,
+    "StrictFAIL": 0,
+    "StrictNOT_RUN": 89,
+    "BestEffortPASS": 0,
+    "BestEffortFAIL": 0,
+    "BestEffortNOT_RUN": 33
+  },
+  "Downstream": {
+    "Standard": "NOT_RUN",
+    "Smoke": "NOT_RUN",
+    "Migration": "NOT_RUN",
+    "PrivilegeRollback": "NOT_RUN",
+    "InstallerLifecycle": "NOT_RUN",
+    "F011": "NOT_RUN",
+    "F012": "NOT_RUN",
+    "F010CancellationRelaunch": "INCOMPLETE",
+    "F010MalformedState": "NOT_RUN",
+    "F016": "INCOMPLETE",
+    "Elevated": "NOT_RUN",
+    "PrivacySafetyLifecycle": "NOT_RUN"
+  },
+  "EngineeringStatus": "HOLD_INCOMPLETE_ACCEPTANCE"
+}

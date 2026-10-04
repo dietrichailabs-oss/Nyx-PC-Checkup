@@ -1,0 +1,92 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "ProductModified": false,
+  "Context": {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Dpi": 96,
+    "Resolution": "1366x768",
+    "WorkArea": "1366x720",
+    "PMv2": true
+  },
+  "SharedEvidence": [
+    "engineering/qa26/f008-security-followwindows-100-20261004/",
+    "engineering/qa26/installed-reader-stress-20261004/INSTALLED_HASHES.json",
+    "engineering/qa26/native-page-continuation-20261004/"
+  ],
+  "Cells": [
+    {
+      "Page": "Apps",
+      "Result": "PASS",
+      "Predicates": {
+        "RequiredTextReadable": true,
+        "ControlsReachable": true,
+        "VisibleKeyboardFocus": true,
+        "KeyboardActions": true,
+        "Scrolling": true,
+        "PageRecreation": true,
+        "WorkAreaContainment": true,
+        "NoObservedUnhandledException": true
+      },
+      "Actions": [
+        "Installed Apps redirect by mouse and Enter; correct Windows Settings landing, no install/removal.",
+        "Run Full Check completed; five inventory entries displayed.",
+        "Nyx filter produced one entry; clearing filter restored five.",
+        "Tab reaches readable Version; reverse keyboard flow reaches primary actions.",
+        "Open selected folder verified in prior same-candidate native continuation; empty selection caused no unintended action."
+      ],
+      "Evidence": [
+        "apps_06_installed_apps_redirect.png",
+        "apps_08_full_action_result.png",
+        "apps_09_filter_one_result.png",
+        "apps_10_filter_clear_restores_five.png",
+        "apps_11_version_focus_after_filter_clear.png",
+        "apps_12_primary_keyboard_focus.png",
+        "apps_13_keyboard_installed_apps_landing.png",
+        "apps_14_recreated_five_results.png"
+      ]
+    },
+    {
+      "Page": "Cleanup",
+      "Result": "PASS",
+      "Predicates": {
+        "RequiredTextReadable": true,
+        "ControlsReachable": true,
+        "VisibleKeyboardFocus": true,
+        "KeyboardActions": true,
+        "Scrolling": true,
+        "PageRecreation": true,
+        "WorkAreaContainment": true,
+        "NoObservedUnhandledException": true
+      },
+      "Actions": [
+        "No candidates selected automatically.",
+        "Selecting one zero-byte VM temp candidate updates summary to 1 item / 0 B.",
+        "Keyboard reaches Review and clean selected and opens explicit destructive-action confirmation.",
+        "Tab to No and Enter cancel; selected item remains, no deletion executed.",
+        "Clearing selection restores 0 items / 0 B.",
+        "Ctrl+End reaches final candidate/consequence; reverse keyboard path scrolls Full refresh into view.",
+        "Full refresh completed; 21/21 authoritative results validated, ReadOnly=true, Cancelled=false, no WorkerError.",
+        "Away/back recreation preserves zero selected."
+      ],
+      "Evidence": [
+        "cleanup_00_selected_summary.png",
+        "cleanup_01_review_keyboard_focus.png",
+        "cleanup_02_confirmation_no_action.png",
+        "cleanup_03_cancel_preserves_selection.png",
+        "cleanup_04_last_row_zero_selected.png",
+        "cleanup_05_full_refresh_keyboard_focus.png",
+        "cleanup_06_full_refresh_completed.png",
+        "cleanup_08_recreated_zero_selected.png",
+        "CLEANUP_FULL_CONTRACT.json"
+      ]
+    }
+  ],
+  "ScopeLimitations": [
+    "These are visual/accessibility cells, not completed installer or destructive cleanup lifecycle suites.",
+    "No actual file deletion was performed.",
+    "Settings observations are supplemental/incomplete, not an additional credited cell.",
+    "200% policy remains best-effort; no new 200% cell credit here."
+  ]
+}
