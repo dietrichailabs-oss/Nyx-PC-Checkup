@@ -1,0 +1,45 @@
+{
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "productModified": false,
+  "immutablePayloadMismatches": [],
+  "scanContracts": "4/4 PASS",
+  "resultContracts": "72/72 PASS",
+  "allReadOnly": true,
+  "allCancelled": false,
+  "workerErrors": 0,
+  "workerExits": 4,
+  "sharedProgressReads": 118471,
+  "livePreShutdownTempArtifacts": [],
+  "livePreShutdownActiveWorkers": [],
+  "transitionGaps": [
+    {
+      "from": "Quick",
+      "to": "Full",
+      "gapSeconds": 27.407
+    },
+    {
+      "from": "Full",
+      "to": "Quick",
+      "gapSeconds": 16.927
+    },
+    {
+      "from": "Quick",
+      "to": "Full",
+      "gapSeconds": 16.299
+    }
+  ],
+  "immediateTransitions": "NOT_PROVEN: actual gaps too long; no PASS credited",
+  "acceptance": "HOLD_INCOMPLETE",
+  "scoreboard": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE",
+    "strictPass": 10,
+    "strictFail": 0,
+    "strictNotRun": 89,
+    "bestEffortPass": 0,
+    "bestEffortFail": 0,
+    "bestEffortNotRun": 33
+  }
+}

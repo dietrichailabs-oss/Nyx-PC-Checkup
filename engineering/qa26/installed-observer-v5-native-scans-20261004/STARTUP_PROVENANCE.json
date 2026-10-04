@@ -1,0 +1,20 @@
+﻿[
+    {
+        "Name":  "NyxQA26InstalledScanObserverV5.cmd",
+        "SHA256":  "129145567DDBCDB7A685C152F4107F6A78CEDFA1ADF42155B58B1B3D3801C54A",
+        "Bytes":  207,
+        "Content":  "@start \"\" /min \"%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Q26EvidenceHarness\\QA26-Installed-Scan-Observer-v5.ps1\"\r\n"
+    },
+    {
+        "Name":  "QA26_Evidence_Geometry.cmd",
+        "SHA256":  "F8E103B2BA1B33285ECB5B57A773F20EAAB65CCF93DA9A7A0301B60741088463",
+        "Bytes":  191,
+        "Content":  "@start \"\" /min C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\Q26EvidenceHarness\\Wait-And-Observe.ps1\r\n"
+    },
+    {
+        "Name":  "QA26_Startup_Final_Fixture.cmd",
+        "SHA256":  "9381C9CFF517B74F74A1CDED21CD9FF1872440B0109835E1B3C93865D1C7C8B0",
+        "Bytes":  208,
+        "Content":  "@echo off\r\nstart \"\" /b C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Q26EvidenceHarness\\Start-QA26-Startup-Observer3.ps1\"\r\n"
+    }
+]
