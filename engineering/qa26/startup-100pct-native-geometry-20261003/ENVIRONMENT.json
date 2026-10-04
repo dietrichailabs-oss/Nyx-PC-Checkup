@@ -1,0 +1,14 @@
+﻿{
+    "PrimaryBounds":  "{X=0,Y=0,Width=1366,Height=768}",
+    "CoordinateCaveat":  "Accept physical bounds only if observer awareness is confirmed; individual cell geometry remains a separate gate",
+    "OS":  "Microsoft Windows NT 10.0.26200.0",
+    "Build":  "2026.10.02-eng-qa26",
+    "User":  "DESKTOP-4D83OSL\\Nyx",
+    "PowerShell":  "5.1.26100.7920",
+    "ObserverPerMonitorV2":  true,
+    "SystemDpi":  96,
+    "WorkingArea":  "{X=0,Y=0,Width=1366,Height=720}",
+    "SetAwarenessSucceeded":  true,
+    "Utc":  "2026-10-04T00:21:46.7542687Z",
+    "Harness":  "QA26-F023-PS51-26"
+}

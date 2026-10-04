@@ -1,0 +1,37 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "ProductModified": false,
+  "Scale": 100,
+  "Dpi": 96,
+  "PhysicalResolution": "1366x768",
+  "WorkArea": "1366x720",
+  "PMv2": true,
+  "ConfiguredTheme": "FollowWindows",
+  "GeometrySamples": 5,
+  "ObservedNormalWindow": {
+    "Y": 32,
+    "Width": 1280,
+    "Height": 688,
+    "X": 86
+  },
+  "ObservedWindowFitsWorkArea": true,
+  "NativeInstalledHashesRaw": "geometry/INSTALLED_HASHES.json",
+  "GeometryLaunchScope": "Evidence wrapper around exact installed script; not F011 native EXE acceptance",
+  "EarlierNativeExeSession": "ce61f8af7068eb86c5fd0347ae46ef29f6de4f72",
+  "FrozenComparison": "Pending correction of required worker path in evidence check",
+  "F015": "INCOMPLETE pending final focused reconciliation",
+  "F020": "INCOMPLETE",
+  "F022": "INCOMPLETE",
+  "F023": "PASS",
+  "F008Strict": {
+    "FAIL": 0,
+    "PASS": 0,
+    "NOT_RUN": 99
+  },
+  "F008BestEffort": {
+    "FAIL": 0,
+    "PASS": 0,
+    "NOT_RUN": 33
+  },
+  "Downstream": "ALL NOT_RUN in current campaign"
+}
