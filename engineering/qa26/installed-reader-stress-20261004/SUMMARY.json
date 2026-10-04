@@ -1,0 +1,165 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "Harness": "QA26-F023-PS51-26",
+  "ProductModified": false,
+  "InstalledPayloadMatched": 60,
+  "GeneratedInstallStateExcludedFromPayloadComparison": true,
+  "InstalledStress": {
+    "CapturedRuns": 2,
+    "ValidatedResults": 36,
+    "QuickResults": 15,
+    "FullResults": 21,
+    "ProgressReads": 71038,
+    "BytesRead": 1780750780,
+    "ReaderIORetries": 2,
+    "WorkerError": false,
+    "LiveCleanup": [
+      {
+        "capture": {
+          "Utc": "2026-10-04T17:40:30.4145068Z",
+          "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+          "Details": {
+            "Mode": "Quick",
+            "CompletedUtc": "2026-10-04T17:40:29.8113176Z",
+            "StartedUtc": "2026-10-04T17:40:12.9450236Z",
+            "Validation": "Host contract validation required",
+            "RawPath": "SCAN_001_RAW.json",
+            "Results": 15,
+            "SHA256": "90B7396B281B544F216EDB451253947AD46EB7202C155F75501775D2943A89AE",
+            "Cancelled": false,
+            "WorkerError": null,
+            "ReadOnly": true
+          }
+        },
+        "firstCleanLive": {
+          "Utc": "2026-10-04T17:40:30.4145068Z",
+          "Event": "LIVE_STATE",
+          "Details": {
+            "IORetries": 0,
+            "AppPids": [
+              9236
+            ],
+            "BytesRead": 203408650,
+            "Reads": 20020,
+            "ActiveInstalledWorkers": [],
+            "TempArtifacts": []
+          }
+        }
+      },
+      {
+        "capture": {
+          "Utc": "2026-10-04T17:41:33.8412720Z",
+          "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+          "Details": {
+            "Mode": "Full",
+            "CompletedUtc": "2026-10-04T17:41:33.5389901Z",
+            "StartedUtc": "2026-10-04T17:40:50.6580025Z",
+            "Validation": "Host contract validation required",
+            "RawPath": "SCAN_002_RAW.json",
+            "Results": 21,
+            "SHA256": "6AC1DA635A0BE7385726EDF76F37BA8F0616FBBC720C5BC2F085BBCBB69A2E04",
+            "Cancelled": false,
+            "WorkerError": null,
+            "ReadOnly": true
+          }
+        },
+        "firstCleanLive": {
+          "Utc": "2026-10-04T17:41:34.3639362Z",
+          "Event": "LIVE_STATE",
+          "Details": {
+            "IORetries": 2,
+            "AppPids": [
+              9236
+            ],
+            "BytesRead": 1780750780,
+            "Reads": 71038,
+            "ActiveInstalledWorkers": [],
+            "TempArtifacts": []
+          }
+        }
+      }
+    ],
+    "WorkerEvents": [
+      {
+        "Utc": "2026-10-04T17:40:11.8499643Z",
+        "Event": "INSTALLED_WORKER_START",
+        "Details": {
+          "CreationUtc": "2026-10-04T17:40:11.7530600Z",
+          "ReadsSoFar": 0,
+          "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-95c4cd5b990c4c7c849ec63b92379a0c.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-95c4cd5b990c4c7c849ec63b92379a0c-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-95c4cd5b990c4c7c849ec63b92379a0c.cancel\" ",
+          "WorkerPid": 10160,
+          "ParentPid": 9236
+        }
+      },
+      {
+        "Utc": "2026-10-04T17:40:30.3984140Z",
+        "Event": "INSTALLED_WORKER_EXIT",
+        "Details": {
+          "CreationUtc": "2026-10-04T17:40:11.7530600Z",
+          "WorkerPid": 10160,
+          "ReadsSoFar": 20020
+        }
+      },
+      {
+        "Utc": "2026-10-04T17:40:50.3086168Z",
+        "Event": "INSTALLED_WORKER_START",
+        "Details": {
+          "CreationUtc": "2026-10-04T17:40:49.8383990Z",
+          "ReadsSoFar": 20020,
+          "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Full -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-e931f840c2ec4bd7b093f3c8ab70042f.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-e931f840c2ec4bd7b093f3c8ab70042f-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-e931f840c2ec4bd7b093f3c8ab70042f.cancel\" ",
+          "WorkerPid": 7328,
+          "ParentPid": 9236
+        }
+      },
+      {
+        "Utc": "2026-10-04T17:41:33.8412720Z",
+        "Event": "INSTALLED_WORKER_EXIT",
+        "Details": {
+          "CreationUtc": "2026-10-04T17:40:49.8383990Z",
+          "WorkerPid": 7328,
+          "ReadsSoFar": 71000
+        }
+      }
+    ]
+  },
+  "Limitations": [
+    "Quick-to-Full gap is approximately 20.85 seconds; not credited as immediate transition.",
+    "No Full-to-Quick transition captured in this run.",
+    "Live empty temp evidence is not an independent leaked-handle test.",
+    "Observer autostart and 25000 disposable workload fixtures still require removal before clean downstream suites.",
+    "v1 observer stopped on optional WorkerError handling; original evidence preserved.",
+    "Generated install-state timestamp differs; all 60 immutable payload files match."
+  ],
+  "Scoreboard": {
+    "Focused": {
+      "F023": "PASS",
+      "F015": "PASS_RECONCILED",
+      "F020": "INCOMPLETE",
+      "F022": "INCOMPLETE"
+    },
+    "F008": {
+      "StrictPASS": 8,
+      "StrictFAIL": 0,
+      "StrictNOT_RUN": 91,
+      "BestEffortPASS": 0,
+      "BestEffortFAIL": 0,
+      "BestEffortNOT_RUN": 33
+    },
+    "Downstream": {
+      "Standard": "NOT_RUN",
+      "Smoke": "NOT_RUN",
+      "Migration": "NOT_RUN",
+      "PrivilegeRollback": "NOT_RUN",
+      "InstallerLifecycle": "NOT_RUN",
+      "F011": "NOT_RUN",
+      "F012": "NOT_RUN",
+      "F010CancellationRelaunch": "INCOMPLETE",
+      "F010MalformedState": "NOT_RUN",
+      "F016": "INCOMPLETE",
+      "Elevated": "NOT_RUN",
+      "PrivacySafetyLifecycle": "NOT_RUN"
+    }
+  },
+  "EngineeringStatus": "HOLD_INCOMPLETE_ACCEPTANCE"
+}
