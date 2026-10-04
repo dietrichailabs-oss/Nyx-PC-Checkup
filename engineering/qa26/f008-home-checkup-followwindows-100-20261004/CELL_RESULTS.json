@@ -1,0 +1,46 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Build": "2026.10.02-eng-qa26",
+  "Theme": "FollowWindows",
+  "Scaling": 100,
+  "Dpi": 96,
+  "Resolution": "1366x768",
+  "WorkArea": "1366x720",
+  "PMv2": true,
+  "ProductModified": false,
+  "InstalledIdentity": "installed-cancellation-timing-20261004/STATUS.json plus prior 60/60 payload comparison",
+  "SharedEvidence": "f008-system-followwindows-100-20261004: same-context containment/resize/Export; startup-100 native geometry/config",
+  "Home": {
+    "Result": "PASS",
+    "Readability": "Heading, six summary cards, counts and attention text with normal scroll",
+    "Actions": "Normal Quick completed after cancellation/relaunch; keyboard genuine Quick cancellation separately validated",
+    "Keyboard": "Visible reverse Settings focus, forward Check My PC focus and automatic scroll into view",
+    "Scrolling": "Lower content reachable; action scrolls into view",
+    "Recreation": "Home/Checkup/Home verified",
+    "Evidence": [
+      "home_14_lower_content_after_quick.png",
+      "home_15_keyboard_action_scroll_into_view.png",
+      "home_16_recreated.png"
+    ],
+    "Reuse": "unattended-system-home-20261003 preview; installed-cancellation-timing-20261004 raw Quick, worker exit/live cleanup"
+  },
+  "Checkup": {
+    "Result": "PASS",
+    "Readability": "Heading/actions/status plus full finding/technical evidence via detail route",
+    "Actions": "Quick and Full scan actions; genuine Full cancellation; prior normal Full contracts",
+    "Keyboard": "Repeated Enter same result, Tab Close, Ctrl+End last row, Tab visible Finding, Ctrl+Shift+Tab Full, Shift+Tab Quick",
+    "Scrolling": "Grid last row, details technical end, outer heading restore",
+    "Recreation": "Checkup/Home/Checkup verified",
+    "Evidence": [
+      "checkup_01_details_end_keyboard.png",
+      "checkup_02_repeated_enter_details.png",
+      "checkup_03_keyboard_last_row.png",
+      "checkup_04_visible_finding_focus.png",
+      "checkup_05_full_action_keyboard_focus.png",
+      "checkup_06_quick_action_keyboard_focus.png",
+      "checkup_07_heading_action_restore.png"
+    ],
+    "Reuse": "native-page-continuation-20261004: 42/42 normal Full results; installed-cancellation-timing-20261004: Quick 5/5 and Full 11/11 valid partial results; shared containment/Export"
+  },
+  "NoUnhandledExceptionObserved": true
+}
