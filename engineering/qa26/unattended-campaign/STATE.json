@@ -2214,6 +2214,13 @@
       "details": "All-users desktop selected; modification buttons disabled, reverse keyboard skips them and reaches visible Refresh. No all-users mutation.",
       "evidence": "screenshots/dark125_startup_allusers_reverse_focus.png",
       "utc": "2026-10-05T13:10:42.186Z"
+    },
+    {
+      "id": "collection_restart_guest_locked_20261005",
+      "status": "BLOCKED_HUMAN",
+      "details": "Nyx VM running at lock screen. Normal RunAs collector attempt canceled; no authentication/UAC bypass. Native tests cannot continue until sign-in.",
+      "evidence": "screenshots/collection_restart_guest_locked_20261005.png",
+      "utc": "2026-10-05T13:16:13.217Z"
     }
   ],
   "evidenceReferences": [
@@ -2232,11 +2239,11 @@
     "checkpoint": "NOT_YET_VERIFIED",
     "session": "Owner confirmed signed in after125% transition; native DPI verification pending",
     "plannedTransition": "Apply configured125% via normal Windows Display sign-out; owner-assisted sign-in, independently verify120DPI before credit",
-    "pendingTransition": "Genuinely elevated collector launch awaits normal UAC",
-    "state": "Running after collector finally restart"
+    "pendingTransition": null,
+    "state": "Running; guest lock screen observed"
   },
-  "lastCompletedAction": "Dark125 Cleanup credited; Startup all-users reverse keyboard boundary verified",
-  "nextAction": "Approve queued secure UAC for read-only collector, validate raw 125% scans, resume next incomplete matrix cell",
+  "lastCompletedAction": "collection_restart_guest_locked_20261005",
+  "nextAction": "Human sign-in as Nyx and normal collector UAC approval; then validate saved scans and resume incomplete Dark125 cells",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -2250,7 +2257,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-05T13:14:17.060Z",
+  "updatedUtc": "2026-10-05T13:16:13.219Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -4083,5 +4090,5 @@
       "status": "PENDING_COLLECTION"
     }
   ],
-  "campaignStatus": "IN_PROGRESS"
+  "campaignStatus": "BLOCKED_HUMAN_NATIVE_SESSION"
 }
