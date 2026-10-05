@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-05T13:14:17.061Z",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "productModified": false,
+  "scoreboard": {
+    "strict": {
+      "PASS": 45,
+      "FAIL": 0,
+      "NOT_RUN": 54
+    },
+    "bestEffort": {
+      "PASS": 0,
+      "FAIL": 0,
+      "NOT_RUN": 33
+    }
+  },
+  "focused": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE",
+    "F010": "INCOMPLETE",
+    "F016": "INCOMPLETE"
+  },
+  "downstream": {
+    "Standard": "NOT_RUN",
+    "Smoke": "NOT_RUN",
+    "Migration": "NOT_RUN",
+    "PrivilegeRollback": "NOT_RUN",
+    "InstallerLifecycle": "NOT_RUN",
+    "F011": "NOT_RUN",
+    "F012": "NOT_RUN",
+    "F010Malformed": "NOT_RUN",
+    "ElevatedPrivilege": "NOT_RUN",
+    "ElevatedLifecycle": "NOT_RUN",
+    "PrivacySafety": "NOT_RUN"
+  },
+  "newProductDefect": false,
+  "collector": "Read-only Mount-VHD privilege failure preserved. VM restarted normally. Normal RunAs collector launch pending; no bypass.",
+  "pendingContracts": "Quick125, Full125, Dark125 transition Quick and observer per-run timestamps remain pending raw collection. 2ms JS dispatch intervals are not authoritative completion-to-start proof."
+}

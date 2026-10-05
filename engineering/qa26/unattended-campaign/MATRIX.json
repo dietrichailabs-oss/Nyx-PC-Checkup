@@ -1,17 +1,6 @@
 {
-  "schema": "QA26-F008-MATRIX-1",
-  "scoreboard": {
-    "strict": {
-      "PASS": 33,
-      "FAIL": 0,
-      "NOT_RUN": 66
-    },
-    "bestEffort": {
-      "PASS": 0,
-      "FAIL": 0,
-      "NOT_RUN": 33
-    }
-  },
+  "schema": "QA26-F008-MATRIX",
+  "candidate": "qa26-f023-candidate-20261002",
   "cells": [
     {
       "theme": "FollowWindows",
@@ -185,8 +174,31 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_updates_redirect.png",
+        "screenshots/followwindows125_updates_enter_details.png",
+        "screenshots/followwindows125_updates_focus_recovery.png",
+        "screenshots/followwindows125_updates_tab_grid.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:57:18.204Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "completeFindingsReachableByEnter": true,
+        "primaryOSRedirectWorked": true,
+        "tabAndReverseExit": true,
+        "keyboardFocusVisible": true,
+        "scrollingAndFocusReveal": true,
+        "noHiddenRequiredAction": true,
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "noOSSettingsChanged": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -194,8 +206,33 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_backup_redirect.png",
+        "screenshots/followwindows125_backup_enter_details.png",
+        "screenshots/followwindows125_backup_focus_recovery.png",
+        "screenshots/followwindows125_backup_status_tooltip.png",
+        "screenshots/followwindows125_backup_tab_recreation.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:59:38.818Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "statusMeaningReadableInTooltip": true,
+        "fullFindingAndSafetyReadable": true,
+        "primaryRedirectWorked": true,
+        "tabReverseTabAndEnter": true,
+        "keyboardFocusVisible": true,
+        "scrollingAndFocusReveal": true,
+        "pageRecreation": true,
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "noBackupSettingsChanged": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -203,8 +240,23 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_system_about_redirect.png",
+        "screenshots/followwindows125_system_network_details.png",
+        "screenshots/followwindows125_system_focus_scroll.png",
+        "screenshots/followwindows125_system_maximize.png",
+        "screenshots/followwindows125_system_tab_grid.png",
+        "screenshots/followwindows125_system_restore.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_system_last_result_keyboard.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:05:35.995Z",
+      "predicates": {
+        "observation": "Required System content accessible through normal scrolling and result details; About redirect and keyboard flow verified; no exception observed."
+      }
     },
     {
       "theme": "FollowWindows",
@@ -212,8 +264,40 @@
       "page": "Apps",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_apps_full_started.png",
+        "screenshots/followwindows125_apps_filter_zero.png",
+        "screenshots/followwindows125_apps_filter_restore_tab.png",
+        "screenshots/followwindows125_apps_version_focus.png",
+        "screenshots/followwindows125_apps_horizontal_scroll.png",
+        "screenshots/followwindows125_apps_open_selected_folder.png",
+        "screenshots/followwindows125_apps_installed_redirect.png",
+        "screenshots/followwindows125_apps_recreation.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:48:28.353Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextAndVersionReadable": true,
+        "primaryActionsReachableAndExecuted": [
+          "Open Installed Apps",
+          "Run Full Check",
+          "Open selected folder"
+        ],
+        "keyboardFocusVisible": true,
+        "tabReverseTabAndArrows": true,
+        "horizontalKeyboardScroll": true,
+        "filterZeroAndRestore": true,
+        "pageRecreation": true,
+        "noHiddenRequiredAction": true,
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "scanContractValidationSeparateAndPending": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -221,8 +305,34 @@
       "page": "Cleanup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_cleanup_keyboard_select.png",
+        "screenshots/followwindows125_cleanup_confirmation.png",
+        "screenshots/followwindows125_cleanup_restored_zero.png",
+        "screenshots/followwindows125_cleanup_zero_guard.png",
+        "screenshots/followwindows125_cleanup_tooltip.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:47:50.184Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "textReadableWithRequiredConsequenceTooltip": true,
+        "requiredControlsReachable": true,
+        "keyboardSelectionAndReverseTab": true,
+        "reviewAndZeroSelectionGuardOperable": true,
+        "scrollingAndFocusReveal": true,
+        "noHiddenRequiredAction": true,
+        "confirmationCancelled": true,
+        "stateRestored": "0 items / 0 B",
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "refreshFullActionVisible": true,
+        "fullScanDataPopulatedByInstalledAppsFullAction": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -230,8 +340,38 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_settings_update_keyboard.png",
+        "screenshots/followwindows125_settings_update_handled.png",
+        "screenshots/followwindows125_settings_localdata_focus.png",
+        "screenshots/followwindows125_settings_open_localdata.png",
+        "screenshots/followwindows125_settings_save_focus.png",
+        "screenshots/followwindows125_settings_save_success.png",
+        "screenshots/followwindows125_settings_reverse_tab.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:27:59.657Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "requiredControlsReachable": true,
+        "keyboardFocusVisible": true,
+        "tabAndReverseTab": true,
+        "scrollingAndFocusReveal": true,
+        "pageActions": [
+          "Open local data folder succeeded",
+          "Save unchanged settings succeeded",
+          "Check updates keyboard action produced handled offline message"
+        ],
+        "privacySettingsUnchanged": true,
+        "noUnhandledExceptionObserved": true,
+        "workAreaContainment": "Visible normal-window containment and prior same-session maximize/restore",
+        "updateNetworkSuccessNotClaimed": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -780,8 +920,18 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_updates_redirect.png",
+        "screenshots/dark125_updates_enter_details.png",
+        "screenshots/dark125_updates_reverse_focus.png",
+        "screenshots/dark125_updates_forward_focus.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:31:35.067Z",
+      "predicates": {
+        "observation": "Dark125 Updates full description, safe primary dispatch, Enter details, visible reverse/forward keyboard focus, full timestamp and work-area containment verified."
+      }
     },
     {
       "theme": "Dark",
@@ -789,8 +939,18 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_backup_enter_details.png",
+        "screenshots/dark125_backup_redirect.png",
+        "screenshots/dark125_backup_tab_recovery.png",
+        "screenshots/dark125_backup_status_tooltip.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:26:49.038Z",
+      "predicates": {
+        "observation": "Dark125 Backup: wrapped text, safe primary redirect, Enter full details, visible forward/reverse focus, normal scrolling, full status tooltip and contained window verified. Existing frozen identity and unchanged native120DPI context retained."
+      }
     },
     {
       "theme": "Dark",
@@ -798,8 +958,21 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_system_about_redirect.png",
+        "screenshots/dark125_system_enter_details.png",
+        "screenshots/dark125_system_reverse_focus.png",
+        "screenshots/dark125_system_forward_focus.png",
+        "screenshots/dark125_system_status_tooltip.png",
+        "screenshots/dark125_system_maximize.png",
+        "screenshots/dark125_system_restore.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:35:43.173Z",
+      "predicates": {
+        "observation": "Dark125 System full description, About dispatch, Enter readable finding, forward/reverse visible focus, full status tooltip, normal scrolling and maximize/restore containment verified."
+      }
     },
     {
       "theme": "Dark",
@@ -807,8 +980,29 @@
       "page": "Apps",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_apps_empty_state.png",
+        "screenshots/dark125_apps_full_action.png",
+        "screenshots/dark125_apps_zero_filter.png",
+        "screenshots/dark125_apps_filter_restored_tab.png",
+        "screenshots/dark125_apps_version_keyboard.png",
+        "screenshots/dark125_apps_end_horizontal.png",
+        "screenshots/dark125_apps_home_horizontal.png",
+        "screenshots/dark125_apps_pagedown.png",
+        "screenshots/dark125_apps_pageup.png",
+        "screenshots/dark125_apps_down.png",
+        "screenshots/dark125_apps_up.png",
+        "screenshots/dark125_apps_folder_action_focus.png",
+        "screenshots/dark125_apps_open_valid_folder.png",
+        "screenshots/dark125_apps_installed_redirect.png",
+        "screenshots/dark125_apps_recreation.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:58:05.250Z",
+      "predicates": {
+        "observation": "Dark125 Apps actual Full populated5 entries, zero/clear filter, Version read, Home/End/PageUp/PageDown/Up/Down no activation, visible keyboard focus/scrolling, valid folder action, Installed Apps safe dispatch and page recreation verified. Dedicated unavailable-folder fixture remains an F022 focused requirement, not claimed by empty selection. Raw Full contract collection pending separately."
+      }
     },
     {
       "theme": "Dark",
@@ -816,8 +1010,18 @@
       "page": "Cleanup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_cleanup_selection.png",
+        "screenshots/dark125_cleanup_confirmation.png",
+        "screenshots/dark125_cleanup_restored_zero.png",
+        "screenshots/dark125_cleanup_zero_guard.png",
+        "screenshots/dark125_cleanup_tooltip.png",
+        "screenshots/dark125_cleanup_safety_scroll.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T13:09:33.936Z",
+      "predicates": "Validated selection/restore, explicit confirmation declined, zero-selection guard, consequence tooltip, keyboard review focus, scrolling and complete safety text. No deletion executed."
     },
     {
       "theme": "Dark",
@@ -825,8 +1029,21 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_settings_progress_observation.png",
+        "screenshots/dark125_settings_update_focus.png",
+        "screenshots/dark125_settings_update_handled.png",
+        "screenshots/dark125_settings_open_localdata.png",
+        "screenshots/dark125_settings_logs_focus_only.png",
+        "screenshots/dark125_settings_save_success.png",
+        "screenshots/dark125_settings_reverse_tab.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:49:43.781Z",
+      "predicates": {
+        "observation": "Applied Dark125 verified, keyboard preferences untouched, update action handled cleanly, local data opened, logs action reachable without deleting evidence, keyboard Save successful, reverse focus visible and window contained."
+      }
     },
     {
       "theme": "Dark",
@@ -1556,5 +1773,17 @@
       "status": "NOT_RUN",
       "evidence": []
     }
-  ]
+  ],
+  "scoreboard": {
+    "strict": {
+      "PASS": 45,
+      "FAIL": 0,
+      "NOT_RUN": 54
+    },
+    "bestEffort": {
+      "PASS": 0,
+      "FAIL": 0,
+      "NOT_RUN": 33
+    }
+  }
 }

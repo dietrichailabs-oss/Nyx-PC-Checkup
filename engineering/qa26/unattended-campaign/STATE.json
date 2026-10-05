@@ -6,10 +6,10 @@
   "candidate": "qa26-f023-candidate-20261002",
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
-  "currentBatch": "B_LIGHT_100_PENDING_RAW_VALIDATION",
-  "currentTheme": "Light",
-  "currentScale": 100,
-  "currentPage": "Home",
+  "currentBatch": "B_DARK_125",
+  "currentTheme": "Dark",
+  "currentScale": 125,
+  "currentPage": "Startup",
   "currentSuite": null,
   "focused": {
     "F023": "PASS",
@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 33,
+      "PASS": 45,
       "FAIL": 0,
-      "NOT_RUN": 66
+      "NOT_RUN": 54
     },
     "bestEffort": {
       "PASS": 0,
@@ -968,6 +968,1252 @@
       "details": "Normal vertical scrollbar exposes Startup/Backup/System cards and all six findings; text conveys meaning without color, no clipping of essential findings or exception.",
       "evidence": "screenshots/light100_home_lower_readability.png",
       "utc": "2026-10-04T22:48:22.362Z"
+    },
+    {
+      "id": "post_restart_native_96dpi_verified",
+      "status": "PASS_OBSERVED",
+      "details": "Current observer geometry_v2_20261004_202107 first record UTC2026-10-05T00:21:10.1605862Z explicitly Dpi96, normal app boundsX86/Y32/W1280/H680. Do not credit configured125 before sign-out applies it.",
+      "evidence": "screenshots/post_restart_native_96dpi_verified.png",
+      "utc": "2026-10-05T00:27:33.678Z"
+    },
+    {
+      "id": "followwindows125_theme_saved",
+      "status": "PASS_OBSERVED",
+      "details": "FollowWindows theme saved for next app launch before planned125% scaling transition; no product bytes altered. Not a125% matrix PASS.",
+      "evidence": "screenshots/followwindows125_theme_saved.png",
+      "utc": "2026-10-05T00:29:39.737Z"
+    },
+    {
+      "id": "custom_scaling_actual100_before125",
+      "status": "OBSERVED",
+      "details": "Display overview disabled dropdown shows125 but Custom scaling actual field100; native window96DPI agrees actual100. Set intended125 via normal UI, no125 PASS yet.",
+      "evidence": "screenshots/custom_scaling_actual100_before125.png",
+      "utc": "2026-10-05T00:31:44.668Z"
+    },
+    {
+      "id": "custom125_applied_pending_signout",
+      "status": "OBSERVED",
+      "details": "Normal Windows custom scaling field125 accepted; OS explicitly says custom scale will not apply until sign-out. FollowWindows saved for next launch. No125% credit taken.",
+      "evidence": "screenshots/custom125_applied_pending_signout.png",
+      "utc": "2026-10-05T00:33:17.638Z"
+    },
+    {
+      "id": "followwindows125_native120dpi_verified",
+      "status": "PASS",
+      "details": {
+        "nativeDpi": 120,
+        "scale": 125,
+        "geometryFile": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Geometry\\geometry_v2_20261004_203812\\CONTROL_GEOMETRY.jsonl",
+        "observerUtc": "2026-10-05T00:38:15.1841217Z",
+        "formBounds": {
+          "X": 32,
+          "Y": 32,
+          "Width": 1340,
+          "Height": 660
+        },
+        "note": "Native JSONL viewed without editing; matrix cells not yet credited."
+      },
+      "evidence": "screenshots/followwindows125_native120dpi_verified.png",
+      "utc": "2026-10-05T00:40:47.758Z"
+    },
+    {
+      "id": "followwindows125_home_quick_started",
+      "status": "PASS",
+      "details": {
+        "primaryAction": "Check My PC",
+        "statusVisible": true,
+        "cancelVisible": true,
+        "cellStatus": "INCOMPLETE_PENDING_REMAINING_PREDICATES"
+      },
+      "evidence": "screenshots/followwindows125_home_quick_started.png",
+      "utc": "2026-10-05T00:41:30.945Z"
+    },
+    {
+      "id": "followwindows125_home_scroll_status",
+      "status": "PASS",
+      "details": {
+        "categoryCardsReadable": true,
+        "statusHasText": true,
+        "quickObservedComplete": true,
+        "authoritativeContract": "PENDING_COLLECTION"
+      },
+      "evidence": "screenshots/followwindows125_home_scroll_status.png",
+      "utc": "2026-10-05T00:41:51.625Z"
+    },
+    {
+      "id": "followwindows125_checkup_enter_details",
+      "status": "PASS",
+      "details": {
+        "detailTitle": "System overview",
+        "requiredFindingReadable": true,
+        "explanationReadable": true,
+        "actionSafetyReadable": true,
+        "scrollbarsPresent": true,
+        "nativeDpi": 120
+      },
+      "evidence": "screenshots/followwindows125_checkup_enter_details.png",
+      "utc": "2026-10-05T00:42:36.071Z"
+    },
+    {
+      "id": "followwindows125_checkup_keyboard_exit",
+      "status": "PASS",
+      "details": {
+        "chord": "Control+Shift+Tab",
+        "focusedAction": "Full Check",
+        "focusVisible": true,
+        "primaryActionsFullyReachable": true,
+        "autoScrollIntoView": true
+      },
+      "evidence": "screenshots/followwindows125_checkup_keyboard_exit.png",
+      "utc": "2026-10-05T00:43:03.945Z"
+    },
+    {
+      "id": "followwindows125_checkup_reverse_tab",
+      "status": "PASS",
+      "details": {
+        "focusedAction": "Quick Check",
+        "focusVisible": true,
+        "reverseTabOperable": true
+      },
+      "evidence": "screenshots/followwindows125_checkup_reverse_tab.png",
+      "utc": "2026-10-05T00:43:22.312Z"
+    },
+    {
+      "id": "followwindows125_system_about_redirect",
+      "status": "PASS",
+      "details": {
+        "destination": "Windows Settings > System > About",
+        "settingsModified": false
+      },
+      "evidence": "screenshots/followwindows125_system_about_redirect.png",
+      "utc": "2026-10-05T00:43:59.777Z"
+    },
+    {
+      "id": "followwindows125_system_network_details",
+      "status": "PASS",
+      "details": {
+        "detailTitle": "Network basics",
+        "fullFindingReadable": true,
+        "recommendationReadable": true,
+        "actionSafety": "None",
+        "noNetworkSettingsChanged": true
+      },
+      "evidence": "screenshots/followwindows125_system_network_details.png",
+      "utc": "2026-10-05T11:17:11.007Z"
+    },
+    {
+      "id": "followwindows125_system_focus_scroll",
+      "status": "PASS",
+      "details": {
+        "primaryActionFocusVisible": true,
+        "actionTextFullyVisible": true,
+        "keyboardExitOperable": true,
+        "automaticScroll": true
+      },
+      "evidence": "screenshots/followwindows125_system_focus_scroll.png",
+      "utc": "2026-10-05T11:17:43.910Z"
+    },
+    {
+      "id": "followwindows125_system_maximize",
+      "status": "PASS",
+      "details": {
+        "maximized": true,
+        "taskbarNotCovered": true,
+        "primaryActionVisible": true,
+        "exportVisible": true,
+        "statusVisible": true,
+        "navigationVisible": true
+      },
+      "evidence": "screenshots/followwindows125_system_maximize.png",
+      "utc": "2026-10-05T11:18:25.871Z"
+    },
+    {
+      "id": "followwindows125_system_tab_grid",
+      "status": "PASS",
+      "details": {
+        "visibleFocusCell": "Network basics",
+        "tabOperable": true,
+        "fullFindingReachableByEnter": true
+      },
+      "evidence": "screenshots/followwindows125_system_tab_grid.png",
+      "utc": "2026-10-05T11:18:42.389Z"
+    },
+    {
+      "id": "followwindows125_system_restore",
+      "status": "PASS",
+      "details": {
+        "restorePreservesLayout": true,
+        "focusedCellVisible": true,
+        "windowVisuallyContained": true
+      },
+      "evidence": "screenshots/followwindows125_system_restore.png",
+      "utc": "2026-10-05T11:19:19.272Z"
+    },
+    {
+      "id": "followwindows125_startup_refresh",
+      "status": "PASS",
+      "details": {
+        "refreshReloaded": true,
+        "actionsReadable": true,
+        "currentUserOneDrive": "Enabled",
+        "noUnhandledDialog": true
+      },
+      "evidence": "screenshots/followwindows125_startup_refresh.png",
+      "utc": "2026-10-05T11:20:03.100Z"
+    },
+    {
+      "id": "followwindows125_startup_allusers_readonly",
+      "status": "PASS",
+      "details": {
+        "selectedEntry": "desktop",
+        "source": "All users Startup folder",
+        "disableUnavailable": true,
+        "reenableUnavailable": true,
+        "openLocationFocusVisible": true,
+        "noModificationAttempted": true
+      },
+      "evidence": "screenshots/followwindows125_startup_allusers_readonly.png",
+      "utc": "2026-10-05T11:20:31.647Z"
+    },
+    {
+      "id": "followwindows125_startup_open_valid",
+      "status": "PASS",
+      "details": {
+        "action": "Open file location via Enter",
+        "destination": "Start Menu > Programs > Startup",
+        "noElevation": true,
+        "noFilesChanged": true
+      },
+      "evidence": "screenshots/followwindows125_startup_open_valid.png",
+      "utc": "2026-10-05T11:20:59.205Z"
+    },
+    {
+      "id": "followwindows125_sidebar_scroll",
+      "status": "PASS",
+      "details": {
+        "lowerNavigationReachable": [
+          "Apps",
+          "Cleanup",
+          "Settings"
+        ],
+        "scrollingWorks": true
+      },
+      "evidence": "screenshots/followwindows125_sidebar_scroll.png",
+      "utc": "2026-10-05T11:21:40.574Z"
+    },
+    {
+      "id": "followwindows125_settings_update_keyboard",
+      "status": "PASS",
+      "details": {
+        "theme": "FollowWindows",
+        "tabAutoScroll": true,
+        "updateActionReachedByKeyboard": true,
+        "updateHandlerStarted": true,
+        "preferencesUnchanged": true
+      },
+      "evidence": "screenshots/followwindows125_settings_update_keyboard.png",
+      "utc": "2026-10-05T11:23:36.837Z"
+    },
+    {
+      "id": "followwindows125_settings_update_handled",
+      "status": "PASS",
+      "details": {
+        "displayedMessage": "Unable to check for updates right now. Please try again later.",
+        "networkAvailability": "Not proven; guest previously reported Internet checks failed",
+        "handledDialogReadable": true,
+        "noUnhandledExceptionObserved": true,
+        "updateSuccessNotClaimed": true
+      },
+      "evidence": "screenshots/followwindows125_settings_update_handled.png",
+      "utc": "2026-10-05T11:23:53.897Z"
+    },
+    {
+      "id": "followwindows125_settings_localdata_focus",
+      "status": "PASS",
+      "details": {
+        "primaryLocalDataActionReadable": true,
+        "focusVisible": true,
+        "automaticScroll": true
+      },
+      "evidence": "screenshots/followwindows125_settings_localdata_focus.png",
+      "utc": "2026-10-05T11:24:32.257Z"
+    },
+    {
+      "id": "followwindows125_settings_open_localdata",
+      "status": "PASS",
+      "details": {
+        "destination": "Dietrich AI Labs > Nyx PC Checkup",
+        "noFilesModified": true
+      },
+      "evidence": "screenshots/followwindows125_settings_open_localdata.png",
+      "utc": "2026-10-05T11:25:00.983Z"
+    },
+    {
+      "id": "followwindows125_quick_live_temp_empty",
+      "status": "PASS",
+      "details": {
+        "directory": "Nyx PC Checkup/temp",
+        "visibleItems": 0,
+        "guestRunning": true,
+        "beforeShutdown": true,
+        "workerExitProof": "Not established by this folder view; remains required separately",
+        "handleAccessProof": "Not established by this folder view"
+      },
+      "evidence": "screenshots/followwindows125_quick_live_temp_empty.png",
+      "utc": "2026-10-05T11:25:31.397Z"
+    },
+    {
+      "id": "followwindows125_settings_save_focus",
+      "status": "PASS",
+      "details": {
+        "saveTextReadable": true,
+        "focusVisible": true,
+        "automaticScroll": true,
+        "deleteLogsNotExecuted": true
+      },
+      "evidence": "screenshots/followwindows125_settings_save_focus.png",
+      "utc": "2026-10-05T11:26:28.862Z"
+    },
+    {
+      "id": "followwindows125_settings_save_success",
+      "status": "PASS",
+      "details": {
+        "acknowledgementReadable": true,
+        "saveActuallyCompleted": true,
+        "themeUnchanged": "FollowWindows",
+        "preferencesUnchanged": true
+      },
+      "evidence": "screenshots/followwindows125_settings_save_success.png",
+      "utc": "2026-10-05T11:26:57.258Z"
+    },
+    {
+      "id": "followwindows125_settings_reverse_tab",
+      "status": "PASS",
+      "details": {
+        "reverseTabOperable": true,
+        "focusedAction": "Delete local logs",
+        "focusVisible": true,
+        "actionNotExecuted": true
+      },
+      "evidence": "screenshots/followwindows125_settings_reverse_tab.png",
+      "utc": "2026-10-05T11:27:59.656Z"
+    },
+    {
+      "id": "followwindows125_export_review_keyboard",
+      "status": "PASS",
+      "details": {
+        "previewReadable": true,
+        "continueSaveReachable": true,
+        "cancelReachable": true,
+        "dialogContained": true,
+        "autoScroll": true
+      },
+      "evidence": "screenshots/followwindows125_export_review_keyboard.png",
+      "utc": "2026-10-05T11:29:26.655Z"
+    },
+    {
+      "id": "followwindows125_export_quick_json",
+      "status": "PASS",
+      "details": {
+        "savedPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\quick125.json",
+        "format": "JSON report",
+        "saveAcknowledged": true,
+        "contractValidation": "PENDING_COLLECTION"
+      },
+      "evidence": "screenshots/followwindows125_export_quick_json.png",
+      "utc": "2026-10-05T11:32:06.149Z"
+    },
+    {
+      "id": "followwindows125_apps_full_started",
+      "status": "PASS",
+      "details": {
+        "action": "Run Full Check",
+        "statusReadable": true,
+        "cancelReachable": true,
+        "candidateUnchanged": true
+      },
+      "evidence": "screenshots/followwindows125_apps_full_started.png",
+      "utc": "2026-10-05T11:32:54.375Z"
+    },
+    {
+      "id": "followwindows125_backup_redirect",
+      "status": "PASS",
+      "details": {
+        "destination": "Windows Settings > Accounts > Windows backup",
+        "settingsUnchanged": true
+      },
+      "evidence": "screenshots/followwindows125_backup_redirect.png",
+      "utc": "2026-10-05T11:33:34.070Z"
+    },
+    {
+      "id": "followwindows125_backup_enter_details",
+      "status": "PASS",
+      "details": {
+        "title": "Backup checkup",
+        "requiredFindingReadable": true,
+        "wrappedExplanationReadable": true,
+        "recommendationReadable": true,
+        "safetyReadable": "SafeRedirect",
+        "completeFalseDisplayed": true,
+        "dialogContained": true
+      },
+      "evidence": "screenshots/followwindows125_backup_enter_details.png",
+      "utc": "2026-10-05T11:34:46.514Z"
+    },
+    {
+      "id": "followwindows125_backup_focus_recovery",
+      "status": "PASS",
+      "details": {
+        "focusedPrimaryAction": "Open Windows Backup",
+        "keyboardExit": true,
+        "autoScroll": true,
+        "focusVisible": true
+      },
+      "evidence": "screenshots/followwindows125_backup_focus_recovery.png",
+      "utc": "2026-10-05T11:36:06.229Z"
+    },
+    {
+      "id": "followwindows125_apps_filter_zero",
+      "status": "PASS",
+      "details": {
+        "filter": "zzz",
+        "zeroRows": true,
+        "headersReadable": true,
+        "actionsRemainReachable": true,
+        "noUnhandledExceptionObserved": true
+      },
+      "evidence": "screenshots/followwindows125_apps_filter_zero.png",
+      "utc": "2026-10-05T11:37:04.859Z"
+    },
+    {
+      "id": "followwindows125_apps_filter_restore_tab",
+      "status": "PASS",
+      "details": {
+        "rowsRestored": 5,
+        "filterEmpty": true,
+        "gridFocusVisible": true,
+        "autoScroll": true
+      },
+      "evidence": "screenshots/followwindows125_apps_filter_restore_tab.png",
+      "utc": "2026-10-05T11:38:04.434Z"
+    },
+    {
+      "id": "followwindows125_apps_version_focus",
+      "status": "PASS",
+      "details": {
+        "focusedColumn": "Version",
+        "value": "145.0.3800.97",
+        "fullValueReadable": true,
+        "focusVisible": true
+      },
+      "evidence": "screenshots/followwindows125_apps_version_focus.png",
+      "utc": "2026-10-05T11:38:44.208Z"
+    },
+    {
+      "id": "followwindows125_apps_horizontal_scroll",
+      "status": "PASS",
+      "details": {
+        "key": "End",
+        "focusedColumn": "Reported size",
+        "value": "Unknown",
+        "columnHeaderReadable": true,
+        "keyboardHorizontalScroll": true
+      },
+      "evidence": "screenshots/followwindows125_apps_horizontal_scroll.png",
+      "utc": "2026-10-05T11:39:00.969Z"
+    },
+    {
+      "id": "followwindows125_apps_open_selected_folder",
+      "status": "PASS",
+      "details": {
+        "selectedApplication": "Microsoft Edge",
+        "destination": "Edge/Application",
+        "keyboardActionWorked": true,
+        "focusActionVisible": true,
+        "noFilesModified": true
+      },
+      "evidence": "screenshots/followwindows125_apps_open_selected_folder.png",
+      "utc": "2026-10-05T11:39:59.382Z"
+    },
+    {
+      "id": "followwindows125_apps_installed_redirect",
+      "status": "PASS",
+      "details": {
+        "destination": "Windows Settings > Apps > Installed apps",
+        "noUninstallOrModification": true
+      },
+      "evidence": "screenshots/followwindows125_apps_installed_redirect.png",
+      "utc": "2026-10-05T11:40:59.411Z"
+    },
+    {
+      "id": "followwindows125_cleanup_keyboard_select",
+      "status": "PASS",
+      "details": {
+        "selectedItem": "BITFB98.tmp",
+        "size": "0 B",
+        "spaceToggledSelection": true,
+        "noCleanupExecuted": true
+      },
+      "evidence": "screenshots/followwindows125_cleanup_keyboard_select.png",
+      "utc": "2026-10-05T11:42:42.832Z"
+    },
+    {
+      "id": "followwindows125_cleanup_confirmation",
+      "status": "PASS",
+      "details": {
+        "selectedCount": 1,
+        "total": "0 B",
+        "consequenceReadable": "Files will be moved to the Windows Recycle Bin",
+        "yesAndNoReachable": true,
+        "focusedButtonObserved": "Yes",
+        "deletionNotConfirmed": true
+      },
+      "evidence": "screenshots/followwindows125_cleanup_confirmation.png",
+      "utc": "2026-10-05T11:43:48.523Z"
+    },
+    {
+      "id": "followwindows125_cleanup_restored_zero",
+      "status": "PASS",
+      "details": {
+        "selectedCount": 0,
+        "total": "0 B",
+        "noCleanupExecuted": true,
+        "focusVisible": true,
+        "reverseTabRestoredSelectionCell": true
+      },
+      "evidence": "screenshots/followwindows125_cleanup_restored_zero.png",
+      "utc": "2026-10-05T11:46:13.318Z"
+    },
+    {
+      "id": "followwindows125_cleanup_zero_guard",
+      "status": "PASS",
+      "details": {
+        "message": "Select at least one displayed item.",
+        "noDestructiveAction": true,
+        "dialogReadable": true
+      },
+      "evidence": "screenshots/followwindows125_cleanup_zero_guard.png",
+      "utc": "2026-10-05T11:46:45.993Z"
+    },
+    {
+      "id": "followwindows125_cleanup_tooltip",
+      "status": "PASS",
+      "details": {
+        "fullTooltip": "Moves this exact item to the Windows Recycle Bin.",
+        "requiredConsequenceReadable": true,
+        "selectedCount": 0,
+        "noDeletion": true
+      },
+      "evidence": "screenshots/followwindows125_cleanup_tooltip.png",
+      "utc": "2026-10-05T11:47:50.182Z"
+    },
+    {
+      "id": "followwindows125_apps_recreation",
+      "status": "PASS",
+      "details": {
+        "inventoryRestored": true,
+        "filterEmpty": true,
+        "columnsRestored": true,
+        "actionsVisible": true,
+        "noUnhandledExceptionObserved": true
+      },
+      "evidence": "screenshots/followwindows125_apps_recreation.png",
+      "utc": "2026-10-05T11:48:28.352Z"
+    },
+    {
+      "id": "followwindows125_storage_downloads",
+      "status": "PASS",
+      "details": {
+        "destination": "Users/Nyx/Downloads",
+        "noDeletion": true,
+        "actionWorked": true
+      },
+      "evidence": "screenshots/followwindows125_storage_downloads.png",
+      "utc": "2026-10-05T11:49:44.278Z"
+    },
+    {
+      "id": "followwindows125_storage_enter_details",
+      "status": "PASS",
+      "details": {
+        "title": "Downloads checkup",
+        "findingReadable": true,
+        "recommendationReadable": true,
+        "safetyReadable": "DestructiveAction",
+        "completeTrueDisplayed": true,
+        "noActionExecuted": true,
+        "dialogContained": true
+      },
+      "evidence": "screenshots/followwindows125_storage_enter_details.png",
+      "utc": "2026-10-05T11:51:31.311Z"
+    },
+    {
+      "id": "followwindows125_storage_focus_recovery",
+      "status": "PASS",
+      "details": {
+        "keyboardExit": true,
+        "focusedAction": "Run Full Check",
+        "allThreeActionsFullyVisible": true,
+        "autoScroll": true,
+        "noUnhandledExceptionObserved": true
+      },
+      "evidence": "screenshots/followwindows125_storage_focus_recovery.png",
+      "utc": "2026-10-05T11:53:38.593Z"
+    },
+    {
+      "id": "followwindows125_updates_redirect",
+      "status": "PASS",
+      "details": {
+        "destination": "Windows Settings > Windows Update",
+        "noOSUpdateStarted": true,
+        "noSettingsChanged": true
+      },
+      "evidence": "screenshots/followwindows125_updates_redirect.png",
+      "utc": "2026-10-05T11:54:27.215Z"
+    },
+    {
+      "id": "followwindows125_updates_enter_details",
+      "status": "PASS",
+      "details": {
+        "title": "Last successful Windows update",
+        "fullFindingReadable": true,
+        "sourceReadable": true,
+        "timestampReadable": true,
+        "recommendationReadable": true,
+        "dialogContained": true
+      },
+      "evidence": "screenshots/followwindows125_updates_enter_details.png",
+      "utc": "2026-10-05T11:56:02.459Z"
+    },
+    {
+      "id": "followwindows125_updates_focus_recovery",
+      "status": "PASS",
+      "details": {
+        "primaryActionFocusVisible": true,
+        "autoScroll": true,
+        "fullActionTextVisible": true
+      },
+      "evidence": "screenshots/followwindows125_updates_focus_recovery.png",
+      "utc": "2026-10-05T11:56:53.865Z"
+    },
+    {
+      "id": "followwindows125_updates_tab_grid",
+      "status": "PASS",
+      "details": {
+        "focusVisible": true,
+        "selectedCheck": "Last successful Windows update",
+        "forwardTabOperable": true
+      },
+      "evidence": "screenshots/followwindows125_updates_tab_grid.png",
+      "utc": "2026-10-05T11:57:18.202Z"
+    },
+    {
+      "id": "followwindows125_backup_status_tooltip",
+      "status": "PASS",
+      "details": {
+        "fullStatus": "Needs Attention",
+        "tooltipReadable": true,
+        "meaningNotColorOnly": true
+      },
+      "evidence": "screenshots/followwindows125_backup_status_tooltip.png",
+      "utc": "2026-10-05T11:58:35.114Z"
+    },
+    {
+      "id": "followwindows125_backup_tab_recreation",
+      "status": "PASS",
+      "details": {
+        "pageRecreated": true,
+        "visibleCellFocus": true,
+        "forwardTab": true,
+        "reverseExit": true,
+        "primaryFocusReveal": true
+      },
+      "evidence": "screenshots/followwindows125_backup_tab_recreation.png",
+      "utc": "2026-10-05T11:59:38.816Z"
+    },
+    {
+      "id": "followwindows125_system_last_result_keyboard",
+      "status": "PASS",
+      "details": {
+        "observation": "Ctrl+End reaches last Full-check performance result; page auto-scroll exposes all five rows and visible selected cell. Prior About redirect, result details, reverse/forward Tab and maximize/restore evidence retained."
+      },
+      "evidence": "screenshots/followwindows125_system_last_result_keyboard.png",
+      "utc": "2026-10-05T12:05:35.994Z"
+    },
+    {
+      "id": "followwindows125_security_unknown_details",
+      "status": "PASS",
+      "details": {
+        "observation": "Secure Boot Enter detail exposes full unavailable explanation, no automatic change, Action Safety None, Complete False; no product exception. Does not claim Secure Boot verified."
+      },
+      "evidence": "screenshots/followwindows125_security_unknown_details.png",
+      "utc": "2026-10-05T12:06:32.197Z"
+    },
+    {
+      "id": "followwindows125_security_reverse_tab",
+      "status": "PASS",
+      "details": {
+        "observation": "Ctrl+Shift+Tab scrolls Open Windows Security fully into view with visible focus; security application redirect itself not automated."
+      },
+      "evidence": "screenshots/followwindows125_security_reverse_tab.png",
+      "utc": "2026-10-05T12:06:57.052Z"
+    },
+    {
+      "id": "followwindows125_startup_refresh_after_full",
+      "status": "PASS",
+      "details": {
+        "observation": "Actual Refresh after current Full completion reloads four visible startup entries, no deferred-state exception; OneDrive remains Enabled and all-users entry is unchanged."
+      },
+      "evidence": "screenshots/followwindows125_startup_refresh_after_full.png",
+      "utc": "2026-10-05T12:07:46.969Z"
+    },
+    {
+      "id": "followwindows125_startup_allusers_keyboard_skip",
+      "status": "PASS",
+      "details": {
+        "observation": "All-users desktop selected; reverse Tab from Open file location skips both disabled mutation actions and reaches Refresh. No all-users state modified."
+      },
+      "evidence": "screenshots/followwindows125_startup_allusers_keyboard_skip.png",
+      "utc": "2026-10-05T12:08:20.088Z"
+    },
+    {
+      "id": "followwindows125_export_full_json",
+      "status": "PASS",
+      "details": {
+        "observation": "Normal Export Report saved JSON to C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\full125.json. Actual contract validation remains pending collection."
+      },
+      "evidence": "screenshots/followwindows125_export_full_json.png",
+      "utc": "2026-10-05T12:11:04.113Z"
+    },
+    {
+      "id": "followwindows125_checkup_lastrow_scroll",
+      "status": "PASS",
+      "details": {
+        "observation": "Ctrl+End scrolls Full Check grid to final Applications result with visible focus; optional/unknown statuses shown by text and symbol, not color alone."
+      },
+      "evidence": "screenshots/followwindows125_checkup_lastrow_scroll.png",
+      "utc": "2026-10-05T12:12:05.639Z"
+    },
+    {
+      "id": "followwindows125_checkup_result_enter",
+      "status": "PASS",
+      "details": {
+        "observation": "Enter on final installed-applications finding opens full readable detail, Count 5, informational/no automatic uninstall, SafeRedirect and Complete True; technical evidence scroll available."
+      },
+      "evidence": "screenshots/followwindows125_checkup_result_enter.png",
+      "utc": "2026-10-05T12:12:28.167Z"
+    },
+    {
+      "id": "followwindows125_checkup_focus_recovery",
+      "status": "PASS",
+      "details": {
+        "observation": "After closing detail, Ctrl+Shift+Tab exposes Full Check with visible focus, Quick Check and Export remain reachable. Scan contracts still pending collection; cell not credited yet."
+      },
+      "evidence": "screenshots/followwindows125_checkup_focus_recovery.png",
+      "utc": "2026-10-05T12:12:54.799Z"
+    },
+    {
+      "id": "followwindows125_home_lower_state",
+      "status": "PASS",
+      "details": {
+        "observation": "Normal vertical scrolling exposes all six category cards and full Things worth looking at explanations. State Good14/NeedsAttention2/Optional2/Unknown3 readable as text; contract reconciliation still pending."
+      },
+      "evidence": "screenshots/followwindows125_home_lower_state.png",
+      "utc": "2026-10-05T12:13:54.376Z"
+    },
+    {
+      "id": "followwindows125_home_primary_focus",
+      "status": "PASS",
+      "details": {
+        "observation": "Reverse Tab from Home navigation through Export reaches Check My PC with visible focus. Earlier actual Quick invocation and saved quick125.json retained; no redundant scan started."
+      },
+      "evidence": "screenshots/followwindows125_home_primary_focus.png",
+      "utc": "2026-10-05T12:16:01.157Z"
+    },
+    {
+      "id": "dark125_native_shortcut_relaunch",
+      "status": "PASS",
+      "details": {
+        "observation": "After normal idle app close, selected installed desktop shortcut and Enter opens visible Dark Home with persisted Full summary. OS DPI unchanged from verified120DPI. New process hash/geometry collection remains pending; not a full F011 suite claim."
+      },
+      "evidence": "screenshots/dark125_native_shortcut_relaunch.png",
+      "utc": "2026-10-05T12:19:28.172Z"
+    },
+    {
+      "id": "dark125_immediate_quick_complete_observed",
+      "status": "OBSERVED_PENDING_CONTRACT",
+      "details": {
+        "uiObservedUtc": "2026-10-05T12:21:26.214Z",
+        "observation": "Quick status changed to completed summary/progress full; next input starts Full without deliberate pause."
+      },
+      "evidence": "screenshots/dark125_immediate_quick_complete_observed.png",
+      "utc": "2026-10-05T12:21:26.214Z"
+    },
+    {
+      "id": "dark125_immediate_full_started",
+      "status": "OBSERVED_PENDING_CONTRACT",
+      "details": {
+        "uiQuickCompletionObservedUtc": "2026-10-05T12:21:26.214Z",
+        "uiFullDispatchUtc": "2026-10-05T12:21:26.216Z",
+        "uiDispatchGapMs": 2,
+        "observation": "Full start accepted following observed Quick completion; authoritative Completed/Started timestamps and both raw outputs still require collector."
+      },
+      "evidence": "screenshots/dark125_immediate_full_started.png",
+      "utc": "2026-10-05T12:21:45.165Z"
+    },
+    {
+      "id": "dark125_immediate_full_complete_observed",
+      "status": "OBSERVED_PENDING_CONTRACT",
+      "details": {
+        "uiObservedUtc": "2026-10-05T12:22:39.298Z",
+        "observation": "Full returned completed summary; immediately dispatching Quick, no deliberate delay."
+      },
+      "evidence": "screenshots/dark125_immediate_full_complete_observed.png",
+      "utc": "2026-10-05T12:22:39.298Z"
+    },
+    {
+      "id": "dark125_immediate_quick_started",
+      "status": "OBSERVED_PENDING_CONTRACT",
+      "details": {
+        "uiFullCompletionObservedUtc": "2026-10-05T12:22:39.298Z",
+        "uiQuickDispatchUtc": "2026-10-05T12:22:39.300Z",
+        "uiDispatchGapMs": 2,
+        "observation": "Immediate Quick dispatch accepted; visible Quick check starting, Scanning is read-only. Exact authoritative results and live cleanup remain required, no F016 PASS yet."
+      },
+      "evidence": "screenshots/dark125_immediate_quick_started.png",
+      "utc": "2026-10-05T12:22:57.468Z"
+    },
+    {
+      "id": "dark125_transition_final_quick_complete",
+      "status": "OBSERVED_PENDING_CONTRACT",
+      "details": {
+        "observation": "Quick after immediate Full-to-Quick transition returned completed summary without visible error. Do not treat UI summary as validated authoritative contract or live worker cleanup."
+      },
+      "evidence": "screenshots/dark125_transition_final_quick_complete.png",
+      "utc": "2026-10-05T12:23:33.500Z"
+    },
+    {
+      "id": "dark125_transition_timing_scope",
+      "status": "PENDING_COLLECTION",
+      "details": {
+        "observation": "The recorded 2ms intervals measure local record-to-dispatch execution only, NOT actual worker completion-to-next-start. Screenshot/tool turnaround is outside that interval. Acceptance requires authoritative scan timestamps and original per-run outputs; no immediate-transition PASS credited."
+      },
+      "evidence": "screenshots/dark125_transition_timing_scope.png",
+      "utc": "2026-10-05T12:23:59.522Z"
+    },
+    {
+      "id": "dark125_backup_enter_details",
+      "status": "PASS",
+      "details": {
+        "observation": "Enter displays readable Dark-theme Backup detail, wrapped limitations, SafeRedirect and Complete False, no automatic backup change."
+      },
+      "evidence": "screenshots/dark125_backup_enter_details.png",
+      "utc": "2026-10-05T12:24:44.870Z"
+    },
+    {
+      "id": "dark125_backup_redirect",
+      "status": "PASS",
+      "details": {
+        "observation": "Keyboard Enter opens Windows Settings Accounts / Windows backup; no account, syncing, backup, or OS setting changed."
+      },
+      "evidence": "screenshots/dark125_backup_redirect.png",
+      "utc": "2026-10-05T12:25:36.715Z"
+    },
+    {
+      "id": "dark125_backup_tab_recovery",
+      "status": "PASS",
+      "details": {
+        "observation": "Tab from primary action returns to visible selected finding; page scrolls grid into view without lost focus."
+      },
+      "evidence": "screenshots/dark125_backup_tab_recovery.png",
+      "utc": "2026-10-05T12:26:12.280Z"
+    },
+    {
+      "id": "dark125_backup_status_tooltip",
+      "status": "PASS",
+      "details": {
+        "observation": "Needs Attention full tooltip readable in Dark theme; required meaning accessible beyond narrow status cell."
+      },
+      "evidence": "screenshots/dark125_backup_status_tooltip.png",
+      "utc": "2026-10-05T12:26:49.036Z"
+    },
+    {
+      "id": "dark125_updates_redirect",
+      "status": "PASS",
+      "details": {
+        "observation": "Primary action opens Windows Update settings. No update check/install or setting change performed; no full-patch assurance inferred from Nyx."
+      },
+      "evidence": "screenshots/dark125_updates_redirect.png",
+      "utc": "2026-10-05T12:29:30.124Z"
+    },
+    {
+      "id": "dark125_updates_enter_details",
+      "status": "PASS",
+      "details": {
+        "observation": "Last successful Windows update full text and LastSuccessUtc readable in Dark125 detail, Action Safety None, Complete True; no claim all patches current."
+      },
+      "evidence": "screenshots/dark125_updates_enter_details.png",
+      "utc": "2026-10-05T12:30:25.499Z"
+    },
+    {
+      "id": "dark125_updates_reverse_focus",
+      "status": "PASS",
+      "details": {
+        "observation": "Ctrl+Shift+Tab exposes full primary button with visible focus; no lost focus."
+      },
+      "evidence": "screenshots/dark125_updates_reverse_focus.png",
+      "utc": "2026-10-05T12:31:18.740Z"
+    },
+    {
+      "id": "dark125_updates_forward_focus",
+      "status": "PASS",
+      "details": {
+        "observation": "Tab returns to last-update Check cell with visible focus; scrolling and action recovery work."
+      },
+      "evidence": "screenshots/dark125_updates_forward_focus.png",
+      "utc": "2026-10-05T12:31:35.066Z"
+    },
+    {
+      "id": "dark125_system_about_redirect",
+      "status": "PASS",
+      "details": {
+        "observation": "Open Windows System About dispatches to System/About. No rename, OS configuration, or other state changed."
+      },
+      "evidence": "screenshots/dark125_system_about_redirect.png",
+      "utc": "2026-10-05T12:32:31.128Z"
+    },
+    {
+      "id": "dark125_system_enter_details",
+      "status": "PASS",
+      "details": {
+        "observation": "Network full finding/recommendation readable in Dark detail; None safety, Complete True; Nyx states it did not change DNS/proxy/firewall/adapter settings."
+      },
+      "evidence": "screenshots/dark125_system_enter_details.png",
+      "utc": "2026-10-05T12:33:23.029Z"
+    },
+    {
+      "id": "dark125_system_reverse_focus",
+      "status": "PASS",
+      "details": {
+        "observation": "Reverse keyboard traversal reveals full primary button with visible focus."
+      },
+      "evidence": "screenshots/dark125_system_reverse_focus.png",
+      "utc": "2026-10-05T12:33:50.962Z"
+    },
+    {
+      "id": "dark125_system_forward_focus",
+      "status": "PASS",
+      "details": {
+        "observation": "Tab restores same Network Check cell with visible focus; normal scrolling exposes grid."
+      },
+      "evidence": "screenshots/dark125_system_forward_focus.png",
+      "utc": "2026-10-05T12:34:05.275Z"
+    },
+    {
+      "id": "dark125_system_status_tooltip",
+      "status": "PASS",
+      "details": {
+        "observation": "Full Needs Attention tooltip readable, essential meaning accessible."
+      },
+      "evidence": "screenshots/dark125_system_status_tooltip.png",
+      "utc": "2026-10-05T12:34:48.077Z"
+    },
+    {
+      "id": "dark125_system_maximize",
+      "status": "PASS",
+      "details": {
+        "observation": "Maximized Dark page stays above guest taskbar; navigation, Export, status and selected focus visible. No layout destruction."
+      },
+      "evidence": "screenshots/dark125_system_maximize.png",
+      "utc": "2026-10-05T12:35:14.858Z"
+    },
+    {
+      "id": "dark125_system_restore",
+      "status": "PASS",
+      "details": {
+        "observation": "Normal restored page retains selected Network focus, readable data and containment; all primary actions reachable through previously verified reverse Tab."
+      },
+      "evidence": "screenshots/dark125_system_restore.png",
+      "utc": "2026-10-05T12:35:43.172Z"
+    },
+    {
+      "id": "dark125_apps_empty_state",
+      "status": "PASS",
+      "details": {
+        "observation": "After Quick, Apps inventory empty and Open selected folder unavailable; no stale selection/action exposed. Full required for populated Apps cell tests; no cell PASS yet."
+      },
+      "evidence": "screenshots/dark125_apps_empty_state.png",
+      "utc": "2026-10-05T12:39:10.339Z"
+    },
+    {
+      "id": "dark125_export_transition_quick_json",
+      "status": "PASS",
+      "details": {
+        "observation": "Normal export saves reports/quickdark125transition.json, final Quick following observed Full-to-Quick dispatch. Pending collector contract validation; earlier two sequence outputs must be recovered from observer if actually preserved."
+      },
+      "evidence": "screenshots/dark125_export_transition_quick_json.png",
+      "utc": "2026-10-05T12:42:10.251Z"
+    },
+    {
+      "id": "dark125_apps_full_action",
+      "status": "PASS",
+      "details": {
+        "observation": "Dark Apps Run Full Check starts actual read-only scan to populate inventory required by this page cell; not generic stress or F016 proof."
+      },
+      "evidence": "screenshots/dark125_apps_full_action.png",
+      "utc": "2026-10-05T12:42:58.853Z"
+    },
+    {
+      "id": "dark125_settings_progress_observation",
+      "status": "OBSERVED",
+      "details": {
+        "observation": "Settings in applied Dark theme remains reachable during Full worker; progress/status visible. Cancel text appears dim in this screenshot; enabled/focus behavior not yet established and no PASS for active cancellation accessibility from this image."
+      },
+      "evidence": "screenshots/dark125_settings_progress_observation.png",
+      "utc": "2026-10-05T12:43:43.131Z"
+    },
+    {
+      "id": "dark125_settings_update_focus",
+      "status": "PASS",
+      "details": {
+        "observation": "Tab crosses unchecked notification and checked auto-update controls without toggling; focused Check for Updates visible through automatic scrolling, privacy explanation readable."
+      },
+      "evidence": "screenshots/dark125_settings_update_focus.png",
+      "utc": "2026-10-05T12:45:03.824Z"
+    },
+    {
+      "id": "dark125_settings_update_handled",
+      "status": "PASS",
+      "details": {
+        "observation": "Keyboard-triggered update attempt returns readable handled unavailable dialog; no unhandled exception. Network/update availability success not claimed."
+      },
+      "evidence": "screenshots/dark125_settings_update_handled.png",
+      "utc": "2026-10-05T12:45:34.503Z"
+    },
+    {
+      "id": "dark125_settings_open_localdata",
+      "status": "PASS",
+      "details": {
+        "observation": "Keyboard Open local data folder opens actual Nyx data; no log deletion, privacy setting or product payload modification."
+      },
+      "evidence": "screenshots/dark125_settings_open_localdata.png",
+      "utc": "2026-10-05T12:47:00.502Z"
+    },
+    {
+      "id": "dark125_live_temp_empty_after_apps_full",
+      "status": "PASS",
+      "details": {
+        "observation": "Actual Nyx LocalAppData temp shows This folder is empty / 0 items before shutdown with app still running. Worker PID exit and handle-access verification are separate pending predicates, not inferred from this screenshot."
+      },
+      "evidence": "screenshots/dark125_live_temp_empty_after_apps_full.png",
+      "utc": "2026-10-05T12:47:46.727Z"
+    },
+    {
+      "id": "dark125_settings_logs_focus_only",
+      "status": "PASS",
+      "details": {
+        "observation": "Delete local logs receives visible keyboard focus. Not activated; evidence/logs preserved."
+      },
+      "evidence": "screenshots/dark125_settings_logs_focus_only.png",
+      "utc": "2026-10-05T12:48:20.421Z"
+    },
+    {
+      "id": "dark125_settings_save_success",
+      "status": "PASS",
+      "details": {
+        "observation": "Keyboard Save with same Dark/update/notification preferences returns readable settings-saved dialog; no unhandled/deferred-state exception."
+      },
+      "evidence": "screenshots/dark125_settings_save_success.png",
+      "utc": "2026-10-05T12:49:06.368Z"
+    },
+    {
+      "id": "dark125_settings_reverse_tab",
+      "status": "PASS",
+      "details": {
+        "observation": "Shift+Tab returns visible focus to Delete local logs; not activated; Settings text/actions accessible with normal scroll."
+      },
+      "evidence": "screenshots/dark125_settings_reverse_tab.png",
+      "utc": "2026-10-05T12:49:43.780Z"
+    },
+    {
+      "id": "dark125_apps_zero_filter",
+      "status": "PASS",
+      "details": {
+        "observation": "Filter z yields empty inventory; Open selected folder unavailable, no exception/stale action."
+      },
+      "evidence": "screenshots/dark125_apps_zero_filter.png",
+      "utc": "2026-10-05T12:50:53.507Z"
+    },
+    {
+      "id": "dark125_apps_filter_restored_tab",
+      "status": "PASS",
+      "details": {
+        "observation": "Clearing filter restores five apps; Tab scrolls grid into view with first Application focused."
+      },
+      "evidence": "screenshots/dark125_apps_filter_restored_tab.png",
+      "utc": "2026-10-05T12:51:28.516Z"
+    },
+    {
+      "id": "dark125_apps_version_keyboard",
+      "status": "PASS",
+      "details": {
+        "observation": "Keyboard reaches Edge Version145.0.3800.97 fully readable, visible cell focus; no action triggered by Right."
+      },
+      "evidence": "screenshots/dark125_apps_version_keyboard.png",
+      "utc": "2026-10-05T12:52:03.871Z"
+    },
+    {
+      "id": "dark125_apps_end_horizontal",
+      "status": "PASS",
+      "details": {
+        "observation": "End reaches Reported size, full Unknown visible, grid scrolls horizontally to last column; no dialog/action."
+      },
+      "evidence": "screenshots/dark125_apps_end_horizontal.png",
+      "utc": "2026-10-05T12:52:22.357Z"
+    },
+    {
+      "id": "dark125_apps_home_horizontal",
+      "status": "PASS",
+      "details": {
+        "observation": "Home returns first Application column, full Microsoft Edge readable; no unintended activation."
+      },
+      "evidence": "screenshots/dark125_apps_home_horizontal.png",
+      "utc": "2026-10-05T12:52:43.379Z"
+    },
+    {
+      "id": "dark125_apps_pagedown",
+      "status": "PASS",
+      "details": {
+        "observation": "PageDown reaches final Nyx row, visible focus and full name; no unintended action."
+      },
+      "evidence": "screenshots/dark125_apps_pagedown.png",
+      "utc": "2026-10-05T12:53:03.140Z"
+    },
+    {
+      "id": "dark125_apps_pageup",
+      "status": "PASS",
+      "details": {
+        "observation": "PageUp returns first Edge Application with visible focus; no dialog/action. Five-row inventory is shorter than visible grid so vertical reachability proven at first/last endpoints, not large-inventory scroll distance."
+      },
+      "evidence": "screenshots/dark125_apps_pageup.png",
+      "utc": "2026-10-05T12:53:19.891Z"
+    },
+    {
+      "id": "dark125_apps_down",
+      "status": "PASS",
+      "details": {
+        "observation": "Down changes selected row to Edge Update; visible focus, no unintended activation."
+      },
+      "evidence": "screenshots/dark125_apps_down.png",
+      "utc": "2026-10-05T12:53:44.831Z"
+    },
+    {
+      "id": "dark125_apps_up",
+      "status": "PASS",
+      "details": {
+        "observation": "Up returns Edge row with visible focus and no activation."
+      },
+      "evidence": "screenshots/dark125_apps_up.png",
+      "utc": "2026-10-05T12:54:16.514Z"
+    },
+    {
+      "id": "dark125_apps_folder_action_focus",
+      "status": "PASS",
+      "details": {
+        "observation": "Reverse Tab exposes Open selected folder fully with visible focus and selected Edge context."
+      },
+      "evidence": "screenshots/dark125_apps_folder_action_focus.png",
+      "utc": "2026-10-05T12:54:52.533Z"
+    },
+    {
+      "id": "dark125_apps_open_valid_folder",
+      "status": "PASS",
+      "details": {
+        "observation": "Enter Open selected folder opens Edge/Application, actual145.0.3800.97 folder visible; no files modified."
+      },
+      "evidence": "screenshots/dark125_apps_open_valid_folder.png",
+      "utc": "2026-10-05T12:55:29.776Z"
+    },
+    {
+      "id": "dark125_apps_installed_redirect",
+      "status": "PASS",
+      "details": {
+        "observation": "Open Installed Apps dispatches to Windows Apps/Installed apps. No uninstall, app modification, or OS setting change."
+      },
+      "evidence": "screenshots/dark125_apps_installed_redirect.png",
+      "utc": "2026-10-05T12:56:38.185Z"
+    },
+    {
+      "id": "dark125_apps_recreation",
+      "status": "PASS",
+      "details": {
+        "observation": "Away Cleanup/back Apps recreates clear filter and populated inventory, no stale selected-folder action or exception."
+      },
+      "evidence": "screenshots/dark125_apps_recreation.png",
+      "utc": "2026-10-05T12:58:05.249Z"
+    },
+    {
+      "id": "dark125_cleanup_selection",
+      "status": "PASS",
+      "details": {
+        "observation": "Space selects only first displayed BITFB98.tmp0B for preview; no cleanup executed."
+      },
+      "evidence": "screenshots/dark125_cleanup_selection.png",
+      "utc": "2026-10-05T12:59:53.976Z"
+    },
+    {
+      "id": "dark125_cleanup_confirmation",
+      "status": "PASS",
+      "details": {
+        "observation": "Readable explicit confirmation for1item0B, Windows Recycle Bin consequence; default focus Yes observed exactly. Will choose No; no deletion executed."
+      },
+      "evidence": "screenshots/dark125_cleanup_confirmation.png",
+      "utc": "2026-10-05T13:00:55.151Z"
+    },
+    {
+      "id": "dark125_cleanup_restored_zero",
+      "status": "PASS",
+      "details": {
+        "observation": "No was selected explicitly; Space deselected fixture; selected total now0items0B. No deletion performed."
+      },
+      "evidence": "screenshots/dark125_cleanup_restored_zero.png",
+      "utc": "2026-10-05T13:02:17.370Z"
+    },
+    {
+      "id": "dark125_cleanup_zero_guard",
+      "status": "PASS",
+      "details": {
+        "observation": "Enter with0selected produces readable Select at least one displayed item guard, no destructive action."
+      },
+      "evidence": "screenshots/dark125_cleanup_zero_guard.png",
+      "utc": "2026-10-05T13:02:57.967Z"
+    },
+    {
+      "id": "dark125_cleanup_tooltip",
+      "status": "PASS",
+      "details": "Full consequence tooltip readable: Moves this exact item to the Windows Recycle Bin. No cleanup executed; selection zero after explicit No.",
+      "evidence": "screenshots/dark125_cleanup_tooltip.png",
+      "utc": "2026-10-05T13:09:18.728Z"
+    },
+    {
+      "id": "dark125_cleanup_safety_scroll",
+      "status": "PASS",
+      "details": "Normal vertical scrolling exposes full safety explanation: failed deletion preserves file and reports exact failure; Documents, Photos, Videos, browser profiles, update caches, restore points and application databases not touched. Zero selection, no destructive action.",
+      "evidence": "screenshots/dark125_cleanup_safety_scroll.png",
+      "utc": "2026-10-05T13:09:33.935Z"
+    },
+    {
+      "id": "dark125_startup_refresh_after_full",
+      "status": "PASS",
+      "details": "Actual deferred Refresh reloads Startup after completed Apps-triggered Full, no visible exception; all-users read-only explanation readable.",
+      "evidence": "screenshots/dark125_startup_refresh_after_full.png",
+      "utc": "2026-10-05T13:10:07.453Z"
+    },
+    {
+      "id": "dark125_startup_allusers_reverse_focus",
+      "status": "PASS",
+      "details": "All-users desktop selected; modification buttons disabled, reverse keyboard skips them and reaches visible Refresh. No all-users mutation.",
+      "evidence": "screenshots/dark125_startup_allusers_reverse_focus.png",
+      "utc": "2026-10-05T13:10:42.186Z"
     }
   ],
   "evidenceReferences": [
@@ -984,11 +2230,13 @@
     "name": "Nyx",
     "id": "275a191c-cf8a-4929-9849-b9a293e9149d",
     "checkpoint": "NOT_YET_VERIFIED",
-    "session": "Normal guest session retained; collector never started",
-    "plannedTransition": "Close idle native app normally to let existing evidence-only geometry observer launch; no product edits"
+    "session": "Owner confirmed signed in after125% transition; native DPI verification pending",
+    "plannedTransition": "Apply configured125% via normal Windows Display sign-out; owner-assisted sign-in, independently verify120DPI before credit",
+    "pendingTransition": "Genuinely elevated collector launch awaits normal UAC",
+    "state": "Running after collector finally restart"
   },
-  "lastCompletedAction": "Credited Light100 Checkup",
-  "nextAction": "Verify restarted native DPI/theme, then FollowWindows125 batch; no rerun of completed100% cells.",
+  "lastCompletedAction": "Dark125 Cleanup credited; Startup all-users reverse keyboard boundary verified",
+  "nextAction": "Approve queued secure UAC for read-only collector, validate raw 125% scans, resume next incomplete matrix cell",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -1002,13 +2250,13 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-05T00:20:38.632Z",
+  "updatedUtc": "2026-10-05T13:14:17.060Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
-    "verification": "screenshots/guest_display_actual_125pct_1366x768.png",
-    "appDpi": 96,
-    "appliedAppScale": 100,
+    "verification": "screenshots/post_restart_native_96dpi_verified.png",
+    "appDpi": 120,
+    "appliedAppScale": 125,
     "configuredCustomScale": 125,
     "note": "Configured scale is not applied DPI; native96 record authoritative for this session",
     "hostElevated": false
@@ -1186,8 +2434,31 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_updates_redirect.png",
+        "screenshots/followwindows125_updates_enter_details.png",
+        "screenshots/followwindows125_updates_focus_recovery.png",
+        "screenshots/followwindows125_updates_tab_grid.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:57:18.204Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "completeFindingsReachableByEnter": true,
+        "primaryOSRedirectWorked": true,
+        "tabAndReverseExit": true,
+        "keyboardFocusVisible": true,
+        "scrollingAndFocusReveal": true,
+        "noHiddenRequiredAction": true,
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "noOSSettingsChanged": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -1195,8 +2466,33 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_backup_redirect.png",
+        "screenshots/followwindows125_backup_enter_details.png",
+        "screenshots/followwindows125_backup_focus_recovery.png",
+        "screenshots/followwindows125_backup_status_tooltip.png",
+        "screenshots/followwindows125_backup_tab_recreation.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:59:38.818Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "statusMeaningReadableInTooltip": true,
+        "fullFindingAndSafetyReadable": true,
+        "primaryRedirectWorked": true,
+        "tabReverseTabAndEnter": true,
+        "keyboardFocusVisible": true,
+        "scrollingAndFocusReveal": true,
+        "pageRecreation": true,
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "noBackupSettingsChanged": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -1204,8 +2500,23 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_system_about_redirect.png",
+        "screenshots/followwindows125_system_network_details.png",
+        "screenshots/followwindows125_system_focus_scroll.png",
+        "screenshots/followwindows125_system_maximize.png",
+        "screenshots/followwindows125_system_tab_grid.png",
+        "screenshots/followwindows125_system_restore.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_system_last_result_keyboard.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:05:35.995Z",
+      "predicates": {
+        "observation": "Required System content accessible through normal scrolling and result details; About redirect and keyboard flow verified; no exception observed."
+      }
     },
     {
       "theme": "FollowWindows",
@@ -1213,8 +2524,40 @@
       "page": "Apps",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_apps_full_started.png",
+        "screenshots/followwindows125_apps_filter_zero.png",
+        "screenshots/followwindows125_apps_filter_restore_tab.png",
+        "screenshots/followwindows125_apps_version_focus.png",
+        "screenshots/followwindows125_apps_horizontal_scroll.png",
+        "screenshots/followwindows125_apps_open_selected_folder.png",
+        "screenshots/followwindows125_apps_installed_redirect.png",
+        "screenshots/followwindows125_apps_recreation.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:48:28.353Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextAndVersionReadable": true,
+        "primaryActionsReachableAndExecuted": [
+          "Open Installed Apps",
+          "Run Full Check",
+          "Open selected folder"
+        ],
+        "keyboardFocusVisible": true,
+        "tabReverseTabAndArrows": true,
+        "horizontalKeyboardScroll": true,
+        "filterZeroAndRestore": true,
+        "pageRecreation": true,
+        "noHiddenRequiredAction": true,
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "scanContractValidationSeparateAndPending": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -1222,8 +2565,34 @@
       "page": "Cleanup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_cleanup_keyboard_select.png",
+        "screenshots/followwindows125_cleanup_confirmation.png",
+        "screenshots/followwindows125_cleanup_restored_zero.png",
+        "screenshots/followwindows125_cleanup_zero_guard.png",
+        "screenshots/followwindows125_cleanup_tooltip.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:47:50.184Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "textReadableWithRequiredConsequenceTooltip": true,
+        "requiredControlsReachable": true,
+        "keyboardSelectionAndReverseTab": true,
+        "reviewAndZeroSelectionGuardOperable": true,
+        "scrollingAndFocusReveal": true,
+        "noHiddenRequiredAction": true,
+        "confirmationCancelled": true,
+        "stateRestored": "0 items / 0 B",
+        "noUnhandledExceptionObserved": true,
+        "windowVisuallyContained": true,
+        "refreshFullActionVisible": true,
+        "fullScanDataPopulatedByInstalledAppsFullAction": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -1231,8 +2600,38 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_settings_update_keyboard.png",
+        "screenshots/followwindows125_settings_update_handled.png",
+        "screenshots/followwindows125_settings_localdata_focus.png",
+        "screenshots/followwindows125_settings_open_localdata.png",
+        "screenshots/followwindows125_settings_save_focus.png",
+        "screenshots/followwindows125_settings_save_success.png",
+        "screenshots/followwindows125_settings_reverse_tab.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T11:27:59.657Z",
+      "predicates": {
+        "nativeDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "requiredControlsReachable": true,
+        "keyboardFocusVisible": true,
+        "tabAndReverseTab": true,
+        "scrollingAndFocusReveal": true,
+        "pageActions": [
+          "Open local data folder succeeded",
+          "Save unchanged settings succeeded",
+          "Check updates keyboard action produced handled offline message"
+        ],
+        "privacySettingsUnchanged": true,
+        "noUnhandledExceptionObserved": true,
+        "workAreaContainment": "Visible normal-window containment and prior same-session maximize/restore",
+        "updateNetworkSuccessNotClaimed": true
+      }
     },
     {
       "theme": "FollowWindows",
@@ -1781,8 +3180,18 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_updates_redirect.png",
+        "screenshots/dark125_updates_enter_details.png",
+        "screenshots/dark125_updates_reverse_focus.png",
+        "screenshots/dark125_updates_forward_focus.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:31:35.067Z",
+      "predicates": {
+        "observation": "Dark125 Updates full description, safe primary dispatch, Enter details, visible reverse/forward keyboard focus, full timestamp and work-area containment verified."
+      }
     },
     {
       "theme": "Dark",
@@ -1790,8 +3199,18 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_backup_enter_details.png",
+        "screenshots/dark125_backup_redirect.png",
+        "screenshots/dark125_backup_tab_recovery.png",
+        "screenshots/dark125_backup_status_tooltip.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:26:49.038Z",
+      "predicates": {
+        "observation": "Dark125 Backup: wrapped text, safe primary redirect, Enter full details, visible forward/reverse focus, normal scrolling, full status tooltip and contained window verified. Existing frozen identity and unchanged native120DPI context retained."
+      }
     },
     {
       "theme": "Dark",
@@ -1799,8 +3218,21 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_system_about_redirect.png",
+        "screenshots/dark125_system_enter_details.png",
+        "screenshots/dark125_system_reverse_focus.png",
+        "screenshots/dark125_system_forward_focus.png",
+        "screenshots/dark125_system_status_tooltip.png",
+        "screenshots/dark125_system_maximize.png",
+        "screenshots/dark125_system_restore.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:35:43.173Z",
+      "predicates": {
+        "observation": "Dark125 System full description, About dispatch, Enter readable finding, forward/reverse visible focus, full status tooltip, normal scrolling and maximize/restore containment verified."
+      }
     },
     {
       "theme": "Dark",
@@ -1808,8 +3240,29 @@
       "page": "Apps",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_apps_empty_state.png",
+        "screenshots/dark125_apps_full_action.png",
+        "screenshots/dark125_apps_zero_filter.png",
+        "screenshots/dark125_apps_filter_restored_tab.png",
+        "screenshots/dark125_apps_version_keyboard.png",
+        "screenshots/dark125_apps_end_horizontal.png",
+        "screenshots/dark125_apps_home_horizontal.png",
+        "screenshots/dark125_apps_pagedown.png",
+        "screenshots/dark125_apps_pageup.png",
+        "screenshots/dark125_apps_down.png",
+        "screenshots/dark125_apps_up.png",
+        "screenshots/dark125_apps_folder_action_focus.png",
+        "screenshots/dark125_apps_open_valid_folder.png",
+        "screenshots/dark125_apps_installed_redirect.png",
+        "screenshots/dark125_apps_recreation.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:58:05.250Z",
+      "predicates": {
+        "observation": "Dark125 Apps actual Full populated5 entries, zero/clear filter, Version read, Home/End/PageUp/PageDown/Up/Down no activation, visible keyboard focus/scrolling, valid folder action, Installed Apps safe dispatch and page recreation verified. Dedicated unavailable-folder fixture remains an F022 focused requirement, not claimed by empty selection. Raw Full contract collection pending separately."
+      }
     },
     {
       "theme": "Dark",
@@ -1817,8 +3270,18 @@
       "page": "Cleanup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_cleanup_selection.png",
+        "screenshots/dark125_cleanup_confirmation.png",
+        "screenshots/dark125_cleanup_restored_zero.png",
+        "screenshots/dark125_cleanup_zero_guard.png",
+        "screenshots/dark125_cleanup_tooltip.png",
+        "screenshots/dark125_cleanup_safety_scroll.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T13:09:33.936Z",
+      "predicates": "Validated selection/restore, explicit confirmation declined, zero-selection guard, consequence tooltip, keyboard review focus, scrolling and complete safety text. No deletion executed."
     },
     {
       "theme": "Dark",
@@ -1826,8 +3289,21 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_settings_progress_observation.png",
+        "screenshots/dark125_settings_update_focus.png",
+        "screenshots/dark125_settings_update_handled.png",
+        "screenshots/dark125_settings_open_localdata.png",
+        "screenshots/dark125_settings_logs_focus_only.png",
+        "screenshots/dark125_settings_save_success.png",
+        "screenshots/dark125_settings_reverse_tab.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T12:49:43.781Z",
+      "predicates": {
+        "observation": "Applied Dark125 verified, keyboard preferences untouched, update action handled cleanly, local data opened, logs action reachable without deleting evidence, keyboard Save successful, reverse focus visible and window contained."
+      }
     },
     {
       "theme": "Dark",
@@ -2592,7 +4068,20 @@
       "startObservedUtc": "2026-10-04T22:47:16.123Z",
       "completionObservedUtc": "2026-10-04T22:47:51.971Z",
       "evidence": "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
+    },
+    {
+      "mode": "Full",
+      "scale": 125,
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\full125.json",
+      "status": "PENDING_COLLECTION"
+    },
+    {
+      "mode": "Quick",
+      "theme": "Dark",
+      "scale": 125,
+      "path": "reports/quickdark125transition.json",
+      "status": "PENDING_COLLECTION"
     }
   ],
-  "campaignStatus": "HOLD_INCOMPLETE"
+  "campaignStatus": "IN_PROGRESS"
 }

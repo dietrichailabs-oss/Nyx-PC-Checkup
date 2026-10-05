@@ -3,12 +3,12 @@
   "items": [
     {
       "id": "DPI125_LOGIN",
-      "status": "BLOCKED_HUMAN",
-      "action": "Sign into Nyx after Windows sign-out required to apply custom125% scaling; do not bypass authentication",
+      "status": "COMPLETE",
+      "action": "Sign into the disposable Nyx VM as Nyx after normal Display sign-out; no authentication automation",
       "affectedTest": "FollowWindows125 batch and subsequent DPI batches",
       "prerequisite": "Persist state, perform normal Windows sign-out only after independent100% tests",
       "queuedUtc": "2026-10-04T20:19:49.274Z",
-      "promptShown": false
+      "promptShown": true
     },
     {
       "id": "COLLECT_DARK100_RAW_EVIDENCE_UAC",
@@ -19,6 +19,25 @@
       "promptShown": false,
       "launchResult": "Retry cancelled by Windows: operation was canceled by the user. Collector did not start. Host MARK/bossm process confirmed non-elevated.",
       "lastAttemptUtc": "2026-10-04T22:51:47.963Z"
+    },
+    {
+      "id": "FW125_STORAGE_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "The same guest Storage OS redirect previously raised a credential secure-desktop prompt. Remaining exact primary redirect predicate is deferred while owner is away; no bypass or password entry.",
+      "nextAction": "Exercise redirect during grouped human session; dismiss credential prompt without changing OS storage settings if it recurs."
+    },
+    {
+      "id": "FW125_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Opening/manipulating the Windows Security application is not automated; Nyx read-only findings and primary action focus are verified.",
+      "nextAction": "Human verifies safe Windows Security redirect only, without changing protection settings."
+    },
+    {
+      "id": "COLLECT_125_AUTHORITATIVE_UAC",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Host Get-VM now succeeds under approved escalation, but read-only Mount-VHD failed with required privilege not held (0x80070522). Collector preserved error and restarted Nyx normally. Authoritative raw collection requires a genuinely elevated collector token; no product failure established.",
+      "nextAction": "Grouped human session approves existing read-only collector; validate quick125/full125 and installed observer per-run records/timestamps before crediting contracts.",
+      "lastAttemptUtc": "2026-10-05T13:12:41.153Z"
     }
   ]
 }

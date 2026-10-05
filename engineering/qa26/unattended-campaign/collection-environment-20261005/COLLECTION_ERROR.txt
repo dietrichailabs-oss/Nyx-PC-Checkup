@@ -1,0 +1,10 @@
+Mount-VHD: G:\Marks Apps 2\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\qa26_vm_automation\Collect-QA26-Unattended.ps1:22
+Line |
+  22 |      $disk = Mount-VHD -Path $vhdPath -ReadOnly -NoDriveLetter -Passth …
+     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Failed to mount the virtual disk.  The system failed to mount 'I:\Nyx\Virtual Hard
+     | Disks\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx'.  Failed to mount the virtual disk.  The system failed to
+     | mount 'I:\Nyx\Virtual Hard Disks\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx': A required privilege is not
+     | held by the client. (0x80070522).
+
+
