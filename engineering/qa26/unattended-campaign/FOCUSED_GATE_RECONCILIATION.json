@@ -1,0 +1,136 @@
+{
+  "schema": "QA26-FOCUSED-RECONCILIATION-1",
+  "sourceCommit": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "productRebuilt": false,
+  "policyCommit": "8ee8c273eee0207ff5346bb7957e4ee0ddb19aa2",
+  "F023": {
+    "engineeringFocusedResult": "PASS_COMMON_RESULTS_AND_STORAGE_ACTION",
+    "scope": "Existing installed observations reconciled with deterministic regression; not new executions or Independent QA approval",
+    "coverageAcrossScales": [
+      100,
+      125,
+      150,
+      200
+    ],
+    "everyCaseAtEveryScaleClaimed": false,
+    "requirementsMapped": 14,
+    "requirements": [
+      {
+        "id": "visible_keyboard_focus",
+        "result": "covered",
+        "evidenceCommit": "1c51ca05ce311de3d6a716838b371d0d400659fc"
+      },
+      {
+        "id": "Enter_exact_first_and_other_result",
+        "result": "covered",
+        "evidenceCommit": "1c51ca05ce311de3d6a716838b371d0d400659fc"
+      },
+      {
+        "id": "keyboard_close_visible_focus_return",
+        "result": "covered",
+        "evidenceCommit": "6983db84fd609b6ee175f5399711dc02248250fc"
+      },
+      {
+        "id": "repeat_activation_no_duplicate_or_orphan",
+        "result": "covered",
+        "evidenceCommit": "6983db84fd609b6ee175f5399711dc02248250fc"
+      },
+      {
+        "id": "eight_navigation_commands_do_not_activate",
+        "result": "covered",
+        "evidenceCommit": "1c51ca05ce311de3d6a716838b371d0d400659fc",
+        "supplementCommit": "40967ccd87dc8bf4d12f0a5c7cccb53d6aae5897"
+      },
+      {
+        "id": "mouse_double_click_positive",
+        "result": "covered",
+        "evidenceCommit": "40967ccd87dc8bf4d12f0a5c7cccb53d6aae5897"
+      },
+      {
+        "id": "away_back_recreation",
+        "result": "covered",
+        "evidenceCommit": "1c51ca05ce311de3d6a716838b371d0d400659fc"
+      },
+      {
+        "id": "real_Quick_rerender_activation",
+        "result": "covered",
+        "evidenceCommit": "21c585dc471645747657fa47ec0226c7c73d8ade"
+      },
+      {
+        "id": "real_Full_rerender_activation",
+        "result": "covered",
+        "evidenceCommit": "28c3d8be884899336611093a9e99dee6b3c5277f"
+      },
+      {
+        "id": "Storage_Enter_exact_target",
+        "result": "covered",
+        "evidenceCommit": "affe8d9e449f1f0a15b60e4541e87f59ee55b774"
+      },
+      {
+        "id": "Storage_navigation_no_activation",
+        "result": "covered",
+        "evidenceCommit": "affe8d9e449f1f0a15b60e4541e87f59ee55b774"
+      },
+      {
+        "id": "Storage_mouse_positive",
+        "result": "covered",
+        "evidenceCommit": "4bcd06774e3252bd112561eea437c06d14cd3904"
+      },
+      {
+        "id": "Storage_away_back_repeat",
+        "result": "covered",
+        "evidenceCommit": "40967ccd87dc8bf4d12f0a5c7cccb53d6aae5897"
+      },
+      {
+        "id": "empty_invalid_disposed_registered_handlers",
+        "result": "covered_deterministically",
+        "evidenceDirectory": "engineering/qa26/source-regression",
+        "realConstructedGridHandlerSuite": "116/116"
+      }
+    ],
+    "priorExecutedCounts": {
+      "Python": "224/224",
+      "structuralLint": "2/2",
+      "constructedPS51GridHandlers": "116/116",
+      "QuickAuthoritativeValidation": "10/10",
+      "FullAuthoritativeValidation": "12/12"
+    },
+    "crossPageMouseActionAudit": "Continue under F020; not claimed complete"
+  },
+  "F022": {
+    "result": "INCOMPLETE_CLOSEOUT",
+    "positiveEvidence": "Measured explicit Apps widths/minimums/fonts at 96/120/144/192 DPI; keyboard-reached cells, filter/recreation and practical 200% scrolling/access",
+    "remaining": [
+      "reconcile all required Home/End/PageUp/PageDown and row-navigation observations at strict scales",
+      "complete readable essential-value/action checks and unavailable-folder case",
+      "complete affected cross-grid audit"
+    ],
+    "previous200PartialGeometry": "documented best-effort limitation; not a release blocker solely from 231/300"
+  },
+  "F020": {
+    "result": "INCOMPLETE",
+    "remaining": "strict-scale Startup and affected cross-page grid/focus acceptance"
+  },
+  "F015": {
+    "result": "PASS_RECONCILED",
+    "requirementsMapped": 17,
+    "evidence": "engineering/qa26/f015-focused-reconciliation-20261003/F015_RECONCILIATION.json",
+    "scope": "Existing same-candidate focused evidence reconciliation; not new executions or full F008 credit"
+  },
+  "F008": {
+    "strictAccepted": 50,
+    "strictRequired": 99,
+    "strictFail": 0,
+    "strictNotRun": 49,
+    "bestEffortAccepted": 0,
+    "bestEffortRequired": 33,
+    "bestEffortFail": 0,
+    "bestEffortNotRun": 33,
+    "totalAccepted": 50,
+    "totalRequired": 132
+  },
+  "finalDecisionOwner": "Independent QA",
+  "overallEngineeringStatus": "HOLD_INCOMPLETE_CONTINUE"
+}

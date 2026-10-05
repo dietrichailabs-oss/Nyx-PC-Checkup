@@ -892,8 +892,20 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_checkup_keyboard_end.png",
+        "screenshots/dark125_checkup_enter_details.png",
+        "screenshots/dark125_checkup_reverse_tab.png",
+        "screenshots/dark125_checkup_keyboard_full_start.png",
+        "screenshots/dark125_checkup_active_cancel_focus.png",
+        "screenshots/dark125_checkup_keyboard_cancel_dispatch.png",
+        "screenshots/dark125_checkup_cancelled_ui.png",
+        "screenshots/dark125_checkup_finding_tooltip.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:17:11.986Z",
+      "predicates": "Quick completion/rerender inherited from actual Home keyboard action; Checkup Full starts by Enter; active progress visible and ControlTab reaches enabled visibly focused Cancel; Enter cancellation produces preserved partial-results UI. CtrlEnd/Enter exact last finding, readable details, reverse focus to Full, tooltip, scrolling, containment. Raw cancelled contract and live worker cleanup remain targeted F010/F016 predicates, not claimed by UI cell."
     },
     {
       "theme": "Dark",
@@ -901,8 +913,21 @@
       "page": "Storage",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_storage_secure_uac.png",
+        "screenshots/dark125_storage_os_destination.png",
+        "screenshots/dark125_storage_downloads.png",
+        "screenshots/dark125_storage_partial_enter.png",
+        "screenshots/dark125_storage_focus_recovery.png",
+        "screenshots/dark125_storage_full_action.png",
+        "screenshots/dark125_storage_full_complete_recreation.png",
+        "screenshots/dark125_storage_completed_full_details.png",
+        "screenshots/dark125_storage_full_action_focus_restored.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:40:28.719Z",
+      "predicates": "Completed real Storage settings redirect, Downloads Explorer redirect, keyboard Full Check dispatch/completion, page recreation, partial and completed finding Enter details, readable complete values/recommendations, visible reverse keyboard focus and scroll recovery, containment; no exception observed. Authoritative new scan contract remains separately pending."
     },
     {
       "theme": "Dark",
@@ -910,8 +935,23 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_startup_refresh_after_full.png",
+        "screenshots/dark125_startup_allusers_reverse_focus.png",
+        "screenshots/dark125_startup_missing_location.png",
+        "screenshots/dark125_startup_disable_confirmation.png",
+        "screenshots/dark125_startup_disable_success.png",
+        "screenshots/dark125_startup_disabled_after_refresh.png",
+        "screenshots/dark125_startup_restore_focus.png",
+        "screenshots/dark125_startup_restore_success.png",
+        "screenshots/dark125_startup_restored_after_refresh.png",
+        "screenshots/dark125_startup_allusers_readonly.png",
+        "screenshots/dark125_startup_valid_location.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:22:37.411Z",
+      "predicates": "Actual deferred Refresh after Full and later cancellation/recreation; current-user fixture Disable confirmation and success, Refresh Disabled, Re-enable exact restore and Refresh Enabled; visible keyboard actions/recovery; missing location handled and valid Startup-folder redirect; all-users mutations disabled and reverse traversal skips them; grid scrolling and contained layout. Reuses accepted same-byte F015 focused context for repeated Refresh/scan-state predicates; OneDrive/all-users never modified."
     },
     {
       "theme": "Dark",
@@ -919,8 +959,16 @@
       "page": "Security",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_security_unknown_details.png",
+        "screenshots/dark125_security_primary_focus.png",
+        "screenshots/dark125_security_human_attempt_unconfirmed.png",
+        "screenshots/dark125_security_os_redirect_confirmed.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:47:24.211Z",
+      "predicates": "Human-confirmed native Windows Security redirect with screenshot; readable readonly protection findings, Unknown Secure Boot detail, keyboard grid/detail and visible primary focus established in preceding evidence; containment, scrolling, no exception. No protection settings changed."
     },
     {
       "theme": "Dark",
@@ -1784,9 +1832,9 @@
   ],
   "scoreboard": {
     "strict": {
-      "PASS": 46,
+      "PASS": 50,
       "FAIL": 0,
-      "NOT_RUN": 53
+      "NOT_RUN": 49
     },
     "bestEffort": {
       "PASS": 0,

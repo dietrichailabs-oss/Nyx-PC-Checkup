@@ -49,6 +49,20 @@
       "nextAction": "Sign into disposable Nyx VM as Nyx; resume from persisted STATE without rerunning completed cells.",
       "completedUtc": "2026-10-05T23:09:30.046Z",
       "resolution": "Collection read-only succeeded; signed-in native Nyx Home observed."
+    },
+    {
+      "id": "DARK125_STORAGE_OS_REDIRECT",
+      "status": "COMPLETE",
+      "reason": "Credential UAC from Windows Settings redirect; no credential entry or bypass.",
+      "nextAction": "Human clicks No; capture native return and continue independent cells."
+    },
+    {
+      "id": "DARK125_SECURITY_OS_REDIRECT",
+      "status": "COMPLETE",
+      "reason": "Windows Security cannot be automated; read-only Nyx findings and keyboard focus complete.",
+      "nextAction": "Human activates focused redirect and leaves destination open for read-only screenshot; no protection changes.",
+      "completedUtc": "2026-10-05T23:47:38.808Z",
+      "resolution": "Owner direct button click and captured Windows Security destination; no protection changes."
     }
   ]
 }

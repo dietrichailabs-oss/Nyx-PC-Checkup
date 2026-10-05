@@ -9,7 +9,7 @@
   "currentBatch": "B_DARK_125",
   "currentTheme": "Dark",
   "currentScale": 125,
-  "currentPage": "Home",
+  "currentPage": "Security",
   "currentSuite": null,
   "focused": {
     "F023": "PASS",
@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 46,
+      "PASS": 50,
       "FAIL": 0,
-      "NOT_RUN": 53
+      "NOT_RUN": 49
     },
     "bestEffort": {
       "PASS": 0,
@@ -2256,6 +2256,223 @@
       "details": "Enter on visibly focused Check My PC invoked Quick; completion rerenders Home with Good9/NeedsAttention2/Optional1/Unknown3. No visible exception. This UI observation does not substitute for this new run raw contract validation.",
       "evidence": "screenshots/dark125_home_keyboard_quick_complete.png",
       "utc": "2026-10-05T23:12:28.242Z"
+    },
+    {
+      "id": "dark125_checkup_keyboard_end",
+      "status": "PASS",
+      "details": "CtrlEnd reaches final Network finding with visible focused cell and normal vertical scrolling; all 15 Quick results reachable.",
+      "evidence": "screenshots/dark125_checkup_keyboard_end.png",
+      "utc": "2026-10-05T23:15:09.321Z"
+    },
+    {
+      "id": "dark125_checkup_enter_details",
+      "status": "PASS",
+      "details": "Enter dispatches exact final Network details. Full finding, reason, recommended action, None safety, Complete true readable within work area; no network changes.",
+      "evidence": "screenshots/dark125_checkup_enter_details.png",
+      "utc": "2026-10-05T23:15:26.259Z"
+    },
+    {
+      "id": "dark125_checkup_reverse_tab",
+      "status": "PASS",
+      "details": "ControlShiftTab from final result recovers visibly focused Full Check; Quick and Export remain visible and reachable.",
+      "evidence": "screenshots/dark125_checkup_reverse_tab.png",
+      "utc": "2026-10-05T23:15:51.596Z"
+    },
+    {
+      "id": "dark125_checkup_keyboard_full_start",
+      "status": "PASS",
+      "details": "Focused Full Check Enter starts real read-only Full scan; visible status and enabled Cancel while scan active.",
+      "evidence": "screenshots/dark125_checkup_keyboard_full_start.png",
+      "utc": "2026-10-05T23:16:00.549Z"
+    },
+    {
+      "id": "dark125_checkup_active_cancel_focus",
+      "status": "PASS",
+      "details": "During active Full worker UI status Checking User folders and largest files, ControlTab reaches visibly focused enabled Cancel scan. Progress and primary cancel fully within work area.",
+      "evidence": "screenshots/dark125_checkup_active_cancel_focus.png",
+      "utc": "2026-10-05T23:16:19.727Z"
+    },
+    {
+      "id": "dark125_checkup_keyboard_cancel_dispatch",
+      "status": "PASS",
+      "details": "Enter activates active Cancel; UI reports Cancelling safely. Partial results will remain visible. Cancel disabled after dispatch; keyboard focus recovers Export. Cancelled=true still requires raw output validation.",
+      "evidence": "screenshots/dark125_checkup_keyboard_cancel_dispatch.png",
+      "utc": "2026-10-05T23:16:30.347Z"
+    },
+    {
+      "id": "dark125_checkup_cancelled_ui",
+      "status": "PASS",
+      "details": "UI reaches Check cancelled. Partial results were preserved.; buttons re-enabled and partial findings visible. No visible exception. Raw Cancelled/schema/worker exit proofs remain separately pending.",
+      "evidence": "screenshots/dark125_checkup_cancelled_ui.png",
+      "utc": "2026-10-05T23:16:44.524Z"
+    },
+    {
+      "id": "dark125_checkup_finding_tooltip",
+      "status": "PASS",
+      "details": "Complete system overview tooltip readable including Windows build26200; details provide complete essential finding text.",
+      "evidence": "screenshots/dark125_checkup_finding_tooltip.png",
+      "utc": "2026-10-05T23:17:11.984Z"
+    },
+    {
+      "id": "dark125_startup_missing_location",
+      "status": "PASS",
+      "details": "Exact NyxQA26_MissingTarget_Fixture Open file location produces handled readable The executable location is unavailable dialog. No StrictMode/unhandled exception.",
+      "evidence": "screenshots/dark125_startup_missing_location.png",
+      "utc": "2026-10-05T23:18:25.084Z"
+    },
+    {
+      "id": "dark125_startup_disable_confirmation",
+      "status": "PASS",
+      "details": "Confirmation identifies only NyxQA26_MissingTarget_Fixture for current Windows user and states rollback is recorded before change. OneDrive/all-users entries not targeted.",
+      "evidence": "screenshots/dark125_startup_disable_confirmation.png",
+      "utc": "2026-10-05T23:19:05.865Z"
+    },
+    {
+      "id": "dark125_startup_disable_success",
+      "status": "PASS",
+      "details": "Current-user fixture disable succeeded after exact rollback state was written; readable handled acknowledgment.",
+      "evidence": "screenshots/dark125_startup_disable_success.png",
+      "utc": "2026-10-05T23:19:25.201Z"
+    },
+    {
+      "id": "dark125_startup_disabled_after_refresh",
+      "status": "PASS",
+      "details": "Actual Refresh reload retains Disabled by Nyx for exact current-user missing-target fixture; OneDrive remains Enabled, all-users entries unchanged visually.",
+      "evidence": "screenshots/dark125_startup_disabled_after_refresh.png",
+      "utc": "2026-10-05T23:20:02.600Z"
+    },
+    {
+      "id": "dark125_startup_restore_focus",
+      "status": "PASS",
+      "details": "Selected disabled fixture enables Re-enable and disables Disable; ShiftTab gives fully visible restoration action focus.",
+      "evidence": "screenshots/dark125_startup_restore_focus.png",
+      "utc": "2026-10-05T23:20:26.899Z"
+    },
+    {
+      "id": "dark125_startup_restore_success",
+      "status": "PASS",
+      "details": "Exact current-user fixture restored and active rollback journal closed; no other entry targeted.",
+      "evidence": "screenshots/dark125_startup_restore_success.png",
+      "utc": "2026-10-05T23:21:02.476Z"
+    },
+    {
+      "id": "dark125_startup_restored_after_refresh",
+      "status": "PASS",
+      "details": "Actual Refresh shows exact fixture Enabled; rollback restoration complete, no disabled fixture left.",
+      "evidence": "screenshots/dark125_startup_restored_after_refresh.png",
+      "utc": "2026-10-05T23:21:36.308Z"
+    },
+    {
+      "id": "dark125_startup_allusers_readonly",
+      "status": "PASS",
+      "details": "All-users Startup folder desktop selected; Disable and Re-enable disabled. Open file location has visible focus, no elevation requested.",
+      "evidence": "screenshots/dark125_startup_allusers_readonly.png",
+      "utc": "2026-10-05T23:21:54.640Z"
+    },
+    {
+      "id": "dark125_startup_valid_location",
+      "status": "PASS",
+      "details": "Open file location on existing all-users desktop entry opens real Startup folder in Explorer. No file execution, deletion, or all-users modification.",
+      "evidence": "screenshots/dark125_startup_valid_location.png",
+      "utc": "2026-10-05T23:22:23.579Z"
+    },
+    {
+      "id": "dark125_storage_secure_uac",
+      "status": "BLOCKED_HUMAN",
+      "details": "Actual Open Storage settings redirect reaches Microsoft Windows Settings credential UAC for guest administrator. No password entered, no security bypass, no OS settings changed. Await human No dismissal.",
+      "evidence": "screenshots/dark125_storage_secure_uac.png",
+      "utc": "2026-10-05T23:23:59.011Z"
+    },
+    {
+      "id": "dark125_storage_os_destination",
+      "status": "PASS",
+      "details": "After human-reported secure prompt dismissal, actual Windows Settings System > Storage destination visible for Nyx. No OS settings changed; secure credential step not automated.",
+      "evidence": "screenshots/dark125_storage_os_destination.png",
+      "utc": "2026-10-05T23:24:28.666Z"
+    },
+    {
+      "id": "dark125_storage_downloads",
+      "status": "PASS",
+      "details": "Actual Users/Nyx/Downloads Explorer destination opens. No files modified.",
+      "evidence": "screenshots/dark125_storage_downloads.png",
+      "utc": "2026-10-05T23:25:08.235Z"
+    },
+    {
+      "id": "dark125_storage_partial_enter",
+      "status": "PASS",
+      "details": "Enter opens exact User profile folders/largest files details; full usage and largest-folder values readable, cancellation/safety-limit explanation, None safety and Complete false visible; no deletion.",
+      "evidence": "screenshots/dark125_storage_partial_enter.png",
+      "utc": "2026-10-05T23:26:12.135Z"
+    },
+    {
+      "id": "dark125_storage_focus_recovery",
+      "status": "PASS",
+      "details": "ControlShiftTab restores visible Run Full Check focus after partial detail; no hidden required action. Next scan deferred until current authoritative cancellation output is preserved.",
+      "evidence": "screenshots/dark125_storage_focus_recovery.png",
+      "utc": "2026-10-05T23:26:54.504Z"
+    },
+    {
+      "id": "dark125_cancel_authoritative_copy_preserved",
+      "status": "OBSERVED",
+      "details": "Explorer copied original scans/last-scan.json (62.5KB, modified19:16) into reports and renamed only the copy cancelledfull125-20261005-1916.json. JSON content not edited. Original remains in scans. Hash equality and Cancelled contract require next collection.",
+      "evidence": "screenshots/dark125_cancel_authoritative_copy_preserved.png",
+      "utc": "2026-10-05T23:30:35.256Z"
+    },
+    {
+      "id": "dark125_storage_full_action",
+      "status": "PASS",
+      "details": "Enter on visibly focused Storage Run Full Check starts actual read-only Full, with status and enabled Cancel visible. Prior cancellation original JSON preserved separately, not modified.",
+      "evidence": "screenshots/dark125_storage_full_action.png",
+      "utc": "2026-10-05T23:31:18.062Z"
+    },
+    {
+      "id": "dark125_security_unknown_details",
+      "status": "PASS",
+      "details": "Read-only Nyx Secure Boot details show full unsupported-firmware/insufficient-access explanation, no automatic change, None safety, Complete false; contained readable dialog. No Windows security settings modified.",
+      "evidence": "screenshots/dark125_security_unknown_details.png",
+      "utc": "2026-10-05T23:32:02.566Z"
+    },
+    {
+      "id": "dark125_security_primary_focus",
+      "status": "PASS",
+      "details": "After Full completion and page rerender, reverse keyboard navigation enters actual Security grid and ControlShiftTab auto-scrolls visibly focused Open Windows Security action into view. Redirect itself queued for human; no protection settings changed.",
+      "evidence": "screenshots/dark125_security_primary_focus.png",
+      "utc": "2026-10-05T23:33:13.155Z"
+    },
+    {
+      "id": "dark125_security_human_attempt_unconfirmed",
+      "status": "OBSERVED",
+      "details": "Human reports Enter did not open Windows Security. Screenshot shows host overlay and inactive VM caption, so guest input delivery is not established. Requested direct guest button retry; no product failure classification yet.",
+      "evidence": "screenshots/dark125_security_human_attempt_unconfirmed.png",
+      "utc": "2026-10-05T23:34:03.113Z"
+    },
+    {
+      "id": "dark125_storage_full_complete_recreation",
+      "status": "PASS",
+      "details": "Storage-triggered Full completed, recreation shows populated Good Storage/Downloads findings; no visible exception. New raw output pending contract collection.",
+      "evidence": "screenshots/dark125_storage_full_complete_recreation.png",
+      "utc": "2026-10-05T23:36:51.815Z"
+    },
+    {
+      "id": "dark125_storage_completed_full_details",
+      "status": "PASS",
+      "details": "Enter on completed user-profile finding opens contained readable full details: 1.0 GB profile, Documents 2.2 MB; wrapped recommendation readable; ActionSafety None; Complete True; technical evidence scroll available.",
+      "evidence": "screenshots/dark125_storage_completed_full_details.png",
+      "utc": "2026-10-05T23:40:00.418Z"
+    },
+    {
+      "id": "dark125_storage_full_action_focus_restored",
+      "status": "PASS",
+      "details": "Ctrl+Shift+Tab from restored finding grid scrolls Run Full Check fully into view with visible focus. All three Storage primary actions readable and reachable.",
+      "evidence": "screenshots/dark125_storage_full_action_focus_restored.png",
+      "utc": "2026-10-05T23:40:28.717Z"
+    },
+    {
+      "id": "dark125_security_os_redirect_confirmed",
+      "status": "PASS",
+      "details": "Owner directly clicked Open Windows Security in Nyx; screenshot confirms Windows Security Security at a glance opened. No protection settings changed. Earlier Enter input remained unconfirmed, not a product failure.",
+      "evidence": "screenshots/dark125_security_os_redirect_confirmed.png",
+      "utc": "2026-10-05T23:47:24.209Z"
     }
   ],
   "evidenceReferences": [
@@ -2277,8 +2494,8 @@
     "pendingTransition": null,
     "state": "Running; signed in as Nyx; native app visible"
   },
-  "lastCompletedAction": "Credited Dark125 Home",
-  "nextAction": "Complete remaining Dark125 Checkup/Startup/Storage/Security predicates, then remaining strict batches",
+  "lastCompletedAction": "Dark125 full 11-page batch complete; strict 50/99.",
+  "nextAction": "Preserve latest completed Full raw JSON; resume remaining FollowWindows125 cells, then strict150 batches.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -2292,7 +2509,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-05T23:12:54.031Z",
+  "updatedUtc": "2026-10-05T23:47:38.808Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -3194,8 +3411,20 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_checkup_keyboard_end.png",
+        "screenshots/dark125_checkup_enter_details.png",
+        "screenshots/dark125_checkup_reverse_tab.png",
+        "screenshots/dark125_checkup_keyboard_full_start.png",
+        "screenshots/dark125_checkup_active_cancel_focus.png",
+        "screenshots/dark125_checkup_keyboard_cancel_dispatch.png",
+        "screenshots/dark125_checkup_cancelled_ui.png",
+        "screenshots/dark125_checkup_finding_tooltip.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:17:11.986Z",
+      "predicates": "Quick completion/rerender inherited from actual Home keyboard action; Checkup Full starts by Enter; active progress visible and ControlTab reaches enabled visibly focused Cancel; Enter cancellation produces preserved partial-results UI. CtrlEnd/Enter exact last finding, readable details, reverse focus to Full, tooltip, scrolling, containment. Raw cancelled contract and live worker cleanup remain targeted F010/F016 predicates, not claimed by UI cell."
     },
     {
       "theme": "Dark",
@@ -3203,8 +3432,21 @@
       "page": "Storage",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_storage_secure_uac.png",
+        "screenshots/dark125_storage_os_destination.png",
+        "screenshots/dark125_storage_downloads.png",
+        "screenshots/dark125_storage_partial_enter.png",
+        "screenshots/dark125_storage_focus_recovery.png",
+        "screenshots/dark125_storage_full_action.png",
+        "screenshots/dark125_storage_full_complete_recreation.png",
+        "screenshots/dark125_storage_completed_full_details.png",
+        "screenshots/dark125_storage_full_action_focus_restored.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:40:28.719Z",
+      "predicates": "Completed real Storage settings redirect, Downloads Explorer redirect, keyboard Full Check dispatch/completion, page recreation, partial and completed finding Enter details, readable complete values/recommendations, visible reverse keyboard focus and scroll recovery, containment; no exception observed. Authoritative new scan contract remains separately pending."
     },
     {
       "theme": "Dark",
@@ -3212,8 +3454,23 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_startup_refresh_after_full.png",
+        "screenshots/dark125_startup_allusers_reverse_focus.png",
+        "screenshots/dark125_startup_missing_location.png",
+        "screenshots/dark125_startup_disable_confirmation.png",
+        "screenshots/dark125_startup_disable_success.png",
+        "screenshots/dark125_startup_disabled_after_refresh.png",
+        "screenshots/dark125_startup_restore_focus.png",
+        "screenshots/dark125_startup_restore_success.png",
+        "screenshots/dark125_startup_restored_after_refresh.png",
+        "screenshots/dark125_startup_allusers_readonly.png",
+        "screenshots/dark125_startup_valid_location.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:22:37.411Z",
+      "predicates": "Actual deferred Refresh after Full and later cancellation/recreation; current-user fixture Disable confirmation and success, Refresh Disabled, Re-enable exact restore and Refresh Enabled; visible keyboard actions/recovery; missing location handled and valid Startup-folder redirect; all-users mutations disabled and reverse traversal skips them; grid scrolling and contained layout. Reuses accepted same-byte F015 focused context for repeated Refresh/scan-state predicates; OneDrive/all-users never modified."
     },
     {
       "theme": "Dark",
@@ -3221,8 +3478,16 @@
       "page": "Security",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_security_unknown_details.png",
+        "screenshots/dark125_security_primary_focus.png",
+        "screenshots/dark125_security_human_attempt_unconfirmed.png",
+        "screenshots/dark125_security_os_redirect_confirmed.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:47:24.211Z",
+      "predicates": "Human-confirmed native Windows Security redirect with screenshot; readable readonly protection findings, Unknown Secure Boot detail, keyboard grid/detail and visible primary focus established in preceding evidence; containment, scrolling, no exception. No protection settings changed."
     },
     {
       "theme": "Dark",
