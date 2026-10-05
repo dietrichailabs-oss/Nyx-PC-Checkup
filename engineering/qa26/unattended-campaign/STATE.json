@@ -9,7 +9,7 @@
   "currentBatch": "B_DARK_125",
   "currentTheme": "Dark",
   "currentScale": 125,
-  "currentPage": "Startup",
+  "currentPage": "Home",
   "currentSuite": null,
   "focused": {
     "F023": "PASS",
@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 45,
+      "PASS": 46,
       "FAIL": 0,
-      "NOT_RUN": 54
+      "NOT_RUN": 53
     },
     "bestEffort": {
       "PASS": 0,
@@ -2221,6 +2221,41 @@
       "details": "Nyx VM running at lock screen. Normal RunAs collector attempt canceled; no authentication/UAC bypass. Native tests cannot continue until sign-in.",
       "evidence": "screenshots/collection_restart_guest_locked_20261005.png",
       "utc": "2026-10-05T13:16:13.217Z"
+    },
+    {
+      "id": "dark125_post_collection_home",
+      "status": "PASS",
+      "details": "Restarted guest signed in; dark native Home visible with completed Full summary; collection successful, no product modification.",
+      "evidence": "screenshots/dark125_post_collection_home.png",
+      "utc": "2026-10-05T23:09:30.049Z"
+    },
+    {
+      "id": "dark125_home_lower_readability",
+      "status": "PASS",
+      "details": "Normal vertical scroll exposes all six summary cards and complete Things worth looking at findings; status words and counts convey meaning independently of color.",
+      "evidence": "screenshots/dark125_home_lower_readability.png",
+      "utc": "2026-10-05T23:09:46.733Z"
+    },
+    {
+      "id": "dark125_home_export_review",
+      "status": "PASS",
+      "details": "Export review opens within guest work area, selectable scrollable report visible; no new export or external transmission.",
+      "evidence": "screenshots/dark125_home_export_review.png",
+      "utc": "2026-10-05T23:10:22.262Z"
+    },
+    {
+      "id": "dark125_home_primary_keyboard_focus",
+      "status": "PASS",
+      "details": "Backward keyboard navigation from Home reaches Export then Check My PC, visible focus; page recreation preserves required actions and readable state.",
+      "evidence": "screenshots/dark125_home_primary_keyboard_focus.png",
+      "utc": "2026-10-05T23:11:54.263Z"
+    },
+    {
+      "id": "dark125_home_keyboard_quick_complete",
+      "status": "PASS",
+      "details": "Enter on visibly focused Check My PC invoked Quick; completion rerenders Home with Good9/NeedsAttention2/Optional1/Unknown3. No visible exception. This UI observation does not substitute for this new run raw contract validation.",
+      "evidence": "screenshots/dark125_home_keyboard_quick_complete.png",
+      "utc": "2026-10-05T23:12:28.242Z"
     }
   ],
   "evidenceReferences": [
@@ -2240,10 +2275,10 @@
     "session": "Owner confirmed signed in after125% transition; native DPI verification pending",
     "plannedTransition": "Apply configured125% via normal Windows Display sign-out; owner-assisted sign-in, independently verify120DPI before credit",
     "pendingTransition": null,
-    "state": "Running; guest lock screen observed"
+    "state": "Running; signed in as Nyx; native app visible"
   },
-  "lastCompletedAction": "collection_restart_guest_locked_20261005",
-  "nextAction": "Human sign-in as Nyx and normal collector UAC approval; then validate saved scans and resume incomplete Dark125 cells",
+  "lastCompletedAction": "Credited Dark125 Home",
+  "nextAction": "Complete remaining Dark125 Checkup/Startup/Storage/Security predicates, then remaining strict batches",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -2257,7 +2292,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-05T13:16:13.219Z",
+  "updatedUtc": "2026-10-05T23:12:54.031Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -3142,8 +3177,16 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_home_lower_readability.png",
+        "screenshots/dark125_home_export_review.png",
+        "screenshots/dark125_home_primary_keyboard_focus.png",
+        "screenshots/dark125_home_keyboard_quick_complete.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:12:54.029Z",
+      "predicates": "Readable status/counts/privacy and all six summary cards; full findings readable through normal vertical scroll; Export review opens within work area; Tab/ShiftTab recover Home/Export/Check My PC visible focus; page recreation and Enter Quick action completes with rerendered summary. Native120DPI record and critical installed identities preserved; new Quick authoritative contract remains separately pending."
     },
     {
       "theme": "Dark",
@@ -4090,5 +4133,5 @@
       "status": "PENDING_COLLECTION"
     }
   ],
-  "campaignStatus": "BLOCKED_HUMAN_NATIVE_SESSION"
+  "campaignStatus": "IN_PROGRESS"
 }

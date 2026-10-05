@@ -1,0 +1,10 @@
+{
+  "classification": "HARNESS_INPUT_MISMATCH_NOT_PRODUCT_FAILURE",
+  "originalValidatorError": "String '' was not recognized as a valid DateTime",
+  "cause": "Saved exports use redacted report schema and ScanStartedUtc/ScanCompletedUtc, not authoritative scan Schema/StartedUtc/CompletedUtc. They omit contract fields; do not transform them into fake authoritative scans.",
+  "rawContractsValidated": 2,
+  "resultRecordsValidated": 36,
+  "quick125AuthoritativeRaw": "Observer125_SCAN001_RAW.json",
+  "latestFull": "LatestCollectedFull_RAW.json; chronology 2026-10-05T12:42:43.5346035Z; not automatically attributed to earlier Dark UI action",
+  "immediateTransitions": "Incomplete: original intermediate authoritative scans not present in V5 capture; no accepted immediate transition proof"
+}

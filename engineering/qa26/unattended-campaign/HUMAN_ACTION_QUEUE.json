@@ -34,17 +34,21 @@
     },
     {
       "id": "COLLECT_125_AUTHORITATIVE_UAC",
-      "status": "BLOCKED_HUMAN",
+      "status": "COMPLETE",
       "reason": "Host Get-VM now succeeds under approved escalation, but read-only Mount-VHD failed with required privilege not held (0x80070522). Collector preserved error and restarted Nyx normally. Authoritative raw collection requires a genuinely elevated collector token; no product failure established.",
       "nextAction": "Grouped human session approves existing read-only collector; validate quick125/full125 and installed observer per-run records/timestamps before crediting contracts.",
       "lastAttemptUtc": "2026-10-05T13:12:41.153Z",
-      "launchResult": "Normal RunAs launch returned operation canceled by user. No elevated collection completed."
+      "launchResult": "Normal RunAs launch returned operation canceled by user. No elevated collection completed.",
+      "completedUtc": "2026-10-05T23:09:30.046Z",
+      "resolution": "Collection read-only succeeded; signed-in native Nyx Home observed."
     },
     {
       "id": "NATIVE_SESSION_LOGIN_20261005",
-      "status": "BLOCKED_HUMAN",
+      "status": "COMPLETE",
       "reason": "Guest lock screen observed after normal collector restart; authentication is not automated.",
-      "nextAction": "Sign into disposable Nyx VM as Nyx; resume from persisted STATE without rerunning completed cells."
+      "nextAction": "Sign into disposable Nyx VM as Nyx; resume from persisted STATE without rerunning completed cells.",
+      "completedUtc": "2026-10-05T23:09:30.046Z",
+      "resolution": "Collection read-only succeeded; signed-in native Nyx Home observed."
     }
   ]
 }

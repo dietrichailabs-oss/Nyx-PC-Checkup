@@ -875,8 +875,16 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark125_home_lower_readability.png",
+        "screenshots/dark125_home_export_review.png",
+        "screenshots/dark125_home_primary_keyboard_focus.png",
+        "screenshots/dark125_home_keyboard_quick_complete.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:12:54.029Z",
+      "predicates": "Readable status/counts/privacy and all six summary cards; full findings readable through normal vertical scroll; Export review opens within work area; Tab/ShiftTab recover Home/Export/Check My PC visible focus; page recreation and Enter Quick action completes with rerendered summary. Native120DPI record and critical installed identities preserved; new Quick authoritative contract remains separately pending."
     },
     {
       "theme": "Dark",
@@ -1776,9 +1784,9 @@
   ],
   "scoreboard": {
     "strict": {
-      "PASS": 45,
+      "PASS": 46,
       "FAIL": 0,
-      "NOT_RUN": 54
+      "NOT_RUN": 53
     },
     "bestEffort": {
       "PASS": 0,
