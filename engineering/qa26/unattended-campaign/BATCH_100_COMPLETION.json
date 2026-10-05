@@ -1,0 +1,48 @@
+{
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "productModified": false,
+  "completedBatches": [
+    "FollowWindows100",
+    "Dark100",
+    "Light100"
+  ],
+  "strict": {
+    "PASS": 33,
+    "FAIL": 0,
+    "NOT_RUN": 66
+  },
+  "bestEffort": {
+    "PASS": 0,
+    "FAIL": 0,
+    "NOT_RUN": 33
+  },
+  "authoritativeScans": 3,
+  "authoritativeResults": 51,
+  "collection": "20261004_201412 COLLECTED_READ_ONLY",
+  "criticalInstalledHashes": "4/4 PASS",
+  "liveCleanup": "Not inferred from read-only offline collection",
+  "focused": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE",
+    "F010": "INCOMPLETE",
+    "F016": "INCOMPLETE"
+  },
+  "downstream": {
+    "Standard": "NOT_RUN",
+    "Smoke": "NOT_RUN",
+    "Migration": "NOT_RUN",
+    "PrivilegeRollback": "NOT_RUN",
+    "InstallerLifecycle": "NOT_RUN",
+    "F011": "NOT_RUN",
+    "F012": "NOT_RUN",
+    "F010Malformed": "NOT_RUN",
+    "ElevatedPrivilege": "NOT_RUN",
+    "ElevatedLifecycle": "NOT_RUN",
+    "PrivacySafety": "NOT_RUN"
+  },
+  "next": "Verify restarted native DPI/theme, then FollowWindows125 batch; no rerun of completed100% cells."
+}

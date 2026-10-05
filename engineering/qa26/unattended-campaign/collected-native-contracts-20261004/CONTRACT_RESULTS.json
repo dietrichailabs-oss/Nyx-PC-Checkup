@@ -1,0 +1,81 @@
+{
+  "schema": "QA26-COLLECTED-CONTRACT-1",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "scansPassed": 3,
+  "scansFailed": 0,
+  "resultsValidated": 51,
+  "reports": [
+    {
+      "run": "DarkQuick",
+      "result": "PASS",
+      "schema": "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+      "mode": "Quick",
+      "startedUtc": "2026-10-04T20:21:33.4123292Z",
+      "completedUtc": "2026-10-04T20:21:49.7050304Z",
+      "readOnly": true,
+      "cancelled": false,
+      "resultsValidated": 15,
+      "workerError": null,
+      "nullableEvidenceAllowed": true,
+      "sha256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "errors": []
+    },
+    {
+      "run": "DarkFull",
+      "result": "PASS",
+      "schema": "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+      "mode": "Full",
+      "startedUtc": "2026-10-04T21:06:04.1603990Z",
+      "completedUtc": "2026-10-04T21:06:42.9523110Z",
+      "readOnly": true,
+      "cancelled": false,
+      "resultsValidated": 21,
+      "workerError": null,
+      "nullableEvidenceAllowed": true,
+      "sha256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "errors": []
+    },
+    {
+      "run": "LightQuick",
+      "result": "PASS",
+      "schema": "dietrich-ai-labs.nyx-pc-checkup.scan.v1",
+      "mode": "Quick",
+      "startedUtc": "2026-10-04T22:47:16.7485538Z",
+      "completedUtc": "2026-10-04T22:47:28.3349882Z",
+      "readOnly": true,
+      "cancelled": false,
+      "resultsValidated": 15,
+      "workerError": null,
+      "nullableEvidenceAllowed": true,
+      "sha256": "ED4E18D40081431CC08170AF3EC8F5E47056E932D93733426F5AE2C41635EE0C",
+      "errors": []
+    }
+  ],
+  "criticalInstalledIdentity": [
+    {
+      "path": "app/NyxPCCheckup.ps1",
+      "result": "PASS",
+      "actual": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "expected": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC"
+    },
+    {
+      "path": "app/workers/ScanWorker.ps1",
+      "result": "PASS",
+      "actual": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "expected": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79"
+    },
+    {
+      "path": "Nyx PC Checkup.exe",
+      "result": "PASS",
+      "actual": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "expected": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75"
+    },
+    {
+      "path": "VERSION.json",
+      "result": "PASS",
+      "actual": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "expected": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526"
+    }
+  ],
+  "liveCleanup": "NOT_PROVEN_BY_OFFLINE_COLLECTION"
+}

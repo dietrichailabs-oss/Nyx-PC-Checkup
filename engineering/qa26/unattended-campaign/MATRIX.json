@@ -1,13 +1,10 @@
 {
   "schema": "QA26-F008-MATRIX-1",
-  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
-  "build": "2026.10.02-eng-qa26",
-  "harness": "QA26-F023-PS51-26",
   "scoreboard": {
     "strict": {
-      "PASS": 29,
+      "PASS": 33,
       "FAIL": 0,
-      "NOT_RUN": 70
+      "NOT_RUN": 66
     },
     "bestEffort": {
       "PASS": 0,
@@ -440,8 +437,16 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark100_home_top.png",
+        "screenshots/dark100_home_scan_progress_focus.png",
+        "screenshots/dark100_home_completed_readability.png",
+        "screenshots/dark100_home_lower_full_completed.png",
+        "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.004Z",
+      "predicates": "Full native100 Dark UI predicates retained and now reconciled to original authoritative Quick15/Full21 PASS results. No exception, readable text and visible focus, scroll/action access and work-area containment. No live-cleanup acceptance inferred."
     },
     {
       "theme": "Dark",
@@ -449,8 +454,19 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark100_checkup_enter_detail.png",
+        "screenshots/dark100_checkup_repeat_enter.png",
+        "screenshots/dark100_checkup_final_row_access.png",
+        "screenshots/dark100_checkup_full_progress_visible.png",
+        "screenshots/dark100_checkup_reverse_toolbar_focus.png",
+        "screenshots/dark100_checkup_focus_contrast_reconciled.png",
+        "screenshots/dark100_checkup_full_detail_readability.png",
+        "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.004Z",
+      "predicates": "Full native100 Dark UI predicates retained and now reconciled to original authoritative Quick15/Full21 PASS results. No exception, readable text and visible focus, scroll/action access and work-area containment. No live-cleanup acceptance inferred."
     },
     {
       "theme": "Dark",
@@ -1016,8 +1032,17 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_home_native_launch.png",
+        "screenshots/light100_home_scan_progress.png",
+        "screenshots/light100_home_quick_complete_ui.png",
+        "screenshots/light100_home_lower_readability.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.004Z",
+      "predicates": "Light100 native Quick15 original authoritative contract PASS; actual progress/Cancel visibility, primary focus, readable status text, lower card/findings scroll and native launch. Existing same-byte keyboard action and geometry references retained."
     },
     {
       "theme": "Light",
@@ -1025,8 +1050,15 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_checkup_detail_keyboard.png",
+        "screenshots/light100_checkup_action_focus.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.005Z",
+      "predicates": "Light100 installed full result display plus keyboard Enter exact applications detail/Complete=true, reverse-Tab fully visible Full action; original shared Full21 contract now PASS. Same-byte real Full-action/progress control established Dark100; required focus/scroll/readability and containment observed."
     },
     {
       "theme": "Light",

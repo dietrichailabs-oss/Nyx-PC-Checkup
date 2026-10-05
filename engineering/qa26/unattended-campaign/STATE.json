@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 29,
+      "PASS": 33,
       "FAIL": 0,
-      "NOT_RUN": 70
+      "NOT_RUN": 66
     },
     "bestEffort": {
       "PASS": 0,
@@ -985,10 +985,10 @@
     "id": "275a191c-cf8a-4929-9849-b9a293e9149d",
     "checkpoint": "NOT_YET_VERIFIED",
     "session": "Normal guest session retained; collector never started",
-    "plannedTransition": "Normal read-only evidence collection; persist latest Quick and two preserved Dark JSON runs before any further scans/restart"
+    "plannedTransition": "Close idle native app normally to let existing evidence-only geometry observer launch; no product edits"
   },
-  "lastCompletedAction": "Light100 Checkup Enter/detail and reverse focus; Light100 Home real Quick completion/progress/lower findings captured. Await raw validation; no extra matrix PASS inferred.",
-  "nextAction": "Owner-assisted normal host UAC for read-only collector, then guest sign-in. Collect latest Light Quick and reports/quickdark100.json plus reports/fulldark100.json; validate contracts without overwriting. Resume missing applied-DPI tests after confirmed login/DPI. No product rebuild.",
+  "lastCompletedAction": "Credited Light100 Checkup",
+  "nextAction": "Verify restarted native DPI/theme, then FollowWindows125 batch; no rerun of completed100% cells.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -1002,7 +1002,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-04T22:51:47.963Z",
+  "updatedUtc": "2026-10-05T00:20:38.632Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -1438,8 +1438,16 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark100_home_top.png",
+        "screenshots/dark100_home_scan_progress_focus.png",
+        "screenshots/dark100_home_completed_readability.png",
+        "screenshots/dark100_home_lower_full_completed.png",
+        "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.004Z",
+      "predicates": "Full native100 Dark UI predicates retained and now reconciled to original authoritative Quick15/Full21 PASS results. No exception, readable text and visible focus, scroll/action access and work-area containment. No live-cleanup acceptance inferred."
     },
     {
       "theme": "Dark",
@@ -1447,8 +1455,19 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/dark100_checkup_enter_detail.png",
+        "screenshots/dark100_checkup_repeat_enter.png",
+        "screenshots/dark100_checkup_final_row_access.png",
+        "screenshots/dark100_checkup_full_progress_visible.png",
+        "screenshots/dark100_checkup_reverse_toolbar_focus.png",
+        "screenshots/dark100_checkup_focus_contrast_reconciled.png",
+        "screenshots/dark100_checkup_full_detail_readability.png",
+        "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.004Z",
+      "predicates": "Full native100 Dark UI predicates retained and now reconciled to original authoritative Quick15/Full21 PASS results. No exception, readable text and visible focus, scroll/action access and work-area containment. No live-cleanup acceptance inferred."
     },
     {
       "theme": "Dark",
@@ -2014,8 +2033,17 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_home_native_launch.png",
+        "screenshots/light100_home_scan_progress.png",
+        "screenshots/light100_home_quick_complete_ui.png",
+        "screenshots/light100_home_lower_readability.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.004Z",
+      "predicates": "Light100 native Quick15 original authoritative contract PASS; actual progress/Cancel visibility, primary focus, readable status text, lower card/findings scroll and native launch. Existing same-byte keyboard action and geometry references retained."
     },
     {
       "theme": "Light",
@@ -2023,8 +2051,15 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light100_checkup_detail_keyboard.png",
+        "screenshots/light100_checkup_action_focus.png",
+        "screenshots/current_settings_native_96dpi_geometry.png",
+        "screenshots/direct_native_report_header_enlarged.png"
+      ],
+      "completedUtc": "2026-10-05T00:17:45.005Z",
+      "predicates": "Light100 installed full result display plus keyboard Enter exact applications detail/Complete=true, reverse-Tab fully visible Full action; original shared Full21 contract now PASS. Same-byte real Full-action/progress control established Dark100; required focus/scroll/readability and containment observed."
     },
     {
       "theme": "Light",
@@ -2535,8 +2570,8 @@
     {
       "id": "Dark100HomeQuickPreserved",
       "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\quickdark100.json",
-      "status": "PENDING_RESULT_VALIDATION",
-      "evidence": "screenshots/dark100_quick_authoritative_copy_preserved.png"
+      "status": "RESULT_CONTRACT_RECONCILED",
+      "evidence": "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
     },
     {
       "id": "Dark100FullCategoryPopulation",
@@ -2546,15 +2581,17 @@
     },
     {
       "id": "Dark100CleanupRefreshFull",
-      "status": "PENDING_RESULT_VALIDATION",
-      "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\fulldark100.json"
+      "status": "RESULT_CONTRACT_RECONCILED",
+      "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\fulldark100.json",
+      "evidence": "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
     },
     {
       "id": "Light100HomeQuick",
-      "status": "PENDING_RESULT_VALIDATION",
+      "status": "RESULT_CONTRACT_RECONCILED",
       "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
       "startObservedUtc": "2026-10-04T22:47:16.123Z",
-      "completionObservedUtc": "2026-10-04T22:47:51.971Z"
+      "completionObservedUtc": "2026-10-04T22:47:51.971Z",
+      "evidence": "collected-native-contracts-20261004/CONTRACT_RESULTS.json"
     }
   ],
   "campaignStatus": "HOLD_INCOMPLETE"
