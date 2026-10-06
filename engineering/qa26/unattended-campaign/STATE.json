@@ -9,7 +9,7 @@
   "currentBatch": "FollowWindows125-reconciliation",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Checkup",
+  "currentPage": "Storage",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3521,6 +3521,41 @@
       "details": "Ctrl+End scrolls the preserved Full result grid to final Applications row; Tab reaches Export report with visible focus. Readable labels/counts and status meanings; details Enter validated separately. No new scan or export persisted.",
       "evidence": "screenshots/followwindows125_checkup_lastrow_export_focus_1791268186046_169c144a.jpg",
       "utc": "2026-10-06T06:29:46.047Z"
+    },
+    {
+      "id": "followwindows125_checkup_reverse_first_focus_1791269749303_ac752584",
+      "status": "PASS_OBSERVED",
+      "details": "Shift+Tab from Export returns to grid; Ctrl+Home returns first System overview Status cell with visible dotted focus; reverse paging works without action dispatch or scan mutation.",
+      "evidence": "screenshots/followwindows125_checkup_reverse_first_focus_1791269749303_ac752584.jpg",
+      "utc": "2026-10-06T06:55:49.303Z"
+    },
+    {
+      "id": "followwindows125_checkup_full_focus_scroll_1791269757950_47e4c64d",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab from grid auto-scrolls Full Check fully into view with visible focus; Quick Check remains accessible; no action activated to preserve pending authoritative Full.",
+      "evidence": "screenshots/followwindows125_checkup_full_focus_scroll_1791269757950_47e4c64d.jpg",
+      "utc": "2026-10-06T06:55:57.951Z"
+    },
+    {
+      "id": "followwindows125_checkup_quick_focus_1791269775152_3398578d",
+      "status": "PASS_OBSERVED",
+      "details": "Shift+Tab Full→Quick reaches visible primary Quick Check focus. Both scan actions reachable; no scan overwritten.",
+      "evidence": "screenshots/followwindows125_checkup_quick_focus_1791269775152_3398578d.jpg",
+      "utc": "2026-10-06T06:56:15.153Z"
+    },
+    {
+      "id": "followwindows125_storage_readability_1791269784031_0d1061e2",
+      "status": "PASS_OBSERVED",
+      "details": "Applied FollowWindows125 Storage heading, no-deletion safety explanation, three primary actions, and three preserved Full rows readable/reachable. No new Full launched.",
+      "evidence": "screenshots/followwindows125_storage_readability_1791269784031_0d1061e2.jpg",
+      "utc": "2026-10-06T06:56:24.031Z"
+    },
+    {
+      "id": "followwindows125_storage_downloads_destination_1791269811858_d0228e11",
+      "status": "PASS_OBSERVED",
+      "details": "Storage Open Downloads opens native Users/Nyx/Downloads; folder currently empty, no mutation. Persisted scan snapshot reports prior282B and is not rewritten.",
+      "evidence": "screenshots/followwindows125_storage_downloads_destination_1791269811858_d0228e11.jpg",
+      "utc": "2026-10-06T06:56:51.859Z"
     }
   ],
   "evidenceReferences": [
@@ -3544,8 +3579,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "FollowWindows 125 Home keyboard navigation and Checkup Enter detail, final-row scrolling and Export focus observed; incomplete cells remain uncredited.",
-  "nextAction": "Finish missing Home/Checkup cell predicates using preserved scan evidence, then remaining FollowWindows125 Storage/Security and Light125 cells. Collect pending originals only with real host UAC; never supersede latest Full before preservation.",
+  "lastCompletedAction": "FollowWindows125 Checkup reverse grid/primary-action focus and Storage readonly Downloads destination recorded; pending original Full preserved, incomplete cells not credited.",
+  "nextAction": "Finish Storage keyboard/detail predicates without new Full; reconcile Home/Checkup after original result collection. Continue independent Light125 cells; queue human Security/collector and subsequent DPI login actions.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3559,7 +3594,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T06:29:46.048Z",
+  "updatedUtc": "2026-10-06T06:57:16.611Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5704,7 +5739,7 @@
   "campaignStatus": "IN_PROGRESS",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
-  "lastUnattendedSessionUtc": "2026-10-06T03:25:40.519Z",
+  "lastUnattendedSessionUtc": "2026-10-06T06:57:16.611Z",
   "observedTheme": "FollowWindows",
   "themeContextReconciliation": {
     "schema": "QA26-THEME-CONTEXT-RECONCILIATION-1",
