@@ -9,7 +9,7 @@
   "currentBatch": "FollowWindows125-reconciliation",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Home",
+  "currentPage": "Checkup",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3493,6 +3493,34 @@
       },
       "evidence": "screenshots/followwindows125_home_reconciled_report_preview_1791266203352_ad0dfa49.jpg",
       "utc": "2026-10-06T05:56:43.353Z"
+    },
+    {
+      "id": "followwindows125_home_navigation_focus_1791268078597_eeadf6e4",
+      "status": "PASS_OBSERVED",
+      "details": "Home navigation receives visible keyboard focus after report review closes; lower status cards and warning meanings readable with scrolling; native app remains within work area.",
+      "evidence": "screenshots/followwindows125_home_navigation_focus_1791268078597_eeadf6e4.jpg",
+      "utc": "2026-10-06T06:27:58.598Z"
+    },
+    {
+      "id": "followwindows125_checkup_keyboard_navigation_1791268104877_70464def",
+      "status": "PASS_OBSERVED",
+      "details": "Tab to Checkup navigation and Enter opens Checkup; Quick/Full actions and explanatory text readable, status plus words not color-only, preserved Full results visible. No new scan started.",
+      "evidence": "screenshots/followwindows125_checkup_keyboard_navigation_1791268104877_70464def.jpg",
+      "utc": "2026-10-06T06:28:24.877Z"
+    },
+    {
+      "id": "followwindows125_checkup_enter_detail_1791268137447_7548d53a",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on installed Checkup result opens System overview details, readable What was found/Why/Recommended action/Action safety/Data source/Complete True. Full essential meaning accessible despite grid ellipsis; no scan superseded.",
+      "evidence": "screenshots/followwindows125_checkup_enter_detail_1791268137447_7548d53a.jpg",
+      "utc": "2026-10-06T06:28:57.447Z"
+    },
+    {
+      "id": "followwindows125_checkup_lastrow_export_focus_1791268186046_169c144a",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End scrolls the preserved Full result grid to final Applications row; Tab reaches Export report with visible focus. Readable labels/counts and status meanings; details Enter validated separately. No new scan or export persisted.",
+      "evidence": "screenshots/followwindows125_checkup_lastrow_export_focus_1791268186046_169c144a.jpg",
+      "utc": "2026-10-06T06:29:46.047Z"
     }
   ],
   "evidenceReferences": [
@@ -3516,8 +3544,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Confirmed-theme Home top/lower category and finding readability plus real report preview recorded; no new scans or exports.",
-  "nextAction": "Confirm report review closed; finish Home keyboard/action focus and containment predicates, then Checkup exact-theme reconciliation. Do not credit partial Home observations or rerun prior scans.",
+  "lastCompletedAction": "FollowWindows 125 Home keyboard navigation and Checkup Enter detail, final-row scrolling and Export focus observed; incomplete cells remain uncredited.",
+  "nextAction": "Finish missing Home/Checkup cell predicates using preserved scan evidence, then remaining FollowWindows125 Storage/Security and Light125 cells. Collect pending originals only with real host UAC; never supersede latest Full before preservation.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3531,7 +3559,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T05:57:19.068Z",
+  "updatedUtc": "2026-10-06T06:29:46.048Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
