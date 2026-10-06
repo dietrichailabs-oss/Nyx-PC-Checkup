@@ -3358,6 +3358,24 @@
       },
       "evidence": "screenshots/light125_storage_enter_detail_1791253561288_a665e0fa.jpg",
       "utc": "2026-10-06T02:26:01.288Z"
+    },
+    {
+      "id": "light125_storage_full_focus_1791255320864_b3602c75",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Reverse traversal restores visible Run Full Check focus and primary actions; no redundant scan started."
+      },
+      "evidence": "screenshots/light125_storage_full_focus_1791255320864_b3602c75.jpg",
+      "utc": "2026-10-06T02:55:20.865Z"
+    },
+    {
+      "id": "light125_storage_downloads_destination_1791255345840_324dbae0",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Enter on focused Open Downloads opens Users/Nyx/Downloads. Explorer shows empty folder; prior scan snapshot remains historical, no file changes performed."
+      },
+      "evidence": "screenshots/light125_storage_downloads_destination_1791255345840_324dbae0.jpg",
+      "utc": "2026-10-06T02:55:45.841Z"
     }
   ],
   "evidenceReferences": [
@@ -3381,8 +3399,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Storage populated findings and real Enter detail observed; idle screen blanking recovered with pointer move, no authentication or product failure.",
-  "nextAction": "Finish Light125 Storage keyboard focus/Downloads and required redirect predicates; preserve Apps Full before further scans. Validate original contracts before crediting Apps/Home/Checkup. Reconcile historical FollowWindows125 theme context. Resume missing strict cells on unchanged QA26.",
+  "lastCompletedAction": "Light125 Storage reverse keyboard recovery, Full action focus and actual Downloads keyboard redirect observed; files/product unchanged.",
+  "nextAction": "Finish remaining independent Light125 Storage predicates; queue credential Storage redirect if needed. Preserve Apps Full before scans; validate raw records and reconcile historical FollowWindows125 theme context before new cell credit.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3396,7 +3414,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T02:26:23.105Z",
+  "updatedUtc": "2026-10-06T02:56:01.092Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5525,7 +5543,7 @@
   "campaignStatus": "IN_PROGRESS",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
-  "lastUnattendedSessionUtc": "2026-10-06T02:26:23.105Z",
+  "lastUnattendedSessionUtc": "2026-10-06T02:56:01.092Z",
   "observedTheme": "Light",
   "themeContextReconciliation": {
     "status": "INCOMPLETE",
