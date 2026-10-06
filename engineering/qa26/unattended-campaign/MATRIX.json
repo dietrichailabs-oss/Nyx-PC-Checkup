@@ -1815,7 +1815,30 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [],
+    "completedPredicateReferences": [
+      "screenshots/light125_apps_empty_controls_1791250890384_b69554da.jpg",
+      "screenshots/light125_apps_full_progress_1791250939892_1a5fdc8b.jpg",
+      "screenshots/light125_apps_full_completed_1791250956325_a40c7d90.jpg",
+      "screenshots/light125_apps_filter_zero_1791250977477_c4227dfb.jpg",
+      "screenshots/light125_apps_filter_clear_1791251010062_d021689e.jpg",
+      "screenshots/light125_apps_grid_tab_focus_1791251021143_012d374f.jpg",
+      "screenshots/light125_apps_ctrl_end_size_readable_1791251033029_71ab998e.jpg",
+      "screenshots/light125_apps_pageup_1791251044842_330a5699.jpg",
+      "screenshots/light125_apps_pagedown_1791251195867_a39901d1.jpg",
+      "screenshots/light125_apps_folder_focus_1791251211108_1ed99d7e.jpg",
+      "screenshots/light125_apps_folder_destination_1791251225436_5366995f.jpg",
+      "screenshots/light125_apps_full_action_focus_1791251251459_7fe7a234.jpg",
+      "screenshots/light125_apps_installed_apps_redirect_1791251272111_a5d60a54.jpg",
+      "screenshots/light125_apps_after_relaunch_recreation_1791282389446_ec083faf.jpg",
+      "screenshots/light125_apps_maximize_containment_1791284141406_bca48b01.jpg",
+      "screenshots/light125_apps_restore_containment_1791284181091_5ca70bdd.jpg"
+    ],
+    "remainingPredicates": [
+      "Original Apps-triggered Full authoritative schema/result validation from queued collector",
+      "Final strict-cell predicate reconciliation; do not infer missing checks"
+    ],
+    "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
   },
   {
     "theme": "Light",

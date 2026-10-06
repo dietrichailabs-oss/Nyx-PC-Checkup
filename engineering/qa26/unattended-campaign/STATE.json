@@ -3689,6 +3689,20 @@
       "details": "Apps recreated after saved Light relaunch: title/safety text, three primary actions, filter and grid visible; EdgeVersion145.0.3800.97 readable, same preserved5-app Full data. No Full scan activated.",
       "evidence": "screenshots/light125_apps_after_relaunch_recreation_1791282389446_ec083faf.jpg",
       "utc": "2026-10-06T10:26:29.447Z"
+    },
+    {
+      "id": "light125_apps_maximize_containment_1791284141406_bca48b01",
+      "status": "PASS_OBSERVED",
+      "details": "Maximized Apps keeps title/safety explanation/filter/three primary actions/Version grid/navigation/footer within guest work area; lower rows and rightmost size use scrolling. No new scan or uninstall.",
+      "evidence": "screenshots/light125_apps_maximize_containment_1791284141406_bca48b01.jpg",
+      "utc": "2026-10-06T10:55:41.407Z"
+    },
+    {
+      "id": "light125_apps_restore_containment_1791284181091_5ca70bdd",
+      "status": "PASS_OBSERVED",
+      "details": "Restored normal Apps retains readable title/explanation/filter/primary actions/Versions, contained navigation/footer; prior shared-grid scrolling/focus/filter/action evidence retained without rerun.",
+      "evidence": "screenshots/light125_apps_restore_containment_1791284181091_5ca70bdd.jpg",
+      "utc": "2026-10-06T10:56:21.092Z"
     }
   ],
   "evidenceReferences": [
@@ -3712,8 +3726,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Native post-relaunch Settings confirms Light; Apps page recreation/readability recorded without superseding Full.",
-  "nextAction": "Reconcile Light125 Apps complete predicates against prior filter/keyboard/destination evidence; run only missing layout/focus checks. Raw source scan validation remains queued, no false cell PASS.",
+  "lastCompletedAction": "Light125 Apps missing maximize/restore containment exercised; prior functional evidence mapped, raw contract dependency queued, no false cell credit.",
+  "nextAction": "Proceed to Light125 Cleanup missing predicates, preserving latest Full; do not repeat completed Apps filter/paging/destinations. Raw collector dependency queued.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3727,7 +3741,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T10:26:29.451Z",
+  "updatedUtc": "2026-10-06T10:56:21.095Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5555,7 +5569,30 @@
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
       "status": "NOT_RUN",
-      "evidence": []
+      "evidence": [],
+      "completedPredicateReferences": [
+        "screenshots/light125_apps_empty_controls_1791250890384_b69554da.jpg",
+        "screenshots/light125_apps_full_progress_1791250939892_1a5fdc8b.jpg",
+        "screenshots/light125_apps_full_completed_1791250956325_a40c7d90.jpg",
+        "screenshots/light125_apps_filter_zero_1791250977477_c4227dfb.jpg",
+        "screenshots/light125_apps_filter_clear_1791251010062_d021689e.jpg",
+        "screenshots/light125_apps_grid_tab_focus_1791251021143_012d374f.jpg",
+        "screenshots/light125_apps_ctrl_end_size_readable_1791251033029_71ab998e.jpg",
+        "screenshots/light125_apps_pageup_1791251044842_330a5699.jpg",
+        "screenshots/light125_apps_pagedown_1791251195867_a39901d1.jpg",
+        "screenshots/light125_apps_folder_focus_1791251211108_1ed99d7e.jpg",
+        "screenshots/light125_apps_folder_destination_1791251225436_5366995f.jpg",
+        "screenshots/light125_apps_full_action_focus_1791251251459_7fe7a234.jpg",
+        "screenshots/light125_apps_installed_apps_redirect_1791251272111_a5d60a54.jpg",
+        "screenshots/light125_apps_after_relaunch_recreation_1791282389446_ec083faf.jpg",
+        "screenshots/light125_apps_maximize_containment_1791284141406_bca48b01.jpg",
+        "screenshots/light125_apps_restore_containment_1791284181091_5ca70bdd.jpg"
+      ],
+      "remainingPredicates": [
+        "Original Apps-triggered Full authoritative schema/result validation from queued collector",
+        "Final strict-cell predicate reconciliation; do not infer missing checks"
+      ],
+      "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
     },
     {
       "theme": "Light",
