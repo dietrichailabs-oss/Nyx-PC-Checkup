@@ -3605,6 +3605,34 @@
       "details": "Native vertical scrollbar exposes measured user folders: Downloads282B/1,Desktop2.8KB/2,Documents2.2MB/22001,Pictures/Videos504B/1,Complete True; Largest files table reachable. Wheel attempt did not move this pane; scrollbar does. Cosmetic cropped section heading at scroll boundary not scored as PASS until full predicates.",
       "evidence": "screenshots/followwindows125_storage_lower_tables_1791273401462_411c89cd.jpg",
       "utc": "2026-10-06T07:56:41.463Z"
+    },
+    {
+      "id": "followwindows125_storage_folder_keyboard_last_1791275137992_872accc4",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End selects last Videos row, Complete True readable; all folder names/sizes/counts remain readable. Selection demonstrated; visible dotted focus not independently proven in this frame.",
+      "evidence": "screenshots/followwindows125_storage_folder_keyboard_last_1791275137992_872accc4.jpg",
+      "utc": "2026-10-06T08:25:37.992Z"
+    },
+    {
+      "id": "followwindows125_storage_largest_grid_focus_1791275150245_e63da1ff",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+Tab from measured-folder grid enters Largest files grid, auto-scrolls section into view, visible dotted first File cell focus and readable File/Size/Folder headers; native app remains contained.",
+      "evidence": "screenshots/followwindows125_storage_largest_grid_focus_1791275150245_e63da1ff.jpg",
+      "utc": "2026-10-06T08:25:50.245Z"
+    },
+    {
+      "id": "followwindows125_storage_largest_last_focus_tooltip_1791275185199_25d45026",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End scrolls Largest files to final fixture_24903.txt,92B with visible Folder focus. Hover exposes longer folder tooltip but rightmost suffix exceeds console capture; full-path readability remains uncredited.",
+      "evidence": "screenshots/followwindows125_storage_largest_last_focus_tooltip_1791275185199_25d45026.jpg",
+      "utc": "2026-10-06T08:26:25.200Z"
+    },
+    {
+      "id": "followwindows125_storage_restored_lower_layout_1791275215045_a61f95eb",
+      "status": "PASS_OBSERVED",
+      "details": "Restore returns normal contained window with Largest files readable, navigation/footer reachable; final focus visibility after resize needs next keyboard observation.",
+      "evidence": "screenshots/followwindows125_storage_restored_lower_layout_1791275215045_a61f95eb.jpg",
+      "utc": "2026-10-06T08:26:55.045Z"
     }
   ],
   "evidenceReferences": [
@@ -3628,8 +3656,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Storage reverse primary focus, tooltip, maximized containment and lower-table scrollbar access observed; no scan or product changes.",
-  "nextAction": "Complete remaining Storage lower-table keyboard/readability and restore predicates; reconcile raw contracts via queued collector. Continue independent Light125 cells, no redundant completed-cell tests.",
+  "lastCompletedAction": "Measured-folder last-row selection, Largest-files keyboard entry/auto-scroll/final focus and maximize→restore captured.",
+  "nextAction": "Resolve largest-file full-path practical access and post-resize keyboard visibility, then finish Storage predicate reconciliation; original Full remains pending collector and must not be superseded.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3643,7 +3671,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T07:56:41.465Z",
+  "updatedUtc": "2026-10-06T08:26:55.048Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
