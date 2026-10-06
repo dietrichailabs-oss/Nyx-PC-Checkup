@@ -1,0 +1,34 @@
+{
+  "schema": "QA26-THEME-CONTEXT-RECONCILIATION-1",
+  "utc": "2026-10-06T03:55:37.305Z",
+  "productModified": false,
+  "earlyFollowWindows125": {
+    "status": "CONFIRMED_SELECTOR_AND_SAVED_CONTEXT",
+    "pages": [
+      "Settings",
+      "Apps",
+      "Cleanup",
+      "Updates",
+      "Backup",
+      "System"
+    ],
+    "evidence": [
+      "screenshots/followwindows125_settings_update_keyboard.png",
+      "screenshots/followwindows125_settings_save_success.png"
+    ],
+    "note": "Explicit native FollowWindows selector at 2026-10-05T11:23:36Z and recorded unchanged FollowWindows save at11:26:57Z support morning batch; later Dark observation does not retroactively invalidate earlier context."
+  },
+  "lateFollowWindows125": {
+    "status": "APPLIED_THEME_NOT_PROVEN",
+    "pages": [
+      "Home",
+      "Checkup",
+      "Startup"
+    ],
+    "evidence": [
+      "screenshots/followwindows125_theme_applied.png",
+      "screenshots/theme_context_reconciliation_20261006002325126_0bb8a4b2.png"
+    ],
+    "note": "19:52 local selector selection alone does not prove saved/relaunched applied theme; later selector Dark. Preserve functional evidence, suspend exact-theme cell credit pending proper saved/applied context."
+  }
+}

@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 58,
+      "PASS": 55,
       "FAIL": 0,
-      "NOT_RUN": 41
+      "NOT_RUN": 44
     },
     "bestEffort": {
       "PASS": 0,
@@ -3417,8 +3417,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Storage forward Tab and final-row CtrlEnd focus/readability verified; no product or file mutation.",
-  "nextAction": "Remaining Light125 Storage redirect needs credential-aware grouped session; finish Apps/Cleanup missing predicates, collect original scans for validation, reconcile historical FollowWindows125 credits. Do not rerun completed Storage keyboard cases.",
+  "lastCompletedAction": "Reconciled early saved FollowWindows theme evidence; suspended three late exact-theme credits lacking applied-theme proof, retaining all observations.",
+  "nextAction": "Run only missing exact applied FollowWindows125 Home/Checkup/Startup visual predicates after save/relaunch; retain earlier validated functional evidence. Continue Light125 pending cells and grouped raw collection.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3432,7 +3432,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T03:25:40.519Z",
+  "updatedUtc": "2026-10-06T03:55:37.305Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -3571,7 +3571,7 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "PASS",
+      "status": "NOT_RUN",
       "evidence": [
         "screenshots/followwindows125_native120dpi_verified.png",
         "screenshots/followwindows125_home_quick_started.png",
@@ -3588,7 +3588,10 @@
         "collected-native-contracts-20261004/INSTALLED_HASHES.json"
       ],
       "completedUtc": "2026-10-05T23:59:30.826Z",
-      "predicates": "Actual primary readonly Quick starts/completes; active progress and enabled Cancel focus reached; no cancellation credited. Summary/category/status meanings readable with normal scrolling, report-review keyboard activation readable and safe, Tab/ShiftTab recover Check My PC focus/visibility, containment/no exception. Same-candidate installed identity and native120DPI referenced."
+      "predicates": "Actual primary readonly Quick starts/completes; active progress and enabled Cancel focus reached; no cancellation credited. Summary/category/status meanings readable with normal scrolling, report-review keyboard activation readable and safe, Tab/ShiftTab recover Check My PC focus/visibility, containment/no exception. Same-candidate installed identity and native120DPI referenced.",
+      "previousStatus": "PASS",
+      "contextLimitation": "Exact applied FollowWindows context unproven; functional observations retained, no product failure.",
+      "reconciliationEvidence": "THEME_CONTEXT_RECONCILIATION_20261006.json"
     },
     {
       "theme": "FollowWindows",
@@ -3596,7 +3599,7 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "PASS",
+      "status": "NOT_RUN",
       "evidence": [
         "screenshots/followwindows125_native120dpi_verified.png",
         "screenshots/followwindows125_checkup_enter_details.png",
@@ -3615,7 +3618,10 @@
         "collected-native-contracts-20261004/INSTALLED_HASHES.json"
       ],
       "completedUtc": "2026-10-06T00:09:04.565Z",
-      "predicates": "Exact finding Enter activation/readability, reverse keyboard focus and scroll restoration, real Quick/Full/Quick starts/completions, active progress and enabled Cancel reachable, genuine Quick cancellation UI returns safely with preserved partial findings; text/status/primary actions readable and contained, no exception. Timing/raw acceptance separate."
+      "predicates": "Exact finding Enter activation/readability, reverse keyboard focus and scroll restoration, real Quick/Full/Quick starts/completions, active progress and enabled Cancel reachable, genuine Quick cancellation UI returns safely with preserved partial findings; text/status/primary actions readable and contained, no exception. Timing/raw acceptance separate.",
+      "previousStatus": "PASS",
+      "contextLimitation": "Exact applied FollowWindows context unproven; functional observations retained, no product failure.",
+      "reconciliationEvidence": "THEME_CONTEXT_RECONCILIATION_20261006.json"
     },
     {
       "theme": "FollowWindows",
@@ -3661,7 +3667,7 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "PASS",
+      "status": "NOT_RUN",
       "evidence": [
         "screenshots/followwindows125_native120dpi_verified.png",
         "screenshots/followwindows125_startup_refresh.png",
@@ -3679,7 +3685,10 @@
         "collected-native-contracts-20261004/INSTALLED_HASHES.json"
       ],
       "completedUtc": "2026-10-05T23:56:36.609Z",
-      "predicates": "Fresh FollowWindows/120DPI Refresh after completed Full, grid focus restoration, Home/End/CtrlEnd horizontal/row navigation, all-users modification actions disabled, valid location Explorer and handled unavailable fixture target, visible required actions and tooltip. Reuses same unchanged candidate F015 reconciled state-transition proofs and immediately preceding Dark125 same120DPI exact fixture disable/Refresh/restore/Refresh results, not additional executions. No deferred-state exception; state Enabled/restored."
+      "predicates": "Fresh FollowWindows/120DPI Refresh after completed Full, grid focus restoration, Home/End/CtrlEnd horizontal/row navigation, all-users modification actions disabled, valid location Explorer and handled unavailable fixture target, visible required actions and tooltip. Reuses same unchanged candidate F015 reconciled state-transition proofs and immediately preceding Dark125 same120DPI exact fixture disable/Refresh/restore/Refresh results, not additional executions. No deferred-state exception; state Enabled/restored.",
+      "previousStatus": "PASS",
+      "contextLimitation": "Exact applied FollowWindows context unproven; functional observations retained, no product failure.",
+      "reconciliationEvidence": "THEME_CONTEXT_RECONCILIATION_20261006.json"
     },
     {
       "theme": "FollowWindows",
@@ -5564,7 +5573,37 @@
   "lastUnattendedSessionUtc": "2026-10-06T03:25:40.519Z",
   "observedTheme": "Light",
   "themeContextReconciliation": {
-    "status": "INCOMPLETE",
-    "observation": "Settings initially Dark on this heartbeat; Light saved and visibly applied after normal relaunch. Earlier FollowWindows125 observations need exact theme-context reconciliation, not product rebuild."
+    "schema": "QA26-THEME-CONTEXT-RECONCILIATION-1",
+    "utc": "2026-10-06T03:55:37.305Z",
+    "productModified": false,
+    "earlyFollowWindows125": {
+      "status": "CONFIRMED_SELECTOR_AND_SAVED_CONTEXT",
+      "pages": [
+        "Settings",
+        "Apps",
+        "Cleanup",
+        "Updates",
+        "Backup",
+        "System"
+      ],
+      "evidence": [
+        "screenshots/followwindows125_settings_update_keyboard.png",
+        "screenshots/followwindows125_settings_save_success.png"
+      ],
+      "note": "Explicit native FollowWindows selector at 2026-10-05T11:23:36Z and recorded unchanged FollowWindows save at11:26:57Z support morning batch; later Dark observation does not retroactively invalidate earlier context."
+    },
+    "lateFollowWindows125": {
+      "status": "APPLIED_THEME_NOT_PROVEN",
+      "pages": [
+        "Home",
+        "Checkup",
+        "Startup"
+      ],
+      "evidence": [
+        "screenshots/followwindows125_theme_applied.png",
+        "screenshots/theme_context_reconciliation_20261006002325126_0bb8a4b2.png"
+      ],
+      "note": "19:52 local selector selection alone does not prove saved/relaunched applied theme; later selector Dark. Preserve functional evidence, suspend exact-theme cell credit pending proper saved/applied context."
+    }
   }
 }
