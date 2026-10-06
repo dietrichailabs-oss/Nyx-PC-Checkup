@@ -1632,7 +1632,33 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light125_home_native_launch_20261006005658651_4dedcb1c.png",
+      "screenshots/light125_home_scan_progress_cancel_focus_20261006005714625_b2c33905.png",
+      "screenshots/light125_home_completed_category_cards_20261006005723898_3c14c8f6.png",
+      "screenshots/light125_home_lower_text_readable_20261006005735809_43913d07.png",
+      "screenshots/light125_home_export_preview_20261006005759799_1a2f4bab.png",
+      "screenshots/light125_home_export_cancel_navigation_focus_20261006005825340_24391900.png",
+      "screenshots/light125_home_maximize_contained_20261006005840846_820e3d1a.png",
+      "screenshots/light125_home_restore_contained_20261006005900427_44e94a03.png",
+      "screenshots/light125_home_raw_copy_preserved_1791250512522_f0e5664d.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light125_home_native_launch_20261006005658651_4dedcb1c",
+      "light125_home_scan_progress_cancel_focus_20261006005714625_b2c33905",
+      "light125_home_completed_category_cards_20261006005723898_3c14c8f6",
+      "light125_home_lower_text_readable_20261006005735809_43913d07",
+      "light125_home_export_preview_20261006005759799_1a2f4bab",
+      "light125_home_export_cancel_navigation_focus_20261006005825340_24391900",
+      "light125_home_maximize_contained_20261006005840846_820e3d1a",
+      "light125_home_restore_contained_20261006005900427_44e94a03",
+      "light125_home_raw_copy_preserved_1791250512522_f0e5664d"
+    ],
+    "remainingPredicates": [
+      "Original authoritative Light125 scan schema/results/hash validation through queued read-only collection",
+      "Final strict predicate reconciliation; no cell PASS until all requirements proven"
+    ],
+    "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
   },
   {
     "theme": "Light",
@@ -1641,7 +1667,29 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light125_checkup_required_controls_20261006005915721_3b8c7e41.png",
+      "screenshots/light125_checkup_enter_final_detail_20261006005951659_79a7cb9d.png",
+      "screenshots/light125_checkup_reverse_focus_full_action_20261006010017616_1f203f32.png",
+      "screenshots/light125_checkup_quick_action_focus_20261006010040980_2e413c2b.png",
+      "screenshots/light125_checkup_maximize_1791293344260.jpg",
+      "screenshots/light125_checkup_restore_1791294941923.jpg",
+      "screenshots/light125_checkup_pagedown_1791294965976.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light125_checkup_required_controls_20261006005915721_3b8c7e41",
+      "light125_checkup_enter_final_detail_20261006005951659_79a7cb9d",
+      "light125_checkup_reverse_focus_full_action_20261006010017616_1f203f32",
+      "light125_checkup_quick_action_focus_20261006010040980_2e413c2b",
+      "light125_checkup_maximize_1791293344261",
+      "light125_checkup_restore_1791294965977",
+      "light125_checkup_pagedown_1791294965977"
+    ],
+    "remainingPredicates": [
+      "Original authoritative Light125 scan schema/results/hash validation through queued read-only collection",
+      "Final strict predicate reconciliation; no cell PASS until all requirements proven"
+    ],
+    "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
   },
   {
     "theme": "Light",

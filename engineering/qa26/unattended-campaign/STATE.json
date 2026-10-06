@@ -9,7 +9,7 @@
   "currentBatch": "Light125-reconciliation",
   "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Storage",
+  "currentPage": "Checkup",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3794,6 +3794,27 @@
       "details": "Restored Light Storage preserves contained grid/nav/export/footer and normal scrollbar routes; no scan or file mutation. Current scroll boundary shows heading outside viewport, not claimed perfect presentation.",
       "evidence": "screenshots/light125_storage_restore_layout_1791291438462_6e43e335.jpg",
       "utc": "2026-10-06T12:57:18.463Z"
+    },
+    {
+      "id": "light125_checkup_maximize_1791293344261",
+      "status": "PASS_OBSERVED",
+      "details": "Native Light Checkup maximize: explanatory text, Quick/Full, export, result grid, navigation and idle footer remain contained and reachable. No new scan; authoritative contract remains pending queued collection. Not a complete cell PASS.",
+      "evidence": "screenshots/light125_checkup_maximize_1791293344260.jpg",
+      "utc": "2026-10-06T13:29:04.261Z"
+    },
+    {
+      "id": "light125_checkup_restore_1791294965977",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Checkup window preserves Quick/Full, explanation, export, navigation, result grid and idle footer inside guest work area. No scan launched.",
+      "evidence": "screenshots/light125_checkup_restore_1791294941923.jpg",
+      "utc": "2026-10-06T13:56:05.977Z"
+    },
+    {
+      "id": "light125_checkup_pagedown_1791294965977",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown scrolls result rows to Startup and Security findings without opening a detail/action dialog. Required full values remain subject to existing detail evidence and contract reconciliation; no new matrix PASS claimed.",
+      "evidence": "screenshots/light125_checkup_pagedown_1791294965976.jpg",
+      "utc": "2026-10-06T13:56:05.977Z"
     }
   ],
   "evidenceReferences": [
@@ -3817,8 +3838,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Missing Light125 Storage maximize/restore coverage finished; functional captures retained, original contract/OS dependency not falsely credited.",
-  "nextAction": "Audit remaining Light125 Home/Checkup UI predicates without new scans; queue raw collector/security and later DPI login, keep QA26 frozen.",
+  "lastCompletedAction": "Reconciled Light125 Home and Checkup native evidence references; no duplicate scans or false matrix credits",
+  "nextAction": "Collect queued original targeted/Light125 results during grouped human session; continue independent remaining predicates without superseding original scans",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -5477,7 +5498,33 @@
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
       "status": "NOT_RUN",
-      "evidence": []
+      "evidence": [
+        "screenshots/light125_home_native_launch_20261006005658651_4dedcb1c.png",
+        "screenshots/light125_home_scan_progress_cancel_focus_20261006005714625_b2c33905.png",
+        "screenshots/light125_home_completed_category_cards_20261006005723898_3c14c8f6.png",
+        "screenshots/light125_home_lower_text_readable_20261006005735809_43913d07.png",
+        "screenshots/light125_home_export_preview_20261006005759799_1a2f4bab.png",
+        "screenshots/light125_home_export_cancel_navigation_focus_20261006005825340_24391900.png",
+        "screenshots/light125_home_maximize_contained_20261006005840846_820e3d1a.png",
+        "screenshots/light125_home_restore_contained_20261006005900427_44e94a03.png",
+        "screenshots/light125_home_raw_copy_preserved_1791250512522_f0e5664d.jpg"
+      ],
+      "completedPredicateReferences": [
+        "light125_home_native_launch_20261006005658651_4dedcb1c",
+        "light125_home_scan_progress_cancel_focus_20261006005714625_b2c33905",
+        "light125_home_completed_category_cards_20261006005723898_3c14c8f6",
+        "light125_home_lower_text_readable_20261006005735809_43913d07",
+        "light125_home_export_preview_20261006005759799_1a2f4bab",
+        "light125_home_export_cancel_navigation_focus_20261006005825340_24391900",
+        "light125_home_maximize_contained_20261006005840846_820e3d1a",
+        "light125_home_restore_contained_20261006005900427_44e94a03",
+        "light125_home_raw_copy_preserved_1791250512522_f0e5664d"
+      ],
+      "remainingPredicates": [
+        "Original authoritative Light125 scan schema/results/hash validation through queued read-only collection",
+        "Final strict predicate reconciliation; no cell PASS until all requirements proven"
+      ],
+      "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
     },
     {
       "theme": "Light",
@@ -5486,7 +5533,29 @@
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
       "status": "NOT_RUN",
-      "evidence": []
+      "evidence": [
+        "screenshots/light125_checkup_required_controls_20261006005915721_3b8c7e41.png",
+        "screenshots/light125_checkup_enter_final_detail_20261006005951659_79a7cb9d.png",
+        "screenshots/light125_checkup_reverse_focus_full_action_20261006010017616_1f203f32.png",
+        "screenshots/light125_checkup_quick_action_focus_20261006010040980_2e413c2b.png",
+        "screenshots/light125_checkup_maximize_1791293344260.jpg",
+        "screenshots/light125_checkup_restore_1791294941923.jpg",
+        "screenshots/light125_checkup_pagedown_1791294965976.jpg"
+      ],
+      "completedPredicateReferences": [
+        "light125_checkup_required_controls_20261006005915721_3b8c7e41",
+        "light125_checkup_enter_final_detail_20261006005951659_79a7cb9d",
+        "light125_checkup_reverse_focus_full_action_20261006010017616_1f203f32",
+        "light125_checkup_quick_action_focus_20261006010040980_2e413c2b",
+        "light125_checkup_maximize_1791293344261",
+        "light125_checkup_restore_1791294965977",
+        "light125_checkup_pagedown_1791294965977"
+      ],
+      "remainingPredicates": [
+        "Original authoritative Light125 scan schema/results/hash validation through queued read-only collection",
+        "Final strict predicate reconciliation; no cell PASS until all requirements proven"
+      ],
+      "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
     },
     {
       "theme": "Light",
