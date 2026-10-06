@@ -6,8 +6,8 @@
   "candidate": "qa26-f023-candidate-20261002",
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
-  "currentBatch": "Light125",
-  "currentTheme": "Light",
+  "currentBatch": "FollowWindows125-reconciliation",
+  "currentTheme": "FollowWindows",
   "currentScale": 125,
   "currentPage": "Settings",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
@@ -3403,6 +3403,24 @@
       },
       "evidence": "screenshots/followwindows125_reconciliation_saved_20261006_1791260789626_a412a4bb.jpg",
       "utc": "2026-10-06T04:26:29.627Z"
+    },
+    {
+      "id": "followwindows125_reconciliation_relaunch_1791262570270_22e4c11a",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Normal desktop-shortcut relaunch yields visible light presentation with persisted Full summary 14 Good/2 NeedsAttention/2 Optional/3 Unknown; no scan started, no exception visible. Exact selector confirmation pending."
+      },
+      "evidence": "screenshots/followwindows125_reconciliation_relaunch_1791262570270_22e4c11a.jpg",
+      "utc": "2026-10-06T04:56:10.271Z"
+    },
+    {
+      "id": "followwindows125_reconciliation_applied_confirmed_1791262607201_1f8dc955",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "After actual Save and normal close/desktop-shortcut relaunch, native Settings selector explicitly FollowWindows with light Windows-following presentation. No privacy/update preference changed. No matrix cell newly credited."
+      },
+      "evidence": "screenshots/followwindows125_reconciliation_applied_confirmed_1791262607201_1f8dc955.jpg",
+      "utc": "2026-10-06T04:56:47.201Z"
     }
   ],
   "evidenceReferences": [
@@ -3426,8 +3444,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Saved FollowWindows appearance for next launch without changing other preferences; acknowledgement visible.",
-  "nextAction": "Dismiss save acknowledgement, close idle Nyx normally, relaunch existing desktop shortcut; verify native FollowWindows selector and applied appearance before suspended exact-theme tests. Preserve existing authoritative Full result.",
+  "lastCompletedAction": "Saved/relaunched FollowWindows confirmed by persisted native selector and applied appearance.",
+  "nextAction": "Complete suspended FollowWindows125 Home/Checkup/Startup exact visual/keyboard predicates without redundant scans; original Full remains persisted. Then missing Storage/Security predicates; keep human security/collector actions queued.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3441,7 +3459,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T04:26:29.628Z",
+  "updatedUtc": "2026-10-06T04:56:47.203Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5580,7 +5598,7 @@
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
   "lastUnattendedSessionUtc": "2026-10-06T03:25:40.519Z",
-  "observedTheme": "Light",
+  "observedTheme": "FollowWindows",
   "themeContextReconciliation": {
     "schema": "QA26-THEME-CONTEXT-RECONCILIATION-1",
     "utc": "2026-10-06T03:55:37.305Z",
@@ -5614,6 +5632,5 @@
       ],
       "note": "19:52 local selector selection alone does not prove saved/relaunched applied theme; later selector Dark. Preserve functional evidence, suspend exact-theme cell credit pending proper saved/applied context."
     }
-  },
-  "pendingTheme": "FollowWindows"
+  }
 }
