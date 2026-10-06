@@ -1645,8 +1645,44 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_startup_controls_1791250679553_eba00ca0.jpg",
+        "screenshots/light125_startup_refresh_1791250692291_31a4d689.jpg",
+        "screenshots/light125_startup_allusers_readonly_1791250730022_86b7dfda.jpg",
+        "screenshots/light125_startup_valid_location_1791250775449_f31c72ae.jpg",
+        "screenshots/light125_startup_final_cell_focus_1791250818610_fc902788.jpg",
+        "screenshots/light125_startup_first_cell_restored_1791250835887_ccfa871d.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json",
+        "screenshots/dark125_startup_refresh_after_full.png",
+        "screenshots/dark125_startup_allusers_reverse_focus.png",
+        "screenshots/dark125_startup_missing_location.png",
+        "screenshots/dark125_startup_disable_confirmation.png",
+        "screenshots/dark125_startup_disable_success.png",
+        "screenshots/dark125_startup_disabled_after_refresh.png",
+        "screenshots/dark125_startup_restore_focus.png",
+        "screenshots/dark125_startup_restore_success.png",
+        "screenshots/dark125_startup_restored_after_refresh.png",
+        "screenshots/dark125_startup_allusers_readonly.png",
+        "screenshots/dark125_startup_valid_location.png"
+      ],
+      "completedUtc": "2026-10-06T01:41:05.600Z",
+      "predicates": {
+        "readability": "Required text and all seven columns practically readable via keyboard horizontal scroll",
+        "keyboard": "Visible grid focus; CtrlEnd/CtrlHome; Tab/ShiftTab skips all-users mutation actions",
+        "actions": "Real Refresh reload, selected all-users remain read-only, real keyboard valid folder dispatch",
+        "reusedSameByte125": "Dark125 exact fixture disable/Refresh persistence/re-enable/restored and unavailable-location handler, reused without redundant mutation; theme-specific visibility proved here",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page/action controls contained",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -1663,8 +1699,32 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_updates_controls_1791249920810_00cab704.jpg",
+        "screenshots/light125_updates_redirect_1791249936714_69b98447.jpg",
+        "screenshots/light125_updates_enter_detail_1791249987842_0fb3afbb.jpg",
+        "screenshots/light125_updates_primary_focus_1791250023255_e0d721f8.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:27:03.257Z",
+      "predicates": {
+        "readability": "Required explanation and full value through Enter details",
+        "navigation": "Visible sidebar, primary action and export",
+        "keyboard": "CtrlEnd/Enter detail and reverseTab visible focus",
+        "scrolling": "Auto scroll primary into view",
+        "action": "Actual Windows Update destination, no OS changes",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page and detail within guest working area",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -1672,8 +1732,33 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_backup_controls_1791250032992_49b298cb.jpg",
+        "screenshots/light125_backup_redirect_1791250052826_31312d51.jpg",
+        "screenshots/light125_backup_grid_tab_focus_1791250078015_dbd96ce2.jpg",
+        "screenshots/light125_backup_enter_detail_1791250094963_fc4e3513.jpg",
+        "screenshots/light125_backup_primary_focus_1791250122907_81ec3d2b.jpg",
+        "screenshots/light125_backup_status_tooltip_1791250136185_9e983341.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:28:56.188Z",
+      "predicates": {
+        "readability": "Full finding, wrapped detail and complete native Needs Attention tooltip",
+        "keyboard": "Tab grid visible outline; Enter full detail; reverseTab primary focus",
+        "scrolling": "Focus auto scroll exposes primary button",
+        "action": "Actual Accounts Windows backup destination, no preference changes",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Main page/detail remain in working area",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -1681,8 +1766,34 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_system_controls_1791250145956_7a32842c.jpg",
+        "screenshots/light125_system_redirect_1791250163022_5b5209f2.jpg",
+        "screenshots/light125_system_grid_tab_focus_1791250187373_fd20a55e.jpg",
+        "screenshots/light125_system_enter_detail_1791250204218_0e2385b7.jpg",
+        "screenshots/light125_system_final_cell_focus_1791250233042_6f5af5dd.jpg",
+        "screenshots/light125_system_full_finding_tooltip_1791250243156_593b6ae3.jpg",
+        "screenshots/light125_system_primary_focus_1791250260420_527eee8f.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:31:00.423Z",
+      "predicates": {
+        "readability": "Overview full detail and Network full tooltip, required explanation, uptime readable",
+        "keyboard": "Tab first status, Enter overview, CtrlEnd last value, reverseTab primary focus",
+        "scrolling": "Focused controls automatically exposed",
+        "action": "Actual System About destination; no OS changes",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Main and detail contained",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -1708,8 +1819,36 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_settings_saved_pending_relaunch_20261006005608021_6fe68bff.png",
+        "screenshots/light125_settings_applied_theme_1791250281531_114ac3f8.jpg",
+        "screenshots/light125_settings_update_text_1791250292326_6d3e5bd1.jpg",
+        "screenshots/light125_settings_update_handled_1791250344449_1c6715e2.jpg",
+        "screenshots/light125_settings_data_folder_keyboard_1791250394901_8d1d04f6.jpg",
+        "screenshots/light125_settings_log_action_focus_1791250543023_1e20d6c3.jpg",
+        "screenshots/light125_settings_save_focus_1791250556634_75917db7.jpg",
+        "screenshots/light125_settings_save_ack_1791250580461_7067c9e9.jpg",
+        "screenshots/light125_settings_privacy_readable_1791250632734_7fcc05e2.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:37:33.279Z",
+      "predicates": {
+        "readability": "Applied Light selector, notification/update/local-data controls and full privacy promise readable",
+        "keyboard": "Update/DataFolder/Save Enter executed; Tab exposes Save and log action with visible focus",
+        "actions": "Handled offline update, real data folder, real Save acknowledgement; log deletion not executed",
+        "scrolling": "All lower text/actions accessible by normal scrolling",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Settings and acknowledgement within working area",
+        "sharedEvidence": "Same-byte Home125 export preview/cancel and maximize/restore; earlier explicit log confirmation/No retained, not repeated"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -1912,9 +2051,9 @@
   ],
   "scoreboard": {
     "strict": {
-      "PASS": 53,
+      "PASS": 58,
       "FAIL": 0,
-      "NOT_RUN": 46
+      "NOT_RUN": 41
     },
     "bestEffort": {
       "PASS": 0,

@@ -9,7 +9,7 @@
   "currentBatch": "Light125",
   "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Checkup",
+  "currentPage": "Cleanup",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 53,
+      "PASS": 58,
       "FAIL": 0,
-      "NOT_RUN": 46
+      "NOT_RUN": 41
     },
     "bestEffort": {
       "PASS": 0,
@@ -2839,6 +2839,462 @@
       },
       "evidence": "screenshots/light125_checkup_quick_action_focus_20261006010040980_2e413c2b.png",
       "utc": "2026-10-06T01:00:40.981Z"
+    },
+    {
+      "id": "light125_updates_controls_1791249920810_00cab704",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "text": "Windows Updates explanation and primary redirect fully readable; Good statuses carry text, three results; no update initiated."
+      },
+      "evidence": "screenshots/light125_updates_controls_1791249920810_00cab704.jpg",
+      "utc": "2026-10-06T01:25:20.810Z"
+    },
+    {
+      "id": "light125_updates_redirect_1791249936714_69b98447",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "destination": "Windows Update Settings",
+        "noSettingsChanged": true
+      },
+      "evidence": "screenshots/light125_updates_redirect_1791249936714_69b98447.jpg",
+      "utc": "2026-10-06T01:25:36.715Z"
+    },
+    {
+      "id": "light125_updates_enter_detail_1791249987842_0fb3afbb",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Enter on final result opens Last successful Windows update; full date Saturday October 3 2026, safety None, source Microsoft.Update.AutoUpdate and Complete True readable; contained."
+      },
+      "evidence": "screenshots/light125_updates_enter_detail_1791249987842_0fb3afbb.jpg",
+      "utc": "2026-10-06T01:26:27.843Z"
+    },
+    {
+      "id": "light125_updates_primary_focus_1791250023255_e0d721f8",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlShiftTab automatically exposes primary redirect with visible outline; scrolling and keyboard detail access successful; no exception."
+      },
+      "evidence": "screenshots/light125_updates_primary_focus_1791250023255_e0d721f8.jpg",
+      "utc": "2026-10-06T01:27:03.255Z"
+    },
+    {
+      "id": "light125_backup_controls_1791250032992_49b298cb",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Backup explanation, primary Windows Backup button and detected absence finding readable; no backup configuration changed."
+      },
+      "evidence": "screenshots/light125_backup_controls_1791250032992_49b298cb.jpg",
+      "utc": "2026-10-06T01:27:12.993Z"
+    },
+    {
+      "id": "light125_backup_redirect_1791250052826_31312d51",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "destination": "Accounts Windows backup",
+        "noAccountsSyncPrivacyChanges": true
+      },
+      "evidence": "screenshots/light125_backup_redirect_1791250052826_31312d51.jpg",
+      "utc": "2026-10-06T01:27:32.826Z"
+    },
+    {
+      "id": "light125_backup_grid_tab_focus_1791250078015_dbd96ce2",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Tab enters sole Backup result with visible dotted outline; full finding sentence readable; scrolling brings grid into view."
+      },
+      "evidence": "screenshots/light125_backup_grid_tab_focus_1791250078015_dbd96ce2.jpg",
+      "utc": "2026-10-06T01:27:58.016Z"
+    },
+    {
+      "id": "light125_backup_enter_detail_1791250094963_fc4e3513",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Backup detail shows complete finding, acknowledges undetectable alternative backups, readable wrapped rationale/recommendation, SafeRedirect and Complete False; contained."
+      },
+      "evidence": "screenshots/light125_backup_enter_detail_1791250094963_fc4e3513.jpg",
+      "utc": "2026-10-06T01:28:14.964Z"
+    },
+    {
+      "id": "light125_backup_primary_focus_1791250122907_81ec3d2b",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Reverse Tab brings Open Windows Backup fully into view with visible focus; no required action hidden."
+      },
+      "evidence": "screenshots/light125_backup_primary_focus_1791250122907_81ec3d2b.jpg",
+      "utc": "2026-10-06T01:28:42.908Z"
+    },
+    {
+      "id": "light125_backup_status_tooltip_1791250136185_9e983341",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Native tooltip exposes complete Needs Attention wording; essential meaning not lost to grid ellipsis."
+      },
+      "evidence": "screenshots/light125_backup_status_tooltip_1791250136185_9e983341.jpg",
+      "utc": "2026-10-06T01:28:56.186Z"
+    },
+    {
+      "id": "light125_system_controls_1791250145956_7a32842c",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "System details explanation explicitly excludes serial/product keys; primary About action and three result rows readable."
+      },
+      "evidence": "screenshots/light125_system_controls_1791250145956_7a32842c.jpg",
+      "utc": "2026-10-06T01:29:05.957Z"
+    },
+    {
+      "id": "light125_system_redirect_1791250163022_5b5209f2",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "destination": "System About Settings",
+        "noSettingsChanged": true
+      },
+      "evidence": "screenshots/light125_system_redirect_1791250163022_5b5209f2.jpg",
+      "utc": "2026-10-06T01:29:23.023Z"
+    },
+    {
+      "id": "light125_system_grid_tab_focus_1791250187373_fd20a55e",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Tab enters first System status with visible dotted focus; page auto-scroll exposes all three rows."
+      },
+      "evidence": "screenshots/light125_system_grid_tab_focus_1791250187373_fd20a55e.jpg",
+      "utc": "2026-10-06T01:29:47.374Z"
+    },
+    {
+      "id": "light125_system_enter_detail_1791250204218_0e2385b7",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Full overview 2.5 GB RAM Windows build26200 readable; rationale/action/safety None/source/Complete True shown, technical evidence scrollable; no unique hardware serial collection."
+      },
+      "evidence": "screenshots/light125_system_enter_detail_1791250204218_0e2385b7.jpg",
+      "utc": "2026-10-06T01:30:04.219Z"
+    },
+    {
+      "id": "light125_system_final_cell_focus_1791250233042_6f5af5dd",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd reaches final Network value with visible dotted focus; no unintended action."
+      },
+      "evidence": "screenshots/light125_system_final_cell_focus_1791250233042_6f5af5dd.jpg",
+      "utc": "2026-10-06T01:30:33.043Z"
+    },
+    {
+      "id": "light125_system_full_finding_tooltip_1791250243156_593b6ae3",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Native Network tooltip exposes full supported-checks finding; readable essential meaning."
+      },
+      "evidence": "screenshots/light125_system_full_finding_tooltip_1791250243156_593b6ae3.jpg",
+      "utc": "2026-10-06T01:30:43.157Z"
+    },
+    {
+      "id": "light125_system_primary_focus_1791250260420_527eee8f",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Reverse Tab returns fully visible System About button with keyboard outline; no lost focus."
+      },
+      "evidence": "screenshots/light125_system_primary_focus_1791250260420_527eee8f.jpg",
+      "utc": "2026-10-06T01:31:00.421Z"
+    },
+    {
+      "id": "light125_settings_applied_theme_1791250281531_114ac3f8",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Native selector explicitly Light and applied Light presentation; appearance label/notification semantics/privacy introduction readable; preferences left unchanged."
+      },
+      "evidence": "screenshots/light125_settings_applied_theme_1791250281531_114ac3f8.jpg",
+      "utc": "2026-10-06T01:31:21.532Z"
+    },
+    {
+      "id": "light125_settings_update_text_1791250292326_6d3e5bd1",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Update checkbox meaning and no username/machine/file/scan/telemetry collection statement fully readable; no preference change."
+      },
+      "evidence": "screenshots/light125_settings_update_text_1791250292326_6d3e5bd1.jpg",
+      "utc": "2026-10-06T01:31:32.327Z"
+    },
+    {
+      "id": "light125_settings_update_handled_1791250344449_1c6715e2",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Keyboard Enter executes update handler; offline Unable to check for updates right now dialog handled, readable, focused OK; no unhandled exception or installer download."
+      },
+      "evidence": "screenshots/light125_settings_update_handled_1791250344449_1c6715e2.jpg",
+      "utc": "2026-10-06T01:32:24.450Z"
+    },
+    {
+      "id": "light125_settings_data_folder_keyboard_1791250394901_8d1d04f6",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Tab/Enter opened actual current-user Dietrich AI Labs Nyx PC Checkup data folder; scans/reports/logs/actions/temp/config visible."
+      },
+      "evidence": "screenshots/light125_settings_data_folder_keyboard_1791250394901_8d1d04f6.jpg",
+      "utc": "2026-10-06T01:33:14.902Z"
+    },
+    {
+      "id": "light125_home_raw_copy_preserved_1791250512522_f0e5664d",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Original scans/last-scan.json copied using Explorer to reports/quicklight125-20261005-2057.json, 53KB; content not edited. Byte hash/schema validation pending read-only collection."
+      },
+      "evidence": "screenshots/light125_home_raw_copy_preserved_1791250512522_f0e5664d.jpg",
+      "utc": "2026-10-06T01:35:12.523Z"
+    },
+    {
+      "id": "light125_settings_log_action_focus_1791250543023_1e20d6c3",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Delete local logs keyboard outline and label fully visible; no activation or deletion."
+      },
+      "evidence": "screenshots/light125_settings_log_action_focus_1791250543023_1e20d6c3.jpg",
+      "utc": "2026-10-06T01:35:43.024Z"
+    },
+    {
+      "id": "light125_settings_save_focus_1791250556634_75917db7",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Tab advances to Save settings with full visible keyboard outline; automatic scrolling exposes the whole button."
+      },
+      "evidence": "screenshots/light125_settings_save_focus_1791250556634_75917db7.jpg",
+      "utc": "2026-10-06T01:35:56.635Z"
+    },
+    {
+      "id": "light125_settings_save_ack_1791250580461_7067c9e9",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Enter on Save produced real readable saved-settings acknowledgement and focused OK; preferences remained unchanged."
+      },
+      "evidence": "screenshots/light125_settings_save_ack_1791250580461_7067c9e9.jpg",
+      "utc": "2026-10-06T01:36:20.462Z"
+    },
+    {
+      "id": "light125_settings_privacy_readable_1791250632734_7fcc05e2",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Full Privacy promise, local-only/explicit-export text and report redaction explanation readable through ordinary vertical scrolling; no settings changed."
+      },
+      "evidence": "screenshots/light125_settings_privacy_readable_1791250632734_7fcc05e2.jpg",
+      "utc": "2026-10-06T01:37:12.735Z"
+    },
+    {
+      "id": "light125_startup_controls_1791250679553_eba00ca0",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Read-only all-users promise and reversible current-user statement readable; four primary actions present and readable; inventory populated."
+      },
+      "evidence": "screenshots/light125_startup_controls_1791250679553_eba00ca0.jpg",
+      "utc": "2026-10-06T01:37:59.554Z"
+    },
+    {
+      "id": "light125_startup_refresh_1791250692291_31a4d689",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Refresh returned populated list without deferred-state/StrictMode exception; current-user OneDrive remains Enabled."
+      },
+      "evidence": "screenshots/light125_startup_refresh_1791250692291_31a4d689.jpg",
+      "utc": "2026-10-06T01:38:12.292Z"
+    },
+    {
+      "id": "light125_startup_allusers_readonly_1791250730022_86b7dfda",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Selected all-users Startup folder desktop entry; ShiftTab from Open file location skips Disable and Re-enable and goes directly to Refresh, proving disabled modification actions. No all-users state modified."
+      },
+      "evidence": "screenshots/light125_startup_allusers_readonly_1791250730022_86b7dfda.jpg",
+      "utc": "2026-10-06T01:38:50.023Z"
+    },
+    {
+      "id": "light125_startup_valid_location_1791250775449_f31c72ae",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Keyboard Open file location opened Start Menu Programs Startup for selected all-users folder entry; no file or Startup state modified."
+      },
+      "evidence": "screenshots/light125_startup_valid_location_1791250775449_f31c72ae.jpg",
+      "utc": "2026-10-06T01:39:35.450Z"
+    },
+    {
+      "id": "light125_startup_final_cell_focus_1791250818610_fc902788",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd reaches SecurityHealth final Impact Not measured with visible dotted focus; horizontal scroll exposes full Nyx control current-user reversible/all-users read-only and File exists Yes; all rows accessible."
+      },
+      "evidence": "screenshots/light125_startup_final_cell_focus_1791250818610_fc902788.jpg",
+      "utc": "2026-10-06T01:40:18.611Z"
+    },
+    {
+      "id": "light125_startup_first_cell_restored_1791250835887_ccfa871d",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlHome restores first Enabled state with visible focus and left columns; reverse horizontal/vertical navigation works."
+      },
+      "evidence": "screenshots/light125_startup_first_cell_restored_1791250835887_ccfa871d.jpg",
+      "utc": "2026-10-06T01:40:35.887Z"
+    },
+    {
+      "id": "light125_apps_empty_controls_1791250890384_b69554da",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Empty inventory after Quick renders safely; filter and three primary actions readable; no automatic uninstall promise shown."
+      },
+      "evidence": "screenshots/light125_apps_empty_controls_1791250890384_b69554da.jpg",
+      "utc": "2026-10-06T01:41:30.385Z"
+    },
+    {
+      "id": "light125_apps_full_progress_1791250939892_1a5fdc8b",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Real Apps-triggered Full in progress, read-only status and progress visible; inventory pending genuine completion."
+      },
+      "evidence": "screenshots/light125_apps_full_progress_1791250939892_1a5fdc8b.jpg",
+      "utc": "2026-10-06T01:42:19.892Z"
+    },
+    {
+      "id": "light125_apps_full_completed_1791250956325_a40c7d90",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Actual Full completed and Apps inventory populated; footer 2 things need attention, idle Cancel disabled. No WorkerError assertion until original raw contract collected."
+      },
+      "evidence": "screenshots/light125_apps_full_completed_1791250956325_a40c7d90.jpg",
+      "utc": "2026-10-06T01:42:36.326Z"
+    },
+    {
+      "id": "light125_apps_filter_zero_1791250977477_c4227dfb",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Literal zzx no-match filter produces safe empty grid, no exception or hidden primary action."
+      },
+      "evidence": "screenshots/light125_apps_filter_zero_1791250977477_c4227dfb.jpg",
+      "utc": "2026-10-06T01:42:57.478Z"
+    },
+    {
+      "id": "light125_apps_filter_clear_1791251010062_d021689e",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Clear restores real Full inventory; first Version 145.0.3800.97 and update version1.3.223.11 fully readable."
+      },
+      "evidence": "screenshots/light125_apps_filter_clear_1791251010062_d021689e.jpg",
+      "utc": "2026-10-06T01:43:30.063Z"
+    },
+    {
+      "id": "light125_apps_grid_tab_focus_1791251021143_012d374f",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Tab enters first Application cell with clear dotted focus; all five inventory rows and Version values readable."
+      },
+      "evidence": "screenshots/light125_apps_grid_tab_focus_1791251021143_012d374f.jpg",
+      "utc": "2026-10-06T01:43:41.143Z"
+    },
+    {
+      "id": "light125_apps_ctrl_end_size_readable_1791251033029_71ab998e",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd scrolls horizontally to final Nyx Reported size Unknown with clear dotted focus; all Version and full Reported size values readable, including413.5MB OneDrive."
+      },
+      "evidence": "screenshots/light125_apps_ctrl_end_size_readable_1791251033029_71ab998e.jpg",
+      "utc": "2026-10-06T01:43:53.029Z"
+    },
+    {
+      "id": "light125_apps_pageup_1791251044842_330a5699",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "PageUp moves focus to first Reported size cell, visible and readable, no folder action fired."
+      },
+      "evidence": "screenshots/light125_apps_pageup_1791251044842_330a5699.jpg",
+      "utc": "2026-10-06T01:44:04.843Z"
+    },
+    {
+      "id": "light125_apps_pagedown_1791251195867_a39901d1",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "page": "Apps",
+        "theme": "Light",
+        "scale": 125,
+        "observation": "PageDown moves visible dotted focus from first row to final Nyx Reported size cell; value Unknown remains readable; no action triggered."
+      },
+      "evidence": "screenshots/light125_apps_pagedown_1791251195867_a39901d1.jpg",
+      "utc": "2026-10-06T01:46:35.868Z"
+    },
+    {
+      "id": "light125_apps_folder_focus_1791251211108_1ed99d7e",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Reverse Tab scrolls previously offscreen Open selected folder into view with visible focus; primary actions fully reachable."
+      },
+      "evidence": "screenshots/light125_apps_folder_focus_1791251211108_1ed99d7e.jpg",
+      "utc": "2026-10-06T01:46:51.108Z"
+    },
+    {
+      "id": "light125_apps_folder_destination_1791251225436_5366995f",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Enter on Open selected folder opens actual installed Nyx PC Checkup folder with native launcher selected. No files changed."
+      },
+      "evidence": "screenshots/light125_apps_folder_destination_1791251225436_5366995f.jpg",
+      "utc": "2026-10-06T01:47:05.436Z"
+    },
+    {
+      "id": "light125_apps_full_action_focus_1791251251459_7fe7a234",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Run Full Check visibly keyboard focused; actual Full completion already recorded; no redundant scan started."
+      },
+      "evidence": "screenshots/light125_apps_full_action_focus_1791251251459_7fe7a234.jpg",
+      "utc": "2026-10-06T01:47:31.459Z"
+    },
+    {
+      "id": "light125_apps_installed_apps_redirect_1791251272111_a5d60a54",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Keyboard Enter opens actual Windows Apps > Installed apps destination, 32 apps found. No uninstall or OS setting changed."
+      },
+      "evidence": "screenshots/light125_apps_installed_apps_redirect_1791251272111_a5d60a54.jpg",
+      "utc": "2026-10-06T01:47:52.112Z"
+    },
+    {
+      "id": "light125_cleanup_controls_1791251315442_7d1a703d",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Safe cleanup warning readable; no automatic selection; populated user temporary-file inventory and Refresh with Full Check visible. No item selected or deleted."
+      },
+      "evidence": "screenshots/light125_cleanup_controls_1791251315442_7d1a703d.jpg",
+      "utc": "2026-10-06T01:48:35.442Z"
+    },
+    {
+      "id": "light125_cleanup_grid_focus_1791251340816_413987e7",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Item cell visible dotted focus; auto-scroll exposes inventory. Checkboxes remain unchecked."
+      },
+      "evidence": "screenshots/light125_cleanup_grid_focus_1791251340816_413987e7.jpg",
+      "utc": "2026-10-06T01:49:00.817Z"
+    },
+    {
+      "id": "light125_cleanup_ctrl_end_1791251350967_6f00e126",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd scrolls to final inventory row and focuses consequence cell. No item automatically selected."
+      },
+      "evidence": "screenshots/light125_cleanup_ctrl_end_1791251350967_6f00e126.jpg",
+      "utc": "2026-10-06T01:49:10.968Z"
+    },
+    {
+      "id": "light125_cleanup_consequence_tooltip_1791251359229_6e1696d3",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Full consequence tooltip readable: Moves this exact item to the Windows Recycle Bin. No deletion performed."
+      },
+      "evidence": "screenshots/light125_cleanup_consequence_tooltip_1791251359229_6e1696d3.jpg",
+      "utc": "2026-10-06T01:49:19.230Z"
+    },
+    {
+      "id": "light125_cleanup_zero_summary_action_1791251379060_d29009b7",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Tab auto-scroll reveals Selected: 0 items, 0 B and Review and clean selected primary action with safety explanation. No review/deletion activated; destructive validation remains pending."
+      },
+      "evidence": "screenshots/light125_cleanup_zero_summary_action_1791251379060_d29009b7.jpg",
+      "utc": "2026-10-06T01:49:39.061Z"
     }
   ],
   "evidenceReferences": [
@@ -2862,8 +3318,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Checkup detail Enter, final-row scrolling and reverse Tab primary-action visibility observed",
-  "nextAction": "Continue independent Light125 page predicates without another scan until original Quick preserved; validate raw targeted runs during grouped collection",
+  "lastCompletedAction": "Light125 Apps keyboard navigation, actual installed-folder and Installed apps redirects; Cleanup populated grid, final-row scrolling, full consequence tooltip, zero-selection summary observed.",
+  "nextAction": "Continue Light125 Cleanup keyboard/safety predicates without deletion; preserve Apps Full authoritative original before starting any further scan; validate collected Quick/Full originals before crediting pending cells; finish Storage/Security independent predicates and theme reconciliation.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -2877,7 +3333,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T00:23:25.129Z",
+  "updatedUtc": "2026-10-06T01:49:39.063Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -4532,8 +4988,44 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_startup_controls_1791250679553_eba00ca0.jpg",
+        "screenshots/light125_startup_refresh_1791250692291_31a4d689.jpg",
+        "screenshots/light125_startup_allusers_readonly_1791250730022_86b7dfda.jpg",
+        "screenshots/light125_startup_valid_location_1791250775449_f31c72ae.jpg",
+        "screenshots/light125_startup_final_cell_focus_1791250818610_fc902788.jpg",
+        "screenshots/light125_startup_first_cell_restored_1791250835887_ccfa871d.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json",
+        "screenshots/dark125_startup_refresh_after_full.png",
+        "screenshots/dark125_startup_allusers_reverse_focus.png",
+        "screenshots/dark125_startup_missing_location.png",
+        "screenshots/dark125_startup_disable_confirmation.png",
+        "screenshots/dark125_startup_disable_success.png",
+        "screenshots/dark125_startup_disabled_after_refresh.png",
+        "screenshots/dark125_startup_restore_focus.png",
+        "screenshots/dark125_startup_restore_success.png",
+        "screenshots/dark125_startup_restored_after_refresh.png",
+        "screenshots/dark125_startup_allusers_readonly.png",
+        "screenshots/dark125_startup_valid_location.png"
+      ],
+      "completedUtc": "2026-10-06T01:41:05.600Z",
+      "predicates": {
+        "readability": "Required text and all seven columns practically readable via keyboard horizontal scroll",
+        "keyboard": "Visible grid focus; CtrlEnd/CtrlHome; Tab/ShiftTab skips all-users mutation actions",
+        "actions": "Real Refresh reload, selected all-users remain read-only, real keyboard valid folder dispatch",
+        "reusedSameByte125": "Dark125 exact fixture disable/Refresh persistence/re-enable/restored and unavailable-location handler, reused without redundant mutation; theme-specific visibility proved here",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page/action controls contained",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -4550,8 +5042,32 @@
       "page": "Updates",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_updates_controls_1791249920810_00cab704.jpg",
+        "screenshots/light125_updates_redirect_1791249936714_69b98447.jpg",
+        "screenshots/light125_updates_enter_detail_1791249987842_0fb3afbb.jpg",
+        "screenshots/light125_updates_primary_focus_1791250023255_e0d721f8.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:27:03.257Z",
+      "predicates": {
+        "readability": "Required explanation and full value through Enter details",
+        "navigation": "Visible sidebar, primary action and export",
+        "keyboard": "CtrlEnd/Enter detail and reverseTab visible focus",
+        "scrolling": "Auto scroll primary into view",
+        "action": "Actual Windows Update destination, no OS changes",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Page and detail within guest working area",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -4559,8 +5075,33 @@
       "page": "Backup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_backup_controls_1791250032992_49b298cb.jpg",
+        "screenshots/light125_backup_redirect_1791250052826_31312d51.jpg",
+        "screenshots/light125_backup_grid_tab_focus_1791250078015_dbd96ce2.jpg",
+        "screenshots/light125_backup_enter_detail_1791250094963_fc4e3513.jpg",
+        "screenshots/light125_backup_primary_focus_1791250122907_81ec3d2b.jpg",
+        "screenshots/light125_backup_status_tooltip_1791250136185_9e983341.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:28:56.188Z",
+      "predicates": {
+        "readability": "Full finding, wrapped detail and complete native Needs Attention tooltip",
+        "keyboard": "Tab grid visible outline; Enter full detail; reverseTab primary focus",
+        "scrolling": "Focus auto scroll exposes primary button",
+        "action": "Actual Accounts Windows backup destination, no preference changes",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Main page/detail remain in working area",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -4568,8 +5109,34 @@
       "page": "System",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_system_controls_1791250145956_7a32842c.jpg",
+        "screenshots/light125_system_redirect_1791250163022_5b5209f2.jpg",
+        "screenshots/light125_system_grid_tab_focus_1791250187373_fd20a55e.jpg",
+        "screenshots/light125_system_enter_detail_1791250204218_0e2385b7.jpg",
+        "screenshots/light125_system_final_cell_focus_1791250233042_6f5af5dd.jpg",
+        "screenshots/light125_system_full_finding_tooltip_1791250243156_593b6ae3.jpg",
+        "screenshots/light125_system_primary_focus_1791250260420_527eee8f.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:31:00.423Z",
+      "predicates": {
+        "readability": "Overview full detail and Network full tooltip, required explanation, uptime readable",
+        "keyboard": "Tab first status, Enter overview, CtrlEnd last value, reverseTab primary focus",
+        "scrolling": "Focused controls automatically exposed",
+        "action": "Actual System About destination; no OS changes",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Main and detail contained",
+        "sharedResizeEvidence": "Light125 Home maximize/restore same window"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -4595,8 +5162,36 @@
       "page": "Settings",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/light125_settings_saved_pending_relaunch_20261006005608021_6fe68bff.png",
+        "screenshots/light125_settings_applied_theme_1791250281531_114ac3f8.jpg",
+        "screenshots/light125_settings_update_text_1791250292326_6d3e5bd1.jpg",
+        "screenshots/light125_settings_update_handled_1791250344449_1c6715e2.jpg",
+        "screenshots/light125_settings_data_folder_keyboard_1791250394901_8d1d04f6.jpg",
+        "screenshots/light125_settings_log_action_focus_1791250543023_1e20d6c3.jpg",
+        "screenshots/light125_settings_save_focus_1791250556634_75917db7.jpg",
+        "screenshots/light125_settings_save_ack_1791250580461_7067c9e9.jpg",
+        "screenshots/light125_settings_privacy_readable_1791250632734_7fcc05e2.jpg",
+        "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "collected-contracts-20261005-200141/RUN_SUMMARY.json"
+      ],
+      "completedUtc": "2026-10-06T01:37:33.279Z",
+      "predicates": {
+        "readability": "Applied Light selector, notification/update/local-data controls and full privacy promise readable",
+        "keyboard": "Update/DataFolder/Save Enter executed; Tab exposes Save and log action with visible focus",
+        "actions": "Handled offline update, real data folder, real Save acknowledgement; log deletion not executed",
+        "scrolling": "All lower text/actions accessible by normal scrolling",
+        "exceptions": "NONE_OBSERVED",
+        "containment": "Settings and acknowledgement within working area",
+        "sharedEvidence": "Same-byte Home125 export preview/cancel and maximize/restore; earlier explicit log confirmation/No retained, not repeated"
+      },
+      "environment": {
+        "theme": "Light saved and applied via normal relaunch",
+        "dpi": 120,
+        "dpiReference": "Last collected native geometry at125; no OS scaling transition since",
+        "resolution": "1366x768"
+      }
     },
     {
       "theme": "Light",
@@ -4850,15 +5445,24 @@
       "mode": "Quick",
       "theme": "Light",
       "scale": 125,
+      "path": "reports/quicklight125-20261005-2057.json",
+      "status": "PRESERVED_UI_COPY_PENDING_HASH_VALIDATION",
+      "note": "Do not overwrite until preserved; installed observer may have ended after 30 minutes."
+    },
+    {
+      "id": "Light125AppsFull20261005_2142",
+      "mode": "Full",
+      "theme": "Light",
+      "scale": 125,
       "path": "scans/last-scan.json",
       "status": "PENDING_COLLECTION",
-      "note": "Do not overwrite until preserved; installed observer may have ended after 30 minutes."
+      "note": "Do not supersede until preserved; completion UI observed, original contract/live proof pending."
     }
   ],
   "campaignStatus": "IN_PROGRESS",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
-  "lastUnattendedSessionUtc": "2026-10-06T01:00:40.982Z",
+  "lastUnattendedSessionUtc": "2026-10-06T01:49:39.063Z",
   "observedTheme": "Light",
   "themeContextReconciliation": {
     "status": "INCOMPLETE",
