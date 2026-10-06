@@ -3556,6 +3556,27 @@
       "details": "Storage Open Downloads opens native Users/Nyx/Downloads; folder currently empty, no mutation. Persisted scan snapshot reports prior282B and is not rewritten.",
       "evidence": "screenshots/followwindows125_storage_downloads_destination_1791269811858_d0228e11.jpg",
       "utc": "2026-10-06T06:56:51.859Z"
+    },
+    {
+      "id": "followwindows125_storage_enter_detail_1791271546367_b9b7aeb1",
+      "status": "PASS_OBSERVED",
+      "details": "Native Tab reaches Storage grid with visible Status focus; Enter opens System-drive free space detail:106.9GB,84.8%free, no action required, SafeRedirect, .NET DriveInfo, Complete True. Essential text readable, within work area, no scan superseded.",
+      "evidence": "screenshots/followwindows125_storage_enter_detail_1791271546367_b9b7aeb1.jpg",
+      "utc": "2026-10-06T07:25:46.368Z"
+    },
+    {
+      "id": "followwindows125_storage_final_cell_1791271573377_2d326c63",
+      "status": "PASS_OBSERVED",
+      "details": "Detail close restores first cell focus; Ctrl+End reaches final Downloads What Nyx found cell with visible dotted focus and full value; no unexpected activation.",
+      "evidence": "screenshots/followwindows125_storage_final_cell_1791271573377_2d326c63.jpg",
+      "utc": "2026-10-06T07:26:13.378Z"
+    },
+    {
+      "id": "followwindows125_storage_reverse_action_scroll_1791271600113_6d4f01c5",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+Shift+Tab exits grid to Run Full Check; primary action auto-scrolls fully into view with visible focus. No new Full activated; retained originals pending collection.",
+      "evidence": "screenshots/followwindows125_storage_reverse_action_scroll_1791271600113_6d4f01c5.jpg",
+      "utc": "2026-10-06T07:26:40.114Z"
     }
   ],
   "evidenceReferences": [
@@ -3579,8 +3600,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "FollowWindows125 Checkup reverse grid/primary-action focus and Storage readonly Downloads destination recorded; pending original Full preserved, incomplete cells not credited.",
-  "nextAction": "Finish Storage keyboard/detail predicates without new Full; reconcile Home/Checkup after original result collection. Continue independent Light125 cells; queue human Security/collector and subsequent DPI login actions.",
+  "lastCompletedAction": "FollowWindows125 Storage Enter detail, same-cell restoration, final-cell reachability and reverse primary-action focus completed; no scan mutation.",
+  "nextAction": "Finish remaining Storage exact-theme predicates, then independent Light125 page predicates. Collect original targeted/Light125 scans in grouped human session; do not claim contracts or cell PASS before required predicates.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3594,7 +3615,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T06:57:16.611Z",
+  "updatedUtc": "2026-10-06T07:26:40.116Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
