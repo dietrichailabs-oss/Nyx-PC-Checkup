@@ -3780,6 +3780,20 @@
       "details": "Enter opens native NyxQA26_ReadOnlyScanLoad folder with25000items and one92B selected fixture. Filename transcription in prior text is not authoritative; screenshot/original scan define exact selection. No file executed/modified.",
       "evidence": "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg",
       "utc": "2026-10-06T12:26:37.185Z"
+    },
+    {
+      "id": "light125_storage_maximize_layout_1791291390579_bb6997d0",
+      "status": "PASS_OBSERVED",
+      "details": "Maximized Light Storage lower grid,File/Size/Folder headers,rows,navigation/export/footer contained. Longpath full access via native folder dispatch already recorded; no scan mutation.",
+      "evidence": "screenshots/light125_storage_maximize_layout_1791291390579_bb6997d0.jpg",
+      "utc": "2026-10-06T12:56:30.580Z"
+    },
+    {
+      "id": "light125_storage_restore_layout_1791291438462_6e43e335",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Light Storage preserves contained grid/nav/export/footer and normal scrollbar routes; no scan or file mutation. Current scroll boundary shows heading outside viewport, not claimed perfect presentation.",
+      "evidence": "screenshots/light125_storage_restore_layout_1791291438462_6e43e335.jpg",
+      "utc": "2026-10-06T12:57:18.463Z"
     }
   ],
   "evidenceReferences": [
@@ -3803,8 +3817,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Largest-files final focus and real Enter folder destination observed; readonly original Full preserved.",
-  "nextAction": "Complete Light125 Storage maximize/restore only, then reconcile dependency queue and independent remaining Home/Checkup UI predicates. Do not repeat completed folder dispatch.",
+  "lastCompletedAction": "Missing Light125 Storage maximize/restore coverage finished; functional captures retained, original contract/OS dependency not falsely credited.",
+  "nextAction": "Audit remaining Light125 Home/Checkup UI predicates without new scans; queue raw collector/security and later DPI login, keep QA26 frozen.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3818,7 +3832,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T12:27:06.565Z",
+  "updatedUtc": "2026-10-06T12:57:18.466Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5493,12 +5507,14 @@
         "screenshots/light125_storage_measured_folder_counts_1791287845217_78748ed1.jpg",
         "screenshots/light125_storage_lower_grid_keyboard_flow_1791287878413_0f075ed3.jpg",
         "screenshots/light125_storage_largest_final_focus_1791289566606_8d9d3e96.jpg",
-        "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg"
+        "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg",
+        "screenshots/light125_storage_maximize_layout_1791291390579_bb6997d0.jpg",
+        "screenshots/light125_storage_restore_layout_1791291438462_6e43e335.jpg"
       ],
       "remainingPredicates": [
-        "Missing maximize/restore exact Light layout evidence",
         "Original Full contract collection",
-        "OS Storage redirect exact context reconciliation; credential prompt may need human"
+        "OS Storage redirect exact context reconciliation; credential prompt may need human",
+        "Final strict-cell evidence audit"
       ],
       "dependencyStatus": "PARTIAL_WITH_QUEUED_RAW_COLLECTION"
     },

@@ -1662,12 +1662,14 @@
       "screenshots/light125_storage_measured_folder_counts_1791287845217_78748ed1.jpg",
       "screenshots/light125_storage_lower_grid_keyboard_flow_1791287878413_0f075ed3.jpg",
       "screenshots/light125_storage_largest_final_focus_1791289566606_8d9d3e96.jpg",
-      "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg"
+      "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg",
+      "screenshots/light125_storage_maximize_layout_1791291390579_bb6997d0.jpg",
+      "screenshots/light125_storage_restore_layout_1791291438462_6e43e335.jpg"
     ],
     "remainingPredicates": [
-      "Missing maximize/restore exact Light layout evidence",
       "Original Full contract collection",
-      "OS Storage redirect exact context reconciliation; credential prompt may need human"
+      "OS Storage redirect exact context reconciliation; credential prompt may need human",
+      "Final strict-cell evidence audit"
     ],
     "dependencyStatus": "PARTIAL_WITH_QUEUED_RAW_COLLECTION"
   },
