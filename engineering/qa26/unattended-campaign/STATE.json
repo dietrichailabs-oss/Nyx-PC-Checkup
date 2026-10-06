@@ -9,7 +9,7 @@
   "currentBatch": "Light125",
   "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Cleanup",
+  "currentPage": "Storage",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3340,6 +3340,24 @@
       },
       "evidence": "screenshots/light125_security_primary_focus_1791251771803_03e92008.jpg",
       "utc": "2026-10-06T01:56:11.804Z"
+    },
+    {
+      "id": "light125_storage_controls_1791253536774_7aa6b382",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Read-only no-delete warning fully readable; Storage settings, Downloads and Full Check actions visible; real system/user/download findings populated."
+      },
+      "evidence": "screenshots/light125_storage_controls_1791253536774_7aa6b382.jpg",
+      "utc": "2026-10-06T02:25:36.775Z"
+    },
+    {
+      "id": "light125_storage_enter_detail_1791253561288_a665e0fa",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "System-drive Enter detail shows 106.9 GB free, 84.8% free, no action required, SafeRedirect, .NET DriveInfo, Complete=True; readable within work area."
+      },
+      "evidence": "screenshots/light125_storage_enter_detail_1791253561288_a665e0fa.jpg",
+      "utc": "2026-10-06T02:26:01.288Z"
     }
   ],
   "evidenceReferences": [
@@ -3363,8 +3381,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Apps keyboard navigation, actual installed-folder and Installed apps redirects; Cleanup populated grid, final-row scrolling, full consequence tooltip, zero-selection summary observed.",
-  "nextAction": "Continue Light125 Cleanup keyboard/safety predicates without deletion; preserve Apps Full authoritative original before starting any further scan; validate collected Quick/Full originals before crediting pending cells; finish Storage/Security independent predicates and theme reconciliation.",
+  "lastCompletedAction": "Light125 Storage populated findings and real Enter detail observed; idle screen blanking recovered with pointer move, no authentication or product failure.",
+  "nextAction": "Finish Light125 Storage keyboard focus/Downloads and required redirect predicates; preserve Apps Full before further scans. Validate original contracts before crediting Apps/Home/Checkup. Reconcile historical FollowWindows125 theme context. Resume missing strict cells on unchanged QA26.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3378,7 +3396,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T01:49:39.063Z",
+  "updatedUtc": "2026-10-06T02:26:23.105Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5507,7 +5525,7 @@
   "campaignStatus": "IN_PROGRESS",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
-  "lastUnattendedSessionUtc": "2026-10-06T01:49:39.063Z",
+  "lastUnattendedSessionUtc": "2026-10-06T02:26:23.105Z",
   "observedTheme": "Light",
   "themeContextReconciliation": {
     "status": "INCOMPLETE",

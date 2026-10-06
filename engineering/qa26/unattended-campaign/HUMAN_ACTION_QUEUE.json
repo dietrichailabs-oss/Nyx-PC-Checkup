@@ -72,6 +72,12 @@
       "status": "BLOCKED_HUMAN",
       "reason": "Original targeted transition/cancellation and latest Light125 Quick records require existing read-only collector with actual host UAC approval and subsequent guest login.",
       "nextAction": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes."
+    },
+    {
+      "id": "LIGHT125_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Windows Security cannot be automated; Nyx read-only findings and keyboard primary focus recorded.",
+      "nextAction": "Grouped human session opens destination for screenshot, closes without protection changes."
     }
   ]
 }
