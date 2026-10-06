@@ -7,9 +7,9 @@
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
   "currentBatch": "Light125-reconciliation",
-  "currentTheme": "PENDING_LIGHT_CONFIRMATION",
+  "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Home",
+  "currentPage": "Apps",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3675,6 +3675,20 @@
       "details": "Existing desktop shortcut after normal idle close opens one visible Home window, preserved14Good/2NeedsAttention/2Optional/3Unknown; no scan started. Light saved but native post-relaunch selector confirmation still required before cell attribution.",
       "evidence": "screenshots/light125_native_relaunch_pending_selector_1791280702444_f98b1be0.jpg",
       "utc": "2026-10-06T09:58:22.445Z"
+    },
+    {
+      "id": "light125_applied_selector_confirmed_1791282357297_352770b2",
+      "status": "PASS_OBSERVED",
+      "details": "After actual saved-theme normal close/relaunch, native Settings explicitly Light and presentation matches. DPI session unchanged125; future Light attribution allowed, no new cell credit solely from selector.",
+      "evidence": "screenshots/light125_applied_selector_confirmed_1791282357297_352770b2.jpg",
+      "utc": "2026-10-06T10:25:57.298Z"
+    },
+    {
+      "id": "light125_apps_after_relaunch_recreation_1791282389446_ec083faf",
+      "status": "PASS_OBSERVED",
+      "details": "Apps recreated after saved Light relaunch: title/safety text, three primary actions, filter and grid visible; EdgeVersion145.0.3800.97 readable, same preserved5-app Full data. No Full scan activated.",
+      "evidence": "screenshots/light125_apps_after_relaunch_recreation_1791282389446_ec083faf.jpg",
+      "utc": "2026-10-06T10:26:29.447Z"
     }
   ],
   "evidenceReferences": [
@@ -3698,8 +3712,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Delayed native destination confirms Largest-files Enter dispatch and practical path access via Explorer address scrolling; preserved scan unchanged.",
-  "nextAction": "Open Settings and confirm saved Light after relaunch; then finish only independent missing Light125 predicates. No new scan until original Full collected.",
+  "lastCompletedAction": "Native post-relaunch Settings confirms Light; Apps page recreation/readability recorded without superseding Full.",
+  "nextAction": "Reconcile Light125 Apps complete predicates against prior filter/keyboard/destination evidence; run only missing layout/focus checks. Raw source scan validation remains queued, no false cell PASS.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3713,7 +3727,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T09:58:22.448Z",
+  "updatedUtc": "2026-10-06T10:26:29.451Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5859,7 +5873,7 @@
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
   "lastUnattendedSessionUtc": "2026-10-06T06:57:16.611Z",
-  "observedTheme": "FollowWindows",
+  "observedTheme": "Light",
   "themeContextReconciliation": {
     "schema": "QA26-THEME-CONTEXT-RECONCILIATION-1",
     "utc": "2026-10-06T03:55:37.305Z",
@@ -5893,6 +5907,5 @@
       ],
       "note": "19:52 local selector selection alone does not prove saved/relaunched applied theme; later selector Dark. Preserve functional evidence, suspend exact-theme cell credit pending proper saved/applied context."
     }
-  },
-  "pendingTheme": "Light"
+  }
 }
