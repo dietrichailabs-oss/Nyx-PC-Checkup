@@ -120,15 +120,15 @@
     "scope": "Existing same-candidate focused evidence reconciliation; not new executions or full F008 credit"
   },
   "F008": {
-    "strictAccepted": 55,
+    "strictAccepted": 56,
     "strictRequired": 99,
     "strictFail": 0,
-    "strictNotRun": 44,
+    "strictNotRun": 43,
     "bestEffortAccepted": 0,
     "bestEffortRequired": 33,
     "bestEffortFail": 0,
     "bestEffortNotRun": 33,
-    "totalAccepted": 55,
+    "totalAccepted": 56,
     "totalRequired": 132
   },
   "finalDecisionOwner": "Independent QA",

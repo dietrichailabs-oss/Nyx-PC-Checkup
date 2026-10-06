@@ -9,7 +9,7 @@
   "currentBatch": "FollowWindows125-reconciliation",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Settings",
+  "currentPage": "Startup",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 55,
+      "PASS": 56,
       "FAIL": 0,
-      "NOT_RUN": 44
+      "NOT_RUN": 43
     },
     "bestEffort": {
       "PASS": 0,
@@ -3421,6 +3421,51 @@
       },
       "evidence": "screenshots/followwindows125_reconciliation_applied_confirmed_1791262607201_1f8dc955.jpg",
       "utc": "2026-10-06T04:56:47.201Z"
+    },
+    {
+      "id": "followwindows125_startup_reconciled_controls_1791264351179_5277d00e",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Applied/saved FollowWindows confirmed immediately preceding; Startup readonly/reversible explanation and four primary actions fully readable, inventory populated, no exception."
+      },
+      "evidence": "screenshots/followwindows125_startup_reconciled_controls_1791264351179_5277d00e.jpg",
+      "utc": "2026-10-06T05:25:51.179Z"
+    },
+    {
+      "id": "followwindows125_startup_reconciled_refresh_1791264362523_17f6b415",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Real Refresh list reloads inventory on deferred callback after page return; OneDrive remains Enabled; no StrictMode/deferred exception observed."
+      },
+      "evidence": "screenshots/followwindows125_startup_reconciled_refresh_1791264362523_17f6b415.jpg",
+      "utc": "2026-10-06T05:26:02.523Z"
+    },
+    {
+      "id": "followwindows125_startup_reconciled_readonly_1791264391584_ce8a8aa2",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "All-users desktop selection: ShiftTab from Open file location skips both disabled modification controls and focuses Refresh visibly. No all-users mutation."
+      },
+      "evidence": "screenshots/followwindows125_startup_reconciled_readonly_1791264391584_ce8a8aa2.jpg",
+      "utc": "2026-10-06T05:26:31.584Z"
+    },
+    {
+      "id": "followwindows125_startup_reconciled_grid_focus_1791264425880_92adda2e",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Tab from allowed folder action reaches all-users row Application cell with visible dotted focus; no hidden action or exception."
+      },
+      "evidence": "screenshots/followwindows125_startup_reconciled_grid_focus_1791264425880_92adda2e.jpg",
+      "utc": "2026-10-06T05:27:05.881Z"
+    },
+    {
+      "id": "followwindows125_startup_reconciled_lastcell_1791264443803_fd192325",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd scrolls to final SecurityHealth Impact cell with visible dotted focus; full read-only/reversible semantics, File exists and Impact values readable. Normal window contained, no exception."
+      },
+      "evidence": "screenshots/followwindows125_startup_reconciled_lastcell_1791264443803_fd192325.jpg",
+      "utc": "2026-10-06T05:27:23.804Z"
     }
   ],
   "evidenceReferences": [
@@ -3444,8 +3489,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Saved/relaunched FollowWindows confirmed by persisted native selector and applied appearance.",
-  "nextAction": "Complete suspended FollowWindows125 Home/Checkup/Startup exact visual/keyboard predicates without redundant scans; original Full remains persisted. Then missing Storage/Security predicates; keep human security/collector actions queued.",
+  "lastCompletedAction": "FollowWindows125 Startup exact applied-theme visual and keyboard predicates reconciled; cell restored PASS using explicit existing functional reuse.",
+  "nextAction": "Finish only suspended FollowWindows125 Home/Checkup exact-theme predicates without redundant scans; preserve original Full. Pending raw collection and security redirects remain grouped.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3694,7 +3739,7 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
+      "status": "PASS",
       "evidence": [
         "screenshots/followwindows125_native120dpi_verified.png",
         "screenshots/followwindows125_startup_refresh.png",
@@ -3709,13 +3754,20 @@
         "screenshots/followwindows125_startup_name_tooltip.png",
         "screenshots/followwindows125_startup_keyboard_end.png",
         "screenshots/followwindows125_startup_keyboard_last_row.png",
-        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json",
+        "screenshots/followwindows125_reconciliation_applied_confirmed_1791262607201_1f8dc955.jpg",
+        "screenshots/followwindows125_startup_reconciled_controls_1791264351179_5277d00e.jpg",
+        "screenshots/followwindows125_startup_reconciled_refresh_1791264362523_17f6b415.jpg",
+        "screenshots/followwindows125_startup_reconciled_readonly_1791264391584_ce8a8aa2.jpg",
+        "screenshots/followwindows125_startup_reconciled_grid_focus_1791264425880_92adda2e.jpg",
+        "screenshots/followwindows125_startup_reconciled_lastcell_1791264443803_fd192325.jpg"
       ],
-      "completedUtc": "2026-10-05T23:56:36.609Z",
+      "completedUtc": "2026-10-06T05:27:23.805Z",
       "predicates": "Fresh FollowWindows/120DPI Refresh after completed Full, grid focus restoration, Home/End/CtrlEnd horizontal/row navigation, all-users modification actions disabled, valid location Explorer and handled unavailable fixture target, visible required actions and tooltip. Reuses same unchanged candidate F015 reconciled state-transition proofs and immediately preceding Dark125 same120DPI exact fixture disable/Refresh/restore/Refresh results, not additional executions. No deferred-state exception; state Enabled/restored.",
       "previousStatus": "PASS",
-      "contextLimitation": "Exact applied FollowWindows context unproven; functional observations retained, no product failure.",
-      "reconciliationEvidence": "THEME_CONTEXT_RECONCILIATION_20261006.json"
+      "contextLimitation": "Resolved by saved appearance, actual relaunch and native selector confirmation; same120DPI unchanged installation.",
+      "reconciliationEvidence": "THEME_CONTEXT_RECONCILIATION_20261006.json",
+      "reconciliationNote": "Theme-specific controls, Refresh, readonly keyboard skips, grid focus and horizontal/final-row reachability retested; same-byte valid/missing folder and reversible state transitions reused from reconciled F015 and Light/Dark125 evidence, not new executions."
     },
     {
       "theme": "FollowWindows",
