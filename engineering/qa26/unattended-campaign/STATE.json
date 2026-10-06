@@ -3376,6 +3376,24 @@
       },
       "evidence": "screenshots/light125_storage_downloads_destination_1791255345840_324dbae0.jpg",
       "utc": "2026-10-06T02:55:45.841Z"
+    },
+    {
+      "id": "light125_storage_grid_tab_1791257125575_b81dd43c",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Forward Tab reaches original system-drive finding cell with visible dotted focus; grid auto-scrolls into view. No scan action fired."
+      },
+      "evidence": "screenshots/light125_storage_grid_tab_1791257125575_b81dd43c.jpg",
+      "utc": "2026-10-06T03:25:25.575Z"
+    },
+    {
+      "id": "light125_storage_final_focus_1791257140518_5361b68a",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd reaches final Downloads finding with visible dotted focus and fully readable essential quantity 282 B. No unintended activation or scan."
+      },
+      "evidence": "screenshots/light125_storage_final_focus_1791257140518_5361b68a.jpg",
+      "utc": "2026-10-06T03:25:40.518Z"
     }
   ],
   "evidenceReferences": [
@@ -3399,8 +3417,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Storage reverse keyboard recovery, Full action focus and actual Downloads keyboard redirect observed; files/product unchanged.",
-  "nextAction": "Finish remaining independent Light125 Storage predicates; queue credential Storage redirect if needed. Preserve Apps Full before scans; validate raw records and reconcile historical FollowWindows125 theme context before new cell credit.",
+  "lastCompletedAction": "Light125 Storage forward Tab and final-row CtrlEnd focus/readability verified; no product or file mutation.",
+  "nextAction": "Remaining Light125 Storage redirect needs credential-aware grouped session; finish Apps/Cleanup missing predicates, collect original scans for validation, reconcile historical FollowWindows125 credits. Do not rerun completed Storage keyboard cases.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3414,7 +3432,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T02:56:01.092Z",
+  "updatedUtc": "2026-10-06T03:25:40.519Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5543,7 +5561,7 @@
   "campaignStatus": "IN_PROGRESS",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
-  "lastUnattendedSessionUtc": "2026-10-06T02:56:01.092Z",
+  "lastUnattendedSessionUtc": "2026-10-06T03:25:40.519Z",
   "observedTheme": "Light",
   "themeContextReconciliation": {
     "status": "INCOMPLETE",
