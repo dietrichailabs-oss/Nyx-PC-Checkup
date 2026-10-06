@@ -3295,6 +3295,51 @@
       },
       "evidence": "screenshots/light125_cleanup_zero_summary_action_1791251379060_d29009b7.jpg",
       "utc": "2026-10-06T01:49:39.061Z"
+    },
+    {
+      "id": "light125_cleanup_reverse_firstrow_1791251709421_e4aee8a8",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "ShiftTab then CtrlHome restores first-row Select cell with dotted focus; no checkbox toggled, no deletion."
+      },
+      "evidence": "screenshots/light125_cleanup_reverse_firstrow_1791251709421_e4aee8a8.jpg",
+      "utc": "2026-10-06T01:55:09.422Z"
+    },
+    {
+      "id": "light125_security_controls_1791251717694_5325d22a",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Nyx read-only Security explanation and primary redirect fully visible; status labels convey meaning independently of color. Windows Security redirect not activated by automation."
+      },
+      "evidence": "screenshots/light125_security_controls_1791251717694_5325d22a.jpg",
+      "utc": "2026-10-06T01:55:17.694Z"
+    },
+    {
+      "id": "light125_security_enter_detail_1791251738717_d79c3e2d",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Enter opens Nyx antivirus result detail with full finding, rationale, recommendation, SafeRedirect safety, data source and Complete=True readable. This is Nyx detail, not Windows Security app. No settings changed."
+      },
+      "evidence": "screenshots/light125_security_enter_detail_1791251738717_d79c3e2d.jpg",
+      "utc": "2026-10-06T01:55:38.718Z"
+    },
+    {
+      "id": "light125_security_finalrow_1791251762648_0c1a099f",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd selects final Drive encryption row; finding explicitly states check could not be completed, not falsely Good."
+      },
+      "evidence": "screenshots/light125_security_finalrow_1791251762648_0c1a099f.jpg",
+      "utc": "2026-10-06T01:56:02.649Z"
+    },
+    {
+      "id": "light125_security_primary_focus_1791251771803_03e92008",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Reverse keyboard traversal auto-scrolls Open Windows Security into view with visible outline. Redirect itself requires human; no protection settings touched."
+      },
+      "evidence": "screenshots/light125_security_primary_focus_1791251771803_03e92008.jpg",
+      "utc": "2026-10-06T01:56:11.804Z"
     }
   ],
   "evidenceReferences": [
