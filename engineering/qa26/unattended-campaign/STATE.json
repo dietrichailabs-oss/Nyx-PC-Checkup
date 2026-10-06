@@ -6,10 +6,10 @@
   "candidate": "qa26-f023-candidate-20261002",
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
-  "currentBatch": "FollowWindows125-reconciliation",
-  "currentTheme": "FollowWindows",
+  "currentBatch": "Light125-reconciliation",
+  "currentTheme": "PENDING_LIGHT_CONFIRMATION",
   "currentScale": 125,
-  "currentPage": "Storage",
+  "currentPage": "Home",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3654,6 +3654,27 @@
       "details": "Native Explorer address Alt+D then End exposes path suffix Nyx/Documents/NyxQA26_ReadOnlyScanLoad_20261004; normal address scrolling provides practical access beyond truncated grid tooltip. No address submitted, file run or folder mutation.",
       "evidence": "screenshots/followwindows125_storage_folder_path_access_1791278756712_09d7999e.jpg",
       "utc": "2026-10-06T09:25:56.713Z"
+    },
+    {
+      "id": "followwindows125_saved_selector_before_light_1791280558992_4e4aa9d2",
+      "status": "PASS_OBSERVED",
+      "details": "Settings recreation confirms FollowWindows selected and light resolved presentation; no assumed Dark attribution. Preparing appearance-only Light transition, privacy/update options unchanged.",
+      "evidence": "screenshots/followwindows125_saved_selector_before_light_1791280558992_4e4aa9d2.jpg",
+      "utc": "2026-10-06T09:55:58.994Z"
+    },
+    {
+      "id": "light125_saved_before_relaunch_1791280625749_3c6d1127",
+      "status": "PASS_OBSERVED",
+      "details": "Light appearance selected and Save acknowledgement observed: theme next open; notification/update settings unchanged. Applied theme remains FollowWindows until normal relaunch.",
+      "evidence": "screenshots/light125_saved_before_relaunch_1791280625749_3c6d1127.jpg",
+      "utc": "2026-10-06T09:57:05.750Z"
+    },
+    {
+      "id": "light125_native_relaunch_pending_selector_1791280702444_f98b1be0",
+      "status": "PASS_OBSERVED",
+      "details": "Existing desktop shortcut after normal idle close opens one visible Home window, preserved14Good/2NeedsAttention/2Optional/3Unknown; no scan started. Light saved but native post-relaunch selector confirmation still required before cell attribution.",
+      "evidence": "screenshots/light125_native_relaunch_pending_selector_1791280702444_f98b1be0.jpg",
+      "utc": "2026-10-06T09:58:22.445Z"
     }
   ],
   "evidenceReferences": [
@@ -3678,7 +3699,7 @@
     "credentialPromptPending": false
   },
   "lastCompletedAction": "Delayed native destination confirms Largest-files Enter dispatch and practical path access via Explorer address scrolling; preserved scan unchanged.",
-  "nextAction": "Move to independent Light125 missing cells; Storage/Home/Checkup raw-contract dependencies remain queued, no additional generic scans until latest Full preserved. Audit existing same-byte predicates rather than repeat lower-grid geometry.",
+  "nextAction": "Open Settings and confirm saved Light after relaunch; then finish only independent missing Light125 predicates. No new scan until original Full collected.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3692,7 +3713,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T09:26:41.842Z",
+  "updatedUtc": "2026-10-06T09:58:22.448Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5872,5 +5893,6 @@
       ],
       "note": "19:52 local selector selection alone does not prove saved/relaunched applied theme; later selector Dark. Preserve functional evidence, suspend exact-theme cell credit pending proper saved/applied context."
     }
-  }
+  },
+  "pendingTheme": "Light"
 }
