@@ -3633,6 +3633,13 @@
       "details": "Restore returns normal contained window with Largest files readable, navigation/footer reachable; final focus visibility after resize needs next keyboard observation.",
       "evidence": "screenshots/followwindows125_storage_restored_lower_layout_1791275215045_a61f95eb.jpg",
       "utc": "2026-10-06T08:26:55.045Z"
+    },
+    {
+      "id": "followwindows125_storage_restored_focus_recovery_1791276945857_e89b00a9",
+      "status": "PASS_OBSERVED",
+      "details": "After restore, normal click refocus and Ctrl+End reach final fixture_24903.txt Folder cell with visible dotted focus, row fully visible. Initial Ctrl+End without refocus did not move; practical recovery documented, not silently counted as uninterrupted focus retention.",
+      "evidence": "screenshots/followwindows125_storage_restored_focus_recovery_1791276945857_e89b00a9.jpg",
+      "utc": "2026-10-06T08:55:45.858Z"
     }
   ],
   "evidenceReferences": [
@@ -3656,8 +3663,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Measured-folder last-row selection, Largest-files keyboard entry/auto-scroll/final focus and maximize→restore captured.",
-  "nextAction": "Resolve largest-file full-path practical access and post-resize keyboard visibility, then finish Storage predicate reconciliation; original Full remains pending collector and must not be superseded.",
+  "lastCompletedAction": "Restored Storage grid refocus and final-row keyboard visibility proven; Enter did not expose a path destination in immediate observation, no action PASS claimed.",
+  "nextAction": "Audit remaining Storage cell predicates and full-path readability route; queue collector/security dependencies, then move to independent Light125 missing predicates without more generic scans.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3671,7 +3678,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T08:26:55.048Z",
+  "updatedUtc": "2026-10-06T08:56:07.419Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
