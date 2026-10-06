@@ -1,0 +1,8 @@
+﻿{
+    "Status":  "COLLECTED_READ_ONLY",
+    "Utc":  "2026-10-06T00:01:55.8888900Z",
+    "ProductModified":  false,
+    "InstalledFiles":  61,
+    "LiveCleanupProof":  "Not established by offline collection; require pre-shutdown observer evidence",
+    "VhdMountedReadOnly":  true
+}

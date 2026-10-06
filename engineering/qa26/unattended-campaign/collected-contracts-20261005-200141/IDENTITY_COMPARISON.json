@@ -1,0 +1,32 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "criticalComparisons": 4,
+  "recordedInstalledFiles": 61,
+  "comparisons": [
+    {
+      "Path": "app/NyxPCCheckup.ps1",
+      "Expected": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "Actual": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "Match": true
+    },
+    {
+      "Path": "app/workers/ScanWorker.ps1",
+      "Expected": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "Actual": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "Match": true
+    },
+    {
+      "Path": "Nyx PC Checkup.exe",
+      "Expected": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "Actual": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "Match": true
+    },
+    {
+      "Path": "VERSION.json",
+      "Expected": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "Actual": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "Match": true
+    }
+  ],
+  "productChanged": false
+}

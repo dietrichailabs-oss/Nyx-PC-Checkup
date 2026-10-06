@@ -23,8 +23,9 @@
     {
       "id": "FW125_STORAGE_OS_REDIRECT",
       "status": "BLOCKED_HUMAN",
-      "reason": "The same guest Storage OS redirect previously raised a credential secure-desktop prompt. Remaining exact primary redirect predicate is deferred while owner is away; no bypass or password entry.",
-      "nextAction": "Exercise redirect during grouped human session; dismiss credential prompt without changing OS storage settings if it recurs."
+      "reason": "Exact FollowWindows125 redirect is currently on guest Windows Settings credential UAC. Human must choose No; no password entry or bypass.",
+      "nextAction": "Exercise redirect during grouped human session; dismiss credential prompt without changing OS storage settings if it recurs.",
+      "lastObservedUtc": "2026-10-06T00:14:38.723Z"
     },
     {
       "id": "FW125_SECURITY_OS_REDIRECT",

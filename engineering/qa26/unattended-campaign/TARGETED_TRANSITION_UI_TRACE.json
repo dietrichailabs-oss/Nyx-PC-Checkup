@@ -1,0 +1,9 @@
+{
+  "claim": "UI observation/dispatch timestamps only; actual authoritative result completion-to-start gaps require observer validation",
+  "QuickStartDispatchUtc": "2026-10-06T00:06:08.579Z",
+  "QuickCompletedObservedUtc": "2026-10-06T00:06:38.513Z",
+  "FullStartDispatchUtc": "2026-10-06T00:06:38.513Z",
+  "FullCompletedObservedUtc": "2026-10-06T00:07:38.648Z",
+  "Quick2StartDispatchUtc": "2026-10-06T00:07:38.648Z",
+  "Quick2CompletedObservedUtc": "2026-10-06T00:08:24.558Z"
+}

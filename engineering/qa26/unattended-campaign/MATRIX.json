@@ -129,8 +129,24 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_home_quick_started.png",
+        "screenshots/followwindows125_home_scroll_status.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_home_lower_state.png",
+        "screenshots/followwindows125_home_primary_focus.png",
+        "screenshots/followwindows125_home_primary_scan_start.png",
+        "screenshots/followwindows125_home_active_cancel_focus.png",
+        "screenshots/followwindows125_home_quick_finished.png",
+        "screenshots/followwindows125_home_export_review.png",
+        "screenshots/followwindows125_home_lower_readability.png",
+        "screenshots/followwindows125_home_keyboard_focus_recovery.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:59:30.826Z",
+      "predicates": "Actual primary readonly Quick starts/completes; active progress and enabled Cancel focus reached; no cancellation credited. Summary/category/status meanings readable with normal scrolling, report-review keyboard activation readable and safe, Tab/ShiftTab recover Check My PC focus/visibility, containment/no exception. Same-candidate installed identity and native120DPI referenced."
     },
     {
       "theme": "FollowWindows",
@@ -138,8 +154,26 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_checkup_enter_details.png",
+        "screenshots/followwindows125_checkup_keyboard_exit.png",
+        "screenshots/followwindows125_checkup_reverse_tab.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_checkup_lastrow_scroll.png",
+        "screenshots/followwindows125_checkup_result_enter.png",
+        "screenshots/followwindows125_checkup_focus_recovery.png",
+        "screenshots/followwindows125_checkup_keyboard_last.png",
+        "screenshots/followwindows125_checkup_enter_details.png",
+        "screenshots/followwindows125_checkup_primary_focus.png",
+        "screenshots/followwindows125_checkup_targeted_sequence.png",
+        "screenshots/followwindows125_checkup_quick_cancel_dispatch.png",
+        "screenshots/followwindows125_checkup_quick_cancelled_ui.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-06T00:09:04.565Z",
+      "predicates": "Exact finding Enter activation/readability, reverse keyboard focus and scroll restoration, real Quick/Full/Quick starts/completions, active progress and enabled Cancel reachable, genuine Quick cancellation UI returns safely with preserved partial findings; text/status/primary actions readable and contained, no exception. Timing/raw acceptance separate."
     },
     {
       "theme": "FollowWindows",
@@ -156,8 +190,25 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_startup_refresh.png",
+        "screenshots/followwindows125_startup_allusers_readonly.png",
+        "screenshots/followwindows125_startup_open_valid.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_startup_refresh_after_full.png",
+        "screenshots/followwindows125_startup_allusers_keyboard_skip.png",
+        "screenshots/followwindows125_startup_allusers_readonly.png",
+        "screenshots/followwindows125_startup_valid_location.png",
+        "screenshots/followwindows125_startup_missing_location.png",
+        "screenshots/followwindows125_startup_name_tooltip.png",
+        "screenshots/followwindows125_startup_keyboard_end.png",
+        "screenshots/followwindows125_startup_keyboard_last_row.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:56:36.609Z",
+      "predicates": "Fresh FollowWindows/120DPI Refresh after completed Full, grid focus restoration, Home/End/CtrlEnd horizontal/row navigation, all-users modification actions disabled, valid location Explorer and handled unavailable fixture target, visible required actions and tooltip. Reuses same unchanged candidate F015 reconciled state-transition proofs and immediately preceding Dark125 same120DPI exact fixture disable/Refresh/restore/Refresh results, not additional executions. No deferred-state exception; state Enabled/restored."
     },
     {
       "theme": "FollowWindows",
@@ -1832,9 +1883,9 @@
   ],
   "scoreboard": {
     "strict": {
-      "PASS": 50,
+      "PASS": 53,
       "FAIL": 0,
-      "NOT_RUN": 49
+      "NOT_RUN": 46
     },
     "bestEffort": {
       "PASS": 0,

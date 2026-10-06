@@ -1,0 +1,12 @@
+{
+  "policy": "New observations are uniquely named; original screenshot revisions are preserved, not discarded",
+  "priorCommit": "bbe851e08e214f83b5c75f2fae33cf1912dcfe0b",
+  "preservedDirectory": "prior-screen-revisions-bbe851e/engineering/qa26/unattended-campaign/screenshots",
+  "reobservedFiles": [
+    "followwindows125_checkup_enter_details.png",
+    "followwindows125_security_unknown_details.png",
+    "followwindows125_startup_allusers_readonly.png",
+    "followwindows125_storage_downloads.png"
+  ],
+  "productChanged": false
+}

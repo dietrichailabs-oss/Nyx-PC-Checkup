@@ -1,0 +1,61 @@
+{
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "productChanged": false,
+  "uniqueValidatedRuns": 4,
+  "uniqueResultsValidated": 67,
+  "completedRuns": 3,
+  "cancelledFullRuns": 1,
+  "cancelledPartialResults": 16,
+  "workerError": false,
+  "installedObserverSharedReads": 89759,
+  "ioRetries": 22,
+  "parseRetries": 0,
+  "workerExitsAndLivePreShutdown": [
+    {
+      "WorkerPid": 8248,
+      "ExitUtc": "2026-10-05T23:12:13.3598208Z",
+      "FirstCleanLiveUtc": "2026-10-05T23:12:13.8993135Z",
+      "ActiveWorkers": [],
+      "TempArtifacts": [],
+      "Result": "PASS"
+    },
+    {
+      "WorkerPid": 4120,
+      "ExitUtc": "2026-10-05T23:16:19.9911386Z",
+      "FirstCleanLiveUtc": "2026-10-05T23:16:20.5484250Z",
+      "ActiveWorkers": [],
+      "TempArtifacts": [],
+      "Result": "PASS"
+    },
+    {
+      "WorkerPid": 5888,
+      "ExitUtc": "2026-10-05T23:31:48.7774101Z",
+      "FirstCleanLiveUtc": "2026-10-05T23:31:48.7935595Z",
+      "ActiveWorkers": [],
+      "TempArtifacts": [],
+      "Result": "PASS"
+    }
+  ],
+  "copiedRawIdentity": [
+    {
+      "File": "CancelledFull_RAW.json",
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "ObserverSHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Identical": true
+    },
+    {
+      "File": "CompletedFull_RAW.json",
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "ObserverSHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Identical": true
+    }
+  ],
+  "observerScope": "Three real installed scans with native launcher ancestor; original raw, concurrent shared reader, live cleanup events before VM shutdown. Fourth later Quick contract valid but live cleanup not captured after observer timed out.",
+  "missing": [
+    "Immediate Quick to Full proof",
+    "Immediate Full to Quick proof",
+    "Remaining cancellation/relaunch and live cleanup predicates"
+  ],
+  "F016": "INCOMPLETE",
+  "F010": "INCOMPLETE"
+}

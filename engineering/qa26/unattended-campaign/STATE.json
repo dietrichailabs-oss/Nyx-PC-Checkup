@@ -6,11 +6,11 @@
   "candidate": "qa26-f023-candidate-20261002",
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
-  "currentBatch": "B_DARK_125",
-  "currentTheme": "Dark",
+  "currentBatch": "FollowWindows125_targeted_transition",
+  "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Security",
-  "currentSuite": null,
+  "currentPage": "Storage",
+  "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
     "F015": "PASS_RECONCILED",
@@ -21,9 +21,9 @@
   },
   "scoreboard": {
     "strict": {
-      "PASS": 50,
+      "PASS": 53,
       "FAIL": 0,
-      "NOT_RUN": 49
+      "NOT_RUN": 46
     },
     "bestEffort": {
       "PASS": 0,
@@ -2473,6 +2473,209 @@
       "details": "Owner directly clicked Open Windows Security in Nyx; screenshot confirms Windows Security Security at a glance opened. No protection settings changed. Earlier Enter input remained unconfirmed, not a product failure.",
       "evidence": "screenshots/dark125_security_os_redirect_confirmed.png",
       "utc": "2026-10-05T23:47:24.209Z"
+    },
+    {
+      "id": "dark125_full_authoritative_copy_preserved",
+      "status": "OBSERVED",
+      "details": "Original scans/last-scan.json modified 2026-10-05 19:31, 379 KB, copied unchanged to reports/fulldark125-storage-20261005-1931.json. Original cancelled Full copy still present. Contract and copied-hash validation pending collector.",
+      "evidence": "screenshots/dark125_full_authoritative_copy_preserved.png",
+      "utc": "2026-10-05T23:51:30.841Z"
+    },
+    {
+      "id": "followwindows125_theme_applied",
+      "status": "PASS",
+      "details": "Appearance selector shows FollowWindows; resolves to dark Windows appearance at unchanged native120 DPI. Theme changed through existing selector only; privacy/update settings untouched.",
+      "evidence": "screenshots/followwindows125_theme_applied.png",
+      "utc": "2026-10-05T23:52:35.413Z"
+    },
+    {
+      "id": "followwindows125_security_unknown_details",
+      "status": "PASS",
+      "details": "Enter opens exact Secure Boot unknown details with readable reason/recommendation, Complete False, ActionSafety None; no automatic change.",
+      "evidence": "screenshots/followwindows125_security_unknown_details.png",
+      "utc": "2026-10-05T23:53:17.900Z"
+    },
+    {
+      "id": "followwindows125_security_primary_focus",
+      "status": "PASS",
+      "details": "FollowWindows/125: Ctrl+Shift+Tab from grid reveals fully visible focused Open Windows Security button. Fresh Enter detail readable; page usable, all six rows reachable, no exception. Exact FollowWindows redirect remains human queue pending; Dark125 redirect confirmed separately.",
+      "evidence": "screenshots/followwindows125_security_primary_focus.png",
+      "utc": "2026-10-05T23:53:45.977Z"
+    },
+    {
+      "id": "followwindows125_startup_allusers_readonly",
+      "status": "PASS",
+      "details": "All-users Startup-folder entry selected; both Disable/Re-enable disabled; location enabled with visible keyboard focus. Required text/actions readable and reachable after focus auto-scroll.",
+      "evidence": "screenshots/followwindows125_startup_allusers_readonly.png",
+      "utc": "2026-10-05T23:54:37.126Z"
+    },
+    {
+      "id": "followwindows125_startup_valid_location",
+      "status": "PASS",
+      "details": "Keyboard Open file location opens actual Start Menu/Programs/Startup directory. No all-users file changed or executed.",
+      "evidence": "screenshots/followwindows125_startup_valid_location.png",
+      "utc": "2026-10-05T23:54:54.232Z"
+    },
+    {
+      "id": "followwindows125_startup_missing_location",
+      "status": "PASS",
+      "details": "Exact disposable current-user missing target produces handled readable unavailable executable message via Enter; no exception. Current-user Disable is available, Re-enable disabled for restored Enabled state.",
+      "evidence": "screenshots/followwindows125_startup_missing_location.png",
+      "utc": "2026-10-05T23:55:44.409Z"
+    },
+    {
+      "id": "followwindows125_startup_name_tooltip",
+      "status": "PASS",
+      "details": "Full disposable fixture name readable through native tooltip; enabled state and current-user source readable.",
+      "evidence": "screenshots/followwindows125_startup_name_tooltip.png",
+      "utc": "2026-10-05T23:56:02.234Z"
+    },
+    {
+      "id": "followwindows125_startup_keyboard_end",
+      "status": "PASS",
+      "details": "End reveals complete right-side columns: all-users read-only/current-user reversible, File exists Yes/No-unknown, Impact Not measured. Focus visible on selected fixture Impact; no action fired by navigation.",
+      "evidence": "screenshots/followwindows125_startup_keyboard_end.png",
+      "utc": "2026-10-05T23:56:21.064Z"
+    },
+    {
+      "id": "followwindows125_startup_keyboard_last_row",
+      "status": "PASS",
+      "details": "Ctrl+End reaches final SecurityHealth all-users Run row with visible focus and complete readonly/exists/impact values; no action fired, contained.",
+      "evidence": "screenshots/followwindows125_startup_keyboard_last_row.png",
+      "utc": "2026-10-05T23:56:36.607Z"
+    },
+    {
+      "id": "followwindows125_home_primary_scan_start",
+      "status": "PASS",
+      "details": "Check My PC starts actual installed readonly Quick scan; readable starting status, progress and enabled Cancel visible in constrained normal window.",
+      "evidence": "screenshots/followwindows125_home_primary_scan_start.png",
+      "utc": "2026-10-05T23:57:15.557Z"
+    },
+    {
+      "id": "followwindows125_home_active_cancel_focus",
+      "status": "PASS",
+      "details": "Tab reaches enabled Cancel Scan with visible focus while actual Quick worker reports Checking Backup checkup and progress partially filled.",
+      "evidence": "screenshots/followwindows125_home_active_cancel_focus.png",
+      "utc": "2026-10-05T23:57:25.186Z"
+    },
+    {
+      "id": "followwindows125_home_quick_finished",
+      "status": "OBSERVED",
+      "details": "Quick finished and summary rerendered 9 Good/2 NeedsAttention/1 Optional/3 Unknown. Cancel activation raced completion; no genuine cancellation claimed. Authoritative latest raw validation pending.",
+      "evidence": "screenshots/followwindows125_home_quick_finished.png",
+      "utc": "2026-10-05T23:57:36.805Z"
+    },
+    {
+      "id": "followwindows125_home_export_review",
+      "status": "PASS",
+      "details": "Enter after Quick completion opened Review report before export. Readable readonly report summary/counts and structured findings present with scrollbar; no file exported or data transmitted. Cancellation not proven by this action.",
+      "evidence": "screenshots/followwindows125_home_export_review.png",
+      "utc": "2026-10-05T23:57:49.699Z"
+    },
+    {
+      "id": "followwindows125_home_lower_readability",
+      "status": "PASS",
+      "details": "Normal vertical scrolling reaches six category cards and Things worth looking at; explicit Good/Optional/NeedsAttention text plus backup/network explanations readable, not color-only.",
+      "evidence": "screenshots/followwindows125_home_lower_readability.png",
+      "utc": "2026-10-05T23:58:33.953Z"
+    },
+    {
+      "id": "followwindows125_home_keyboard_focus_recovery",
+      "status": "PASS",
+      "details": "Reverse Tab from Home nav to Export then Check My PC automatically scrolls primary action fully into view with visible focus. All Home summary/category required text readable with normal scrolling, no hidden primary action; actual Check My PC Quick start/completion and readonly report-review activation observed.",
+      "evidence": "screenshots/followwindows125_home_keyboard_focus_recovery.png",
+      "utc": "2026-10-05T23:59:30.824Z"
+    },
+    {
+      "id": "followwindows125_checkup_keyboard_last",
+      "status": "PASS",
+      "details": "Ctrl+End reaches last Network result; visible dotted focus and normal vertical scrolling; status semantics include text/symbols, no accidental activation.",
+      "evidence": "screenshots/followwindows125_checkup_keyboard_last.png",
+      "utc": "2026-10-06T00:00:07.670Z"
+    },
+    {
+      "id": "followwindows125_checkup_enter_details",
+      "status": "PASS",
+      "details": "Network basics exact last result Enter opens readable finding, reason, recommendation and technical evidence with scrolling; Complete True, ActionSafety None; no DNS/proxy/firewall/adapter change.",
+      "evidence": "screenshots/followwindows125_checkup_enter_details.png",
+      "utc": "2026-10-06T00:00:18.190Z"
+    },
+    {
+      "id": "followwindows125_checkup_primary_focus",
+      "status": "PASS",
+      "details": "Reverse CtrlShiftTab from restored selected last result reveals fully visible Full Check action with focus; Quick action readable, details activate correctly, no exception. Cell remains incomplete pending exact primary dispatch/reconciliation.",
+      "evidence": "screenshots/followwindows125_checkup_primary_focus.png",
+      "utc": "2026-10-06T00:01:22.084Z"
+    },
+    {
+      "id": "followwindows125_checkup_targeted_sequence",
+      "status": "OBSERVED",
+      "details": "Quick -> Full -> Quick all three visually completed; no stale state blocked next scans. Immediate timing acceptance pending original raw per-run timestamps, worker exits and live cleanup.",
+      "evidence": "screenshots/followwindows125_checkup_targeted_sequence.png",
+      "utc": "2026-10-06T00:08:24.560Z"
+    },
+    {
+      "id": "followwindows125_checkup_quick_cancel_dispatch",
+      "status": "OBSERVED",
+      "details": "Real Quick Cancel click at 2026-10-06T00:08:33.858Z produces Cancelling safely; partial results will remain visible with live progress. Original raw and process/live cleanup needed before focused gate PASS.",
+      "evidence": "screenshots/followwindows125_checkup_quick_cancel_dispatch.png",
+      "utc": "2026-10-06T00:08:44.399Z"
+    },
+    {
+      "id": "followwindows125_checkup_quick_cancelled_ui",
+      "status": "PASS",
+      "details": "Native UI reports Check cancelled. Partial results were preserved; controls re-enabled, Cancel disabled, no exception. Actual Cancelled=true/partial schema and live cleanup remain original-file validation pending.",
+      "evidence": "screenshots/followwindows125_checkup_quick_cancelled_ui.png",
+      "utc": "2026-10-06T00:09:04.563Z"
+    },
+    {
+      "id": "followwindows125_cancel_close_desktop",
+      "status": "PASS",
+      "details": "App closes normally after genuine Quick cancellation; desktop and Nyx PC Checkup shortcut visible, no exception/close prompt. Process closure to be confirmed by native observer attribution.",
+      "evidence": "screenshots/followwindows125_cancel_close_desktop.png",
+      "utc": "2026-10-06T00:09:23.502Z"
+    },
+    {
+      "id": "followwindows125_quick_cancel_relaunch",
+      "status": "PASS",
+      "details": "Desktop shortcut relaunch after cancelled Quick opens native app visibly within work area; persisted partial summary8Good/1NeedsAttention/1Optional/3Unknown loads, no exception or singleton blockage. Observer process identity/raw contract pending reconciliation.",
+      "evidence": "screenshots/followwindows125_quick_cancel_relaunch.png",
+      "utc": "2026-10-06T00:10:11.513Z"
+    },
+    {
+      "id": "followwindows125_post_cancel_scan_finished",
+      "status": "OBSERVED",
+      "details": "Following actual cancelled Quick, clean close and native desktop relaunch, Home Check My PC runs and completes a new Quick; Storage recreates with fresh completed drive finding, no exception. Raw/process cleanup must be reconciled from installed observer.",
+      "evidence": "screenshots/followwindows125_post_cancel_scan_finished.png",
+      "utc": "2026-10-06T00:11:08.071Z"
+    },
+    {
+      "id": "followwindows125_storage_full_dispatch",
+      "status": "PASS",
+      "details": "Storage Run Full Check invokes actual readonly Full scan; starting status, progress and enabled Cancel visible.",
+      "evidence": "screenshots/followwindows125_storage_full_dispatch.png",
+      "utc": "2026-10-06T00:11:19.351Z"
+    },
+    {
+      "id": "followwindows125_storage_downloads",
+      "status": "PASS",
+      "details": "Actual Open Downloads dispatch opens native Explorer at Users/Nyx/Downloads during Full. No files modified.",
+      "evidence": "screenshots/followwindows125_storage_downloads.png",
+      "utc": "2026-10-06T00:11:38.351Z"
+    },
+    {
+      "id": "followwindows125_storage_full_finished",
+      "status": "OBSERVED",
+      "details": "Full completes normally, three Good storage results rerender, primary actions re-enabled; status/progress visible, no exception. Original schema/process cleanup validation separately pending installed observer.",
+      "evidence": "screenshots/followwindows125_storage_full_finished.png",
+      "utc": "2026-10-06T00:12:03.706Z"
+    },
+    {
+      "id": "followwindows125_storage_credential_prompt",
+      "status": "BLOCKED_HUMAN",
+      "details": "Actual safe Storage settings redirect reaches Windows credential UAC; no credentials entered, no protection/security bypass. Human No queued, independent evidence reconciliation continues.",
+      "evidence": "screenshots/followwindows125_storage_credential_prompt.png",
+      "utc": "2026-10-06T00:13:01.241Z"
     }
   ],
   "evidenceReferences": [
@@ -2483,7 +2686,8 @@
       "result": "BLOCKED_HUMAN",
       "productFailure": false,
       "detail": "Two normal UAC collector launches returned operation canceled; no shutdown/mount/restart or collection. Current host process not elevated."
-    }
+    },
+    "collected-contracts-20261005-200141/RUN_SUMMARY.json"
   ],
   "vm": {
     "name": "Nyx",
@@ -2492,10 +2696,11 @@
     "session": "Owner confirmed signed in after125% transition; native DPI verification pending",
     "plannedTransition": "Apply configured125% via normal Windows Display sign-out; owner-assisted sign-in, independently verify120DPI before credit",
     "pendingTransition": null,
-    "state": "Running; signed in as Nyx; native app visible"
+    "state": "Running; signed in as Nyx; native app visible",
+    "credentialPromptPending": true
   },
-  "lastCompletedAction": "Dark125 full 11-page batch complete; strict 50/99.",
-  "nextAction": "Preserve latest completed Full raw JSON; resume remaining FollowWindows125 cells, then strict150 batches.",
+  "lastCompletedAction": "Strict53/99; Dark12511/11 complete. Four unique original scan contracts validated67/67 records; installed observer89759 shared reads,3worker exits with clean live pre-shutdown states. Targeted QuickFullQuick and genuine Quick cancellation/relaunch UI observed; latest raw validation pending.",
+  "nextAction": "After human dismisses exact guest credential prompt, finish FollowWindows125 Storage/Security, collect targeted immediate transitions and genuine Quick cancellation/relaunch; validate raw actual gaps and live cleanup.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -2509,7 +2714,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-05T23:47:38.808Z",
+  "updatedUtc": "2026-10-06T00:16:18.331Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -2648,8 +2853,24 @@
       "page": "Home",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_home_quick_started.png",
+        "screenshots/followwindows125_home_scroll_status.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_home_lower_state.png",
+        "screenshots/followwindows125_home_primary_focus.png",
+        "screenshots/followwindows125_home_primary_scan_start.png",
+        "screenshots/followwindows125_home_active_cancel_focus.png",
+        "screenshots/followwindows125_home_quick_finished.png",
+        "screenshots/followwindows125_home_export_review.png",
+        "screenshots/followwindows125_home_lower_readability.png",
+        "screenshots/followwindows125_home_keyboard_focus_recovery.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:59:30.826Z",
+      "predicates": "Actual primary readonly Quick starts/completes; active progress and enabled Cancel focus reached; no cancellation credited. Summary/category/status meanings readable with normal scrolling, report-review keyboard activation readable and safe, Tab/ShiftTab recover Check My PC focus/visibility, containment/no exception. Same-candidate installed identity and native120DPI referenced."
     },
     {
       "theme": "FollowWindows",
@@ -2657,8 +2878,26 @@
       "page": "Checkup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_checkup_enter_details.png",
+        "screenshots/followwindows125_checkup_keyboard_exit.png",
+        "screenshots/followwindows125_checkup_reverse_tab.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_checkup_lastrow_scroll.png",
+        "screenshots/followwindows125_checkup_result_enter.png",
+        "screenshots/followwindows125_checkup_focus_recovery.png",
+        "screenshots/followwindows125_checkup_keyboard_last.png",
+        "screenshots/followwindows125_checkup_enter_details.png",
+        "screenshots/followwindows125_checkup_primary_focus.png",
+        "screenshots/followwindows125_checkup_targeted_sequence.png",
+        "screenshots/followwindows125_checkup_quick_cancel_dispatch.png",
+        "screenshots/followwindows125_checkup_quick_cancelled_ui.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-06T00:09:04.565Z",
+      "predicates": "Exact finding Enter activation/readability, reverse keyboard focus and scroll restoration, real Quick/Full/Quick starts/completions, active progress and enabled Cancel reachable, genuine Quick cancellation UI returns safely with preserved partial findings; text/status/primary actions readable and contained, no exception. Timing/raw acceptance separate."
     },
     {
       "theme": "FollowWindows",
@@ -2675,8 +2914,25 @@
       "page": "Startup",
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
-      "status": "NOT_RUN",
-      "evidence": []
+      "status": "PASS",
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_startup_refresh.png",
+        "screenshots/followwindows125_startup_allusers_readonly.png",
+        "screenshots/followwindows125_startup_open_valid.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_startup_refresh_after_full.png",
+        "screenshots/followwindows125_startup_allusers_keyboard_skip.png",
+        "screenshots/followwindows125_startup_allusers_readonly.png",
+        "screenshots/followwindows125_startup_valid_location.png",
+        "screenshots/followwindows125_startup_missing_location.png",
+        "screenshots/followwindows125_startup_name_tooltip.png",
+        "screenshots/followwindows125_startup_keyboard_end.png",
+        "screenshots/followwindows125_startup_keyboard_last_row.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-05T23:56:36.609Z",
+      "predicates": "Fresh FollowWindows/120DPI Refresh after completed Full, grid focus restoration, Home/End/CtrlEnd horizontal/row navigation, all-users modification actions disabled, valid location Explorer and handled unavailable fixture target, visible required actions and tooltip. Reuses same unchanged candidate F015 reconciled state-transition proofs and immediately preceding Dark125 same120DPI exact fixture disable/Refresh/restore/Refresh results, not additional executions. No deferred-state exception; state Enabled/restored."
     },
     {
       "theme": "FollowWindows",
@@ -4398,5 +4654,7 @@
       "status": "PENDING_COLLECTION"
     }
   ],
-  "campaignStatus": "IN_PROGRESS"
+  "campaignStatus": "IN_PROGRESS",
+  "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
+  "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e."
 }
