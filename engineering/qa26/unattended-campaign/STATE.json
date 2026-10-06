@@ -3845,8 +3845,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Applied Light selector reconfirmed; rejected host-overlay click preserved as environment interference, not product failure",
-  "nextAction": "Grouped raw collector approval/sign-in, then validate original results and close pending cells; remaining DPI logins and Windows Security checks queued separately. Do not overwrite original scans.",
+  "lastCompletedAction": "Dependency audit: queued raw collection prevents result acceptance; remaining native DPI sessions need human login, Windows Security checks need human control, destructive suites need appropriate authorized disposable snapshot.",
+  "nextAction": "Resume grouped collector UAC and Nyx login first; validate preserved original results, then close pending predicates and perform remaining DPI/snapshot gates. No redundant scans.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3860,7 +3860,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T15:26:12.922Z",
+  "updatedUtc": "2026-10-06T16:55:46.904Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -3869,7 +3869,15 @@
     "appliedAppScale": 125,
     "configuredCustomScale": 125,
     "note": "Configured scale is not applied DPI; native96 record authoritative for this session",
-    "hostElevated": false
+    "hostElevated": false,
+    "currentObservation": {
+      "utc": "2026-10-06T16:26:18.965Z",
+      "guestVisible": true,
+      "themeSelector": "Light",
+      "dpiNewlyMeasured": false,
+      "hostOverlays": true,
+      "scanRunningVisible": false
+    }
   },
   "matrix": [
     {
@@ -6113,7 +6121,7 @@
       "note": "Do not supersede until preserved; completion UI observed, original contract/live proof pending."
     }
   ],
-  "campaignStatus": "IN_PROGRESS",
+  "campaignStatus": "BLOCKED_HUMAN",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
   "lastUnattendedSessionUtc": "2026-10-06T15:55:31.346Z",
@@ -6151,5 +6159,12 @@
       ],
       "note": "19:52 local selector selection alone does not prove saved/relaunched applied theme; later selector Dark. Preserve functional evidence, suspend exact-theme cell credit pending proper saved/applied context."
     }
+  },
+  "blockedUnattended": {
+    "reason": "Current acceptance-critical steps require grouped human prerequisites; repeated heartbeats have not advanced complete cells.",
+    "scoreboardUnchanged": true,
+    "productFailureEstablished": false,
+    "utc": "2026-10-06T16:55:46.904Z",
+    "humanQueue": "HUMAN_ACTION_QUEUE.json"
   }
 }

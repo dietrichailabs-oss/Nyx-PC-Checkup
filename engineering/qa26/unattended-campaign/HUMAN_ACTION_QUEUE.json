@@ -86,6 +86,13 @@
       "nextAction": "Grouped attended session: sign in as Nyx after each authorized DPI transition; persist state and verify actual DPI before crediting cells.",
       "affectedTest": "Remaining strict150 and best-effort200 matrix",
       "queuedUtc": "2026-10-06T15:55:31.346Z"
+    },
+    {
+      "id": "HOST_NOTIFICATION_OVERLAYS",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Host ChatGPT and Windows Update notification overlays obscure VM capture; no host update/restart or Codex UI automation performed.",
+      "nextAction": "Dismiss host notifications normally without initiating updates, then resume unobscured VM evidence capture.",
+      "queuedUtc": "2026-10-06T16:26:18.965Z"
     }
   ]
 }
