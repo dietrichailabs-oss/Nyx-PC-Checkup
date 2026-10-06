@@ -182,7 +182,36 @@
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
       "status": "NOT_RUN",
-      "evidence": []
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_storage_downloads.png",
+        "screenshots/followwindows125_storage_enter_details.png",
+        "screenshots/followwindows125_storage_focus_recovery.png",
+        "screenshots/followwindows125_storage_full_dispatch.png",
+        "screenshots/followwindows125_storage_downloads.png",
+        "screenshots/followwindows125_storage_full_finished.png",
+        "screenshots/followwindows125_storage_credential_prompt.png",
+        "screenshots/followwindows125_storage_os_destination_20261006001820908_c8ef62a9.png",
+        "screenshots/followwindows125_storage_enter_details_20261006002214975_33c422a9.png",
+        "screenshots/followwindows125_storage_keyboard_return_20261006002243236_6549c50a.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-06T00:22:51.621Z",
+      "predicates": {
+        "appliedDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "keyboardFocusVisible": true,
+        "keyboardActionsOperable": true,
+        "scrollingWorks": true,
+        "primaryActionsReachable": true,
+        "pageSpecificActions": "Downloads Explorer, Windows Storage destination, real Full Check completion, Enter finding details",
+        "workAreaContained": true,
+        "unhandledExceptionObserved": false,
+        "identityEvidence": "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json"
+      },
+      "contextLimitation": "Current selector observed Dark; new Storage credit withdrawn pending exact-theme validation."
     },
     {
       "theme": "FollowWindows",

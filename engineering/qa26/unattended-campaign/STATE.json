@@ -6,10 +6,10 @@
   "candidate": "qa26-f023-candidate-20261002",
   "evidenceBaseline": "a56d4487d656f5104c2566f72902e303c0543693",
   "productModified": false,
-  "currentBatch": "FollowWindows125_targeted_transition",
-  "currentTheme": "FollowWindows",
+  "currentBatch": "Light125",
+  "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Storage",
+  "currentPage": "Checkup",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -2676,6 +2676,169 @@
       "details": "Actual safe Storage settings redirect reaches Windows credential UAC; no credentials entered, no protection/security bypass. Human No queued, independent evidence reconciliation continues.",
       "evidence": "screenshots/followwindows125_storage_credential_prompt.png",
       "utc": "2026-10-06T00:13:01.241Z"
+    },
+    {
+      "id": "followwindows125_storage_os_destination_20261006001820908_c8ef62a9",
+      "status": "PASS",
+      "details": "Fresh screenshot shows guest Settings System > Storage under Nyx local account; prior credential prompt no longer present. Actual redirect destination confirmed; no settings changed.",
+      "evidence": "screenshots/followwindows125_storage_os_destination_20261006001820908_c8ef62a9.png",
+      "utc": "2026-10-06T00:18:20.910Z"
+    },
+    {
+      "id": "followwindows125_storage_enter_details_20261006002214975_33c422a9",
+      "status": "PASS",
+      "details": {
+        "finding": "User profile, folders, and largest files",
+        "observation": "Native detail dialog shows readable finding, rationale, action safety None, Complete True, and technical evidence; vertical scrolling available."
+      },
+      "evidence": "screenshots/followwindows125_storage_enter_details_20261006002214975_33c422a9.png",
+      "utc": "2026-10-06T00:22:14.976Z"
+    },
+    {
+      "id": "followwindows125_storage_keyboard_return_20261006002243236_6549c50a",
+      "status": "PASS",
+      "details": {
+        "observation": "Ctrl+Shift+Tab returns to Run Full Check with visible focus and automatically scrolls required actions fully into view. Detail values readable through native scrolling; OS Storage and Downloads destinations and completed Full already evidenced."
+      },
+      "evidence": "screenshots/followwindows125_storage_keyboard_return_20261006002243236_6549c50a.png",
+      "utc": "2026-10-06T00:22:43.236Z"
+    },
+    {
+      "id": "theme_context_reconciliation_20261006002325126_0bb8a4b2",
+      "status": "HARNESS_CONTEXT_MISMATCH",
+      "details": {
+        "observation": "Current native Settings selector reads Dark. Latest Storage observations cannot independently prove FollowWindows context; preserve them as Dark125 evidence pending reconciliation."
+      },
+      "evidence": "screenshots/theme_context_reconciliation_20261006002325126_0bb8a4b2.png",
+      "utc": "2026-10-06T00:23:25.127Z"
+    },
+    {
+      "id": "light125_settings_saved_pending_relaunch_20261006005608021_6fe68bff",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "themeSelected": "Light",
+        "message": "Theme changes apply next time Nyx is opened",
+        "productModified": false
+      },
+      "evidence": "screenshots/light125_settings_saved_pending_relaunch_20261006005608021_6fe68bff.png",
+      "utc": "2026-10-06T00:56:08.023Z"
+    },
+    {
+      "id": "light125_home_native_launch_20261006005658651_4dedcb1c",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "appearance": "Light after saved preference and native shortcut relaunch",
+        "counts": {
+          "Good": 14,
+          "NeedsAttention": 2,
+          "Optional": 2,
+          "Unknown": 3
+        },
+        "statusMeaningNotColorOnly": true,
+        "appContained": true,
+        "cellComplete": false
+      },
+      "evidence": "screenshots/light125_home_native_launch_20261006005658651_4dedcb1c.png",
+      "utc": "2026-10-06T00:56:58.651Z"
+    },
+    {
+      "id": "light125_home_scan_progress_cancel_focus_20261006005714625_b2c33905",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Actual Quick checking Windows security; visible progress and reachable focused Cancel scan in footer; no security application manipulated."
+      },
+      "evidence": "screenshots/light125_home_scan_progress_cancel_focus_20261006005714625_b2c33905.png",
+      "utc": "2026-10-06T00:57:14.626Z"
+    },
+    {
+      "id": "light125_home_completed_category_cards_20261006005723898_3c14c8f6",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Quick completed with words Good/NeedsAttention/Optional/Unknown and category cards; status footer says 2 things need attention, Cancel disabled idle. Original last-scan contract pending collection."
+      },
+      "evidence": "screenshots/light125_home_completed_category_cards_20261006005723898_3c14c8f6.png",
+      "utc": "2026-10-06T00:57:23.899Z"
+    },
+    {
+      "id": "light125_home_lower_text_readable_20261006005735809_43913d07",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Lower category states, Backup and Network attention text readable through normal vertical scrolling; work-area contained."
+      },
+      "evidence": "screenshots/light125_home_lower_text_readable_20261006005735809_43913d07.png",
+      "utc": "2026-10-06T00:57:35.810Z"
+    },
+    {
+      "id": "light125_home_export_preview_20261006005759799_1a2f4bab",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Privacy-safe preview shows frozen build identity and scan findings, scrollable text, Cancel and Continue to save fully visible; no report saved."
+      },
+      "evidence": "screenshots/light125_home_export_preview_20261006005759799_1a2f4bab.png",
+      "utc": "2026-10-06T00:57:59.799Z"
+    },
+    {
+      "id": "light125_home_export_cancel_navigation_focus_20261006005825340_24391900",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Export Cancel returned native Home; Tab reaches visibly outlined Home navigation; no save dialog or file write."
+      },
+      "evidence": "screenshots/light125_home_export_cancel_navigation_focus_20261006005825340_24391900.png",
+      "utc": "2026-10-06T00:58:25.341Z"
+    },
+    {
+      "id": "light125_home_maximize_contained_20261006005840846_820e3d1a",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Maximized Home, status footer, export and navigation remain inside guest working area with taskbar visible; lower required findings readable."
+      },
+      "evidence": "screenshots/light125_home_maximize_contained_20261006005840846_820e3d1a.png",
+      "utc": "2026-10-06T00:58:40.846Z"
+    },
+    {
+      "id": "light125_home_restore_contained_20261006005900427_44e94a03",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Restore retains keyboard navigation focus, required text and footer within work area; no exception."
+      },
+      "evidence": "screenshots/light125_home_restore_contained_20261006005900427_44e94a03.png",
+      "utc": "2026-10-06T00:59:00.427Z"
+    },
+    {
+      "id": "light125_checkup_required_controls_20261006005915721_3b8c7e41",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Quick and Full Check labels, page explanation, export and textual result statuses readable; scan actions not rerun while original Quick waits for collection."
+      },
+      "evidence": "screenshots/light125_checkup_required_controls_20261006005915721_3b8c7e41.png",
+      "utc": "2026-10-06T00:59:15.722Z"
+    },
+    {
+      "id": "light125_checkup_enter_final_detail_20261006005951659_79a7cb9d",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlEnd then Enter dispatches Network basics; full finding/rationale/action/safety None/source/Complete True readable through native detail scrolling; contained."
+      },
+      "evidence": "screenshots/light125_checkup_enter_final_detail_20261006005951659_79a7cb9d.png",
+      "utc": "2026-10-06T00:59:51.660Z"
+    },
+    {
+      "id": "light125_checkup_reverse_focus_full_action_20261006010017616_1f203f32",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "CtrlShiftTab restores Full Check completely into view with visible keyboard outline; required Quick action also readable."
+      },
+      "evidence": "screenshots/light125_checkup_reverse_focus_full_action_20261006010017616_1f203f32.png",
+      "utc": "2026-10-06T01:00:17.616Z"
+    },
+    {
+      "id": "light125_checkup_quick_action_focus_20261006010040980_2e413c2b",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "ShiftTab reaches Quick Check with full visible outline; no scan started, original authoritative Quick remains intact for collection."
+      },
+      "evidence": "screenshots/light125_checkup_quick_action_focus_20261006010040980_2e413c2b.png",
+      "utc": "2026-10-06T01:00:40.981Z"
     }
   ],
   "evidenceReferences": [
@@ -2697,10 +2860,10 @@
     "plannedTransition": "Apply configured125% via normal Windows Display sign-out; owner-assisted sign-in, independently verify120DPI before credit",
     "pendingTransition": null,
     "state": "Running; signed in as Nyx; native app visible",
-    "credentialPromptPending": true
+    "credentialPromptPending": false
   },
-  "lastCompletedAction": "Strict53/99; Dark12511/11 complete. Four unique original scan contracts validated67/67 records; installed observer89759 shared reads,3worker exits with clean live pre-shutdown states. Targeted QuickFullQuick and genuine Quick cancellation/relaunch UI observed; latest raw validation pending.",
-  "nextAction": "After human dismisses exact guest credential prompt, finish FollowWindows125 Storage/Security, collect targeted immediate transitions and genuine Quick cancellation/relaunch; validate raw actual gaps and live cleanup.",
+  "lastCompletedAction": "Light125 Checkup detail Enter, final-row scrolling and reverse Tab primary-action visibility observed",
+  "nextAction": "Continue independent Light125 page predicates without another scan until original Quick preserved; validate raw targeted runs during grouped collection",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -2714,7 +2877,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T00:16:18.331Z",
+  "updatedUtc": "2026-10-06T00:23:25.129Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -2906,7 +3069,36 @@
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
       "status": "NOT_RUN",
-      "evidence": []
+      "evidence": [
+        "screenshots/followwindows125_native120dpi_verified.png",
+        "screenshots/followwindows125_sidebar_scroll.png",
+        "screenshots/followwindows125_storage_downloads.png",
+        "screenshots/followwindows125_storage_enter_details.png",
+        "screenshots/followwindows125_storage_focus_recovery.png",
+        "screenshots/followwindows125_storage_full_dispatch.png",
+        "screenshots/followwindows125_storage_downloads.png",
+        "screenshots/followwindows125_storage_full_finished.png",
+        "screenshots/followwindows125_storage_credential_prompt.png",
+        "screenshots/followwindows125_storage_os_destination_20261006001820908_c8ef62a9.png",
+        "screenshots/followwindows125_storage_enter_details_20261006002214975_33c422a9.png",
+        "screenshots/followwindows125_storage_keyboard_return_20261006002243236_6549c50a.png",
+        "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+      ],
+      "completedUtc": "2026-10-06T00:22:51.621Z",
+      "predicates": {
+        "appliedDpi": 120,
+        "theme": "FollowWindows",
+        "requiredTextReadable": true,
+        "keyboardFocusVisible": true,
+        "keyboardActionsOperable": true,
+        "scrollingWorks": true,
+        "primaryActionsReachable": true,
+        "pageSpecificActions": "Downloads Explorer, Windows Storage destination, real Full Check completion, Enter finding details",
+        "workAreaContained": true,
+        "unhandledExceptionObserved": false,
+        "identityEvidence": "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json"
+      },
+      "contextLimitation": "Current selector observed Dark; new Storage credit withdrawn pending exact-theme validation."
     },
     {
       "theme": "FollowWindows",
@@ -4652,9 +4844,24 @@
       "scale": 125,
       "path": "reports/quickdark125transition.json",
       "status": "PENDING_COLLECTION"
+    },
+    {
+      "id": "Light125HomeQuick20261006_0057",
+      "mode": "Quick",
+      "theme": "Light",
+      "scale": 125,
+      "path": "scans/last-scan.json",
+      "status": "PENDING_COLLECTION",
+      "note": "Do not overwrite until preserved; installed observer may have ended after 30 minutes."
     }
   ],
   "campaignStatus": "IN_PROGRESS",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
-  "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e."
+  "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
+  "lastUnattendedSessionUtc": "2026-10-06T01:00:40.982Z",
+  "observedTheme": "Light",
+  "themeContextReconciliation": {
+    "status": "INCOMPLETE",
+    "observation": "Settings initially Dark on this heartbeat; Light saved and visibly applied after normal relaunch. Earlier FollowWindows125 observations need exact theme-context reconciliation, not product rebuild."
+  }
 }

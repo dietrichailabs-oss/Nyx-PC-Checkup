@@ -22,10 +22,12 @@
     },
     {
       "id": "FW125_STORAGE_OS_REDIRECT",
-      "status": "BLOCKED_HUMAN",
+      "status": "COMPLETE",
       "reason": "Exact FollowWindows125 redirect is currently on guest Windows Settings credential UAC. Human must choose No; no password entry or bypass.",
       "nextAction": "Exercise redirect during grouped human session; dismiss credential prompt without changing OS storage settings if it recurs.",
-      "lastObservedUtc": "2026-10-06T00:14:38.723Z"
+      "lastObservedUtc": "2026-10-06T00:14:38.723Z",
+      "completedUtc": "2026-10-06T00:18:20.912Z",
+      "resolution": "Native Windows System Storage destination observed; credential prompt no longer visible; no settings changed."
     },
     {
       "id": "FW125_SECURITY_OS_REDIRECT",
@@ -64,6 +66,12 @@
       "nextAction": "Human activates focused redirect and leaves destination open for read-only screenshot; no protection changes.",
       "completedUtc": "2026-10-05T23:47:38.808Z",
       "resolution": "Owner direct button click and captured Windows Security destination; no protection changes."
+    },
+    {
+      "id": "COLLECT_TARGETED_AND_LIGHT125_RAW",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Original targeted transition/cancellation and latest Light125 Quick records require existing read-only collector with actual host UAC approval and subsequent guest login.",
+      "nextAction": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes."
     }
   ]
 }
