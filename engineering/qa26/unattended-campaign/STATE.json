@@ -9,7 +9,7 @@
   "currentBatch": "Light125-reconciliation",
   "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Cleanup",
+  "currentPage": "Storage",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3745,6 +3745,27 @@
       "details": "Second Space clears selected fixture; Ctrl+Tab returns Review with visible focus and Selected0items0B. No clean/deletion ever activated, state restored.",
       "evidence": "screenshots/light125_cleanup_keyboard_selection_restored_1791286118049_e09a23c6.jpg",
       "utc": "2026-10-06T11:28:38.050Z"
+    },
+    {
+      "id": "light125_storage_recreated_after_cleanup_1791287829790_23a5eaf5",
+      "status": "PASS_OBSERVED",
+      "details": "Light125 Storage recreation from Cleanup returns readable title,exact no-deletion explanation,threeprimaryactions,originalFull rows; state unchanged and no scan started.",
+      "evidence": "screenshots/light125_storage_recreated_after_cleanup_1791287829790_23a5eaf5.jpg",
+      "utc": "2026-10-06T11:57:09.791Z"
+    },
+    {
+      "id": "light125_storage_measured_folder_counts_1791287845217_78748ed1",
+      "status": "PASS_OBSERVED",
+      "details": "Native vertical scrollbar exposes measured folders; Downloads282B/1,Desktop2.8KB/2,Documents2.2MB/25001,CompleteTrue. Earlier FollowWindows textual transcription22001 must not override actual screenshot/JSON; current native reading25001 retained as evidence correction, not product change.",
+      "evidence": "screenshots/light125_storage_measured_folder_counts_1791287845217_78748ed1.jpg",
+      "utc": "2026-10-06T11:57:25.218Z"
+    },
+    {
+      "id": "light125_storage_lower_grid_keyboard_flow_1791287878413_0f075ed3",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+Tab from measured folders auto-scrolls Largest files into view with visible dotted File-cell focus. Native folder table five names/size/count/Complete readable before traversal, largest-file headers/rows reachable, no action dispatched or file changed.",
+      "evidence": "screenshots/light125_storage_lower_grid_keyboard_flow_1791287878413_0f075ed3.jpg",
+      "utc": "2026-10-06T11:57:58.414Z"
     }
   ],
   "evidenceReferences": [
@@ -3768,8 +3789,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Cleanup maximize/restore, explicit keyboard checkbox selection and restored0items summary complete without deletion.",
-  "nextAction": "Move to Light125 Storage missing predicates; do not repeat Cleanup scrolling/focus/guard. Reconcile original contracts and required safety evidence from queued collection.",
+  "lastCompletedAction": "Light125 Storage recreated, measured-folder counts/readability and cross-grid focus traversal recorded; prior count transcription clarified.",
+  "nextAction": "Finish missing Light125 Storage layout/final-row path predicates, then remaining Security/Home/Checkup dependencies. Preserve originalFull; queued collector and secure OS interactions remain human-only.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3783,7 +3804,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T11:28:38.054Z",
+  "updatedUtc": "2026-10-06T11:57:58.417Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
