@@ -1650,7 +1650,26 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [],
+    "completedPredicateReferences": [
+      "screenshots/light125_storage_controls_1791253536774_7aa6b382.jpg",
+      "screenshots/light125_storage_enter_detail_1791253561288_a665e0fa.jpg",
+      "screenshots/light125_storage_full_focus_1791255320864_b3602c75.jpg",
+      "screenshots/light125_storage_downloads_destination_1791255345840_324dbae0.jpg",
+      "screenshots/light125_storage_grid_tab_1791257125575_b81dd43c.jpg",
+      "screenshots/light125_storage_final_focus_1791257140518_5361b68a.jpg",
+      "screenshots/light125_storage_recreated_after_cleanup_1791287829790_23a5eaf5.jpg",
+      "screenshots/light125_storage_measured_folder_counts_1791287845217_78748ed1.jpg",
+      "screenshots/light125_storage_lower_grid_keyboard_flow_1791287878413_0f075ed3.jpg",
+      "screenshots/light125_storage_largest_final_focus_1791289566606_8d9d3e96.jpg",
+      "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg"
+    ],
+    "remainingPredicates": [
+      "Missing maximize/restore exact Light layout evidence",
+      "Original Full contract collection",
+      "OS Storage redirect exact context reconciliation; credential prompt may need human"
+    ],
+    "dependencyStatus": "PARTIAL_WITH_QUEUED_RAW_COLLECTION"
   },
   {
     "theme": "Light",

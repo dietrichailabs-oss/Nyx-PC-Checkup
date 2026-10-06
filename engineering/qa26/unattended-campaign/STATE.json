@@ -3766,6 +3766,20 @@
       "details": "Ctrl+Tab from measured folders auto-scrolls Largest files into view with visible dotted File-cell focus. Native folder table five names/size/count/Complete readable before traversal, largest-file headers/rows reachable, no action dispatched or file changed.",
       "evidence": "screenshots/light125_storage_lower_grid_keyboard_flow_1791287878413_0f075ed3.jpg",
       "utc": "2026-10-06T11:57:58.414Z"
+    },
+    {
+      "id": "light125_storage_largest_final_focus_1791289566606_8d9d3e96",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End from first Largest-files grid cell scrolls to last fixture_24903.txt Folder with visible dotted focus; full row/file/92B readable and contained.",
+      "evidence": "screenshots/light125_storage_largest_final_focus_1791289566606_8d9d3e96.jpg",
+      "utc": "2026-10-06T12:26:06.607Z"
+    },
+    {
+      "id": "light125_storage_largest_enter_destination_1791289597184_8ee64da8",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens native NyxQA26_ReadOnlyScanLoad folder with25000items and one92B selected fixture. Filename transcription in prior text is not authoritative; screenshot/original scan define exact selection. No file executed/modified.",
+      "evidence": "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg",
+      "utc": "2026-10-06T12:26:37.185Z"
     }
   ],
   "evidenceReferences": [
@@ -3789,8 +3803,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Storage recreated, measured-folder counts/readability and cross-grid focus traversal recorded; prior count transcription clarified.",
-  "nextAction": "Finish missing Light125 Storage layout/final-row path predicates, then remaining Security/Home/Checkup dependencies. Preserve originalFull; queued collector and secure OS interactions remain human-only.",
+  "lastCompletedAction": "Light125 Largest-files final focus and real Enter folder destination observed; readonly original Full preserved.",
+  "nextAction": "Complete Light125 Storage maximize/restore only, then reconcile dependency queue and independent remaining Home/Checkup UI predicates. Do not repeat completed folder dispatch.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3804,7 +3818,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T11:57:58.417Z",
+  "updatedUtc": "2026-10-06T12:27:06.565Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5467,7 +5481,26 @@
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
       "status": "NOT_RUN",
-      "evidence": []
+      "evidence": [],
+      "completedPredicateReferences": [
+        "screenshots/light125_storage_controls_1791253536774_7aa6b382.jpg",
+        "screenshots/light125_storage_enter_detail_1791253561288_a665e0fa.jpg",
+        "screenshots/light125_storage_full_focus_1791255320864_b3602c75.jpg",
+        "screenshots/light125_storage_downloads_destination_1791255345840_324dbae0.jpg",
+        "screenshots/light125_storage_grid_tab_1791257125575_b81dd43c.jpg",
+        "screenshots/light125_storage_final_focus_1791257140518_5361b68a.jpg",
+        "screenshots/light125_storage_recreated_after_cleanup_1791287829790_23a5eaf5.jpg",
+        "screenshots/light125_storage_measured_folder_counts_1791287845217_78748ed1.jpg",
+        "screenshots/light125_storage_lower_grid_keyboard_flow_1791287878413_0f075ed3.jpg",
+        "screenshots/light125_storage_largest_final_focus_1791289566606_8d9d3e96.jpg",
+        "screenshots/light125_storage_largest_enter_destination_1791289597184_8ee64da8.jpg"
+      ],
+      "remainingPredicates": [
+        "Missing maximize/restore exact Light layout evidence",
+        "Original Full contract collection",
+        "OS Storage redirect exact context reconciliation; credential prompt may need human"
+      ],
+      "dependencyStatus": "PARTIAL_WITH_QUEUED_RAW_COLLECTION"
     },
     {
       "theme": "Light",
