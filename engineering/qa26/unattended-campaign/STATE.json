@@ -9,7 +9,7 @@
   "currentBatch": "FollowWindows125-reconciliation",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Startup",
+  "currentPage": "Home",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3466,6 +3466,33 @@
       },
       "evidence": "screenshots/followwindows125_startup_reconciled_lastcell_1791264443803_fd192325.jpg",
       "utc": "2026-10-06T05:27:23.804Z"
+    },
+    {
+      "id": "followwindows125_home_reconciled_top_1791266155411_2927a61c",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Saved/relaunched FollowWindows context; recreated Home privacy statement, 2 attention summary, Good14/NeedsAttention2/Optional2/Unknown3 and Check My PC action readable. Original Full retained, no new scan."
+      },
+      "evidence": "screenshots/followwindows125_home_reconciled_top_1791266155411_2927a61c.jpg",
+      "utc": "2026-10-06T05:55:55.412Z"
+    },
+    {
+      "id": "followwindows125_home_reconciled_lower_1791266179686_21ae2de9",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Ordinary vertical scrolling exposes category status/action counts and full backup/network recommended findings; essential meanings readable without color reliance, navigation remains reachable."
+      },
+      "evidence": "screenshots/followwindows125_home_reconciled_lower_1791266179686_21ae2de9.jpg",
+      "utc": "2026-10-06T05:56:19.687Z"
+    },
+    {
+      "id": "followwindows125_home_reconciled_report_preview_1791266203352_ad0dfa49",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Export opens real diagnostic review containing frozen QA26 build and persisted Full summary; preview visible and scrollable. No report written; lower dialog-action keyboard predicates pending."
+      },
+      "evidence": "screenshots/followwindows125_home_reconciled_report_preview_1791266203352_ad0dfa49.jpg",
+      "utc": "2026-10-06T05:56:43.353Z"
     }
   ],
   "evidenceReferences": [
@@ -3489,8 +3516,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "FollowWindows125 Startup exact applied-theme visual and keyboard predicates reconciled; cell restored PASS using explicit existing functional reuse.",
-  "nextAction": "Finish only suspended FollowWindows125 Home/Checkup exact-theme predicates without redundant scans; preserve original Full. Pending raw collection and security redirects remain grouped.",
+  "lastCompletedAction": "Confirmed-theme Home top/lower category and finding readability plus real report preview recorded; no new scans or exports.",
+  "nextAction": "Confirm report review closed; finish Home keyboard/action focus and containment predicates, then Checkup exact-theme reconciliation. Do not credit partial Home observations or rerun prior scans.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3504,7 +3531,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T04:56:47.203Z",
+  "updatedUtc": "2026-10-06T05:57:19.068Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
