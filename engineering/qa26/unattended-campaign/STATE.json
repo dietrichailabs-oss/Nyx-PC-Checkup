@@ -3577,6 +3577,34 @@
       "details": "Ctrl+Shift+Tab exits grid to Run Full Check; primary action auto-scrolls fully into view with visible focus. No new Full activated; retained originals pending collection.",
       "evidence": "screenshots/followwindows125_storage_reverse_action_scroll_1791271600113_6d4f01c5.jpg",
       "utc": "2026-10-06T07:26:40.114Z"
+    },
+    {
+      "id": "followwindows125_storage_downloads_keyboard_tooltip_1791273327323_b0e7301b",
+      "status": "PASS_OBSERVED",
+      "details": "Shift+Tab Full→Open Downloads shows clear primary focus; hovered abbreviated Downloads check displays full tooltip. Actual Downloads mouse destination recorded in previous evidence.",
+      "evidence": "screenshots/followwindows125_storage_downloads_keyboard_tooltip_1791273327323_b0e7301b.jpg",
+      "utc": "2026-10-06T07:55:27.323Z"
+    },
+    {
+      "id": "followwindows125_storage_settings_focus_1791273340075_87c80d8a",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab reaches Open Storage settings with visible focus; not activated because known destination can open credential UAC while owner absent. Existing destination proof retained but exact applied-theme context requires reconciliation.",
+      "evidence": "screenshots/followwindows125_storage_settings_focus_1791273340075_87c80d8a.jpg",
+      "utc": "2026-10-06T07:55:40.075Z"
+    },
+    {
+      "id": "followwindows125_storage_maximized_1791273358310_238560ed",
+      "status": "PASS_OBSERVED",
+      "details": "Maximized Storage remains inside guest work area; primary actions/grid/footer visible; lower measured-user-folder section requires normal vertical scrolling.",
+      "evidence": "screenshots/followwindows125_storage_maximized_1791273358310_238560ed.jpg",
+      "utc": "2026-10-06T07:55:58.311Z"
+    },
+    {
+      "id": "followwindows125_storage_lower_tables_1791273401462_411c89cd",
+      "status": "PASS_OBSERVED",
+      "details": "Native vertical scrollbar exposes measured user folders: Downloads282B/1,Desktop2.8KB/2,Documents2.2MB/22001,Pictures/Videos504B/1,Complete True; Largest files table reachable. Wheel attempt did not move this pane; scrollbar does. Cosmetic cropped section heading at scroll boundary not scored as PASS until full predicates.",
+      "evidence": "screenshots/followwindows125_storage_lower_tables_1791273401462_411c89cd.jpg",
+      "utc": "2026-10-06T07:56:41.463Z"
     }
   ],
   "evidenceReferences": [
@@ -3600,8 +3628,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "FollowWindows125 Storage Enter detail, same-cell restoration, final-cell reachability and reverse primary-action focus completed; no scan mutation.",
-  "nextAction": "Finish remaining Storage exact-theme predicates, then independent Light125 page predicates. Collect original targeted/Light125 scans in grouped human session; do not claim contracts or cell PASS before required predicates.",
+  "lastCompletedAction": "Storage reverse primary focus, tooltip, maximized containment and lower-table scrollbar access observed; no scan or product changes.",
+  "nextAction": "Complete remaining Storage lower-table keyboard/readability and restore predicates; reconcile raw contracts via queued collector. Continue independent Light125 cells, no redundant completed-cell tests.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3615,7 +3643,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T07:26:40.116Z",
+  "updatedUtc": "2026-10-06T07:56:41.465Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
