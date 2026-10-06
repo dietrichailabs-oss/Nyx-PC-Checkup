@@ -1847,7 +1847,26 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [],
+    "completedPredicateReferences": [
+      "screenshots/light125_cleanup_controls_1791251315442_7d1a703d.jpg",
+      "screenshots/light125_cleanup_grid_focus_1791251340816_413987e7.jpg",
+      "screenshots/light125_cleanup_ctrl_end_1791251350967_6f00e126.jpg",
+      "screenshots/light125_cleanup_consequence_tooltip_1791251359229_6e1696d3.jpg",
+      "screenshots/light125_cleanup_zero_summary_action_1791251379060_d29009b7.jpg",
+      "screenshots/light125_cleanup_reverse_firstrow_1791251709421_e4aee8a8.jpg",
+      "screenshots/light125_cleanup_zero_selection_summary_1791284740160_260b1726.jpg",
+      "screenshots/light125_cleanup_zero_selection_guard_1791284766046_6daef492.jpg",
+      "screenshots/light125_cleanup_maximize_containment_1791285991310_fefa33fa.jpg",
+      "screenshots/light125_cleanup_restore_containment_1791286028172_7fe70313.jpg",
+      "screenshots/light125_cleanup_keyboard_explicit_selection_1791286078051_2bb33aae.jpg",
+      "screenshots/light125_cleanup_keyboard_selection_restored_1791286118049_e09a23c6.jpg"
+    ],
+    "remainingPredicates": [
+      "Authoritative source Full contract from queued collector",
+      "Required destructive confirmation/lifecycle evidence reconciliation; no deletion performed in this UI batch"
+    ],
+    "dependencyStatus": "PENDING_EVIDENCE_RECONCILIATION"
   },
   {
     "theme": "Light",

@@ -3717,6 +3717,34 @@
       "details": "Review with0selected/0B opens handled Select at least one displayed item dialog, no deletion confirmation/action. Safety guard positive, no unhandled exception observed.",
       "evidence": "screenshots/light125_cleanup_zero_selection_guard_1791284766046_6daef492.jpg",
       "utc": "2026-10-06T11:06:06.047Z"
+    },
+    {
+      "id": "light125_cleanup_maximize_containment_1791285991310_fefa33fa",
+      "status": "PASS_OBSERVED",
+      "details": "Guard dismissed; maximized Cleanup summary0items0B,Review action,safety exclusion text,navigation/footer contained. No selection or deletion.",
+      "evidence": "screenshots/light125_cleanup_maximize_containment_1791285991310_fefa33fa.jpg",
+      "utc": "2026-10-06T11:26:31.312Z"
+    },
+    {
+      "id": "light125_cleanup_restore_containment_1791286028172_7fe70313",
+      "status": "PASS_OBSERVED",
+      "details": "Restored normal Cleanup keeps zero-summary,review action,exclusion explanation and footer within work area; no item selected or deleted.",
+      "evidence": "screenshots/light125_cleanup_restore_containment_1791286028172_7fe70313.jpg",
+      "utc": "2026-10-06T11:27:08.173Z"
+    },
+    {
+      "id": "light125_cleanup_keyboard_explicit_selection_1791286078051_2bb33aae",
+      "status": "PASS_OBSERVED",
+      "details": "Space on visibly focused wct2AA6.tmp Select cell checks only that0B displayed item; other visible boxes unchecked. No Review/deletion activated.",
+      "evidence": "screenshots/light125_cleanup_keyboard_explicit_selection_1791286078051_2bb33aae.jpg",
+      "utc": "2026-10-06T11:27:58.051Z"
+    },
+    {
+      "id": "light125_cleanup_keyboard_selection_restored_1791286118049_e09a23c6",
+      "status": "PASS_OBSERVED",
+      "details": "Second Space clears selected fixture; Ctrl+Tab returns Review with visible focus and Selected0items0B. No clean/deletion ever activated, state restored.",
+      "evidence": "screenshots/light125_cleanup_keyboard_selection_restored_1791286118049_e09a23c6.jpg",
+      "utc": "2026-10-06T11:28:38.050Z"
     }
   ],
   "evidenceReferences": [
@@ -3740,8 +3768,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Recovered native runtime; Light125 Cleanup zero-selection review guard verified without deletion.",
-  "nextAction": "Observe guard dismissed; complete only missing Cleanup keyboard/layout predicates, preserve pending Full. Continue independent matrix coverage; queued secure actions remain human-only.",
+  "lastCompletedAction": "Light125 Cleanup maximize/restore, explicit keyboard checkbox selection and restored0items summary complete without deletion.",
+  "nextAction": "Move to Light125 Storage missing predicates; do not repeat Cleanup scrolling/focus/guard. Reconcile original contracts and required safety evidence from queued collection.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3755,7 +3783,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T11:06:24.616Z",
+  "updatedUtc": "2026-10-06T11:28:38.054Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5615,7 +5643,26 @@
       "resolution": "1366x768",
       "supportPolicy": "STRICT",
       "status": "NOT_RUN",
-      "evidence": []
+      "evidence": [],
+      "completedPredicateReferences": [
+        "screenshots/light125_cleanup_controls_1791251315442_7d1a703d.jpg",
+        "screenshots/light125_cleanup_grid_focus_1791251340816_413987e7.jpg",
+        "screenshots/light125_cleanup_ctrl_end_1791251350967_6f00e126.jpg",
+        "screenshots/light125_cleanup_consequence_tooltip_1791251359229_6e1696d3.jpg",
+        "screenshots/light125_cleanup_zero_summary_action_1791251379060_d29009b7.jpg",
+        "screenshots/light125_cleanup_reverse_firstrow_1791251709421_e4aee8a8.jpg",
+        "screenshots/light125_cleanup_zero_selection_summary_1791284740160_260b1726.jpg",
+        "screenshots/light125_cleanup_zero_selection_guard_1791284766046_6daef492.jpg",
+        "screenshots/light125_cleanup_maximize_containment_1791285991310_fefa33fa.jpg",
+        "screenshots/light125_cleanup_restore_containment_1791286028172_7fe70313.jpg",
+        "screenshots/light125_cleanup_keyboard_explicit_selection_1791286078051_2bb33aae.jpg",
+        "screenshots/light125_cleanup_keyboard_selection_restored_1791286118049_e09a23c6.jpg"
+      ],
+      "remainingPredicates": [
+        "Authoritative source Full contract from queued collector",
+        "Required destructive confirmation/lifecycle evidence reconciliation; no deletion performed in this UI batch"
+      ],
+      "dependencyStatus": "PENDING_EVIDENCE_RECONCILIATION"
     },
     {
       "theme": "Light",
