@@ -9,7 +9,7 @@
   "currentBatch": "Light125-reconciliation",
   "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Checkup",
+  "currentPage": "Settings",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3815,6 +3815,13 @@
       "details": "PageDown scrolls result rows to Startup and Security findings without opening a detail/action dialog. Required full values remain subject to existing detail evidence and contract reconciliation; no new matrix PASS claimed.",
       "evidence": "screenshots/light125_checkup_pagedown_1791294965976.jpg",
       "utc": "2026-10-06T13:56:05.977Z"
+    },
+    {
+      "id": "light125_theme_reconfirmed_1791300372922",
+      "status": "PASS_OBSERVED",
+      "details": "Native Settings selector reads Light. Host ShellExperienceHost update notification overlays part of capture; attempted dismissal was rejected as non-target, no update/restart initiated and no obscured geometry credited. No new DPI measurement or complete matrix cell claimed.",
+      "evidence": "screenshots/light125_theme_reconfirmed_1791300372922.jpg",
+      "utc": "2026-10-06T15:26:12.922Z"
     }
   ],
   "evidenceReferences": [
@@ -3838,8 +3845,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Reconciled Light125 Home and Checkup native evidence references; no duplicate scans or false matrix credits",
-  "nextAction": "Collect queued original targeted/Light125 results during grouped human session; continue independent remaining predicates without superseding original scans",
+  "lastCompletedAction": "Applied Light selector reconfirmed; rejected host-overlay click preserved as environment interference, not product failure",
+  "nextAction": "Grouped raw collector approval/sign-in, then validate original results and close pending cells; remaining DPI logins and Windows Security checks queued separately. Do not overwrite original scans.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3853,7 +3860,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T12:57:18.466Z",
+  "updatedUtc": "2026-10-06T15:26:12.922Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -6109,7 +6116,7 @@
   "campaignStatus": "IN_PROGRESS",
   "vmCheckpointState": "Idle signed-in current loaded fixture VM; normal collector shutdown/restart pending. NOT clean destructive-suite snapshot.",
   "evidenceWritePolicy": "Append-only unique capture IDs; prior screenshots retained in Git and prior-screen-revisions-bbe851e.",
-  "lastUnattendedSessionUtc": "2026-10-06T06:57:16.611Z",
+  "lastUnattendedSessionUtc": "2026-10-06T15:55:31.346Z",
   "observedTheme": "Light",
   "themeContextReconciliation": {
     "schema": "QA26-THEME-CONTEXT-RECONCILIATION-1",

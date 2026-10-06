@@ -78,6 +78,14 @@
       "status": "BLOCKED_HUMAN",
       "reason": "Windows Security cannot be automated; Nyx read-only findings and keyboard primary focus recorded.",
       "nextAction": "Grouped human session opens destination for screenshot, closes without protection changes."
+    },
+    {
+      "id": "REMAINING_DPI_SESSION_LOGINS",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Native 150% and 200% applied-DPI sessions require normal Windows sign-out/sign-in; authentication is not automated.",
+      "nextAction": "Grouped attended session: sign in as Nyx after each authorized DPI transition; persist state and verify actual DPI before crediting cells.",
+      "affectedTest": "Remaining strict150 and best-effort200 matrix",
+      "queuedUtc": "2026-10-06T15:55:31.346Z"
     }
   ]
 }
