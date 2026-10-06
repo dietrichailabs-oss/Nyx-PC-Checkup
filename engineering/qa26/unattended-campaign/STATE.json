@@ -9,7 +9,7 @@
   "currentBatch": "Light125",
   "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Storage",
+  "currentPage": "Settings",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3394,6 +3394,15 @@
       },
       "evidence": "screenshots/light125_storage_final_focus_1791257140518_5361b68a.jpg",
       "utc": "2026-10-06T03:25:40.518Z"
+    },
+    {
+      "id": "followwindows125_reconciliation_saved_20261006_1791260789626_a412a4bb",
+      "status": "PASS_OBSERVED",
+      "details": {
+        "observation": "Explicit FollowWindows selection saved via normal Save settings; acknowledgement states theme applies next launch. Current Light presentation not yet credited as FollowWindows."
+      },
+      "evidence": "screenshots/followwindows125_reconciliation_saved_20261006_1791260789626_a412a4bb.jpg",
+      "utc": "2026-10-06T04:26:29.627Z"
     }
   ],
   "evidenceReferences": [
@@ -3417,8 +3426,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Reconciled early saved FollowWindows theme evidence; suspended three late exact-theme credits lacking applied-theme proof, retaining all observations.",
-  "nextAction": "Run only missing exact applied FollowWindows125 Home/Checkup/Startup visual predicates after save/relaunch; retain earlier validated functional evidence. Continue Light125 pending cells and grouped raw collection.",
+  "lastCompletedAction": "Saved FollowWindows appearance for next launch without changing other preferences; acknowledgement visible.",
+  "nextAction": "Dismiss save acknowledgement, close idle Nyx normally, relaunch existing desktop shortcut; verify native FollowWindows selector and applied appearance before suspended exact-theme tests. Preserve existing authoritative Full result.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3432,7 +3441,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T03:55:37.305Z",
+  "updatedUtc": "2026-10-06T04:26:29.628Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -5605,5 +5614,6 @@
       ],
       "note": "19:52 local selector selection alone does not prove saved/relaunched applied theme; later selector Dark. Preserve functional evidence, suspend exact-theme cell credit pending proper saved/applied context."
     }
-  }
+  },
+  "pendingTheme": "FollowWindows"
 }
