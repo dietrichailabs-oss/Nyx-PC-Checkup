@@ -3640,6 +3640,20 @@
       "details": "After restore, normal click refocus and Ctrl+End reach final fixture_24903.txt Folder cell with visible dotted focus, row fully visible. Initial Ctrl+End without refocus did not move; practical recovery documented, not silently counted as uninterrupted focus retention.",
       "evidence": "screenshots/followwindows125_storage_restored_focus_recovery_1791276945857_e89b00a9.jpg",
       "utc": "2026-10-06T08:55:45.858Z"
+    },
+    {
+      "id": "followwindows125_storage_largest_enter_destination_1791278719279_21f40d8b",
+      "status": "PASS_OBSERVED",
+      "details": "Delayed observation confirms prior Enter on final Largest files Folder cell opened native fixture folder,25,000 items and one92B item selected; immediate earlier frame was not final outcome. No file executed or modified.",
+      "evidence": "screenshots/followwindows125_storage_largest_enter_destination_1791278719279_21f40d8b.jpg",
+      "utc": "2026-10-06T09:25:19.279Z"
+    },
+    {
+      "id": "followwindows125_storage_folder_path_access_1791278756712_09d7999e",
+      "status": "PASS_OBSERVED",
+      "details": "Native Explorer address Alt+D then End exposes path suffix Nyx/Documents/NyxQA26_ReadOnlyScanLoad_20261004; normal address scrolling provides practical access beyond truncated grid tooltip. No address submitted, file run or folder mutation.",
+      "evidence": "screenshots/followwindows125_storage_folder_path_access_1791278756712_09d7999e.jpg",
+      "utc": "2026-10-06T09:25:56.713Z"
     }
   ],
   "evidenceReferences": [
@@ -3663,8 +3677,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Restored Storage grid refocus and final-row keyboard visibility proven; Enter did not expose a path destination in immediate observation, no action PASS claimed.",
-  "nextAction": "Audit remaining Storage cell predicates and full-path readability route; queue collector/security dependencies, then move to independent Light125 missing predicates without more generic scans.",
+  "lastCompletedAction": "Delayed native destination confirms Largest-files Enter dispatch and practical path access via Explorer address scrolling; preserved scan unchanged.",
+  "nextAction": "Move to independent Light125 missing cells; Storage/Home/Checkup raw-contract dependencies remain queued, no additional generic scans until latest Full preserved. Audit existing same-byte predicates rather than repeat lower-grid geometry.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3678,7 +3692,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T08:56:07.419Z",
+  "updatedUtc": "2026-10-06T09:26:41.842Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
