@@ -9,7 +9,7 @@
   "currentBatch": "Light125-reconciliation",
   "currentTheme": "Light",
   "currentScale": 125,
-  "currentPage": "Apps",
+  "currentPage": "Cleanup",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -3703,6 +3703,20 @@
       "details": "Restored normal Apps retains readable title/explanation/filter/primary actions/Versions, contained navigation/footer; prior shared-grid scrolling/focus/filter/action evidence retained without rerun.",
       "evidence": "screenshots/light125_apps_restore_containment_1791284181091_5ca70bdd.jpg",
       "utc": "2026-10-06T10:56:21.092Z"
+    },
+    {
+      "id": "light125_cleanup_zero_selection_summary_1791284740160_260b1726",
+      "status": "PASS_OBSERVED",
+      "details": "Normal vertical scrolling reaches Selected0items0B and Review action, readable safe-exclusion explanation; no boxes selected. Testing zero-selection guard only, no deletion.",
+      "evidence": "screenshots/light125_cleanup_zero_selection_summary_1791284740160_260b1726.jpg",
+      "utc": "2026-10-06T11:05:40.162Z"
+    },
+    {
+      "id": "light125_cleanup_zero_selection_guard_1791284766046_6daef492",
+      "status": "PASS_OBSERVED",
+      "details": "Review with0selected/0B opens handled Select at least one displayed item dialog, no deletion confirmation/action. Safety guard positive, no unhandled exception observed.",
+      "evidence": "screenshots/light125_cleanup_zero_selection_guard_1791284766046_6daef492.jpg",
+      "utc": "2026-10-06T11:06:06.047Z"
     }
   ],
   "evidenceReferences": [
@@ -3726,8 +3740,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Light125 Apps missing maximize/restore containment exercised; prior functional evidence mapped, raw contract dependency queued, no false cell credit.",
-  "nextAction": "Proceed to Light125 Cleanup missing predicates, preserving latest Full; do not repeat completed Apps filter/paging/destinations. Raw collector dependency queued.",
+  "lastCompletedAction": "Recovered native runtime; Light125 Cleanup zero-selection review guard verified without deletion.",
+  "nextAction": "Observe guard dismissed; complete only missing Cleanup keyboard/layout predicates, preserve pending Full. Continue independent matrix coverage; queued secure actions remain human-only.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -3741,7 +3755,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-06T10:56:21.095Z",
+  "updatedUtc": "2026-10-06T11:06:24.616Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
