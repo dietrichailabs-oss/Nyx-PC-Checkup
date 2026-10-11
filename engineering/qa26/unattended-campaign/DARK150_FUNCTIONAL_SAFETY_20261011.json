@@ -1,11 +1,12 @@
 {
   "scoreboard": {
-    "newObserved": 6,
+    "newObserved": 9,
     "failures": 0,
     "exportCancel": 3,
     "logsCancel": 3,
+    "saveAckAndReverse": 3,
     "fullCellCredit": false,
-    "pendingNativeDpi": 6,
+    "pendingNativeDpi": 9,
     "logFilesystemProof": "NOT_COLLECTED"
   },
   "records": [
@@ -56,6 +57,30 @@
       "evidence": "screenshots/dark150_logs_no_cancel_return_20261011_1791738642494.jpg",
       "fullCellCredit": false,
       "utc": "2026-10-11T17:10:42.495Z"
+    },
+    {
+      "id": "dark150_settings_save_ack_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return dispatch produced Settings were saved acknowledgment, immediate update/notification application wording and next-launch theme wording; unchanged preferences, no error. OK has visible focus; DPI pending.",
+      "evidence": "screenshots/dark150_settings_save_ack_20261011_1791738735297.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:12:15.298Z"
+    },
+    {
+      "id": "dark150_settings_save_ack_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return on focused OK dismissed acknowledgment and returned to idle Settings; no modal trap or new scan. DPI pending.",
+      "evidence": "screenshots/dark150_settings_save_ack_return_20261011_1791738748719.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:12:28.720Z"
+    },
+    {
+      "id": "dark150_settings_reverse_after_save_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Shift+Tab after save acknowledgment returns to visibly outlined Delete local logs with autoscroll; no activation or focus trap. DPI pending.",
+      "evidence": "screenshots/dark150_settings_reverse_after_save_20261011_1791738769812.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:12:49.813Z"
     }
   ]
 }

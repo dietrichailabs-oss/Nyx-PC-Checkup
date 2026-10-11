@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "dark150_settings_save_ack_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return dispatch produced Settings were saved acknowledgment, immediate update/notification application wording and next-launch theme wording; unchanged preferences, no error. OK has visible focus; DPI pending.",
+      "evidence": "screenshots/dark150_settings_save_ack_20261011_1791738735297.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:12:15.298Z"
+    },
+    {
+      "id": "dark150_settings_save_ack_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return on focused OK dismissed acknowledgment and returned to idle Settings; no modal trap or new scan. DPI pending.",
+      "evidence": "screenshots/dark150_settings_save_ack_return_20261011_1791738748719.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:12:28.720Z"
+    },
+    {
+      "id": "dark150_settings_reverse_after_save_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Shift+Tab after save acknowledgment returns to visibly outlined Delete local logs with autoscroll; no activation or focus trap. DPI pending.",
+      "evidence": "screenshots/dark150_settings_reverse_after_save_20261011_1791738769812.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:12:49.813Z"
+    }
+  ],
+  "fullCellCredit": false
+}
