@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "dark150_apps_selected_filter_baseline_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Selected Microsoft Edge row enables Open selected folder before filtering; no folder/scan action dispatched. Live DPI observer active, raw collection pending.",
+      "evidence": "screenshots/dark150_apps_selected_filter_baseline_20261011_1791749041056.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T20:04:01.057Z"
+    },
+    {
+      "id": "dark150_apps_selected_filter_clears_action_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Filtering selected Edge with z leaves zero rows and disables Open selected folder, clearing stale selected-row action. No scan/folder action. Live DPI collection pending.",
+      "evidence": "screenshots/dark150_apps_selected_filter_clears_action_20261011_1791749059784.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T20:04:19.785Z"
+    },
+    {
+      "id": "dark150_apps_selected_filter_restore_safe_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Clearing filter restores Edge results while Open selected folder remains disabled until a new explicit selection; stale selection not revived. No new scan or folder dispatch.",
+      "evidence": "screenshots/dark150_apps_selected_filter_restore_safe_20261011_1791749075908.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T20:04:35.910Z"
+    }
+  ],
+  "fullCellCredit": false
+}

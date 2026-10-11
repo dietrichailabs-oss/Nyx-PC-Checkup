@@ -9,7 +9,7 @@
   "currentBatch": "Dark150_PREDICATE_RECONCILIATION",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Settings",
+  "currentPage": "Apps",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -7836,6 +7836,30 @@
       "evidence": "screenshots/dark150_settings_reverse_after_save_20261011_1791738769812.jpg",
       "fullCellCredit": false,
       "utc": "2026-10-11T17:12:49.813Z"
+    },
+    {
+      "id": "dark150_apps_selected_filter_baseline_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Selected Microsoft Edge row enables Open selected folder before filtering; no folder/scan action dispatched. Live DPI observer active, raw collection pending.",
+      "evidence": "screenshots/dark150_apps_selected_filter_baseline_20261011_1791749041056.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T20:04:01.057Z"
+    },
+    {
+      "id": "dark150_apps_selected_filter_clears_action_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Filtering selected Edge with z leaves zero rows and disables Open selected folder, clearing stale selected-row action. No scan/folder action. Live DPI collection pending.",
+      "evidence": "screenshots/dark150_apps_selected_filter_clears_action_20261011_1791749059784.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T20:04:19.785Z"
+    },
+    {
+      "id": "dark150_apps_selected_filter_restore_safe_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Clearing filter restores Edge results while Open selected folder remains disabled until a new explicit selection; stale selection not revived. No new scan or folder dispatch.",
+      "evidence": "screenshots/dark150_apps_selected_filter_restore_safe_20261011_1791749075908.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T20:04:35.910Z"
     }
   ],
   "evidenceReferences": [
@@ -7874,8 +7898,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Two historical cancellation lifecycle components passed exact raw/worker/hash/cleanup reconciliation; no reruns.",
-  "nextAction": "Reconcile remaining focused gate predicates and exact original UI activation evidence; current DPI qualification remains separate.",
+  "lastCompletedAction": "One stateful Apps selection/filter safety test completed with native144DPI and60 frozen payload matches; no stale selection action.",
+  "nextAction": "Restart unique-output native observer normally for next missing predicates; trusted script suites remain blocked by declined policy change.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7889,7 +7913,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T19:58:19.533Z",
+  "updatedUtc": "2026-10-11T20:06:13.124Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -11164,5 +11188,113 @@
       "No cancellation latency from user activation asserted.",
       "Focused gate acceptance remains incomplete until all normative predicates reconciled."
     ]
+  },
+  "liveDpiObserver": {
+    "source": "harness/Qa26LiveDpi.cs",
+    "status": "COLLECTED_NATIVE_INTERVAL_QUALIFIED",
+    "policyChanged": false,
+    "productModified": false,
+    "rawCollected": true,
+    "stoppedByNormalCollection": true,
+    "evidence": "apps-selected-filter-native-20261011/RESULTS.json"
+  },
+  "appsSelectedFilterSafety": {
+    "schema": "QA26-APPS-SELECTED-FILTER-SAFETY-1",
+    "completedFunctionalTests": 1,
+    "result": "PASS_NATIVE_QUALIFIED_COMPONENT",
+    "failures": 0,
+    "observations": 3,
+    "nativeDpi": 144,
+    "pid": 9328,
+    "nativeSamples": 28,
+    "visibleSamples": 25,
+    "payloadFilesMatched": 60,
+    "payloadMismatches": 0,
+    "records": [
+      {
+        "id": "dark150_apps_selected_filter_baseline_20261011",
+        "status": "PASS_OBSERVED",
+        "details": "Selected Microsoft Edge row enables Open selected folder before filtering; no folder/scan action dispatched. Live DPI observer active, raw collection pending.",
+        "evidence": "screenshots/dark150_apps_selected_filter_baseline_20261011_1791749041056.jpg",
+        "fullCellCredit": false,
+        "utc": "2026-10-11T20:04:01.057Z"
+      },
+      {
+        "id": "dark150_apps_selected_filter_clears_action_20261011",
+        "status": "PASS_OBSERVED",
+        "details": "Filtering selected Edge with z leaves zero rows and disables Open selected folder, clearing stale selected-row action. No scan/folder action. Live DPI collection pending.",
+        "evidence": "screenshots/dark150_apps_selected_filter_clears_action_20261011_1791749059784.jpg",
+        "fullCellCredit": false,
+        "utc": "2026-10-11T20:04:19.785Z"
+      },
+      {
+        "id": "dark150_apps_selected_filter_restore_safe_20261011",
+        "status": "PASS_OBSERVED",
+        "details": "Clearing filter restores Edge results while Open selected folder remains disabled until a new explicit selection; stale selection not revived. No new scan or folder dispatch.",
+        "evidence": "screenshots/dark150_apps_selected_filter_restore_safe_20261011_1791749075908.jpg",
+        "fullCellCredit": false,
+        "utc": "2026-10-11T20:04:35.910Z"
+      }
+    ],
+    "qualification": [
+      {
+        "id": "dark150_apps_selected_filter_baseline_20261011",
+        "utc": "2026-10-11T20:04:01.057Z",
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-11T20:03:58.6656354Z",
+          "Pid": 9328,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "deltaMs": 2392
+      },
+      {
+        "id": "dark150_apps_selected_filter_clears_action_20261011",
+        "utc": "2026-10-11T20:04:19.785Z",
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-11T20:04:18.6946508Z",
+          "Pid": 9328,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "deltaMs": 1091
+      },
+      {
+        "id": "dark150_apps_selected_filter_restore_safe_20261011",
+        "utc": "2026-10-11T20:04:35.910Z",
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-11T20:04:33.7110542Z",
+          "Pid": 9328,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "deltaMs": 2199
+      }
+    ],
+    "fullCellCredit": false,
+    "noNewScans": true,
+    "productModified": false,
+    "limits": "Does not substitute for earlier unqualified tests or complete the entire Apps F008 cell."
   }
 }
