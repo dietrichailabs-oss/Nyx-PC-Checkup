@@ -1,0 +1,42 @@
+{
+  "updatedUtc": "2026-10-11T23:07:34.498Z",
+  "scope": "Separate self-signed copies; not frozen candidate acceptance",
+  "completedSuites": 2,
+  "passedChecks": 139,
+  "failedChecks": 0,
+  "suites": {
+    "Smoke": {
+      "status": "PASS_SIGNED_COPY",
+      "passed": 122,
+      "total": 122,
+      "evidence": "signed-copy-smoke-20261011/smoke.json"
+    },
+    "SettingsTheme": {
+      "status": "PASS_SIGNED_COPY",
+      "passed": 17,
+      "total": 17,
+      "evidence": "signed-copy-settings-theme-20261011/settings-theme.json"
+    },
+    "Migration": {
+      "status": "NOT_RUN_REQUIRES_QUALIFIED_CLEAN_SNAPSHOT"
+    },
+    "InstalledLaunch": {
+      "status": "NOT_RUN_REQUIRES_QUALIFIED_CLEAN_SNAPSHOT"
+    },
+    "ElevatedRollback": {
+      "status": "NOT_RUN_REQUIRES_QUALIFIED_CLEAN_SNAPSHOT"
+    }
+  },
+  "frozenScoreboardUnchanged": {
+    "strict": {
+      "PASS": 56,
+      "FAIL": 0,
+      "NOT_RUN": 43
+    },
+    "bestEffort": {
+      "PASS": 0,
+      "FAIL": 0,
+      "NOT_RUN": 33
+    }
+  }
+}

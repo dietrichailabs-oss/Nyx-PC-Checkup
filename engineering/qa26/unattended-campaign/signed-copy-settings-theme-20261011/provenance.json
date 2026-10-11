@@ -1,0 +1,9 @@
+{
+  "vm": "Nyx-QA26-Disposable-20261011",
+  "sourceArchiveSHA256": "4BDAC6FD0E071A100550CFCEEA59C5CED0180C36C05873981D623147F02B9C25",
+  "signer": "E410B385320A5E3A8C50F4D4D07599A9CF3AE60C",
+  "policy": "AllSigned",
+  "evidenceSHA256": "f6a783cac729f288fbee9a1188e0eb90bea99f494c543ad596b16d8c57d8a47d",
+  "signedCopyOnly": true,
+  "frozenCandidateAcceptance": false
+}

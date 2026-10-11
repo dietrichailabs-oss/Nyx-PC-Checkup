@@ -1,0 +1,1054 @@
+{
+  "vm": "Nyx-QA26-Disposable-20261011",
+  "policy": "AllSigned",
+  "signer": "E410B385320A5E3A8C50F4D4D07599A9CF3AE60C",
+  "sourceArchiveSHA256": "4BDAC6FD0E071A100550CFCEEA59C5CED0180C36C05873981D623147F02B9C25",
+  "originalArchiveUnchanged": true,
+  "evidenceSHA256": "273032e65a7f595b44cedc14e5c3763c7103e61129ebf498d3f9f236c83723cf",
+  "signedCopyOnly": true,
+  "frozenCandidateAcceptance": false,
+  "originalHashes": [
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\LICENSE.txt",
+      "SHA256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD",
+      "Length": 488
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\pytest.ini",
+      "SHA256": "A802D2C895B17C2AA2961B9CDC61A01BBA0FF94C5AA82A70BB3E022FE93E2250",
+      "Length": 157
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\README_FIRST.md",
+      "SHA256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62",
+      "Length": 7223
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\SBOM.json",
+      "SHA256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F",
+      "Length": 3223
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\SOURCE_TREE_IDENTITY.json",
+      "SHA256": "C22763912CC9D165A88F42B869EFEBC5199B10FA6C5F71C7C81BAC0EBDF4580C",
+      "Length": 25483
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\THIRD_PARTY_NOTICES.txt",
+      "SHA256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0",
+      "Length": 572
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\VERSION.json",
+      "SHA256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "Length": 315
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\ARCHITECTURE.md",
+      "SHA256": "630A99610313C4E9D050926EBDB31229C0835653371636280065DDAFCD3B23A3",
+      "Length": 12098
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\BUILD_AND_REPRODUCE.md",
+      "SHA256": "7852C22EA28FFE55FDF3F1C43DEAD7DD65DE650788D5AA0428FAEA2E41D915CD",
+      "Length": 3450
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\ENGINEERING_SCOPE.md",
+      "SHA256": "8CA2D9B96587C8FC4C0B9EF4916F96DDF72311A9FCAE91F0317D36BDF47F8497",
+      "Length": 34818
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\INSTALL_UPGRADE_UNINSTALL.md",
+      "SHA256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D",
+      "Length": 4900
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\KNOWN_LIMITATIONS.md",
+      "SHA256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A",
+      "Length": 1605
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\MODULE_CONTRACTS.md",
+      "SHA256": "096E74162D871A2B5A16E3525AB4709FF9C5282EFB3AB6B2973F8AEBE369ACC2",
+      "Length": 11373
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\MODULE_MAP.md",
+      "SHA256": "1EC2CFA4DE33D51D085507B4FC23ACED6296C799E45BCA6808B15F1CD13B8860",
+      "Length": 5511
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\PRIVACY_AND_SECURITY.md",
+      "SHA256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64",
+      "Length": 5866
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA10_F009_UI_CLOSE_CORRECTION.md",
+      "SHA256": "7366375E10389E803A64B1AE320B803754B5B7DF17A5268BEE233C1D930A0FE9",
+      "Length": 2791
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA12_F011_INSTALLED_LAUNCH_CORRECTION.md",
+      "SHA256": "EEF4384B92732DF4934A327D77A68D7CCFE9FD2236092358415EC0D98DB07CCC",
+      "Length": 4499
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA15_F012_SETTINGS_THEME_SAVE_CORRECTION.md",
+      "SHA256": "AF1D4346085ED3B8DA6F5BAAC600E422C208809030DD1F2160615FD38A49EDF8",
+      "Length": 468
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA23_F020_GRID_AUDIT.md",
+      "SHA256": "9D059A8ED0894463475C3920619A616655A3B8C8B71EF5D4E7F39C065E47FF57",
+      "Length": 1800
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA24_F021_CALLBACK_AUDIT.md",
+      "SHA256": "445A24E2BF4F360059D2C046CD3904BFE0CF40BAD8827E14E0750E219EA083A3",
+      "Length": 2779
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA25_F022_COLUMN_READABILITY.md",
+      "SHA256": "1CBF9CDF3A879BB7AE2707013ABAC2B1876A897F998ED88F828D70C04E635254",
+      "Length": 2846
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA26_F023_KEYBOARD_ACTIONS.md",
+      "SHA256": "65BBAC5843A86158280CA2338D73FE581A59D2F6B6D5E616F21830C9E690EF61",
+      "Length": 2053
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA2_CORRECTION_MATRIX.md",
+      "SHA256": "387A9BB86B8BD35E75DC903678AC6567DB6D57573EEF4E449B69C73148272AC5",
+      "Length": 7093
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA3_CORRECTION_MATRIX.md",
+      "SHA256": "0F9EE9CA1FC7D7F5CBBCF60B5796C326CDFF6CD2C4172809B213D051F3C3D50E",
+      "Length": 6120
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA4_WINDOWS_HARNESS_CORRECTION.md",
+      "SHA256": "92D96A97C5AD57A88C60726C7A83C089475850426902608977F434F591D4E30C",
+      "Length": 2820
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA5_WINDOWS_EXECUTION_CORRECTION.md",
+      "SHA256": "2E480B8B3BCF89C341ED1DAEFDCC76398695D64D36A499D69B30C926810377A6",
+      "Length": 8156
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA6_MODULE_COMPOSITION_CORRECTION.md",
+      "SHA256": "2E595A08465F10259585893166537566555429C86B6CCA5DFDBAFFCF7F087C75",
+      "Length": 5521
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA7_F006_UNINSTALL_CORRECTION.md",
+      "SHA256": "3DEE6624835EAD321E741EA1E032B3304AD88A216E7F237176C305BBDF5DD56B",
+      "Length": 2707
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA7_WINDOWS_HARNESS_REISSUE.md",
+      "SHA256": "87A7853C6BF85C31CEB550C5A31B9C3EFDF26FE871DE0B73FBDA15C3374D9703",
+      "Length": 1416
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA8_F007_EMPTY_COLLECTION_CORRECTION.md",
+      "SHA256": "F4B05BF2B9430434561FAF749ED3D8BABA8DBA863C397CD256010018BC955953",
+      "Length": 1671
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA9_F008_UI_CORRECTION.md",
+      "SHA256": "BDDACF2CC75735ACC908B5B60AEF09A9E0EEC5E7FCA6D2CC2916AD8B8F6D8621",
+      "Length": 2833
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA9_WH004_MIGRATION_HARNESS_CORRECTION.md",
+      "SHA256": "8AA021B2C5AAF121F544CC3DAE4276FD5825D75A7924596E9E67135D39B84BD8",
+      "Length": 3596
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA9_WH005_MIGRATION_HARNESS_CORRECTION.md",
+      "SHA256": "72748E04CD06FFE6555DF7E4B45FB0A22A103DF4CF41D683DE7C760C001E14EF",
+      "Length": 3492
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA9_WH006_MIGRATION_HARNESS_CORRECTION.md",
+      "SHA256": "F3A8D1269A7C052BAC108569F0AA33F75C0F8712EA713926158F54A30A38DDCB",
+      "Length": 3074
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\QA_TEST_PLAN.md",
+      "SHA256": "709CD2EF820375675C811AD819CE093F13EF33F965AF233BD4BFAFAFA3ED13C3",
+      "Length": 12608
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\RELEASE_NOTES.md",
+      "SHA256": "6293CCB00F76F8484ACCED8F96542EAD52B7C4EEF24BF1BD0964E0DAC32A03D6",
+      "Length": 2529
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\UPDATE_CHECK_IMPLEMENTATION.md",
+      "SHA256": "27FD6E2F91BA1D549845AD2BBE34EB23F59510E5DB37DC03A21DCB0D15E63EA6",
+      "Length": 5899
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\USER_GUIDE.md",
+      "SHA256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159",
+      "Length": 5097
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\docs\\WHO_GETS_WHAT_NEXT.md",
+      "SHA256": "1DBE5CF77A151B735319EE04CF8511B5CD00F52BA60FD144C004A65AF55A1897",
+      "Length": 1567
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\app.manifest",
+      "SHA256": "D8FB3B287C4EF05552A8073CB7AFB905C50A624D734F5723181CED08883BB7A9",
+      "Length": 1083
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\installer.cpp",
+      "SHA256": "E59886D0E4B292189E3FDF34A7E03C3E5D9CEB26BAEA046500DCA1A99F3BD79A",
+      "Length": 17249
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\launcher.cpp",
+      "SHA256": "A9959EE2D9013ACB0D5CC8420A79C158BE90D2B54CB86CEFC021E20674F52AB5",
+      "Length": 1268
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\uninstaller.cpp",
+      "SHA256": "090EC28D3CC66A82381A494093E138B68FEEC09FAC688F4DFE9799BEFE6712B4",
+      "Length": 1416
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\win_types.hpp",
+      "SHA256": "4372460FA66D4C4ED6279F1608EFFCE02DEE991542B7F411A8A60A23B9986F9C",
+      "Length": 6117
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\imports\\kernel32.def",
+      "SHA256": "DC9583CD47A06A5A2F0BD028F17CFD0782244C83480D4E66FDCCA493FFF6CFB7",
+      "Length": 311
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\imports\\shell32.def",
+      "SHA256": "44378DE1D0A9A12DF5FE6DF01561D7124D3AE577DADC9C8694DE9DBDC1A96F22",
+      "Length": 52
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\native\\imports\\user32.def",
+      "SHA256": "48370A5C167741B800AF5B0A164D1B2D3C0D4AF41275385F4CB477FB52E1DB6F",
+      "Length": 42
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\NyxPCCheckup.ps1",
+      "SHA256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "Length": 6483
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\actions\\CleanupActions.psm1",
+      "SHA256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+      "Length": 7811
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\actions\\StartupActions.psm1",
+      "SHA256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+      "Length": 23951
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\assets\\brand_banner.png",
+      "SHA256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831",
+      "Length": 4630
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\assets\\nyx_pc_checkup.ico",
+      "SHA256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5",
+      "Length": 25277
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\assets\\nyx_pc_checkup.png",
+      "SHA256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0",
+      "Length": 3315
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\BackupStatus.psm1",
+      "SHA256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+      "Length": 4417
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\BatteryHealth.psm1",
+      "SHA256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+      "Length": 3085
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\CleanupScan.psm1",
+      "SHA256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+      "Length": 11612
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\DownloadsAnalysis.psm1",
+      "SHA256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+      "Length": 7999
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\DriveHealth.psm1",
+      "SHA256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+      "Length": 3423
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\InstalledApps.psm1",
+      "SHA256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86",
+      "Length": 4311
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\NetworkBasics.psm1",
+      "SHA256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+      "Length": 4679
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\PerformanceSnapshot.psm1",
+      "SHA256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE",
+      "Length": 3373
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\SecurityStatus.psm1",
+      "SHA256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+      "Length": 9982
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StartupApps.psm1",
+      "SHA256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+      "Length": 8100
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StorageHealth.psm1",
+      "SHA256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+      "Length": 1299
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StorageScan.psm1",
+      "SHA256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+      "Length": 6929
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\SystemInfo.psm1",
+      "SHA256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+      "Length": 2676
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\Uptime.psm1",
+      "SHA256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+      "Length": 1146
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\WindowsUpdates.psm1",
+      "SHA256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+      "Length": 4902
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\config\\defaults.json",
+      "SHA256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8",
+      "Length": 461
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\ActionHistory.psm1",
+      "SHA256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+      "Length": 24721
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\CheckupEngine.psm1",
+      "SHA256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0",
+      "Length": 7640
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Configuration.psm1",
+      "SHA256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+      "Length": 7302
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Diagnostics.psm1",
+      "SHA256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+      "Length": 1932
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Models.psm1",
+      "SHA256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+      "Length": 4355
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Paths.psm1",
+      "SHA256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+      "Length": 5304
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Privacy.psm1",
+      "SHA256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+      "Length": 6683
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\RuntimeComposition.psm1",
+      "SHA256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95",
+      "Length": 15055
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\health_rules\\HealthRules.psm1",
+      "SHA256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+      "Length": 4761
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\health_rules\\rules.json",
+      "SHA256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3",
+      "Length": 784
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\platform\\linux\\CONTRACT.md",
+      "SHA256": "AA823BEAAD73174A70BA7191FB95A3DC2B4F0A0F864C68A97F2410C86C22D253",
+      "Length": 391
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\platform\\windows\\WindowsHelpers.psm1",
+      "SHA256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+      "Length": 6692
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\reports\\PdfWriter.psm1",
+      "SHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "Length": 3680
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\reports\\ReportExport.psm1",
+      "SHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "Length": 6677
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Controls.psm1",
+      "SHA256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446",
+      "Length": 14909
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Dialogs.psm1",
+      "SHA256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A",
+      "Length": 5892
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\MainWindow.psm1",
+      "SHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "Length": 73259
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Theme.psm1",
+      "SHA256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+      "Length": 2769
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Manifest.psm1",
+      "SHA256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+      "Length": 6396
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Preferences.psm1",
+      "SHA256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+      "Length": 1164
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\UpdateChecker.psm1",
+      "SHA256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+      "Length": 6175
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Versioning.psm1",
+      "SHA256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+      "Length": 2824
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\ActionWorker.ps1",
+      "SHA256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+      "Length": 5297
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\InstallWorker.ps1",
+      "SHA256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F",
+      "Length": 9728
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\ScanWorker.ps1",
+      "SHA256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "Length": 9078
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\UninstallWorker.ps1",
+      "SHA256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+      "Length": 8487
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\UpdateCheckWorker.ps1",
+      "SHA256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+      "Length": 2473
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_engineering_contracts.py",
+      "SHA256": "AC6D7F6E6370913B018F8053684976C8548659F9EEEDED61BEC2D9D3ECACB70F",
+      "Length": 45197
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_installer_branch_diagnostics.py",
+      "SHA256": "2B7826EB63055890E0A493CB40209CB226BBAA4F38B752F75DA3ADD71C86AF21",
+      "Length": 3572
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_powershell51_generic_list_compatibility.py",
+      "SHA256": "69BBB46EBE15DEC87AC6EC4FC923BF7E33D71DF941F2037E25E41A28CBD2FC96",
+      "Length": 4799
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_powershell51_module_composition.py",
+      "SHA256": "0CF7736B6C8B42E2B135A561DABE45CA5509FD6CDBFB268EB7E8353909C5004F",
+      "Length": 4766
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_powershell51_parser_safety.py",
+      "SHA256": "B07F6F668F002DF57E703100866D4F7EB4D03F511FDEE189C8E6630CA2D9A8A7",
+      "Length": 4785
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_privacy_reference.py",
+      "SHA256": "A49B43AC28892B45414F673B1D94F1275B19B848942BD4F153834B371272C93A",
+      "Length": 3449
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa10_f009_ui_close_cleanup.py",
+      "SHA256": "57DFECAA0C6FB38ED5C77180BD37683D52D2900A02906932576D38931E9F3630",
+      "Length": 3945
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa11_f010_persisted_scan_validation.py",
+      "SHA256": "C69276B9C0C852CA70A355666B056F4D4B449A036F40E17E968F2C0DA5100B7D",
+      "Length": 2653
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa14_f011_installed_launch.py",
+      "SHA256": "3BE5AB82A5C5C3A01B35964321B6BC21209F4AB872DB02489FC9CAF0F4CF0864",
+      "Length": 5868
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa15_f012_settings_theme_save.py",
+      "SHA256": "57D48C9847D6C7A9E2D9647CFD8528B891894804E8FFF6DA0B1582500F42EEA4",
+      "Length": 2625
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa18_f015_startup_state.py",
+      "SHA256": "FB8E604D39A16B6840700EF88BEA38563D0B2CA864CF95B23E2540F9A37CC599",
+      "Length": 2242
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa19_f016_progress_concurrency.py",
+      "SHA256": "590654D419A2C095A74901B3EA2B50DD52AEBD77E15A6B99D3DE628A37D821BD",
+      "Length": 1736
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa22_f019_category_cardinality.py",
+      "SHA256": "C02812B28EE5516E7FC5B200EBD6BF8B2BE22E39A7054CF18A0378B923C8BC1D",
+      "Length": 1386
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa23_f020_grid_focus.py",
+      "SHA256": "29A89B891C5A7E54E3B600DE3977B62CC77FA9199F140983B7AFF3ED93555703",
+      "Length": 2293
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa24_f021_deferred_pages.py",
+      "SHA256": "EAEB57230E70507F060A3B9835740AA12957FD2C382FCBE3D2A6E9247D71F9ED",
+      "Length": 2693
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa25_f022_apps_columns.py",
+      "SHA256": "DF01502BB601C71268505FCE15FD255185A224F9B6A781C496E0923D5F7823A9",
+      "Length": 2006
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa26_f023_grid_actions.py",
+      "SHA256": "AD4C8F21FC57FC4109464FA85C5C197AAB9D42C48E98029BC97B25B9EC6380BE",
+      "Length": 1691
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa2_migration_reference.py",
+      "SHA256": "DF749FDE6FA3BC0985EC9742608938339E5C2B2B8FA86A2A5A9D7810687877FD",
+      "Length": 14295
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa8_f007_empty_collection.py",
+      "SHA256": "F41CFDA4E6179FF7D839638103BF3215F3DE8D058A132F3F8B745638F1F4E454",
+      "Length": 2380
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa9_f008_ui_responsiveness.py",
+      "SHA256": "E5A199A068C36F2B74DDAD349B34447646B079AED9E0022CDA2898AE0436DBBB",
+      "Length": 5000
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa9_wh004_harness_correction.py",
+      "SHA256": "E319FAE88693763BCEE492DDEE1D53DAB47430867AB0875B13D4924B23EAAE35",
+      "Length": 617
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa9_wh005_harness_correction.py",
+      "SHA256": "45D912320B20CBE9BF1529F7D15BE1296A11DC337A2F9FA520688CE61810C0AC",
+      "Length": 620
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_qa9_wh006_harness_correction.py",
+      "SHA256": "8AB9B14809ACD3AA7842A2CEF6CD1A1E7AFE9274F22AF986C167DEF280BF5869",
+      "Length": 578
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\test_update_reference.py",
+      "SHA256": "A4A8691B7462AF3162233635BB7F3F1D23D293556554E02BF076E85BD5141542",
+      "Length": 8696
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\fixtures\\qa2\\Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+      "SHA256": "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5",
+      "Length": 417280
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\fixtures\\qa2\\Nyx_PC_Checkup_1.0.0_QA2_Source.zip",
+      "SHA256": "22FCFA7E3050CA854803DD0265109F92444E38E081483A7E2C73DFC0BC522B36",
+      "Length": 209483
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\fixtures\\qa2\\QA2_FIXTURE_MANIFEST.json",
+      "SHA256": "16D68F99925BC509F2F2BE1B907144927CD75D9F2A0C08FAD1D05250A054743F",
+      "Length": 1346
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\InstallerDiagnosticsHelpers.ps1",
+      "SHA256": "4C54ACD60E661728A50EE84B0EABE52585C219002ABB8AD3B9A203A038E8A1A0",
+      "Length": 10180
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsElevatedStartupRollback.ps1",
+      "SHA256": "4DE36AC3D10900798A97AA5B2AB14FD000568F29A33651FC172DB56FE6EEF3C8",
+      "Length": 13799
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsInstalledLaunchRegression.ps1",
+      "SHA256": "2FB7A8DA1BFBEBC2CA774E4FC2B89B581B6BC91304C65A6AFFC6F9D3DE56B4FD",
+      "Length": 28594
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsInstallerLifecycle.ps1",
+      "SHA256": "93811822FF7DEC9EAA7D9546E2E039B4DBE9286A5F80BDD58217DDE72BA47B9F",
+      "Length": 21779
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsQA2MigrationRegression.ps1",
+      "SHA256": "14630FDB4E0040E24B14767ADAB351DB7BE402CC7D812261C9BD791CF349FA7A",
+      "Length": 53486
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsSettingsThemeRegression.ps1",
+      "SHA256": "820491AB6BCF5FDBA10424A541C464DCAA1D8D4F4654E86F3C1FB793492CC745",
+      "Length": 7270
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsSmokeTests.ps1",
+      "SHA256": "125FE4AA381594F6DD693B15F14B0C48CF908868CD6BF2663036208F51C51503",
+      "Length": 42001
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\RUN_QA15_WINDOWS_GATE.ps1",
+      "SHA256": "42A1FA1837C99A00F41CF1B41FD22C8E6490EDAC8F788454D060593D7846268B",
+      "Length": 17265
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA16WindowBoundsGeometry.ps1",
+      "SHA256": "78027EB8F9D6F069B02EA222DFEA0313EA96526E728FC951DE3FFAA80A5927E7",
+      "Length": 2357
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA17DeviceGeometry.ps1",
+      "SHA256": "7286ED1D76020FA41E6A03741147D6C2820ACB6C7311CFBCC576C97E61500DA1",
+      "Length": 1574
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA18StartupDeferredState.ps1",
+      "SHA256": "8D8C7B471DD6FD55A706301748139D11662C6B88C17929E2CF17825590837C05",
+      "Length": 6948
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA19ProgressConcurrency.ps1",
+      "SHA256": "A89135C1B9E8BA06AB4C80CAB80865040A4CB005486D085DC59C33404FE6BA27",
+      "Length": 6235
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA20PropertyGuards.ps1",
+      "SHA256": "2459D90ABB1B00A097E45FA4E279A5AFD42F217428B5182074634D367440399F",
+      "Length": 4730
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA21RegistryProvider.ps1",
+      "SHA256": "2962B75125D6ED2867524ADBF2DF3B87B226D24F5E1E527FAA5D3909D62D7876",
+      "Length": 5485
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA22CategoryCardinality.ps1",
+      "SHA256": "8C09D3A41668158ACADD46E5A65BA591055F04675B9B178FEA919E94A411878F",
+      "Length": 5915
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA23GridFocusVisibility.ps1",
+      "SHA256": "11727C223983C08A65BC789BAD6B0C4091F700C6A0812608448CF80AD60C46EB",
+      "Length": 6346
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA24DeferredPages.ps1",
+      "SHA256": "6843931AEA710A8138FA9A2CCC4202D520F12A3F847C9252AB44A0DD5F0CAC87",
+      "Length": 12305
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA25AppsColumnReadability.ps1",
+      "SHA256": "CC65AEE0FD73E024D084D258D32DA7C6B8693A351E3066CCF2F0CFBC429C232E",
+      "Length": 7737
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA26ResultKeyboardActivation.ps1",
+      "SHA256": "D1DCD5CD04AF2420C5A50F4432179566BDE76C37C56D316C3C3719B2D753AAFA",
+      "Length": 10938
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\tools\\ps_lint.py",
+      "SHA256": "D1E3DC532F5624A47A23475C50E5DA9E30D352870782502E3D945E20342638DB",
+      "Length": 15280
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tools\\build_and_verify_reproduction.py",
+      "SHA256": "8112E5D221B00AF0D36D48EC208627923B7FFC8B6C1225449713CCC6F76F8688",
+      "Length": 5320
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tools\\build_release.py",
+      "SHA256": "8779FC0533D7499BE0361A6C72E12736BFA3E6D71B0F2D09EFD6F195E3E214CD",
+      "Length": 102226
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tools\\ps_lint.py",
+      "SHA256": "D1E3DC532F5624A47A23475C50E5DA9E30D352870782502E3D945E20342638DB",
+      "Length": 15280
+    }
+  ],
+  "signedHashes": [
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\NyxPCCheckup.ps1",
+      "SHA256": "E072E832D23C267A3C31BA66A893E1730EB71CB7020E57239F4474CE411C28E2",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\actions\\CleanupActions.psm1",
+      "SHA256": "BA924BE6292AAA1B6AA92A3441FAB8649D5519745AECA1C865B09F1C18A6F77C",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\actions\\StartupActions.psm1",
+      "SHA256": "0E22E340FFFC4BCFBCE6E615073FC792E90EE73DFD10B9820B8D693310BE8FDE",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\BackupStatus.psm1",
+      "SHA256": "3202487994AF066766EC127BB58397AF473C66E10A8CF8BD3C3EC567A0A880F2",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\BatteryHealth.psm1",
+      "SHA256": "AF581381045E6ABCBA30428121C740F4506AE7BB525558569777022462B4E675",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\CleanupScan.psm1",
+      "SHA256": "D130D59F6F282C90BACBB3C9C5926AF8A1E389E4BA2617CF534EE5789BA37B48",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\DownloadsAnalysis.psm1",
+      "SHA256": "E6390A8519D7C57F80801A67FDEC66ACC42EF75E726337A8B9BCC9D42FEF3F39",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\DriveHealth.psm1",
+      "SHA256": "DCB453D8A1E18C110C7D15252F21A54CD19A885DF063421D2EBECF2E0489DD22",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\InstalledApps.psm1",
+      "SHA256": "6FCD2E3F6642874909418EA43D6652DFDAF3964ADDEA72EC5E64D7A057F64234",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\NetworkBasics.psm1",
+      "SHA256": "E18D3D4377F1CE19A4313A8179F59B31FCEC24868BD2B40A82E2929D53DDC9F4",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\PerformanceSnapshot.psm1",
+      "SHA256": "84DAE6C3E96BBFB6A01BEF55DA9856F7B9C1681C50C746321D64413D1E2872FD",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\SecurityStatus.psm1",
+      "SHA256": "BE7909464BB212488E80F443BDA440872F42C8C2D91460A88F86886FD9EFC43A",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StartupApps.psm1",
+      "SHA256": "A3D0BAB0BCBCDC4034016A2865664D3369FC0D0B03D35F51B212964DFC9FDCA2",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StorageHealth.psm1",
+      "SHA256": "B5C62DC37D2F2C9A6B8EB467614E88F0532A94DDA6478F3854376435E4173DA5",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\StorageScan.psm1",
+      "SHA256": "490901C5B673882D17CC3378FAABCEAEFA195FA3D36BCD4B2EF8865B8343BC19",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\SystemInfo.psm1",
+      "SHA256": "A70E7BB111842B48C19EAE52A63BE66D03C1A6A9679740195294AF117C170619",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\Uptime.psm1",
+      "SHA256": "DED9115913B333941C3B9C4BC3E1527D35EE9CEA0B696BF6460D43B0793D820E",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\checks\\WindowsUpdates.psm1",
+      "SHA256": "6DC574C80C2CADDDF62693AC9ACC5951C976F714AD318AAE317AD7F117955DD4",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\ActionHistory.psm1",
+      "SHA256": "DCE0FFA77D00BFCD47E2FF86DB804D0F8E34C40EDBF8B482030DCA2473C744C3",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\CheckupEngine.psm1",
+      "SHA256": "FAD63B20920A98EB538D66B5FD5792E054ED2C575562F7A5F3250FE6FC526A40",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Configuration.psm1",
+      "SHA256": "23203406FF53F0A8D49A4EBDF167168838F93F440154F9D4336840891BAD856C",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Diagnostics.psm1",
+      "SHA256": "A47675866E3E1E0543C52D4CF5EE7778BB92FFEDD2BEDB0AF41676450B030D1A",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Models.psm1",
+      "SHA256": "E70200295DAE3C0AC2F7F33092B4C6DDA03AFFE077C919DFB2C64AD3AB882C16",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Paths.psm1",
+      "SHA256": "BD7C23C99B33A462BB1F708D6CE6B35355BA634836EB0BCD3CA9FBE3DD233AFE",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\Privacy.psm1",
+      "SHA256": "DB378EFD9215F5383F9F1A3E273AA0FAFC2C058BE268B4E76DEC53B1C4D8A265",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\core\\RuntimeComposition.psm1",
+      "SHA256": "3563B69ED3A71633C2866EA45A11FD32416BB98E899CD6A3FDA163CA1E8F689A",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\health_rules\\HealthRules.psm1",
+      "SHA256": "8E5E159AC6D5A21D34C232AE72DC54AABC88FA74BAF0DA485DE681E4B48A6090",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\platform\\windows\\WindowsHelpers.psm1",
+      "SHA256": "255674E53E43E6535D356C39B9CAB756BA34853CCCE2B5B8ABC0C3A2244E04E7",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\reports\\PdfWriter.psm1",
+      "SHA256": "7EE4C35417273C394DF854538CF25541B95BD9AB0B20C9EBFA191E43BB0E8A97",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\reports\\ReportExport.psm1",
+      "SHA256": "C0713B20E78B44909BC1AAC586B36783C0BAB0C80A79CFA3487E95E1D855FB0B",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Controls.psm1",
+      "SHA256": "029040EEF19AC9D8B42E0866921501137F3A2F58D48A297F9A524E7B07D6D42A",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Dialogs.psm1",
+      "SHA256": "6EFDF285AF01EC43D4A4E026743AC4F0DD0F581AA9D6422BF01EBB207B5B0084",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\MainWindow.psm1",
+      "SHA256": "4A8D1E207D3149BD0FC68AEC0B7662E88477995AE8BEA1496837577758F18119",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\ui\\Theme.psm1",
+      "SHA256": "4130BCC3E9B9CF083BACB07DA9F3E77975EFD80FA776863720DA2D944156E964",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Manifest.psm1",
+      "SHA256": "4735FE67AC929D6EC88405CCA4C123B7E6DF420528A2C5E08FB08679D92BBB23",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Preferences.psm1",
+      "SHA256": "13381D7C1FC91A6060CBBE777212EFC9A8991DD9F7045C579B0FDD77EE86FE64",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\UpdateChecker.psm1",
+      "SHA256": "AE7B18F7A906155EB5A5945020F5E61B3E8FD5F6E382F9DB45F526F0C237F5FC",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\updates\\Versioning.psm1",
+      "SHA256": "A9A8295C0E41DEE7B9C0B3C7D8F103B364674718DB74FE66425E3AFE59A9647D",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\ActionWorker.ps1",
+      "SHA256": "82A0A059F5E599D89A8C2161D9F59B02C1E0F398B89DB2BB6BF0821E8E0CBFEB",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\InstallWorker.ps1",
+      "SHA256": "688F89E595EF08477627E3DA1AC9971179380888DE44C549DC31A66F74918E8B",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\ScanWorker.ps1",
+      "SHA256": "1B3020D8A2A94354B6E788C939EA48CF0C68D4CFEDC95B62BA6414B375592EFA",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\UninstallWorker.ps1",
+      "SHA256": "FAC031F5CF155BF2A9BC39DE241AB0A640CA54D0D1AEF082E65FDBA1720B2B6D",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\src\\app\\workers\\UpdateCheckWorker.ps1",
+      "SHA256": "60FAE9EABE4AE7E2F6672C68C9BBD0C769202CD737E6A16FD5EC6F839770CB4E",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\InstallerDiagnosticsHelpers.ps1",
+      "SHA256": "778261EFD8480F604AF483AA231AFA94FB3F270FBBD63443FD8C5B2D1CCD2B47",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsElevatedStartupRollback.ps1",
+      "SHA256": "E8B0B0469EB6191ADB5387DDD310464FEB87BA8372537FF82867866954B8BCD2",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsInstalledLaunchRegression.ps1",
+      "SHA256": "7919FC3D244382CB99091B16756E536BCCBCED32A927A70B1B2895273B6124A1",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsInstallerLifecycle.ps1",
+      "SHA256": "D166AFB4CF117E16E3C27616C691BF1869A334DA094F36E573DDDB59B699C4E5",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsQA2MigrationRegression.ps1",
+      "SHA256": "7572F382D73599985DA215119EC7E9E8B03F76560F6F3C188FBA3BD0FA6F4ECC",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsSettingsThemeRegression.ps1",
+      "SHA256": "E255754F55A1AB1C69FD3C0A7515B8AD06EBE01849C56C0C36B0098925C37464",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsSmokeTests.ps1",
+      "SHA256": "11F2A2524FEA0D811619B5BAFE662028125E93C84EF11741E338337A3F25D020",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\RUN_QA15_WINDOWS_GATE.ps1",
+      "SHA256": "D7380370D5ECA1D5468E06B8B507D96F610B78F96C57F67A1935DD5BDBD60811",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA16WindowBoundsGeometry.ps1",
+      "SHA256": "5BA0673C7582AF2C6CE495AFCA82BD96D13352C08680C64671658652DCBA0779",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA17DeviceGeometry.ps1",
+      "SHA256": "08BAA82971A9CD785E35A9F8173BF4549A7A9DB77B4437E108D484843BF64903",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA18StartupDeferredState.ps1",
+      "SHA256": "BF00100AB080C6CF87674F968A88C9E72BC7BE314FAED5CA981B24178940A4CA",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA19ProgressConcurrency.ps1",
+      "SHA256": "F8A81EA5810FB5F77AC00EDFB6DF654486ED2853E2E5B1F76B180EAFB51D230C",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA20PropertyGuards.ps1",
+      "SHA256": "B1A501E8E6AD7414B24ED57CF45A2B7885ADCEB1438ABA419BF69F69B974B146",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA21RegistryProvider.ps1",
+      "SHA256": "D976CB92F9242E22501DA06CD820FD3A3E2C84F29059A555B482C29843F15E2C",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA22CategoryCardinality.ps1",
+      "SHA256": "34C02D38A2616F997F9E0FA1D42B43BA3B22E881A7C076697C63D9FF4203BD1C",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA23GridFocusVisibility.ps1",
+      "SHA256": "A29155075B2AF5BC2E17729B9389044E6F6F7CFEF584FC8B916C03C910BF7D7D",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA24DeferredPages.ps1",
+      "SHA256": "7730B525D89BFDDD12B230D765B7D5670E5402ADDA706AEF3F00778A5678D326",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA25AppsColumnReadability.ps1",
+      "SHA256": "7EC4653B920F5715D565DF790D36C37A41ACC08212642008D8AB13A9E181789B",
+      "SignatureStatus": "Valid"
+    },
+    {
+      "RelativePath": "Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA26ResultKeyboardActivation.ps1",
+      "SHA256": "7A2F8859A5719DD01A115C8893045920538467D272442B60597A8A020EBDB122",
+      "SignatureStatus": "Valid"
+    }
+  ]
+}

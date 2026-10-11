@@ -7898,8 +7898,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "One stateful Apps selection/filter safety test completed with native144DPI and60 frozen payload matches; no stale selection action.",
-  "nextAction": "Restart unique-output native observer normally for next missing predicates; trusted script suites remain blocked by declined policy change.",
+  "lastCompletedAction": "Trace isolated root trust import UI requirement; disposable signer created; frozen files unchanged; no new tests.",
+  "nextAction": "Complete normal certificate installation in disposable guest Current User Trusted Root Certification Authorities, then resume publisher trust and AllSigned setup.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7913,7 +7913,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T20:06:13.124Z",
+  "updatedUtc": "2026-10-11T23:09:25.403Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -10778,7 +10778,7 @@
     "utc": "2026-10-11T15:25:20.606Z"
   },
   "trustedRunnerSetup": {
-    "status": "POLICY_CHANGE_DECLINED_BY_USER",
+    "status": "SELF_SIGNED_TRUST_AND_ALLSIGNED_VERIFIED",
     "vm": "Nyx-QA26-Disposable-20261011",
     "computer": "DESKTOP-4D83OSL",
     "policies": {
@@ -10788,12 +10788,24 @@
       "CurrentUser": "Undefined",
       "LocalMachine": "Undefined"
     },
-    "effectivePolicy": "Restricted",
+    "effectivePolicy": "AllSigned",
     "signingCertificateCount": 0,
-    "policyChanged": false,
+    "policyChanged": true,
     "requestedSetup": "CurrentUser RemoteSigned on disposable guest only; original guest and host unchanged; no Bypass or Unrestricted",
     "utc": "2026-10-11T15:37:52.081Z",
-    "declinedSetup": "CurrentUser RemoteSigned disposable VM"
+    "declinedSetup": "CurrentUser RemoteSigned disposable VM",
+    "userApprovedSelfSigning": true,
+    "userApprovedAllSigned": true,
+    "lastSetupError": "UI is not allowed in this operation.",
+    "certificateCreated": true,
+    "failedStage": "GuestPublisherTrustImport",
+    "guestCertificateFile": "%TEMP%\\NyxQA26DisposableSigner.cer",
+    "error": "Access denied 0x80070005",
+    "rootTrustVerified": true,
+    "publisherTrustVerified": true,
+    "localMachinePublisherImportObserved": true,
+    "localMachinePublisherTrustApproved": true,
+    "signerThumbprint": "E410B385320A5E3A8C50F4D4D07599A9CF3AE60C"
   },
   "nativeDpiAlternative": {
     "status": "RECOVERED_NATIVE_DPI_COMPONENT_PASS",
@@ -11296,5 +11308,50 @@
     "noNewScans": true,
     "productModified": false,
     "limits": "Does not substitute for earlier unqualified tests or complete the entire Apps F008 cell."
+  },
+  "signedCopyTesting": {
+    "status": "SMOKE_AND_SETTINGS_THEME_PASSED_SIGNED_COPY",
+    "sourceArchiveSHA256": "4BDAC6FD0E071A100550CFCEEA59C5CED0180C36C05873981D623147F02B9C25",
+    "filesPreservedBeforeSigning": 146,
+    "signedFiles": 62,
+    "signer": "E410B385320A5E3A8C50F4D4D07599A9CF3AE60C",
+    "frozenCandidateAcceptance": false,
+    "vm": "Nyx-QA26-Disposable-20261011",
+    "smoke": {
+      "passed": false,
+      "total": 2,
+      "passedChecks": 1,
+      "failedChecks": 1,
+      "classification": "HARNESS_INVOCATION_ERROR_NOT_PRODUCT_FAILURE",
+      "details": "System.IO.FileNotFoundException: The specified module 'C:\\NyxQA26Signed\\source_20261011\\Nyx_PC_Checkup_1.0.0_Source\\src\\core\\RuntimeComposition.psm1' was not loaded because no valid module file was found in any module directory.",
+      "evidence": "SIGNED_SMOKE_RAW_20261011.json",
+      "frozenCandidateAcceptance": false
+    },
+    "smokeCompleted": {
+      "Passed": true,
+      "Total": 122,
+      "Failed": 0,
+      "evidence": "signed-copy-smoke-20261011/smoke.json",
+      "sha256": "273032e65a7f595b44cedc14e5c3763c7103e61129ebf498d3f9f236c83723cf",
+      "frozenCandidateAcceptance": false
+    },
+    "issue15SmokeComment": 6114909715,
+    "settingsTheme": {
+      "Passed": true,
+      "Total": 17,
+      "Failed": 0,
+      "evidence": "signed-copy-settings-theme-20261011/settings-theme.json",
+      "sha256": "f6a783cac729f288fbee9a1188e0eb90bea99f494c543ad596b16d8c57d8a47d",
+      "frozenCandidateAcceptance": false
+    }
+  },
+  "cleanBaselinePreparation": {
+    "status": "EXPORT_REQUESTED_PENDING_NATIVE_RESULT",
+    "checkpointId": "07126637-ce84-43cc-a69b-fb4ae445f9ce",
+    "checkpointName": "EXEC004_PRETEST_20260804_0844",
+    "cleanQualified": false,
+    "sourceVmChanged": false,
+    "exportPath": "qa26_vm_automation/clean_baseline_20261011",
+    "note": "Export only; do not infer clean qualification from name."
   }
 }

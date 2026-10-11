@@ -1,0 +1,29 @@
+{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.windows-smoke.v2",
+    "HarnessRevision":  "QA26-F023-PS51-26",
+    "Scope":  "normal-user smoke and privacy/update",
+    "StartedUtc":  "2026-10-11T22:59:12.8725820Z",
+    "CompletedUtc":  "2026-10-11T22:59:13.1023185Z",
+    "ElapsedSeconds":  0.23,
+    "ComputerName":  "DESKTOP-4D83OSL",
+    "WindowsVersion":  "Microsoft Windows NT 10.0.26200.0",
+    "PowerShellVersion":  "5.1.26100.7920",
+    "IsAdministrator":  false,
+    "AppRoot":  "C:\\NyxQA26Signed\\source_20261011\\Nyx_PC_Checkup_1.0.0_Source\\src",
+    "Passed":  false,
+    "Total":  2,
+    "Failed":  1,
+    "Results":  [
+                    {
+                        "Name":  "PowerShell 5 parser accepts every runtime script",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Smoke test harness completed without unhandled error",
+                        "Passed":  false,
+                        "Details":  "System.IO.FileNotFoundException: The specified module \u0027C:\\NyxQA26Signed\\source_20261011\\Nyx_PC_Checkup_1.0.0_Source\\src\\core\\RuntimeComposition.psm1\u0027 was not loaded because no valid module file was found in any module directory."
+                    }
+                ]
+}
+
