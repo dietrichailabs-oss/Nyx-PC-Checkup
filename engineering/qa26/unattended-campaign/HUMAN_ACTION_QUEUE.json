@@ -157,13 +157,15 @@
     },
     {
       "id": "COLLECT_LIGHT150_SEPARATE_FULL_RAW",
-      "status": "BLOCKED_HUMAN",
+      "status": "COLLECTED_CONTRACT_RECONCILED_COMPONENT",
       "reason": "Separate new Full finished UI; actual contract and worker cleanup require end-of-campaign read-only collector/UAC. Recover prior observer records separately; do not replace original evidence.",
       "queuedUtc": "2026-10-08T23:08:02.291Z",
       "action": "Approve the grouped read-only collection after the native helper is qualified.",
       "expectedPrompt": "Normal host UAC for the qualified read-only evidence collector",
       "minimumInput": "Approve the exact collector UAC prompt, then sign into Nyx after normal restart",
-      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans"
+      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans",
+      "resolution": "Existing read-only collection contains exact October8 Full; contract checked without rerun. Native DPI/worker cleanup not inferred.",
+      "evidence": "preserved-contract-reconciliation-20261011/RESULTS.json"
     },
     {
       "id": "FOLLOWWINDOWS150_LOCALFOLDER_CLOSE_20261008",

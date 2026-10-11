@@ -7874,8 +7874,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "DARK150_SETTINGS_SAVE_ACK_20261011 completed with exact fresh screenshot records; no full-cell credit.",
-  "nextAction": "Current safety/save batch observed; qualify fresh native evidence and remaining focused raw before acceptance.",
+  "lastCompletedAction": "Corrected Light100HomeQuick bookkeeping: restored prior RESULT_CONTRACT_RECONCILED and removed accidental October8 linkage. Two newly resolved scan contracts remain separate.",
+  "nextAction": "Continue historical worker/cancellation evidence reconciliation; qualify new session DPI separately.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7889,7 +7889,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T17:12:49.813Z",
+  "updatedUtc": "2026-10-11T19:55:13.031Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -10357,14 +10357,26 @@
       "mode": "Full",
       "scale": 125,
       "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\full125.json",
-      "status": "PENDING_COLLECTION"
+      "status": "RESULT_CONTRACT_RECONCILED_COMPONENT",
+      "contractEvidence": "preserved-contract-reconciliation-20261011/RESULTS.json",
+      "sha256": "6f1f7ce2d20d885c60ff160789c97f2597bf29cbbbad878c08e623c9e8ba3b6c",
+      "startedUtc": "2026-10-05T11:32:36.5201655Z",
+      "completedUtc": "2026-10-05T11:33:20.0411188Z",
+      "fullCellCredit": false,
+      "liveWorkerCleanup": "NOT_VERIFIED"
     },
     {
       "mode": "Quick",
       "theme": "Dark",
       "scale": 125,
       "path": "reports/quickdark125transition.json",
-      "status": "PENDING_COLLECTION"
+      "status": "RESULT_CONTRACT_RECONCILED_COMPONENT",
+      "contractEvidence": "preserved-contract-reconciliation-20261011/RESULTS.json",
+      "sha256": "9ce03eb0d373de645ada9d3737545c4f576d5e33e5fa09af62f991cd47e35dce",
+      "startedUtc": "2026-10-05T12:22:39.5718379Z",
+      "completedUtc": "2026-10-05T12:22:49.1786215Z",
+      "fullCellCredit": false,
+      "liveWorkerCleanup": "NOT_VERIFIED"
     },
     {
       "id": "Light125HomeQuick20261006_0057",
@@ -10372,8 +10384,14 @@
       "theme": "Light",
       "scale": 125,
       "path": "reports/quicklight125-20261005-2057.json",
-      "status": "PRESERVED_UI_COPY_PENDING_HASH_VALIDATION",
-      "note": "Do not overwrite until preserved; installed observer may have ended after 30 minutes."
+      "status": "RESULT_CONTRACT_RECONCILED_COMPONENT",
+      "note": "Do not overwrite until preserved; installed observer may have ended after 30 minutes.",
+      "contractEvidence": "preserved-contract-reconciliation-20261011/RESULTS.json",
+      "sha256": "0c82799f9a93b3590f15b5417c9c968b6da4cddf5df6b87aad324a503897a85b",
+      "startedUtc": "2026-10-06T00:56:59.6574435Z",
+      "completedUtc": "2026-10-06T00:57:11.3924828Z",
+      "fullCellCredit": false,
+      "liveWorkerCleanup": "NOT_VERIFIED"
     },
     {
       "id": "Light125AppsFull20261005_2142",
@@ -10387,9 +10405,15 @@
     {
       "id": "LIGHT150_STORAGE_SEPARATE_FULL_20261008",
       "origin": "Unintended click subsequently authorized to finish",
-      "status": "UI_FINISHED_RAW_PENDING",
+      "status": "RESULT_CONTRACT_RECONCILED_COMPONENT",
       "supersedesOriginalEvidence": false,
-      "rawCollection": "Queue collector; recover older observer records separately; never substitute this run for historical Light125 Full."
+      "rawCollection": "Queue collector; recover older observer records separately; never substitute this run for historical Light125 Full.",
+      "contractEvidence": "preserved-contract-reconciliation-20261011/RESULTS.json",
+      "sha256": "9ebd0a3dd3933ab3161ae1629e9e010a0805c4a177cc440e560bb1b67a4295de",
+      "startedUtc": "2026-10-08T23:04:38.7617192Z",
+      "completedUtc": "2026-10-08T23:05:25.6882604Z",
+      "fullCellCredit": false,
+      "liveWorkerCleanup": "NOT_VERIFIED"
     }
   ],
   "campaignStatus": "RUNNING",
@@ -10961,5 +10985,101 @@
     "fullCellCredit": false,
     "pendingNativeDpi": 9,
     "logFilesystemProof": "NOT_COLLECTED"
+  },
+  "preservedContractReconciliation": {
+    "schema": "QA26-PRESERVED-CONTRACT-RECONCILIATION-1",
+    "utc": "2026-10-11T19:54:28.537Z",
+    "sourceCollection": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/cleanup_native_collect_20261011_125157",
+    "status": "PASS_CONTRACT_COMPONENTS_ONLY",
+    "newlyResolvedContracts": 2,
+    "checksPerContract": 8,
+    "failures": 0,
+    "noNewScans": true,
+    "productModified": false,
+    "fullCellCredit": false,
+    "records": [
+      {
+        "path": "reports/full125.json",
+        "sha256": "6f1f7ce2d20d885c60ff160789c97f2597bf29cbbbad878c08e623c9e8ba3b6c",
+        "mode": "Full",
+        "start": "2026-10-05T11:32:36.5201655Z",
+        "end": "2026-10-05T11:33:20.0411188Z",
+        "checks": {
+          "jsonObjectAndResults": true,
+          "validTimestampOrder": true,
+          "uniqueCheckIds": true,
+          "requiredResultFields": true,
+          "statusVocabulary": true,
+          "summaryMatchesCounts": true,
+          "modePopulation": true,
+          "readOnlyCompletion": true
+        },
+        "result": "PASS_CONTRACT_COMPONENT",
+        "fullCellCredit": false
+      },
+      {
+        "path": "reports/quickdark125transition.json",
+        "sha256": "9ce03eb0d373de645ada9d3737545c4f576d5e33e5fa09af62f991cd47e35dce",
+        "mode": "Quick",
+        "start": "2026-10-05T12:22:39.5718379Z",
+        "end": "2026-10-05T12:22:49.1786215Z",
+        "checks": {
+          "jsonObjectAndResults": true,
+          "validTimestampOrder": true,
+          "uniqueCheckIds": true,
+          "requiredResultFields": true,
+          "statusVocabulary": true,
+          "summaryMatchesCounts": true,
+          "modePopulation": true,
+          "readOnlyCompletion": true
+        },
+        "result": "PASS_CONTRACT_COMPONENT",
+        "fullCellCredit": false
+      },
+      {
+        "path": "reports/quicklight125-20261005-2057.json",
+        "sha256": "0c82799f9a93b3590f15b5417c9c968b6da4cddf5df6b87aad324a503897a85b",
+        "mode": "Quick",
+        "start": "2026-10-06T00:56:59.6574435Z",
+        "end": "2026-10-06T00:57:11.3924828Z",
+        "checks": {
+          "jsonObjectAndResults": true,
+          "validTimestampOrder": true,
+          "uniqueCheckIds": true,
+          "requiredResultFields": true,
+          "statusVocabulary": true,
+          "summaryMatchesCounts": true,
+          "modePopulation": true,
+          "readOnlyCompletion": true
+        },
+        "result": "PASS_CONTRACT_COMPONENT",
+        "fullCellCredit": false
+      },
+      {
+        "path": "scans/last-scan.json",
+        "sha256": "9ebd0a3dd3933ab3161ae1629e9e010a0805c4a177cc440e560bb1b67a4295de",
+        "mode": "Full",
+        "start": "2026-10-08T23:04:38.7617192Z",
+        "end": "2026-10-08T23:05:25.6882604Z",
+        "checks": {
+          "jsonObjectAndResults": true,
+          "validTimestampOrder": true,
+          "uniqueCheckIds": true,
+          "requiredResultFields": true,
+          "statusVocabulary": true,
+          "summaryMatchesCounts": true,
+          "modePopulation": true,
+          "readOnlyCompletion": true
+        },
+        "result": "PASS_CONTRACT_COMPONENT",
+        "fullCellCredit": false
+      }
+    ],
+    "limits": [
+      "No historical theme/DPI inferred from filename.",
+      "No worker cleanup or cancellation gate completed.",
+      "Two exported125 files reconciled for stale pending state, not counted as newly executed scans.",
+      "October8 Full does not replace historical Light125 Full."
+    ]
   }
 }
