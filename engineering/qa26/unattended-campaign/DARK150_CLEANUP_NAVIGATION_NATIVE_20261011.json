@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark150_cleanup_end_column_native_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved visible dotted focus to What happens column on first row; no checkboxes changed.",
+      "evidence": "screenshots/dark150_cleanup_end_column_native_20261011_1791737205605.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:46:45.606Z"
+    },
+    {
+      "id": "dark150_cleanup_home_column_native_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home moved visible focus to first Select cell; checkbox remains unchecked.",
+      "evidence": "screenshots/dark150_cleanup_home_column_native_20261011_1791737214330.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:46:54.331Z"
+    },
+    {
+      "id": "dark150_cleanup_pagedown_native_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown scrolled grid and brought focused wct3D5B.tmp Select cell visibly into viewport; checkbox unchecked.",
+      "evidence": "screenshots/dark150_cleanup_pagedown_native_20261011_1791737224684.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:47:04.685Z"
+    },
+    {
+      "id": "dark150_cleanup_pageup_native_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp brought first item Select focus back into visible viewport, unchecked.",
+      "evidence": "screenshots/dark150_cleanup_pageup_native_20261011_1791737234158.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:47:14.159Z"
+    },
+    {
+      "id": "dark150_cleanup_down_native_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved visible Select focus to BITFB98.tmp; remained unchecked.",
+      "evidence": "screenshots/dark150_cleanup_down_native_20261011_1791737245790.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:47:25.791Z"
+    },
+    {
+      "id": "dark150_cleanup_up_native_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned visible Select focus to first item; no checkbox changed.",
+      "evidence": "screenshots/dark150_cleanup_up_native_20261011_1791737263288.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:47:43.289Z"
+    }
+  ],
+  "fullCellCredit": false
+}
