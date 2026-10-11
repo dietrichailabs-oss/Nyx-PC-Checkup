@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_settings_applied_selector",
+      "status": "PASS_OBSERVED",
+      "details": "After idle close/reopen, Settings selector displays FollowWindows and surfaces render light, matching visible Windows shell. Optional publicJSON/local-first/no download or install disclosure readable. Requested150 not measured DPI; identity/cell credit withheld.",
+      "evidence": "screenshots/recapture_followwindows150_settings_applied_selector_1791421717289.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_settings_applied_selector_1791421717289.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:08:37.290Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_notification",
+      "status": "PASS_OBSERVED",
+      "details": "Notification unchecked, automatic updates checked; no resident monitor installed/notifications only while Nyx open disclosure wrapped and readable. No preference toggled.",
+      "evidence": "screenshots/recapture_followwindows150_settings_notification_1791421727241.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_settings_notification_1791421727241.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:08:47.242Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_update_readability",
+      "status": "PASS_OBSERVED",
+      "details": "Full update request disclosure excludes username,machine name,hardware identifier,file names,scan results,telemetry/application data; fixed public manifest HTTPS. Check for Updates button readable but not activated; prior UTC retained.",
+      "evidence": "screenshots/recapture_followwindows150_settings_update_readability_1791421738098.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_settings_update_readability_1791421738098.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:08:58.099Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_privacy",
+      "status": "PASS_OBSERVED",
+      "details": "Full Privacy promise readable/wrapped: local unless explicit export; structural secret/usernames/email/IPv4/compressed-expandedIPv6 redaction by default; update checks never upload reports/inventory; local log rotation. Disclosure only, not behavioral privacy gate.",
+      "evidence": "screenshots/recapture_followwindows150_settings_privacy_1791421763646.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_settings_privacy_1791421763646.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:09:23.646Z"
+    }
+  ],
+  "fullCellCredit": false,
+  "remaining": [
+    "local-folder keyboard destination",
+    "Save keyboard focus"
+  ]
+}

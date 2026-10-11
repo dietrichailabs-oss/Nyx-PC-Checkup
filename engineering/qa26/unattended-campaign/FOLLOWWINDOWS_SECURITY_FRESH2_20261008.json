@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "id": "fresh2_followwindows150_security_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Nyx reads Windows security status without disabling/replacing/modifying protection disclosure readable. Native Open Windows Security unactivated/human queued.",
+      "evidence": "screenshots/fresh2_followwindows150_security_controls_1791428909918.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_security_controls_1791428909918.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:08:29.920Z"
+    },
+    {
+      "id": "fresh2_followwindows150_security_focus",
+      "status": "PASS_OBSERVED",
+      "details": "First antivirus Check cell selected; six results with SecureBoot,TPM,encryption Unknown visible. Historical only.",
+      "evidence": "screenshots/fresh2_followwindows150_security_focus_1791428934489.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_security_focus_1791428934489.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:08:54.490Z"
+    },
+    {
+      "id": "fresh2_followwindows150_security_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter antivirus Nyx detail:historical Defender/API status enabled,SafeRedirect,Get-MpComputerStatus and SecurityCenter2,Complete True. Not current native security assurance.",
+      "evidence": "screenshots/fresh2_followwindows150_security_detail_1791428960089.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_security_detail_1791428960089.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:09:20.090Z"
+    },
+    {
+      "id": "fresh2_followwindows150_security_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals Close in Nyx antivirus detail.",
+      "evidence": "screenshots/fresh2_followwindows150_security_close_focus_1791428973465.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_security_close_focus_1791428973465.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:09:33.466Z"
+    },
+    {
+      "id": "fresh2_followwindows150_security_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Return closes Nyx detail and restores first antivirus Check cell;Ready no monitor.",
+      "evidence": "screenshots/fresh2_followwindows150_security_keyboard_close_return_1791428987604.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_security_keyboard_close_return_1791428987604.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:09:47.604Z"
+    },
+    {
+      "id": "fresh2_followwindows150_security_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab from antivirus Check cell exits grid to outlined Open Windows Security;not activated, native controls human-only.",
+      "evidence": "screenshots/fresh2_followwindows150_security_reverse_focus_1791429020217.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_security_reverse_focus_1791429020217.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:10:20.218Z"
+    }
+  ],
+  "fullCellCredit": false,
+  "nativeSecurity": "HUMAN_ONLY_NOT_RUN"
+}

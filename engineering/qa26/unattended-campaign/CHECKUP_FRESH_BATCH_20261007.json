@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_checkup_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Quick and Full Check controls and scope explanation readable; Quick common indicators, Full adds storage/Downloads/cleanup/battery/drives/performance/apps. Existing results preserved; neither scan action activated.",
+      "evidence": "screenshots/recapture_dark150_checkup_controls_1791417185481.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_checkup_controls_1791417185481.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:53:05.482Z"
+    },
+    {
+      "id": "recapture_dark150_checkup_grid_end_export_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reveals final Installed applications result and bottom statuses incl Optional text/icon; Tab reaches visible focused Export report without exporting.",
+      "evidence": "screenshots/recapture_dark150_checkup_grid_end_export_focus_1791417204546.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_checkup_grid_end_export_focus_1791417204546.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:53:24.547Z"
+    },
+    {
+      "id": "recapture_dark150_checkup_final_finding_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Final Installed applications Check cell has visible dotted keyboard focus; preserved finding states5 installed applications.",
+      "evidence": "screenshots/recapture_dark150_checkup_final_finding_focus_1791417210066.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_checkup_final_finding_focus_1791417210066.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:53:30.067Z"
+    },
+    {
+      "id": "recapture_dark150_checkup_final_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens exact Installed applications detail;5 records, informational/no automatic uninstall, intentional Windows Installed Apps recommendation, SafeRedirect, current-user/machine uninstall registry, Complete True.",
+      "evidence": "screenshots/recapture_dark150_checkup_final_detail_1791417221026.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_checkup_final_detail_1791417221026.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:53:41.027Z"
+    },
+    {
+      "id": "recapture_dark150_checkup_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals fully visible focused Close in final Checkup detail.",
+      "evidence": "screenshots/recapture_dark150_checkup_close_focus_1791417225936.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_checkup_close_focus_1791417225936.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:53:45.937Z"
+    },
+    {
+      "id": "recapture_dark150_checkup_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Enter closes final detail and restores visible dotted focus to exact Installed applications Check cell; full check-name tooltip visible. No scan activated.",
+      "evidence": "screenshots/recapture_dark150_checkup_keyboard_close_return_1791417236767.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_checkup_keyboard_close_return_1791417236767.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:53:56.769Z"
+    }
+  ]
+}

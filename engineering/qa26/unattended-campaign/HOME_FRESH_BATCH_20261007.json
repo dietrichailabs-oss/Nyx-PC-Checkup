@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_home_privacy_summary",
+      "status": "PASS_OBSERVED",
+      "details": "Home privacy text: analysis stays on computer unless explicitly exported; Needs Attention conveyed in text, two things need attention; Check My PC visible and not activated.",
+      "evidence": "screenshots/recapture_dark150_home_privacy_summary_1791417498481.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_home_privacy_summary_1791417498481.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:58:18.482Z"
+    },
+    {
+      "id": "recapture_dark150_home_counts_cards",
+      "status": "PASS_OBSERVED",
+      "details": "Preserved Home counts readable: Good14, NeedsAttention2, Optional2, Unknown3. Storage Optional and Updates Good cards visible with text/icon status; horizontal overflow not counted as fully revealed.",
+      "evidence": "screenshots/recapture_dark150_home_counts_cards_1791417522076.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_home_counts_cards_1791417522076.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:58:42.077Z"
+    },
+    {
+      "id": "recapture_dark150_home_unknown_assurance",
+      "status": "PASS_OBSERVED",
+      "details": "Bottom summary explicitly states Trusted Platform Module and Secure Boot checks could not be completed; Optional cleanup77items2.0KB and Startup8programs readable. Unknown not presented as Good; timestamp not credited.",
+      "evidence": "screenshots/recapture_dark150_home_unknown_assurance_1791417545311.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_home_unknown_assurance_1791417545311.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:59:05.313Z"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "light150_settings_privacy_promise_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Settings Privacy promise fully wraps: everything analyzed stays on computer unless explicitly exported. Normal scroll; no privacy changes. Repairs light150_settings_privacy_readable partial evidence.",
+      "evidence": "screenshots/light150_settings_privacy_promise_fresh_1791500371569.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T22:59:31.570Z"
+    },
+    {
+      "id": "light150_settings_privacy_explanation_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Entire lower privacy explanation readable: report preview and structural redaction; update checks never upload reports/inventory; logs rotate locally. No deletion/settings change. Repairs light150_settings_privacy_readable.",
+      "evidence": "screenshots/light150_settings_privacy_explanation_fresh_1791500382135.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T22:59:42.385Z"
+    }
+  ],
+  "fullCellCredit": false
+}

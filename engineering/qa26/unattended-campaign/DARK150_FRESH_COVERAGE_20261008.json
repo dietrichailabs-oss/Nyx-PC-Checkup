@@ -1,0 +1,184 @@
+{
+  "schema": "QA26-DARK150-FRESH-COVERAGE-1",
+  "utc": "2026-10-08T00:46:23.931Z",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "records": [
+    {
+      "originalId": "dark150_settings_notification",
+      "freshId": "recapture_dark150_settings_notifications_updates",
+      "evidence": "screenshots/recapture_dark150_settings_notifications_updates_1791418707086.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_settings_update_readability",
+      "freshId": "recapture_dark150_settings_applied_theme",
+      "evidence": "screenshots/recapture_dark150_settings_applied_theme_1791418700019.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_settings_save_focus",
+      "freshId": "recapture_dark150_settings_save_focus",
+      "evidence": "screenshots/recapture_dark150_settings_save_focus_1791419931988.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_settings_privacy",
+      "freshId": "recapture_dark150_settings_full_privacy",
+      "evidence": "screenshots/recapture_dark150_settings_full_privacy_1791419658938.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_apps_controls",
+      "freshId": "recapture_dark150_apps_controls",
+      "evidence": "screenshots/recapture_dark150_apps_controls_1791419009202.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_apps_first_focus",
+      "freshId": "recapture_dark150_apps_grid_focus",
+      "evidence": "screenshots/recapture_dark150_apps_grid_focus_1791419023767.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_apps_final_focus",
+      "freshId": "recapture_dark150_apps_final_columns",
+      "evidence": "screenshots/recapture_dark150_apps_final_columns_1791419033172.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_cleanup_controls",
+      "freshId": "recapture_dark150_cleanup_controls",
+      "evidence": "screenshots/recapture_dark150_cleanup_controls_1791411447209.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_cleanup_end_navigation",
+      "freshId": "recapture_dark150_cleanup_end_access",
+      "evidence": "screenshots/recapture_dark150_cleanup_end_access_1791411472129.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_cleanup_zero_summary",
+      "freshId": "recapture_dark150_cleanup_zero_summary",
+      "evidence": "screenshots/recapture_dark150_cleanup_zero_summary_1791411484479.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_cleanup_zero_guard",
+      "freshId": "recapture_dark150_cleanup_zero_guard",
+      "evidence": "screenshots/recapture_dark150_cleanup_zero_guard_1791411497361.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_backup_controls",
+      "freshId": "recapture_dark150_backup_controls",
+      "evidence": "screenshots/recapture_dark150_backup_controls_1791414101670.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_backup_destination",
+      "freshId": "recapture_dark150_backup_destination",
+      "evidence": "screenshots/recapture_dark150_backup_destination_1791414216754.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_backup_focus",
+      "freshId": "recapture_dark150_backup_focus",
+      "evidence": "screenshots/recapture_dark150_backup_focus_1791414234467.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_backup_detail",
+      "freshId": "recapture_dark150_backup_detail",
+      "evidence": "screenshots/recapture_dark150_backup_detail_1791414249505.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_backup_reverse_focus",
+      "freshId": "recapture_dark150_backup_reverse_focus",
+      "evidence": "screenshots/recapture_dark150_backup_reverse_focus_1791414275219.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_system_controls",
+      "freshId": "recapture_dark150_system_controls",
+      "evidence": "screenshots/recapture_dark150_system_controls_1791414793680.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_system_about_destination",
+      "freshId": "recapture_dark150_system_about_destination",
+      "evidence": "screenshots/recapture_dark150_system_about_destination_1791414803123.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_system_focus",
+      "freshId": "recapture_dark150_system_grid_focus",
+      "evidence": "screenshots/recapture_dark150_system_grid_focus_1791414812265.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_system_detail",
+      "freshId": "recapture_dark150_system_detail",
+      "evidence": "screenshots/recapture_dark150_system_detail_1791414822503.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_system_reverse_focus",
+      "freshId": "recapture_dark150_system_reverse_focus",
+      "evidence": "screenshots/recapture_dark150_system_reverse_focus_1791414854044.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_updates_controls",
+      "freshId": "recapture_dark150_updates_controls",
+      "evidence": "screenshots/recapture_dark150_updates_controls_1791415087884.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_updates_destination",
+      "freshId": "recapture_dark150_updates_destination",
+      "evidence": "screenshots/recapture_dark150_updates_destination_1791415097806.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    },
+    {
+      "originalId": "dark150_updates_focus",
+      "freshId": "recapture_dark150_updates_focus",
+      "evidence": "screenshots/recapture_dark150_updates_focus_1791415108944.jpg",
+      "status": "FRESH_COVERAGE_OBSERVED",
+      "fullCellCredit": false
+    }
+  ],
+  "remaining": [
+    "settings_folder_enter: mouse destination does not prove Enter",
+    "apps_zero_filter and apps_filter_restored: input unconfirmed",
+    "apps_folder_focus and apps_folder_destination: Nyx coverage does not prove original Edge-specific predicate",
+    "cleanup consequence tooltip not captured",
+    "startup missing-location fixture requires preparation",
+    "native DPI and current installed identity pending"
+  ],
+  "fullCellCredit": false
+}

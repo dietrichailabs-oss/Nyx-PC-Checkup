@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_settings_applied_theme",
+      "status": "PASS_OBSERVED",
+      "details": "Settings appearance dropdown displays Dark with applied dark surfaces; local-first optional update fetch publicJSON only/no software download/install explanatory text readable. No preference changed; requested150 not measured DPI.",
+      "evidence": "screenshots/recapture_dark150_settings_applied_theme_1791418700019.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_settings_applied_theme_1791418700019.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:18:20.020Z"
+    },
+    {
+      "id": "recapture_dark150_settings_notifications_updates",
+      "status": "PASS_OBSERVED",
+      "details": "Read-only view: conservative in-app health notifications unchecked; no resident monitor/only while Nyx open. Automatic updates checked; request disclosure excludes username,machine name,hardware identifier,file names,scan results,telemetry/app data; public manifest HTTPS. Nothing toggled.",
+      "evidence": "screenshots/recapture_dark150_settings_notifications_updates_1791418707086.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_settings_notifications_updates_1791418707086.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:18:27.087Z"
+    },
+    {
+      "id": "recapture_dark150_settings_local_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Local data controls reachable: Open local data folder, Delete local logs and Save settings. Last attempted update UTC displayed; check/update/save/delete not activated.",
+      "evidence": "screenshots/recapture_dark150_settings_local_controls_1791418715381.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_settings_local_controls_1791418715381.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:18:35.382Z"
+    },
+    {
+      "id": "recapture_dark150_settings_local_folder",
+      "status": "PASS_OBSERVED",
+      "details": "Open local data folder reaches native Nyx PC Checkup folder containing actions/logs/reports/scans/temp/config.json. No files opened,modified,deleted or scans replaced.",
+      "evidence": "screenshots/recapture_dark150_settings_local_folder_1791418736083.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_settings_local_folder_1791418736083.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:18:56.084Z"
+    },
+    {
+      "id": "recapture_dark150_settings_local_folder_return",
+      "status": "PASS_OBSERVED",
+      "details": "Closing local data Explorer returns to Settings; privacy/update preferences unchanged, no logs deleted or update check initiated.",
+      "evidence": "screenshots/recapture_dark150_settings_local_folder_return_1791418749115.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_settings_local_folder_return_1791418749115.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:19:09.116Z"
+    }
+  ]
+}

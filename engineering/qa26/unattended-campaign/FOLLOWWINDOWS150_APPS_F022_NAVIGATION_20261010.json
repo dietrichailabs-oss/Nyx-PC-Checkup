@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_keyboard_input_recovered_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "Tab visibly moved focus to Cleanup navigation and auto-scrolled sidebar while Apps remained selected; keyboard control confirmed, mouse control not assumed.",
+      "evidence": "screenshots/followwindows150_keyboard_input_recovered_20261010_1791663482678.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:18:02.679Z"
+    },
+    {
+      "id": "followwindows150_apps_end_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 End moved focus to first-row Reported size Unknown and automatically revealed rightmost columns.",
+      "evidence": "screenshots/followwindows150_apps_end_navigation_20261010_1791663501525.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:18:21.525Z"
+    },
+    {
+      "id": "followwindows150_apps_home_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Home restored first-row Application cell Microsoft Edge and automatically revealed leftmost columns.",
+      "evidence": "screenshots/followwindows150_apps_home_navigation_20261010_1791663508284.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:18:28.285Z"
+    },
+    {
+      "id": "followwindows150_apps_pagedown_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Down moved from first Application cell to last Application cell Nyx PC Checkup, retaining visible focus.",
+      "evidence": "screenshots/followwindows150_apps_pagedown_navigation_20261010_1791663516421.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:18:36.421Z"
+    },
+    {
+      "id": "followwindows150_apps_pageup_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Up restored first Application cell Microsoft Edge from last row.",
+      "evidence": "screenshots/followwindows150_apps_pageup_navigation_20261010_1791663523723.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:18:43.724Z"
+    },
+    {
+      "id": "followwindows150_apps_down_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Down moved exactly one row to Microsoft Edge Update with visible Application focus.",
+      "evidence": "screenshots/followwindows150_apps_down_navigation_20261010_1791663533053.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:18:53.054Z"
+    },
+    {
+      "id": "followwindows150_apps_up_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Up restored Microsoft Edge Application cell from second row, visible focus retained.",
+      "evidence": "screenshots/followwindows150_apps_up_navigation_20261010_1791663548095.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:19:08.096Z"
+    }
+  ],
+  "fullCellCredit": false
+}

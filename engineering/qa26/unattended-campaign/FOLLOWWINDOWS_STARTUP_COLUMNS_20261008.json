@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_startup_columns",
+      "status": "PASS_OBSERVED",
+      "details": "Startup Nyx control, File exists, Impact headings visible. Current user - reversible and All users - read-only rows; Yes and Not measured values. No startup modification or elevation.",
+      "evidence": "screenshots/recapture_followwindows150_startup_columns_1791424326138.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_startup_columns_1791424326138.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:52:06.139Z"
+    }
+  ]
+}

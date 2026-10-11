@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "id": "fresh2_followwindows150_backup_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Supported Windows indicators and third-party backup undetectability disclosure readable; Open Windows Backup control visible,Ready no monitor.",
+      "evidence": "screenshots/fresh2_followwindows150_backup_controls_1791428021695.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_backup_controls_1791428021695.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:53:41.696Z"
+    },
+    {
+      "id": "fresh2_followwindows150_backup_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Native Accounts > Windows backup displayed;OneDrive not syncing,App list/Preferences not backed up. No account login,sync or preference input.",
+      "evidence": "screenshots/fresh2_followwindows150_backup_destination_1791428043975.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_backup_destination_1791428043975.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:54:03.976Z"
+    },
+    {
+      "id": "fresh2_followwindows150_backup_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from primary enters first Backup Status cell and auto-reveals row.",
+      "evidence": "screenshots/fresh2_followwindows150_backup_focus_1791428075246.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_backup_focus_1791428075246.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:54:35.247Z"
+    },
+    {
+      "id": "fresh2_followwindows150_backup_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter detail:No supported Windows backup configuration detected;third-party undetectability caveat;SafeRedirect;File History and Windows Backup scheduled tasks;Complete False. Historical scan not current backup assurance.",
+      "evidence": "screenshots/fresh2_followwindows150_backup_detail_1791428086224.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_backup_detail_1791428086224.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:54:46.225Z"
+    },
+    {
+      "id": "fresh2_followwindows150_backup_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals Close in Backup detail.",
+      "evidence": "screenshots/fresh2_followwindows150_backup_close_focus_1791428096487.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_backup_close_focus_1791428096487.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:54:56.488Z"
+    },
+    {
+      "id": "fresh2_followwindows150_backup_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Return on Close dismisses detail and restores first Backup Status cell;Ready no monitor.",
+      "evidence": "screenshots/fresh2_followwindows150_backup_keyboard_close_return_1791428108579.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_backup_keyboard_close_return_1791428108579.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:55:08.580Z"
+    },
+    {
+      "id": "fresh2_followwindows150_backup_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from first Status cell outlines Open Windows Backup;auto-reveal confirmed,not reactivated.",
+      "evidence": "screenshots/fresh2_followwindows150_backup_reverse_focus_1791428128847.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_backup_reverse_focus_1791428128847.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:55:28.848Z"
+    }
+  ],
+  "fullCellCredit": false
+}

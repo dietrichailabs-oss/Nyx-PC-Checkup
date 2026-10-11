@@ -1,0 +1,391 @@
+{
+  "utc": "2026-10-08T02:34:00.526Z",
+  "status": "INCOMPLETE_EVIDENCE",
+  "fullCellCredit": false,
+  "observations": [
+    {
+      "id": "recapture_followwindows150_home_privacy",
+      "status": "PASS_OBSERVED",
+      "details": "Idle reopen after saved FollowWindows renders light surfaces matching visible Windows light shell. Home local-only unless explicit export disclosure readable; 2 attention headline. Selector verification/native DPI/current hash identity remain pending; no scan run.",
+      "evidence": "screenshots/recapture_followwindows150_home_privacy_1791421144494.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:59:04.495Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_counts",
+      "status": "PASS_OBSERVED",
+      "details": "Home summary reads Good14/NeedsAttention2/Optional2/Unknown3 from preserved scan; light FollowWindows rendering. No new scan/export.",
+      "evidence": "screenshots/recapture_followwindows150_home_counts_1791421151768.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:59:11.769Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_unknown_assurance",
+      "status": "PASS_OBSERVED",
+      "details": "TPM and SecureBoot visibly say check could not be completed; unknown not presented as healthy. Optional cleanup77/2.0KB and Startup8 historical results visible; no cleanup or scan initiated.",
+      "evidence": "screenshots/recapture_followwindows150_home_unknown_assurance_1791421186970.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:59:46.97Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_rightmost_system",
+      "status": "PASS_OBSERVED",
+      "details": "Normal horizontal/vertical scrolling exposes full System and Backup cards, NeedsAttention1 recommended action each; no category scan/action activated.",
+      "evidence": "screenshots/recapture_followwindows150_home_rightmost_system_1791421411811.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:03:31.812Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_rightmost_security",
+      "status": "PASS_OBSERVED",
+      "details": "Complete rightmost Security card Good/No action needed and Updates card visible after normal scroll; this is historical scan UI, not a current Windows Security status assertion.",
+      "evidence": "screenshots/recapture_followwindows150_home_rightmost_security_1791421443248.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:04:03.249Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_primary_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from Home navigation to Export then CheckMyPC auto-reveals primary control fully in viewport with focus border; no Return/Space activation and no scan/export.",
+      "evidence": "screenshots/recapture_followwindows150_home_primary_focus_1791421474112.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:04:34.112Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_applied_selector",
+      "status": "PASS_OBSERVED",
+      "details": "After idle close/reopen, Settings selector displays FollowWindows and surfaces render light, matching visible Windows shell. Optional publicJSON/local-first/no download or install disclosure readable. Requested150 not measured DPI; identity/cell credit withheld.",
+      "evidence": "screenshots/recapture_followwindows150_settings_applied_selector_1791421717289.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:08:37.29Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_notification",
+      "status": "PASS_OBSERVED",
+      "details": "Notification unchecked, automatic updates checked; no resident monitor installed/notifications only while Nyx open disclosure wrapped and readable. No preference toggled.",
+      "evidence": "screenshots/recapture_followwindows150_settings_notification_1791421727241.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:08:47.242Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_update_readability",
+      "status": "PASS_OBSERVED",
+      "details": "Full update request disclosure excludes username,machine name,hardware identifier,file names,scan results,telemetry/application data; fixed public manifest HTTPS. Check for Updates button readable but not activated; prior UTC retained.",
+      "evidence": "screenshots/recapture_followwindows150_settings_update_readability_1791421738098.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:08:58.099Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_privacy",
+      "status": "PASS_OBSERVED",
+      "details": "Full Privacy promise readable/wrapped: local unless explicit export; structural secret/usernames/email/IPv4/compressed-expandedIPv6 redaction by default; update checks never upload reports/inventory; local log rotation. Disclosure only, not behavioral privacy gate.",
+      "evidence": "screenshots/recapture_followwindows150_settings_privacy_1791421763646.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:09:23.646Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_folder_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from CheckUpdates auto-reveals fully visible Open local data folder with focus outline; Delete local logs unactivated.",
+      "evidence": "screenshots/recapture_followwindows150_settings_folder_focus_1791422053496.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:14:13.497Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_folder_enter",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on keyboard-focused Open local data folder reaches native Nyx PC Checkup Explorer containing actions/logs/reports/scans/temp/config.json. No file opened,deleted or modified; preserved scan not replaced.",
+      "evidence": "screenshots/recapture_followwindows150_settings_folder_enter_1791422069061.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:14:29.062Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_save_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab passes unactivated Delete logs and auto-reveals Save settings fully within viewport with visible focus border. Save not activated; preferences and logs unchanged.",
+      "evidence": "screenshots/recapture_followwindows150_settings_save_focus_1791422112874.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:15:12.876Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Supported Windows uninstall inventory disclosure/no junk label/no automatic uninstall readable; search and primary actions visible. No scan/uninstall initiated.",
+      "evidence": "screenshots/recapture_followwindows150_apps_controls_1791422309570.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:18:29.571Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_zero_filter",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard z visibly remains in search while inventory grid is empty with readable headers; no exception or scan. Confirms this session keyboard input, not prior unverified type_text attempts.",
+      "evidence": "screenshots/recapture_followwindows150_apps_zero_filter_1791422337614.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:18:57.616Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_filter_restored",
+      "status": "PASS_OBSERVED",
+      "details": "BackSpace visibly clears z and restores supported inventory rows: Edge145.0.3800.97,EdgeUpdate,WebView2,OneDrive25.087.0506.0001,Nyx. No scan.",
+      "evidence": "screenshots/recapture_followwindows150_apps_filter_restored_1791422346513.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:06.514Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_first_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab enters restored five-row inventory, dotted focus on first Application Edge cell; auto-reveal and light focus readable.",
+      "evidence": "screenshots/recapture_followwindows150_apps_first_focus_1791422356886.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:16.887Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_final_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches last Nyx reported-size Unknown with dotted cell focus; full Version/InstallDate/ReportedSize headers and OneDrive413.5MB readable. Display evidence not hash identity.",
+      "evidence": "screenshots/recapture_followwindows150_apps_final_focus_1791422369043.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:29.044Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_folder_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from selected first Edge row through search auto-reveals fully visible enabled Open selected folder with focus outline; Edge145.0.3800.97 remains selected.",
+      "evidence": "screenshots/recapture_followwindows150_apps_folder_focus_1791422395448.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:55.449Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_folder_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens native Edge/Application directory, version145.0.3800.97 visible. No executable launched or file modified.",
+      "evidence": "screenshots/recapture_followwindows150_apps_folder_destination_1791422423848.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:20:23.849Z"
+    },
+    {
+      "id": "recapture_followwindows150_startup_columns",
+      "status": "PASS_OBSERVED",
+      "details": "Startup Nyx control, File exists, Impact headings visible. Current user - reversible and All users - read-only rows; Yes and Not measured values. No startup modification or elevation.",
+      "evidence": "screenshots/recapture_followwindows150_startup_columns_1791424326138.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:52:06.139Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_settings_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Previously observed UAC prompt absent; native System > Storage visible, C:126GB,19.1GB used,106GB free. Human resolution method not observed. No settings mutation or new scan.",
+      "evidence": "screenshots/recapture_followwindows150_storage_settings_destination_1791424993152.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:13.153Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Fresh bounded capture: Storage never deletes anything; large/old/duplicate not unwanted; Open Storage settings,Open Downloads,Run Full Check readable; Ready no monitor. No scan activation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_controls_1791425008549.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:28.55Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_downloads_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from returned Storage settings action visibly outlines Open Downloads.",
+      "evidence": "screenshots/recapture_followwindows150_storage_downloads_focus_1791425016226.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:36.226Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_downloads_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on Open Downloads opens native Explorer Users > Nyx > Downloads, empty 0 items. No file mutation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_downloads_destination_1791425032428.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:52.429Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_full_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab outlines Run Full Check; deliberately not activated to preserve authoritative scan.",
+      "evidence": "screenshots/recapture_followwindows150_storage_full_focus_1791425294576.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:14.577Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_grid_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from Run Full Check enters first Status cell, Good system-drive row; three result rows visible. Historical result, not refreshed measurement.",
+      "evidence": "screenshots/recapture_followwindows150_storage_grid_focus_1791425303513.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:23.515Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens System-drive free space detail:106.9GB free,84.8%,no storage action required,SafeRedirect,.NET DriveInfo,Complete True. Historical scan detail only.",
+      "evidence": "screenshots/recapture_followwindows150_storage_detail_1791425316630.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:36.631Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals Close button in result detail; no content mutation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_close_focus_1791425323332.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:43.332Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Return on Close dismisses detail and returns to first Storage Status cell, Ready no monitor.",
+      "evidence": "screenshots/recapture_followwindows150_storage_keyboard_close_return_1791425331105.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:51.106Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from first result Status cell returns to outlined Run Full Check and auto-reveals primary controls; no scan activation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_reverse_focus_1791425596168.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:13:16.17Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_measured_folders",
+      "status": "PASS_OBSERVED",
+      "details": "Measured user folders headers Folder,Size,Files,Complete readable. Downloads282B/1,Desktop2.8KB/2,Documents2.2MB/25001,Pictures504B/1; Complete True. Historical scan counts only.",
+      "evidence": "screenshots/recapture_followwindows150_storage_measured_folders_1791425615028.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:13:35.029Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_largest_files",
+      "status": "PASS_OBSERVED",
+      "details": "Largest files table File,Size,Folder readable: Nyx PC Checkup.lnk2.5KB C:\\Users\\Nyx\\Desktop and desktop.ini rows in Videos/Pictures/Documents/Desktop. Historical scan only; no files executed/deleted.",
+      "evidence": "screenshots/recapture_followwindows150_storage_largest_files_1791425633496.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:13:53.496Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_final_row",
+      "status": "PASS_OBSERVED",
+      "details": "Settled CtrlEnd outcome from prior checkpoint: final largest-file row fixture_24983.txt,92B selected and internal scrollbar at bottom. Long folder path ellipsized, not exact-path credit.",
+      "evidence": "screenshots/recapture_followwindows150_storage_final_row_1791425890989.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:18:10.99Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_exact_fixture_origin",
+      "status": "PASS_OBSERVED",
+      "details": "Focused filename cell fixture_24983.txt,92B, final row before Enter; folder C:\\Users\\Nyx\\Documents\\NyxQA26_ReadOnly... remains ellipsized.",
+      "evidence": "screenshots/recapture_followwindows150_storage_exact_fixture_origin_1791425919008.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:18:39.009Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_exact_selected_file",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opened NyxQA26_ReadOnlyScanLoad folder; viewport-only scroll reveals checkmarked selected fixture_24983 matching Nyx filename, one selected92-byte item. No selection change/file mutation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_exact_selected_file_1791425946420.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:19:06.421Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Quick Check/Full Check controls and coverage disclosure readable. Full adds storage,Downloads,cleanup review,battery,drivers,performance,installed applications. Ready no monitor; no scan launched.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_controls_1791426201844.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:23:21.845Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_first_focus",
+      "status": "PASS_OBSERVED",
+      "details": "First Status cell focused; result headers readable and historical System overview first row displayed.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_first_focus_1791426219395.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:23:39.396Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens System overview:historical2.6GB RAM,Windows build26200,no action,serial/unique identifiers intentionally not collected,ActionSafety None,Windows CIM/local environment,Complete True. Not current identity/raw validation.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_detail_1791426236341.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:23:56.342Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals Close button in System overview detail.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_close_focus_1791426246673.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:24:06.674Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Return on Close dismisses detail and restores first Status cell in Checkup grid; Ready no monitor.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_keyboard_close_return_1791426256211.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:24:16.212Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_final_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reveals final Installed applications What Nyx found cell with focus rectangle;5 installed applications historical summary; last rows readable without scan.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_final_focus_1791426273471.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:24:33.472Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_reverse_full_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab from final What Nyx found cell exits grid to outlined Full Check, auto-reveals primary controls; not activated.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_reverse_full_focus_1791426502701.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:28:22.702Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_quick_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from Full Check outlines Quick Check; no activation, Ready no monitor.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_quick_focus_1791426514682.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:28:34.683Z"
+    }
+  ],
+  "historicalBlockers": [
+    {
+      "id": "recapture_followwindows150_storage_uac_blocker",
+      "status": "BLOCKED_HUMAN",
+      "details": "Open Storage settings reached Microsoft Windows Settings UAC credential prompt. Destination not verified. Stopped UI input; no credentials, approval or bypass. Human must dismiss this prompt; all UAC work remains at end.",
+      "evidence": "screenshots/recapture_followwindows150_storage_uac_blocker_1791424722130.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:58:42.13Z"
+    }
+  ],
+  "emptyManifests": [
+    "FOLLOWWINDOWS_APPS_REMAINDER_20261008.json",
+    "FOLLOWWINDOWS_CLEANUP_FRESH_20261008.json",
+    "FOLLOWWINDOWS_BACKUP_FRESH_20261008.json",
+    "FOLLOWWINDOWS_SYSTEM_FRESH_20261008.json",
+    "FOLLOWWINDOWS_UPDATES_FRESH_20261008.json",
+    "FOLLOWWINDOWS_SECURITY_FRESH_20261008.json",
+    "FOLLOWWINDOWS_STARTUP_KEYBOARD_20261008.json"
+  ],
+  "remaining": [
+    "Empty manifest batches require trustworthy exact-predicate recovery or fresh captures; no completed credit",
+    "Storage long-path tooltip",
+    "Startup missing-location fixture",
+    "Native DPI/PMv2 and current installed identity",
+    "Deferred raw/UAC and human Windows Security controls"
+  ],
+  "scoreboard": {
+    "strictAccepted": 56,
+    "strictTotal": 99,
+    "bestEffortAccepted": 0,
+    "bestEffortTotal": 33
+  }
+}

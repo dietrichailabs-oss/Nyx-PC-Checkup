@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "light150_apps_end_navigation",
+      "status": "PASS_OBSERVED",
+      "details": "End reveals Version/Install date/Reported size columns on existing first row; Version145.0.3800.97, date20260804, Unknown and OneDrive413.5MB readable; no action dialog.",
+      "evidence": "screenshots/light150_apps_end_navigation_1791501006715.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:10:06.716Z"
+    },
+    {
+      "id": "light150_apps_home_navigation",
+      "status": "PASS_OBSERVED",
+      "details": "Home returns horizontal view to Application/Publisher/Version and same first selected Edge row; no action dialog.",
+      "evidence": "screenshots/light150_apps_home_navigation_1791501018548.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:10:18.548Z"
+    },
+    {
+      "id": "light150_apps_pagedown_navigation",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown selects final Nyx PC Checkup row in five-row grid; Version1.0.0 readable; no folder launch/scan or dialog.",
+      "evidence": "screenshots/light150_apps_pagedown_navigation_1791501028492.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:10:28.492Z"
+    },
+    {
+      "id": "light150_apps_pageup_navigation",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returns selected row to Edge in five-row inventory; no action activation.",
+      "evidence": "screenshots/light150_apps_pageup_navigation_1791501038879.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:10:38.880Z"
+    },
+    {
+      "id": "light150_apps_down_navigation",
+      "status": "PASS_OBSERVED",
+      "details": "Down selects second Edge Update row; no activation.",
+      "evidence": "screenshots/light150_apps_down_navigation_1791501048866.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:10:48.866Z"
+    },
+    {
+      "id": "light150_apps_up_navigation",
+      "status": "PASS_OBSERVED",
+      "details": "Up returns first Edge row selected; no activation.",
+      "evidence": "screenshots/light150_apps_up_navigation_1791501063839.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:11:03.840Z"
+    }
+  ],
+  "fullCellCredit": false
+}

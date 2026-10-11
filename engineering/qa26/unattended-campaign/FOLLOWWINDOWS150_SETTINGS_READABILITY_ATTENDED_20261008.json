@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_settings_notifications_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Notification control unchecked and full explanation readable: no resident PC health monitor installed; notifications only while Nyx open. No setting changed. Repairs legacy duplicate-payload notification evidence.",
+      "evidence": "screenshots/followwindows150_settings_notifications_attended_fresh_1791501625801.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:20:25.802Z"
+    },
+    {
+      "id": "followwindows150_settings_update_explanation_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Automatic update control checked; full wrapped request disclosure readable, no username/machine/hardware/file/scan/telemetry/application data; public manifest over HTTPS. No update action or control change. Repairs legacy duplicate-payload update explanation.",
+      "evidence": "screenshots/followwindows150_settings_update_explanation_attended_fresh_1791501635761.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:20:35.762Z"
+    },
+    {
+      "id": "followwindows150_settings_privacy_promise_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Full privacy promise readable including explicit-export condition. Repairs legacy duplicate-payload privacy evidence; no controls changed.",
+      "evidence": "screenshots/followwindows150_settings_privacy_promise_attended_fresh_1791501651313.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:20:51.314Z"
+    },
+    {
+      "id": "followwindows150_settings_privacy_explanation_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Lower disclosure fully readable: report preview/redaction of secret-bearing fields usernames email IPv4 IPv6; updates never upload reports/inventory; local log rotation/deletion explanation. No export/deletion performed.",
+      "evidence": "screenshots/followwindows150_settings_privacy_explanation_attended_fresh_1791501666358.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:21:06.359Z"
+    }
+  ],
+  "fullCellCredit": false
+}

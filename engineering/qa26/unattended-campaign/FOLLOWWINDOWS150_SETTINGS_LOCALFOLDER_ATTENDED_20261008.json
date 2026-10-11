@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_settings_localfolder_enter_destination_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Enter after selectingOpenLocalDataFolder opensExplorerNyxPCCheckup withactions/logs/reports/scans/temp/config.json visible. No filesopened/deleted; absoluteaddressnotrevealed therefore pathidentitynotfullcredit.",
+      "evidence": "screenshots/followwindows150_settings_localfolder_enter_destination_attended_fresh_1791502774512.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:39:34.513Z"
+    }
+  ],
+  "fullCellCredit": false
+}

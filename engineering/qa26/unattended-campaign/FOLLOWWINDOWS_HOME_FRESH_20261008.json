@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_home_privacy",
+      "status": "PASS_OBSERVED",
+      "details": "Idle reopen after saved FollowWindows renders light surfaces matching visible Windows light shell. Home local-only unless explicit export disclosure readable; 2 attention headline. Selector verification/native DPI/current hash identity remain pending; no scan run.",
+      "evidence": "screenshots/recapture_followwindows150_home_privacy_1791421144494.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_home_privacy_1791421144494.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:59:04.495Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_counts",
+      "status": "PASS_OBSERVED",
+      "details": "Home summary reads Good14/NeedsAttention2/Optional2/Unknown3 from preserved scan; light FollowWindows rendering. No new scan/export.",
+      "evidence": "screenshots/recapture_followwindows150_home_counts_1791421151768.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_home_counts_1791421151768.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:59:11.769Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_unknown_assurance",
+      "status": "PASS_OBSERVED",
+      "details": "TPM and SecureBoot visibly say check could not be completed; unknown not presented as healthy. Optional cleanup77/2.0KB and Startup8 historical results visible; no cleanup or scan initiated.",
+      "evidence": "screenshots/recapture_followwindows150_home_unknown_assurance_1791421186970.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_home_unknown_assurance_1791421186970.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:59:46.970Z"
+    }
+  ],
+  "fullCellCredit": false,
+  "remaining": [
+    "rightmost category visibility",
+    "primary keyboard focus",
+    "applied selector verification",
+    "native DPI and installed identity"
+  ]
+}

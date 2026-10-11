@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_security_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Nyx Security explanation states read-only protection status without disabling replacing or modifying protection; Open Windows Security primary visible. Redirect remains human-only.",
+      "evidence": "screenshots/recapture_dark150_security_controls_1791415393721.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_security_controls_1791415393721.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:23:13.722Z"
+    },
+    {
+      "id": "recapture_dark150_security_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab visibly focuses Antivirus protection Check cell; six security findings displayed with text/icon status, including Unknown checks.",
+      "evidence": "screenshots/recapture_dark150_security_focus_1791415403418.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_security_focus_1791415403418.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:23:23.419Z"
+    },
+    {
+      "id": "recapture_dark150_security_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens exact Antivirus protection finding; WHAT/WHY/recommendation readable, SafeRedirect, Get-MpComputerStatus and SecurityCenter2, Complete True, technical protection booleans. No OS security interaction.",
+      "evidence": "screenshots/recapture_dark150_security_detail_1791415411797.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_security_detail_1791415411797.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:23:31.798Z"
+    },
+    {
+      "id": "recapture_dark150_security_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab automatically scrolls Antivirus detail to visible focused Close button.",
+      "evidence": "screenshots/recapture_dark150_security_close_focus_1791415415465.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_security_close_focus_1791415415465.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:23:35.466Z"
+    },
+    {
+      "id": "recapture_dark150_security_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Enter closes Antivirus detail and restores visible dotted focus to exact originating Antivirus protection Check cell.",
+      "evidence": "screenshots/recapture_dark150_security_keyboard_close_return_1791415422271.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_security_keyboard_close_return_1791415422271.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:23:42.272Z"
+    },
+    {
+      "id": "recapture_dark150_security_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab auto-reveals fully visible focused Open Windows Security primary; not activated because destination is human-only.",
+      "evidence": "screenshots/recapture_dark150_security_reverse_focus_1791415426840.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_security_reverse_focus_1791415426840.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:23:46.841Z"
+    }
+  ]
+}

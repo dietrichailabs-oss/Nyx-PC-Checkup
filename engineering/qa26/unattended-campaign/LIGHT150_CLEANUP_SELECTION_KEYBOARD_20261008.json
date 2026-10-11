@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "light150_cleanup_keyboard_explicit_selection",
+      "status": "PASS_OBSERVED",
+      "details": "Home then Space selects only BITFB98.tmp checkbox, zero-byte item, other displayed checkboxes unchecked. Selection-only, no review/delete executed.",
+      "evidence": "screenshots/light150_cleanup_keyboard_explicit_selection_1791501144132.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:12:24.133Z"
+    },
+    {
+      "id": "light150_cleanup_keyboard_selection_restored",
+      "status": "PASS_OBSERVED",
+      "details": "Second Space clears BITFB98.tmp checkbox; every visible row unchecked; no deletion.",
+      "evidence": "screenshots/light150_cleanup_keyboard_selection_restored_1791501154926.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:12:34.927Z"
+    },
+    {
+      "id": "light150_cleanup_selection_zero_summary",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlTab exits grid and auto-scrolls Review and clean selected into view; summary Selected 0 item(s), 0 B proves restored selection. No activation/deletion.",
+      "evidence": "screenshots/light150_cleanup_selection_zero_summary_1791501166820.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:12:46.821Z"
+    }
+  ],
+  "fullCellCredit": false
+}

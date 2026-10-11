@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_guest_input_recovered_20261009",
+      "status": "PASS_OBSERVED",
+      "details": "NewVMConnection window1184078;Explorer gone Settingsvisible; Tab changesfocus tooutlinedDeleteLocalLogs only,noactivation. Guestinputrecovery observed; priorreturnfocusnotproven.",
+      "evidence": "screenshots/followwindows150_guest_input_recovered_20261009_1791564931855.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-09T16:55:31.856Z"
+    }
+  ],
+  "fullCellCredit": false
+}

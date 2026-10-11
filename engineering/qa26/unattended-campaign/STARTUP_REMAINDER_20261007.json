@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_startup_final_fixture_location",
+      "status": "PASS_OBSERVED",
+      "details": "Final current-user QA26 Startup Final Fixture exists: Open file location selects exact command file in native Startup folder. This is valid-location evidence only, NOT missing-location credit. No execution or mutation.",
+      "evidence": "screenshots/recapture_dark150_startup_final_fixture_location_1791416013970.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_startup_final_fixture_location_1791416013970.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:33:33.971Z"
+    }
+  ],
+  "unresolved": {
+    "predicate": "dark150_startup_missing_location",
+    "status": "NOT_RUN",
+    "reason": "Current displayed Startup entries contain no established missing-location fixture. QA26 Startup Final Fixture exists and opens correctly; cannot substitute it for missing-location evidence. Requires documented disposable fixture preparation, not product change."
+  }
+}

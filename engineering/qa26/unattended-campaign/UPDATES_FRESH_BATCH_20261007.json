@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_updates_controls",
+      "status": "PASS_OBSERVED",
+      "details": "WindowsUpdates local-indicator/limited-assurance explanation wraps; primary visible; no update initiated.",
+      "evidence": "screenshots/recapture_dark150_updates_controls_1791415087884.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_updates_controls_1791415087884.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:18:07.885Z"
+    },
+    {
+      "id": "recapture_dark150_updates_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Correct native WindowsUpdate destination; no check/install/pause/preferences activated.",
+      "evidence": "screenshots/recapture_dark150_updates_destination_1791415097806.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_updates_destination_1791415097806.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:18:17.807Z"
+    },
+    {
+      "id": "recapture_dark150_updates_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals three Updates findings with dotted first status focus and icon/textGood.",
+      "evidence": "screenshots/recapture_dark150_updates_focus_1791415108944.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_updates_focus_1791415108944.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:18:28.945Z"
+    },
+    {
+      "id": "recapture_dark150_updates_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Update restart detail matches first finding; no pending restart; WHAT/WHY/recommendation/SafeRedirect/Windowsservicingregistry/CompleteTrue readable.",
+      "evidence": "screenshots/recapture_dark150_updates_detail_1791415118287.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_updates_detail_1791415118287.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:18:38.288Z"
+    },
+    {
+      "id": "recapture_dark150_updates_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab scrolls focused Close button into accessible viewport.",
+      "evidence": "screenshots/recapture_dark150_updates_close_focus_1791415125008.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_updates_close_focus_1791415125008.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:18:45.009Z"
+    },
+    {
+      "id": "recapture_dark150_updates_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Enter closes exact detail and restores dotted keyboard focus to first Update restart finding.",
+      "evidence": "screenshots/recapture_dark150_updates_keyboard_close_return_1791415134630.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_updates_keyboard_close_return_1791415134630.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:18:54.631Z"
+    },
+    {
+      "id": "recapture_dark150_updates_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab auto-reveals fully reachable OpenWindowsUpdate with visible focus; no reactivation.",
+      "evidence": "screenshots/recapture_dark150_updates_reverse_focus_1791415248546.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_updates_reverse_focus_1791415248546.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:20:48.547Z"
+    }
+  ]
+}

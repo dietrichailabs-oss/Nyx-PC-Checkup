@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_storage_measured_folders",
+      "status": "PASS_OBSERVED",
+      "details": "Preserved measured folders table readable: Downloads 282B/1, Desktop 2.8KB/2, Documents 2.2MB/25001, Pictures 504B/1, Videos 504B/1; displayed Complete True. Historical measurements not refreshed.",
+      "evidence": "screenshots/recapture_dark150_storage_measured_folders_1791416592085.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_measured_folders_1791416592085.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:43:12.086Z"
+    },
+    {
+      "id": "recapture_dark150_storage_largest_grid_end",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches bottom of preserved largest-files grid; fixture_24983.txt displayed at final visible row with size92B and Documents/NyxQA26_ReadOnly path. No file execution or deletion.",
+      "evidence": "screenshots/recapture_dark150_storage_largest_grid_end_1791416608180.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_largest_grid_end_1791416608180.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:43:28.181Z"
+    },
+    {
+      "id": "recapture_dark150_storage_selected_file_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard focus visibly reaches fixture_24949.txt size cell92B; read-only fixture row selected in largest-files grid.",
+      "evidence": "screenshots/recapture_dark150_storage_selected_file_focus_1791416626369.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_selected_file_focus_1791416626369.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:43:46.370Z"
+    },
+    {
+      "id": "recapture_dark150_storage_enter_isolated",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on largest-file fixture opens native Explorer NyxQA26_ReadOnlyScanLoad containing folder, 25000 items and one selected92-byte item; no text editor or file execution observed. Exact selected filename not credited from this viewport.",
+      "evidence": "screenshots/recapture_dark150_storage_enter_isolated_1791416638625.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_enter_isolated_1791416638625.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:43:58.626Z"
+    },
+    {
+      "id": "recapture_dark150_storage_folder_return",
+      "status": "PASS_OBSERVED",
+      "details": "Closing fixture Explorer normally returns to idle Nyx Storage largest-files section; no new scan or deletion.",
+      "evidence": "screenshots/recapture_dark150_storage_folder_return_1791416647291.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_folder_return_1791416647291.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:44:07.292Z"
+    }
+  ]
+}

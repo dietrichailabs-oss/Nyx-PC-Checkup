@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "light150_system_reverse_primary_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab exits System grid and auto-reveals Open Windows System About with visible outline; no OS settings changed or redirect repeated.",
+      "evidence": "screenshots/light150_system_reverse_primary_focus_1791500967110.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:09:27.111Z"
+    }
+  ],
+  "fullCellCredit": false
+}

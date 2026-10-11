@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_storage_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 End focused first-row last What Nyx found column.",
+      "evidence": "screenshots/followwindows150_storage_end_navigation_20261011_1791725416008.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:30:16.009Z"
+    },
+    {
+      "id": "followwindows150_storage_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Home restored first-row Good Status cell.",
+      "evidence": "screenshots/followwindows150_storage_home_navigation_20261011_1791725425522.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:30:25.523Z"
+    },
+    {
+      "id": "followwindows150_storage_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Down focused final Downloads Good Status cell.",
+      "evidence": "screenshots/followwindows150_storage_pagedown_navigation_20261011_1791725436884.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:30:36.885Z"
+    },
+    {
+      "id": "followwindows150_storage_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Up restored first-row system-drive Good Status cell.",
+      "evidence": "screenshots/followwindows150_storage_pageup_navigation_20261011_1791725446967.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:30:46.968Z"
+    },
+    {
+      "id": "followwindows150_storage_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Down moved exactly one row to user-profile Good Status cell.",
+      "evidence": "screenshots/followwindows150_storage_down_navigation_20261011_1791725455216.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:30:55.217Z"
+    },
+    {
+      "id": "followwindows150_storage_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Up restored first-row system-drive Good Status cell.",
+      "evidence": "screenshots/followwindows150_storage_up_navigation_20261011_1791725464605.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:31:04.606Z"
+    }
+  ],
+  "fullCellCredit": false
+}

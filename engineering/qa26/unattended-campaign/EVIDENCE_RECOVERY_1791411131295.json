@@ -1,0 +1,158 @@
+{
+  "schema": "QA26-EVIDENCE-RECOVERY-1",
+  "utc": "2026-10-07T22:12:11.294Z",
+  "productModified": false,
+  "source": "Preserved unique screenshots and prior run trace; no repeated tests or full-cell credit",
+  "records": [
+    {
+      "id": "dark150_checkup_controls",
+      "evidence": "screenshots/dark150_checkup_controls_1791331912865.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_checkup_detail",
+      "evidence": "screenshots/dark150_checkup_detail_1791331952683.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_checkup_end_focus",
+      "evidence": "screenshots/dark150_checkup_end_focus_1791331936399.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_checkup_reverse_focus",
+      "evidence": "screenshots/dark150_checkup_reverse_focus_1791331983431.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_home_export_actions",
+      "evidence": "screenshots/dark150_home_export_actions_1791332065074.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_home_export_cancel_focus",
+      "evidence": "screenshots/dark150_home_export_cancel_focus_1791332093298.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_home_export_cancel_return",
+      "evidence": "screenshots/dark150_home_export_cancel_return_1791332117278.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_home_export_preview",
+      "evidence": "screenshots/dark150_home_export_preview_1791332055210.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_home_horizontal_cards",
+      "evidence": "screenshots/dark150_home_horizontal_cards_1791332039675.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_home_privacy_controls",
+      "evidence": "screenshots/dark150_home_privacy_controls_1791332007728.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_home_status_totals",
+      "evidence": "screenshots/dark150_home_status_totals_1791332015753.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_security_controls",
+      "evidence": "screenshots/dark150_security_controls_1791331471429.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_security_detail",
+      "evidence": "screenshots/dark150_security_detail_1791331529219.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_security_final_focus",
+      "evidence": "screenshots/dark150_security_final_focus_1791331516082.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_security_redirect_observed",
+      "evidence": "screenshots/dark150_security_redirect_observed_1791331491127.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_security_reverse_focus",
+      "evidence": "screenshots/dark150_security_reverse_focus_1791331550428.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_startup_allusers_readonly",
+      "evidence": "screenshots/dark150_startup_allusers_readonly_1791331642419.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_startup_controls",
+      "evidence": "screenshots/dark150_startup_controls_1791331616096.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_startup_location_destination",
+      "evidence": "screenshots/dark150_startup_location_destination_1791331656892.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_startup_readonly_reverse_focus",
+      "evidence": "screenshots/dark150_startup_readonly_reverse_focus_1791331677201.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_startup_refresh_focus",
+      "evidence": "screenshots/dark150_startup_refresh_focus_1791331629771.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_controls",
+      "evidence": "screenshots/dark150_storage_controls_1791331684750.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_detail",
+      "evidence": "screenshots/dark150_storage_detail_1791331743636.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_downloads_destination",
+      "evidence": "screenshots/dark150_storage_downloads_destination_1791331698342.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_end_navigation",
+      "evidence": "screenshots/dark150_storage_end_navigation_1791331903659.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_file_enter_destination",
+      "evidence": "screenshots/dark150_storage_file_enter_destination_1791331821741.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_full_focus",
+      "evidence": "screenshots/dark150_storage_full_focus_1791331723371.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_grid_focus",
+      "evidence": "screenshots/dark150_storage_grid_focus_1791331729560.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_storage_measured_folders",
+      "evidence": "screenshots/dark150_storage_measured_folders_1791331774011.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    },
+    {
+      "id": "dark150_updates_detail",
+      "evidence": "screenshots/dark150_updates_detail_1791331446223.jpg",
+      "status": "RECOVERED_PENDING_PREDICATE_AUDIT"
+    }
+  ]
+}

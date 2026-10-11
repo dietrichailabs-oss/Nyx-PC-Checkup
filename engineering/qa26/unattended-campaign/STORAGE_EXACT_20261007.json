@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_storage_exact_selection_origin",
+      "status": "OBSERVED_ONLY",
+      "details": "Focused exact desktop.ini row504B in C:\\Users\\Nyx\\Videos, before containing-folder activation.",
+      "evidence": "screenshots/recapture_dark150_storage_exact_selection_origin_1791416886622.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_exact_selection_origin_1791416886622.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:48:06.623Z"
+    },
+    {
+      "id": "recapture_dark150_storage_exact_fixture_origin",
+      "status": "OBSERVED_ONLY",
+      "details": "Exact focused final largest-files row fixture_24983.txt,92B, Documents/NyxQA26_ReadOnly folder before Enter.",
+      "evidence": "screenshots/recapture_dark150_storage_exact_fixture_origin_1791416929721.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_exact_fixture_origin_1791416929721.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:48:49.721Z"
+    },
+    {
+      "id": "recapture_dark150_storage_exact_selected_file",
+      "status": "PASS_OBSERVED",
+      "details": "Native Explorer visibly selects/checkmarks fixture_24983 matching Nyx fixture_24983.txt row, one selected92-byte item in NyxQA26_ReadOnlyScanLoad containing folder; only viewport scrolled, selection unchanged.",
+      "evidence": "screenshots/recapture_dark150_storage_exact_selected_file_1791416962769.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_exact_selected_file_1791416962769.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:49:22.770Z"
+    }
+  ]
+}

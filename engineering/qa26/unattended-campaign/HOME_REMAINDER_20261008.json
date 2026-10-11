@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_home_rightmost_security",
+      "status": "PASS_OBSERVED",
+      "details": "Horizontal scrolling reveals full Security card: Good icon/text and No action needed; Updates card readable. No card action activated.",
+      "evidence": "screenshots/recapture_dark150_home_rightmost_security_1791417810192.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_home_rightmost_security_1791417810192.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:03:30.193Z"
+    },
+    {
+      "id": "recapture_dark150_home_rightmost_system",
+      "status": "PASS_OBSERVED",
+      "details": "Horizontal/vertical scrolling fully reveals System and Backup cards, each Needs Attention and1 recommended action. Category/status/summary readable; no action activated.",
+      "evidence": "screenshots/recapture_dark150_home_rightmost_system_1791417832494.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_home_rightmost_system_1791417832494.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:03:52.495Z"
+    }
+  ],
+  "pending": [
+    "Home primary keyboard focus",
+    "Home timestamp evidence"
+  ],
+  "interruption": "User input detected during summary focus action; reobserved Home, no scan triggered by agent."
+}

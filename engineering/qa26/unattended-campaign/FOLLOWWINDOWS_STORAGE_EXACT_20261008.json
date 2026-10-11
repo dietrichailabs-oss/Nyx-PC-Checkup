@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_storage_final_row",
+      "status": "PASS_OBSERVED",
+      "details": "Settled CtrlEnd outcome from prior checkpoint: final largest-file row fixture_24983.txt,92B selected and internal scrollbar at bottom. Long folder path ellipsized, not exact-path credit.",
+      "evidence": "screenshots/recapture_followwindows150_storage_final_row_1791425890989.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_final_row_1791425890989.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:18:10.990Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_exact_fixture_origin",
+      "status": "PASS_OBSERVED",
+      "details": "Focused filename cell fixture_24983.txt,92B, final row before Enter; folder C:\\Users\\Nyx\\Documents\\NyxQA26_ReadOnly... remains ellipsized.",
+      "evidence": "screenshots/recapture_followwindows150_storage_exact_fixture_origin_1791425919008.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_exact_fixture_origin_1791425919008.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:18:39.009Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_exact_selected_file",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opened NyxQA26_ReadOnlyScanLoad folder; viewport-only scroll reveals checkmarked selected fixture_24983 matching Nyx filename, one selected92-byte item. No selection change/file mutation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_exact_selected_file_1791425946420.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_exact_selected_file_1791425946420.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:19:06.421Z"
+    }
+  ],
+  "remaining": "Long-path tooltip unverified; native DPI/current installation identity required before full-cell credit."
+}

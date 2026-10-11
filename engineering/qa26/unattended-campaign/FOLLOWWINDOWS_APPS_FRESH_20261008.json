@@ -1,0 +1,71 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_apps_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Supported Windows uninstall inventory disclosure/no junk label/no automatic uninstall readable; search and primary actions visible. No scan/uninstall initiated.",
+      "evidence": "screenshots/recapture_followwindows150_apps_controls_1791422309570.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_controls_1791422309570.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:18:29.571Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_zero_filter",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard z visibly remains in search while inventory grid is empty with readable headers; no exception or scan. Confirms this session keyboard input, not prior unverified type_text attempts.",
+      "evidence": "screenshots/recapture_followwindows150_apps_zero_filter_1791422337614.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_zero_filter_1791422337614.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:18:57.616Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_filter_restored",
+      "status": "PASS_OBSERVED",
+      "details": "BackSpace visibly clears z and restores supported inventory rows: Edge145.0.3800.97,EdgeUpdate,WebView2,OneDrive25.087.0506.0001,Nyx. No scan.",
+      "evidence": "screenshots/recapture_followwindows150_apps_filter_restored_1791422346513.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_filter_restored_1791422346513.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:06.514Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_first_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab enters restored five-row inventory, dotted focus on first Application Edge cell; auto-reveal and light focus readable.",
+      "evidence": "screenshots/recapture_followwindows150_apps_first_focus_1791422356886.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_first_focus_1791422356886.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:16.887Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_final_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches last Nyx reported-size Unknown with dotted cell focus; full Version/InstallDate/ReportedSize headers and OneDrive413.5MB readable. Display evidence not hash identity.",
+      "evidence": "screenshots/recapture_followwindows150_apps_final_focus_1791422369043.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_final_focus_1791422369043.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:29.044Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_folder_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from selected first Edge row through search auto-reveals fully visible enabled Open selected folder with focus outline; Edge145.0.3800.97 remains selected.",
+      "evidence": "screenshots/recapture_followwindows150_apps_folder_focus_1791422395448.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_folder_focus_1791422395448.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:19:55.449Z"
+    },
+    {
+      "id": "recapture_followwindows150_apps_folder_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens native Edge/Application directory, version145.0.3800.97 visible. No executable launched or file modified.",
+      "evidence": "screenshots/recapture_followwindows150_apps_folder_destination_1791422423848.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_folder_destination_1791422423848.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:20:23.849Z"
+    }
+  ],
+  "fullCellCredit": false,
+  "remaining": [
+    "Open Installed Apps redirect evidence reconciliation"
+  ]
+}

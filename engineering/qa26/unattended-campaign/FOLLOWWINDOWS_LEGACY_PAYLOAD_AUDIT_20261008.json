@@ -1,0 +1,534 @@
+{
+  "utc": "2026-10-08T03:28:20.140Z",
+  "records": [
+    {
+      "id": "recapture_followwindows150_home_privacy",
+      "evidence": "screenshots/recapture_followwindows150_home_privacy_1791421144494.jpg",
+      "bytes": 72876,
+      "sha256": "432e4d179e312bd9267ba574653ba98412a7aab8a3607b229e3177d0f950c610"
+    },
+    {
+      "id": "recapture_followwindows150_home_counts",
+      "evidence": "screenshots/recapture_followwindows150_home_counts_1791421151768.jpg",
+      "bytes": 74640,
+      "sha256": "b71519101be60fc559d8e2d07aa67bf04299d9964f5b2d6608cddfcd2fd0a2b7"
+    },
+    {
+      "id": "recapture_followwindows150_home_unknown_assurance",
+      "evidence": "screenshots/recapture_followwindows150_home_unknown_assurance_1791421186970.jpg",
+      "bytes": 74640,
+      "sha256": "b71519101be60fc559d8e2d07aa67bf04299d9964f5b2d6608cddfcd2fd0a2b7"
+    },
+    {
+      "id": "recapture_followwindows150_home_rightmost_system",
+      "evidence": "screenshots/recapture_followwindows150_home_rightmost_system_1791421411811.jpg",
+      "bytes": 74570,
+      "sha256": "64329b85ba6b638205aa15ab7ac0babefc795b968aa1d892fd65af32b300b006"
+    },
+    {
+      "id": "recapture_followwindows150_home_rightmost_security",
+      "evidence": "screenshots/recapture_followwindows150_home_rightmost_security_1791421443248.jpg",
+      "bytes": 74570,
+      "sha256": "64329b85ba6b638205aa15ab7ac0babefc795b968aa1d892fd65af32b300b006"
+    },
+    {
+      "id": "recapture_followwindows150_home_primary_focus",
+      "evidence": "screenshots/recapture_followwindows150_home_primary_focus_1791421474112.jpg",
+      "bytes": 74570,
+      "sha256": "64329b85ba6b638205aa15ab7ac0babefc795b968aa1d892fd65af32b300b006"
+    },
+    {
+      "id": "recapture_followwindows150_settings_applied_selector",
+      "evidence": "screenshots/recapture_followwindows150_settings_applied_selector_1791421717289.jpg",
+      "bytes": 74446,
+      "sha256": "d2709b9669b2344253bfc2e4617313d0306caf68655198a103a2af36ff553cfc"
+    },
+    {
+      "id": "recapture_followwindows150_settings_notification",
+      "evidence": "screenshots/recapture_followwindows150_settings_notification_1791421727241.jpg",
+      "bytes": 73912,
+      "sha256": "812a84dfd5c562ab702fd16205314886fb1ed32696da7790cc2d7b37bf57a044"
+    },
+    {
+      "id": "recapture_followwindows150_settings_update_readability",
+      "evidence": "screenshots/recapture_followwindows150_settings_update_readability_1791421738098.jpg",
+      "bytes": 73912,
+      "sha256": "812a84dfd5c562ab702fd16205314886fb1ed32696da7790cc2d7b37bf57a044"
+    },
+    {
+      "id": "recapture_followwindows150_settings_privacy",
+      "evidence": "screenshots/recapture_followwindows150_settings_privacy_1791421763646.jpg",
+      "bytes": 73912,
+      "sha256": "812a84dfd5c562ab702fd16205314886fb1ed32696da7790cc2d7b37bf57a044"
+    },
+    {
+      "id": "recapture_followwindows150_settings_folder_focus",
+      "evidence": "screenshots/recapture_followwindows150_settings_folder_focus_1791422053496.jpg",
+      "bytes": 81195,
+      "sha256": "87e62fddc89e17f0b669d5cca59838ef835b93daf934811bb9a22fd942769f37"
+    },
+    {
+      "id": "recapture_followwindows150_settings_folder_enter",
+      "evidence": "screenshots/recapture_followwindows150_settings_folder_enter_1791422069061.jpg",
+      "bytes": 81195,
+      "sha256": "87e62fddc89e17f0b669d5cca59838ef835b93daf934811bb9a22fd942769f37"
+    },
+    {
+      "id": "recapture_followwindows150_settings_save_focus",
+      "evidence": "screenshots/recapture_followwindows150_settings_save_focus_1791422112874.jpg",
+      "bytes": 81195,
+      "sha256": "87e62fddc89e17f0b669d5cca59838ef835b93daf934811bb9a22fd942769f37"
+    },
+    {
+      "id": "recapture_followwindows150_apps_controls",
+      "evidence": "screenshots/recapture_followwindows150_apps_controls_1791422309570.jpg",
+      "bytes": 78501,
+      "sha256": "6836e94cae3cd6eed39ae9164b9027c443cbe2e7a82cc07f3314186d3d6ac225"
+    },
+    {
+      "id": "recapture_followwindows150_apps_zero_filter",
+      "evidence": "screenshots/recapture_followwindows150_apps_zero_filter_1791422337614.jpg",
+      "bytes": 78368,
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+    },
+    {
+      "id": "recapture_followwindows150_apps_filter_restored",
+      "evidence": "screenshots/recapture_followwindows150_apps_filter_restored_1791422346513.jpg",
+      "bytes": 78368,
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+    },
+    {
+      "id": "recapture_followwindows150_apps_first_focus",
+      "evidence": "screenshots/recapture_followwindows150_apps_first_focus_1791422356886.jpg",
+      "bytes": 78368,
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+    },
+    {
+      "id": "recapture_followwindows150_apps_final_focus",
+      "evidence": "screenshots/recapture_followwindows150_apps_final_focus_1791422369043.jpg",
+      "bytes": 78368,
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+    },
+    {
+      "id": "recapture_followwindows150_apps_folder_focus",
+      "evidence": "screenshots/recapture_followwindows150_apps_folder_focus_1791422395448.jpg",
+      "bytes": 78368,
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+    },
+    {
+      "id": "recapture_followwindows150_apps_folder_destination",
+      "evidence": "screenshots/recapture_followwindows150_apps_folder_destination_1791422423848.jpg",
+      "bytes": 78368,
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+    },
+    {
+      "id": "recapture_followwindows150_startup_columns",
+      "evidence": "screenshots/recapture_followwindows150_startup_columns_1791424326138.jpg",
+      "bytes": 79637,
+      "sha256": "46770abd94e62a9a230ce689bb7bf719ce22726caf0b6032983002ef92f17ad3"
+    },
+    {
+      "id": "recapture_followwindows150_storage_uac_blocker",
+      "evidence": "screenshots/recapture_followwindows150_storage_uac_blocker_1791424722130.jpg",
+      "bytes": 53051,
+      "sha256": "597c05eff90944013a57947c231b1b216fd26c27fbb6c0f721776b920f460cc7"
+    },
+    {
+      "id": "recapture_followwindows150_storage_settings_destination",
+      "evidence": "screenshots/recapture_followwindows150_storage_settings_destination_1791424993152.jpg",
+      "bytes": 68940,
+      "sha256": "c9075a3e66b5f0f7784b53109da2d8ac6527369542d4fc78be49a461eae0e979"
+    },
+    {
+      "id": "recapture_followwindows150_storage_controls",
+      "evidence": "screenshots/recapture_followwindows150_storage_controls_1791425008549.jpg",
+      "bytes": 79181,
+      "sha256": "c4f81e3e23da2ec08b01565306117722a2626d4f52f66226cbdcf9fdd209137c"
+    },
+    {
+      "id": "recapture_followwindows150_storage_downloads_focus",
+      "evidence": "screenshots/recapture_followwindows150_storage_downloads_focus_1791425016226.jpg",
+      "bytes": 79181,
+      "sha256": "c4f81e3e23da2ec08b01565306117722a2626d4f52f66226cbdcf9fdd209137c"
+    },
+    {
+      "id": "recapture_followwindows150_storage_downloads_destination",
+      "evidence": "screenshots/recapture_followwindows150_storage_downloads_destination_1791425032428.jpg",
+      "bytes": 79181,
+      "sha256": "c4f81e3e23da2ec08b01565306117722a2626d4f52f66226cbdcf9fdd209137c"
+    },
+    {
+      "id": "recapture_followwindows150_storage_full_focus",
+      "evidence": "screenshots/recapture_followwindows150_storage_full_focus_1791425294576.jpg",
+      "bytes": 79473,
+      "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+    },
+    {
+      "id": "recapture_followwindows150_storage_grid_focus",
+      "evidence": "screenshots/recapture_followwindows150_storage_grid_focus_1791425303513.jpg",
+      "bytes": 79473,
+      "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+    },
+    {
+      "id": "recapture_followwindows150_storage_detail",
+      "evidence": "screenshots/recapture_followwindows150_storage_detail_1791425316630.jpg",
+      "bytes": 79473,
+      "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+    },
+    {
+      "id": "recapture_followwindows150_storage_close_focus",
+      "evidence": "screenshots/recapture_followwindows150_storage_close_focus_1791425323332.jpg",
+      "bytes": 79473,
+      "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+    },
+    {
+      "id": "recapture_followwindows150_storage_keyboard_close_return",
+      "evidence": "screenshots/recapture_followwindows150_storage_keyboard_close_return_1791425331105.jpg",
+      "bytes": 79473,
+      "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+    },
+    {
+      "id": "recapture_followwindows150_storage_reverse_focus",
+      "evidence": "screenshots/recapture_followwindows150_storage_reverse_focus_1791425596168.jpg",
+      "bytes": 79224,
+      "sha256": "124b6c9fbb29bc433e23259c9c8075a9cdfa8127f5bdc0e2c87eae6d546abf9f"
+    },
+    {
+      "id": "recapture_followwindows150_storage_measured_folders",
+      "evidence": "screenshots/recapture_followwindows150_storage_measured_folders_1791425615028.jpg",
+      "bytes": 79224,
+      "sha256": "124b6c9fbb29bc433e23259c9c8075a9cdfa8127f5bdc0e2c87eae6d546abf9f"
+    },
+    {
+      "id": "recapture_followwindows150_storage_largest_files",
+      "evidence": "screenshots/recapture_followwindows150_storage_largest_files_1791425633496.jpg",
+      "bytes": 79224,
+      "sha256": "124b6c9fbb29bc433e23259c9c8075a9cdfa8127f5bdc0e2c87eae6d546abf9f"
+    },
+    {
+      "id": "recapture_followwindows150_storage_final_row",
+      "evidence": "screenshots/recapture_followwindows150_storage_final_row_1791425890989.jpg",
+      "bytes": 88877,
+      "sha256": "195c647f8253f6f5a9364b688766ab6a0bfa42c94488e79c28f895b2deb75375"
+    },
+    {
+      "id": "recapture_followwindows150_storage_exact_fixture_origin",
+      "evidence": "screenshots/recapture_followwindows150_storage_exact_fixture_origin_1791425919008.jpg",
+      "bytes": 88877,
+      "sha256": "195c647f8253f6f5a9364b688766ab6a0bfa42c94488e79c28f895b2deb75375"
+    },
+    {
+      "id": "recapture_followwindows150_storage_exact_selected_file",
+      "evidence": "screenshots/recapture_followwindows150_storage_exact_selected_file_1791425946420.jpg",
+      "bytes": 88877,
+      "sha256": "195c647f8253f6f5a9364b688766ab6a0bfa42c94488e79c28f895b2deb75375"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_controls",
+      "evidence": "screenshots/recapture_followwindows150_checkup_controls_1791426201844.jpg",
+      "bytes": 91267,
+      "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_first_focus",
+      "evidence": "screenshots/recapture_followwindows150_checkup_first_focus_1791426219395.jpg",
+      "bytes": 91267,
+      "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_detail",
+      "evidence": "screenshots/recapture_followwindows150_checkup_detail_1791426236341.jpg",
+      "bytes": 91267,
+      "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_close_focus",
+      "evidence": "screenshots/recapture_followwindows150_checkup_close_focus_1791426246673.jpg",
+      "bytes": 91267,
+      "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_keyboard_close_return",
+      "evidence": "screenshots/recapture_followwindows150_checkup_keyboard_close_return_1791426256211.jpg",
+      "bytes": 91267,
+      "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_final_focus",
+      "evidence": "screenshots/recapture_followwindows150_checkup_final_focus_1791426273471.jpg",
+      "bytes": 91267,
+      "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_reverse_full_focus",
+      "evidence": "screenshots/recapture_followwindows150_checkup_reverse_full_focus_1791426502701.jpg",
+      "bytes": 96035,
+      "sha256": "645d909ec2459288d86653dbfd150d960e17feb44fc28a8acbaade4b0f68ae03"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_quick_focus",
+      "evidence": "screenshots/recapture_followwindows150_checkup_quick_focus_1791426514682.jpg",
+      "bytes": 96035,
+      "sha256": "645d909ec2459288d86653dbfd150d960e17feb44fc28a8acbaade4b0f68ae03"
+    }
+  ],
+  "duplicateGroups": [
+    [
+      {
+        "id": "recapture_followwindows150_home_counts",
+        "evidence": "screenshots/recapture_followwindows150_home_counts_1791421151768.jpg",
+        "bytes": 74640,
+        "sha256": "b71519101be60fc559d8e2d07aa67bf04299d9964f5b2d6608cddfcd2fd0a2b7"
+      },
+      {
+        "id": "recapture_followwindows150_home_unknown_assurance",
+        "evidence": "screenshots/recapture_followwindows150_home_unknown_assurance_1791421186970.jpg",
+        "bytes": 74640,
+        "sha256": "b71519101be60fc559d8e2d07aa67bf04299d9964f5b2d6608cddfcd2fd0a2b7"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_home_rightmost_system",
+        "evidence": "screenshots/recapture_followwindows150_home_rightmost_system_1791421411811.jpg",
+        "bytes": 74570,
+        "sha256": "64329b85ba6b638205aa15ab7ac0babefc795b968aa1d892fd65af32b300b006"
+      },
+      {
+        "id": "recapture_followwindows150_home_rightmost_security",
+        "evidence": "screenshots/recapture_followwindows150_home_rightmost_security_1791421443248.jpg",
+        "bytes": 74570,
+        "sha256": "64329b85ba6b638205aa15ab7ac0babefc795b968aa1d892fd65af32b300b006"
+      },
+      {
+        "id": "recapture_followwindows150_home_primary_focus",
+        "evidence": "screenshots/recapture_followwindows150_home_primary_focus_1791421474112.jpg",
+        "bytes": 74570,
+        "sha256": "64329b85ba6b638205aa15ab7ac0babefc795b968aa1d892fd65af32b300b006"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_settings_notification",
+        "evidence": "screenshots/recapture_followwindows150_settings_notification_1791421727241.jpg",
+        "bytes": 73912,
+        "sha256": "812a84dfd5c562ab702fd16205314886fb1ed32696da7790cc2d7b37bf57a044"
+      },
+      {
+        "id": "recapture_followwindows150_settings_update_readability",
+        "evidence": "screenshots/recapture_followwindows150_settings_update_readability_1791421738098.jpg",
+        "bytes": 73912,
+        "sha256": "812a84dfd5c562ab702fd16205314886fb1ed32696da7790cc2d7b37bf57a044"
+      },
+      {
+        "id": "recapture_followwindows150_settings_privacy",
+        "evidence": "screenshots/recapture_followwindows150_settings_privacy_1791421763646.jpg",
+        "bytes": 73912,
+        "sha256": "812a84dfd5c562ab702fd16205314886fb1ed32696da7790cc2d7b37bf57a044"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_settings_folder_focus",
+        "evidence": "screenshots/recapture_followwindows150_settings_folder_focus_1791422053496.jpg",
+        "bytes": 81195,
+        "sha256": "87e62fddc89e17f0b669d5cca59838ef835b93daf934811bb9a22fd942769f37"
+      },
+      {
+        "id": "recapture_followwindows150_settings_folder_enter",
+        "evidence": "screenshots/recapture_followwindows150_settings_folder_enter_1791422069061.jpg",
+        "bytes": 81195,
+        "sha256": "87e62fddc89e17f0b669d5cca59838ef835b93daf934811bb9a22fd942769f37"
+      },
+      {
+        "id": "recapture_followwindows150_settings_save_focus",
+        "evidence": "screenshots/recapture_followwindows150_settings_save_focus_1791422112874.jpg",
+        "bytes": 81195,
+        "sha256": "87e62fddc89e17f0b669d5cca59838ef835b93daf934811bb9a22fd942769f37"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_apps_zero_filter",
+        "evidence": "screenshots/recapture_followwindows150_apps_zero_filter_1791422337614.jpg",
+        "bytes": 78368,
+        "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+      },
+      {
+        "id": "recapture_followwindows150_apps_filter_restored",
+        "evidence": "screenshots/recapture_followwindows150_apps_filter_restored_1791422346513.jpg",
+        "bytes": 78368,
+        "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+      },
+      {
+        "id": "recapture_followwindows150_apps_first_focus",
+        "evidence": "screenshots/recapture_followwindows150_apps_first_focus_1791422356886.jpg",
+        "bytes": 78368,
+        "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+      },
+      {
+        "id": "recapture_followwindows150_apps_final_focus",
+        "evidence": "screenshots/recapture_followwindows150_apps_final_focus_1791422369043.jpg",
+        "bytes": 78368,
+        "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+      },
+      {
+        "id": "recapture_followwindows150_apps_folder_focus",
+        "evidence": "screenshots/recapture_followwindows150_apps_folder_focus_1791422395448.jpg",
+        "bytes": 78368,
+        "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+      },
+      {
+        "id": "recapture_followwindows150_apps_folder_destination",
+        "evidence": "screenshots/recapture_followwindows150_apps_folder_destination_1791422423848.jpg",
+        "bytes": 78368,
+        "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_storage_controls",
+        "evidence": "screenshots/recapture_followwindows150_storage_controls_1791425008549.jpg",
+        "bytes": 79181,
+        "sha256": "c4f81e3e23da2ec08b01565306117722a2626d4f52f66226cbdcf9fdd209137c"
+      },
+      {
+        "id": "recapture_followwindows150_storage_downloads_focus",
+        "evidence": "screenshots/recapture_followwindows150_storage_downloads_focus_1791425016226.jpg",
+        "bytes": 79181,
+        "sha256": "c4f81e3e23da2ec08b01565306117722a2626d4f52f66226cbdcf9fdd209137c"
+      },
+      {
+        "id": "recapture_followwindows150_storage_downloads_destination",
+        "evidence": "screenshots/recapture_followwindows150_storage_downloads_destination_1791425032428.jpg",
+        "bytes": 79181,
+        "sha256": "c4f81e3e23da2ec08b01565306117722a2626d4f52f66226cbdcf9fdd209137c"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_storage_full_focus",
+        "evidence": "screenshots/recapture_followwindows150_storage_full_focus_1791425294576.jpg",
+        "bytes": 79473,
+        "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+      },
+      {
+        "id": "recapture_followwindows150_storage_grid_focus",
+        "evidence": "screenshots/recapture_followwindows150_storage_grid_focus_1791425303513.jpg",
+        "bytes": 79473,
+        "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+      },
+      {
+        "id": "recapture_followwindows150_storage_detail",
+        "evidence": "screenshots/recapture_followwindows150_storage_detail_1791425316630.jpg",
+        "bytes": 79473,
+        "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+      },
+      {
+        "id": "recapture_followwindows150_storage_close_focus",
+        "evidence": "screenshots/recapture_followwindows150_storage_close_focus_1791425323332.jpg",
+        "bytes": 79473,
+        "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+      },
+      {
+        "id": "recapture_followwindows150_storage_keyboard_close_return",
+        "evidence": "screenshots/recapture_followwindows150_storage_keyboard_close_return_1791425331105.jpg",
+        "bytes": 79473,
+        "sha256": "fa09d7a469199016eeea50c70a91aea2b2bd60e53b722b7d2618299033065498"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_storage_reverse_focus",
+        "evidence": "screenshots/recapture_followwindows150_storage_reverse_focus_1791425596168.jpg",
+        "bytes": 79224,
+        "sha256": "124b6c9fbb29bc433e23259c9c8075a9cdfa8127f5bdc0e2c87eae6d546abf9f"
+      },
+      {
+        "id": "recapture_followwindows150_storage_measured_folders",
+        "evidence": "screenshots/recapture_followwindows150_storage_measured_folders_1791425615028.jpg",
+        "bytes": 79224,
+        "sha256": "124b6c9fbb29bc433e23259c9c8075a9cdfa8127f5bdc0e2c87eae6d546abf9f"
+      },
+      {
+        "id": "recapture_followwindows150_storage_largest_files",
+        "evidence": "screenshots/recapture_followwindows150_storage_largest_files_1791425633496.jpg",
+        "bytes": 79224,
+        "sha256": "124b6c9fbb29bc433e23259c9c8075a9cdfa8127f5bdc0e2c87eae6d546abf9f"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_storage_final_row",
+        "evidence": "screenshots/recapture_followwindows150_storage_final_row_1791425890989.jpg",
+        "bytes": 88877,
+        "sha256": "195c647f8253f6f5a9364b688766ab6a0bfa42c94488e79c28f895b2deb75375"
+      },
+      {
+        "id": "recapture_followwindows150_storage_exact_fixture_origin",
+        "evidence": "screenshots/recapture_followwindows150_storage_exact_fixture_origin_1791425919008.jpg",
+        "bytes": 88877,
+        "sha256": "195c647f8253f6f5a9364b688766ab6a0bfa42c94488e79c28f895b2deb75375"
+      },
+      {
+        "id": "recapture_followwindows150_storage_exact_selected_file",
+        "evidence": "screenshots/recapture_followwindows150_storage_exact_selected_file_1791425946420.jpg",
+        "bytes": 88877,
+        "sha256": "195c647f8253f6f5a9364b688766ab6a0bfa42c94488e79c28f895b2deb75375"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_checkup_controls",
+        "evidence": "screenshots/recapture_followwindows150_checkup_controls_1791426201844.jpg",
+        "bytes": 91267,
+        "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+      },
+      {
+        "id": "recapture_followwindows150_checkup_first_focus",
+        "evidence": "screenshots/recapture_followwindows150_checkup_first_focus_1791426219395.jpg",
+        "bytes": 91267,
+        "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+      },
+      {
+        "id": "recapture_followwindows150_checkup_detail",
+        "evidence": "screenshots/recapture_followwindows150_checkup_detail_1791426236341.jpg",
+        "bytes": 91267,
+        "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+      },
+      {
+        "id": "recapture_followwindows150_checkup_close_focus",
+        "evidence": "screenshots/recapture_followwindows150_checkup_close_focus_1791426246673.jpg",
+        "bytes": 91267,
+        "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+      },
+      {
+        "id": "recapture_followwindows150_checkup_keyboard_close_return",
+        "evidence": "screenshots/recapture_followwindows150_checkup_keyboard_close_return_1791426256211.jpg",
+        "bytes": 91267,
+        "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+      },
+      {
+        "id": "recapture_followwindows150_checkup_final_focus",
+        "evidence": "screenshots/recapture_followwindows150_checkup_final_focus_1791426273471.jpg",
+        "bytes": 91267,
+        "sha256": "0f906a911eb8e6de78cf455e278b353dd365bc84134a80176ee05b0c829549ae"
+      }
+    ],
+    [
+      {
+        "id": "recapture_followwindows150_checkup_reverse_full_focus",
+        "evidence": "screenshots/recapture_followwindows150_checkup_reverse_full_focus_1791426502701.jpg",
+        "bytes": 96035,
+        "sha256": "645d909ec2459288d86653dbfd150d960e17feb44fc28a8acbaade4b0f68ae03"
+      },
+      {
+        "id": "recapture_followwindows150_checkup_quick_focus",
+        "evidence": "screenshots/recapture_followwindows150_checkup_quick_focus_1791426514682.jpg",
+        "bytes": 96035,
+        "sha256": "645d909ec2459288d86653dbfd150d960e17feb44fc28a8acbaade4b0f68ae03"
+      }
+    ]
+  ],
+  "fullCellCredit": false
+}

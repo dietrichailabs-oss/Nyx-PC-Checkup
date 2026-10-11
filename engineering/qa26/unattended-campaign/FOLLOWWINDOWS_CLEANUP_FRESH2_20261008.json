@@ -1,0 +1,42 @@
+{
+  "records": [
+    {
+      "id": "fresh2_followwindows150_cleanup_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Safe cleanup disclosure nothing selected automatically; exact supported items,total size,consequence,confirmation before acting. Refresh with Full Check unactivated.",
+      "evidence": "screenshots/fresh2_followwindows150_cleanup_controls_1791427719092.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_cleanup_controls_1791427719092.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:48:39.093Z"
+    },
+    {
+      "id": "fresh2_followwindows150_cleanup_end_access",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches final wctFB98.tmp row,checkbox unchecked. Age/consequence ellipsized; no full consequence readability credit.",
+      "evidence": "screenshots/fresh2_followwindows150_cleanup_end_access_1791427741279.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_cleanup_end_access_1791427741279.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:49:01.279Z"
+    },
+    {
+      "id": "fresh2_followwindows150_cleanup_zero_summary",
+      "status": "PASS_OBSERVED",
+      "details": "Selected0items0B visible; preservation-on-failure and excluded Documents,Photos,Videos,browser profiles,update caches,restore points,application databases disclosure readable.",
+      "evidence": "screenshots/fresh2_followwindows150_cleanup_zero_summary_1791427752870.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_cleanup_zero_summary_1791427752870.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:49:12.872Z"
+    },
+    {
+      "id": "fresh2_followwindows150_cleanup_zero_guard",
+      "status": "PASS_OBSERVED",
+      "details": "Zero-selected Review displays Select at least one displayed item; no deletion confirmation/operation.",
+      "evidence": "screenshots/fresh2_followwindows150_cleanup_zero_guard_1791427764197.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_cleanup_zero_guard_1791427764197.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:49:24.198Z"
+    }
+  ],
+  "fullCellCredit": false,
+  "remaining": "Full age/consequence text unresolved; no actual deletion test performed."
+}

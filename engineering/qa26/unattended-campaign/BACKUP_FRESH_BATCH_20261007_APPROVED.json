@@ -1,0 +1,59 @@
+{
+  "schema": "QA26-STAGED-BATCH-1",
+  "records": [
+    {
+      "id": "recapture_dark150_backup_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Fresh native Accounts > Windows backup destination reached. No backup/account/sync preferences changed.",
+      "evidence": "screenshots/recapture_dark150_backup_destination_1791414216754.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_backup_destination_1791414216754.jpg",
+      "utc": "2026-10-07T23:03:36.755Z",
+      "fullCellCredit": false
+    },
+    {
+      "id": "recapture_dark150_backup_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals single Backup finding with dotted visible keyboard focus on status cell.",
+      "evidence": "screenshots/recapture_dark150_backup_focus_1791414234467.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_backup_focus_1791414234467.jpg",
+      "utc": "2026-10-07T23:03:54.468Z",
+      "fullCellCredit": false
+    },
+    {
+      "id": "recapture_dark150_backup_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens exact Backup checkup detail; WHAT/WHY/recommendation/SafeRedirect/data source/CompleteFalse visible and wrapped. Technical evidence scrollable; title close reachable. Bottom Close button not proven in this viewport.",
+      "evidence": "screenshots/recapture_dark150_backup_detail_1791414249505.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_backup_detail_1791414249505.jpg",
+      "utc": "2026-10-07T23:04:09.506Z",
+      "fullCellCredit": false
+    },
+    {
+      "id": "recapture_dark150_backup_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab auto-reveals OpenWindowsBackup with visible focus after detail title-close. No redirect reactivation or changes.",
+      "evidence": "screenshots/recapture_dark150_backup_reverse_focus_1791414275219.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_backup_reverse_focus_1791414275219.jpg",
+      "utc": "2026-10-07T23:04:35.220Z",
+      "fullCellCredit": false
+    }
+  ],
+  "productModified": false,
+  "currentPage": "Backup",
+  "remaining": [
+    "Native144DPI/PMv2/identity verification",
+    "Detail keyboard-close/Close-button reachability"
+  ],
+  "scoreboard": {
+    "strict": {
+      "PASS": 56,
+      "FAIL": 0,
+      "NOT_RUN": 43
+    },
+    "bestEffort": {
+      "PASS": 0,
+      "FAIL": 0,
+      "NOT_RUN": 33
+    }
+  }
+}

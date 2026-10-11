@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "light150_startup_location_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Selected existing all-users QA26 F023; CtrlShiftTab exits grid, automatically reveals rightmost Open file location with visible outline; modification controls not activated.",
+      "evidence": "screenshots/light150_startup_location_reverse_focus_1791500622640.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:03:42.641Z"
+    },
+    {
+      "id": "light150_startup_location_keyboard_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Return opens Explorer Start Menu > Programs > Startup with QA26 F023 shortcut selected, one item 1.76 KB; no shortcut launch/edit.",
+      "evidence": "screenshots/light150_startup_location_keyboard_destination_1791500639622.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:03:59.622Z"
+    },
+    {
+      "id": "light150_startup_location_return_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Explorer normal close restores visible Open file location keyboard outline, Ready status; no entry changes.",
+      "evidence": "screenshots/light150_startup_location_return_focus_1791500659008.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:04:19.009Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "qa26_guest_display_unavailable_20261008_0332",
+      "status": "PASS_OBSERVED",
+      "details": "Two native captures show black guest display while VM Connection reports Running. Cause unknown; not classified as lock, logout, shutdown, or product failure. No input, restart, new scan or authentication attempted.",
+      "evidence": "screenshots/qa26_guest_display_unavailable_20261008_0332_1791430407057.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/qa26_guest_display_unavailable_20261008_0332_1791430407057.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:33:27.058Z"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "schema": "QA26-PREDICATE-RECONCILIATION-1",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "theme": "FollowWindows",
+  "requestedScale": 150,
+  "nativeDpi": null,
+  "status": "INCOMPLETE",
+  "productModified": false,
+  "notes": [
+    "Eleven page contexts observed; screenshots are predicate evidence, not complete-cell PASS.",
+    "Native DPI/PMv2/installed-identity collection remains deferred until owner-authorized UAC session at end.",
+    "Security OS redirect is BLOCKED_HUMAN; no protection settings changed.",
+    "Original completed Full scan preserved; no redundant scan performed."
+  ],
+  "cells": [
+    {
+      "page": "Home",
+      "status": "NOT_RUN",
+      "observedPredicates": []
+    },
+    {
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "observedPredicates": []
+    },
+    {
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "observedPredicates": []
+    },
+    {
+      "page": "Startup",
+      "status": "NOT_RUN",
+      "observedPredicates": []
+    },
+    {
+      "page": "Security",
+      "status": "NOT_RUN",
+      "observedPredicates": []
+    },
+    {
+      "page": "Updates",
+      "status": "NOT_RUN",
+      "observedPredicates": [
+        {
+          "id": "followwindows150_updates_controls",
+          "status": "PASS_OBSERVED",
+          "details": "Updates limited-assurance explanation wraps readably; primary OS action/export/sidebar reachable.",
+          "evidence": "screenshots/followwindows150_updates_controls_1791329358290.jpg",
+          "utc": "2026-10-06T23:29:18.291Z"
+        }
+      ]
+    },
+    {
+      "page": "Backup",
+      "status": "NOT_RUN",
+      "observedPredicates": [
+        {
+          "id": "followwindows150_backup_controls",
+          "status": "PASS_OBSERVED",
+          "details": "Wrapped third-party backup limitation and primary Windows Backup action readable in observed FollowWindows context.",
+          "evidence": "screenshots/followwindows150_backup_controls_1791328736727.jpg",
+          "utc": "2026-10-06T23:18:56.727Z"
+        },
+        {
+          "id": "followwindows150_backup_destination",
+          "status": "PASS_OBSERVED",
+          "details": "Open Windows Backup reaches native Accounts > Windows backup. No account/sync/preference changes.",
+          "evidence": "screenshots/followwindows150_backup_destination_1791328758927.jpg",
+          "utc": "2026-10-06T23:19:18.928Z"
+        },
+        {
+          "id": "followwindows150_backup_grid_focus",
+          "status": "PASS_OBSERVED",
+          "details": "Tab scrolls Backup first status into view with dotted focus; selected finding available through Enter.",
+          "evidence": "screenshots/followwindows150_backup_grid_focus_1791328784810.jpg",
+          "utc": "2026-10-06T23:19:44.811Z"
+        },
+        {
+          "id": "followwindows150_backup_detail",
+          "status": "PASS_OBSERVED",
+          "details": "Enter opens readable wrapped Backup detail with explicit limited detection, recommendation, SafeRedirect, source, Complete=False. Modal contained; no exception observed.",
+          "evidence": "screenshots/followwindows150_backup_detail_1791328810140.jpg",
+          "utc": "2026-10-06T23:20:10.141Z"
+        },
+        {
+          "id": "followwindows150_backup_reverse_focus",
+          "status": "PASS_OBSERVED",
+          "details": "Reverse keyboard traversal returns visible outline to primary Backup action and scrolls it into view after detail close.",
+          "evidence": "screenshots/followwindows150_backup_reverse_focus_1791328836058.jpg",
+          "utc": "2026-10-06T23:20:36.059Z"
+        }
+      ]
+    },
+    {
+      "page": "System",
+      "status": "NOT_RUN",
+      "observedPredicates": [
+        {
+          "id": "followwindows150_system_controls",
+          "status": "PASS_OBSERVED",
+          "details": "System details explanation readable and wrapped, primary About control visible; serial/product-key noncollection stated.",
+          "evidence": "screenshots/followwindows150_system_controls_1791329036371.jpg",
+          "utc": "2026-10-06T23:23:56.373Z"
+        },
+        {
+          "id": "followwindows150_system_about_destination",
+          "status": "PASS_OBSERVED",
+          "details": "About action reaches native System > About without settings change.",
+          "evidence": "screenshots/followwindows150_system_about_destination_1791329062207.jpg",
+          "utc": "2026-10-06T23:24:22.207Z"
+        },
+        {
+          "id": "followwindows150_system_grid_focus",
+          "status": "PASS_OBSERVED",
+          "details": "Tab autoscroll exposes all five System results with first-status dotted focus and textual status meanings.",
+          "evidence": "screenshots/followwindows150_system_grid_focus_1791329086272.jpg",
+          "utc": "2026-10-06T23:24:46.286Z"
+        },
+        {
+          "id": "followwindows150_system_performance_detail",
+          "status": "PASS_OBSERVED",
+          "details": "Final finding Enter opens readable CPU2%/memory74% snapshot, rationale/recommendation, ActionSafetyNone, source, CompleteTrue. Scrollable detail contained; no exception observed.",
+          "evidence": "screenshots/followwindows150_system_performance_detail_1791329124132.jpg",
+          "utc": "2026-10-06T23:25:24.133Z"
+        },
+        {
+          "id": "followwindows150_system_reverse_focus",
+          "status": "PASS_OBSERVED",
+          "details": "Reverse grid traversal autoscrolls About primary action into view with visible outline after detail close.",
+          "evidence": "screenshots/followwindows150_system_reverse_focus_1791329346438.jpg",
+          "utc": "2026-10-06T23:29:06.439Z"
+        }
+      ]
+    },
+    {
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "observedPredicates": [
+        {
+          "id": "followwindows150_apps_controls",
+          "status": "PASS_OBSERVED",
+          "details": "Recreated Apps has wrapped explanation, three readable primary controls and search; no new scan launched.",
+          "evidence": "screenshots/followwindows150_apps_controls_1791327879147.jpg",
+          "utc": "2026-10-06T23:04:39.148Z"
+        },
+        {
+          "id": "followwindows150_apps_first_focus",
+          "status": "PASS_OBSERVED",
+          "details": "Tab autoscrolls first grid cell into view with dotted focus; five rows and Version145.0.3800.97 readable.",
+          "evidence": "screenshots/followwindows150_apps_first_focus_1791327900699.jpg",
+          "utc": "2026-10-06T23:05:00.699Z"
+        },
+        {
+          "id": "followwindows150_apps_final_focus",
+          "status": "PASS_OBSERVED",
+          "details": "Control+End reveals Version/Install date/Reported size columns and final dotted keyboard focus; Nyx1.0.0 and OneDrive413.5MB readable.",
+          "evidence": "screenshots/followwindows150_apps_final_focus_1791327912446.jpg",
+          "utc": "2026-10-06T23:05:12.448Z"
+        },
+        {
+          "id": "followwindows150_apps_zero_filter",
+          "status": "PASS_OBSERVED",
+          "details": "Keyboard z filters inventory to zero rows safely; search and headers remain reachable; no exception observed.",
+          "evidence": "screenshots/followwindows150_apps_zero_filter_1791328145509.jpg",
+          "utc": "2026-10-06T23:09:05.510Z"
+        },
+        {
+          "id": "followwindows150_apps_filter_restored",
+          "status": "PASS_OBSERVED",
+          "details": "BackSpace clears filter and restores all five inventory rows without scan or exception.",
+          "evidence": "screenshots/followwindows150_apps_filter_restored_1791328158572.jpg",
+          "utc": "2026-10-06T23:09:18.573Z"
+        },
+        {
+          "id": "followwindows150_apps_full_action_focus",
+          "status": "PASS_OBSERVED",
+          "details": "ReverseTab skips currently disabled selected-folder action after filter reset and reveals Run Full Check with visible focus. No redundant scan executed.",
+          "evidence": "screenshots/followwindows150_apps_full_action_focus_1791328169092.jpg",
+          "utc": "2026-10-06T23:09:29.320Z"
+        },
+        {
+          "id": "followwindows150_apps_folder_after_filter",
+          "status": "PASS_OBSERVED",
+          "details": "After empty filter/restore, Tab restores grid selection and reverse traversal reaches folder action; Enter opens Microsoft Edge Application directory. No uninstall/file mutation/new scan.",
+          "evidence": "screenshots/followwindows150_apps_folder_after_filter_1791328230694.jpg",
+          "utc": "2026-10-06T23:10:30.695Z"
+        }
+      ]
+    },
+    {
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "observedPredicates": [
+        {
+          "id": "followwindows150_cleanup_controls",
+          "status": "PASS_OBSERVED",
+          "details": "Cleanup wraps exact-item/total-size/consequence/confirmation safety text; refresh action visible, no automatic selection.",
+          "evidence": "screenshots/followwindows150_cleanup_controls_1791328440710.jpg",
+          "utc": "2026-10-06T23:14:00.711Z"
+        },
+        {
+          "id": "followwindows150_cleanup_zero_summary",
+          "status": "PASS_OBSERVED",
+          "details": "Keyboard traversal reaches Review and selected summary 0 items / 0 B; no checkbox toggled, no automatic selection.",
+          "evidence": "screenshots/followwindows150_cleanup_zero_summary_1791328475851.jpg",
+          "utc": "2026-10-06T23:14:35.852Z"
+        },
+        {
+          "id": "followwindows150_cleanup_zero_guard",
+          "status": "PASS_OBSERVED",
+          "details": "Review Enter with zero selected items yields readable Select at least one displayed item guard, focused OK, no deletion or exception.",
+          "evidence": "screenshots/followwindows150_cleanup_zero_guard_1791328495220.jpg",
+          "utc": "2026-10-06T23:14:55.221Z"
+        }
+      ]
+    },
+    {
+      "page": "Settings",
+      "status": "NOT_RUN",
+      "observedPredicates": [
+        {
+          "id": "followwindows150_settings_notification_readability",
+          "status": "PASS_OBSERVED",
+          "details": "FollowWindows selector and wrapped no-resident-monitor notification explanation readable after normal scrolling; no preference changed.",
+          "evidence": "screenshots/followwindows150_settings_notification_readability_1791327529155.jpg",
+          "utc": "2026-10-06T22:58:49.156Z"
+        },
+        {
+          "id": "followwindows150_settings_update_handled",
+          "status": "PASS_OBSERVED",
+          "details": "Keyboard Return dispatches manifest check; handled Unable to check for updates right now dialog is readable and contained with focused OK. No network success claimed.",
+          "evidence": "screenshots/followwindows150_settings_update_handled_1791327572602.jpg",
+          "utc": "2026-10-06T22:59:32.603Z"
+        },
+        {
+          "id": "followwindows150_settings_folder_keyboard",
+          "status": "PASS_OBSERVED",
+          "details": "Tab from Update then Enter opens native Nyx local-data folder. No file or privacy setting changed.",
+          "evidence": "screenshots/followwindows150_settings_folder_keyboard_1791327607216.jpg",
+          "utc": "2026-10-06T23:00:07.217Z"
+        },
+        {
+          "id": "followwindows150_settings_save_focus",
+          "status": "PASS_OBSERVED",
+          "details": "Tab traverses local-data controls without activating Delete logs and reveals Save settings with visible outline. Existing theme-save acknowledgement retained; no additional save required.",
+          "evidence": "screenshots/followwindows150_settings_save_focus_1791327840096.jpg",
+          "utc": "2026-10-06T23:04:00.097Z"
+        },
+        {
+          "id": "followwindows150_settings_privacy_complete",
+          "status": "PASS_OBSERVED",
+          "details": "Full wrapped privacy/local-first/redaction/update/log promise accessible by normal vertical scroll in observed FollowWindows context. No privacy preference changed.",
+          "evidence": "screenshots/followwindows150_settings_privacy_complete_1791327861027.jpg",
+          "utc": "2026-10-06T23:04:21.028Z"
+        }
+      ]
+    }
+  ],
+  "utc": "2026-10-06T23:40:08.998Z"
+}

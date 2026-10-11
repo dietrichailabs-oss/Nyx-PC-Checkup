@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_storage_uac_blocker",
+      "status": "BLOCKED_HUMAN",
+      "details": "Open Storage settings reached Microsoft Windows Settings UAC credential prompt. Destination not verified. Stopped UI input; no credentials, approval or bypass. Human must dismiss this prompt; all UAC work remains at end.",
+      "evidence": "screenshots/recapture_followwindows150_storage_uac_blocker_1791424722130.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_uac_blocker_1791424722130.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:58:42.130Z"
+    }
+  ]
+}

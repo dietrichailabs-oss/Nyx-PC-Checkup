@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "light150_storage_separate_full_ui_finished",
+      "status": "PASS_OBSERVED",
+      "details": "Separate unintended Full allowed to finish by owner; UI now 2 things need attention, green full progress bar, no scanning footer. Raw completion/schema/worker cleanup unverified. Not original authoritative run.",
+      "evidence": "screenshots/light150_storage_separate_full_ui_finished_1791500750129.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:05:50.130Z"
+    },
+    {
+      "id": "light150_storage_drive_enter_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens System-drive free space detail: 106.8 GB free, 84.8%, no action required, SafeRedirect, .NET DriveInfo, Complete True. Text readable, scrollable modal contained. Data belongs separate new run.",
+      "evidence": "screenshots/light150_storage_drive_enter_detail_1791500779336.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:06:19.336Z"
+    },
+    {
+      "id": "light150_storage_final_cell_keyboard",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches last Downloads result final What Nyx found cell with dotted keyboard focus; required full text accessible through Enter.",
+      "evidence": "screenshots/light150_storage_final_cell_keyboard_1791500827318.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:07:07.318Z"
+    },
+    {
+      "id": "light150_storage_downloads_enter_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Final Enter opens Downloads checkup: at least 1 readable file 282 B, no notable cleanup opportunity, review yourself, DestructiveAction disclosed, bounded metadata/SHA256 source, Complete True. No destructive action performed.",
+      "evidence": "screenshots/light150_storage_downloads_enter_detail_1791500847280.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:07:27.280Z"
+    },
+    {
+      "id": "light150_storage_final_detail_return",
+      "status": "PASS_OBSERVED",
+      "details": "Close returns same final Downloads cell dotted focus with no exception dialog.",
+      "evidence": "screenshots/light150_storage_final_detail_return_1791500865559.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:07:45.560Z"
+    },
+    {
+      "id": "light150_storage_reverse_full_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab auto-reveals Run Full Check with visible outline; no activation or additional scan.",
+      "evidence": "screenshots/light150_storage_reverse_full_focus_1791500882291.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:08:02.291Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_storage_full_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab outlines Run Full Check; deliberately not activated to preserve authoritative scan.",
+      "evidence": "screenshots/recapture_followwindows150_storage_full_focus_1791425294576.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_full_focus_1791425294576.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:14.577Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_grid_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from Run Full Check enters first Status cell, Good system-drive row; three result rows visible. Historical result, not refreshed measurement.",
+      "evidence": "screenshots/recapture_followwindows150_storage_grid_focus_1791425303513.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_grid_focus_1791425303513.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:23.515Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens System-drive free space detail:106.9GB free,84.8%,no storage action required,SafeRedirect,.NET DriveInfo,Complete True. Historical scan detail only.",
+      "evidence": "screenshots/recapture_followwindows150_storage_detail_1791425316630.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_detail_1791425316630.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:36.631Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals Close button in result detail; no content mutation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_close_focus_1791425323332.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_close_focus_1791425323332.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:43.332Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Return on Close dismisses detail and returns to first Storage Status cell, Ready no monitor.",
+      "evidence": "screenshots/recapture_followwindows150_storage_keyboard_close_return_1791425331105.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_keyboard_close_return_1791425331105.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:08:51.106Z"
+    }
+  ]
+}

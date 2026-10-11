@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_home_primary_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse keyboard navigation from Export report reaches Check My PC; focused primary is automatically scrolled fully into view. Not activated; original scan preserved.",
+      "evidence": "screenshots/recapture_dark150_home_primary_focus_1791418417166.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_home_primary_focus_1791418417166.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:13:37.167Z"
+    }
+  ],
+  "timestamp": "No timestamp credit from current Home viewport; exact original completion timestamp requires deferred raw evidence reconciliation."
+}

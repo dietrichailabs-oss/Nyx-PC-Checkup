@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "light150_apps_folder_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab exits inventory to search; ShiftTab reveals Open selected folder with visible outline and selected Edge row; no scan.",
+      "evidence": "screenshots/light150_apps_folder_reverse_focus_1791500534639.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:02:14.639Z"
+    },
+    {
+      "id": "light150_apps_folder_keyboard_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Return on focused Open selected folder opens Explorer Edge > Application with 145.0.3800.97 folder and msedge application; no file edits/run.",
+      "evidence": "screenshots/light150_apps_folder_keyboard_destination_1791500552246.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:02:32.247Z"
+    },
+    {
+      "id": "light150_apps_folder_return_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Explorer closed normally; Open selected folder retains visible keyboard outline on Nyx Apps, original inventory and Ready state retained.",
+      "evidence": "screenshots/light150_apps_folder_return_focus_1791500573793.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:02:53.794Z"
+    }
+  ],
+  "fullCellCredit": false
+}

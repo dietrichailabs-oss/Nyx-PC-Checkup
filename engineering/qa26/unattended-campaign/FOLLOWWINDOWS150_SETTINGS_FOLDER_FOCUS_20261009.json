@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_settings_localfolder_reverse_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Afterreconnect pendingShiftTab yields visibleOpenLocalDataFolderoutline, fullyrevealedbutton, Ready/noactivation. Repairs legacyfolderfocusevidence; destinationnotrepeated.",
+      "evidence": "screenshots/followwindows150_settings_localfolder_reverse_focus_attended_fresh_1791569390426.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-09T18:09:50.428Z"
+    }
+  ],
+  "fullCellCredit": false
+}

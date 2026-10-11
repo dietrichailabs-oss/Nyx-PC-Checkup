@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_startup_end_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 End moved first row focus to rightmost Impact Not measured, automatically revealing File exists and Nyx control; no startup changes.",
+      "evidence": "screenshots/followwindows150_startup_end_navigation_20261010_1791663588330.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:19:48.331Z"
+    },
+    {
+      "id": "followwindows150_startup_home_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Home restored first-row State Enabled focus and leftmost State/Application columns.",
+      "evidence": "screenshots/followwindows150_startup_home_navigation_20261010_1791663595883.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:19:55.884Z"
+    },
+    {
+      "id": "followwindows150_startup_pagedown_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Down moved to bottom visible State cell SecurityHealth, with vertical auto-scroll and focus outline.",
+      "evidence": "screenshots/followwindows150_startup_pagedown_navigation_20261010_1791663604090.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:20:04.090Z"
+    },
+    {
+      "id": "followwindows150_startup_pageup_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Up returned to first desktop State cell with visible focus and vertical scroll recovery.",
+      "evidence": "screenshots/followwindows150_startup_pageup_navigation_20261010_1791663612160.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:20:12.160Z"
+    },
+    {
+      "id": "followwindows150_startup_down_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Down moved exactly one row to all-users desktop State cell; no disable/re-enable action.",
+      "evidence": "screenshots/followwindows150_startup_down_navigation_20261010_1791663619777.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:20:19.778Z"
+    },
+    {
+      "id": "followwindows150_startup_up_navigation_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Up restored first current-user desktop State cell with visible focus.",
+      "evidence": "screenshots/followwindows150_startup_up_navigation_20261010_1791663634921.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:20:34.922Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "light150_backup_reverse_primary_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab exits selected Backup findings grid and auto-reveals Open Windows Backup with visible outline; no OS redirect or settings action repeated.",
+      "evidence": "screenshots/light150_backup_reverse_primary_focus_1791500925926.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:08:45.927Z"
+    }
+  ],
+  "fullCellCredit": false
+}

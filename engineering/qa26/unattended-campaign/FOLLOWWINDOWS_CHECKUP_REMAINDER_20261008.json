@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_checkup_reverse_full_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab from final What Nyx found cell exits grid to outlined Full Check, auto-reveals primary controls; not activated.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_reverse_full_focus_1791426502701.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_reverse_full_focus_1791426502701.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:28:22.702Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_quick_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from Full Check outlines Quick Check; no activation, Ready no monitor.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_quick_focus_1791426514682.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_quick_focus_1791426514682.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:28:34.683Z"
+    }
+  ],
+  "scope": "Checkup non-elevated display/detail/keyboard batch complete; scan execution intentionally excluded to preserve uncollected authoritative scan. Not full-cell PASS."
+}

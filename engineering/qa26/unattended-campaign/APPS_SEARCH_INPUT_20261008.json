@@ -1,0 +1,6 @@
+{
+  "status": "NOT_RUN_INPUT_UNCONFIRMED",
+  "evidence": "screenshots/apps_search_input_unconfirmed_1791419333669.jpg",
+  "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/apps_search_input_unconfirmed_1791419333669.jpg",
+  "details": "Two supported type_text attempts with refocus did not yield persistent visible Nyx query. Host accessibility exposes VM Input Capture Window, not guest search element. No filter PASS or product FAIL; no scans initiated."
+}

@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_attended_applied_after_relaunch",
+      "status": "PASS_OBSERVED",
+      "details": "Existing installed shortcut reopened normally; Settings selector FollowWindows visible, light appearance, Ready/no background monitor. Native DPI remains unmeasured.",
+      "evidence": "screenshots/followwindows150_attended_applied_after_relaunch_1791501617384.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:20:17.385Z"
+    }
+  ],
+  "fullCellCredit": false
+}

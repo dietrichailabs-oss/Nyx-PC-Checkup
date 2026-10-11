@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_storage_settings_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Previously observed UAC prompt absent; native System > Storage visible, C:126GB,19.1GB used,106GB free. Human resolution method not observed. No settings mutation or new scan.",
+      "evidence": "screenshots/recapture_followwindows150_storage_settings_destination_1791424993152.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_settings_destination_1791424993152.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:13.153Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Fresh bounded capture: Storage never deletes anything; large/old/duplicate not unwanted; Open Storage settings,Open Downloads,Run Full Check readable; Ready no monitor. No scan activation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_controls_1791425008549.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_controls_1791425008549.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:28.550Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_downloads_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from returned Storage settings action visibly outlines Open Downloads.",
+      "evidence": "screenshots/recapture_followwindows150_storage_downloads_focus_1791425016226.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_downloads_focus_1791425016226.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:36.226Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_downloads_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on Open Downloads opens native Explorer Users > Nyx > Downloads, empty 0 items. No file mutation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_downloads_destination_1791425032428.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_downloads_destination_1791425032428.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:03:52.429Z"
+    }
+  ]
+}

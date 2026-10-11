@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_checkup_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Quick Check/Full Check controls and coverage disclosure readable. Full adds storage,Downloads,cleanup review,battery,drivers,performance,installed applications. Ready no monitor; no scan launched.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_controls_1791426201844.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_controls_1791426201844.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:23:21.845Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_first_focus",
+      "status": "PASS_OBSERVED",
+      "details": "First Status cell focused; result headers readable and historical System overview first row displayed.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_first_focus_1791426219395.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_first_focus_1791426219395.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:23:39.396Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens System overview:historical2.6GB RAM,Windows build26200,no action,serial/unique identifiers intentionally not collected,ActionSafety None,Windows CIM/local environment,Complete True. Not current identity/raw validation.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_detail_1791426236341.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_detail_1791426236341.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:23:56.342Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals Close button in System overview detail.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_close_focus_1791426246673.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_close_focus_1791426246673.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:24:06.674Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Return on Close dismisses detail and restores first Status cell in Checkup grid; Ready no monitor.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_keyboard_close_return_1791426256211.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_keyboard_close_return_1791426256211.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:24:16.212Z"
+    },
+    {
+      "id": "recapture_followwindows150_checkup_final_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reveals final Installed applications What Nyx found cell with focus rectangle;5 installed applications historical summary; last rows readable without scan.",
+      "evidence": "screenshots/recapture_followwindows150_checkup_final_focus_1791426273471.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_checkup_final_focus_1791426273471.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:24:33.472Z"
+    }
+  ],
+  "remaining": "Primary-control keyboard focus/reverse path remaining; native DPI/current identity prerequisite unchanged."
+}

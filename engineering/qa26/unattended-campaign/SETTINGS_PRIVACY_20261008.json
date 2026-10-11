@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_settings_full_privacy",
+      "status": "PASS_OBSERVED",
+      "details": "Full Privacy promise readable/wrapped: local analysis unless explicit export; structural redaction of secret fields,usernames,email,IPv4/compressed-expandedIPv6 by default; update checks never upload reports/inventory; logs rotate locally. Disclosure visibility only, not behavioral privacy gate.",
+      "evidence": "screenshots/recapture_dark150_settings_full_privacy_1791419658938.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_settings_full_privacy_1791419658938.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:34:18.939Z"
+    }
+  ],
+  "pending": "dark150_settings_save_focus"
+}

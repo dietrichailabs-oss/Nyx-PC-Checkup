@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_storage_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from first result Status cell returns to outlined Run Full Check and auto-reveals primary controls; no scan activation.",
+      "evidence": "screenshots/recapture_followwindows150_storage_reverse_focus_1791425596168.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_reverse_focus_1791425596168.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:13:16.170Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_measured_folders",
+      "status": "PASS_OBSERVED",
+      "details": "Measured user folders headers Folder,Size,Files,Complete readable. Downloads282B/1,Desktop2.8KB/2,Documents2.2MB/25001,Pictures504B/1; Complete True. Historical scan counts only.",
+      "evidence": "screenshots/recapture_followwindows150_storage_measured_folders_1791425615028.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_measured_folders_1791425615028.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:13:35.029Z"
+    },
+    {
+      "id": "recapture_followwindows150_storage_largest_files",
+      "status": "PASS_OBSERVED",
+      "details": "Largest files table File,Size,Folder readable: Nyx PC Checkup.lnk2.5KB C:\\Users\\Nyx\\Desktop and desktop.ini rows in Videos/Pictures/Documents/Desktop. Historical scan only; no files executed/deleted.",
+      "evidence": "screenshots/recapture_followwindows150_storage_largest_files_1791425633496.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_storage_largest_files_1791425633496.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:13:53.496Z"
+    }
+  ],
+  "remaining": "Exact long-path tooltip, final-row keyboard access and file-location action remain unverified. No product failure classified."
+}

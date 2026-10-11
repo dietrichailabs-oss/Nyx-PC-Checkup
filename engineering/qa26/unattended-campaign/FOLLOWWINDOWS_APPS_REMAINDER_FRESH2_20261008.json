@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "id": "fresh2_followwindows150_apps_installed_redirect",
+      "status": "PASS_OBSERVED",
+      "details": "Native Apps > Installed apps opens,32 apps found. No install/uninstall/settings mutation. Explicit current observation screenshot passed to capture.",
+      "evidence": "screenshots/fresh2_followwindows150_apps_installed_redirect_1791427433878.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_apps_installed_redirect_1791427433878.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:43:53.879Z"
+    },
+    {
+      "id": "fresh2_followwindows150_apps_full_action_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from returned Installed Apps action outlines Run Full Check; unactivated, Ready no monitor. Explicit latest screenshot argument.",
+      "evidence": "screenshots/fresh2_followwindows150_apps_full_action_focus_1791427466988.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_apps_full_action_focus_1791427466988.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T02:44:26.989Z"
+    }
+  ],
+  "fullCellCredit": false
+}

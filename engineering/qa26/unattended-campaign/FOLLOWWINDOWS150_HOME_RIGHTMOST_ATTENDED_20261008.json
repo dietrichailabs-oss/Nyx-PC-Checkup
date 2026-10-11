@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_home_system_rightmost_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Horizontal scrollbar reaches fully readable rightmost System card NeedsAttention and1recommendedaction; no scan started.",
+      "evidence": "screenshots/followwindows150_home_system_rightmost_attended_fresh_1791501859049.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:24:19.050Z"
+    },
+    {
+      "id": "followwindows150_home_security_rightmost_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Rightmost Security card fully readable Good/Noactionneeded after horizontal and vertical scroll; no Windows Security launch.",
+      "evidence": "screenshots/followwindows150_home_security_rightmost_attended_fresh_1791501875082.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:24:35.083Z"
+    }
+  ],
+  "fullCellCredit": false
+}

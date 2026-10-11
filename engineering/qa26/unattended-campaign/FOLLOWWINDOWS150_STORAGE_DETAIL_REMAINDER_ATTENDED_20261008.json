@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_storage_measured_largest_detail_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Enter userprofile detail:1.0GB profile,Documents2.2MB largestnamedfolder; no junction/symlink following, old/large not unwanted, ActionSafetyNone .NETenumeration CompleteTrue. Historical summary only.",
+      "evidence": "screenshots/followwindows150_storage_measured_largest_detail_attended_fresh_1791502332409.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:32:12.409Z"
+    },
+    {
+      "id": "followwindows150_storage_measured_detail_return_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Close returns userprofile Check cell outlined and selected, existing results unchanged.",
+      "evidence": "screenshots/followwindows150_storage_measured_detail_return_attended_fresh_1791502352067.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:32:32.067Z"
+    },
+    {
+      "id": "followwindows150_storage_final_enter_detail_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Finalcell Enter opens Downloads detail1file282B historical result, no notablecleanupopportunity, reviewyourself, ActionSafetyDestructiveAction metadata/boundedSHA256 CompleteTrue. No deletion; currentExplorer0items is not accepted as snapshotfreshness evidence.",
+      "evidence": "screenshots/followwindows150_storage_final_enter_detail_attended_fresh_1791502384832.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:33:04.832Z"
+    },
+    {
+      "id": "followwindows150_storage_final_detail_return_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "KeyboardClose returns finalDownloads rightmostcell dotted focus outline, Ready/no scan.",
+      "evidence": "screenshots/followwindows150_storage_final_detail_return_attended_fresh_1791502409036.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:33:29.036Z"
+    }
+  ],
+  "fullCellCredit": false
+}

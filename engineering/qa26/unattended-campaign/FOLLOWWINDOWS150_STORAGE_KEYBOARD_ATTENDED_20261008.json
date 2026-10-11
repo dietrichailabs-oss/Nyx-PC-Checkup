@@ -1,0 +1,85 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_storage_controls_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Storage controls and nondeletion explanation fully readable; Ready. NoFullCheck activated.",
+      "evidence": "screenshots/followwindows150_storage_controls_attended_fresh_1791502050138.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:27:30.139Z"
+    },
+    {
+      "id": "followwindows150_storage_downloads_destination_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Actual Explorer Users/Nyx/Downloads destination opens,0items current view. No file action. Existing scan summary is historical; no freshness comparison accepted.",
+      "evidence": "screenshots/followwindows150_storage_downloads_destination_attended_fresh_1791502068863.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:27:48.864Z"
+    },
+    {
+      "id": "followwindows150_storage_full_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from Downloads redirects return reaches outlined RunFullCheck; Ready/no scan, not activated.",
+      "evidence": "screenshots/followwindows150_storage_full_focus_attended_fresh_1791502096172.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:28:16.173Z"
+    },
+    {
+      "id": "followwindows150_storage_first_grid_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Tab into Storage grid auto-reveals first Status cell dotted outline on systemdrive row.",
+      "evidence": "screenshots/followwindows150_storage_first_grid_focus_attended_fresh_1791502106324.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:28:26.324Z"
+    },
+    {
+      "id": "followwindows150_storage_first_enter_detail_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens systemdrive detail106.8GB84.8percentfree SafeRedirect .NETDriveInfo CompleteTrue; historical snapshot no fresh scan.",
+      "evidence": "screenshots/followwindows150_storage_first_enter_detail_attended_fresh_1791502126898.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:28:46.899Z"
+    },
+    {
+      "id": "followwindows150_storage_detail_close_reachable_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals entire Close button; no destructive action.",
+      "evidence": "screenshots/followwindows150_storage_detail_close_reachable_attended_fresh_1791502138007.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:28:58.008Z"
+    },
+    {
+      "id": "followwindows150_storage_detail_return_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "KeyboardClose returns first Storage grid cell with dotted focus outline.",
+      "evidence": "screenshots/followwindows150_storage_detail_return_attended_fresh_1791502148142.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:29:08.143Z"
+    },
+    {
+      "id": "followwindows150_storage_final_cell_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches final Downloads result rightmost cell dotted outline.",
+      "evidence": "screenshots/followwindows150_storage_final_cell_attended_fresh_1791502158692.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:29:18.693Z"
+    },
+    {
+      "id": "followwindows150_storage_reverse_full_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab exits finalgrid cell and reveals outlined RunFullCheck; no activation, Ready.",
+      "evidence": "screenshots/followwindows150_storage_reverse_full_focus_attended_fresh_1791502170571.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:29:30.572Z"
+    },
+    {
+      "id": "followwindows150_storage_downloads_reverse_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab FullCheck to outlined OpenDownloads; destination not repeated.",
+      "evidence": "screenshots/followwindows150_storage_downloads_reverse_focus_attended_fresh_1791502182589.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:29:42.590Z"
+    }
+  ],
+  "fullCellCredit": false
+}

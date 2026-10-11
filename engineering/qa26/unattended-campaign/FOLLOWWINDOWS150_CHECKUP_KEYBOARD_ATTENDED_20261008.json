@@ -1,0 +1,69 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_checkup_controls_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Checkup Quick/Full controls and full descriptive explanation readable; Ready/no background monitor. Neither scan activated.",
+      "evidence": "screenshots/followwindows150_checkup_controls_attended_fresh_1791501927710.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:25:27.711Z"
+    },
+    {
+      "id": "followwindows150_checkup_first_cell_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlHome focused existing first System overview row Status cell; visible first row.",
+      "evidence": "screenshots/followwindows150_checkup_first_cell_attended_fresh_1791501961849.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:26:01.850Z"
+    },
+    {
+      "id": "followwindows150_checkup_first_enter_detail_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens System overview detail; 4.4GBRAM Windowsbuild26200, noactionrequired, ActionSafetyNone WindowsCIM/localenvironment CompleteTrue readable.",
+      "evidence": "screenshots/followwindows150_checkup_first_enter_detail_attended_fresh_1791501979567.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:26:19.568Z"
+    },
+    {
+      "id": "followwindows150_checkup_detail_close_reachable_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals detail Close control at bottom; full button visible.",
+      "evidence": "screenshots/followwindows150_checkup_detail_close_reachable_attended_fresh_1791501988432.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:26:28.433Z"
+    },
+    {
+      "id": "followwindows150_checkup_first_detail_return_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard Close returns to existing first System overview row selected; no scan started.",
+      "evidence": "screenshots/followwindows150_checkup_first_detail_return_attended_fresh_1791501997549.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:26:37.550Z"
+    },
+    {
+      "id": "followwindows150_checkup_final_cell_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches final Installed applications row rightmost result cell;5installedapplications text, grid scroll bottom.",
+      "evidence": "screenshots/followwindows150_checkup_final_cell_attended_fresh_1791502008034.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:26:48.035Z"
+    },
+    {
+      "id": "followwindows150_checkup_reverse_full_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab exits grid and auto-reveals FullCheck with outline; Ready/no scan.",
+      "evidence": "screenshots/followwindows150_checkup_reverse_full_focus_attended_fresh_1791502020041.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:27:00.042Z"
+    },
+    {
+      "id": "followwindows150_checkup_reverse_quick_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab moves FullCheck to QuickCheck visible outline; neither scan activated.",
+      "evidence": "screenshots/followwindows150_checkup_reverse_quick_focus_attended_fresh_1791502029452.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:27:09.452Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -1,0 +1,227 @@
+{
+  "schema": "QA26-PREDICATE-RECONCILIATION-1",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "theme": "Dark",
+  "requestedScale": 150,
+  "measuredNativeDpi": null,
+  "fullCellCredit": false,
+  "status": "INCOMPLETE",
+  "reason": "Native144DPI/PMv2/latest identity and complete per-cell predicate reconciliation remain required; visual observations alone not full PASS.",
+  "predicates": [
+    {
+      "id": "dark150_applied_selector",
+      "status": "PASS_OBSERVED",
+      "details": "Saved appearance acknowledged, idle normal close observed desktop, existing installed shortcut relaunch shows Dark Home and Settings selector Dark. Native144DPI/PMv2 and installed hashes still deferred; no cell PASS inferred.",
+      "evidence": "screenshots/dark150_applied_selector_1791330491400.jpg",
+      "utc": "2026-10-06T23:48:11.401Z"
+    },
+    {
+      "id": "dark150_settings_notification",
+      "status": "PASS_OBSERVED",
+      "details": "Dark selector and notification description readable/wrapped; notification remains unchecked, update preference remains checked.",
+      "evidence": "screenshots/dark150_settings_notification_1791330561506.jpg",
+      "utc": "2026-10-06T23:49:21.507Z"
+    },
+    {
+      "id": "dark150_settings_update_readability",
+      "status": "PASS_OBSERVED",
+      "details": "Update privacy statement and Check for Updates Now action fully readable at Dark requested150. Existing same-byte handled update behavior retained; no redundant network check.",
+      "evidence": "screenshots/dark150_settings_update_readability_1791330573471.jpg",
+      "utc": "2026-10-06T23:49:33.472Z"
+    },
+    {
+      "id": "dark150_settings_folder_enter",
+      "status": "PASS_OBSERVED",
+      "details": "Enter reaches actual Nyx local-data Explorer with actions/logs/reports/scans/temp/config; no file changed.",
+      "evidence": "screenshots/dark150_settings_folder_enter_1791330613299.jpg",
+      "utc": "2026-10-06T23:50:13.300Z"
+    },
+    {
+      "id": "dark150_settings_save_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab skips unactivated Delete local logs then auto-reveals Save with visible Dark focus outline; no logs deleted/settings rewritten.",
+      "evidence": "screenshots/dark150_settings_save_focus_1791330656612.jpg",
+      "utc": "2026-10-06T23:50:56.612Z"
+    },
+    {
+      "id": "dark150_settings_privacy",
+      "status": "PASS_OBSERVED",
+      "details": "Full Dark privacy promise readable/wrapped; redaction/local-first/no upload statements available through normal scroll.",
+      "evidence": "screenshots/dark150_settings_privacy_1791330666845.jpg",
+      "utc": "2026-10-06T23:51:06.846Z"
+    },
+    {
+      "id": "dark150_apps_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Apps explanation/search and required primary actions readable; selected-folder action disabled without selection; no automatic uninstall.",
+      "evidence": "screenshots/dark150_apps_controls_1791330687233.jpg",
+      "utc": "2026-10-06T23:51:27.234Z"
+    },
+    {
+      "id": "dark150_apps_zero_filter",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard z filter produces genuinely empty Apps grid; no exception; headers readable.",
+      "evidence": "screenshots/dark150_apps_zero_filter_1791330725598.jpg",
+      "utc": "2026-10-06T23:52:05.599Z"
+    },
+    {
+      "id": "dark150_apps_filter_restored",
+      "status": "PASS_OBSERVED",
+      "details": "BackSpace restores five inventory rows; Edge145.0.3800.97 and OneDrive25.087.0506.0001 readable.",
+      "evidence": "screenshots/dark150_apps_filter_restored_1791330751924.jpg",
+      "utc": "2026-10-06T23:52:31.925Z"
+    },
+    {
+      "id": "dark150_apps_first_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals all five rows with visible first Application dotted focus.",
+      "evidence": "screenshots/dark150_apps_first_focus_1791330770038.jpg",
+      "utc": "2026-10-06T23:52:50.039Z"
+    },
+    {
+      "id": "dark150_apps_final_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End reveals complete Version/Install date/Reported size columns and dotted last-cell focus; 413.5MB/Unknown values readable.",
+      "evidence": "screenshots/dark150_apps_final_focus_1791330782822.jpg",
+      "utc": "2026-10-06T23:53:02.823Z"
+    },
+    {
+      "id": "dark150_apps_folder_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Shift+Tab auto-reveals enabled Open selected folder fully within viewport with visible focus; Edge selected.",
+      "evidence": "screenshots/dark150_apps_folder_focus_1791330817150.jpg",
+      "utc": "2026-10-06T23:53:37.151Z"
+    },
+    {
+      "id": "dark150_apps_folder_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens actual Edge/Application directory, version145.0.3800.97 visible; no app launched or file modified.",
+      "evidence": "screenshots/dark150_apps_folder_destination_1791330842892.jpg",
+      "utc": "2026-10-06T23:54:02.893Z"
+    },
+    {
+      "id": "dark150_cleanup_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Dark safe-cleanup explanation readable/wrapped; nothing automatically selected; no Full refresh/new scan.",
+      "evidence": "screenshots/dark150_cleanup_controls_1791330879467.jpg",
+      "utc": "2026-10-06T23:54:39.467Z"
+    },
+    {
+      "id": "dark150_cleanup_end_navigation",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+End reaches final temp rows; no checkbox selected; no deletion.",
+      "evidence": "screenshots/dark150_cleanup_end_navigation_1791330901189.jpg",
+      "utc": "2026-10-06T23:55:01.190Z"
+    },
+    {
+      "id": "dark150_cleanup_zero_summary",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboard grid exit reveals Selected:0items,0B and Review action; no destructive selection.",
+      "evidence": "screenshots/dark150_cleanup_zero_summary_1791330910642.jpg",
+      "utc": "2026-10-06T23:55:10.643Z"
+    },
+    {
+      "id": "dark150_cleanup_zero_guard",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on zero-selected Review gives handled Select at least one displayed item, focused OK; no deletion/exception.",
+      "evidence": "screenshots/dark150_cleanup_zero_guard_1791330934705.jpg",
+      "utc": "2026-10-06T23:55:34.706Z"
+    },
+    {
+      "id": "dark150_backup_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Dark Backup explanation wraps and acknowledges third-party indicators may be undetectable; primary and Export accessible.",
+      "evidence": "screenshots/dark150_backup_controls_1791331012248.jpg",
+      "utc": "2026-10-06T23:56:52.249Z"
+    },
+    {
+      "id": "dark150_backup_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Primary reaches native Accounts > Windows backup; no sign-in, syncing, or preference change.",
+      "evidence": "screenshots/dark150_backup_destination_1791331031180.jpg",
+      "utc": "2026-10-06T23:57:11.259Z"
+    },
+    {
+      "id": "dark150_backup_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals finding with dotted status focus; readable dark headers.",
+      "evidence": "screenshots/dark150_backup_focus_1791331061307.jpg",
+      "utc": "2026-10-06T23:57:41.308Z"
+    },
+    {
+      "id": "dark150_backup_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens full wrapped backup rationale/recommendation/SafeRedirect/Complete=False readable in Dark; no backup changed.",
+      "evidence": "screenshots/dark150_backup_detail_1791331082732.jpg",
+      "utc": "2026-10-06T23:58:02.733Z"
+    },
+    {
+      "id": "dark150_backup_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse grid traversal restores primary Open Windows Backup focus with full action visible.",
+      "evidence": "screenshots/dark150_backup_reverse_focus_1791331120150.jpg",
+      "utc": "2026-10-06T23:58:40.151Z"
+    },
+    {
+      "id": "dark150_system_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Dark System explanation and serial/product-key noncollection text readable/wrapped; primary action visible.",
+      "evidence": "screenshots/dark150_system_controls_1791331143933.jpg",
+      "utc": "2026-10-06T23:59:03.934Z"
+    },
+    {
+      "id": "dark150_system_about_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Primary reaches native System > About, no OS settings changed.",
+      "evidence": "screenshots/dark150_system_about_destination_1791331168097.jpg",
+      "utc": "2026-10-06T23:59:28.098Z"
+    },
+    {
+      "id": "dark150_system_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab reveals five system findings with dotted first-status focus; status icons/text not color-only.",
+      "evidence": "screenshots/dark150_system_focus_1791331204343.jpg",
+      "utc": "2026-10-07T00:00:04.343Z"
+    },
+    {
+      "id": "dark150_system_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens readable complete System overview with None action safety/Complete=True; serial/unique identifier noncollection explanation intact.",
+      "evidence": "screenshots/dark150_system_detail_1791331235358.jpg",
+      "utc": "2026-10-07T00:00:35.359Z"
+    },
+    {
+      "id": "dark150_system_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse grid traversal reveals System About with visible keyboard focus.",
+      "evidence": "screenshots/dark150_system_reverse_focus_1791331269056.jpg",
+      "utc": "2026-10-07T00:01:09.057Z"
+    },
+    {
+      "id": "dark150_updates_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Dark Updates limited-assurance explanation wraps; primary/Export controls readable.",
+      "evidence": "screenshots/dark150_updates_controls_1791331288893.jpg",
+      "utc": "2026-10-07T00:01:28.894Z"
+    },
+    {
+      "id": "dark150_updates_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Dark Nyx redirect reaches Windows Update; no check/install/pause/preferences activated.",
+      "evidence": "screenshots/dark150_updates_destination_1791331313547.jpg",
+      "utc": "2026-10-07T00:01:53.561Z"
+    },
+    {
+      "id": "dark150_updates_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab reveals three findings with visible dotted first-status focus; headers/Good status readable.",
+      "evidence": "screenshots/dark150_updates_focus_1791331347446.jpg",
+      "utc": "2026-10-07T00:02:27.447Z"
+    }
+  ],
+  "preservedScan": "2026-10-06T01:42:11.4019523Z Full",
+  "productModified": false,
+  "updatedUtc": "2026-10-07T00:15:17.282Z"
+}

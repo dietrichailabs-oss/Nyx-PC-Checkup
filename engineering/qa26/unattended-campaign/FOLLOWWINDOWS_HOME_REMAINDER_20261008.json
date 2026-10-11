@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_home_rightmost_system",
+      "status": "PASS_OBSERVED",
+      "details": "Normal horizontal/vertical scrolling exposes full System and Backup cards, NeedsAttention1 recommended action each; no category scan/action activated.",
+      "evidence": "screenshots/recapture_followwindows150_home_rightmost_system_1791421411811.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_home_rightmost_system_1791421411811.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:03:31.812Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_rightmost_security",
+      "status": "PASS_OBSERVED",
+      "details": "Complete rightmost Security card Good/No action needed and Updates card visible after normal scroll; this is historical scan UI, not a current Windows Security status assertion.",
+      "evidence": "screenshots/recapture_followwindows150_home_rightmost_security_1791421443248.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_home_rightmost_security_1791421443248.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:04:03.249Z"
+    },
+    {
+      "id": "recapture_followwindows150_home_primary_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab from Home navigation to Export then CheckMyPC auto-reveals primary control fully in viewport with focus border; no Return/Space activation and no scan/export.",
+      "evidence": "screenshots/recapture_followwindows150_home_primary_focus_1791421474112.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_home_primary_focus_1791421474112.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:04:34.112Z"
+    }
+  ],
+  "fullCellCredit": false
+}

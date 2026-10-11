@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_attended_saved_pending_relaunch",
+      "status": "PASS_OBSERVED",
+      "details": "FollowWindows selected only; acknowledgement Settings were saved, theme applies next open. No notification/update/privacy change.",
+      "evidence": "screenshots/followwindows150_attended_saved_pending_relaunch_1791501432439.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:17:12.440Z"
+    }
+  ],
+  "fullCellCredit": false
+}

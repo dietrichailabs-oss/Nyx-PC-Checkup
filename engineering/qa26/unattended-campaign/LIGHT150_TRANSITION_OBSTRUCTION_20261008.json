@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "id": "light150_transition_security_obstruction",
+      "status": "PASS_OBSERVED",
+      "details": "Normal idle Nyx close completed. Existing Windows Security window exposed and obscures Nyx desktop shortcut. No Windows Security input performed. Light saved but applied selector not verified; human closes security window normally before existing-shortcut relaunch.",
+      "evidence": "screenshots/light150_transition_security_obstruction_1791429924773.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/light150_transition_security_obstruction_1791429924773.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:25:24.774Z"
+    }
+  ],
+  "fullCellCredit": false
+}

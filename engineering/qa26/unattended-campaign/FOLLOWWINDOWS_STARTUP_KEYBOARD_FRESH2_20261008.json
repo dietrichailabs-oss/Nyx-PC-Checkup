@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "id": "fresh2_followwindows150_startup_valid_fixture",
+      "status": "PASS_OBSERVED",
+      "details": "QA26 F023 existing all-users Startup fixture selected through Application cell; no checkbox, disable, re-enable, or refresh invoked.",
+      "evidence": "screenshots/fresh2_followwindows150_startup_valid_fixture_1791429376949.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_startup_valid_fixture_1791429376949.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:16:16.950Z"
+    },
+    {
+      "id": "fresh2_followwindows150_startup_folder_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Ctrl+Shift+Tab from selected Application cell reveals and visibly outlines Open file location.",
+      "evidence": "screenshots/fresh2_followwindows150_startup_folder_focus_1791429389526.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_startup_folder_focus_1791429389526.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:16:29.527Z"
+    },
+    {
+      "id": "fresh2_followwindows150_startup_folder_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens Explorer Start Menu > Programs > Startup with exact QA26 F023 shortcut selected; 1 item selected, 1.76 KB. No elevation or mutation. Existing-location path only; missing-location remains NOT_RUN.",
+      "evidence": "screenshots/fresh2_followwindows150_startup_folder_destination_1791429406496.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_startup_folder_destination_1791429406496.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:16:46.497Z"
+    }
+  ],
+  "fullCellCredit": false
+}

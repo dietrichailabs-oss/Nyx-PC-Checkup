@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_apps_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Apps explanation supported Windows uninstall inventory/no junk label/no automatic uninstall. Search and primary controls visible; selected-folder action disabled with no selection; no Full Check or redirect repeated.",
+      "evidence": "screenshots/recapture_dark150_apps_controls_1791419009202.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_apps_controls_1791419009202.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:23:29.203Z"
+    },
+    {
+      "id": "recapture_dark150_apps_grid_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from search auto-reveals five-row Apps grid with visible first Application focus; Application/Publisher/Version readable, Nyx PC Checkup Dietrich AI Labs1.0.0 included. This is display evidence, not frozen-install hash verification.",
+      "evidence": "screenshots/recapture_dark150_apps_grid_focus_1791419023767.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_apps_grid_focus_1791419023767.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:23:43.768Z"
+    },
+    {
+      "id": "recapture_dark150_apps_final_columns",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd reaches final Nyx row and rightmost Version/Install date/Reported size columns. Nyx1.0.0/date20261005/reported size Unknown; unknown sizes not asserted measured.",
+      "evidence": "screenshots/recapture_dark150_apps_final_columns_1791419033172.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_apps_final_columns_1791419033172.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:23:53.172Z"
+    },
+    {
+      "id": "recapture_dark150_apps_folder_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse keyboard navigation from selected Nyx final row reveals fully visible focused Open selected folder; no scan/InstalledApps redirect activated.",
+      "evidence": "screenshots/recapture_dark150_apps_folder_focus_1791419046030.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_apps_folder_focus_1791419046030.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:24:06.031Z"
+    },
+    {
+      "id": "recapture_dark150_apps_selected_folder",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on selected Nyx Open selected folder reaches native installation directory with app/docs/install-state/PAYLOAD_MANIFEST/SBOM and application visible. No executable launched; folder display is not hash identity verification.",
+      "evidence": "screenshots/recapture_dark150_apps_selected_folder_1791419057970.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_apps_selected_folder_1791419057970.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:24:17.971Z"
+    },
+    {
+      "id": "recapture_dark150_apps_folder_return",
+      "status": "PASS_OBSERVED",
+      "details": "Closing installation Explorer returns to Apps with Open selected folder focus visible; no scan, uninstall or settings mutation.",
+      "evidence": "screenshots/recapture_dark150_apps_folder_return_1791419068954.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_apps_folder_return_1791419068954.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:24:28.956Z"
+    }
+  ]
+}

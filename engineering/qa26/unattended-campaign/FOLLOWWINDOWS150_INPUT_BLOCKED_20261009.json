@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_apps_navigation_input_blocked_20261009",
+      "status": "BLOCKED_CONTROL",
+      "details": "Apps navigation click, settled observation, and Return produced no page transition; Settings remains visible. No missing navigation predicate executed or credited. Not a product failure without confirmed guest input.",
+      "evidence": "screenshots/FOLLOWWINDOWS150_INPUT_BLOCKED_20261009_1791569629487.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-09T18:13:49.488Z"
+    }
+  ],
+  "fullCellCredit": false
+}

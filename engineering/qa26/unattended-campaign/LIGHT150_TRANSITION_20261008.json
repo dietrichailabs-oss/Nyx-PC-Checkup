@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "id": "light150_transition_saved_pending_relaunch",
+      "status": "PASS_OBSERVED",
+      "details": "Light appearance selected; Save acknowledgement states settings saved and theme changes apply next open. No privacy/update/notification controls changed; idle, no scan. Applied Light not yet credited.",
+      "evidence": "screenshots/light150_transition_saved_pending_relaunch_1791429871857.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/light150_transition_saved_pending_relaunch_1791429871857.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:24:31.858Z"
+    }
+  ],
+  "fullCellCredit": false
+}

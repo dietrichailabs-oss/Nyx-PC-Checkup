@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_localdata_path_observed_20261010",
+      "status": "PASS_OBSERVED",
+      "details": "Explorer address dropdown now visibly identifies C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup; no files opened or changed. Guest input timing/control remains unresolved.",
+      "evidence": "screenshots/followwindows150_localdata_path_observed_20261010_1791663361291.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-10T20:16:01.292Z"
+    }
+  ],
+  "fullCellCredit": false
+}

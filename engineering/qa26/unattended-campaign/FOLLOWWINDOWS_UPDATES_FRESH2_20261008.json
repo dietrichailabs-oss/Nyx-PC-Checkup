@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "id": "fresh2_followwindows150_updates_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Supported local indicators/official Windows Update redirect disclosure readable;never full patch assurance from limited data. Ready no monitor.",
+      "evidence": "screenshots/fresh2_followwindows150_updates_controls_1791428623305.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_updates_controls_1791428623305.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:03:43.306Z"
+    },
+    {
+      "id": "fresh2_followwindows150_updates_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Native Windows Update displayed;no Check for updates,pause,toggle or install input. Destination only,not independent patch assurance.",
+      "evidence": "screenshots/fresh2_followwindows150_updates_destination_1791428646292.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_updates_destination_1791428646292.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:04:06.293Z"
+    },
+    {
+      "id": "fresh2_followwindows150_updates_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab primary to first Status cell;three Updates rows visible, historical results unchanged.",
+      "evidence": "screenshots/fresh2_followwindows150_updates_focus_1791428682640.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_updates_focus_1791428682640.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:04:42.641Z"
+    },
+    {
+      "id": "fresh2_followwindows150_updates_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter restart detail:No supported restart-pending marker,SafeRedirect,Windows servicing registry,Complete True,Pending false. Historical scan,not live patch assertion.",
+      "evidence": "screenshots/fresh2_followwindows150_updates_detail_1791428705589.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_updates_detail_1791428705589.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:05:05.590Z"
+    },
+    {
+      "id": "fresh2_followwindows150_updates_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-reveals Close in Update restart detail.",
+      "evidence": "screenshots/fresh2_followwindows150_updates_close_focus_1791428717517.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_updates_close_focus_1791428717517.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:05:17.518Z"
+    },
+    {
+      "id": "fresh2_followwindows150_updates_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Return closes detail and restores first Updates Status cell,Ready no monitor.",
+      "evidence": "screenshots/fresh2_followwindows150_updates_keyboard_close_return_1791428729357.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_updates_keyboard_close_return_1791428729357.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:05:29.358Z"
+    },
+    {
+      "id": "fresh2_followwindows150_updates_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "ShiftTab first Status cell outlines Open Windows Update,auto-reveals;not reactivated.",
+      "evidence": "screenshots/fresh2_followwindows150_updates_reverse_focus_1791428753919.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/fresh2_followwindows150_updates_reverse_focus_1791428753919.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T03:05:53.920Z"
+    }
+  ],
+  "fullCellCredit": false
+}

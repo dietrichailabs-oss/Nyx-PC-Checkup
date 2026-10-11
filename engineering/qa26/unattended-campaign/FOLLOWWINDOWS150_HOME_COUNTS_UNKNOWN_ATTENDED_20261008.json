@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_home_counts_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Home counts readable Good14 NeedsAttention2 Optional2 Unknown3, headline2things; current loaded snapshot UI only, no raw attribution or full-cell credit. Repairs legacy count duplicate evidence.",
+      "evidence": "screenshots/followwindows150_home_counts_attended_fresh_1791501702985.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:21:42.985Z"
+    },
+    {
+      "id": "followwindows150_home_unknown_explanation_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Home TPM and SecureBoot question-mark unknown rows explicitly say check could not be completed; no adverse security inference, no OS security control opened. Repairs legacy Unknown readable evidence.",
+      "evidence": "screenshots/followwindows150_home_unknown_explanation_attended_fresh_1791501733768.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:22:13.769Z"
+    }
+  ],
+  "fullCellCredit": false
+}

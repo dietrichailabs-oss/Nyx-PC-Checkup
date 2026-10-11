@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_settings_save_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab traverses unchanged appearance/notification/update actions, passes unactivated Delete local logs and auto-reveals fully visible Save settings with focus outline. Save not activated; no preference/log mutation.",
+      "evidence": "screenshots/recapture_dark150_settings_save_focus_1791419931988.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_settings_save_focus_1791419931988.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T00:38:51.989Z"
+    }
+  ]
+}

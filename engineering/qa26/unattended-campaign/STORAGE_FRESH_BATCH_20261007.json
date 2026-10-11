@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_storage_controls",
+      "status": "PASS_OBSERVED",
+      "details": "Storage explanation: large/old/duplicated does not mean unwanted; page never deletes anything. Storage settings, Downloads and Full Check visible; Full Check not activated.",
+      "evidence": "screenshots/recapture_dark150_storage_controls_1791416291930.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_controls_1791416291930.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:38:11.930Z"
+    },
+    {
+      "id": "recapture_dark150_storage_downloads",
+      "status": "PASS_OBSERVED",
+      "details": "Open Downloads opens native Users/Nyx/Downloads empty folder; no files created/deleted/executed.",
+      "evidence": "screenshots/recapture_dark150_storage_downloads_1791416300386.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_downloads_1791416300386.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:38:20.387Z"
+    },
+    {
+      "id": "recapture_dark150_storage_downloads_return",
+      "status": "PASS_OBSERVED",
+      "details": "Closing Downloads Explorer returns to idle Nyx Storage; no new scan initiated.",
+      "evidence": "screenshots/recapture_dark150_storage_downloads_return_1791416309573.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_downloads_return_1791416309573.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:38:29.574Z"
+    },
+    {
+      "id": "recapture_dark150_storage_grid_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab visibly focuses first System-drive finding; three preserved Storage findings shown. Snapshot Downloads result is historical, not current folder count.",
+      "evidence": "screenshots/recapture_dark150_storage_grid_focus_1791416320835.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_grid_focus_1791416320835.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:38:40.836Z"
+    },
+    {
+      "id": "recapture_dark150_storage_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens exact System-drive free space finding: 106.9GB, 84.8% free; recommendation no storage action; SafeRedirect; .NET DriveInfo; Complete True; technical evidence readable.",
+      "evidence": "screenshots/recapture_dark150_storage_detail_1791416332898.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_detail_1791416332898.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:38:52.899Z"
+    },
+    {
+      "id": "recapture_dark150_storage_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab automatically scrolls Storage detail to fully visible focused Close.",
+      "evidence": "screenshots/recapture_dark150_storage_close_focus_1791416337462.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_close_focus_1791416337462.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:38:57.463Z"
+    },
+    {
+      "id": "recapture_dark150_storage_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Enter closes System-drive detail and restores visible dotted focus to exact originating finding cell.",
+      "evidence": "screenshots/recapture_dark150_storage_keyboard_close_return_1791416346434.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_storage_keyboard_close_return_1791416346434.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:39:06.435Z"
+    }
+  ]
+}

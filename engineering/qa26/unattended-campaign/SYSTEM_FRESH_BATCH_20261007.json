@@ -1,0 +1,69 @@
+{
+  "records": [
+    {
+      "id": "recapture_dark150_system_controls",
+      "status": "PASS_OBSERVED",
+      "details": "System explanation wraps; serial numbers and product keys not collected statement readable. System About action reachable; no scan.",
+      "evidence": "screenshots/recapture_dark150_system_controls_1791414793680.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_system_controls_1791414793680.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:13:13.681Z"
+    },
+    {
+      "id": "recapture_dark150_system_about_destination",
+      "status": "PASS_OBSERVED",
+      "details": "Nyx primary redirect reaches native System > About; no OS changes.",
+      "evidence": "screenshots/recapture_dark150_system_about_destination_1791414803123.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_system_about_destination_1791414803123.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:13:23.124Z"
+    },
+    {
+      "id": "recapture_dark150_system_grid_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab reveals five System findings; dotted focus first status, text/icon status not color-only.",
+      "evidence": "screenshots/recapture_dark150_system_grid_focus_1791414812265.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_system_grid_focus_1791414812265.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:13:32.266Z"
+    },
+    {
+      "id": "recapture_dark150_system_detail",
+      "status": "PASS_OBSERVED",
+      "details": "Exact System overview detail: WHAT/WHY/recommendation readable; serial/unique identifier noncollection explicit, ActionSafetyNone, data source WindowsCIM/local environment, CompleteTrue. Finding is preserved scan snapshot, not current live RAM assertion.",
+      "evidence": "screenshots/recapture_dark150_system_detail_1791414822503.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_system_detail_1791414822503.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:13:42.504Z"
+    },
+    {
+      "id": "recapture_dark150_system_close_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab auto-scrolls focused Close button fully into reachable detail viewport.",
+      "evidence": "screenshots/recapture_dark150_system_close_focus_1791414827826.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_system_close_focus_1791414827826.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:13:47.827Z"
+    },
+    {
+      "id": "recapture_dark150_system_keyboard_close_return",
+      "status": "PASS_OBSERVED",
+      "details": "Enter closes System detail and restores visible dotted focus to exact first finding.",
+      "evidence": "screenshots/recapture_dark150_system_keyboard_close_return_1791414836387.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_system_keyboard_close_return_1791414836387.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:13:56.389Z"
+    },
+    {
+      "id": "recapture_dark150_system_reverse_focus",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab reveals fully reachable SystemAbout primary action with visible focus.",
+      "evidence": "screenshots/recapture_dark150_system_reverse_focus_1791414854044.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_dark150_system_reverse_focus_1791414854044.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-07T23:14:14.045Z"
+    }
+  ],
+  "productModified": false,
+  "fullCellCredit": false
+}

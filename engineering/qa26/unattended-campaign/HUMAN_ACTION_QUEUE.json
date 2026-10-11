@@ -89,10 +89,75 @@
     },
     {
       "id": "HOST_NOTIFICATION_OVERLAYS",
-      "status": "BLOCKED_HUMAN",
+      "status": "COMPLETE",
       "reason": "Host ChatGPT and Windows Update notification overlays obscure VM capture; no host update/restart or Codex UI automation performed.",
       "nextAction": "Dismiss host notifications normally without initiating updates, then resume unobscured VM evidence capture.",
       "queuedUtc": "2026-10-06T16:26:18.965Z"
+    },
+    {
+      "id": "LIGHT150_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Windows Security app is human-only; native Nyx readonly findings tested.",
+      "nextAction": "Group with end-of-campaign human checks; no protection-setting changes."
+    },
+    {
+      "id": "FW150_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Windows Security interaction is human-only; no automated protection changes.",
+      "nextAction": "Grouped end session checks safe redirect and captures destination without modifying protection."
+    },
+    {
+      "id": "DARK150_SECURITY_WINDOW_CLOSE",
+      "status": "RESOLVED_OBSERVED",
+      "reason": "Nyx redirect opened Windows Security; no interaction inside it performed.",
+      "nextAction": "Close existing Windows Security window normally without changing protection. It is now foreground and obscures Nyx shortcut after saved-Light normal close; resume applied-Light relaunch afterward.",
+      "queuedUtc": "2026-10-07T00:04:57.931Z",
+      "completedUtc": "2026-10-08T22:58:04.488Z",
+      "resolution": "User restored desktop and closed Windows Security; unobscured VM and Nyx relaunch observed."
+    },
+    {
+      "id": "FOLLOWWINDOWS150_STORAGE_SETTINGS_UAC_DISMISS",
+      "details": "At 2026-10-08T02:02 heartbeat UAC prompt absent and System > Storage visible. Human resolution method not observed; no automated credential or approval input.",
+      "evidence": "screenshots/recapture_followwindows150_storage_uac_blocker_1791424722130.jpg",
+      "utc": "2026-10-08T01:59:03.9540572Z",
+      "status": "RESOLVED_OBSERVED"
+    },
+    {
+      "id": "GUEST_DISPLAY_UNAVAILABLE_20261008",
+      "status": "RESOLVED_OBSERVED",
+      "reason": "Native display black in two captures while VM Connection reports Running; exact cause unknown.",
+      "nextAction": "Restore visible desktop normally; sign in manually if required. Do not restart or discard preserved scans.",
+      "queuedUtc": "2026-10-08T03:33:32.6744374Z",
+      "completedUtc": "2026-10-08T22:58:04.488Z",
+      "resolution": "User restored desktop and closed Windows Security; unobscured VM and Nyx relaunch observed."
+    },
+    {
+      "id": "COLLECT_LIGHT150_SEPARATE_FULL_RAW",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Separate new Full finished UI; actual contract and worker cleanup require end-of-campaign read-only collector/UAC. Recover prior observer records separately; do not replace original evidence.",
+      "queuedUtc": "2026-10-08T23:08:02.291Z"
+    },
+    {
+      "id": "FOLLOWWINDOWS150_LOCALFOLDER_CLOSE_20261008",
+      "status": "RESOLVED_OBSERVED",
+      "action": "Close guest Explorer Nyx PC Checkup window normally, then allow observed return to Nyx Settings. Automated normal-close attempts did not dismiss. Do not delete files or use force termination.",
+      "evidence": "screenshots/followwindows150_localfolder_close_blocker_attended_1791502885989.jpg",
+      "utc": "2026-10-08T23:41:25.995Z",
+      "resolvedUtc": "2026-10-09T16:55:31.856Z",
+      "resolution": "After user reconnect,Explorergone andfocusonlyTabchangesSettingscontrol. Originalreturnfocusnotcredited."
+    },
+    {
+      "id": "COLLECTOR_EXECUTION_POLICY_20261011",
+      "status": "HARNESS_ROUTE_REMEDIATION_IN_PROGRESS",
+      "reason": "Elevated diagnostic wrapper confirms existing collector file rejected by PowerShell execution policy: running scripts disabled. No new collection folder; no collection credit; policy not bypassed or changed.",
+      "nextAction": "Human supplies policy-approved execution route or signed/approved collector. Then normal collector restart/manual login and exact raw/native validation.",
+      "evidence": "qa26_vm_automation/COLLECTOR_LAUNCH_20261011.txt",
+      "queuedUtc": "2026-10-11T13:34:26.185Z",
+      "action": "No owner input requested while compliant Python/.NET/native evidence routes are evaluated.",
+      "automationReason": "PowerShell script policy blocks existing .ps1; alternate harness route not exhausted.",
+      "expectedPrompt": "None until an actually unavoidable secure-desktop action is established",
+      "minimumInput": "None currently",
+      "automaticResume": "Read-only collector equivalence and raw/native validation, independent suites continue."
     }
   ]
 }

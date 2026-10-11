@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "id": "recapture_followwindows150_settings_folder_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from CheckUpdates auto-reveals fully visible Open local data folder with focus outline; Delete local logs unactivated.",
+      "evidence": "screenshots/recapture_followwindows150_settings_folder_focus_1791422053496.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_settings_folder_focus_1791422053496.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:14:13.497Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_folder_enter",
+      "status": "PASS_OBSERVED",
+      "details": "Enter on keyboard-focused Open local data folder reaches native Nyx PC Checkup Explorer containing actions/logs/reports/scans/temp/config.json. No file opened,deleted or modified; preserved scan not replaced.",
+      "evidence": "screenshots/recapture_followwindows150_settings_folder_enter_1791422069061.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_settings_folder_enter_1791422069061.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:14:29.062Z"
+    },
+    {
+      "id": "recapture_followwindows150_settings_save_focus",
+      "status": "PASS_OBSERVED",
+      "details": "Tab passes unactivated Delete logs and auto-reveals Save settings fully within viewport with visible focus border. Save not activated; preferences and logs unchanged.",
+      "evidence": "screenshots/recapture_followwindows150_settings_save_focus_1791422112874.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_settings_save_focus_1791422112874.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T01:15:12.876Z"
+    }
+  ],
+  "fullCellCredit": false
+}

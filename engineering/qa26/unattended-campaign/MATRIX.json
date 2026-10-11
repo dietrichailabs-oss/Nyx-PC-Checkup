@@ -518,7 +518,9 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/followwindows150_updates_controls_1791329358290.jpg"
+    ]
   },
   {
     "theme": "FollowWindows",
@@ -527,7 +529,13 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/followwindows150_backup_controls_1791328736727.jpg",
+      "screenshots/followwindows150_backup_destination_1791328758927.jpg",
+      "screenshots/followwindows150_backup_grid_focus_1791328784810.jpg",
+      "screenshots/followwindows150_backup_detail_1791328810140.jpg",
+      "screenshots/followwindows150_backup_reverse_focus_1791328836058.jpg"
+    ]
   },
   {
     "theme": "FollowWindows",
@@ -536,7 +544,13 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/followwindows150_system_controls_1791329036371.jpg",
+      "screenshots/followwindows150_system_about_destination_1791329062207.jpg",
+      "screenshots/followwindows150_system_grid_focus_1791329086272.jpg",
+      "screenshots/followwindows150_system_performance_detail_1791329124132.jpg",
+      "screenshots/followwindows150_system_reverse_focus_1791329346438.jpg"
+    ]
   },
   {
     "theme": "FollowWindows",
@@ -545,7 +559,15 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/followwindows150_apps_controls_1791327879147.jpg",
+      "screenshots/followwindows150_apps_first_focus_1791327900699.jpg",
+      "screenshots/followwindows150_apps_final_focus_1791327912446.jpg",
+      "screenshots/followwindows150_apps_zero_filter_1791328145509.jpg",
+      "screenshots/followwindows150_apps_filter_restored_1791328158572.jpg",
+      "screenshots/followwindows150_apps_full_action_focus_1791328169092.jpg",
+      "screenshots/followwindows150_apps_folder_after_filter_1791328230694.jpg"
+    ]
   },
   {
     "theme": "FollowWindows",
@@ -554,7 +576,11 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/followwindows150_cleanup_controls_1791328440710.jpg",
+      "screenshots/followwindows150_cleanup_zero_summary_1791328475851.jpg",
+      "screenshots/followwindows150_cleanup_zero_guard_1791328495220.jpg"
+    ]
   },
   {
     "theme": "FollowWindows",
@@ -563,7 +589,13 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/followwindows150_settings_notification_readability_1791327529155.jpg",
+      "screenshots/followwindows150_settings_update_handled_1791327572602.jpg",
+      "screenshots/followwindows150_settings_folder_keyboard_1791327607216.jpg",
+      "screenshots/followwindows150_settings_save_focus_1791327840096.jpg",
+      "screenshots/followwindows150_settings_privacy_complete_1791327861027.jpg"
+    ]
   },
   {
     "theme": "FollowWindows",
@@ -850,7 +882,7 @@
       "screenshots/current_settings_native_96dpi_geometry.png",
       "screenshots/direct_native_report_header_enlarged.png"
     ],
-    "completedUtc": "2026-10-04T21:11:19.500Z",
+    "completedUtc": "2026-10-04T21:11:19.5Z",
     "predicates": {
       "dpi": 96,
       "theme": "Dark",
@@ -1148,7 +1180,7 @@
       "screenshots/dark125_apps_recreation.png",
       "collected-native-contracts-20261004/INSTALLED_HASHES.json"
     ],
-    "completedUtc": "2026-10-05T12:58:05.250Z",
+    "completedUtc": "2026-10-05T12:58:05.25Z",
     "predicates": {
       "observation": "Dark125 Apps actual Full populated5 entries, zero/clear filter, Version read, Home/End/PageUp/PageDown/Up/Down no activation, visible keyboard focus/scrolling, valid folder action, Installed Apps safe dispatch and page recreation verified. Dedicated unavailable-folder fixture remains an F022 focused requirement, not claimed by empty selection. Raw Full contract collection pending separately."
     }
@@ -1273,7 +1305,15 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/dark150_apps_controls_1791330687233.jpg",
+      "screenshots/dark150_apps_zero_filter_1791330725598.jpg",
+      "screenshots/dark150_apps_filter_restored_1791330751924.jpg",
+      "screenshots/dark150_apps_first_focus_1791330770038.jpg",
+      "screenshots/dark150_apps_final_focus_1791330782822.jpg",
+      "screenshots/dark150_apps_folder_focus_1791330817150.jpg",
+      "screenshots/dark150_apps_folder_destination_1791330842892.jpg"
+    ]
   },
   {
     "theme": "Dark",
@@ -1282,7 +1322,12 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/dark150_cleanup_controls_1791330879467.jpg",
+      "screenshots/dark150_cleanup_end_navigation_1791330901189.jpg",
+      "screenshots/dark150_cleanup_zero_summary_1791330910642.jpg",
+      "screenshots/dark150_cleanup_zero_guard_1791330934705.jpg"
+    ]
   },
   {
     "theme": "Dark",
@@ -1291,7 +1336,13 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/dark150_settings_notification_1791330561506.jpg",
+      "screenshots/dark150_settings_update_readability_1791330573471.jpg",
+      "screenshots/dark150_settings_folder_enter_1791330613299.jpg",
+      "screenshots/dark150_settings_save_focus_1791330656612.jpg",
+      "screenshots/dark150_settings_privacy_1791330666845.jpg"
+    ]
   },
   {
     "theme": "Dark",
@@ -1749,7 +1800,7 @@
       "screenshots/dark125_startup_allusers_readonly.png",
       "screenshots/dark125_startup_valid_location.png"
     ],
-    "completedUtc": "2026-10-06T01:41:05.600Z",
+    "completedUtc": "2026-10-06T01:41:05.6Z",
     "predicates": {
       "readability": "Required text and all seven columns practically readable via keyboard horizontal scroll",
       "keyboard": "Visible grid focus; CtrlEnd/CtrlHome; Tab/ShiftTab skips all-users mutation actions",
@@ -1981,7 +2032,27 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_home_relaunch_1791323661180.jpg",
+      "screenshots/light150_home_text_status_1791323669859.jpg",
+      "screenshots/light150_home_horizontal_reach_1791323689719.jpg",
+      "screenshots/light150_home_export_preview_1791323706542.jpg",
+      "screenshots/light150_home_export_keyboard_reach_1791323714566.jpg",
+      "screenshots/light150_home_preview_closed_1791323750041.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_home_relaunch_1791323661181",
+      "light150_home_text_status_1791323669860",
+      "light150_home_horizontal_reach_1791323689719",
+      "light150_home_export_preview_1791323706542",
+      "light150_home_export_keyboard_reach_1791323714567",
+      "light150_home_preview_closed_1791323750042"
+    ],
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
   },
   {
     "theme": "Light",
@@ -1990,7 +2061,21 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_checkup_actions_1791323771088.jpg",
+      "screenshots/light150_checkup_final_enter_detail_1791323809726.jpg",
+      "screenshots/light150_checkup_reverse_primary_focus_1791323836536.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_checkup_actions_1791323771089",
+      "light150_checkup_final_enter_detail_1791323809727",
+      "light150_checkup_reverse_primary_focus_1791323836536"
+    ],
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
   },
   {
     "theme": "Light",
@@ -1999,7 +2084,19 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_storage_controls_1791323859445.jpg",
+      "screenshots/light150_storage_downloads_destination_1791323894151.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_storage_controls_1791323859446",
+      "light150_storage_downloads_destination_1791323894151"
+    ],
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
   },
   {
     "theme": "Light",
@@ -2008,7 +2105,19 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_startup_refresh_recreation_1791323947112.jpg",
+      "screenshots/light150_startup_grid_focus_1791323956571.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_startup_refresh_recreation_1791323947113",
+      "light150_startup_grid_focus_1791323956572"
+    ],
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
   },
   {
     "theme": "Light",
@@ -2017,7 +2126,25 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_security_controls_1791324736440.jpg",
+      "screenshots/light150_security_unknown_detail_1791324786763.jpg",
+      "screenshots/light150_security_reverse_primary_focus_1791324835985.jpg",
+      "screenshots/light150_security_maximized_1791324965981.jpg",
+      "screenshots/light150_security_restored_1791324977641.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_security_controls_1791324736441",
+      "light150_security_unknown_detail_1791324786764",
+      "light150_security_reverse_primary_focus_1791324835986",
+      "light150_security_maximized_1791324965982",
+      "light150_security_restored_1791324977642"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING",
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ]
   },
   {
     "theme": "Light",
@@ -2026,7 +2153,25 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_updates_controls_1791324675633.jpg",
+      "screenshots/light150_updates_redirect_1791324699703.jpg",
+      "screenshots/light150_updates_grid_focus_1791325013149.jpg",
+      "screenshots/light150_updates_enter_detail_1791325020133.jpg",
+      "screenshots/light150_updates_reverse_focus_1791325049266.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_updates_controls_1791324675634",
+      "light150_updates_redirect_1791324699703",
+      "light150_updates_grid_focus_1791325013150",
+      "light150_updates_enter_detail_1791325020134",
+      "light150_updates_reverse_focus_1791325049266"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING",
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ]
   },
   {
     "theme": "Light",
@@ -2035,7 +2180,23 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_backup_controls_1791324462185.jpg",
+      "screenshots/light150_backup_redirect_1791324482298.jpg",
+      "screenshots/light150_backup_grid_keyboard_1791324511948.jpg",
+      "screenshots/light150_backup_detail_readability_1791324534585.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_backup_controls_1791324462186",
+      "light150_backup_redirect_1791324482299",
+      "light150_backup_grid_keyboard_1791324511949",
+      "light150_backup_detail_readability_1791324534586"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING",
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ]
   },
   {
     "theme": "Light",
@@ -2044,7 +2205,23 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_system_controls_1791324582562.jpg",
+      "screenshots/light150_system_about_destination_1791324603472.jpg",
+      "screenshots/light150_system_grid_focus_1791324624142.jpg",
+      "screenshots/light150_system_enter_detail_1791324637271.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_system_controls_1791324582562",
+      "light150_system_about_destination_1791324603473",
+      "light150_system_grid_focus_1791324624142",
+      "light150_system_enter_detail_1791324637272"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING",
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ]
   },
   {
     "theme": "Light",
@@ -2053,7 +2230,27 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_apps_controls_1791324269422.jpg",
+      "screenshots/light150_apps_first_focus_versions_1791324287523.jpg",
+      "screenshots/light150_apps_final_focus_1791324298160.jpg",
+      "screenshots/light150_apps_zero_filter_1791324319263.jpg",
+      "screenshots/light150_apps_filter_restored_1791324333899.jpg",
+      "screenshots/light150_apps_installed_redirect_1791325465565.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_apps_controls_1791324269423",
+      "light150_apps_first_focus_versions_1791324287524",
+      "light150_apps_final_focus_1791324298160",
+      "light150_apps_zero_filter_1791324319264",
+      "light150_apps_filter_restored_1791324334102",
+      "light150_apps_installed_redirect"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING",
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ]
   },
   {
     "theme": "Light",
@@ -2062,7 +2259,21 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_cleanup_safety_text_1791324345803.jpg",
+      "screenshots/light150_cleanup_consequence_tooltip_1791324398539.jpg",
+      "screenshots/light150_cleanup_zero_guard_1791324430668.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_cleanup_safety_text_1791324345804",
+      "light150_cleanup_consequence_tooltip_1791324398539",
+      "light150_cleanup_zero_guard_1791324430669"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING",
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ]
   },
   {
     "theme": "Light",
@@ -2071,7 +2282,29 @@
     "resolution": "1366x768",
     "supportPolicy": "STRICT",
     "status": "NOT_RUN",
-    "evidence": []
+    "evidence": [
+      "screenshots/light150_settings_theme_confirmed_1791324014031.jpg",
+      "screenshots/light150_settings_notification_text_1791324037270.jpg",
+      "screenshots/light150_settings_update_dispatch_1791324071847.jpg",
+      "screenshots/light150_settings_update_handled_1791324082603.jpg",
+      "screenshots/light150_settings_local_folder_1791325197674.jpg",
+      "screenshots/light150_settings_save_keyboard_1791325427857.jpg",
+      "screenshots/light150_settings_privacy_readable_1791325444381.jpg"
+    ],
+    "completedPredicateReferences": [
+      "light150_settings_theme_confirmed_1791324014032",
+      "light150_settings_notification_text_1791324037271",
+      "light150_settings_update_dispatch_1791324071848",
+      "light150_settings_update_handled_1791324082603",
+      "light150_settings_local_folder",
+      "light150_settings_save_keyboard",
+      "light150_settings_privacy_readable"
+    ],
+    "remainingPredicates": [
+      "Exact native DPI/work-area/installed identity verification before full cell PASS",
+      "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+    ],
+    "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
   },
   {
     "theme": "Light",

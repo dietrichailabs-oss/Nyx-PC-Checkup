@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_checkup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 End moved first-row focus to last What Nyx found column; existing scan unchanged.",
+      "evidence": "screenshots/followwindows150_checkup_end_navigation_20261011_1791725319544.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:28:39.546Z"
+    },
+    {
+      "id": "followwindows150_checkup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Home restored first-row Status Good cell.",
+      "evidence": "screenshots/followwindows150_checkup_home_navigation_20261011_1791725329020.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:28:49.021Z"
+    },
+    {
+      "id": "followwindows150_checkup_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Down vertically scrolled and focused Startup applications Optional row.",
+      "evidence": "screenshots/followwindows150_checkup_pagedown_navigation_20261011_1791725338241.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:28:58.242Z"
+    },
+    {
+      "id": "followwindows150_checkup_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Page Up restored first System overview Good cell with visible focus.",
+      "evidence": "screenshots/followwindows150_checkup_pageup_navigation_20261011_1791725347089.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:29:07.090Z"
+    },
+    {
+      "id": "followwindows150_checkup_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Down moved exactly one row to Storage system-drive Good cell.",
+      "evidence": "screenshots/followwindows150_checkup_down_navigation_20261011_1791725356878.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:29:16.878Z"
+    },
+    {
+      "id": "followwindows150_checkup_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "F022 Up restored first-row System overview Good Status cell.",
+      "evidence": "screenshots/followwindows150_checkup_up_navigation_20261011_1791725369330.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:29:29.331Z"
+    }
+  ],
+  "fullCellCredit": false
+}

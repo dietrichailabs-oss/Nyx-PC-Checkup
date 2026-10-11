@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_apps_zero_filter_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Keyboardq query results empty Apps grid with readableheaders, Ready; no refresh/uninstall.",
+      "evidence": "screenshots/followwindows150_apps_zero_filter_attended_fresh_1791502488630.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:34:48.631Z"
+    },
+    {
+      "id": "followwindows150_apps_filter_restored_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "BackSpace clearsq filter; existing Edge,EdgeUpdate,WebView2,OneDrive,Nyx rows restored withoutscan.",
+      "evidence": "screenshots/followwindows150_apps_filter_restored_attended_fresh_1791502499209.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:34:59.210Z"
+    },
+    {
+      "id": "followwindows150_apps_first_cell_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from search enters firstMicrosoftEdge Applicationcell outlined; five existingrows visible.",
+      "evidence": "screenshots/followwindows150_apps_first_cell_attended_fresh_1791502512554.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:35:12.555Z"
+    },
+    {
+      "id": "followwindows150_apps_final_cell_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlEnd auto-reveals lastNyx row ReportedsizeUnknown dottedoutline;1.0.0 installdate20261006 visible.",
+      "evidence": "screenshots/followwindows150_apps_final_cell_attended_fresh_1791502523691.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:35:23.692Z"
+    },
+    {
+      "id": "followwindows150_apps_folder_reverse_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "CtrlShiftTab gridexitsearch thenShiftTab reveals outlinedOpenSelectedFolder withEdge selected; no scan.",
+      "evidence": "screenshots/followwindows150_apps_folder_reverse_focus_attended_fresh_1791502560027.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:36:00.027Z"
+    },
+    {
+      "id": "followwindows150_apps_folder_enter_destination_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opens actualExplorerEdge/Application withversion145.0.3800.97folder andmsedge visible; no fileexecuted/modified.",
+      "evidence": "screenshots/followwindows150_apps_folder_enter_destination_attended_fresh_1791502581860.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:36:21.861Z"
+    },
+    {
+      "id": "followwindows150_apps_folder_return_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Explorerclose returns outlinedOpenSelectedFolder andEdge selection; Ready/no scan.",
+      "evidence": "screenshots/followwindows150_apps_folder_return_focus_attended_fresh_1791502594805.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:36:34.806Z"
+    }
+  ],
+  "fullCellCredit": false
+}

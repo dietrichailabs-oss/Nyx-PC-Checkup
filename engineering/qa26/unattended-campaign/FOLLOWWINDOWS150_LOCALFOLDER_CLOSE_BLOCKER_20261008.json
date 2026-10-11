@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_localfolder_close_blocker_attended",
+      "status": "BLOCKED_HUMAN",
+      "details": "GuestExplorerNyxPCCheckup remains visible after2normalmouseclose attempts, VMactivation andAltF4; input/Explorerenvironment blocker, not establishedproductfailure; returnfocusuncredited.",
+      "evidence": "screenshots/followwindows150_localfolder_close_blocker_attended_1791502885989.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:41:25.990Z"
+    }
+  ],
+  "fullCellCredit": false
+}

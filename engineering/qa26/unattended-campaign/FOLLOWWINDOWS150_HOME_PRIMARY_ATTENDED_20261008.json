@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_home_primary_reverse_focus_attended_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "ReverseShiftTab Home->Export->CheckMyPC automaticallyrevealsoutlinedprimarybutton andcounts; Ready,noactivation.",
+      "evidence": "screenshots/followwindows150_home_primary_reverse_focus_attended_fresh_1791502654908.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:37:34.909Z"
+    }
+  ],
+  "fullCellCredit": false
+}

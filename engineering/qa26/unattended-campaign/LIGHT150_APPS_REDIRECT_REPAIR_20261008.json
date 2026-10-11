@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "light150_apps_installed_redirect_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Nyx Open Installed Apps reached native Apps > Installed apps, 32 apps found. No installation/uninstallation or settings changes. Repairs light150_apps_installed_redirect.",
+      "evidence": "screenshots/light150_apps_installed_redirect_fresh_1791500413777.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:00:13.777Z"
+    },
+    {
+      "id": "light150_apps_redirect_return_fresh",
+      "status": "PASS_OBSERVED",
+      "details": "Native Settings closed normally; Nyx Apps returned Ready, no background monitor or new scan.",
+      "evidence": "screenshots/light150_apps_redirect_return_fresh_1791500431676.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-08T23:00:31.677Z"
+    }
+  ],
+  "fullCellCredit": false
+}

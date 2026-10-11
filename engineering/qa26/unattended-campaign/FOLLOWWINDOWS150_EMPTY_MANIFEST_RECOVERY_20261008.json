@@ -1,0 +1,409 @@
+{
+  "utc": "2026-10-08T02:38:48.361Z",
+  "records": [
+    {
+      "id": "recapture_followwindows150_apps_full_action_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_apps_full_action_focus_1791422645422.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_full_action_focus_1791422645422.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_apps_installed_redirect",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_apps_installed_redirect_1791422608453.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_apps_installed_redirect_1791422608453.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_backup_close_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_backup_close_focus_1791423015976.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_backup_close_focus_1791423015976.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_backup_controls",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_backup_controls_1791422929976.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_backup_controls_1791422929976.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_backup_destination",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_backup_destination_1791422951890.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_backup_destination_1791422951890.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_backup_detail",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_backup_detail_1791423005305.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_backup_detail_1791423005305.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_backup_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_backup_focus_1791422980516.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_backup_focus_1791422980516.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_backup_keyboard_close_return",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_backup_keyboard_close_return_1791423039592.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_backup_keyboard_close_return_1791423039592.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_backup_reverse_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_backup_reverse_focus_1791423058563.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_backup_reverse_focus_1791423058563.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_cleanup_controls",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_cleanup_controls_1791422681654.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_cleanup_controls_1791422681654.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_cleanup_end_access",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_cleanup_end_access_1791422701569.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_cleanup_end_access_1791422701569.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_cleanup_zero_guard",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_cleanup_zero_guard_1791422731497.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_cleanup_zero_guard_1791422731497.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_cleanup_zero_summary",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_cleanup_zero_summary_1791422711990.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_cleanup_zero_summary_1791422711990.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_security_close_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_security_close_focus_1791423872294.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_security_close_focus_1791423872294.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_security_controls",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_security_controls_1791423804259.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_security_controls_1791423804259.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_security_detail",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_security_detail_1791423858347.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_security_detail_1791423858347.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_security_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_security_focus_1791423829198.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_security_focus_1791423829198.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_security_keyboard_close_return",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_security_keyboard_close_return_1791423895451.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_security_keyboard_close_return_1791423895451.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_security_reverse_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_security_reverse_focus_1791423916672.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_security_reverse_focus_1791423916672.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_startup_folder_destination",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_startup_folder_destination_1791424431060.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_startup_folder_destination_1791424431060.jpg",
+      "sha256": "46770abd94e62a9a230ce689bb7bf719ce22726caf0b6032983002ef92f17ad3",
+      "bytes": 79637,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_startup_folder_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_startup_folder_focus_1791424417435.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_startup_folder_focus_1791424417435.jpg",
+      "sha256": "46770abd94e62a9a230ce689bb7bf719ce22726caf0b6032983002ef92f17ad3",
+      "bytes": 79637,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_startup_valid_fixture",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_startup_valid_fixture_1791424409609.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_startup_valid_fixture_1791424409609.jpg",
+      "sha256": "46770abd94e62a9a230ce689bb7bf719ce22726caf0b6032983002ef92f17ad3",
+      "bytes": 79637,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_system_about_destination",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_system_about_destination_1791423224511.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_system_about_destination_1791423224511.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_system_close_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_system_close_focus_1791423290965.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_system_close_focus_1791423290965.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_system_controls",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_system_controls_1791423202474.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_system_controls_1791423202474.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_system_detail",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_system_detail_1791423280555.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_system_detail_1791423280555.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_system_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_system_focus_1791423258585.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_system_focus_1791423258585.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_system_keyboard_close_return",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_system_keyboard_close_return_1791423304925.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_system_keyboard_close_return_1791423304925.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_system_reverse_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_system_reverse_focus_1791423323916.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_system_reverse_focus_1791423323916.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_updates_close_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_updates_close_focus_1791423603108.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_updates_close_focus_1791423603108.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_updates_controls",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_updates_controls_1791423507252.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_updates_controls_1791423507252.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_updates_destination",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_updates_destination_1791423531397.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_updates_destination_1791423531397.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_updates_detail",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_updates_detail_1791423591221.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_updates_detail_1791423591221.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_updates_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_updates_focus_1791423567455.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_updates_focus_1791423567455.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_updates_keyboard_close_return",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_updates_keyboard_close_return_1791423616500.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_updates_keyboard_close_return_1791423616500.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    },
+    {
+      "id": "recapture_followwindows150_updates_reverse_focus",
+      "status": "INCOMPLETE_EVIDENCE",
+      "evidence": "screenshots/recapture_followwindows150_updates_reverse_focus_1791423636459.jpg",
+      "stage": "C:/Users/bossm/.codex/visualizations/2026/08/24/01a035f5-1d9c-7dd1-94b0-ab22ad6ee13c/recapture_followwindows150_updates_reverse_focus_1791423636459.jpg",
+      "sha256": "bd6813a3aa96d2229f0b61efa15a2989c9f58ab6880955ababce0b5996a2c7f0",
+      "bytes": 78368,
+      "fullCellCredit": false,
+      "details": "Recovered file belongs to repeated identical payload group across distinct UI predicates; cannot support claimed predicate. Preserve original; fresh explicit screenshot-argument capture required."
+    }
+  ],
+  "duplicateGroups": [
+    [
+      "recapture_followwindows150_apps_full_action_focus",
+      "recapture_followwindows150_apps_installed_redirect",
+      "recapture_followwindows150_backup_close_focus",
+      "recapture_followwindows150_backup_controls",
+      "recapture_followwindows150_backup_destination",
+      "recapture_followwindows150_backup_detail",
+      "recapture_followwindows150_backup_focus",
+      "recapture_followwindows150_backup_keyboard_close_return",
+      "recapture_followwindows150_backup_reverse_focus",
+      "recapture_followwindows150_cleanup_controls",
+      "recapture_followwindows150_cleanup_end_access",
+      "recapture_followwindows150_cleanup_zero_guard",
+      "recapture_followwindows150_cleanup_zero_summary",
+      "recapture_followwindows150_security_close_focus",
+      "recapture_followwindows150_security_controls",
+      "recapture_followwindows150_security_detail",
+      "recapture_followwindows150_security_focus",
+      "recapture_followwindows150_security_keyboard_close_return",
+      "recapture_followwindows150_security_reverse_focus",
+      "recapture_followwindows150_system_about_destination",
+      "recapture_followwindows150_system_close_focus",
+      "recapture_followwindows150_system_controls",
+      "recapture_followwindows150_system_detail",
+      "recapture_followwindows150_system_focus",
+      "recapture_followwindows150_system_keyboard_close_return",
+      "recapture_followwindows150_system_reverse_focus",
+      "recapture_followwindows150_updates_close_focus",
+      "recapture_followwindows150_updates_controls",
+      "recapture_followwindows150_updates_destination",
+      "recapture_followwindows150_updates_detail",
+      "recapture_followwindows150_updates_focus",
+      "recapture_followwindows150_updates_keyboard_close_return",
+      "recapture_followwindows150_updates_reverse_focus"
+    ],
+    [
+      "recapture_followwindows150_startup_folder_destination",
+      "recapture_followwindows150_startup_folder_focus",
+      "recapture_followwindows150_startup_valid_fixture"
+    ]
+  ],
+  "fullCellCredit": false,
+  "nextCaptureRule": "Pass latest observation screenshot and target record array explicitly to capture function; never close over mutable per-cell runtime bindings."
+}
