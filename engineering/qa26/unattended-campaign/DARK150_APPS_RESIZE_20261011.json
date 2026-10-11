@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_apps_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Apps keeps Open Installed Apps, Run Full Check, full Open selected folder label, search input and Export visible; no selection/action or scan. DPI pending.",
+      "evidence": "screenshots/dark150_apps_expand_20261011_1791737994578.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:59:54.579Z"
+    },
+    {
+      "id": "dark150_apps_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Apps preserves primary action row labels, search input and Export without stranding them; scrollbars and idle status present. No scan; DPI pending.",
+      "evidence": "screenshots/dark150_apps_contract_20261011_1791738005727.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:00:05.728Z"
+    }
+  ],
+  "fullCellCredit": false
+}

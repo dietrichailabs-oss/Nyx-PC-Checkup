@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "dark150_settings_expand_top_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Settings retains Theme=Dark selector and notification checkbox readable, Export and idle status visible. No setting changed; DPI pending.",
+      "evidence": "screenshots/dark150_settings_expand_top_20261011_1791738096610.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:01:36.611Z"
+    },
+    {
+      "id": "dark150_settings_expand_lower_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Settings page scrolling reaches update action, local folder, Delete local logs and Save settings; final screenshot shows Save settings and wrapped Privacy promise. No activation or preference change; DPI pending.",
+      "evidence": "screenshots/dark150_settings_expand_lower_20261011_1791738131527.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:02:11.528Z"
+    },
+    {
+      "id": "dark150_settings_contract_lower_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Settings preserves reachable Save settings and readable Privacy promise, Export and idle status; lower page scroll state retained. No preferences/logs changed; DPI pending.",
+      "evidence": "screenshots/dark150_settings_contract_lower_20261011_1791738153364.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:02:33.365Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_cleanup_expand_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Cleanup page scroll exposes Selected: 0 items, 0 B and full Review and clean selected action; Export and idle status retained. No selection/deletion/scan. DPI pending.",
+      "evidence": "screenshots/dark150_cleanup_expand_scroll_20261011_1791738044941.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:00:44.942Z"
+    },
+    {
+      "id": "dark150_cleanup_contract_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Contracted Cleanup additional page scroll exposes full review action, Selected: 0 items, 0 B, preservation explanation, Export and idle status. No stranded primary action or deletion. DPI pending.",
+      "evidence": "screenshots/dark150_cleanup_contract_scroll_20261011_1791738064734.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:01:04.734Z"
+    }
+  ],
+  "fullCellCredit": false
+}

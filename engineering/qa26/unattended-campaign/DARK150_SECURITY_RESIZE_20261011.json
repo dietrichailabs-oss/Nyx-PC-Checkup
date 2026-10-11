@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_security_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Security retains readable Open Windows Security and Export controls, plain status text and idle global status; existing results retained, no protection changes. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_security_expand_20261011_1791737842208.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:22.208Z"
+    },
+    {
+      "id": "dark150_security_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Security retains readable/reachable primary Open Windows Security and Export, idle status and results scroll surface. No protection changes; fresh DPI pending.",
+      "evidence": "screenshots/dark150_security_contract_20261011_1791737856245.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:36.245Z"
+    }
+  ],
+  "fullCellCredit": false
+}

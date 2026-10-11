@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_checkup_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Checkup shows readable Quick Check, Full Check, Export report and idle global status; existing results retained, no scan started. Fresh process DPI qualification pending.",
+      "evidence": "screenshots/dark150_checkup_expand_20261011_1791737735313.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:55:35.313Z"
+    },
+    {
+      "id": "dark150_checkup_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Checkup keeps both primary scan controls and Export readable/reachable, results scrollbars present and global idle status retained. No scan run; fresh DPI pending.",
+      "evidence": "screenshots/dark150_checkup_contract_20261011_1791737746476.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:55:46.477Z"
+    }
+  ],
+  "fullCellCredit": false
+}

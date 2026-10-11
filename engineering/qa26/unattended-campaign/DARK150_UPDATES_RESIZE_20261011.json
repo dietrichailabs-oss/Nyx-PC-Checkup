@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_updates_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Updates keeps Open Windows Update and Export readable/reachable, explanatory limitation text and idle global status visible; no update execution or scan. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_updates_expand_20261011_1791737874616.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:54.617Z"
+    },
+    {
+      "id": "dark150_updates_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Updates retains readable Open Windows Update and Export controls, page scrolling and idle status. No update action or new scan; fresh DPI pending.",
+      "evidence": "screenshots/dark150_updates_contract_20261011_1791737887307.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:58:07.308Z"
+    }
+  ],
+  "fullCellCredit": false
+}

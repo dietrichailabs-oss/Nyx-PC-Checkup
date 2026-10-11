@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_system_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded System keeps full Open Windows System About and Export controls visible; explanatory text wraps, results and idle status retained. No action/new scan; DPI pending.",
+      "evidence": "screenshots/dark150_system_expand_20261011_1791737957674.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:59:17.675Z"
+    },
+    {
+      "id": "dark150_system_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored System retains full primary action and Export readable/reachable, scrolling and idle status; no new scan. DPI pending.",
+      "evidence": "screenshots/dark150_system_contract_20261011_1791737970062.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:59:30.063Z"
+    }
+  ],
+  "fullCellCredit": false
+}

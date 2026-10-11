@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_backup_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Backup keeps Open Windows Backup and Export readable/reachable, limitation text wraps and idle status retained. No backup/settings actions; fresh DPI pending.",
+      "evidence": "screenshots/dark150_backup_expand_20261011_1791737917371.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:58:37.372Z"
+    },
+    {
+      "id": "dark150_backup_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Backup retains full primary action and Export, page scrolling and idle status. No backup action; fresh DPI pending.",
+      "evidence": "screenshots/dark150_backup_contract_20261011_1791737930297.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:58:50.298Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_home_expand_layout_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Maximize expanded Home: Check My PC and Export report readable and reachable, counts visible, idle status and disabled Cancel scan preserved; no scan started. Native DPI not sampled in this fresh process, full-cell credit withheld.",
+      "evidence": "screenshots/dark150_home_expand_layout_20261011_1791737654935.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:54:14.936Z"
+    },
+    {
+      "id": "dark150_home_contract_layout_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restore contracted Home: primary Check My PC and Export report remained readable/reachable, page scrollbars and idle status preserved; no scan or stranded primary control. Current process DPI pending; no complete-cell credit.",
+      "evidence": "screenshots/dark150_home_contract_layout_20261011_1791737664880.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:54:24.881Z"
+    }
+  ],
+  "fullCellCredit": false
+}

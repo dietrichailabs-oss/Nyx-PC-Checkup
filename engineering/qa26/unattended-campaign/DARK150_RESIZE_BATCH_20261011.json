@@ -1,0 +1,197 @@
+{
+  "scoreboard": {
+    "completedObservations": 23,
+    "newThisContinuation": 21,
+    "failures": 0,
+    "pages": 11,
+    "pendingNativeDpi": 23,
+    "fullCellCredit": false
+  },
+  "records": [
+    {
+      "id": "dark150_home_expand_layout_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Maximize expanded Home: Check My PC and Export report readable and reachable, counts visible, idle status and disabled Cancel scan preserved; no scan started. Native DPI not sampled in this fresh process, full-cell credit withheld.",
+      "evidence": "screenshots/dark150_home_expand_layout_20261011_1791737654935.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:54:14.936Z"
+    },
+    {
+      "id": "dark150_home_contract_layout_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restore contracted Home: primary Check My PC and Export report remained readable/reachable, page scrollbars and idle status preserved; no scan or stranded primary control. Current process DPI pending; no complete-cell credit.",
+      "evidence": "screenshots/dark150_home_contract_layout_20261011_1791737664880.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:54:24.881Z"
+    },
+    {
+      "id": "dark150_checkup_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Checkup shows readable Quick Check, Full Check, Export report and idle global status; existing results retained, no scan started. Fresh process DPI qualification pending.",
+      "evidence": "screenshots/dark150_checkup_expand_20261011_1791737735313.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:55:35.313Z"
+    },
+    {
+      "id": "dark150_checkup_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Checkup keeps both primary scan controls and Export readable/reachable, results scrollbars present and global idle status retained. No scan run; fresh DPI pending.",
+      "evidence": "screenshots/dark150_checkup_contract_20261011_1791737746476.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:55:46.477Z"
+    },
+    {
+      "id": "dark150_storage_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Storage retains readable Open Storage settings, Open Downloads, Run Full Check and Export controls; results and idle status retained. Fresh DPI pending, no activation/scan.",
+      "evidence": "screenshots/dark150_storage_expand_20261011_1791737764546.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:56:04.547Z"
+    },
+    {
+      "id": "dark150_storage_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Storage retains all three primary actions and Export readable/reachable, idle global status and results scrolling. No scan/deletion; fresh DPI pending.",
+      "evidence": "screenshots/dark150_storage_contract_20261011_1791737774345.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:56:14.346Z"
+    },
+    {
+      "id": "dark150_startup_expand_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Startup rightward horizontal scrollbar exposes full Open file location label and selected-action controls; Export and idle status retained. Disabled controls reflect no selection, not activation proof. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_startup_expand_scroll_20261011_1791737810550.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:56:50.551Z"
+    },
+    {
+      "id": "dark150_startup_contract_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Startup preserves horizontal scroll position with full Open file location label exposed and Export/global status visible. No startup change, refresh or elevation. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_startup_contract_scroll_20261011_1791737824587.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:04.588Z"
+    },
+    {
+      "id": "dark150_security_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Security retains readable Open Windows Security and Export controls, plain status text and idle global status; existing results retained, no protection changes. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_security_expand_20261011_1791737842208.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:22.208Z"
+    },
+    {
+      "id": "dark150_security_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Security retains readable/reachable primary Open Windows Security and Export, idle status and results scroll surface. No protection changes; fresh DPI pending.",
+      "evidence": "screenshots/dark150_security_contract_20261011_1791737856245.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:36.245Z"
+    },
+    {
+      "id": "dark150_updates_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Updates keeps Open Windows Update and Export readable/reachable, explanatory limitation text and idle global status visible; no update execution or scan. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_updates_expand_20261011_1791737874616.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:54.617Z"
+    },
+    {
+      "id": "dark150_updates_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Updates retains readable Open Windows Update and Export controls, page scrolling and idle status. No update action or new scan; fresh DPI pending.",
+      "evidence": "screenshots/dark150_updates_contract_20261011_1791737887307.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:58:07.308Z"
+    },
+    {
+      "id": "dark150_backup_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Backup keeps Open Windows Backup and Export readable/reachable, limitation text wraps and idle status retained. No backup/settings actions; fresh DPI pending.",
+      "evidence": "screenshots/dark150_backup_expand_20261011_1791737917371.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:58:37.372Z"
+    },
+    {
+      "id": "dark150_backup_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Backup retains full primary action and Export, page scrolling and idle status. No backup action; fresh DPI pending.",
+      "evidence": "screenshots/dark150_backup_contract_20261011_1791737930297.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:58:50.298Z"
+    },
+    {
+      "id": "dark150_system_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded System keeps full Open Windows System About and Export controls visible; explanatory text wraps, results and idle status retained. No action/new scan; DPI pending.",
+      "evidence": "screenshots/dark150_system_expand_20261011_1791737957674.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:59:17.675Z"
+    },
+    {
+      "id": "dark150_system_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored System retains full primary action and Export readable/reachable, scrolling and idle status; no new scan. DPI pending.",
+      "evidence": "screenshots/dark150_system_contract_20261011_1791737970062.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:59:30.063Z"
+    },
+    {
+      "id": "dark150_apps_expand_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Apps keeps Open Installed Apps, Run Full Check, full Open selected folder label, search input and Export visible; no selection/action or scan. DPI pending.",
+      "evidence": "screenshots/dark150_apps_expand_20261011_1791737994578.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:59:54.579Z"
+    },
+    {
+      "id": "dark150_apps_contract_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Apps preserves primary action row labels, search input and Export without stranding them; scrollbars and idle status present. No scan; DPI pending.",
+      "evidence": "screenshots/dark150_apps_contract_20261011_1791738005727.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:00:05.728Z"
+    },
+    {
+      "id": "dark150_cleanup_expand_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Cleanup page scroll exposes Selected: 0 items, 0 B and full Review and clean selected action; Export and idle status retained. No selection/deletion/scan. DPI pending.",
+      "evidence": "screenshots/dark150_cleanup_expand_scroll_20261011_1791738044941.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:00:44.942Z"
+    },
+    {
+      "id": "dark150_cleanup_contract_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Contracted Cleanup additional page scroll exposes full review action, Selected: 0 items, 0 B, preservation explanation, Export and idle status. No stranded primary action or deletion. DPI pending.",
+      "evidence": "screenshots/dark150_cleanup_contract_scroll_20261011_1791738064734.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:01:04.734Z"
+    },
+    {
+      "id": "dark150_settings_expand_top_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Settings retains Theme=Dark selector and notification checkbox readable, Export and idle status visible. No setting changed; DPI pending.",
+      "evidence": "screenshots/dark150_settings_expand_top_20261011_1791738096610.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:01:36.611Z"
+    },
+    {
+      "id": "dark150_settings_expand_lower_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Settings page scrolling reaches update action, local folder, Delete local logs and Save settings; final screenshot shows Save settings and wrapped Privacy promise. No activation or preference change; DPI pending.",
+      "evidence": "screenshots/dark150_settings_expand_lower_20261011_1791738131527.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:02:11.528Z"
+    },
+    {
+      "id": "dark150_settings_contract_lower_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Settings preserves reachable Save settings and readable Privacy promise, Export and idle status; lower page scroll state retained. No preferences/logs changed; DPI pending.",
+      "evidence": "screenshots/dark150_settings_contract_lower_20261011_1791738153364.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:02:33.365Z"
+    }
+  ],
+  "limits": "Actual fresh-process native DPI remains uncollected; screenshots do not confer full-cell acceptance. Scope is maximize/restore primary controls and selected scrolling checks, not every F008 predicate."
+}

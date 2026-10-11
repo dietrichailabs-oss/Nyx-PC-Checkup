@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_startup_expand_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Expanded Startup rightward horizontal scrollbar exposes full Open file location label and selected-action controls; Export and idle status retained. Disabled controls reflect no selection, not activation proof. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_startup_expand_scroll_20261011_1791737810550.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:56:50.551Z"
+    },
+    {
+      "id": "dark150_startup_contract_scroll_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Restored Startup preserves horizontal scroll position with full Open file location label exposed and Export/global status visible. No startup change, refresh or elevation. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_startup_contract_scroll_20261011_1791737824587.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T16:57:04.588Z"
+    }
+  ],
+  "fullCellCredit": false
+}
