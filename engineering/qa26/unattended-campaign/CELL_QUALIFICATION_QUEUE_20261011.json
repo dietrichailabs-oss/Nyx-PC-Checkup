@@ -1,0 +1,687 @@
+{
+  "utc": "2026-10-11T15:06:36.297Z",
+  "scoreboard": {
+    "strict": {
+      "PASS": 56,
+      "FAIL": 0,
+      "NOT_RUN": 43
+    },
+    "bestEffort": {
+      "PASS": 0,
+      "FAIL": 0,
+      "NOT_RUN": 33
+    }
+  },
+  "cells": [
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 125,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Startup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Updates",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Backup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "System",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Settings",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Startup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Updates",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Backup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "System",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Settings",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Startup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Updates",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Backup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "System",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 150,
+      "page": "Settings",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Startup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Updates",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Backup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "System",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Settings",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Original authoritative Light125 scan schema/results/hash validation through queued read-only collection",
+        "Final strict predicate reconciliation; no cell PASS until all requirements proven"
+      ],
+      "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Original authoritative Light125 scan schema/results/hash validation through queued read-only collection",
+        "Final strict predicate reconciliation; no cell PASS until all requirements proven"
+      ],
+      "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Original Full contract collection",
+        "OS Storage redirect exact context reconciliation; credential prompt may need human",
+        "Final strict-cell evidence audit"
+      ],
+      "dependencyStatus": "PARTIAL_WITH_QUEUED_RAW_COLLECTION"
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Original Apps-triggered Full authoritative schema/result validation from queued collector",
+        "Final strict-cell predicate reconciliation; do not infer missing checks"
+      ],
+      "dependencyStatus": "BLOCKED_HUMAN_RAW_COLLECTION"
+    },
+    {
+      "theme": "Light",
+      "scale": 125,
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Authoritative source Full contract from queued collector",
+        "Required destructive confirmation/lifecycle evidence reconciliation; no deletion performed in this UI batch"
+      ],
+      "dependencyStatus": "PENDING_EVIDENCE_RECONCILIATION"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Startup",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Updates",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Backup",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "System",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 150,
+      "page": "Settings",
+      "status": "NOT_RUN",
+      "remainingPredicates": [
+        "Exact native DPI/work-area/installed identity verification before full cell PASS",
+        "Page-specific remaining predicates and evidence audit; external human controls queued where applicable"
+      ],
+      "dependencyStatus": "UI_PREDICATES_RECORDED_NATIVE_VERIFICATION_PENDING"
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Home",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Checkup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Storage",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Startup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Security",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Updates",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Backup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "System",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Apps",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Cleanup",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Settings",
+      "status": "NOT_RUN",
+      "remainingPredicates": null,
+      "dependencyStatus": null
+    }
+  ],
+  "completedDarkNavigationPages": [
+    "Startup",
+    "Checkup",
+    "Storage",
+    "Security",
+    "Updates",
+    "Backup",
+    "System",
+    "Apps"
+  ],
+  "repeatCompletedNavigation": false,
+  "currentSessionQualification": "Exact later-session DPI evidence required before complete-cell credit",
+  "scriptedSuiteBlocker": "Guest execution policy rejected frozen Smoke runner before test body"
+}

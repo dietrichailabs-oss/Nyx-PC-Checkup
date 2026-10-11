@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark150_security_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved visible keyboard cell focus from Category to final What Nyx found column on first row; no security redirect activated.",
+      "evidence": "screenshots/dark150_security_end_navigation_20261011_1791730098365.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:18.365Z"
+    },
+    {
+      "id": "dark150_security_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home moved visible focus to first Status cell.",
+      "evidence": "screenshots/dark150_security_home_navigation_20261011_1791730108565.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:28.566Z"
+    },
+    {
+      "id": "dark150_security_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved visible Status cell focus to final Drive encryption row.",
+      "evidence": "screenshots/dark150_security_pagedown_navigation_20261011_1791730119570.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:39.571Z"
+    },
+    {
+      "id": "dark150_security_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned visible Status cell focus to first Antivirus row.",
+      "evidence": "screenshots/dark150_security_pageup_navigation_20261011_1791730130866.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:50.867Z"
+    },
+    {
+      "id": "dark150_security_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved visible Status cell focus to second Windows Firewall row.",
+      "evidence": "screenshots/dark150_security_down_navigation_20261011_1791730139049.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:59.050Z"
+    },
+    {
+      "id": "dark150_security_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned visible Status cell focus to first Antivirus row.",
+      "evidence": "screenshots/dark150_security_up_navigation_20261011_1791730150409.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:49:10.409Z"
+    }
+  ],
+  "fullCellCredit": false
+}

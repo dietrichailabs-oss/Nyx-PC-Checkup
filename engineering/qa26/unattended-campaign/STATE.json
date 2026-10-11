@@ -9,7 +9,7 @@
   "currentBatch": "Dark150_PREDICATE_RECONCILIATION",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "GUEST_DISPLAY_UNAVAILABLE",
+  "currentPage": "Dark Settings",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -7092,6 +7092,398 @@
       "evidence": "screenshots/dark_nominal150_startup_up_navigation_20261011_1791727584464.jpg",
       "fullCellCredit": false,
       "utc": "2026-10-11T14:06:24.465Z"
+    },
+    {
+      "id": "dark150_checkup_end_unqualified_focus_20261011",
+      "status": "INCOMPLETE_FOCUS_NOT_QUALIFIED",
+      "details": "Initial End observation lacked visible qualified cell focus; no predicate credit.",
+      "evidence": "screenshots/dark150_checkup_end_unqualified_focus_20261011_1791728355221.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:19:15.222Z"
+    },
+    {
+      "id": "dark150_checkup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup End visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_end_navigation_20261011_1791728447494.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.495Z"
+    },
+    {
+      "id": "dark150_checkup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Home visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_home_navigation_20261011_1791728447495.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.495Z"
+    },
+    {
+      "id": "dark150_checkup_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Page_Down visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_page_down_navigation_20261011_1791728447495.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.496Z"
+    },
+    {
+      "id": "dark150_checkup_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Page_Up visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_page_up_navigation_20261011_1791728447496.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.497Z"
+    },
+    {
+      "id": "dark150_checkup_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Down visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_down_navigation_20261011_1791728447497.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.497Z"
+    },
+    {
+      "id": "dark150_checkup_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Up visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_up_navigation_20261011_1791728447497.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.498Z"
+    },
+    {
+      "id": "dark150_storage_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage End moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_end_navigation_20261011_1791728689911.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.912Z"
+    },
+    {
+      "id": "dark150_storage_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Home moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_home_navigation_20261011_1791728689912.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.913Z"
+    },
+    {
+      "id": "dark150_storage_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Page_Down moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_page_down_navigation_20261011_1791728689913.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.914Z"
+    },
+    {
+      "id": "dark150_storage_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Page_Up moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_page_up_navigation_20261011_1791728689914.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.915Z"
+    },
+    {
+      "id": "dark150_storage_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Down moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_down_navigation_20261011_1791728689915.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.916Z"
+    },
+    {
+      "id": "dark150_storage_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Up moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_up_navigation_20261011_1791728689916.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.917Z"
+    },
+    {
+      "id": "dark150_security_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved visible keyboard cell focus from Category to final What Nyx found column on first row; no security redirect activated.",
+      "evidence": "screenshots/dark150_security_end_navigation_20261011_1791730098365.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:18.365Z"
+    },
+    {
+      "id": "dark150_security_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home moved visible focus to first Status cell.",
+      "evidence": "screenshots/dark150_security_home_navigation_20261011_1791730108565.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:28.566Z"
+    },
+    {
+      "id": "dark150_security_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved visible Status cell focus to final Drive encryption row.",
+      "evidence": "screenshots/dark150_security_pagedown_navigation_20261011_1791730119570.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:39.571Z"
+    },
+    {
+      "id": "dark150_security_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned visible Status cell focus to first Antivirus row.",
+      "evidence": "screenshots/dark150_security_pageup_navigation_20261011_1791730130866.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:50.867Z"
+    },
+    {
+      "id": "dark150_security_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved visible Status cell focus to second Windows Firewall row.",
+      "evidence": "screenshots/dark150_security_down_navigation_20261011_1791730139049.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:48:59.050Z"
+    },
+    {
+      "id": "dark150_security_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned visible Status cell focus to first Antivirus row.",
+      "evidence": "screenshots/dark150_security_up_navigation_20261011_1791730150409.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:49:10.409Z"
+    },
+    {
+      "id": "dark150_updates_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved first row focus to final What Nyx found column.",
+      "evidence": "screenshots/dark150_updates_end_navigation_20261011_1791730418623.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:53:38.623Z"
+    },
+    {
+      "id": "dark150_updates_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home moved first row focus to first Status column.",
+      "evidence": "screenshots/dark150_updates_home_navigation_20261011_1791730426901.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:53:46.902Z"
+    },
+    {
+      "id": "dark150_updates_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved Status focus to final Last successful installation row.",
+      "evidence": "screenshots/dark150_updates_pagedown_navigation_20261011_1791730436310.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:53:56.311Z"
+    },
+    {
+      "id": "dark150_updates_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned Status focus to first Update restart row.",
+      "evidence": "screenshots/dark150_updates_pageup_navigation_20261011_1791730452437.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:54:12.437Z"
+    },
+    {
+      "id": "dark150_updates_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved Status focus to second Windows update row.",
+      "evidence": "screenshots/dark150_updates_down_navigation_20261011_1791730464584.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:54:24.585Z"
+    },
+    {
+      "id": "dark150_updates_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned Status focus to first Update restart row.",
+      "evidence": "screenshots/dark150_updates_up_navigation_20261011_1791730475810.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:54:35.811Z"
+    },
+    {
+      "id": "dark150_backup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved visible focus from Category to final What Nyx found cell in single Backup row.",
+      "evidence": "screenshots/dark150_backup_end_navigation_20261011_1791730873276.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:01:13.277Z"
+    },
+    {
+      "id": "dark150_backup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home moved visible keyboard focus to first Status cell.",
+      "evidence": "screenshots/dark150_backup_home_navigation_20261011_1791730883944.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:01:23.945Z"
+    },
+    {
+      "id": "dark150_system_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved first-row focus to final What Nyx found column.",
+      "evidence": "screenshots/dark150_system_end_navigation_20261011_1791730939324.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:19.325Z"
+    },
+    {
+      "id": "dark150_system_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home returned focus to first Status cell.",
+      "evidence": "screenshots/dark150_system_home_navigation_20261011_1791730951000.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:31.000Z"
+    },
+    {
+      "id": "dark150_system_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved Status focus to last Current performance row.",
+      "evidence": "screenshots/dark150_system_pagedown_navigation_20261011_1791730962595.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:42.596Z"
+    },
+    {
+      "id": "dark150_system_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned Status focus to first System overview row.",
+      "evidence": "screenshots/dark150_system_pageup_navigation_20261011_1791730975449.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:55.450Z"
+    },
+    {
+      "id": "dark150_system_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved Status focus to second PC uptime row.",
+      "evidence": "screenshots/dark150_system_down_navigation_20261011_1791730985403.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:03:05.404Z"
+    },
+    {
+      "id": "dark150_system_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned Status focus to first System overview row.",
+      "evidence": "screenshots/dark150_system_up_navigation_20261011_1791731002223.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:03:22.224Z"
+    },
+    {
+      "id": "dark150_apps_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved first-row focus to Reported size and revealed rightmost columns through horizontal scrolling.",
+      "evidence": "screenshots/dark150_apps_end_navigation_20261011_1791731130790.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:05:30.791Z"
+    },
+    {
+      "id": "dark150_apps_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home returned first-row focus to Application and restored leftmost columns.",
+      "evidence": "screenshots/dark150_apps_home_navigation_20261011_1791731141271.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:05:41.272Z"
+    },
+    {
+      "id": "dark150_apps_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved Application focus to final Nyx PC Checkup row.",
+      "evidence": "screenshots/dark150_apps_pagedown_navigation_20261011_1791731153510.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:05:53.511Z"
+    },
+    {
+      "id": "dark150_apps_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned Application focus to first Microsoft Edge row.",
+      "evidence": "screenshots/dark150_apps_pageup_navigation_20261011_1791731169431.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:06:09.431Z"
+    },
+    {
+      "id": "dark150_apps_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved Application focus to second Microsoft Edge Update row.",
+      "evidence": "screenshots/dark150_apps_down_navigation_20261011_1791731179628.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:06:19.629Z"
+    },
+    {
+      "id": "dark150_apps_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned Application focus to first Microsoft Edge row.",
+      "evidence": "screenshots/dark150_apps_up_navigation_20261011_1791731196291.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:06:36.291Z"
+    },
+    {
+      "id": "dark150_apps_zero_filter_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Visible z query persists in focused search box; all five inventory rows removed, headers retained, no exception or scan. Resolves earlier input uncertainty, not retroactive image credit.",
+      "evidence": "screenshots/dark150_apps_zero_filter_confirmed_20261011_1791731399509.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:09:59.509Z"
+    },
+    {
+      "id": "dark150_apps_filter_restored_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "BackSpace cleared confirmed z query; all five original inventory rows restored; no scan.",
+      "evidence": "screenshots/dark150_apps_filter_restored_confirmed_20261011_1791731413701.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:10:13.702Z"
+    },
+    {
+      "id": "dark150_apps_edge_folder_focus_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab reaches enabled fully visible Open selected folder with exact Microsoft Edge row selected.",
+      "evidence": "screenshots/dark150_apps_edge_folder_focus_confirmed_20261011_1791731511513.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:11:51.514Z"
+    },
+    {
+      "id": "dark150_apps_edge_folder_destination_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opened guest Explorer at Edge > Application, matching version145.0.3800.97 folder visible; no program launched, file modified or scan run.",
+      "evidence": "screenshots/dark150_apps_edge_folder_destination_confirmed_20261011_1791731534851.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:12:14.852Z"
+    },
+    {
+      "id": "dark150_apps_edge_folder_return_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Closing test Explorer restored idle Nyx Apps with selected-folder button focus visible.",
+      "evidence": "screenshots/dark150_apps_edge_folder_return_confirmed_20261011_1791731570407.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:12:50.408Z"
+    },
+    {
+      "id": "dark150_cleanup_consequence_tooltip_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Actual full tooltip visible: Moves this exact item to the Windows Recycle Bin. All displayed selection checkboxes remain unchecked; no deletion or scan.",
+      "evidence": "screenshots/dark150_cleanup_consequence_tooltip_confirmed_20261011_1791732029739.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:20:29.740Z"
+    },
+    {
+      "id": "dark150_settings_folder_keyboard_focus_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Tab sequence gives visible focus to Open local data folder; no preference toggles or update check.",
+      "evidence": "screenshots/dark150_settings_folder_keyboard_focus_20261011_1791732103421.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:21:43.422Z"
+    },
+    {
+      "id": "dark150_settings_folder_enter_destination_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Enter from keyboard-focused Open local data folder opened Explorer. Address prefix C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC C; breadcrumb Nyx PC Checkup, with actions/logs/reports/scans/temp/config.json. No files altered.",
+      "evidence": "screenshots/dark150_settings_folder_enter_destination_20261011_1791732149404.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:22:29.405Z"
+    },
+    {
+      "id": "dark150_settings_folder_exact_path_suffix_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Address suffix confirms exact destination C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup together with preceding prefix evidence.",
+      "evidence": "screenshots/dark150_settings_folder_exact_path_suffix_20261011_1791732158167.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:22:38.168Z"
+    },
+    {
+      "id": "dark150_settings_folder_keyboard_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Closing Explorer returns to idle Settings with local-data-folder button focus retained; no logs deleted or preference changes.",
+      "evidence": "screenshots/dark150_settings_folder_keyboard_return_20261011_1791732169609.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:22:49.609Z"
     }
   ],
   "evidenceReferences": [
@@ -7130,8 +7522,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Read-only native collection, 144 DPI scoped proof, 60 frozen payload matches, 7 recorded contracts/115 results, 6 historical worker cleanup correlations completed; full acceptance not claimed.",
-  "nextAction": "Finish supported isolated export and clean-suite preparation; remaining Dark UI batches continue without scan repetition.",
+  "lastCompletedAction": "DARK150_SETTINGS_FOLDER_KEYBOARD_CONFIRMED_20261011 completed with exact fresh screenshot records; no full-cell credit.",
+  "nextAction": "Resolve approved isolated trusted-runner and native-observer prerequisite; qualify later Dark cells with fresh native DPI and complete exact predicate audits. Do not repeat completed navigation or original scans.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7145,7 +7537,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T14:10:54.502Z",
+  "updatedUtc": "2026-10-11T15:25:20.607Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -9896,9 +10288,9 @@
     "reason": "Current displayed Startup entries contain no established missing-location fixture. QA26 Startup Final Fixture exists and opens correctly; cannot substitute it for missing-location evidence. Requires documented disposable fixture preparation, not product change."
   },
   "appsSearchInputRepair": {
-    "status": "NOT_RUN_INPUT_UNCONFIRMED",
-    "evidence": "screenshots/apps_search_input_unconfirmed_1791419333669.jpg",
-    "details": "Two supported type_text attempts with refocus did not yield persistent visible Nyx query. Host accessibility exposes VM Input Capture Window, not guest search element. No filter PASS or product FAIL; no scans initiated."
+    "status": "RESOLVED_CONFIRMED_KEYBOARD_TEST",
+    "evidence": "DARK150_APPS_FILTER_CONFIRMED_20261011.json",
+    "details": "Confirmed focus and actual z/BackSpace transitions with fresh screenshots; earlier uncertain evidence preserved."
   },
   "dark150FreshCoverage": "DARK150_FRESH_COVERAGE_20261008.json",
   "evidenceCheckpoint": {
@@ -9930,16 +10322,18 @@
     "collectionOutput": "qa26_vm_automation/native_collect_path_fixed_20261011_100644"
   },
   "latestBatch": {
-    "date": "2026-10-11",
-    "newUiObservations": 20,
-    "additionalCompleteCells": 0,
     "pages": [
-      "Backup",
-      "System",
-      "Updates",
-      "Security"
+      "Dark Cleanup",
+      "Dark Settings"
     ],
-    "nativeDpiQualified": false
+    "passingPredicateRecords": 5,
+    "productFailures": 0,
+    "fullCellCredit": 0,
+    "evidence": [
+      "DARK150_CLEANUP_CONSEQUENCE_CONFIRMED_20261011.json",
+      "DARK150_SETTINGS_FOLDER_KEYBOARD_CONFIRMED_20261011.json"
+    ],
+    "nativeEvidence": "DARK_BATCH_NATIVE_RECONCILIATION_20261011.json"
   },
   "preservationCheckpoint": {
     "instanceId": "Microsoft:B5A61454-4F13-4D35-A0E3-D1D64F36A2B6",
@@ -9958,14 +10352,33 @@
     "scope": "Dark relaunch and Startup batch only; not retroactive prior sessions"
   },
   "isolationPreparation": {
-    "status": "SUPPORTED_SNAPSHOT_EXPORT_RUNNING",
+    "status": "DISPOSABLE_CLONE_CREATED_STARTED",
     "parentSnapshot": "Microsoft:B5A61454-4F13-4D35-A0E3-D1D64F36A2B6",
     "parentDisk": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx",
     "cleanStateQualified": false,
     "plannedName": "Nyx-QA26-Disposable-20261011",
-    "network": "Disconnected",
+    "network": "Verified no connected switch before start",
     "activeEvidenceVmUnchanged": true,
     "failure": "New-VHD requires parent .vhd or .vhdx; exact snapshot parent .avhdx rejected before VM creation",
-    "securityReview": "No disabling Secure Boot; future clone retains Secure Boot On and verified disconnected networking."
+    "securityReview": "No disabling Secure Boot; future clone retains Secure Boot On and verified disconnected networking.",
+    "exportedParent": "qa26_vm_automation/disposable_20261011/export/Nyx/Virtual Hard Disks/Nyx.vhdx",
+    "vmId": "a249c204-2794-4807-90e6-28a129989059",
+    "name": "Nyx-QA26-Disposable-20261011",
+    "secureBoot": "On",
+    "consoleStatus": "SIGNED_IN_DESKTOP_OBSERVED"
+  },
+  "nativeCollectionPending": {
+    "status": "COLLECTED_READ_ONLY_DPI_OBSERVER_NOT_CURRENT",
+    "output": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/native_collect_dark_batch_20261011_112328",
+    "payloadFileCount": 60,
+    "payloadMismatchCount": 0,
+    "build": "2026.10.02-eng-qa26",
+    "manifestSha256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+    "geometryCount": 10,
+    "lastGeometryUtc": "2026-10-11T14:05:44.3805242Z",
+    "reason": "Existing observer ends 14:05:44Z; later batch cannot receive native-DPI credit from this stale observer.",
+    "productModified": false,
+    "fullCellCredit": 0,
+    "utc": "2026-10-11T15:25:20.606Z"
   }
 }

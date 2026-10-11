@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark150_updates_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved first row focus to final What Nyx found column.",
+      "evidence": "screenshots/dark150_updates_end_navigation_20261011_1791730418623.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:53:38.623Z"
+    },
+    {
+      "id": "dark150_updates_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home moved first row focus to first Status column.",
+      "evidence": "screenshots/dark150_updates_home_navigation_20261011_1791730426901.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:53:46.902Z"
+    },
+    {
+      "id": "dark150_updates_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved Status focus to final Last successful installation row.",
+      "evidence": "screenshots/dark150_updates_pagedown_navigation_20261011_1791730436310.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:53:56.311Z"
+    },
+    {
+      "id": "dark150_updates_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned Status focus to first Update restart row.",
+      "evidence": "screenshots/dark150_updates_pageup_navigation_20261011_1791730452437.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:54:12.437Z"
+    },
+    {
+      "id": "dark150_updates_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved Status focus to second Windows update row.",
+      "evidence": "screenshots/dark150_updates_down_navigation_20261011_1791730464584.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:54:24.585Z"
+    },
+    {
+      "id": "dark150_updates_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned Status focus to first Update restart row.",
+      "evidence": "screenshots/dark150_updates_up_navigation_20261011_1791730475810.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:54:35.811Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "dark150_apps_edge_folder_focus_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Reverse Tab reaches enabled fully visible Open selected folder with exact Microsoft Edge row selected.",
+      "evidence": "screenshots/dark150_apps_edge_folder_focus_confirmed_20261011_1791731511513.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:11:51.514Z"
+    },
+    {
+      "id": "dark150_apps_edge_folder_destination_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Enter opened guest Explorer at Edge > Application, matching version145.0.3800.97 folder visible; no program launched, file modified or scan run.",
+      "evidence": "screenshots/dark150_apps_edge_folder_destination_confirmed_20261011_1791731534851.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:12:14.852Z"
+    },
+    {
+      "id": "dark150_apps_edge_folder_return_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Closing test Explorer restored idle Nyx Apps with selected-folder button focus visible.",
+      "evidence": "screenshots/dark150_apps_edge_folder_return_confirmed_20261011_1791731570407.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:12:50.408Z"
+    }
+  ],
+  "fullCellCredit": false
+}

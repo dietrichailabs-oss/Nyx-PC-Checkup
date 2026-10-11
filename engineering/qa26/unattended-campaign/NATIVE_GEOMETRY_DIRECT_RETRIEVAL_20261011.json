@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T15:12:50.413Z",
+  "status": "STALLED_CANCELLED",
+  "vm": "Nyx",
+  "readOnly": true,
+  "scanRun": false,
+  "policyChanged": false,
+  "recordsReturned": 0,
+  "fullCellCredit": 0,
+  "reason": "Normal credential prompt completed by owner; PowerShell Direct returned no evidence over repeated bounded waits; read-only host request cancelled."
+}

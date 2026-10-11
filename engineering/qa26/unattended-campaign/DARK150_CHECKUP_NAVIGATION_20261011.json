@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark150_checkup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup End visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_end_navigation_20261011_1791728447494.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.495Z"
+    },
+    {
+      "id": "dark150_checkup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Home visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_home_navigation_20261011_1791728447495.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.495Z"
+    },
+    {
+      "id": "dark150_checkup_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Page_Down visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_page_down_navigation_20261011_1791728447495.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.496Z"
+    },
+    {
+      "id": "dark150_checkup_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Page_Up visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_page_up_navigation_20261011_1791728447496.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.497Z"
+    },
+    {
+      "id": "dark150_checkup_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Down visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_down_navigation_20261011_1791728447497.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.497Z"
+    },
+    {
+      "id": "dark150_checkup_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Checkup Up visibly moves keyboard cell focus; no scan/action activation. Current session 144 DPI observer proof recorded separately; full-cell credit pending.",
+      "evidence": "screenshots/dark150_checkup_up_navigation_20261011_1791728447497.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:20:47.498Z"
+    }
+  ],
+  "fullCellCredit": false
+}

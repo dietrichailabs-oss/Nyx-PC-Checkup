@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-11T14:57:11.181Z",
+  "suite": "Smoke",
+  "status": "BLOCKED_EXECUTION_POLICY",
+  "vmName": "Nyx-QA26-Disposable-20261011",
+  "guestEvidence": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Suites\\smoke_20261011_105643\\TRANSCRIPT.txt",
+  "candidateBuild": "2026.10.02-eng-qa26",
+  "sourceArchiveHashVerified": true,
+  "guestAuthenticationSucceeded": true,
+  "runnerExecuted": false,
+  "error": "PSSecurityException UnauthorizedAccess: running scripts is disabled on this system.",
+  "productFailure": false,
+  "policyChanged": false
+}

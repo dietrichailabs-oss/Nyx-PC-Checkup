@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark150_system_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved first-row focus to final What Nyx found column.",
+      "evidence": "screenshots/dark150_system_end_navigation_20261011_1791730939324.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:19.325Z"
+    },
+    {
+      "id": "dark150_system_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home returned focus to first Status cell.",
+      "evidence": "screenshots/dark150_system_home_navigation_20261011_1791730951000.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:31.000Z"
+    },
+    {
+      "id": "dark150_system_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved Status focus to last Current performance row.",
+      "evidence": "screenshots/dark150_system_pagedown_navigation_20261011_1791730962595.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:42.596Z"
+    },
+    {
+      "id": "dark150_system_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned Status focus to first System overview row.",
+      "evidence": "screenshots/dark150_system_pageup_navigation_20261011_1791730975449.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:02:55.450Z"
+    },
+    {
+      "id": "dark150_system_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved Status focus to second PC uptime row.",
+      "evidence": "screenshots/dark150_system_down_navigation_20261011_1791730985403.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:03:05.404Z"
+    },
+    {
+      "id": "dark150_system_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned Status focus to first System overview row.",
+      "evidence": "screenshots/dark150_system_up_navigation_20261011_1791731002223.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:03:22.224Z"
+    }
+  ],
+  "fullCellCredit": false
+}

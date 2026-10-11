@@ -201,12 +201,30 @@
     },
     {
       "id": "GUEST_DISPLAY_RECONNECT_20261011",
-      "status": "BLOCKED_HUMAN",
+      "status": "RESOLVED_OBSERVED",
       "action": "Reconnect existing Nyx VM console; sign in normally if prompted, without restart/discard.",
       "reason": "Fresh VM Connection screenshot is black while Running after normal collector restart; UI tests cannot observe guest predicates.",
       "expectedPrompt": "Existing VM Connection display or normal guest sign-in",
       "minimumInput": "Restore visible guest desktop and report ready; no credentials shared",
-      "automaticResume": "Remaining Dark navigation predicates; isolated suite preparation continues independently."
+      "automaticResume": "Remaining Dark navigation predicates; isolated suite preparation continues independently.",
+      "resolution": "Owner restored console; fresh screenshot shows signed-in applied Dark Nyx Home.",
+      "resolvedUtc": "2026-10-11T14:17:37.475Z"
+    },
+    {
+      "id": "ISOLATED_SCRIPT_EXECUTION_POLICY_20261011",
+      "status": "BLOCKED_HUMAN",
+      "action": "Provide an approved signed/trusted test-runner execution route for the disposable guest; do not disable or bypass execution policy.",
+      "reason": "Actual frozen smoke runner was denied by guest execution policy before tests executed.",
+      "expectedPrompt": "No policy change has been initiated.",
+      "minimumInput": "Approved trusted-script execution route.",
+      "automaticResume": "Run frozen Smoke suite, then remaining isolated suites once approved execution is available."
+    },
+    {
+      "id": "NATIVE_OBSERVER_TRUSTED_RESTART_20261011",
+      "status": "BLOCKED_HUMAN",
+      "action": "Provide approved trusted runner route to restart read-only native DPI observer. Existing observer stopped at 2026-10-11T14:05:44Z and cannot qualify later batches. Do not bypass or disable Windows execution policy.",
+      "evidence": "DARK_BATCH_NATIVE_RECONCILIATION_20261011.json",
+      "utc": "2026-10-11T15:27:51.864Z"
     }
   ]
 }

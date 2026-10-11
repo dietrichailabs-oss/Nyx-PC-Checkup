@@ -1,0 +1,9 @@
+{
+  "Id": "a249c204-2794-4807-90e6-28a129989059",
+  "Name": "Nyx-QA26-Disposable-20261011",
+  "Parent": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\export\\Nyx\\Virtual Hard Disks\\Nyx.vhdx",
+  "Child": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable.vhdx",
+  "SecureBoot": "On",
+  "Network": "Disconnected",
+  "CleanStateQualified": false
+}

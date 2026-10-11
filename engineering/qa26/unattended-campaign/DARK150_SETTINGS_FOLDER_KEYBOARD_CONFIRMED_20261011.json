@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": "dark150_settings_folder_keyboard_focus_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Tab sequence gives visible focus to Open local data folder; no preference toggles or update check.",
+      "evidence": "screenshots/dark150_settings_folder_keyboard_focus_20261011_1791732103421.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:21:43.422Z"
+    },
+    {
+      "id": "dark150_settings_folder_enter_destination_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Enter from keyboard-focused Open local data folder opened Explorer. Address prefix C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC C; breadcrumb Nyx PC Checkup, with actions/logs/reports/scans/temp/config.json. No files altered.",
+      "evidence": "screenshots/dark150_settings_folder_enter_destination_20261011_1791732149404.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:22:29.405Z"
+    },
+    {
+      "id": "dark150_settings_folder_exact_path_suffix_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Address suffix confirms exact destination C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup together with preceding prefix evidence.",
+      "evidence": "screenshots/dark150_settings_folder_exact_path_suffix_20261011_1791732158167.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:22:38.168Z"
+    },
+    {
+      "id": "dark150_settings_folder_keyboard_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Closing Explorer returns to idle Settings with local-data-folder button focus retained; no logs deleted or preference changes.",
+      "evidence": "screenshots/dark150_settings_folder_keyboard_return_20261011_1791732169609.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:22:49.609Z"
+    }
+  ],
+  "fullCellCredit": false
+}

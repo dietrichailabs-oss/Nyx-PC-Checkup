@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "disposable_clone_desktop_visible_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Isolated clone connected to signed-in desktop. No authentication bypass. Clean-state qualification and suite execution remain incomplete.",
+      "evidence": "screenshots/disposable_clone_desktop_visible_20261011_1791730057498.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:47:37.498Z"
+    }
+  ],
+  "cleanStateQualified": false
+}

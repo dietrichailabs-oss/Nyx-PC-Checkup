@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark150_apps_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved first-row focus to Reported size and revealed rightmost columns through horizontal scrolling.",
+      "evidence": "screenshots/dark150_apps_end_navigation_20261011_1791731130790.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:05:30.791Z"
+    },
+    {
+      "id": "dark150_apps_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home returned first-row focus to Application and restored leftmost columns.",
+      "evidence": "screenshots/dark150_apps_home_navigation_20261011_1791731141271.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:05:41.272Z"
+    },
+    {
+      "id": "dark150_apps_pagedown_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageDown moved Application focus to final Nyx PC Checkup row.",
+      "evidence": "screenshots/dark150_apps_pagedown_navigation_20261011_1791731153510.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:05:53.511Z"
+    },
+    {
+      "id": "dark150_apps_pageup_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "PageUp returned Application focus to first Microsoft Edge row.",
+      "evidence": "screenshots/dark150_apps_pageup_navigation_20261011_1791731169431.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:06:09.431Z"
+    },
+    {
+      "id": "dark150_apps_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Down moved Application focus to second Microsoft Edge Update row.",
+      "evidence": "screenshots/dark150_apps_down_navigation_20261011_1791731179628.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:06:19.629Z"
+    },
+    {
+      "id": "dark150_apps_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Up returned Application focus to first Microsoft Edge row.",
+      "evidence": "screenshots/dark150_apps_up_navigation_20261011_1791731196291.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:06:36.291Z"
+    }
+  ],
+  "fullCellCredit": false
+}

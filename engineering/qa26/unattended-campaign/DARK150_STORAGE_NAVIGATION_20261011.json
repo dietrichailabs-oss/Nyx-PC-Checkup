@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark150_storage_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage End moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_end_navigation_20261011_1791728689911.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.912Z"
+    },
+    {
+      "id": "dark150_storage_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Home moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_home_navigation_20261011_1791728689912.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.913Z"
+    },
+    {
+      "id": "dark150_storage_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Page_Down moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_page_down_navigation_20261011_1791728689913.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.914Z"
+    },
+    {
+      "id": "dark150_storage_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Page_Up moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_page_up_navigation_20261011_1791728689914.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.915Z"
+    },
+    {
+      "id": "dark150_storage_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Down moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_down_navigation_20261011_1791728689915.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.916Z"
+    },
+    {
+      "id": "dark150_storage_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Applied Dark Storage Up moves visible keyboard cell focus; no scan/redirect. Full-cell native session/requirements reconciliation pending.",
+      "evidence": "screenshots/dark150_storage_up_navigation_20261011_1791728689916.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:24:49.917Z"
+    }
+  ],
+  "fullCellCredit": false
+}

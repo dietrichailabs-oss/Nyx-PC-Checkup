@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_backup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "End moved visible focus from Category to final What Nyx found cell in single Backup row.",
+      "evidence": "screenshots/dark150_backup_end_navigation_20261011_1791730873276.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:01:13.277Z"
+    },
+    {
+      "id": "dark150_backup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Home moved visible keyboard focus to first Status cell.",
+      "evidence": "screenshots/dark150_backup_home_navigation_20261011_1791730883944.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:01:23.945Z"
+    }
+  ],
+  "fullCellCredit": false
+}

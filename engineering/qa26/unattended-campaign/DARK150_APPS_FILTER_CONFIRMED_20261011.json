@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "dark150_apps_zero_filter_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Visible z query persists in focused search box; all five inventory rows removed, headers retained, no exception or scan. Resolves earlier input uncertainty, not retroactive image credit.",
+      "evidence": "screenshots/dark150_apps_zero_filter_confirmed_20261011_1791731399509.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:09:59.509Z"
+    },
+    {
+      "id": "dark150_apps_filter_restored_confirmed_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "BackSpace cleared confirmed z query; all five original inventory rows restored; no scan.",
+      "evidence": "screenshots/dark150_apps_filter_restored_confirmed_20261011_1791731413701.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:10:13.702Z"
+    }
+  ],
+  "fullCellCredit": false
+}
