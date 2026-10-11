@@ -7874,8 +7874,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "Corrected Light100HomeQuick bookkeeping: restored prior RESULT_CONTRACT_RECONCILED and removed accidental October8 linkage. Two newly resolved scan contracts remain separate.",
-  "nextAction": "Continue historical worker/cancellation evidence reconciliation; qualify new session DPI separately.",
+  "lastCompletedAction": "Two historical cancellation lifecycle components passed exact raw/worker/hash/cleanup reconciliation; no reruns.",
+  "nextAction": "Reconcile remaining focused gate predicates and exact original UI activation evidence; current DPI qualification remains separate.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7889,7 +7889,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T19:55:13.031Z",
+  "updatedUtc": "2026-10-11T19:58:19.533Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -11080,6 +11080,89 @@
       "No worker cleanup or cancellation gate completed.",
       "Two exported125 files reconciled for stale pending state, not counted as newly executed scans.",
       "October8 Full does not replace historical Light125 Full."
+    ]
+  },
+  "cancellationLifecycleReconciliation": {
+    "schema": "QA26-CANCELLATION-LIFECYCLE-RECONCILIATION-1",
+    "utc": "2026-10-11T19:58:19.533Z",
+    "sourceCollection": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/cleanup_native_collect_20261011_125157",
+    "completedComponents": 2,
+    "checksPerComponent": 8,
+    "failures": 0,
+    "noNewScans": true,
+    "productModified": false,
+    "fullCellCredit": false,
+    "records": [
+      {
+        "run": "20261005_190742",
+        "raw": "SCAN_002_RAW.json",
+        "workerPid": 4120,
+        "mode": "Full",
+        "startedUtc": "2026-10-05T23:15:52.5529200Z",
+        "completedUtc": "2026-10-05T23:16:19.8639718Z",
+        "rawSha256": "8c8d00ebd254474f2691b56cffba1e3aadf6d1bc6e8e7890373272f0470e0073",
+        "checks": {
+          "rawHashMatchesCaptured": true,
+          "exactInstalledWorkerAndNativeAncestor": true,
+          "frozenWorkerLauncherHashes": true,
+          "cancelledReadOnlyContract": true,
+          "exactCaptureTimestamps": true,
+          "uniquePartialResultIds": true,
+          "partialSummaryMatches": true,
+          "workerExitedWithSustainedEmptyCleanup": true
+        },
+        "result": "PASS_CANCELLATION_LIFECYCLE_COMPONENT",
+        "workerExitUtc": "2026-10-05T23:16:19.9911386Z",
+        "firstEmptyUtc": "2026-10-05T23:16:20.5484250Z",
+        "cleanupAfterExitMs": 557,
+        "sustainedEmptySamples": 18,
+        "evidenceLines": {
+          "workerStart": 929,
+          "capture": 984,
+          "exit": 983,
+          "firstEmpty": 991,
+          "lastEmpty": 1008
+        },
+        "fullCellCredit": false
+      },
+      {
+        "run": "20261005_200212",
+        "raw": "SCAN_004_RAW.json",
+        "workerPid": 10044,
+        "mode": "Quick",
+        "startedUtc": "2026-10-06T00:08:25.5268440Z",
+        "completedUtc": "2026-10-06T00:08:34.0957782Z",
+        "rawSha256": "663e87387238eb891f69bef605bc9805462e74596acb864f43a8d313b62bf463",
+        "checks": {
+          "rawHashMatchesCaptured": true,
+          "exactInstalledWorkerAndNativeAncestor": true,
+          "frozenWorkerLauncherHashes": true,
+          "cancelledReadOnlyContract": true,
+          "exactCaptureTimestamps": true,
+          "uniquePartialResultIds": true,
+          "partialSummaryMatches": true,
+          "workerExitedWithSustainedEmptyCleanup": true
+        },
+        "result": "PASS_CANCELLATION_LIFECYCLE_COMPONENT",
+        "workerExitUtc": "2026-10-06T00:08:34.3962625Z",
+        "firstEmptyUtc": "2026-10-06T00:08:34.9527349Z",
+        "cleanupAfterExitMs": 556,
+        "sustainedEmptySamples": 18,
+        "evidenceLines": {
+          "workerStart": 738,
+          "capture": 756,
+          "exit": 757,
+          "firstEmpty": 759,
+          "lastEmpty": 776
+        },
+        "fullCellCredit": false
+      }
+    ],
+    "limits": [
+      "Historical evidence only, no reruns.",
+      "No theme/DPI inferred from filenames.",
+      "No cancellation latency from user activation asserted.",
+      "Focused gate acceptance remains incomplete until all normative predicates reconciled."
     ]
   }
 }

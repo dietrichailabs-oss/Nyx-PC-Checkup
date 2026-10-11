@@ -1,0 +1,1268 @@
+{
+  "source": "NyxQA26InstalledScanObserverV5/20261005_200212/EVENTS.jsonl",
+  "sourceSha256": "2b7e27d23ea6922ee80b6d82c612c8de7e72d6d7d77cbe75296956fdba587897",
+  "rows": [
+    {
+      "OriginalLine": 1,
+      "Utc": "2026-10-06T00:02:12.7028573Z",
+      "Event": "START",
+      "Details": {
+        "InstalledExe": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe",
+        "NoWorkerPause": true,
+        "InstalledWorker": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1",
+        "InstalledMain": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1",
+        "Revision": "QA26-EVIDENCE-OBSERVER-V5",
+        "ProductModified": false,
+        "ExpectedHashes": {
+          "app\\workers\\ScanWorker.ps1": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+          "app\\NyxPCCheckup.ps1": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+          "Nyx PC Checkup.exe": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75"
+        },
+        "ReadShare": "ReadWrite|Delete"
+      }
+    },
+    {
+      "OriginalLine": 738,
+      "Utc": "2026-10-06T00:08:25.2609042Z",
+      "Event": "INSTALLED_WORKER_START",
+      "Details": {
+        "Ancestors": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          },
+          {
+            "Pid": 10188,
+            "ParentPid": 9052,
+            "Name": "Nyx PC Checkup.exe",
+            "ExecutablePath": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe",
+            "CommandLine": "\"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe\" ",
+            "CreationUtc": "2026-10-06T00:02:15.5440200Z"
+          },
+          {
+            "Pid": 9052,
+            "ParentPid": 6368,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Q26F023\\Start-QA26-Guest.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:10.8715760Z"
+          },
+          {
+            "Pid": 6368,
+            "ParentPid": 6184,
+            "Name": "explorer.exe",
+            "ExecutablePath": "C:\\WINDOWS\\Explorer.EXE",
+            "CommandLine": "C:\\WINDOWS\\Explorer.EXE",
+            "CreationUtc": "2026-10-06T00:02:07.8361380Z"
+          }
+        ],
+        "ExactInstalledWorker": true,
+        "ReadsSoFar": 78780,
+        "Worker": {
+          "Pid": 10044,
+          "ParentPid": 9380,
+          "Name": "powershell.exe",
+          "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+          "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+        },
+        "InstalledNativeLauncherAncestorObserved": true
+      }
+    },
+    {
+      "OriginalLine": 739,
+      "Utc": "2026-10-06T00:08:25.2629094Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [],
+        "Reads": 78780,
+        "BytesRead": 1900197077,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 740,
+      "Utc": "2026-10-06T00:08:25.7969605Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 326,
+            "LastWriteTimeUtc": "/Date(1791245305590)/"
+          }
+        ],
+        "Reads": 79000,
+        "BytesRead": 1900268797,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 741,
+      "Utc": "2026-10-06T00:08:26.3361333Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 326,
+            "LastWriteTimeUtc": "/Date(1791245305590)/"
+          }
+        ],
+        "Reads": 79620,
+        "BytesRead": 1900470917,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 742,
+      "Utc": "2026-10-06T00:08:26.8844495Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 3141,
+            "LastWriteTimeUtc": "/Date(1791245306812)/"
+          }
+        ],
+        "Reads": 80200,
+        "BytesRead": 1900776424,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 743,
+      "Utc": "2026-10-06T00:08:27.4336817Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 80760,
+        "BytesRead": 1902639744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 744,
+      "Utc": "2026-10-06T00:08:27.9725951Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 81400,
+        "BytesRead": 1906319744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 745,
+      "Utc": "2026-10-06T00:08:28.5112610Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 82000,
+        "BytesRead": 1909769744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 746,
+      "Utc": "2026-10-06T00:08:29.0516798Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 82640,
+        "BytesRead": 1913449744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 747,
+      "Utc": "2026-10-06T00:08:29.5763321Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 83260,
+        "BytesRead": 1917014744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 748,
+      "Utc": "2026-10-06T00:08:30.1147447Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 83900,
+        "BytesRead": 1920694744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 749,
+      "Utc": "2026-10-06T00:08:30.6534924Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 84540,
+        "BytesRead": 1924374744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 750,
+      "Utc": "2026-10-06T00:08:31.1922331Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 85160,
+        "BytesRead": 1927939744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 751,
+      "Utc": "2026-10-06T00:08:31.7157371Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 85780,
+        "BytesRead": 1931504744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 752,
+      "Utc": "2026-10-06T00:08:32.2561000Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 86420,
+        "BytesRead": 1935184744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 753,
+      "Utc": "2026-10-06T00:08:32.7947319Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 87060,
+        "BytesRead": 1938864744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 754,
+      "Utc": "2026-10-06T00:08:33.3341191Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 5750,
+            "LastWriteTimeUtc": "/Date(1791245307356)/"
+          }
+        ],
+        "Reads": 87700,
+        "BytesRead": 1942544744,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 755,
+      "Utc": "2026-10-06T00:08:33.8737589Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 3,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 23337,
+            "LastWriteTimeUtc": "/Date(1791245313509)/"
+          }
+        ],
+        "Reads": 88180,
+        "BytesRead": 1951780860,
+        "ActiveInstalledWorkers": [
+          {
+            "Pid": 10044,
+            "ParentPid": 9380,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1\" -Mode Quick -OutputPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.json\" -ProgressPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl\" -CancelPath \"C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp\\scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel\" ",
+            "CreationUtc": "2026-10-06T00:08:24.6975930Z"
+          }
+        ],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 756,
+      "Utc": "2026-10-06T00:08:34.1592463Z",
+      "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+      "Details": {
+        "Mode": "Quick",
+        "CompletedUtc": "2026-10-06T00:08:34.0957782Z",
+        "StartedUtc": "2026-10-06T00:08:25.5268440Z",
+        "Validation": "Host contract validation required",
+        "RawPath": "SCAN_004_RAW.json",
+        "Results": 13,
+        "SHA256": "663E87387238EB891F69BEF605BC9805462E74596ACB864F43A8D313B62BF463",
+        "Cancelled": true,
+        "WorkerError": null,
+        "ReadOnly": true
+      }
+    },
+    {
+      "OriginalLine": 757,
+      "Utc": "2026-10-06T00:08:34.3962625Z",
+      "Event": "INSTALLED_WORKER_EXIT",
+      "Details": {
+        "ReadsSoFar": 88760,
+        "WorkerPid": 10044
+      }
+    },
+    {
+      "OriginalLine": 758,
+      "Utc": "2026-10-06T00:08:34.4123903Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8-progress.jsonl",
+            "Length": 24450,
+            "LastWriteTimeUtc": "/Date(1791245314143)/"
+          },
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8.cancel",
+            "Length": 8,
+            "LastWriteTimeUtc": "/Date(1791245314001)/"
+          },
+          {
+            "Name": "scan-fe9f9905e2db49048d7a80f3edf12fc8.json",
+            "Length": 51388,
+            "LastWriteTimeUtc": "/Date(1791245314095)/"
+          }
+        ],
+        "Reads": 88780,
+        "BytesRead": 1966137652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 759,
+      "Utc": "2026-10-06T00:08:34.9527349Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 760,
+      "Utc": "2026-10-06T00:08:35.4924970Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 761,
+      "Utc": "2026-10-06T00:08:36.0165631Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 762,
+      "Utc": "2026-10-06T00:08:36.5389249Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 763,
+      "Utc": "2026-10-06T00:08:37.0620282Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 764,
+      "Utc": "2026-10-06T00:08:37.6012703Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 765,
+      "Utc": "2026-10-06T00:08:38.1411422Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 766,
+      "Utc": "2026-10-06T00:08:38.6815386Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 767,
+      "Utc": "2026-10-06T00:08:39.2043921Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 768,
+      "Utc": "2026-10-06T00:08:39.7121561Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 769,
+      "Utc": "2026-10-06T00:08:40.2503603Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 770,
+      "Utc": "2026-10-06T00:08:40.7749177Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 771,
+      "Utc": "2026-10-06T00:08:41.2974533Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 772,
+      "Utc": "2026-10-06T00:08:41.8211850Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 773,
+      "Utc": "2026-10-06T00:08:42.3294526Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 774,
+      "Utc": "2026-10-06T00:08:42.8514892Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 775,
+      "Utc": "2026-10-06T00:08:43.3915028Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    },
+    {
+      "OriginalLine": 776,
+      "Utc": "2026-10-06T00:08:43.9140343Z",
+      "Event": "LIVE_STATE",
+      "Details": {
+        "IORetries": 20,
+        "AppCandidates": [
+          {
+            "Pid": 9380,
+            "ParentPid": 10188,
+            "Name": "powershell.exe",
+            "ExecutablePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\"",
+            "CreationUtc": "2026-10-06T00:02:15.5543350Z"
+          }
+        ],
+        "ParseRetries": 0,
+        "SavedResults": 4,
+        "TempArtifacts": [],
+        "Reads": 88920,
+        "BytesRead": 1969560652,
+        "ActiveInstalledWorkers": [],
+        "NoExclusiveProbeDuringPossibleWorkerStart": true
+      }
+    }
+  ]
+}
