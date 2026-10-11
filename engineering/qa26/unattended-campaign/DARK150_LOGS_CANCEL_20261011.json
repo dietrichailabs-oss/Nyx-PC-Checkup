@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "dark150_logs_confirmation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Delete local logs opens explicit Yes/No confirmation: Delete all local Nyx diagnostic logs? No deletion dispatched yet. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_logs_confirmation_20261011_1791738608678.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:10:08.679Z"
+    },
+    {
+      "id": "dark150_logs_no_keyboard_focus_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Tab reaches No with visible dotted focus in explicit log-deletion confirmation. No deletion yet; DPI pending.",
+      "evidence": "screenshots/dark150_logs_no_keyboard_focus_20261011_1791738623849.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:10:23.850Z"
+    },
+    {
+      "id": "dark150_logs_no_cancel_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return on focused No closes confirmation and returns to Settings idle, without success/deletion action. UI cancellation dispatch observed; on-disk unchanged-log proof not collected. DPI pending.",
+      "evidence": "screenshots/dark150_logs_no_cancel_return_20261011_1791738642494.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:10:42.495Z"
+    }
+  ],
+  "fullCellCredit": false
+}

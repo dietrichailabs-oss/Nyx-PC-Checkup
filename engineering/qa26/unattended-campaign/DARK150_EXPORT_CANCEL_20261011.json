@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "dark150_export_preview_identity_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Export opens Review report before export with frozen build 2026.10.02-eng-qa26, full scan completed 2026-10-08T23:05:25.6882604Z, counts Good14/NeedsAttention2/Optional2/Unknown3 and narrative report. No export file created; DPI pending.",
+      "evidence": "screenshots/dark150_export_preview_identity_20261011_1791738508785.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:08:28.786Z"
+    },
+    {
+      "id": "dark150_export_cancel_keyboard_focus_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from Continue to save reaches Cancel with visible focus outline; both buttons fully visible by autoscroll. No save initiated; DPI pending.",
+      "evidence": "screenshots/dark150_export_cancel_keyboard_focus_20261011_1791738555489.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:09:15.490Z"
+    },
+    {
+      "id": "dark150_export_cancel_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return on focused Cancel closed review and returned to Settings without opening save dialog; no export dispatched. Existing scan preserved; fresh DPI pending.",
+      "evidence": "screenshots/dark150_export_cancel_return_20261011_1791738566560.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:09:26.560Z"
+    }
+  ],
+  "fullCellCredit": false
+}

@@ -7764,6 +7764,54 @@
       "evidence": "screenshots/dark150_settings_contract_lower_20261011_1791738153364.jpg",
       "fullCellCredit": false,
       "utc": "2026-10-11T17:02:33.365Z"
+    },
+    {
+      "id": "dark150_export_preview_identity_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Export opens Review report before export with frozen build 2026.10.02-eng-qa26, full scan completed 2026-10-08T23:05:25.6882604Z, counts Good14/NeedsAttention2/Optional2/Unknown3 and narrative report. No export file created; DPI pending.",
+      "evidence": "screenshots/dark150_export_preview_identity_20261011_1791738508785.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:08:28.786Z"
+    },
+    {
+      "id": "dark150_export_cancel_keyboard_focus_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Tab from Continue to save reaches Cancel with visible focus outline; both buttons fully visible by autoscroll. No save initiated; DPI pending.",
+      "evidence": "screenshots/dark150_export_cancel_keyboard_focus_20261011_1791738555489.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:09:15.490Z"
+    },
+    {
+      "id": "dark150_export_cancel_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return on focused Cancel closed review and returned to Settings without opening save dialog; no export dispatched. Existing scan preserved; fresh DPI pending.",
+      "evidence": "screenshots/dark150_export_cancel_return_20261011_1791738566560.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:09:26.560Z"
+    },
+    {
+      "id": "dark150_logs_confirmation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Delete local logs opens explicit Yes/No confirmation: Delete all local Nyx diagnostic logs? No deletion dispatched yet. Fresh DPI pending.",
+      "evidence": "screenshots/dark150_logs_confirmation_20261011_1791738608678.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:10:08.679Z"
+    },
+    {
+      "id": "dark150_logs_no_keyboard_focus_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Tab reaches No with visible dotted focus in explicit log-deletion confirmation. No deletion yet; DPI pending.",
+      "evidence": "screenshots/dark150_logs_no_keyboard_focus_20261011_1791738623849.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:10:23.850Z"
+    },
+    {
+      "id": "dark150_logs_no_cancel_return_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Return on focused No closes confirmation and returns to Settings idle, without success/deletion action. UI cancellation dispatch observed; on-disk unchanged-log proof not collected. DPI pending.",
+      "evidence": "screenshots/dark150_logs_no_cancel_return_20261011_1791738642494.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T17:10:42.495Z"
     }
   ],
   "evidenceReferences": [
@@ -7802,8 +7850,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "DARK150_SETTINGS_RESIZE_20261011 completed with exact fresh screenshot records; no full-cell credit.",
-  "nextAction": "Resize batch all 11 pages observed; qualify fresh native DPI before complete-cell credit and continue remaining functional gates.",
+  "lastCompletedAction": "DARK150_LOGS_CANCEL_20261011 completed with exact fresh screenshot records; no full-cell credit.",
+  "nextAction": "Qualify current functional and resize native evidence; continue remaining missing functional gates without repeating scans.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7817,7 +7865,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T17:02:33.365Z",
+  "updatedUtc": "2026-10-11T17:10:42.495Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -10879,5 +10927,14 @@
     "pages": 11,
     "pendingNativeDpi": 23,
     "fullCellCredit": false
+  },
+  "functionalSafetyScoreboard": {
+    "newObserved": 6,
+    "failures": 0,
+    "exportCancel": 3,
+    "logsCancel": 3,
+    "fullCellCredit": false,
+    "pendingNativeDpi": 6,
+    "logFilesystemProof": "NOT_COLLECTED"
   }
 }
