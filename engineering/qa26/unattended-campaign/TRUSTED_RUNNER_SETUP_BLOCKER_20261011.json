@@ -1,0 +1,18 @@
+{
+  "status": "POLICY_CHANGE_DECLINED_BY_USER",
+  "vm": "Nyx-QA26-Disposable-20261011",
+  "computer": "DESKTOP-4D83OSL",
+  "policies": {
+    "MachinePolicy": "Undefined",
+    "UserPolicy": "Undefined",
+    "Process": "Undefined",
+    "CurrentUser": "Undefined",
+    "LocalMachine": "Undefined"
+  },
+  "effectivePolicy": "Restricted",
+  "signingCertificateCount": 0,
+  "policyChanged": false,
+  "requestedSetup": "CurrentUser RemoteSigned on disposable guest only; original guest and host unchanged; no Bypass or Unrestricted",
+  "utc": "2026-10-11T15:37:52.081Z",
+  "declinedSetup": "CurrentUser RemoteSigned disposable VM"
+}

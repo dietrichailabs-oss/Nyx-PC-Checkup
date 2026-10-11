@@ -212,8 +212,8 @@
     },
     {
       "id": "ISOLATED_SCRIPT_EXECUTION_POLICY_20261011",
-      "status": "BLOCKED_HUMAN",
-      "action": "Provide an approved signed/trusted test-runner execution route for the disposable guest; do not disable or bypass execution policy.",
+      "status": "BLOCKED_POLICY_CHANGE_DECLINED",
+      "action": "User explicitly declined disposable-VM RemoteSigned setup; do not change policy or bypass. Script suites remain unexecuted.",
       "reason": "Actual frozen smoke runner was denied by guest execution policy before tests executed.",
       "expectedPrompt": "No policy change has been initiated.",
       "minimumInput": "Approved trusted-script execution route.",
@@ -221,10 +221,11 @@
     },
     {
       "id": "NATIVE_OBSERVER_TRUSTED_RESTART_20261011",
-      "status": "BLOCKED_HUMAN",
+      "status": "RESOLVED_NATIVE_HARNESS_ALTERNATIVE",
       "action": "Provide approved trusted runner route to restart read-only native DPI observer. Existing observer stopped at 2026-10-11T14:05:44Z and cannot qualify later batches. Do not bypass or disable Windows execution policy.",
-      "evidence": "DARK_BATCH_NATIVE_RECONCILIATION_20261011.json",
-      "utc": "2026-10-11T15:27:51.864Z"
+      "evidence": "NATIVE_DPI_ALTERNATIVE_20261011.json",
+      "utc": "2026-10-11T15:27:51.864Z",
+      "resolution": "Native observer launched interactively and 20 records recovered; no script-policy change."
     }
   ]
 }

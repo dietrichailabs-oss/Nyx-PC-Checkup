@@ -12,7 +12,7 @@ using System.Web.Script.Serialization;
 public static class Qa26NativeEvidence {
     const string VmId = "275a191c-cf8a-4929-9849-b9a293e9149d";
     static readonly JavaScriptSerializer Json = new JavaScriptSerializer { MaxJsonLength = Int32.MaxValue };
-    static readonly string[] ObserverNames = { "NyxQA26Geometry", "NyxQA26InstalledScanObserver", "NyxQA26InstalledScanObserverV5" };
+    static readonly string[] ObserverNames = { "NyxQA26Geometry", "NyxQA26InstalledScanObserver", "NyxQA26InstalledScanObserverV5", "NyxQA26NativeDpi" };
     static readonly string[] DataNames = { "scans", "reports", "logs" };
     static ManagementScope Scope;
     static string Out;

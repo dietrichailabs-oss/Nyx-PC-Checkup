@@ -1,0 +1,65 @@
+﻿{
+    "Status":  "READ_ONLY_COMPLETED",
+    "Result":  {
+                   "Computer":  "DESKTOP-4D83OSL",
+                   "Policies":  [
+                                    {
+                                        "Scope":  {
+                                                      "value":  4,
+                                                      "Value":  "MachinePolicy"
+                                                  },
+                                        "ExecutionPolicy":  {
+                                                                "value":  5,
+                                                                "Value":  "Undefined"
+                                                            }
+                                    },
+                                    {
+                                        "Scope":  {
+                                                      "value":  3,
+                                                      "Value":  "UserPolicy"
+                                                  },
+                                        "ExecutionPolicy":  {
+                                                                "value":  5,
+                                                                "Value":  "Undefined"
+                                                            }
+                                    },
+                                    {
+                                        "Scope":  {
+                                                      "value":  0,
+                                                      "Value":  "Process"
+                                                  },
+                                        "ExecutionPolicy":  {
+                                                                "value":  5,
+                                                                "Value":  "Undefined"
+                                                            }
+                                    },
+                                    {
+                                        "Scope":  {
+                                                      "value":  1,
+                                                      "Value":  "CurrentUser"
+                                                  },
+                                        "ExecutionPolicy":  {
+                                                                "value":  5,
+                                                                "Value":  "Undefined"
+                                                            }
+                                    },
+                                    {
+                                        "Scope":  {
+                                                      "value":  2,
+                                                      "Value":  "LocalMachine"
+                                                  },
+                                        "ExecutionPolicy":  {
+                                                                "value":  5,
+                                                                "Value":  "Undefined"
+                                                            }
+                                    }
+                                ],
+                   "SigningCertificates":  [
+
+                                           ],
+                   "PSComputerName":  "Nyx-QA26-Disposable-20261011",
+                   "RunspaceId":  "a849d03b-e296-4346-a470-3d9da8d71022",
+                   "PSShowComputerName":  true
+               },
+    "PolicyChanged":  false
+}

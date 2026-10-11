@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "dark150_home_timestamp_audit_20261011",
+      "status": "INCOMPLETE_EVIDENCE",
+      "details": "Reached bottom of preserved Home summary; no completion timestamp visible at this location. This is not qualified timestamp PASS or product FAIL. No new scan.",
+      "evidence": "screenshots/dark150_home_timestamp_audit_20261011_1791734135049.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:55:35.050Z"
+    }
+  ],
+  "fullCellCredit": false
+}

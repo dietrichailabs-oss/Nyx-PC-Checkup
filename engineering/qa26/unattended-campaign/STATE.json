@@ -9,7 +9,7 @@
   "currentBatch": "Dark150_PREDICATE_RECONCILIATION",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Dark Settings",
+  "currentPage": "Dark Home",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -7484,6 +7484,14 @@
       "evidence": "screenshots/dark150_settings_folder_keyboard_return_20261011_1791732169609.jpg",
       "fullCellCredit": false,
       "utc": "2026-10-11T15:22:49.609Z"
+    },
+    {
+      "id": "dark150_home_timestamp_audit_20261011",
+      "status": "INCOMPLETE_EVIDENCE",
+      "details": "Reached bottom of preserved Home summary; no completion timestamp visible at this location. This is not qualified timestamp PASS or product FAIL. No new scan.",
+      "evidence": "screenshots/dark150_home_timestamp_audit_20261011_1791734135049.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T15:55:35.050Z"
     }
   ],
   "evidenceReferences": [
@@ -7522,8 +7530,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "DARK150_SETTINGS_FOLDER_KEYBOARD_CONFIRMED_20261011 completed with exact fresh screenshot records; no full-cell credit.",
-  "nextAction": "Resolve approved isolated trusted-runner and native-observer prerequisite; qualify later Dark cells with fresh native DPI and complete exact predicate audits. Do not repeat completed navigation or original scans.",
+  "lastCompletedAction": "DARK150_HOME_TIMESTAMP_AUDIT_20261011 completed with exact fresh screenshot records; no full-cell credit.",
+  "nextAction": "Use native observer with unique output for upcoming missing UI predicates and exact interval qualification; preserve older raw. Script suites remain blocked because policy change was explicitly declined.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7537,7 +7545,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T15:25:20.607Z",
+  "updatedUtc": "2026-10-11T16:06:36.238Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -10294,13 +10302,9 @@
   },
   "dark150FreshCoverage": "DARK150_FRESH_COVERAGE_20261008.json",
   "evidenceCheckpoint": {
-    "audit": "EVIDENCE_CHECKPOINT_RECONCILIATION_20261011.json",
-    "baseHead": "6436d978d06f38647e187319b8ee1bcff4c4b3f6",
-    "recordedStrict": 56,
-    "recordedBestEffort": 0,
-    "additionalCompleteCellsCredited": 0,
-    "fullCellReconciliation": "PENDING_EXACT_NATIVE_RAW_REQUIREMENTS",
-    "knownInvalidCapturesExcluded": true
+    "commit": "8e211e2",
+    "pushed": true,
+    "issueCommentId": 6110616010
   },
   "nativeHarness": {
     "source": "harness/Qa26NativeEvidence.cs",
@@ -10344,12 +10348,12 @@
   },
   "nativeDpiCurrent": {
     "value": 144,
-    "source": "NyxQA26Geometry/geometry_v2_20261011_100343/CONTROL_GEOMETRY.jsonl",
+    "source": "native-dpi-alternative-recovered-20261011/dpi_20261011_native.jsonl",
     "utcRange": [
-      "2026-10-11T14:03:46.1645565Z",
-      "2026-10-11T14:05:44.3805242Z"
+      "2026-10-11T16:02:45.6833034Z",
+      "2026-10-11T16:03:20.7226885Z"
     ],
-    "scope": "Dark relaunch and Startup batch only; not retroactive prior sessions"
+    "scope": "Exact native measurement interval only, original guest. Minimized samples excluded from visible layout qualification. No retroactive prior batch credit."
   },
   "isolationPreparation": {
     "status": "DISPOSABLE_CLONE_CREATED_STARTED",
@@ -10380,5 +10384,62 @@
     "productModified": false,
     "fullCellCredit": 0,
     "utc": "2026-10-11T15:25:20.606Z"
+  },
+  "trustedRunnerSetup": {
+    "status": "POLICY_CHANGE_DECLINED_BY_USER",
+    "vm": "Nyx-QA26-Disposable-20261011",
+    "computer": "DESKTOP-4D83OSL",
+    "policies": {
+      "MachinePolicy": "Undefined",
+      "UserPolicy": "Undefined",
+      "Process": "Undefined",
+      "CurrentUser": "Undefined",
+      "LocalMachine": "Undefined"
+    },
+    "effectivePolicy": "Restricted",
+    "signingCertificateCount": 0,
+    "policyChanged": false,
+    "requestedSetup": "CurrentUser RemoteSigned on disposable guest only; original guest and host unchanged; no Bypass or Unrestricted",
+    "utc": "2026-10-11T15:37:52.081Z",
+    "declinedSetup": "CurrentUser RemoteSigned disposable VM"
+  },
+  "nativeDpiAlternative": {
+    "status": "RECOVERED_NATIVE_DPI_COMPONENT_PASS",
+    "deploy": {
+      "ProductModified": false,
+      "Status": "BLOCKED",
+      "Error": "Failed to initiate copying files to the guest.\r\n\r\n'Nyx' failed to initiate copying files to the guest: The device is not ready. (0x80070015). (Virtual machine ID 275A191C-CF8A-4929-9849-B9A293E9149D)",
+      "PolicyChanged": false
+    },
+    "exeSha256": "89407dfa2fb8de5ecb107e39fb2e0dd8109a3db1a94802d66846d1b71f59b760",
+    "component": "harness/Qa26ReadOnlyDpiObserver.cs",
+    "scope": "Exact native measurement interval only, original guest. Minimized samples excluded from visible layout qualification. No retroactive prior batch credit.",
+    "productModified": false,
+    "utc": "2026-10-11T15:58:10.203Z",
+    "guestService": {
+      "beforeEnabled": false,
+      "enabled": true,
+      "explicitUserApproval": true
+    },
+    "policyChanged": false,
+    "collection": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/native_dpi_recovered_20261011_120518",
+    "observerOutput": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\dpi_20261011_native.jsonl",
+    "measurementCount": 20,
+    "visibleMeasurementCount": 8,
+    "nativeDpi": 144,
+    "utcRange": [
+      "2026-10-11T16:01:45.5422897Z",
+      "2026-10-11T16:03:20.7226885Z"
+    ],
+    "visibleUtcRange": [
+      "2026-10-11T16:02:45.6833034Z",
+      "2026-10-11T16:03:20.7226885Z"
+    ],
+    "pid": 10220,
+    "installedBuild": "2026.10.02-eng-qa26",
+    "payloadFilesCompared": 60,
+    "payloadMismatchCount": 0,
+    "fullCellCredit": 0,
+    "rawEvidence": "native-dpi-alternative-recovered-20261011/dpi_20261011_native.jsonl"
   }
 }

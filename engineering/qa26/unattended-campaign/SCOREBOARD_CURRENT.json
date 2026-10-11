@@ -19,34 +19,45 @@
     "F010": "INCOMPLETE",
     "F016": "INCOMPLETE"
   },
-  "latestBatch": {
-    "pages": [
-      "Dark Cleanup",
-      "Dark Settings"
-    ],
-    "passingPredicateRecords": 5,
-    "productFailures": 0,
-    "fullCellCredit": 0,
-    "evidence": [
-      "DARK150_CLEANUP_CONSEQUENCE_CONFIRMED_20261011.json",
-      "DARK150_SETTINGS_FOLDER_KEYBOARD_CONFIRMED_20261011.json"
-    ],
-    "nativeEvidence": "DARK_BATCH_NATIVE_RECONCILIATION_20261011.json"
-  },
-  "scopedUiPassingRecordCount": 88,
-  "nativeCollection": {
-    "status": "COLLECTED_READ_ONLY_DPI_OBSERVER_NOT_CURRENT",
-    "output": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/native_collect_dark_batch_20261011_112328",
-    "payloadFileCount": 60,
-    "payloadMismatchCount": 0,
-    "build": "2026.10.02-eng-qa26",
-    "manifestSha256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
-    "geometryCount": 10,
-    "lastGeometryUtc": "2026-10-11T14:05:44.3805242Z",
-    "reason": "Existing observer ends 14:05:44Z; later batch cannot receive native-DPI credit from this stale observer.",
+  "nativeDpiAlternative": {
+    "status": "RECOVERED_NATIVE_DPI_COMPONENT_PASS",
+    "deploy": {
+      "ProductModified": false,
+      "Status": "BLOCKED",
+      "Error": "Failed to initiate copying files to the guest.\r\n\r\n'Nyx' failed to initiate copying files to the guest: The device is not ready. (0x80070015). (Virtual machine ID 275A191C-CF8A-4929-9849-B9A293E9149D)",
+      "PolicyChanged": false
+    },
+    "exeSha256": "89407dfa2fb8de5ecb107e39fb2e0dd8109a3db1a94802d66846d1b71f59b760",
+    "component": "harness/Qa26ReadOnlyDpiObserver.cs",
+    "scope": "Exact native measurement interval only, original guest. Minimized samples excluded from visible layout qualification. No retroactive prior batch credit.",
     "productModified": false,
+    "utc": "2026-10-11T15:58:10.203Z",
+    "guestService": {
+      "beforeEnabled": false,
+      "enabled": true,
+      "explicitUserApproval": true
+    },
+    "policyChanged": false,
+    "collection": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/native_dpi_recovered_20261011_120518",
+    "observerOutput": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\dpi_20261011_native.jsonl",
+    "measurementCount": 20,
+    "visibleMeasurementCount": 8,
+    "nativeDpi": 144,
+    "utcRange": [
+      "2026-10-11T16:01:45.5422897Z",
+      "2026-10-11T16:03:20.7226885Z"
+    ],
+    "visibleUtcRange": [
+      "2026-10-11T16:02:45.6833034Z",
+      "2026-10-11T16:03:20.7226885Z"
+    ],
+    "pid": 10220,
+    "installedBuild": "2026.10.02-eng-qa26",
+    "payloadFilesCompared": 60,
+    "payloadMismatchCount": 0,
     "fullCellCredit": 0,
-    "utc": "2026-10-11T15:25:20.606Z"
+    "rawEvidence": "native-dpi-alternative-recovered-20261011/dpi_20261011_native.jsonl"
   },
+  "scriptSuites": "BLOCKED_POLICY_CHANGE_DECLINED",
   "campaignComplete": false
 }
