@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_backup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 End moved only-row focus to What Nyx found; no dialog or external action activated.",
+      "evidence": "screenshots/followwindows150_backup_end_navigation_20261011_1791726458472.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:47:38.473Z"
+    },
+    {
+      "id": "followwindows150_backup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Home restored only-row NeedsAttention Status cell; visible focus retained.",
+      "evidence": "screenshots/followwindows150_backup_home_navigation_20261011_1791726458473.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:47:38.474Z"
+    }
+  ],
+  "fullCellCredit": false
+}

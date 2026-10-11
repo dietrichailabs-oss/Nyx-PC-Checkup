@@ -9,7 +9,7 @@
   "currentBatch": "Dark150_PREDICATE_RECONCILIATION",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Storage",
+  "currentPage": "Security",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -6868,6 +6868,166 @@
       "evidence": "screenshots/followwindows150_storage_up_navigation_20261011_1791725464605.jpg",
       "fullCellCredit": false,
       "utc": "2026-10-11T13:31:04.606Z"
+    },
+    {
+      "id": "followwindows150_backup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 End moved only-row focus to What Nyx found; no dialog or external action activated.",
+      "evidence": "screenshots/followwindows150_backup_end_navigation_20261011_1791726458472.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:47:38.473Z"
+    },
+    {
+      "id": "followwindows150_backup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Home restored only-row NeedsAttention Status cell; visible focus retained.",
+      "evidence": "screenshots/followwindows150_backup_home_navigation_20261011_1791726458473.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:47:38.474Z"
+    },
+    {
+      "id": "followwindows150_system_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 End focused first-row What Nyx found. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_end_navigation_20261011_1791726519620.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.621Z"
+    },
+    {
+      "id": "followwindows150_system_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Home restored first-row Status Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_home_navigation_20261011_1791726519621.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.622Z"
+    },
+    {
+      "id": "followwindows150_system_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Page Down focused final Performance Good Status cell. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_page_down_navigation_20261011_1791726519622.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.623Z"
+    },
+    {
+      "id": "followwindows150_system_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Page Up restored first-row System overview Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_page_up_navigation_20261011_1791726519623.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.623Z"
+    },
+    {
+      "id": "followwindows150_system_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Down moved exactly one row to PC uptime Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_down_navigation_20261011_1791726519623.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.624Z"
+    },
+    {
+      "id": "followwindows150_system_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Up restored first-row System overview Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_up_navigation_20261011_1791726519624.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.624Z"
+    },
+    {
+      "id": "followwindows150_updates_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 End focused first-row What Nyx found. No OS update action.",
+      "evidence": "screenshots/followwindows150_updates_end_navigation_20261011_1791726582752.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:49:42.753Z"
+    },
+    {
+      "id": "followwindows150_updates_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Home restored first-row Update restart Good Status. No OS update action.",
+      "evidence": "screenshots/followwindows150_updates_home_navigation_20261011_1791726582753.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:49:42.754Z"
+    },
+    {
+      "id": "followwindows150_updates_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Page Down focused final Last successful update Good Status. No OS update action.",
+      "evidence": "screenshots/followwindows150_updates_page_down_navigation_20261011_1791726582754.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:49:42.755Z"
+    },
+    {
+      "id": "followwindows150_updates_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Page Up restored first-row Update restart Good Status. No OS update action.",
+      "evidence": "screenshots/followwindows150_updates_page_up_navigation_20261011_1791726582755.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:49:42.755Z"
+    },
+    {
+      "id": "followwindows150_updates_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Down moved exactly one row to Windows update Good Status. No OS update action.",
+      "evidence": "screenshots/followwindows150_updates_down_navigation_20261011_1791726582755.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:49:42.756Z"
+    },
+    {
+      "id": "followwindows150_updates_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Up restored first-row Update restart Good Status. No OS update action.",
+      "evidence": "screenshots/followwindows150_updates_up_navigation_20261011_1791726582756.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:49:42.757Z"
+    },
+    {
+      "id": "followwindows150_security_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_end_navigation_20261011_1791726873439.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.440Z"
+    },
+    {
+      "id": "followwindows150_security_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_home_navigation_20261011_1791726873440.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.441Z"
+    },
+    {
+      "id": "followwindows150_security_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_page_down_navigation_20261011_1791726873441.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.441Z"
+    },
+    {
+      "id": "followwindows150_security_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_page_up_navigation_20261011_1791726873441.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.442Z"
+    },
+    {
+      "id": "followwindows150_security_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_down_navigation_20261011_1791726873442.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.443Z"
+    },
+    {
+      "id": "followwindows150_security_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_up_navigation_20261011_1791726873443.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.443Z"
     }
   ],
   "evidenceReferences": [
@@ -6906,8 +7066,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "FOLLOWWINDOWS150_STORAGE_F022_NAVIGATION_20261011 completed with exact fresh screenshot records; no full-cell credit.",
-  "nextAction": "Push one reconciled evidence checkpoint, then bounded compliant collector implementation and Hyper-V isolated snapshot preparation; continue independent missing tests.",
+  "lastCompletedAction": "FOLLOWWINDOWS150_SECURITY_NAVIGATION_20261011 completed with exact fresh screenshot records; no full-cell credit.",
+  "nextAction": "Continue missing theme-specific UI predicates; native collection and isolated suites require queued privilege prerequisites.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -6921,7 +7081,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T13:39:56.596Z",
+  "updatedUtc": "2026-10-11T13:54:33.443Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -9685,5 +9845,26 @@
     "additionalCompleteCellsCredited": 0,
     "fullCellReconciliation": "PENDING_EXACT_NATIVE_RAW_REQUIREMENTS",
     "knownInvalidCapturesExcluded": true
+  },
+  "nativeHarness": {
+    "source": "harness/Qa26NativeEvidence.cs",
+    "componentEvidence": "NATIVE_HELPER_EQUIVALENCE_20261011.json",
+    "artifactCopyFilesMatched": 104,
+    "qualifiedForLiveCollection": false,
+    "fixtureIssue": "Internal comparator incorrectly includes newly generated HELPER_PROVENANCE.json",
+    "hypervisorAttempt": "ACCESS_DENIED",
+    "productChanged": false
+  },
+  "latestBatch": {
+    "date": "2026-10-11",
+    "newUiObservations": 20,
+    "additionalCompleteCells": 0,
+    "pages": [
+      "Backup",
+      "System",
+      "Updates",
+      "Security"
+    ],
+    "nativeDpiQualified": false
   }
 }

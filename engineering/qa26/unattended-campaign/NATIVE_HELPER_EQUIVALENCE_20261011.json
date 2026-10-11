@@ -1,0 +1,741 @@
+{
+  "schema": "QA26-NATIVE-HELPER-COPY-EQUIVALENCE-1",
+  "source": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/unattended_collection_20261005_200141",
+  "copy": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/native_fixture_20261011_094324",
+  "status": "PASS_ARTIFACT_COPY_COMPONENT_ONLY",
+  "files": 104,
+  "records": [
+    {
+      "path": "NyxQA26Geometry/geometry_20261003_145933/CONTROL_GEOMETRY.jsonl",
+      "bytes": 471189,
+      "sourceSHA256": "c19e1de3a4fffd4c6435ab23c2caf1aad40f8c0ff09006896e4b36238ebed16c",
+      "copySHA256": "c19e1de3a4fffd4c6435ab23c2caf1aad40f8c0ff09006896e4b36238ebed16c",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_20261003_145933/END.json",
+      "bytes": 332,
+      "sourceSHA256": "7bee1ecebea47daaa36386c292d7f6a5b0f25279efaa8a6911f5c5a07bd34ef3",
+      "copySHA256": "7bee1ecebea47daaa36386c292d7f6a5b0f25279efaa8a6911f5c5a07bd34ef3",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_20261003_145933/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "e4a72ec245759c768b9797ee76a674dae5b2b65e6f0fc194fa82368d2c9f7369",
+      "copySHA256": "e4a72ec245759c768b9797ee76a674dae5b2b65e6f0fc194fa82368d2c9f7369",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_152035/CONTROL_GEOMETRY.jsonl",
+      "bytes": 332680,
+      "sourceSHA256": "7869de56cbc80489b7e41cc4502ddfe70d1e68e9492648aa122b0a0eb566be03",
+      "copySHA256": "7869de56cbc80489b7e41cc4502ddfe70d1e68e9492648aa122b0a0eb566be03",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_152035/END.json",
+      "bytes": 331,
+      "sourceSHA256": "dca3db0c7bfb6b2d152e857ae27ca1e64229f4cf5b6e0a2c2b1c4e7638073e12",
+      "copySHA256": "dca3db0c7bfb6b2d152e857ae27ca1e64229f4cf5b6e0a2c2b1c4e7638073e12",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_152035/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "faa9e30fcc8e8b2f9d942ced03f3b42c31d0a464a6d486bd88751cb67fc94591",
+      "copySHA256": "faa9e30fcc8e8b2f9d942ced03f3b42c31d0a464a6d486bd88751cb67fc94591",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_153309/CONTROL_GEOMETRY.jsonl",
+      "bytes": 444760,
+      "sourceSHA256": "4a40eb72683e23532a340bf404b8adf3c3bd450ed51b6bb85e2acebe1009dc95",
+      "copySHA256": "4a40eb72683e23532a340bf404b8adf3c3bd450ed51b6bb85e2acebe1009dc95",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_153309/END.json",
+      "bytes": 332,
+      "sourceSHA256": "ca7d1d9230880473038c1617dacd839bbfeeb2d079513e86c352a1fd0c2842df",
+      "copySHA256": "ca7d1d9230880473038c1617dacd839bbfeeb2d079513e86c352a1fd0c2842df",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_153309/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "9670a83715887072095cee3d29bc4207d3bfac678e2232146f77870c5cc3b36b",
+      "copySHA256": "9670a83715887072095cee3d29bc4207d3bfac678e2232146f77870c5cc3b36b",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_154517/CONTROL_GEOMETRY.jsonl",
+      "bytes": 556782,
+      "sourceSHA256": "3dd0ad0cb7772deaf0dbc3e319fb1f8844325f45fce809d0fa1e0e989534c748",
+      "copySHA256": "3dd0ad0cb7772deaf0dbc3e319fb1f8844325f45fce809d0fa1e0e989534c748",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_154517/END.json",
+      "bytes": 332,
+      "sourceSHA256": "8ffc9951fff28d567e6f481efa8c55b0730887d30133f078137c400011f1f4cd",
+      "copySHA256": "8ffc9951fff28d567e6f481efa8c55b0730887d30133f078137c400011f1f4cd",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_154517/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "76eab74e7ea143e0bdc446a117474ef799c956ba2fc699ad63c5a3b37a1adc73",
+      "copySHA256": "76eab74e7ea143e0bdc446a117474ef799c956ba2fc699ad63c5a3b37a1adc73",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_155457/CONTROL_GEOMETRY.jsonl",
+      "bytes": 561294,
+      "sourceSHA256": "ff3d28d6ff8c0fd306fe56ecfc84380765dd994ebb60366a7e047015b788c834",
+      "copySHA256": "ff3d28d6ff8c0fd306fe56ecfc84380765dd994ebb60366a7e047015b788c834",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_155457/END.json",
+      "bytes": 332,
+      "sourceSHA256": "c4f2d50b286512fd7903d38e6d39cd9005c6dc6d6383632f80d16fc24f4646ad",
+      "copySHA256": "c4f2d50b286512fd7903d38e6d39cd9005c6dc6d6383632f80d16fc24f4646ad",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_155457/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "5c6211b571ebfa56f69da6ea53401eb718c9dfbba6ca165c918ac95f1e152cf2",
+      "copySHA256": "5c6211b571ebfa56f69da6ea53401eb718c9dfbba6ca165c918ac95f1e152cf2",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_161401/CONTROL_GEOMETRY.jsonl",
+      "bytes": 533367,
+      "sourceSHA256": "7f6330b75a6a61832e38364d6ff26c5a21443f835d0df376f34e13abe656252f",
+      "copySHA256": "7f6330b75a6a61832e38364d6ff26c5a21443f835d0df376f34e13abe656252f",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_161401/END.json",
+      "bytes": 332,
+      "sourceSHA256": "c8c88b210ea0a0bfc90aa989e83471bcd846e36f4e9ef19fdb1ebcc2fffc6cc2",
+      "copySHA256": "c8c88b210ea0a0bfc90aa989e83471bcd846e36f4e9ef19fdb1ebcc2fffc6cc2",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_161401/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "a990245dbe2bbc5fa2d8b909cee5879dfb58d7c1ebcc9104bba54c08ea1c2cf4",
+      "copySHA256": "a990245dbe2bbc5fa2d8b909cee5879dfb58d7c1ebcc9104bba54c08ea1c2cf4",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_162559/CONTROL_GEOMETRY.jsonl",
+      "bytes": 899118,
+      "sourceSHA256": "ac78aeb1c1ad5949847a6a91dddc5757fb2b251547f488318c169047680be157",
+      "copySHA256": "ac78aeb1c1ad5949847a6a91dddc5757fb2b251547f488318c169047680be157",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_162559/END.json",
+      "bytes": 332,
+      "sourceSHA256": "ed336ce56be7a969580a84ccc3b645f26c3f6b13e82804089db334d38b3d0878",
+      "copySHA256": "ed336ce56be7a969580a84ccc3b645f26c3f6b13e82804089db334d38b3d0878",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_162559/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "8b05b220d1a53e988c6a6e5faa767d4e9b434fae9d3e3e8b63e947e31b93d4cb",
+      "copySHA256": "8b05b220d1a53e988c6a6e5faa767d4e9b434fae9d3e3e8b63e947e31b93d4cb",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_163827/CONTROL_GEOMETRY.jsonl",
+      "bytes": 1942514,
+      "sourceSHA256": "6ce3223161f9a29037e3ecbcec334ecc24180f33180d80d7a8f1d83d6113e7fc",
+      "copySHA256": "6ce3223161f9a29037e3ecbcec334ecc24180f33180d80d7a8f1d83d6113e7fc",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_163827/END.json",
+      "bytes": 332,
+      "sourceSHA256": "25aaa07dafd6075979b55a7ff3b65309b31d3c19d89ddc1217b5b4c23ea5e8d1",
+      "copySHA256": "25aaa07dafd6075979b55a7ff3b65309b31d3c19d89ddc1217b5b4c23ea5e8d1",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_163827/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "70e30aead22bd56c60689d87f1ba4e75b37e4a56ebaf4a8d98a954c3dfb8b5c9",
+      "copySHA256": "70e30aead22bd56c60689d87f1ba4e75b37e4a56ebaf4a8d98a954c3dfb8b5c9",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_165911/CONTROL_GEOMETRY.jsonl",
+      "bytes": 42029,
+      "sourceSHA256": "01c487ec9d50f05afad2da65508e64b6fa2327ce5546d7aeb984b624a127834b",
+      "copySHA256": "01c487ec9d50f05afad2da65508e64b6fa2327ce5546d7aeb984b624a127834b",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_165911/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "8ecda80942dda855c76ae8771e5e51ebae401176d227c497d3b252e57db47c57",
+      "copySHA256": "8ecda80942dda855c76ae8771e5e51ebae401176d227c497d3b252e57db47c57",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_170409/CONTROL_GEOMETRY.jsonl",
+      "bytes": 39925,
+      "sourceSHA256": "1b1f70f3c4b7357075a22aa8360dec1b55ed7e684185c5c684f1897973831bb2",
+      "copySHA256": "1b1f70f3c4b7357075a22aa8360dec1b55ed7e684185c5c684f1897973831bb2",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_170409/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "20ba6c3f1a99256a19b3c87b4be21b0c60afe7b74f5503615730e165ffcc99dd",
+      "copySHA256": "20ba6c3f1a99256a19b3c87b4be21b0c60afe7b74f5503615730e165ffcc99dd",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_172248/CONTROL_GEOMETRY.jsonl",
+      "bytes": 39925,
+      "sourceSHA256": "8c80bd3b942d77ce6b2fbf7ebf9f855e5781e49f8ca91fee8ec3ddcd7fe671c8",
+      "copySHA256": "8c80bd3b942d77ce6b2fbf7ebf9f855e5781e49f8ca91fee8ec3ddcd7fe671c8",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_172248/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "b51bb343fd8e2e277738e61075ea12e33aab0592057cd9a73c163625bf900d58",
+      "copySHA256": "b51bb343fd8e2e277738e61075ea12e33aab0592057cd9a73c163625bf900d58",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_191357/CONTROL_GEOMETRY.jsonl",
+      "bytes": 80698,
+      "sourceSHA256": "cb61fb934c1d173fb2ddb4aaeb704c321fcc8f076dac3a45547ae327d8b0d679",
+      "copySHA256": "cb61fb934c1d173fb2ddb4aaeb704c321fcc8f076dac3a45547ae327d8b0d679",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_191357/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "45fcf32060ece0ef0d681064b98a9c9d568ef15a6b8fddf62ecc986d10370a35",
+      "copySHA256": "45fcf32060ece0ef0d681064b98a9c9d568ef15a6b8fddf62ecc986d10370a35",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_192624/CONTROL_GEOMETRY.jsonl",
+      "bytes": 41975,
+      "sourceSHA256": "93dc61cc1a9f401bd941ce3b361d6119d2dcc21fa0030ad31bd13f1bc0517b3f",
+      "copySHA256": "93dc61cc1a9f401bd941ce3b361d6119d2dcc21fa0030ad31bd13f1bc0517b3f",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_192624/END.json",
+      "bytes": 331,
+      "sourceSHA256": "c112316616ff9070a46fe936aaa262993916efb0e018bd629ce864d54a14a453",
+      "copySHA256": "c112316616ff9070a46fe936aaa262993916efb0e018bd629ce864d54a14a453",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_192624/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "af45411c03c22c0de28ced4169c861e4d5178e6e5c1b247ca6559da460fa321d",
+      "copySHA256": "af45411c03c22c0de28ced4169c861e4d5178e6e5c1b247ca6559da460fa321d",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_193646/CONTROL_GEOMETRY.jsonl",
+      "bytes": 42021,
+      "sourceSHA256": "c31872b02b18b41ea99fb51976acb4d737dc989e7e62fda97022a543fd3b9283",
+      "copySHA256": "c31872b02b18b41ea99fb51976acb4d737dc989e7e62fda97022a543fd3b9283",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_193646/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "ff58bc64d6a707c387ebfb96ed38cb2fc040b1626269bff0cad1dee6b2998db0",
+      "copySHA256": "ff58bc64d6a707c387ebfb96ed38cb2fc040b1626269bff0cad1dee6b2998db0",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_194216/CONTROL_GEOMETRY.jsonl",
+      "bytes": 41975,
+      "sourceSHA256": "469c23750c0a46501c8de82ffced771638fdee1d44b95659770b05f123c29581",
+      "copySHA256": "469c23750c0a46501c8de82ffced771638fdee1d44b95659770b05f123c29581",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_194216/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "575f081592aec41a2d2840dbbd6e14ea8af09f8937ae3a4ad1233761f1a304d5",
+      "copySHA256": "575f081592aec41a2d2840dbbd6e14ea8af09f8937ae3a4ad1233761f1a304d5",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_194910/CONTROL_GEOMETRY.jsonl",
+      "bytes": 41975,
+      "sourceSHA256": "81f2f77a74b1f4bf76d105d04bf9a61bd5a2bca2334948c4ac0bbd1636191189",
+      "copySHA256": "81f2f77a74b1f4bf76d105d04bf9a61bd5a2bca2334948c4ac0bbd1636191189",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_194910/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "4311b14cdc624d0ccdac8d5b299b0ee4dd8eda0074aaeee9b166dc71e0d31f3c",
+      "copySHA256": "4311b14cdc624d0ccdac8d5b299b0ee4dd8eda0074aaeee9b166dc71e0d31f3c",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_195657/CONTROL_GEOMETRY.jsonl",
+      "bytes": 41975,
+      "sourceSHA256": "def3303c40a50858677635daddead82c59739f789f5486c1314079f583f65236",
+      "copySHA256": "def3303c40a50858677635daddead82c59739f789f5486c1314079f583f65236",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_195657/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "d14f56b373fa2dfbe2daa4ae711f260c924dc6eed6d40352c42ca12f4810d494",
+      "copySHA256": "d14f56b373fa2dfbe2daa4ae711f260c924dc6eed6d40352c42ca12f4810d494",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_201429/CONTROL_GEOMETRY.jsonl",
+      "bytes": 39943,
+      "sourceSHA256": "00501341a56530be0035895fe19000ba5c76072e2efd37a45bb80f70b07d407d",
+      "copySHA256": "00501341a56530be0035895fe19000ba5c76072e2efd37a45bb80f70b07d407d",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_201429/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "ef1770b12cadee8829bffd265fbe6e81c43572e7abdd2c861403824420b633ca",
+      "copySHA256": "ef1770b12cadee8829bffd265fbe6e81c43572e7abdd2c861403824420b633ca",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_202532/CONTROL_GEOMETRY.jsonl",
+      "bytes": 39943,
+      "sourceSHA256": "3ed169b187fb9070d25837acb0a1d08163471d44ceef27a425cf91b2d68978e1",
+      "copySHA256": "3ed169b187fb9070d25837acb0a1d08163471d44ceef27a425cf91b2d68978e1",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_202532/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "1aa9a2c53485da56496f0be93e6fa6f5ba96710456686aff9f8136302fc011a0",
+      "copySHA256": "1aa9a2c53485da56496f0be93e6fa6f5ba96710456686aff9f8136302fc011a0",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_203005/CONTROL_GEOMETRY.jsonl",
+      "bytes": 243993,
+      "sourceSHA256": "def9e866a6c3f656da669b9080d0e4464efc57e7545197e70459e43ff229f36d",
+      "copySHA256": "def9e866a6c3f656da669b9080d0e4464efc57e7545197e70459e43ff229f36d",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_203005/END.json",
+      "bytes": 331,
+      "sourceSHA256": "37074028b97b7b7c81f60da8e00a977e83107fda8961d4185a2fa7d6a9fe1a56",
+      "copySHA256": "37074028b97b7b7c81f60da8e00a977e83107fda8961d4185a2fa7d6a9fe1a56",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_203005/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "854f85fc149d890b1d50851f53e02d2302ba98d624016b6e9832220a243fb2c5",
+      "copySHA256": "854f85fc149d890b1d50851f53e02d2302ba98d624016b6e9832220a243fb2c5",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_204638/CONTROL_GEOMETRY.jsonl",
+      "bytes": 222485,
+      "sourceSHA256": "5426132c0d05e7459fba0704f51ea752f73511dea3012b686a3817a22358f6c8",
+      "copySHA256": "5426132c0d05e7459fba0704f51ea752f73511dea3012b686a3817a22358f6c8",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_204638/END.json",
+      "bytes": 331,
+      "sourceSHA256": "e8a5e30e6455a1f1b6b6491016ba06cd4b92c7f5b8e9401e13039a12d350fcef",
+      "copySHA256": "e8a5e30e6455a1f1b6b6491016ba06cd4b92c7f5b8e9401e13039a12d350fcef",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261003_204638/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "742d74a67a5bf7ea7420572d5caed8e08eae9e052cb9e71ad54b9f74fd25acd3",
+      "copySHA256": "742d74a67a5bf7ea7420572d5caed8e08eae9e052cb9e71ad54b9f74fd25acd3",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_135249/CONTROL_GEOMETRY.jsonl",
+      "bytes": 2575605,
+      "sourceSHA256": "fcb35062456bb59bcf4ee0565d13037e79b06a2f5427fc8cbee03df47d52da9a",
+      "copySHA256": "fcb35062456bb59bcf4ee0565d13037e79b06a2f5427fc8cbee03df47d52da9a",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_135249/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "920863563691b5552c2c0446efcffd0b5c678fd8540888e3c5f255de4e746fcd",
+      "copySHA256": "920863563691b5552c2c0446efcffd0b5c678fd8540888e3c5f255de4e746fcd",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_160048/CONTROL_GEOMETRY.jsonl",
+      "bytes": 809188,
+      "sourceSHA256": "61e967d0a10f7056bd4002735d772c0ced9fa9fc3225d9c8b076436ea931ce7d",
+      "copySHA256": "61e967d0a10f7056bd4002735d772c0ced9fa9fc3225d9c8b076436ea931ce7d",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_160048/END.json",
+      "bytes": 332,
+      "sourceSHA256": "e09baef6c685af24c2693673f9bad5b3536ce7fc7e6bf30487cf0a7ac05d3b79",
+      "copySHA256": "e09baef6c685af24c2693673f9bad5b3536ce7fc7e6bf30487cf0a7ac05d3b79",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_160048/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "c378b9602783288ba7dfa73fc7fa59dcb4d4a6f06dae2bb465fbf1371ca866d2",
+      "copySHA256": "c378b9602783288ba7dfa73fc7fa59dcb4d4a6f06dae2bb465fbf1371ca866d2",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_202107/CONTROL_GEOMETRY.jsonl",
+      "bytes": 387769,
+      "sourceSHA256": "69ab71e2ef6142eb17bad3eedd7348b0be215f49d16c6ca5cb526f6eb8eeb79d",
+      "copySHA256": "69ab71e2ef6142eb17bad3eedd7348b0be215f49d16c6ca5cb526f6eb8eeb79d",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_202107/END.json",
+      "bytes": 332,
+      "sourceSHA256": "dd2de5d2f178de920b06a52ebd7f84f0b74f7f04e75e1372b22b8086340558b5",
+      "copySHA256": "dd2de5d2f178de920b06a52ebd7f84f0b74f7f04e75e1372b22b8086340558b5",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_202107/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "48322b239ecc8582721ef2968025b18a23dae1d6c4b0b4c46cc098d7e3a50fb3",
+      "copySHA256": "48322b239ecc8582721ef2968025b18a23dae1d6c4b0b4c46cc098d7e3a50fb3",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_203812/CONTROL_GEOMETRY.jsonl",
+      "bytes": 6319458,
+      "sourceSHA256": "08b56c5a0a34f3b05394948f44245eff1a1859fb2db180b85f8684a97d250617",
+      "copySHA256": "08b56c5a0a34f3b05394948f44245eff1a1859fb2db180b85f8684a97d250617",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_203812/END.json",
+      "bytes": 333,
+      "sourceSHA256": "d7ca58ed02804ef271e638621fba1017a2da93510b323d57dc1cb0241f34f6a8",
+      "copySHA256": "d7ca58ed02804ef271e638621fba1017a2da93510b323d57dc1cb0241f34f6a8",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26Geometry/geometry_v2_20261004_203812/INSTALLED_HASHES.json",
+      "bytes": 10766,
+      "sourceSHA256": "27fc828194aa12629e73ab6b5c90407bd17f97da9e915f994a0504c9a504bfe2",
+      "copySHA256": "27fc828194aa12629e73ab6b5c90407bd17f97da9e915f994a0504c9a504bfe2",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_125738/EVENTS.jsonl",
+      "bytes": 67498,
+      "sourceSHA256": "9a68b22a7795cbfc7530845e889c13312b65d826bf0210443a0130041cfe0405",
+      "copySHA256": "9a68b22a7795cbfc7530845e889c13312b65d826bf0210443a0130041cfe0405",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_125738/SCAN_001_RAW.json",
+      "bytes": 57278,
+      "sourceSHA256": "61352ce956622889970609d8100e3b25a2cc3d7a6f03ff1de2f52e7fe7ffeab6",
+      "copySHA256": "61352ce956622889970609d8100e3b25a2cc3d7a6f03ff1de2f52e7fe7ffeab6",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_133911/EVENTS.jsonl",
+      "bytes": 103860,
+      "sourceSHA256": "402ba44be6d5c0be93fa4b5138b282136bb63721952b8fcf288d93fc894b9d27",
+      "copySHA256": "402ba44be6d5c0be93fa4b5138b282136bb63721952b8fcf288d93fc894b9d27",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_133911/SCAN_001_RAW.json",
+      "bytes": 57278,
+      "sourceSHA256": "90b7396b281b544f216edb451253947ad46eb7202c155f75501775d2943a89ae",
+      "copySHA256": "90b7396b281b544f216edb451253947ad46eb7202c155f75501775d2943a89ae",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_133911/SCAN_002_RAW.json",
+      "bytes": 275102,
+      "sourceSHA256": "6ac1da635a0be7385726edf76f37ba8f0616fbbc720c5bc2f085bbcbb69a2e04",
+      "copySHA256": "6ac1da635a0be7385726edf76f37ba8f0616fbbc720c5bc2f085bbcbb69a2e04",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_134657/EVENTS.jsonl",
+      "bytes": 536746,
+      "sourceSHA256": "13cb69cc00198d4ac54378162a90c28506b794bf2e2535e9bfb6b533ce4a812a",
+      "copySHA256": "13cb69cc00198d4ac54378162a90c28506b794bf2e2535e9bfb6b533ce4a812a",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_134657/SCAN_001_RAW.json",
+      "bytes": 54032,
+      "sourceSHA256": "2bcf0c78791ab9d367d0ed1728b5beb4755a53b33a7a0202d10b9bb0f05d2b76",
+      "copySHA256": "2bcf0c78791ab9d367d0ed1728b5beb4755a53b33a7a0202d10b9bb0f05d2b76",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_134657/SCAN_002_RAW.json",
+      "bytes": 271816,
+      "sourceSHA256": "73dcb99728212492b670f972d4c7a818829ec683067e6699a986f1d17c4ca271",
+      "copySHA256": "73dcb99728212492b670f972d4c7a818829ec683067e6699a986f1d17c4ca271",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_134657/SCAN_003_RAW.json",
+      "bytes": 54032,
+      "sourceSHA256": "14a917201ea485956c3c3db3d319329dbc3e04a27eb35c88327091b9658d6644",
+      "copySHA256": "14a917201ea485956c3c3db3d319329dbc3e04a27eb35c88327091b9658d6644",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_134657/SCAN_004_RAW.json",
+      "bytes": 54036,
+      "sourceSHA256": "18604e722de487188904ed3915edeb01c5d393ceeac6ba4ac8f32b6f70f4deb4",
+      "copySHA256": "18604e722de487188904ed3915edeb01c5d393ceeac6ba4ac8f32b6f70f4deb4",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserver/20261004_134657/SCAN_005_RAW.json",
+      "bytes": 271862,
+      "sourceSHA256": "24d572c942c27c31a0ce9a9c732f39707b5aae9332fad334637c82b28692594f",
+      "copySHA256": "24d572c942c27c31a0ce9a9c732f39707b5aae9332fad334637c82b28692594f",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_153948/EVENTS.jsonl",
+      "bytes": 580608,
+      "sourceSHA256": "c7c2213ff6f411024d314b23f562e2ecfcfe08d9786e79776443e26015c71c98",
+      "copySHA256": "c7c2213ff6f411024d314b23f562e2ecfcfe08d9786e79776443e26015c71c98",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_153948/SCAN_001_RAW.json",
+      "bytes": 57294,
+      "sourceSHA256": "2192546e471aa6afe8efac1f32df9e384cdb38d10206a1a1e9cac115983a290f",
+      "copySHA256": "2192546e471aa6afe8efac1f32df9e384cdb38d10206a1a1e9cac115983a290f",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_153948/SCAN_002_RAW.json",
+      "bytes": 294972,
+      "sourceSHA256": "f00fc64ad1e433074f5cd6a0ba4375ab8cea37586941f093bbddb8f38d412014",
+      "copySHA256": "f00fc64ad1e433074f5cd6a0ba4375ab8cea37586941f093bbddb8f38d412014",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_153948/SCAN_003_RAW.json",
+      "bytes": 57296,
+      "sourceSHA256": "6f53b37f2637a274e4d1b1b289bc198797be33092fcd2329c1fe0754ee2382ed",
+      "copySHA256": "6f53b37f2637a274e4d1b1b289bc198797be33092fcd2329c1fe0754ee2382ed",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_153948/SCAN_004_RAW.json",
+      "bytes": 294958,
+      "sourceSHA256": "b4bf62494535276410495c7fe429f5d77a4f20f9e3d53361f67d2afae14faf90",
+      "copySHA256": "b4bf62494535276410495c7fe429f5d77a4f20f9e3d53361f67d2afae14faf90",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_153948/STARTUP_PROVENANCE.json",
+      "bytes": 1263,
+      "sourceSHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "copySHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_154449/EVENTS.jsonl",
+      "bytes": 1731536,
+      "sourceSHA256": "e8ae12af8f80328d07dcb08dbb7956e330723911c8a8f82dae5a46886d827561",
+      "copySHA256": "e8ae12af8f80328d07dcb08dbb7956e330723911c8a8f82dae5a46886d827561",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_154449/STARTUP_PROVENANCE.json",
+      "bytes": 1263,
+      "sourceSHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "copySHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_201440/EVENTS.jsonl",
+      "bytes": 864038,
+      "sourceSHA256": "8c3fff42a29039704e9a2c2b3b49ec6b31e402b71ba396438df35a50d70f6b21",
+      "copySHA256": "8c3fff42a29039704e9a2c2b3b49ec6b31e402b71ba396438df35a50d70f6b21",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_201440/STARTUP_PROVENANCE.json",
+      "bytes": 1263,
+      "sourceSHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "copySHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_203343/EVENTS.jsonl",
+      "bytes": 1173284,
+      "sourceSHA256": "1ef53965c7f8294b047c72311d11b9b12e5543a28dbc4b48fcd5a0718c2fc732",
+      "copySHA256": "1ef53965c7f8294b047c72311d11b9b12e5543a28dbc4b48fcd5a0718c2fc732",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_203343/SCAN_001_RAW.json",
+      "bytes": 54050,
+      "sourceSHA256": "8837bb65cd4f02d705c712aaf70f9efff00925220426239c6f563c1d993d24b7",
+      "copySHA256": "8837bb65cd4f02d705c712aaf70f9efff00925220426239c6f563c1d993d24b7",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261004_203343/STARTUP_PROVENANCE.json",
+      "bytes": 1263,
+      "sourceSHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "copySHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_190658/EVENTS.jsonl",
+      "bytes": 16268,
+      "sourceSHA256": "0d5cbf886e0d235b2c70dd8df7406d92005dd65d619d10e2494f19fa8fcdf96a",
+      "copySHA256": "0d5cbf886e0d235b2c70dd8df7406d92005dd65d619d10e2494f19fa8fcdf96a",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_190658/STARTUP_PROVENANCE.json",
+      "bytes": 1263,
+      "sourceSHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "copySHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_190742/EVENTS.jsonl",
+      "bytes": 2584106,
+      "sourceSHA256": "9bd1624ff37cd9d9815ab7563672a87d32a01f9b1671302e1e6efdb0ba006362",
+      "copySHA256": "9bd1624ff37cd9d9815ab7563672a87d32a01f9b1671302e1e6efdb0ba006362",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_190742/SCAN_001_RAW.json",
+      "bytes": 57294,
+      "sourceSHA256": "4b7f84026b2cdcdba0a9c33cc09aa829d0edbdbd9cd0e64a626daf8742dd0386",
+      "copySHA256": "4b7f84026b2cdcdba0a9c33cc09aa829d0edbdbd9cd0e64a626daf8742dd0386",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_190742/SCAN_002_RAW.json",
+      "bytes": 64095,
+      "sourceSHA256": "8c8d00ebd254474f2691b56cffba1e3aadf6d1bc6e8e7890373272f0470e0073",
+      "copySHA256": "8c8d00ebd254474f2691b56cffba1e3aadf6d1bc6e8e7890373272f0470e0073",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_190742/SCAN_003_RAW.json",
+      "bytes": 387675,
+      "sourceSHA256": "a8246d4a37b83f7d97fc6e8073d557f2efea8ee2f8459d70c8cadb60536d6b64",
+      "copySHA256": "a8246d4a37b83f7d97fc6e8073d557f2efea8ee2f8459d70c8cadb60536d6b64",
+      "equal": true
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_190742/STARTUP_PROVENANCE.json",
+      "bytes": 1263,
+      "sourceSHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "copySHA256": "e1d138ad2f317ffea2b12931487a8e4f14c398ea02acf7109dbec33dd273c50b",
+      "equal": true
+    },
+    {
+      "path": "scans/last-scan.json",
+      "bytes": 57299,
+      "sourceSHA256": "940777d269781d25b9660b6f1f256d87182de486b65c51d37c86d15ab1bd5c01",
+      "copySHA256": "940777d269781d25b9660b6f1f256d87182de486b65c51d37c86d15ab1bd5c01",
+      "equal": true
+    },
+    {
+      "path": "reports/cancelledfull125-20261005-1916.json",
+      "bytes": 64095,
+      "sourceSHA256": "8c8d00ebd254474f2691b56cffba1e3aadf6d1bc6e8e7890373272f0470e0073",
+      "copySHA256": "8c8d00ebd254474f2691b56cffba1e3aadf6d1bc6e8e7890373272f0470e0073",
+      "equal": true
+    },
+    {
+      "path": "reports/full125.json",
+      "bytes": 37602,
+      "sourceSHA256": "6f1f7ce2d20d885c60ff160789c97f2597bf29cbbbad878c08e623c9e8ba3b6c",
+      "copySHA256": "6f1f7ce2d20d885c60ff160789c97f2597bf29cbbbad878c08e623c9e8ba3b6c",
+      "equal": true
+    },
+    {
+      "path": "reports/fulldark100.json",
+      "bytes": 309314,
+      "sourceSHA256": "70d0d4b6b037da168e2e3d43670372833c9e7cbaf8595f64ad9bc76dce340d16",
+      "copySHA256": "70d0d4b6b037da168e2e3d43670372833c9e7cbaf8595f64ad9bc76dce340d16",
+      "equal": true
+    },
+    {
+      "path": "reports/fulldark125-storage-20261005-1931.json",
+      "bytes": 387675,
+      "sourceSHA256": "a8246d4a37b83f7d97fc6e8073d557f2efea8ee2f8459d70c8cadb60536d6b64",
+      "copySHA256": "a8246d4a37b83f7d97fc6e8073d557f2efea8ee2f8459d70c8cadb60536d6b64",
+      "equal": true
+    },
+    {
+      "path": "reports/quick125.json",
+      "bytes": 19997,
+      "sourceSHA256": "32aa16a8c8ca433b38d55b3aeaaa12199b64fe2a6056d3a85513a8004964478c",
+      "copySHA256": "32aa16a8c8ca433b38d55b3aeaaa12199b64fe2a6056d3a85513a8004964478c",
+      "equal": true
+    },
+    {
+      "path": "reports/quickdark100.json",
+      "bytes": 54050,
+      "sourceSHA256": "007b4f9a9c9a4fde697e6b2686f57e53b142cc49ae8e9888ce1c96b670562043",
+      "copySHA256": "007b4f9a9c9a4fde697e6b2686f57e53b142cc49ae8e9888ce1c96b670562043",
+      "equal": true
+    },
+    {
+      "path": "reports/quickdark125transition.json",
+      "bytes": 19997,
+      "sourceSHA256": "9ce03eb0d373de645ada9d3737545c4f576d5e33e5fa09af62f991cd47e35dce",
+      "copySHA256": "9ce03eb0d373de645ada9d3737545c4f576d5e33e5fa09af62f991cd47e35dce",
+      "equal": true
+    },
+    {
+      "path": "logs/nyx-pc-checkup.log",
+      "bytes": 21046,
+      "sourceSHA256": "2632365d1b90809eac12c91fdd171ccb7c2cff50f9ab7a10072e691c62827c35",
+      "copySHA256": "2632365d1b90809eac12c91fdd171ccb7c2cff50f9ab7a10072e691c62827c35",
+      "equal": true
+    }
+  ],
+  "internalFixtureRunner": "FAILED_PROVENANCE_COMPARISON_BUG",
+  "hypervisorRoute": "ACCESS_DENIED_CURRENT_TOKEN",
+  "newGuestCollection": false,
+  "newNativeDpiCredit": false
+}

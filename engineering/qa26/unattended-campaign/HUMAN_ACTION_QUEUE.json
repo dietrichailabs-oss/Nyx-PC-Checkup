@@ -33,7 +33,11 @@
       "id": "FW125_SECURITY_OS_REDIRECT",
       "status": "BLOCKED_HUMAN",
       "reason": "Opening/manipulating the Windows Security application is not automated; Nyx read-only findings and primary action focus are verified.",
-      "nextAction": "Human verifies safe Windows Security redirect only, without changing protection settings."
+      "nextAction": "Human verifies safe Windows Security redirect only, without changing protection settings.",
+      "action": "Human verifies safe Windows Security redirect only, without changing protection settings.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
     },
     {
       "id": "COLLECT_125_AUTHORITATIVE_UAC",
@@ -71,13 +75,21 @@
       "id": "COLLECT_TARGETED_AND_LIGHT125_RAW",
       "status": "BLOCKED_HUMAN",
       "reason": "Original targeted transition/cancellation and latest Light125 Quick records require existing read-only collector with actual host UAC approval and subsequent guest login.",
-      "nextAction": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes."
+      "nextAction": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes.",
+      "action": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes.",
+      "expectedPrompt": "Normal host UAC for the qualified read-only evidence collector",
+      "minimumInput": "Approve the exact collector UAC prompt, then sign into Nyx after normal restart",
+      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans"
     },
     {
       "id": "LIGHT125_SECURITY_OS_REDIRECT",
       "status": "BLOCKED_HUMAN",
       "reason": "Windows Security cannot be automated; Nyx read-only findings and keyboard primary focus recorded.",
-      "nextAction": "Grouped human session opens destination for screenshot, closes without protection changes."
+      "nextAction": "Grouped human session opens destination for screenshot, closes without protection changes.",
+      "action": "Grouped human session opens destination for screenshot, closes without protection changes.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
     },
     {
       "id": "REMAINING_DPI_SESSION_LOGINS",
@@ -85,7 +97,11 @@
       "reason": "Native 150% and 200% applied-DPI sessions require normal Windows sign-out/sign-in; authentication is not automated.",
       "nextAction": "Grouped attended session: sign in as Nyx after each authorized DPI transition; persist state and verify actual DPI before crediting cells.",
       "affectedTest": "Remaining strict150 and best-effort200 matrix",
-      "queuedUtc": "2026-10-06T15:55:31.346Z"
+      "queuedUtc": "2026-10-06T15:55:31.346Z",
+      "action": "Grouped attended session: sign in as Nyx after each authorized DPI transition; persist state and verify actual DPI before crediting cells.",
+      "expectedPrompt": "Normal Windows sign-in screen after the planned DPI transition",
+      "minimumInput": "Sign in normally as Nyx; do not share credentials",
+      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans"
     },
     {
       "id": "HOST_NOTIFICATION_OVERLAYS",
@@ -98,13 +114,21 @@
       "id": "LIGHT150_SECURITY_OS_REDIRECT",
       "status": "BLOCKED_HUMAN",
       "reason": "Windows Security app is human-only; native Nyx readonly findings tested.",
-      "nextAction": "Group with end-of-campaign human checks; no protection-setting changes."
+      "nextAction": "Group with end-of-campaign human checks; no protection-setting changes.",
+      "action": "Group with end-of-campaign human checks; no protection-setting changes.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
     },
     {
       "id": "FW150_SECURITY_OS_REDIRECT",
       "status": "BLOCKED_HUMAN",
       "reason": "Windows Security interaction is human-only; no automated protection changes.",
-      "nextAction": "Grouped end session checks safe redirect and captures destination without modifying protection."
+      "nextAction": "Grouped end session checks safe redirect and captures destination without modifying protection.",
+      "action": "Grouped end session checks safe redirect and captures destination without modifying protection.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
     },
     {
       "id": "DARK150_SECURITY_WINDOW_CLOSE",
@@ -135,7 +159,11 @@
       "id": "COLLECT_LIGHT150_SEPARATE_FULL_RAW",
       "status": "BLOCKED_HUMAN",
       "reason": "Separate new Full finished UI; actual contract and worker cleanup require end-of-campaign read-only collector/UAC. Recover prior observer records separately; do not replace original evidence.",
-      "queuedUtc": "2026-10-08T23:08:02.291Z"
+      "queuedUtc": "2026-10-08T23:08:02.291Z",
+      "action": "Approve the grouped read-only collection after the native helper is qualified.",
+      "expectedPrompt": "Normal host UAC for the qualified read-only evidence collector",
+      "minimumInput": "Approve the exact collector UAC prompt, then sign into Nyx after normal restart",
+      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans"
     },
     {
       "id": "FOLLOWWINDOWS150_LOCALFOLDER_CLOSE_20261008",
@@ -148,16 +176,26 @@
     },
     {
       "id": "COLLECTOR_EXECUTION_POLICY_20261011",
-      "status": "HARNESS_ROUTE_REMEDIATION_IN_PROGRESS",
+      "status": "HARNESS_COMPONENT_CHECKED_NOT_QUALIFIED",
       "reason": "Elevated diagnostic wrapper confirms existing collector file rejected by PowerShell execution policy: running scripts disabled. No new collection folder; no collection credit; policy not bypassed or changed.",
-      "nextAction": "Human supplies policy-approved execution route or signed/approved collector. Then normal collector restart/manual login and exact raw/native validation.",
+      "nextAction": "Await permission to correct the disclosed helper bug, then rerun only the bounded harness fixture self-check.",
       "evidence": "qa26_vm_automation/COLLECTOR_LAUNCH_20261011.txt",
       "queuedUtc": "2026-10-11T13:34:26.185Z",
-      "action": "No owner input requested while compliant Python/.NET/native evidence routes are evaluated.",
+      "action": "Repair internal fixture provenance comparison before qualifying live native collection; no PowerShell policy change.",
       "automationReason": "PowerShell script policy blocks existing .ps1; alternate harness route not exhausted.",
-      "expectedPrompt": "None until an actually unavoidable secure-desktop action is established",
-      "minimumInput": "None currently",
-      "automaticResume": "Read-only collector equivalence and raw/native validation, independent suites continue."
+      "expectedPrompt": "No Windows prompt for fixture repair; separate normal UAC only for privileged Hyper-V operations",
+      "minimumInput": "Authorize correction of the disclosed harness bug",
+      "automaticResume": "Qualify helper fixture, preserve VM checkpoint and collect historical evidence read-only; isolated suites remain NOT_RUN until safe snapshots exist."
+    },
+    {
+      "id": "HYPERV_NATIVE_INFRASTRUCTURE_UAC_20261011",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Native WMI inventory and actual full-checkpoint creation both returned Access is denied; no snapshot was created.",
+      "action": "After helper qualification, approve the exact native helper through normal host UAC for preservation checkpoint and read-only evidence collection.",
+      "expectedPrompt": "Normal host UAC for Qa26NativeEvidence.exe; never a credential bypass",
+      "minimumInput": "Approve that exact prompt; sign into guest normally if restarted",
+      "automaticResume": "Record preservation checkpoint identity, collect historical raw and native observer evidence, and automate isolated-fixture preparation if the elevated hypervisor interface permits.",
+      "cleanSnapshotCredit": false
     }
   ]
 }

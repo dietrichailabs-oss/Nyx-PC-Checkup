@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_system_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 End focused first-row What Nyx found. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_end_navigation_20261011_1791726519620.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.621Z"
+    },
+    {
+      "id": "followwindows150_system_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Home restored first-row Status Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_home_navigation_20261011_1791726519621.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.622Z"
+    },
+    {
+      "id": "followwindows150_system_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Page Down focused final Performance Good Status cell. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_page_down_navigation_20261011_1791726519622.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.623Z"
+    },
+    {
+      "id": "followwindows150_system_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Page Up restored first-row System overview Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_page_up_navigation_20261011_1791726519623.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.623Z"
+    },
+    {
+      "id": "followwindows150_system_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Down moved exactly one row to PC uptime Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_down_navigation_20261011_1791726519623.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.624Z"
+    },
+    {
+      "id": "followwindows150_system_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Cross-grid F020/F022 Up restored first-row System overview Good. No dialog/redirect activation.",
+      "evidence": "screenshots/followwindows150_system_up_navigation_20261011_1791726519624.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:48:39.624Z"
+    }
+  ],
+  "fullCellCredit": false
+}

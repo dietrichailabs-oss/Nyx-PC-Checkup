@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "followwindows150_security_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_end_navigation_20261011_1791726873439.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.440Z"
+    },
+    {
+      "id": "followwindows150_security_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_home_navigation_20261011_1791726873440.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.441Z"
+    },
+    {
+      "id": "followwindows150_security_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_page_down_navigation_20261011_1791726873441.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.441Z"
+    },
+    {
+      "id": "followwindows150_security_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_page_up_navigation_20261011_1791726873441.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.442Z"
+    },
+    {
+      "id": "followwindows150_security_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_down_navigation_20261011_1791726873442.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.443Z"
+    },
+    {
+      "id": "followwindows150_security_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed keyboard navigation inside Nyx Security grid; no Windows Security interaction and no full-cell credit.",
+      "evidence": "screenshots/followwindows150_security_up_navigation_20261011_1791726873443.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T13:54:33.443Z"
+    }
+  ],
+  "fullCellCredit": false
+}
