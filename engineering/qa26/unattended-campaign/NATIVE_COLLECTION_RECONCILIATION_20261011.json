@@ -1,0 +1,358 @@
+{
+  "frozenBuild": "2026.10.02-eng-qa26",
+  "payloadManifest": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+  "frozenPayloadComparison": [
+    {
+      "Path": "LICENSE.txt",
+      "matched": true
+    },
+    {
+      "Path": "Nyx PC Checkup.exe",
+      "matched": true
+    },
+    {
+      "Path": "PAYLOAD_MANIFEST.json",
+      "matched": true
+    },
+    {
+      "Path": "README_FIRST.md",
+      "matched": true
+    },
+    {
+      "Path": "SBOM.json",
+      "matched": true
+    },
+    {
+      "Path": "THIRD_PARTY_NOTICES.txt",
+      "matched": true
+    },
+    {
+      "Path": "Uninstall Nyx PC Checkup.exe",
+      "matched": true
+    },
+    {
+      "Path": "VERSION.json",
+      "matched": true
+    },
+    {
+      "Path": "app/NyxPCCheckup.ps1",
+      "matched": true
+    },
+    {
+      "Path": "app/actions/CleanupActions.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/actions/StartupActions.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/assets/brand_banner.png",
+      "matched": true
+    },
+    {
+      "Path": "app/assets/nyx_pc_checkup.ico",
+      "matched": true
+    },
+    {
+      "Path": "app/assets/nyx_pc_checkup.png",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/BackupStatus.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/BatteryHealth.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/CleanupScan.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/DownloadsAnalysis.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/DriveHealth.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/InstalledApps.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/NetworkBasics.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/PerformanceSnapshot.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/SecurityStatus.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/StartupApps.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/StorageHealth.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/StorageScan.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/SystemInfo.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/Uptime.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/checks/WindowsUpdates.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/config/defaults.json",
+      "matched": true
+    },
+    {
+      "Path": "app/core/ActionHistory.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/core/CheckupEngine.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/core/Configuration.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/core/Diagnostics.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/core/Models.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/core/Paths.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/core/Privacy.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/core/RuntimeComposition.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/health_rules/HealthRules.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/health_rules/rules.json",
+      "matched": true
+    },
+    {
+      "Path": "app/platform/windows/WindowsHelpers.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/reports/PdfWriter.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/reports/ReportExport.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/ui/Controls.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/ui/Dialogs.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/ui/MainWindow.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/ui/Theme.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/updates/Manifest.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/updates/Preferences.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/updates/UpdateChecker.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/updates/Versioning.psm1",
+      "matched": true
+    },
+    {
+      "Path": "app/workers/ActionWorker.ps1",
+      "matched": true
+    },
+    {
+      "Path": "app/workers/InstallWorker.ps1",
+      "matched": true
+    },
+    {
+      "Path": "app/workers/ScanWorker.ps1",
+      "matched": true
+    },
+    {
+      "Path": "app/workers/UninstallWorker.ps1",
+      "matched": true
+    },
+    {
+      "Path": "app/workers/UpdateCheckWorker.ps1",
+      "matched": true
+    },
+    {
+      "Path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "matched": true
+    },
+    {
+      "Path": "docs/KNOWN_LIMITATIONS.md",
+      "matched": true
+    },
+    {
+      "Path": "docs/PRIVACY_AND_SECURITY.md",
+      "matched": true
+    },
+    {
+      "Path": "docs/USER_GUIDE.md",
+      "matched": true
+    }
+  ],
+  "installStateMetadataChanged": true,
+  "geometry": {
+    "source": "NyxQA26Geometry/geometry_v2_20261011_100343/CONTROL_GEOMETRY.jsonl",
+    "firstUtc": "2026-10-11T14:03:46.1645565Z",
+    "lastUtc": "2026-10-11T14:05:44.3805242Z",
+    "dpiValues": [
+      144
+    ],
+    "scope": "Dark relaunch and Startup batch only; not retroactive prior sessions"
+  },
+  "contracts": [
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_200212/SCAN_001_RAW.json",
+      "Result": "PASS",
+      "SHA256": "e1a024fb9fd36fe39a57c49f234bb8ad5a2f95cacc1220da4359b2523f2314f6",
+      "ObserverHashMatched": true,
+      "Mode": "Quick",
+      "Cancelled": false,
+      "StartedUtc": "2026-10-06T00:06:10.1360144Z",
+      "CompletedUtc": "2026-10-06T00:06:27.3764313Z",
+      "ResultsValidated": 15,
+      "Errors": [],
+      "Scope": "Recorded scan wrapper, result shape and summary only; not complete UI/live cleanup/suite acceptance",
+      "ExpectedModeCancellationSource": "Exact preserved observer capture"
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_200212/SCAN_002_RAW.json",
+      "Result": "PASS",
+      "SHA256": "528e5ea700f9282c8b1f9e246aca19b322db4726e1bdd3ceda66f494c6e89feb",
+      "ObserverHashMatched": true,
+      "Mode": "Full",
+      "Cancelled": false,
+      "StartedUtc": "2026-10-06T00:06:39.5205667Z",
+      "CompletedUtc": "2026-10-06T00:07:23.8001003Z",
+      "ResultsValidated": 21,
+      "Errors": [],
+      "Scope": "Recorded scan wrapper, result shape and summary only; not complete UI/live cleanup/suite acceptance",
+      "ExpectedModeCancellationSource": "Exact preserved observer capture"
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_200212/SCAN_003_RAW.json",
+      "Result": "PASS",
+      "SHA256": "c50ab8fac2349b03680faff81a2adcc78e9fe0aabafea2c0a094bf836b3402a0",
+      "ObserverHashMatched": true,
+      "Mode": "Quick",
+      "Cancelled": false,
+      "StartedUtc": "2026-10-06T00:07:39.6507546Z",
+      "CompletedUtc": "2026-10-06T00:07:49.3482444Z",
+      "ResultsValidated": 15,
+      "Errors": [],
+      "Scope": "Recorded scan wrapper, result shape and summary only; not complete UI/live cleanup/suite acceptance",
+      "ExpectedModeCancellationSource": "Exact preserved observer capture"
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_200212/SCAN_004_RAW.json",
+      "Result": "PASS",
+      "SHA256": "663e87387238eb891f69bef605bc9805462e74596acb864f43a8d313b62bf463",
+      "ObserverHashMatched": true,
+      "Mode": "Quick",
+      "Cancelled": true,
+      "StartedUtc": "2026-10-06T00:08:25.5268440Z",
+      "CompletedUtc": "2026-10-06T00:08:34.0957782Z",
+      "ResultsValidated": 13,
+      "Errors": [],
+      "Scope": "Recorded scan wrapper, result shape and summary only; not complete UI/live cleanup/suite acceptance",
+      "ExpectedModeCancellationSource": "Exact preserved observer capture"
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_200212/SCAN_005_RAW.json",
+      "Result": "PASS",
+      "SHA256": "e1b238cb90f249729ef914cab82aa4ff9ff0991b47bd163479fc9a1a6cc3544c",
+      "ObserverHashMatched": true,
+      "Mode": "Quick",
+      "Cancelled": false,
+      "StartedUtc": "2026-10-06T00:10:12.5130197Z",
+      "CompletedUtc": "2026-10-06T00:10:22.5254123Z",
+      "ResultsValidated": 15,
+      "Errors": [],
+      "Scope": "Recorded scan wrapper, result shape and summary only; not complete UI/live cleanup/suite acceptance",
+      "ExpectedModeCancellationSource": "Exact preserved observer capture"
+    },
+    {
+      "path": "NyxQA26InstalledScanObserverV5/20261005_200212/SCAN_006_RAW.json",
+      "Result": "PASS",
+      "SHA256": "2a2e61bdd4e49e6e47eb307133d7ae9cbf57391526fa466fe558de2976e9992a",
+      "ObserverHashMatched": true,
+      "Mode": "Full",
+      "Cancelled": false,
+      "StartedUtc": "2026-10-06T00:11:09.0524934Z",
+      "CompletedUtc": "2026-10-06T00:11:48.2759754Z",
+      "ResultsValidated": 21,
+      "Errors": [],
+      "Scope": "Recorded scan wrapper, result shape and summary only; not complete UI/live cleanup/suite acceptance",
+      "ExpectedModeCancellationSource": "Exact preserved observer capture"
+    },
+    {
+      "path": "reports/quicklight125-20261005-2057.json",
+      "Result": "PASS",
+      "SHA256": "0c82799f9a93b3590f15b5417c9c968b6da4cddf5df6b87aad324a503897a85b",
+      "ObserverHashMatched": null,
+      "Mode": "Quick",
+      "Cancelled": false,
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "ResultsValidated": 15,
+      "Errors": [],
+      "Scope": "Recorded scan wrapper, result shape and summary only; not complete UI/live cleanup/suite acceptance",
+      "ExpectedModeCancellationSource": "Historical exported report; capture hash linkage unavailable"
+    }
+  ],
+  "additionalCompleteCells": 0,
+  "downstreamSuiteCredit": false
+}

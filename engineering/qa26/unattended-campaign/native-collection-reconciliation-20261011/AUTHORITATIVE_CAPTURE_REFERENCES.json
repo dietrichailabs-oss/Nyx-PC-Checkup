@@ -1,0 +1,146 @@
+[
+  {
+    "Utc": "2026-10-06T00:06:27.5038213Z",
+    "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+    "Details": {
+      "Mode": "Quick",
+      "CompletedUtc": "2026-10-06T00:06:27.3764313Z",
+      "StartedUtc": "2026-10-06T00:06:10.1360144Z",
+      "Validation": "Host contract validation required",
+      "RawPath": "SCAN_001_RAW.json",
+      "Results": 15,
+      "SHA256": "E1A024FB9FD36FE39A57C49F234BB8AD5A2F95CACC1220DA4359B2523F2314F6",
+      "Cancelled": false,
+      "WorkerError": null,
+      "ReadOnly": true
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:06:27.7265847Z",
+    "Event": "INSTALLED_WORKER_EXIT",
+    "Details": {
+      "ReadsSoFar": 18960,
+      "WorkerPid": 2032
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:07:23.9100394Z",
+    "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+    "Details": {
+      "Mode": "Full",
+      "CompletedUtc": "2026-10-06T00:07:23.8001003Z",
+      "StartedUtc": "2026-10-06T00:06:39.5205667Z",
+      "Validation": "Host contract validation required",
+      "RawPath": "SCAN_002_RAW.json",
+      "Results": 21,
+      "SHA256": "528E5EA700F9282C8B1F9E246ACA19B322DB4726E1BDD3CEDA66F494C6E89FEB",
+      "Cancelled": false,
+      "WorkerError": null,
+      "ReadOnly": true
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:07:24.4440496Z",
+    "Event": "INSTALLED_WORKER_EXIT",
+    "Details": {
+      "ReadsSoFar": 67520,
+      "WorkerPid": 2228
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:07:49.4761465Z",
+    "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+    "Details": {
+      "Mode": "Quick",
+      "CompletedUtc": "2026-10-06T00:07:49.3482444Z",
+      "StartedUtc": "2026-10-06T00:07:39.6507546Z",
+      "Validation": "Host contract validation required",
+      "RawPath": "SCAN_003_RAW.json",
+      "Results": 15,
+      "SHA256": "C50AB8FAC2349B03680FAFF81A2ADCC78E9FE0AABAFEA2C0A094BF836B3402A0",
+      "Cancelled": false,
+      "WorkerError": null,
+      "ReadOnly": true
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:07:49.6025772Z",
+    "Event": "INSTALLED_WORKER_EXIT",
+    "Details": {
+      "ReadsSoFar": 78480,
+      "WorkerPid": 9440
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:08:34.1592463Z",
+    "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+    "Details": {
+      "Mode": "Quick",
+      "CompletedUtc": "2026-10-06T00:08:34.0957782Z",
+      "StartedUtc": "2026-10-06T00:08:25.5268440Z",
+      "Validation": "Host contract validation required",
+      "RawPath": "SCAN_004_RAW.json",
+      "Results": 13,
+      "SHA256": "663E87387238EB891F69BEF605BC9805462E74596ACB864F43A8D313B62BF463",
+      "Cancelled": true,
+      "WorkerError": null,
+      "ReadOnly": true
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:08:34.3962625Z",
+    "Event": "INSTALLED_WORKER_EXIT",
+    "Details": {
+      "ReadsSoFar": 88760,
+      "WorkerPid": 10044
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:10:22.5732414Z",
+    "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+    "Details": {
+      "Mode": "Quick",
+      "CompletedUtc": "2026-10-06T00:10:22.5254123Z",
+      "StartedUtc": "2026-10-06T00:10:12.5130197Z",
+      "Validation": "Host contract validation required",
+      "RawPath": "SCAN_005_RAW.json",
+      "Results": 15,
+      "SHA256": "E1B238CB90F249729EF914CAB82AA4FF9FF0991B47BD163479FC9A1A6CC3544C",
+      "Cancelled": false,
+      "WorkerError": null,
+      "ReadOnly": true
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:10:22.8272874Z",
+    "Event": "INSTALLED_WORKER_EXIT",
+    "Details": {
+      "ReadsSoFar": 100600,
+      "WorkerPid": 3864
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:11:48.3710507Z",
+    "Event": "AUTHORITATIVE_RESULT_CAPTURE",
+    "Details": {
+      "Mode": "Full",
+      "CompletedUtc": "2026-10-06T00:11:48.2759754Z",
+      "StartedUtc": "2026-10-06T00:11:09.0524934Z",
+      "Validation": "Host contract validation required",
+      "RawPath": "SCAN_006_RAW.json",
+      "Results": 21,
+      "SHA256": "2A2E61BDD4E49E6E47EB307133D7AE9CBF57391526FA466FE558DE2976E9992A",
+      "Cancelled": false,
+      "WorkerError": null,
+      "ReadOnly": true
+    }
+  },
+  {
+    "Utc": "2026-10-06T00:11:48.4505143Z",
+    "Event": "INSTALLED_WORKER_EXIT",
+    "Details": {
+      "ReadsSoFar": 143700,
+      "WorkerPid": 8604
+    }
+  }
+]

@@ -1,12 +1,9 @@
 # QA26 native evidence helper
 
-Harness-only source; frozen product and build unchanged. No PowerShell execution-policy changes.
+Harness-only source. Frozen source/build/product payload unchanged; PowerShell policy unchanged.
 
-Status: NOT QUALIFIED FOR LIVE COLLECTION. Native inventory and checkpoint attempts returned Access is denied. Fixture runner fails because its comparator includes newly generated HELPER_PROVENANCE.json. Separate SHA-256 comparison matched 104 copied artifact files only; this is not full-helper or product acceptance. No live collection or clean snapshot was created.
+Fixture comparator repaired with user authorization: 106 copied artifact files match. Live read-only collection succeeded at native_collect_path_fixed_20261011_100644 after extended-volume-path handling repair. Earlier failed attempts are preserved and receive no credit. Normal full preservation checkpoint recorded as Microsoft:B5A61454-4F13-4D35-A0E3-D1D64F36A2B6; this is not a clean destructive fixture.
 
-CLI: inventory|checkpoint|collect|fixture OUTPUT [KNOWN_FIXTURE]. Outputs must be new directories. Full preservation checkpoints are not clean destructive fixtures. Collection intends graceful shutdown, read-only VHD attachment without drive letters, preserved exact records, detach and normal restart; these paths remain unverified.
+Collection uses normal UAC, graceful shutdown, read-only VHD attach without drive letters, unique newly attached installed Nyx volume selection, detach and normal restart. No forced shutdown or security bypass. All 60 payload files match prior frozen baseline; install-state metadata differs. Exact fresh geometry measured 144 DPI for Dark relaunch/Startup only. Seven recovered scan contracts passed with 115 results; six exact observer hashes match, exported Light125 Quick has no observer hash linkage. Offline collection does not establish live worker cleanup or full suite acceptance.
 
-Primary references:
-- https://learn.microsoft.com/en-us/windows/win32/hyperv_v2/createsnapshot-msvm-virtualsystemsnapshotservice
-- https://learn.microsoft.com/en-us/windows/win32/hyperv_v2/msvm-shutdowncomponent-initiateshutdown
-- https://learn.microsoft.com/en-us/windows/win32/api/virtdisk/nf-virtdisk-attachvirtualdisk
+CLI: inventory|checkpoint|collect|fixture OUTPUT [KNOWN_FIXTURE]. Outputs must be new directories. Restoration and clean isolated destructive fixtures remain unqualified.

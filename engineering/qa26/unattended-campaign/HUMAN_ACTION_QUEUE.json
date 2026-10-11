@@ -73,13 +73,13 @@
     },
     {
       "id": "COLLECT_TARGETED_AND_LIGHT125_RAW",
-      "status": "BLOCKED_HUMAN",
+      "status": "COLLECTED_RECONCILIATION_IN_PROGRESS",
       "reason": "Original targeted transition/cancellation and latest Light125 Quick records require existing read-only collector with actual host UAC approval and subsequent guest login.",
       "nextAction": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes.",
-      "action": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes.",
+      "action": "Exact preserved raw is now collected; continue focused-gate and worker-cleanup reconciliation automatically.",
       "expectedPrompt": "Normal host UAC for the qualified read-only evidence collector",
-      "minimumInput": "Approve the exact collector UAC prompt, then sign into Nyx after normal restart",
-      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans"
+      "minimumInput": "None currently",
+      "automaticResume": "Reconcile original event timestamps/cancellation and exported Light125 Quick without substituting newer scans."
     },
     {
       "id": "LIGHT125_SECURITY_OS_REDIRECT",
@@ -176,26 +176,37 @@
     },
     {
       "id": "COLLECTOR_EXECUTION_POLICY_20261011",
-      "status": "HARNESS_COMPONENT_CHECKED_NOT_QUALIFIED",
+      "status": "RESOLVED_HARNESS_FIXTURE",
       "reason": "Elevated diagnostic wrapper confirms existing collector file rejected by PowerShell execution policy: running scripts disabled. No new collection folder; no collection credit; policy not bypassed or changed.",
       "nextAction": "Await permission to correct the disclosed helper bug, then rerun only the bounded harness fixture self-check.",
       "evidence": "qa26_vm_automation/COLLECTOR_LAUNCH_20261011.txt",
       "queuedUtc": "2026-10-11T13:34:26.185Z",
-      "action": "Repair internal fixture provenance comparison before qualifying live native collection; no PowerShell policy change.",
+      "action": "Native executable fixture comparison succeeds without changing PowerShell execution policy.",
       "automationReason": "PowerShell script policy blocks existing .ps1; alternate harness route not exhausted.",
       "expectedPrompt": "No Windows prompt for fixture repair; separate normal UAC only for privileged Hyper-V operations",
-      "minimumInput": "Authorize correction of the disclosed harness bug",
-      "automaticResume": "Qualify helper fixture, preserve VM checkpoint and collect historical evidence read-only; isolated suites remain NOT_RUN until safe snapshots exist."
+      "minimumInput": "None",
+      "automaticResume": "Attempt normal privileged preservation checkpoint; live collection remains separately unverified."
     },
     {
       "id": "HYPERV_NATIVE_INFRASTRUCTURE_UAC_20261011",
-      "status": "BLOCKED_HUMAN",
+      "status": "COMPLETE",
       "reason": "Native WMI inventory and actual full-checkpoint creation both returned Access is denied; no snapshot was created.",
       "action": "After helper qualification, approve the exact native helper through normal host UAC for preservation checkpoint and read-only evidence collection.",
       "expectedPrompt": "Normal host UAC for Qa26NativeEvidence.exe; never a credential bypass",
-      "minimumInput": "Approve that exact prompt; sign into guest normally if restarted",
+      "minimumInput": "None for completed operation",
       "automaticResume": "Record preservation checkpoint identity, collect historical raw and native observer evidence, and automate isolated-fixture preparation if the elevated hypervisor interface permits.",
-      "cleanSnapshotCredit": false
+      "cleanSnapshotCredit": false,
+      "resolution": "Normal privileged preservation checkpoint and fixed native read-only collection succeeded; clean destructive snapshot not established.",
+      "completedUtc": "2026-10-11T14:10:54.501Z"
+    },
+    {
+      "id": "GUEST_DISPLAY_RECONNECT_20261011",
+      "status": "BLOCKED_HUMAN",
+      "action": "Reconnect existing Nyx VM console; sign in normally if prompted, without restart/discard.",
+      "reason": "Fresh VM Connection screenshot is black while Running after normal collector restart; UI tests cannot observe guest predicates.",
+      "expectedPrompt": "Existing VM Connection display or normal guest sign-in",
+      "minimumInput": "Restore visible guest desktop and report ready; no credentials shared",
+      "automaticResume": "Remaining Dark navigation predicates; isolated suite preparation continues independently."
     }
   ]
 }

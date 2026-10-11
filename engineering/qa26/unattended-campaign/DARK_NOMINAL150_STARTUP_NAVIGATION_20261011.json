@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "dark_nominal150_startup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard End navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_end_navigation_20261011_1791727584460.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.461Z"
+    },
+    {
+      "id": "dark_nominal150_startup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Home navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_home_navigation_20261011_1791727584461.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.462Z"
+    },
+    {
+      "id": "dark_nominal150_startup_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Page_Down navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_page_down_navigation_20261011_1791727584462.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.463Z"
+    },
+    {
+      "id": "dark_nominal150_startup_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Page_Up navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_page_up_navigation_20261011_1791727584463.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.463Z"
+    },
+    {
+      "id": "dark_nominal150_startup_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Down navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_down_navigation_20261011_1791727584463.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.464Z"
+    },
+    {
+      "id": "dark_nominal150_startup_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Up navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_up_navigation_20261011_1791727584464.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.465Z"
+    }
+  ],
+  "fullCellCredit": false
+}

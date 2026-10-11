@@ -93,10 +93,15 @@ public static class Qa26NativeEvidence {
             var type=new StorageType {DeviceId=3,VendorId=new Guid("EC984AEC-A0F9-47E9-901F-71415A66345B")};
             var open=new OpenParameters {Version=1,RWDepth=1};
             uint code=OpenVirtualDisk(ref type,paths[0],0x000D0000,0,ref open,out handle); if(code!=0) throw new IOException("OpenVirtualDisk Win32="+code);
+            string[] priorVolumes;
+            using(var before=new ManagementObjectSearcher("root\\Microsoft\\Windows\\Storage","SELECT Path FROM MSFT_Volume")) priorVolumes=before.Get().Cast<ManagementObject>().Select(x=>Convert.ToString(x["Path"])).ToArray();
             var attach=new AttachParameters {Version=1,Reserved=0}; code=AttachVirtualDisk(handle,IntPtr.Zero,3,0,ref attach,IntPtr.Zero); if(code!=0) throw new IOException("AttachVirtualDisk Win32="+code); mounted=true;
             string root=null;
-            using(var search=new ManagementObjectSearcher("root\\cimv2","SELECT DeviceID FROM Win32_Volume")) {
-                var roots=search.Get().Cast<ManagementObject>().Select(x=>Convert.ToString(x["DeviceID"])).Where(p=>Directory.Exists(Path.Combine(p,"Q26F023")) && Directory.Exists(Path.Combine(p,"Users\\Nyx"))).ToArray();
+            Thread.Sleep(2000);
+            using(var search=new ManagementObjectSearcher("root\\Microsoft\\Windows\\Storage","SELECT Path FROM MSFT_Volume")) {
+                var candidates=search.Get().Cast<ManagementObject>().Select(x=>Convert.ToString(x["Path"])).Where(p=>!String.IsNullOrEmpty(p)).ToArray();
+                Save("VOLUME_SELECTION_DIAGNOSTIC.json",candidates.Select(p=>new {Path=p,PresentBeforeAttach=priorVolumes.Contains(p,StringComparer.OrdinalIgnoreCase),InstallStateExists=File.Exists(Path.Combine(p,"Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\install-state.json"))}).ToArray());
+                var roots=candidates.Where(p=>!priorVolumes.Contains(p,StringComparer.OrdinalIgnoreCase) && File.Exists(Path.Combine(p,"Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\install-state.json"))).ToArray();
                 if(roots.Length!=1) throw new IOException("Guest volume selection ambiguous"); root=roots[0];
             }
             string local=Path.Combine(root,"Users\\Nyx\\AppData\\Local"); string install=Path.Combine(local,"Programs\\Dietrich AI Labs\\Nyx PC Checkup");
@@ -119,10 +124,12 @@ public static class Qa26NativeEvidence {
         foreach(var name in ObserverNames.Concat(DataNames)) { var path=Path.Combine(source,name); if(Directory.Exists(path)) CopyTree(path,Path.Combine(Out,name)); }
         foreach(var name in new[]{"INSTALL_STATE_RAW.json","INSTALLED_HASHES.json"}) File.Copy(Path.Combine(source,name),Path.Combine(Out,name),false);
         var compared=new List<object>();
-        foreach(var file in Files(Out).ToArray()) { var relative=file.Substring(Out.Length).TrimStart('\\');var original=Path.Combine(source,relative);if(Hash(file)!=Hash(original)) throw new IOException("Fixture mismatch: "+relative);compared.Add(new {Path=relative,SHA256=Hash(file)}); }
+        foreach(var file in Files(Out).ToArray()) { var relative=file.Substring(Out.Length).TrimStart('\\');if(relative=="HELPER_PROVENANCE.json") continue;var original=Path.Combine(source,relative);if(Hash(file)!=Hash(original)) throw new IOException("Fixture mismatch: "+relative);compared.Add(new {Path=relative,SHA256=Hash(file)}); }
         Save("FIXTURE_EQUIVALENCE.json",new {Status="PASS_HARNESS_COPY_EQUIVALENCE_ONLY",Source=source,Compared=compared,GuestCollectionExecuted=false,NativeDpiNewCredit=false});
     }
     public static int Main(string[] args) {
+        AppContext.SetSwitch("Switch.System.IO.UseLegacyPathHandling",false);
+        AppContext.SetSwitch("Switch.System.IO.BlockLongPaths",false);
         if(args.Length<2) { Console.Error.WriteLine("inventory|checkpoint|collect|fixture OUTPUT [KNOWN_FIXTURE]");return 2; }
         Out=Path.GetFullPath(args[1]).TrimEnd('\\'); if(Directory.Exists(Out)) { Console.Error.WriteLine("Refuse existing output directory"); return 2; } Directory.CreateDirectory(Out);
         try {

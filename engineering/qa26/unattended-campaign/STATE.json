@@ -9,7 +9,7 @@
   "currentBatch": "Dark150_PREDICATE_RECONCILIATION",
   "currentTheme": "FollowWindows",
   "currentScale": 125,
-  "currentPage": "Security",
+  "currentPage": "GUEST_DISPLAY_UNAVAILABLE",
   "currentSuite": "F008 / targeted F016-F010 reconciliation",
   "focused": {
     "F023": "PASS",
@@ -7028,6 +7028,70 @@
       "evidence": "screenshots/followwindows150_security_up_navigation_20261011_1791726873443.jpg",
       "fullCellCredit": false,
       "utc": "2026-10-11T13:54:33.443Z"
+    },
+    {
+      "id": "dark_nominal150_save_acknowledgment_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Explicit Settings saved acknowledgment; theme applies next launch; actual native DPI not established.",
+      "evidence": "screenshots/dark_nominal150_save_acknowledgment_20261011_1791727397979.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:03:17.980Z"
+    },
+    {
+      "id": "dark_nominal150_applied_relaunch_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Dark visual theme applied after explicit save and normal close/relaunch; native DPI pending.",
+      "evidence": "screenshots/dark_nominal150_applied_relaunch_20261011_1791727440542.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:04:00.543Z"
+    },
+    {
+      "id": "dark_nominal150_startup_end_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard End navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_end_navigation_20261011_1791727584460.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.461Z"
+    },
+    {
+      "id": "dark_nominal150_startup_home_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Home navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_home_navigation_20261011_1791727584461.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.462Z"
+    },
+    {
+      "id": "dark_nominal150_startup_page_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Page_Down navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_page_down_navigation_20261011_1791727584462.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.463Z"
+    },
+    {
+      "id": "dark_nominal150_startup_page_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Page_Up navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_page_up_navigation_20261011_1791727584463.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.463Z"
+    },
+    {
+      "id": "dark_nominal150_startup_down_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Down navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_down_navigation_20261011_1791727584463.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.464Z"
+    },
+    {
+      "id": "dark_nominal150_startup_up_navigation_20261011",
+      "status": "PASS_OBSERVED",
+      "details": "Observed Dark Startup grid keyboard Up navigation; entries unchanged; actual DPI and full-cell acceptance pending.",
+      "evidence": "screenshots/dark_nominal150_startup_up_navigation_20261011_1791727584464.jpg",
+      "fullCellCredit": false,
+      "utc": "2026-10-11T14:06:24.465Z"
     }
   ],
   "evidenceReferences": [
@@ -7066,8 +7130,8 @@
     "state": "Running; signed in as Nyx; native app visible",
     "credentialPromptPending": false
   },
-  "lastCompletedAction": "FOLLOWWINDOWS150_SECURITY_NAVIGATION_20261011 completed with exact fresh screenshot records; no full-cell credit.",
-  "nextAction": "Continue missing theme-specific UI predicates; native collection and isolated suites require queued privilege prerequisites.",
+  "lastCompletedAction": "Read-only native collection, 144 DPI scoped proof, 60 frozen payload matches, 7 recorded contracts/115 results, 6 historical worker cleanup correlations completed; full acceptance not claimed.",
+  "nextAction": "Finish supported isolated export and clean-suite preparation; remaining Dark UI batches continue without scan repetition.",
   "downstream": {
     "Standard": "NOT_RUN",
     "Smoke": "NOT_RUN",
@@ -7081,7 +7145,7 @@
     "ElevatedLifecycle": "NOT_RUN",
     "PrivacySafety": "NOT_RUN"
   },
-  "updatedUtc": "2026-10-11T13:54:33.443Z",
+  "updatedUtc": "2026-10-11T14:10:54.502Z",
   "environment": {
     "osDisplayScale": 125,
     "resolution": "1366x768",
@@ -9851,9 +9915,19 @@
     "componentEvidence": "NATIVE_HELPER_EQUIVALENCE_20261011.json",
     "artifactCopyFilesMatched": 104,
     "qualifiedForLiveCollection": false,
-    "fixtureIssue": "Internal comparator incorrectly includes newly generated HELPER_PROVENANCE.json",
+    "fixtureIssue": "FIXED_WITH_USER_AUTHORIZATION",
     "hypervisorAttempt": "ACCESS_DENIED",
-    "productChanged": false
+    "productChanged": false,
+    "fixtureResult": "PASS_HARNESS_COPY_EQUIVALENCE_ONLY",
+    "fixtureComparedFiles": 106,
+    "fixtureOutput": "qa26_vm_automation/native_fixture_fixed_20261011_095658",
+    "liveCollectionResult": "COLLECTED_READ_ONLY_RECONCILED_COMPONENTS",
+    "failedCollectionOutputs": [
+      "native_collect_fixed_20261011_095826",
+      "native_collect_volume_fixed_20261011_095925",
+      "native_collect_storage_fixed_20261011_100031"
+    ],
+    "collectionOutput": "qa26_vm_automation/native_collect_path_fixed_20261011_100644"
   },
   "latestBatch": {
     "date": "2026-10-11",
@@ -9866,5 +9940,32 @@
       "Security"
     ],
     "nativeDpiQualified": false
+  },
+  "preservationCheckpoint": {
+    "instanceId": "Microsoft:B5A61454-4F13-4D35-A0E3-D1D64F36A2B6",
+    "creationTime": "2026-10-11T09:57:46.407955-04:00",
+    "kind": "PRESERVATION_ONLY",
+    "cleanDestructiveFixture": false,
+    "output": "qa26_vm_automation/native_checkpoint_fixed_20261011_095740"
+  },
+  "nativeDpiCurrent": {
+    "value": 144,
+    "source": "NyxQA26Geometry/geometry_v2_20261011_100343/CONTROL_GEOMETRY.jsonl",
+    "utcRange": [
+      "2026-10-11T14:03:46.1645565Z",
+      "2026-10-11T14:05:44.3805242Z"
+    ],
+    "scope": "Dark relaunch and Startup batch only; not retroactive prior sessions"
+  },
+  "isolationPreparation": {
+    "status": "SUPPORTED_SNAPSHOT_EXPORT_RUNNING",
+    "parentSnapshot": "Microsoft:B5A61454-4F13-4D35-A0E3-D1D64F36A2B6",
+    "parentDisk": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx",
+    "cleanStateQualified": false,
+    "plannedName": "Nyx-QA26-Disposable-20261011",
+    "network": "Disconnected",
+    "activeEvidenceVmUnchanged": true,
+    "failure": "New-VHD requires parent .vhd or .vhdx; exact snapshot parent .avhdx rejected before VM creation",
+    "securityReview": "No disabling Secure Boot; future clone retains Secure Boot On and verified disconnected networking."
   }
 }
