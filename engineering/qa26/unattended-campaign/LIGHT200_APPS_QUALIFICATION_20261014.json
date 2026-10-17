@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-14T23:50:22.701Z",
+  "page": "Apps",
+  "samples": 105,
+  "dpi": [
+    192
+  ],
+  "pids": [
+    1296
+  ],
+  "maxGapMs": 5016,
+  "startDeltaMs": 1806,
+  "endDeltaMs": 393,
+  "payloadMatches": 60,
+  "mismatches": [],
+  "theme": "Light",
+  "metadataUnchanged": true,
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "fullCellsAdded": 1,
+  "noTestsRepeated": true,
+  "independentVerdict": "RESERVED"
+}

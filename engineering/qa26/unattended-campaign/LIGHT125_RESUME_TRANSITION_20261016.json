@@ -1,0 +1,46 @@
+{
+  "schema": "QA26-APPEARANCE-TRANSITION-1",
+  "startedUtc": "2026-10-16T11:16:29.825Z",
+  "from": "FollowWindows",
+  "to": "Light",
+  "scaleRequested": 125,
+  "nativeDpi": "Fresh measurement pending",
+  "reason": "Missing Light125 predicates only",
+  "screenshots": [
+    {
+      "label": "appearance_before",
+      "path": "screenshots/light125_resume_20261016_appearance_before_1792149389825.jpg",
+      "utc": "2026-10-16T11:16:29.944Z"
+    },
+    {
+      "label": "light_selected",
+      "path": "screenshots/light125_resume_20261016_light_selected_1792149407937.jpg",
+      "utc": "2026-10-16T11:16:47.966Z"
+    },
+    {
+      "label": "light_saved_ack",
+      "path": "screenshots/light125_resume_20261016_light_saved_ack_1792149429211.jpg",
+      "utc": "2026-10-16T11:17:09.211Z"
+    },
+    {
+      "label": "normal_close_desktop",
+      "path": "screenshots/light125_resume_20261016_normal_close_desktop_1792149457856.jpg",
+      "utc": "2026-10-16T11:17:37.858Z"
+    },
+    {
+      "label": "reopened_home",
+      "path": "screenshots/light125_resume_20261016_reopened_home_1792149474409.jpg",
+      "utc": "2026-10-16T11:17:54.411Z"
+    },
+    {
+      "label": "applied_light_selector",
+      "path": "screenshots/light125_resume_20261016_applied_light_selector_1792149567227.jpg",
+      "utc": "2026-10-16T11:19:27.228Z"
+    }
+  ],
+  "productModified": false,
+  "status": "APPLIED_LIGHT_SELECTOR_CONFIRMED_NATIVE_DPI_PENDING",
+  "launchAttribution": "Nyx Home reappeared during attempted desktop observer activation; no manual launcher attribution and no observer-launch success inferred.",
+  "appliedSelectorEvidence": "screenshots/light125_resume_20261016_applied_light_selector_1792149567227.jpg",
+  "completedUtc": "2026-10-16T11:19:27.228Z"
+}

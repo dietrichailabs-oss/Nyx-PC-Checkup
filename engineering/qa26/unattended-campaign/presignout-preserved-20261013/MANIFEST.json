@@ -1,0 +1,98 @@
+{
+  "collectionUtc": "2026-10-13T23:29:57.7414306Z",
+  "files": [
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\cancelledfull125-20261005-1916.json",
+      "bytes": 64095,
+      "sha": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\full125.json",
+      "bytes": 37602,
+      "sha": "6F1F7CE2D20D885C60FF160789C97F2597BF29CBBBAD878C08E623C9E8BA3B6C",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\fulldark100.json",
+      "bytes": 309314,
+      "sha": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\fulldark125-storage-20261005-1931.json",
+      "bytes": 387675,
+      "sha": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\quick125.json",
+      "bytes": 19997,
+      "sha": "32AA16A8C8CA433B38D55B3AEAAA12199B64FE2A6056D3A85513A8004964478C",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\quickdark100.json",
+      "bytes": 54050,
+      "sha": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\quickdark125transition.json",
+      "bytes": 19997,
+      "sha": "9CE03EB0D373DE645ADA9D3737545C4F576D5E33E5FA09AF62F991CD47E35DCE",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports\\quicklight125-20261005-2057.json",
+      "bytes": 54050,
+      "sha": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "bytes": 366923,
+      "sha": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\cleanup_20261011_124439.jsonl",
+      "bytes": 24380,
+      "sha": "462BD51473AD50751C1B75FD727D677D0CFE34413C5FB4740458ED9B77CBACC7",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\dpi_20261011_native.jsonl",
+      "bytes": 6096,
+      "sha": "17128E1D43B7808FC302A384657EED7AE62C8C51D7F7B035DD676596914C221C",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261011_200228_4934706.jsonl",
+      "bytes": 5079,
+      "sha": "04BE99D317A0C87655E4A12D6DFF3B62B5D8A22C4F0ECD3DA9D49DA9E1562C50",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261012_220049_9697777.jsonl",
+      "bytes": 43200,
+      "sha": "04D572948C52D43BF7D42F9FE2B1BA1E108D0554EC3610874F5DCE5D6C68A04B",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261012_224108_5549143.jsonl",
+      "bytes": 13140,
+      "sha": "33567F6801EA773D7740AE6011F5C93D2CC1A5DBECECCD594F1830F00978CA5B",
+      "verified": true
+    },
+    {
+      "path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261013_230256_6853525.jsonl",
+      "bytes": 43447,
+      "sha": "163A335FC33D15509745A729D6DDECBE9083A48683283DF85641C2DF1053CF82",
+      "verified": true
+    }
+  ],
+  "workers": [],
+  "historicalLight125NotSubstituted": true,
+  "productChanged": false
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-17T13:56:42.056Z",
+  "status": "PUBLISHED",
+  "issue": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6234742094",
+  "qualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+  "engineeringAssertions": {
+    "PASS": 306,
+    "FAIL": 0
+  },
+  "matrix": {
+    "complete": 83,
+    "total": 132
+  },
+  "uncreditedEvidenceCases": 7,
+  "campaignComplete": false
+}

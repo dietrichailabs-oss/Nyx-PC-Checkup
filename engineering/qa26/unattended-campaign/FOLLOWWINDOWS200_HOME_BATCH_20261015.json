@@ -1,0 +1,42 @@
+{
+  "page": "Home",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T21:48:21.106Z",
+  "endUtc": "2026-10-15T21:53:12.786Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "initial": "screenshots/followwindows200_home_initial_20261015.jpg",
+    "preview": "screenshots/followwindows200_home_preview_20261015.jpg",
+    "continue_focus": "screenshots/followwindows200_home_continue_focus_20261015.jpg",
+    "cancel_focus": "screenshots/followwindows200_home_cancel_focus_20261015.jpg",
+    "primary_focus": "screenshots/followwindows200_home_primary_focus_20261015.jpg",
+    "top_labels": "screenshots/followwindows200_home_top_labels_20261015.jpg",
+    "storage_updates_status": "screenshots/followwindows200_home_storage_updates_status_20261015.jpg",
+    "security": "screenshots/followwindows200_home_security_20261015.jpg",
+    "system_label": "screenshots/followwindows200_home_system_label_20261015.jpg",
+    "system_action": "screenshots/followwindows200_home_system_action_20261015.jpg",
+    "startup_action": "screenshots/followwindows200_home_startup_action_20261015.jpg",
+    "lower_labels": "screenshots/followwindows200_home_lower_labels_20261015.jpg",
+    "backup_label": "screenshots/followwindows200_home_backup_label_20261015.jpg",
+    "backup_action": "screenshots/followwindows200_home_backup_action_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "primaryKeyboardReachableWithoutScan": true,
+    "preservedReportPreviewCorrectBuild": true,
+    "continueAndCancelKeyboardReachable": true,
+    "cancelWithoutExportWrite": true,
+    "allSixCategoryLabelsAndTextStatusesRecovered": true,
+    "essentialActionMeaningRecovered": true,
+    "noScanStarted": true,
+    "noDeletion": true,
+    "noObservedException": true
+  },
+  "limitations": [
+    "Reduced viewport requires fine vertical and horizontal scrollbar recovery; no strict presentation claim."
+  ],
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_214732_7958575.jsonl",
+  "fullCellCredit": 1,
+  "nativeQualification": "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json"
+}

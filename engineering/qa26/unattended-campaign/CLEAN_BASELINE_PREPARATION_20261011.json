@@ -1,0 +1,14 @@
+{
+  "vm": "Nyx-QA26-Clean-20261011",
+  "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+  "sourceCheckpoint": "07126637-ce84-43cc-a69b-fb4ae445f9ce",
+  "sourceCheckpointName": "EXEC004_PRETEST_20260804_0844",
+  "secureBoot": "On",
+  "network": "Disconnected",
+  "originalVmChanged": false,
+  "cleanQualified": false,
+  "consoleStatus": "Changing password",
+  "testsExecutedOnThisClone": 0,
+  "humanActionQueueId": "CLEAN_BASELINE_NORMAL_SIGNIN_20261011",
+  "utc": "2026-10-11T23:18:32.934Z"
+}

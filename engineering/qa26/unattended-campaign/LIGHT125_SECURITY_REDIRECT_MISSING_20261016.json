@@ -1,0 +1,35 @@
+{
+  "schema": "QA26-LIGHT125-MISSING-SECURITY-REDIRECT-1",
+  "startedUtc": "2026-10-17T00:23:31.196Z",
+  "observedUtc": "2026-10-17T00:24:14.960Z",
+  "nativeObserver": {
+    "hostObservedUtc": "2026-10-17T00:21:28.379Z",
+    "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261017_002100_3968008.jsonl",
+    "status": "STARTED_VISIBLE_NATIVE_LOG_PATH_MEASUREMENTS_PENDING_COLLECTION",
+    "evidence": "screenshots/light125_fresh_observer_started_1792196488379.jpg",
+    "nativeObserved": {
+      "dpi": 120,
+      "pid": 5820,
+      "firstUtc": "2026-10-17T00:21:00.3983266Z",
+      "headEvidence": "screenshots/light125_native120_log_head_1792197036049.jpg",
+      "method": "Existing native JSONL displayed read-only in guest Notepad; not requested scaling",
+      "tailEvidence": "screenshots/light125_native120_log_tail_1792197059808.jpg",
+      "lastDisplayedUtc": "2026-10-17T00:30:16.2158277Z",
+      "fullRawCollection": "PENDING; head/tail screenshots are not a full sampled-interval audit"
+    }
+  },
+  "theme": "Light",
+  "requestedScale": 125,
+  "nativeDpi": 120,
+  "requirements": {
+    "actualWindowsSecurityRedirect": {
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Human pressed Enter on the Nyx primary action; actual Windows Security security-at-a-glance destination opened. No protection control automated or changed. Host overlay obscures part of left edge; destination content visible.",
+      "evidence": "screenshots/light125_security_actual_os_destination_1792196654960.jpg"
+    }
+  },
+  "noScanRepeated": true,
+  "noPolicyChanged": true,
+  "fullCellCredit": false,
+  "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+}

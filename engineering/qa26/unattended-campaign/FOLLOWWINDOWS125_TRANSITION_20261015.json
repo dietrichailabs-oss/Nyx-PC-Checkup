@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-15T22:53:29.174Z",
+  "from": {
+    "theme": "FollowWindows",
+    "scale": 200,
+    "nativeDpi": 192,
+    "pid": 1224
+  },
+  "toRequested": {
+    "theme": "FollowWindows",
+    "scale": 125
+  },
+  "status": "NATIVE120_OBSERVED_CURRENT_CONTEXT_METADATA_REVIEW_REQUIRED",
+  "preservedQualifications": [
+    "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json",
+    "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json",
+    "FOLLOWWINDOWS200_APPS_SECURITY_QUALIFICATION_20261015.json"
+  ],
+  "scoreboardComplete": 83,
+  "pendingAuthoritativeRunsPreservedUnchanged": true,
+  "noNewScan": true,
+  "noProductChange": true,
+  "noPolicyChange": true,
+  "noMeasuredDpiInference": true,
+  "savedUtc": "2026-10-15T22:57:51.869Z",
+  "evidence": [
+    "screenshots/followwindows125_custom_value_20261015.jpg",
+    "screenshots/followwindows125_saved_signout_required_20261015.jpg",
+    "screenshots/followwindows125_post_signout_desktop_20261015.jpg"
+  ],
+  "nativeDpiAfter": 120,
+  "allExecuted200BatchesCollected": true,
+  "noUncollectedCurrentBatch": true,
+  "desktopUtc": "2026-10-15T22:58:27.147Z",
+  "nativeQualification": "FOLLOWWINDOWS125_NATIVE_QUALIFICATION_HOLD_20261015.json"
+}

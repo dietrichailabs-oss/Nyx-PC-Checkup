@@ -1,0 +1,57 @@
+{
+  "page": "Apps",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T22:34:37.080Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "page": "screenshots/followwindows200_apps_page_20261015.jpg",
+    "controls": "screenshots/followwindows200_apps_controls_20261015.jpg",
+    "destination": "screenshots/followwindows200_apps_destination_20261015.jpg",
+    "full_focus": "screenshots/followwindows200_apps_full_focus_20261015.jpg",
+    "grid": "screenshots/followwindows200_apps_grid_20261015.jpg",
+    "last": "screenshots/followwindows200_apps_last_20261015.jpg",
+    "first": "screenshots/followwindows200_apps_first_20261015.jpg",
+    "folder_focus": "screenshots/followwindows200_apps_folder_focus_20261015.jpg",
+    "unavailable_folder": "screenshots/followwindows200_apps_unavailable_folder_20261015.jpg",
+    "selected_app": "screenshots/followwindows200_apps_selected_app_20261015.jpg",
+    "valid_folder_focus": "screenshots/followwindows200_apps_valid_folder_focus_20261015.jpg",
+    "folder_destination": "screenshots/followwindows200_apps_folder_destination_20261015.jpg",
+    "filter_focus": "screenshots/followwindows200_apps_filter_focus_20261015.jpg",
+    "no_match_input": "screenshots/followwindows200_apps_no_match_input_20261015.jpg",
+    "empty": "screenshots/followwindows200_apps_empty_20261015.jpg",
+    "disabled_skip": "screenshots/followwindows200_apps_disabled_skip_20261015.jpg",
+    "cleared": "screenshots/followwindows200_apps_cleared_20261015.jpg",
+    "restore_skip": "screenshots/followwindows200_apps_restore_skip_20261015.jpg",
+    "restored_rows": "screenshots/followwindows200_apps_restored_rows_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "actualInstalledAppsDestination": true,
+    "firstLastKeyboardRecovery": true,
+    "lastReportedSizeReadable": true,
+    "primaryFullCheckKeyboardReachableWithoutActivation": true,
+    "selectedFolderEnterDestination": true,
+    "unavailableFolderGuardReadable": true,
+    "noFileExecution": true,
+    "noScanStarted": true,
+    "noInstallUninstall": true,
+    "noMatchEmptyInventory": true,
+    "folderDisabledSkippedOnNoMatch": true,
+    "clearingFilterDoesNotReviveStaleFolderSelection": true,
+    "inventoryRestored": true,
+    "noObservedException": true
+  },
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_223305_0833913.jsonl",
+  "fullCellCredit": 1,
+  "endUtc": "2026-10-15T22:45:07.722Z",
+  "inputProvenance": {
+    "filter": "qzq",
+    "method": "ordinary q/z/q key events to visibly focused transient search field; no clipboard, no manual typing"
+  },
+  "limitations": [
+    "200% reduced viewport requires keyboard horizontal/vertical recovery; unavailable OneDrive location handled by guard, valid Nyx folder dispatched with Enter."
+  ],
+  "nativeQualification": "FOLLOWWINDOWS200_APPS_SECURITY_QUALIFICATION_20261015.json",
+  "pendingPredicates": []
+}

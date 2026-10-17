@@ -1,0 +1,35 @@
+{
+  "status": "EVIDENCE_COMPLETE_PENDING_INDEPENDENT_READABILITY_REVIEW",
+  "page": "Settings",
+  "theme": "Dark",
+  "scale": 200,
+  "observed": "Delete-log action label remains truncated as Delete local at the panel boundary after reverse keyboard focus, ordinary maximize and horizontal scrollbar moved to its right limit.",
+  "essentialPredicate": "Required action meaning ultimately readable through practical scrolling/focus recovery",
+  "recoveryEndUtc": "2026-10-14T01:06:10.010Z",
+  "priorNativeQualification": "DARK200_CLEANUP_SETTINGS_NATIVE_QUALIFICATION_20261013.json",
+  "recoveryNativeIntervalPending": false,
+  "screenshots": [
+    "screenshots/dark200_settings_delete_clipped_20261013.jpg",
+    "screenshots/dark200_settings_maximized_label_clipped_20261013.jpg",
+    "screenshots/dark200_settings_horizontal_limit_label_clipped_20261013.jpg"
+  ],
+  "noDeletion": true,
+  "noPreferenceChange": true,
+  "productModified": false,
+  "independentFinalVerdictReserved": true,
+  "nativeRecoveryInterval": {
+    "startUtc": "2026-10-14T01:01:14.644Z",
+    "endUtc": "2026-10-14T01:06:10.010Z",
+    "samples": 61,
+    "all192": true,
+    "pids": [
+      7232
+    ],
+    "maxGapMs": 5017,
+    "startCovered": true,
+    "endCovered": true
+  },
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26"
+}

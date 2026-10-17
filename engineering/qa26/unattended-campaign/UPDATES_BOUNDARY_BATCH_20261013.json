@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "id": "dark150_updates_ctrl_end_20261013",
+      "utc": "2026-10-13T23:15:19.364Z",
+      "status": "PASS_OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "details": "CtrlEnd from dotted first-row keyboard focus reaches final Last successful installation finding, final What Nyx found cell.",
+      "evidence": "screenshots/updates_ctrl_end_20261013.jpg"
+    },
+    {
+      "id": "dark150_updates_ctrl_home_20261013",
+      "utc": "2026-10-13T23:15:27.345Z",
+      "status": "PASS_OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "details": "CtrlHome returns dotted focus to first Update restart Status cell.",
+      "evidence": "screenshots/updates_ctrl_home_20261013.jpg"
+    }
+  ],
+  "executed": 2,
+  "passCredit": 0,
+  "scanStarted": false,
+  "productChanged": false
+}

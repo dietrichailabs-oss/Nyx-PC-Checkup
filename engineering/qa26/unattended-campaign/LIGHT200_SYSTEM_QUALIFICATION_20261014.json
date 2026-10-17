@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-14T23:39:56.353Z",
+  "page": "System",
+  "samples": 68,
+  "dpi": [
+    192
+  ],
+  "pids": [
+    1296
+  ],
+  "maxGapMs": 5017,
+  "startDeltaMs": 2259,
+  "endDeltaMs": 507,
+  "payloadMatches": 60,
+  "mismatches": [],
+  "theme": "Light",
+  "metadataUnchanged": true,
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "fullCellsAdded": 1,
+  "noTestsRepeated": true,
+  "independentVerdict": "RESERVED"
+}

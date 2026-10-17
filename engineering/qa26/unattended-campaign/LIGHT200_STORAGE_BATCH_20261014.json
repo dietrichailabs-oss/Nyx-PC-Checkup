@@ -1,0 +1,48 @@
+{
+  "page": "Storage",
+  "theme": "Light",
+  "scale": 200,
+  "startUtc": "2026-10-14T22:41:40.729Z",
+  "endUtc": "2026-10-14T22:48:09.879Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "primaryKeyboardReachability": true,
+    "downloadsFolderAction": true,
+    "firstLastFindingFocus": true,
+    "exactDetailEnterReadable": true,
+    "keyboardCloseOriginReturn": true,
+    "folderFileTablesKeyboardReachable": true,
+    "largestFileContainingFolderEnter": true,
+    "noFileExecution": true,
+    "noDeletion": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "screenshots": [
+    "screenshots/light200_storage_controls_20261014.jpg",
+    "screenshots/light200_storage_downloads_20261014.jpg",
+    "screenshots/light200_storage_grid_focus_20261014.jpg",
+    "screenshots/light200_storage_last_20261014.jpg",
+    "screenshots/light200_storage_first_20261014.jpg",
+    "screenshots/light200_storage_detail_20261014.jpg",
+    "screenshots/light200_storage_close_20261014.jpg",
+    "screenshots/light200_storage_detail_return_20261014.jpg",
+    "screenshots/light200_storage_folders_20261014.jpg",
+    "screenshots/light200_storage_folders_last_20261014.jpg",
+    "screenshots/light200_storage_files_20261014.jpg",
+    "screenshots/light200_storage_file_last_20261014.jpg",
+    "screenshots/light200_storage_file_folder_20261014.jpg",
+    "screenshots/light200_storage_idle_return_20261014.jpg",
+    "screenshots/light200_storage_full_focus_20261014.jpg",
+    "screenshots/light200_storage_downloads_focus_20261014.jpg",
+    "screenshots/light200_storage_settings_focus_20261014.jpg"
+  ],
+  "limitations": [
+    "Reduced viewport requires keyboard focus/horizontal scroll recovery.",
+    "Selected file name not visible in Explorer viewport; folder and92-byte selection observed, no exact selection-name claim.",
+    "Storage OS destination and Full Check not activated in this accessibility cell."
+  ],
+  "fullCellCredit": 1,
+  "nativeQualification": "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json"
+}

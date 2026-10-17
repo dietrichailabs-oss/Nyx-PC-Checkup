@@ -1,0 +1,43 @@
+{
+  "page": "Home",
+  "theme": "FollowWindows",
+  "scale": 125,
+  "startUtc": "2026-10-15T23:01:02.317Z",
+  "status": "EXECUTED_PRESERVED_HOLD_METADATA_REVIEW",
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_225938_8324097.jsonl",
+  "requestedScaleNotMeasuredDpi": true,
+  "screenshots": {
+    "context": "screenshots/followwindows125_home_gap_context_20261015.jpg",
+    "preview": "screenshots/followwindows125_home_gap_preview_20261015.jpg",
+    "continue_focus": "screenshots/followwindows125_home_gap_continue_focus_20261015.jpg",
+    "cancel_focus": "screenshots/followwindows125_home_gap_cancel_focus_20261015.jpg",
+    "safe_return": "screenshots/followwindows125_home_gap_safe_return_20261015.jpg"
+  },
+  "requirements": {
+    "continueKeyboardReachableWithoutActivation": true,
+    "cancelKeyboardReachable": true,
+    "enterCancelReturnsHome": true,
+    "noExportWrite": true,
+    "noNewScan": true,
+    "noObservedException": true
+  },
+  "preservedFunctionalEvidence": [
+    "screenshots/followwindows125_native120dpi_verified.png",
+    "screenshots/followwindows125_home_quick_started.png",
+    "screenshots/followwindows125_home_scroll_status.png",
+    "screenshots/followwindows125_sidebar_scroll.png",
+    "screenshots/followwindows125_home_lower_state.png",
+    "screenshots/followwindows125_home_primary_focus.png",
+    "screenshots/followwindows125_home_primary_scan_start.png",
+    "screenshots/followwindows125_home_active_cancel_focus.png",
+    "screenshots/followwindows125_home_quick_finished.png",
+    "screenshots/followwindows125_home_export_review.png",
+    "screenshots/followwindows125_home_lower_readability.png",
+    "screenshots/followwindows125_home_keyboard_focus_recovery.png",
+    "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+  ],
+  "fullCellCredit": 0,
+  "endUtc": "2026-10-15T23:02:49.862Z",
+  "contextGap": "Historical appearance reconciliation and functional observations preserved; current native DPI/applied context collection pending, no retroactive DPI inference.",
+  "nativeQualification": "FOLLOWWINDOWS125_NATIVE_QUALIFICATION_HOLD_20261015.json"
+}

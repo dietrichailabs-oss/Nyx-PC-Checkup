@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "id": "dark150_backup_ctrl_end_20261013",
+      "utc": "2026-10-13T23:16:14.658Z",
+      "status": "PASS_OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "details": "CtrlEnd reaches final What Nyx found cell of preserved Backup finding with dotted focus.",
+      "evidence": "screenshots/backup_ctrl_end_20261013.jpg"
+    },
+    {
+      "id": "dark150_backup_ctrl_home_20261013",
+      "utc": "2026-10-13T23:16:21.348Z",
+      "status": "PASS_OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "details": "CtrlHome returns dotted focus to first Status cell of Backup finding.",
+      "evidence": "screenshots/backup_ctrl_home_20261013.jpg"
+    }
+  ],
+  "executed": 2,
+  "passCredit": 0,
+  "scanStarted": false,
+  "productChanged": false
+}

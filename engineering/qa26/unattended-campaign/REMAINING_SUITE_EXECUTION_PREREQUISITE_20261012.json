@@ -1,0 +1,28 @@
+{
+  "schema": "QA26-REMAINING-SUITE-EXECUTION-PREREQUISITE-1",
+  "recordedUtc": "2026-10-12T22:58:11.987Z",
+  "qa2Fixture": {
+    "path": "product/tests/fixtures/qa2/Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+    "bytes": 417280,
+    "sha256": "ff4c838a1def4abde39fe89f3a58d023ad25d8c61b99d1836fcb3270f8a301c5",
+    "pinnedMatch": true
+  },
+  "installedCoreModule": {
+    "path": "app/core/RuntimeComposition.psm1",
+    "signature": "NotSigned",
+    "sha256": "e97a0da8eefeabdc36e89a59e789a8a2e59bd49cf45a5205f6f14904fdb50d95",
+    "bytes": 15055,
+    "frozenHashMatch": true,
+    "evidence": "FROZEN_MODULE_METADATA_20261012.json"
+  },
+  "currentApprovedGuestPolicy": "AllSigned",
+  "affectedSuites": [
+    "InstallerLifecycle",
+    "QA2Migration"
+  ],
+  "status": "NOT_RUN_TRUSTED_EXECUTION_ROUTE_REQUIRED",
+  "scope": "Preflight dependency only, not a product failure and not a test result. Frozen runners directly import installed unsigned modules. No suite launched and no policy change or QA bypass introduced.",
+  "resolutionRequired": "Independent QA/security-approved existing execution baseline or approved testing route preserving frozen bytes and prohibition on QA-created bypass workarounds.",
+  "otherUiWork": "Remaining UI predicates and matrix continue separately; this does not claim all work blocked.",
+  "localCheckoutDifference": "One CRLF versus LF newline; no normalized source-content difference."
+}

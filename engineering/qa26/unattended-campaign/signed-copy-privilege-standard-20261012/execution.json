@@ -1,0 +1,35 @@
+{
+    "ExitCode":  0,
+    "Runner":  "C:\\NyxQA26Signed\\source_20261011\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsElevatedStartupRollback.ps1",
+    "AppRoot":  "C:\\NyxQA26Signed\\source_20261011\\Nyx_PC_Checkup_1.0.0_Source\\src\\app",
+    "UserSid":  "S-1-5-21-1723763126-3146604107-184641064-1002",
+    "IsAdministrator":  false,
+    "ExecutionPolicy":  {
+                            "value":  2,
+                            "Value":  "AllSigned"
+                        },
+    "PolicyChanged":  false,
+    "DestructiveSwitchSupplied":  false,
+    "OutputDirectory":  "C:\\NyxQA26SignedResults\\privilege_standard_20261012",
+    "ReportExists":  true,
+    "Files":  [
+                  {
+                      "Name":  "privilege-standard.json",
+                      "Bytes":  7078,
+                      "SHA256":  "72DC6AD24C878861A37D9D87C82BAC1C17F95B40C3175CD49D9D023D042C6B2D"
+                  },
+                  {
+                      "Name":  "stderr.txt",
+                      "Bytes":  0,
+                      "SHA256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "Name":  "stdout.txt",
+                      "Bytes":  146,
+                      "SHA256":  "C41A37738B2E38DDEE1DC056FA29A6F839F65699084E6CB58A92884984745B46"
+                  }
+              ],
+    "PSComputerName":  "Nyx-QA26-Clean-20261011",
+    "RunspaceId":  "f512bd28-7ee3-4a4a-b3cb-5f5378b3cfae",
+    "PSShowComputerName":  true
+}

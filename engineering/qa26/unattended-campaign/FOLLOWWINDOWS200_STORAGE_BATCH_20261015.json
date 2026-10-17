@@ -1,0 +1,48 @@
+{
+  "page": "Storage",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T21:57:26.370Z",
+  "endUtc": "2026-10-15T22:05:47.999Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "page": "screenshots/followwindows200_storage_page_20261015.jpg",
+    "controls": "screenshots/followwindows200_storage_controls_20261015.jpg",
+    "downloads": "screenshots/followwindows200_storage_downloads_20261015.jpg",
+    "grid": "screenshots/followwindows200_storage_grid_20261015.jpg",
+    "last": "screenshots/followwindows200_storage_last_20261015.jpg",
+    "first": "screenshots/followwindows200_storage_first_20261015.jpg",
+    "detail": "screenshots/followwindows200_storage_detail_20261015.jpg",
+    "close": "screenshots/followwindows200_storage_close_20261015.jpg",
+    "origin": "screenshots/followwindows200_storage_origin_20261015.jpg",
+    "folders": "screenshots/followwindows200_storage_folders_20261015.jpg",
+    "folder_last": "screenshots/followwindows200_storage_folder_last_20261015.jpg",
+    "folder_label": "screenshots/followwindows200_storage_folder_label_20261015.jpg",
+    "files": "screenshots/followwindows200_storage_files_20261015.jpg",
+    "file_last": "screenshots/followwindows200_storage_file_last_20261015.jpg",
+    "file_folder": "screenshots/followwindows200_storage_file_folder_20261015.jpg",
+    "full_focus": "screenshots/followwindows200_storage_full_focus_20261015.jpg",
+    "downloads_focus": "screenshots/followwindows200_storage_downloads_focus_20261015.jpg",
+    "settings_focus": "screenshots/followwindows200_storage_settings_focus_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "primaryKeyboardReachability": true,
+    "downloadsFolderAction": true,
+    "firstLastFindingFocus": true,
+    "exactDetailEnterReadable": true,
+    "keyboardCloseOriginReturn": true,
+    "folderFileTablesKeyboardReachable": true,
+    "largestFileContainingFolderEnter": true,
+    "noFileExecution": true,
+    "noDeletion": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "limitations": [
+    "Reduced viewport requires keyboard horizontal/vertical recovery. Storage Settings and Full controls tested for keyboard reachability only, not activated."
+  ],
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_214732_7958575.jsonl",
+  "fullCellCredit": 1,
+  "nativeQualification": "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json"
+}

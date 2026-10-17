@@ -1,0 +1,322 @@
+{
+  "schema": "QA26-OTHER150-MISSING-ONLY-PLAN-1",
+  "utc": "2026-10-17T01:03:18.405Z",
+  "requiredNativeDpi": 144,
+  "themes": [
+    "Dark",
+    "FollowWindows"
+  ],
+  "cases": [
+    {
+      "theme": "Dark",
+      "page": "Checkup",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_checkup_left_20261016_1792199527503.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Checkup",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_checkup_right_20261016_1792199533303.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Storage",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_storage_left_20261016_1792199590751.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Storage",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_storage_right_20261016_1792199596253.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Startup",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_startup_left_20261016_1792199624387.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Startup",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_startup_right_20261016_1792199631820.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Security",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_security_left_20261016_1792199659505.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Security",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_security_right_20261016_1792199667374.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Updates",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_updates_left_20261016_1792199697554.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Updates",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_updates_right_20261016_1792199703622.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Backup",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_backup_left_20261016_1792199743203.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Backup",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_backup_right_20261016_1792199749471.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "System",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_system_left_20261016_1792199814140.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "System",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_system_right_20261016_1792199821090.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Apps",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_apps_left_20261016_1792199857277.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Apps",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_apps_right_20261016_1792199865326.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Backup",
+      "key": "PageDown",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_backup_pagedown_20261016_1792199757156.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Backup",
+      "key": "PageUp",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_backup_pageup_20261016_1792199764376.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Backup",
+      "key": "Down",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_backup_down_20261016_1792199772491.jpg"
+    },
+    {
+      "theme": "Dark",
+      "page": "Backup",
+      "key": "Up",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/dark150_missingnav_backup_up_20261016_1792199779295.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Checkup",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_checkup_left_20261016_1792200035617.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Checkup",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_checkup_right_20261016_1792200044045.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Storage",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_storage_left_20261016_1792200086860.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Storage",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_storage_right_20261016_1792200096210.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Startup",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_startup_left_20261016_1792200137777.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Startup",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_startup_right_20261016_1792200145810.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Security",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_security_left_20261016_1792200187298.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Security",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_security_right_20261016_1792200195849.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Updates",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_updates_left_20261016_1792200244295.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Updates",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_updates_right_20261016_1792200254014.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Backup",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_backup_left_20261016_1792200307227.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Backup",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_backup_right_20261016_1792200316898.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "System",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_system_left_20261016_1792200401199.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "System",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_system_right_20261016_1792200410069.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Apps",
+      "key": "Left",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_apps_left_20261016_1792200457050.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Apps",
+      "key": "Right",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_apps_right_20261016_1792200467166.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Backup",
+      "key": "PageDown",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_backup_pagedown_20261016_1792200325748.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Backup",
+      "key": "PageUp",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_backup_pageup_20261016_1792200335716.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Backup",
+      "key": "Down",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_backup_down_20261016_1792200347065.jpg"
+    },
+    {
+      "theme": "FollowWindows",
+      "page": "Backup",
+      "key": "Up",
+      "status": "EXECUTED_OBSERVED_QUALIFICATION_PENDING",
+      "evidence": "screenshots/followwindows150_missingnav_backup_up_20261016_1792200356231.jpg"
+    }
+  ],
+  "excluded": "All completed Home/End/PageUp/PageDown/Up/Down rows; existing Dark Startup7-key batch; Apps6-key batches; scans/details/redirects/fixtures not rerun.",
+  "fullCellCredit": 0,
+  "transition": {
+    "from": "Light",
+    "to": "Dark",
+    "status": "DARK_APPLIED_SELECTOR_CONFIRMED_DARK20_EXECUTED_RAW_PENDING",
+    "evidence": "screenshots/dark150_transition_saved_1792199124002.jpg",
+    "utc": "2026-10-17T01:05:24.141Z",
+    "privacyAndUpdateChoicesUnchanged": true,
+    "reopenObservation": {
+      "utc": "2026-10-17T01:06:45.829Z",
+      "evidence": "screenshots/dark150_transition_existing_instance_message_1792199205827.jpg",
+      "message": "Nyx PC Checkup is already open for this Windows user.",
+      "classification": "UNRESOLVED_TRANSITION_OBSERVATION_NO_NEW_TEST_CREDIT",
+      "noProcessKilled": true,
+      "noExtraScan": true,
+      "recovery": "Existing taskbar window exposes Dark Home Ready; no genuine failure established, no F011 retest credit, no process killed."
+    },
+    "appliedWindowEvidence": "screenshots/dark150_transition_existing_dark_home_1792199258562.jpg"
+  },
+  "darkAppliedThemeEvidence": "screenshots/dark150_applied_dark_selector_1792199893064.jpg",
+  "followWindowsTransition": {
+    "utc": "2026-10-17T01:18:56.182Z",
+    "from": "Dark",
+    "to": "FollowWindows",
+    "status": "APPLIED_FOLLOWWINDOWS_SELECTOR_CONFIRMED_20_EXECUTED_RAW_PENDING",
+    "evidence": "screenshots/followwindows150_theme_save_1792199936182.jpg",
+    "appliedWindowEvidence": "screenshots/followwindows150_reopened_home_1792199976915.jpg"
+  },
+  "followWindowsAppliedThemeEvidence": "screenshots/followwindows150_applied_selector_1792200500593.jpg",
+  "nativeQualification": "VERIFIED_NATIVE144_DARK_PID9396_FOLLOWWINDOWS_PID6316_40_ASSERTIONS_ONLY"
+}

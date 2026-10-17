@@ -1,0 +1,124 @@
+{
+  "schema": "QA26-UPDATES-BACKUP-BOUNDARY-QUALIFIED-1",
+  "checks": [
+    {
+      "id": "dark150_updates_ctrl_end_20261013",
+      "utc": "2026-10-13T23:15:19.364Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "CtrlEnd from dotted first-row keyboard focus reaches final Last successful installation finding, final What Nyx found cell.",
+      "evidence": "screenshots/updates_ctrl_end_20261013.jpg"
+    },
+    {
+      "id": "dark150_updates_ctrl_home_20261013",
+      "utc": "2026-10-13T23:15:27.345Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "CtrlHome returns dotted focus to first Update restart Status cell.",
+      "evidence": "screenshots/updates_ctrl_home_20261013.jpg"
+    },
+    {
+      "id": "dark150_backup_ctrl_end_20261013",
+      "utc": "2026-10-13T23:16:14.658Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "CtrlEnd reaches final What Nyx found cell of preserved Backup finding with dotted focus.",
+      "evidence": "screenshots/backup_ctrl_end_20261013.jpg"
+    },
+    {
+      "id": "dark150_backup_ctrl_home_20261013",
+      "utc": "2026-10-13T23:16:21.348Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "CtrlHome returns dotted focus to first Status cell of Backup finding.",
+      "evidence": "screenshots/backup_ctrl_home_20261013.jpg"
+    }
+  ],
+  "measuredDpi": 144,
+  "pid": 9972,
+  "nativeBindings": [
+    {
+      "id": "dark150_updates_ctrl_end_20261013",
+      "utc": "2026-10-13T23:15:19.364Z",
+      "nearest": {
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-13T23:15:17.5276552Z",
+          "Pid": 9972,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "delta": 1837
+      }
+    },
+    {
+      "id": "dark150_updates_ctrl_home_20261013",
+      "utc": "2026-10-13T23:15:27.345Z",
+      "nearest": {
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-13T23:15:27.5466463Z",
+          "Pid": 9972,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "delta": 201
+      }
+    },
+    {
+      "id": "dark150_backup_ctrl_end_20261013",
+      "utc": "2026-10-13T23:16:14.658Z",
+      "nearest": {
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-13T23:16:12.5867364Z",
+          "Pid": 9972,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "delta": 2072
+      }
+    },
+    {
+      "id": "dark150_backup_ctrl_home_20261013",
+      "utc": "2026-10-13T23:16:21.348Z",
+      "nearest": {
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-13T23:16:22.5873022Z",
+          "Pid": 9972,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "delta": 1239
+      }
+    }
+  ],
+  "productFilesMatched": 60,
+  "installStateUnchanged": true,
+  "passCredit": 4,
+  "fail": 0,
+  "fullCellCredit": 0,
+  "scanStarted": false,
+  "productChanged": false
+}

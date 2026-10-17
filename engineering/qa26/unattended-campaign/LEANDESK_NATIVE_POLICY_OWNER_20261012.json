@@ -1,0 +1,34 @@
+{
+  "vmName": "LeanDesk-090-7bd5f6f-QA",
+  "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+  "source": "Owner-provided screenshot from requested guest preflight; console identity supplied by conversation, not visible in screenshot",
+  "PowerShellVersion": "5.1.26100.9444",
+  "PSEdition": "Desktop",
+  "User": "desktop-4d83osl\\nyx",
+  "PolicyList": [
+    {
+      "Scope": "MachinePolicy",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "UserPolicy",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "Process",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "CurrentUser",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "LocalMachine",
+      "Policy": "Undefined"
+    }
+  ],
+  "EffectivePolicy": "Restricted",
+  "testsRun": 0,
+  "policyChangedByQA": false,
+  "limitation": "Screenshot does not establish SID/admin state, cleanliness, candidate hashes, or VM identity independently."
+}

@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-15T21:41:49.721Z",
+  "payloadMatches": 60,
+  "mismatches": [],
+  "theme": "Light",
+  "metadataUnchanged": true,
+  "intervals": [
+    {
+      "page": "Cleanup",
+      "samples": 48,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1296
+      ],
+      "maxGapMs": 5016,
+      "startDeltaMs": 143,
+      "endDeltaMs": 955
+    },
+    {
+      "page": "Settings",
+      "samples": 70,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1296
+      ],
+      "maxGapMs": 5016,
+      "startDeltaMs": 1179,
+      "endDeltaMs": 2339
+    }
+  ],
+  "status": "CLEANUP_QUALIFIED_SETTINGS_REVIEW_PENDING",
+  "fullCellsAdded": 1,
+  "noTestsRepeated": true,
+  "independentVerdict": "RESERVED"
+}

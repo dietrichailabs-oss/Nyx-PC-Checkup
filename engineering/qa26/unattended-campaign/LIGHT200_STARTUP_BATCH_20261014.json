@@ -1,0 +1,40 @@
+{
+  "page": "Startup",
+  "theme": "Light",
+  "scale": 200,
+  "startUtc": "2026-10-14T22:48:48.490Z",
+  "endUtc": "2026-10-14T22:54:37.722Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "firstLastKeyboardRecovery": true,
+    "currentUserEnabledDisableReachable": true,
+    "reenableDisabledForEnabled": true,
+    "allUsersModificationDisabled": true,
+    "disabledControlsSkipped": true,
+    "openContainingFolderEnter": true,
+    "noStartupMutation": true,
+    "noFileExecution": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "screenshots": {
+    "controls": "screenshots/light200_startup_controls_20261014.jpg",
+    "grid": "screenshots/light200_startup_grid_20261014.jpg",
+    "keyboard": "screenshots/light200_startup_keyboard_20261014.jpg",
+    "last": "screenshots/light200_startup_last_20261014.jpg",
+    "readonly_toolbar": "screenshots/light200_startup_readonly_toolbar_20261014.jpg",
+    "readonly_refresh": "screenshots/light200_startup_readonly_refresh_20261014.jpg",
+    "first": "screenshots/light200_startup_first_20261014.jpg",
+    "currentuser": "screenshots/light200_startup_currentuser_20261014.jpg",
+    "disable_focus": "screenshots/light200_startup_disable_focus_20261014.jpg",
+    "folder_focus": "screenshots/light200_startup_folder_focus_20261014.jpg",
+    "folder": "screenshots/light200_startup_folder_20261014.jpg",
+    "idle_return": "screenshots/light200_startup_idle_return_20261014.jpg"
+  },
+  "limitations": [
+    "Reduced viewport requires keyboard horizontal recovery. Selected OneDrive filename off viewport; containing folder and selected item observed."
+  ],
+  "fullCellCredit": 1,
+  "nativeQualification": "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json"
+}

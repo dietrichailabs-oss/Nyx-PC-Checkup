@@ -1,0 +1,41 @@
+{
+  "page": "Backup",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:36:24.277Z",
+  "endUtc": "2026-10-14T00:38:11.590Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "sidebarScrollRecovery": true,
+    "practicalScrolling": true,
+    "visibleKeyboardFocus": true,
+    "firstLastGridRecovery": true,
+    "exactFindingEnter": true,
+    "essentialDetailReadable": true,
+    "keyboardClose": true,
+    "originFocusRestored": true,
+    "primaryKeyboardReachableNotActivated": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noBackupMutation": true
+  },
+  "limitations": [
+    "Reduced viewport and truncated grid text recover through exact finding details and scrolling.",
+    "Windows Backup destination not activated; no backup configuration or backup execution credited."
+  ],
+  "screenshots": [
+    "screenshots/dark200_backup_opening_20261013.jpg",
+    "screenshots/dark200_backup_controls_20261013.jpg",
+    "screenshots/dark200_backup_keyboard_20261013.jpg",
+    "screenshots/dark200_backup_last_20261013.jpg",
+    "screenshots/dark200_backup_detail_20261013.jpg",
+    "screenshots/dark200_backup_close_20261013.jpg",
+    "screenshots/dark200_backup_return_20261013.jpg",
+    "screenshots/dark200_backup_first_20261013.jpg",
+    "screenshots/dark200_backup_primary_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "observerPath": "live_20261014_003051_0482448.jsonl"
+}

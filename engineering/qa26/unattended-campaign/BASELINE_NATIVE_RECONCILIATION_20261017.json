@@ -1,0 +1,636 @@
+{
+  "schema": "QA26-APPROVED-BASELINE-NATIVE-RECONCILIATION-1",
+  "utc": "2026-10-17T01:54:48.819Z",
+  "status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+  "scope": "Saved baseline inspection and native preflight reconciliation only; no new suites executed",
+  "approvalUrl": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6134250470",
+  "inventoryEvidence": "BASELINE_AUDIT_20261012.json",
+  "inventoryScope": {
+    "vmCount": 6,
+    "checkpointCount": 28,
+    "uniqueDiskTargets": 35,
+    "offlineUserProfilesParsed": 69
+  },
+  "isolatedMailBaseline": {
+    "preparation": "qa26_vm_automation/mailarchive_native_20261012/preparation.json",
+    "nativeEvidence": "qa26_vm_automation/mailarchive_native_20261012/native-preflight-after-signin.json",
+    "sourceVmId": "9e9df1b1-0d76-448d-a181-b825545533d8",
+    "sourceStateAtPreparation": "Off",
+    "childVmId": "8a47a0da-1a2e-4dc2-8f7b-1e6dbba2117b",
+    "childVmName": "Nyx-QA26-MailBaseline-20261012",
+    "network": "Disconnected",
+    "PowerShellVersion": "5.1.26100.7920",
+    "PSEdition": "Desktop",
+    "WindowsBuild": "26200",
+    "User": "DESKTOP-4D83OSL\\Nyx",
+    "Sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+    "IsAdministrator": false,
+    "PolicyList": [
+      {
+        "Scope": "MachinePolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "UserPolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "Process",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "CurrentUser",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "LocalMachine",
+        "Policy": "Undefined"
+      }
+    ],
+    "EffectivePolicy": "Restricted",
+    "NyxInstallExists": false,
+    "NyxDataExists": false,
+    "NyxUninstallRegistration": false,
+    "PolicyChangedByCollector": false,
+    "TestsRun": 0,
+    "reason": "Effective Restricted does not permit exact frozen lifecycle/migration harness and direct imports of frozen unsigned runtime modules. No policy change, QA bypass, runtime signing, or launcher trampoline permitted."
+  },
+  "inspectedBaselines": [
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "LeanDesk-090-7bd5f6f-QA",
+      "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+      "checkpointName": null,
+      "checkpointId": null,
+      "nativeEffectivePolicy": "Restricted",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx_B20E52E1-2993-4B56-94E7-8E4A3B73384C.avhdx",
+          "inspection": "READ_ONLY_INSPECTION_ERROR"
+        }
+      ],
+      "disposition": "NATIVE_RESTRICTED_CANNOT_EXECUTE_FROZEN_HARNESS"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "LeanDesk-090-7bd5f6f-QA",
+      "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+      "checkpointName": "Automatic Checkpoint - LeanDesk-090-7bd5f6f-QA - (9/20/2026 - 2:40:44 PM)",
+      "checkpointId": "9f2f9078-3211-4284-adca-f50b2cfb4e8e",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx.vhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "LeanDeskC6LifecycleQA_20260826",
+      "vmId": "8e53bd51-0b7b-4ea7-bd53-eecec323f0ea",
+      "checkpointName": null,
+      "checkpointId": null,
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_A81ADD85-5FEC-4547-9984-B508E15DE8E4.avhdx",
+          "inspection": "READ_ONLY_INSPECTION_ERROR"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "LeanDeskC6LifecycleQA_20260826",
+      "vmId": "8e53bd51-0b7b-4ea7-bd53-eecec323f0ea",
+      "checkpointName": "Pre-LeanDesk081-20260830_2028",
+      "checkpointId": "3133a7da-64cd-4454-924d-f9fd59c999c6",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_6139BC01-BB5E-4FA7-8481-FF514B83D3B2.avhdx",
+          "inspection": "READ_ONLY_INSPECTION_ERROR"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "LeanDeskC6LifecycleQA_20260826",
+      "vmId": "8e53bd51-0b7b-4ea7-bd53-eecec323f0ea",
+      "checkpointName": "Pre-RangeScout164-20260831_1439",
+      "checkpointId": "e17b1a5e-bb96-4f4a-bed5-f9a27a3e9519",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_14229E59-9AC0-4C32-99D4-A5927332B091.avhdx",
+          "inspection": "READ_ONLY_INSPECTION_ERROR"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "MailArchiveDev18SecurityQA_20260902",
+      "vmId": "9e9df1b1-0d76-448d-a181-b825545533d8",
+      "checkpointName": null,
+      "checkpointId": null,
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\MailArchiveDev18SecurityQA_20260902\\Virtual Hard Disks\\MailArchiveDev18SecurityQA_OS.vhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        },
+        {
+          "path": "I:\\MailArchiveDev18SecurityQA_20260902\\Virtual Hard Disks\\MailArchiveDev18SecurityQA_Evidence.vhdx",
+          "inspection": "WINDOWS_VOLUME_NOT_DETECTED"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": null,
+      "checkpointId": null,
+      "nativeEffectivePolicy": "Restricted",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+          "inspection": "READ_ONLY_INSPECTION_ERROR"
+        }
+      ],
+      "disposition": "NATIVE_RESTRICTED_CANNOT_EXECUTE_FROZEN_HARNESS"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "EXEC004_PRETEST_20260804_0844",
+      "checkpointId": "07126637-ce84-43cc-a69b-fb4ae445f9ce",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx.vhdx",
+          "inspection": "WINDOWS_VOLUME_NOT_DETECTED"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Nyx - (8/4/2026 - 10:11:06 AM)",
+      "checkpointId": "03694aef-e568-4810-a8f9-956c47b70a8c",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_70636C92-2785-4C86-86A9-37EC7210CECB.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Pre-RangeScout164-20260831_1450",
+      "checkpointId": "cdf74f06-5491-4d7e-b667-c84414fad6ad",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_3CDF463A-91C1-4E13-8479-E1FF68918215.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Pre-LeanDesk090-Lifecycle_20260903_164140",
+      "checkpointId": "101cb7aa-2ad2-44d6-956c-f6829d165f93",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5180FFC8-D7F0-445F-A9B5-428EB6FCDDEC.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA15_BEFORE_BOUNDS_CLASSIFICATION_20260926_140749",
+      "checkpointId": "b9f102f2-0cb6-40b7-a03b-c5f3a5132c4d",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_EB5B467F-F694-4F70-A395-1EF7AAB02B20.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA16_BEFORE_F013_20260926_154559",
+      "checkpointId": "3a8421d2-dc30-4587-8cf4-b5f39c9276a7",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5B463DE8-FAB2-4FE7-8960-1D61C25EE735.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA16_FROZEN_BEFORE_QA17_20260926_204520",
+      "checkpointId": "0b2b0c98-551e-4d1a-979f-b08c3689143e",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_3770CE7D-E9E6-4980-BF68-1AB1BB49A744.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA17_FROZEN_BEFORE_QA18_20260926_211932",
+      "checkpointId": "6b51b7ee-2457-48af-82c7-dd3d74879b12",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_B7D641F9-C202-41AD-B546-827FAEC9ED9A.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA18_FROZEN_BEFORE_QA19_20260926_215258",
+      "checkpointId": "6695468c-5276-42f9-82b4-08cbe6df458c",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_199B6E8B-1319-4065-8374-D7B7458B45A7.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_094112",
+      "checkpointId": "cebee246-9878-4111-b0f2-1679bd91fadd",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_DC178612-9F25-4C0A-944D-F0DCD6960E15.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_094847",
+      "checkpointId": "b0df14d8-bb60-4f94-995d-eb33f7331944",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_13AEE7E8-8F94-467A-88C2-CBA9F54F69F9.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_095053",
+      "checkpointId": "b247647b-d162-422c-a636-c41e1fd2da10",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C7E9CF9-2F42-44D6-94E7-7E9A7A955486.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_095356",
+      "checkpointId": "8323e691-011c-4f54-ba37-7c23a782941e",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_35DADAA8-0519-4057-9AFA-1F5340E33577.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_PRESERVED_BEFORE_QA20_20260927_102927",
+      "checkpointId": "ddbffd7a-5206-4d7e-af28-d45a77898cb7",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_72E31D40-C63E-4A2E-B6B3-B8546B7F3A06.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA20_PRESERVED_BEFORE_QA21_20260927_105405",
+      "checkpointId": "83de8218-1e54-4682-9e96-27339e8345ef",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_213AFD61-4DE1-4E06-AFE0-CDCE4A0ECE48.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA21_PRESERVED_BEFORE_QA22_20260927_135209",
+      "checkpointId": "6ee0e5d4-0c12-4d80-968c-ddc60c65c136",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_25A18483-2644-4047-B1B8-41E415569FEE.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA22_BEFORE_CONTROLLED_F019_20260927_142505",
+      "checkpointId": "9ed4aab2-b394-46b4-a155-c69f577bfbb7",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_497BB009-80BA-4FB5-9DE9-0D4C22D49049.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA22_PRESERVED_BEFORE_QA23_20260927_170636",
+      "checkpointId": "6aedc3ab-20fa-4d04-8ebb-fb59231f4fd3",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_440ACCA0-2C3E-4E26-BA7C-C4A2F1D470E8.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA23_PRESERVED_BEFORE_QA24_20260927_192231",
+      "checkpointId": "f1ed309a-0a88-4540-9bbf-05d2c1b73441",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_4ECA8D9C-3D1E-4EFD-B1F1-CB802F77F5AC.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA24_PRESERVED_BEFORE_QA25_20260928_193319",
+      "checkpointId": "87b3af79-1cd0-4acc-91fe-ca5a23e3f5bd",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_CB96EB45-A45E-4253-B490-D39754A752CB.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA24_PRESERVED_BEFORE_QA25_20261002_213750",
+      "checkpointId": "ae5bfacb-4282-4b03-9529-4edc75cf99c2",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_66F91873-E092-45DA-8743-DF79BB769A14.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA25_FROZEN_BEFORE_QA26_20261002_225346",
+      "checkpointId": "e3950ceb-e61d-4ce8-abdc-c3431c54143b",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_9B2EFC85-AA7B-4C52-8199-E5DDA85C5D4E.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Nyx - (10/11/2026 - 9:57:43 AM)",
+      "checkpointId": "b5a61454-4f13-4d35-a0e3-d1d64f36a2b6",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "Nyx-QA26-Clean-20261011",
+      "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+      "checkpointName": null,
+      "checkpointId": null,
+      "nativeEffectivePolicy": "AllSigned",
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean_7BD6CC99-7A0D-4C09-BAAB-81BFA4227E6C.avhdx",
+          "inspection": "READ_ONLY_INSPECTION_ERROR"
+        }
+      ],
+      "disposition": "NATIVE_ALLSIGNED_BLOCKS_FROZEN_UNSIGNED_RUNTIME_IMPORTS"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx-QA26-Clean-20261011",
+      "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+      "checkpointName": "Automatic Checkpoint - Nyx-QA26-Clean-20261011 - (10/11/2026 - 7:15:15 PM)",
+      "checkpointId": "3aaae941-acf4-4418-9461-5058db46227c",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean.vhdx",
+          "inspection": "WINDOWS_VOLUME_NOT_DETECTED"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "Nyx-QA26-Disposable-20261011",
+      "vmId": "a249c204-2794-4807-90e6-28a129989059",
+      "checkpointName": null,
+      "checkpointId": null,
+      "nativeEffectivePolicy": "AllSigned",
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable_401B61DA-F512-4E96-9413-5C733041F96E.avhdx",
+          "inspection": "READ_ONLY_INSPECTION_ERROR"
+        }
+      ],
+      "disposition": "NATIVE_ALLSIGNED_BLOCKS_FROZEN_UNSIGNED_RUNTIME_IMPORTS"
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx-QA26-Disposable-20261011",
+      "vmId": "a249c204-2794-4807-90e6-28a129989059",
+      "checkpointName": "Automatic Checkpoint - Nyx-QA26-Disposable-20261011 - (10/11/2026 - 10:22:57 AM)",
+      "checkpointId": "942f767d-93ad-4c10-8ed8-46cbe565e18a",
+      "nativeEffectivePolicy": null,
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable.vhdx",
+          "inspection": "READ_ONLY_USER_METADATA_COLLECTED",
+          "windowsBuild": "26200",
+          "installationType": "Client"
+        }
+      ],
+      "disposition": "INSPECTED_NOT_NATIVELY_QUALIFIED_NO_COMPATIBLE_BASELINE_CREDIT"
+    }
+  ],
+  "qualifiedCompatibleBaselines": 0,
+  "limits": "No qualified compatible baseline is available. Inaccessible chains, undetected Windows volumes, and offline absent policy values are not proof of native incompatibility; do not claim all possible baselines inherently incompatible.",
+  "affectedSuites": [
+    "InstallerLifecycle",
+    "QA2Migration"
+  ],
+  "testsRun": 0,
+  "policyChanged": false,
+  "productChanged": false,
+  "qaBypassAdded": false,
+  "metadataReviewSeparate": true,
+  "nextPrerequisite": "Independent QA approved accessible untouched pre-existing native PS5.1 baseline qualification; no request to change policy or weaken security."
+}

@@ -1,0 +1,23 @@
+{
+  "recordedUtc": "2026-10-12T21:44:57.152Z",
+  "vm": "Nyx-QA26-Clean-20261011",
+  "status": "COMPLETED_REPORTED_PASS_QUARANTINED_POLICY_CONFLICT",
+  "consoleReportedPassed": 39,
+  "consoleReportedTotal": 39,
+  "creditedChecks": 0,
+  "guestReport": "C:\\NyxQA26SignedResults\\f011.json",
+  "scopeConflict": "Run-WindowsInstalledLaunchRegression.ps1 Start-NyxInstalledControl ScriptNoSta and ScriptSta explicitly pass -ExecutionPolicy Bypass, forbidden by the campaign directive.",
+  "cancellation": "Ctrl+C sent after conflict identified; subsequent screen showed completed 39/39 PASS report and returned prompt. Cannot claim cancellation preceded control execution.",
+  "productFailure": false,
+  "independentAcceptance": "NOT_ISSUED",
+  "nextAction": "Resolve no-bypass directive conflict before any further installed-launch testing; preserve completed raw and do not rerun unchanged predicates.",
+  "rawCollected": true,
+  "rawReport": "f011-quarantined-20261012/f011.json",
+  "rawSHA256": "a5539f18e62f9f3b980f37f889d1afa2b1bdcd7a1f19c4356653af2d3688492b",
+  "rawBytes": 39726,
+  "startedUtc": "2026-10-12T21:33:43.8943851Z",
+  "completedUtc": "2026-10-12T21:34:22.0343003Z",
+  "elapsedSeconds": 38.14,
+  "isAdministrator": false,
+  "policyEvidence": "Raw Controls/Application/CommandLine confirms -ExecutionPolicy Bypass for Shortcut, NativeExe, ScriptNoSta, ScriptSta and relaunch. Installed launcher itself uses this argument, not only harness direct-script controls."
+}

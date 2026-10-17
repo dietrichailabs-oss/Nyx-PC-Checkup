@@ -1,0 +1,34 @@
+{
+  "page": "Checkup",
+  "theme": "Light",
+  "scale": 200,
+  "startUtc": "2026-10-14T22:39:59.056Z",
+  "endUtc": "2026-10-14T22:41:31.597Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "primaryControlsKeyboardReachable": true,
+    "firstLastKeyboardRecovery": true,
+    "detailEnterReadable": true,
+    "keyboardClose": true,
+    "originFocusReturn": true,
+    "practicalScrolling": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "screenshots": [
+    "screenshots/light200_checkup_controls_20261014.jpg",
+    "screenshots/light200_checkup_keyboard_20261014.jpg",
+    "screenshots/light200_checkup_last_20261014.jpg",
+    "screenshots/light200_checkup_first_20261014.jpg",
+    "screenshots/light200_checkup_detail_20261014.jpg",
+    "screenshots/light200_checkup_close_20261014.jpg",
+    "screenshots/light200_checkup_return_20261014.jpg",
+    "screenshots/light200_checkup_full_focus_20261014.jpg",
+    "screenshots/light200_checkup_quick_focus_20261014.jpg"
+  ],
+  "limitations": [
+    "Reduced grid viewport and truncation recovered through ordinary scrolling and exact detail."
+  ],
+  "fullCellCredit": 1,
+  "nativeQualification": "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json"
+}

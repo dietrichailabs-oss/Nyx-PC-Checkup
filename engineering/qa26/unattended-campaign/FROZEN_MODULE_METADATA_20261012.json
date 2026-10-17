@@ -1,0 +1,15 @@
+{
+  "sourceArchiveSHA256": "4bdac6fd0e071a100550cfceea59c5ced0180c36c05873981d623147f02b9c25",
+  "frozenModuleSHA256": "e97a0da8eefeabdc36e89a59e789a8a2e59bd49cf45a5205f6f14904fdb50d95",
+  "frozenModuleBytes": 15055,
+  "frozenSignatureStatus": "NotSigned",
+  "localModuleSHA256": "b8b92c43e468d2c9704ce210a799a5af668736bd269449b386961ee1e3b14f18",
+  "localModuleBytes": 15054,
+  "frozenCRLFCount": 154,
+  "localCRLFCount": 153,
+  "canonicalLFTextEqual": true,
+  "difference": "One CRLF versus LF newline; no normalized source-content difference.",
+  "productModified": false,
+  "testsRerun": false,
+  "installedFrozenHashMatches": true
+}

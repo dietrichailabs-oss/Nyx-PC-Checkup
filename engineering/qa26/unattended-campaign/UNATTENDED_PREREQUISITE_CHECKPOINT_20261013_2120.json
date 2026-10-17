@@ -1,0 +1,21 @@
+{
+  "schema": "QA26-UNATTENDED-PREREQUISITE-CHECKPOINT-1",
+  "utc": "2026-10-14T01:24:55.9049153Z",
+  "status": "BLOCKED_HUMAN_GUEST_DISPLAY",
+  "screenshot": "screenshots/qa26_guest_display_blocker_20261013_2120.jpg",
+  "observed": "Nyx on MARK console Running but black; activation and one fresh-binding recovery did not restore display.",
+  "newTestsExecuted": 0,
+  "newCellCredit": 0,
+  "productModified": false,
+  "scanStarted": false,
+  "reviewDecisionPending": true,
+  "dependencies": [
+    "Restore visible original guest desktop without restart/discard; sign in normally if prompted",
+    "Fresh measured DPI and exact identity collection require normal authorized human prerequisites",
+    "Other theme/scaling sessions require normal sign-in where applicable",
+    "Windows Security controls remain human-only",
+    "Lifecycle/migration lack a qualified untouched compatible PS5.1 baseline; no policy changes",
+    "Settings readability classification remains reserved to Independent QA"
+  ],
+  "nextAction": "Restore guest access and resume only missing predicates; preserve existing authoritative scans and completed evidence."
+}

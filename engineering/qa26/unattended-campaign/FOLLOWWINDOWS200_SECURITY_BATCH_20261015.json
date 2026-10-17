@@ -1,0 +1,46 @@
+{
+  "page": "Security",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T22:45:45.689Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "page": "screenshots/followwindows200_security_page_20261015.jpg",
+    "controls": "screenshots/followwindows200_security_controls_20261015.jpg",
+    "grid": "screenshots/followwindows200_security_grid_20261015.jpg",
+    "last": "screenshots/followwindows200_security_last_20261015.jpg",
+    "detail": "screenshots/followwindows200_security_detail_20261015.jpg",
+    "close": "screenshots/followwindows200_security_close_20261015.jpg",
+    "origin": "screenshots/followwindows200_security_origin_20261015.jpg",
+    "first": "screenshots/followwindows200_security_first_20261015.jpg",
+    "primary_focus": "screenshots/followwindows200_security_primary_focus_20261015.jpg",
+    "human_destination": "screenshots/followwindows200_security_human_destination_20261015.jpg",
+    "human_return": "screenshots/followwindows200_security_human_return_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "firstLastKeyboardRecovery": true,
+    "exactUnknownDetailEnterReadable": true,
+    "keyboardCloseOriginReturn": true,
+    "primaryKeyboardReachable": true,
+    "noProtectionChange": true,
+    "noScanStarted": true,
+    "noObservedException": true,
+    "humanWindowsSecurityRedirectDestination": true,
+    "humanClosesWindowsSecurity": true
+  },
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_223305_0833913.jsonl",
+  "fullCellCredit": 1,
+  "endUtc": "2026-10-15T22:50:35.897Z",
+  "pendingPredicates": [],
+  "limitations": [
+    "200% reduced viewport requires keyboard scrolling and full finding detail. Owner alone opened and closed Windows Security; no protection controls changed. Destination screenshot has partial host-overlay occlusion but Security at a glance and Virus & threat protection are visible."
+  ],
+  "humanRedirect": {
+    "utc": "2026-10-15T22:49:10.852Z",
+    "input": "Owner pressed Enter on focused Nyx Open Windows Security button",
+    "observed": "Security at a glance with Virus & threat protection visible; left portion occluded by host overlay",
+    "agentSecurityAppInput": false
+  },
+  "nativeQualification": "FOLLOWWINDOWS200_APPS_SECURITY_QUALIFICATION_20261015.json"
+}

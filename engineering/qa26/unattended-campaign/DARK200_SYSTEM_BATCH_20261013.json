@@ -1,0 +1,41 @@
+{
+  "page": "System",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:40:03.128Z",
+  "endUtc": "2026-10-14T00:42:07.648Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "practicalScrolling": true,
+    "visibleKeyboardFocus": true,
+    "firstLastGridRecovery": true,
+    "exactFindingEnter": true,
+    "essentialDetailReadable": true,
+    "keyboardClose": true,
+    "originFocusRestored": true,
+    "primaryKeyboardReachableNotActivated": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noSystemMutation": true
+  },
+  "limitations": [
+    "Reduced viewport/truncated grid text recover through scrolling and exact finding details.",
+    "Windows System About destination not activated in this cell; no OS setting change credited."
+  ],
+  "screenshots": [
+    "screenshots/dark200_system_opening_20261013.jpg",
+    "screenshots/dark200_system_controls_20261013.jpg",
+    "screenshots/dark200_system_grid_20261013.jpg",
+    "screenshots/dark200_system_keyboard_20261013.jpg",
+    "screenshots/dark200_system_last_20261013.jpg",
+    "screenshots/dark200_system_detail_20261013.jpg",
+    "screenshots/dark200_system_close_20261013.jpg",
+    "screenshots/dark200_system_return_20261013.jpg",
+    "screenshots/dark200_system_first_20261013.jpg",
+    "screenshots/dark200_system_primary_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "observerPath": "live_20261014_003051_0482448.jsonl"
+}

@@ -1,0 +1,49 @@
+{
+  "createdUtc": "2026-10-11T20:10:23.704Z",
+  "status": "PREPARED_NOT_EXECUTED",
+  "candidate": {
+    "source": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+    "build": "2026.10.02-eng-qa26",
+    "harness": "QA26-F023-PS51-26",
+    "immutable": true
+  },
+  "scope": "Nyx-QA26-Disposable-20261011 only",
+  "knownPrerequisites": {
+    "status": "POLICY_CHANGE_DECLINED_BY_USER",
+    "vm": "Nyx-QA26-Disposable-20261011",
+    "computer": "DESKTOP-4D83OSL",
+    "policies": {
+      "MachinePolicy": "Undefined",
+      "UserPolicy": "Undefined",
+      "Process": "Undefined",
+      "CurrentUser": "Undefined",
+      "LocalMachine": "Undefined"
+    },
+    "effectivePolicy": "Restricted",
+    "signingCertificateCount": 0,
+    "policyChanged": false,
+    "requestedSetup": "CurrentUser RemoteSigned on disposable guest only; original guest and host unchanged; no Bypass or Unrestricted",
+    "utc": "2026-10-11T15:37:52.081Z",
+    "declinedSetup": "CurrentUser RemoteSigned disposable VM"
+  },
+  "findings": [
+    "Restricted denies signed scripts too.",
+    "AllSigned requires a separately approved execution-policy change and trusted publisher.",
+    "Signing frozen product or harness files changes their bytes and hashes; signed copies cannot be represented as the frozen candidate.",
+    "No signing certificate was found in the previous disposable-guest inspection."
+  ],
+  "nextDecision": "Approve a disposable-guest-only policy route that can execute the unchanged frozen files, or supply an already trusted, byte-identical runnable candidate. Do not implement certificate trust or policy changes under preparation-only authorization.",
+  "prohibited": [
+    "Bypass",
+    "Unrestricted",
+    "Executing blocked script bodies via alternate invocation",
+    "Signing or modifying frozen candidate files"
+  ],
+  "changesMade": {
+    "policy": false,
+    "certificates": false,
+    "product": false,
+    "testsExecuted": false
+  },
+  "reference": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1"
+}

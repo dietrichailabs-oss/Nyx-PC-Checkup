@@ -1,0 +1,72 @@
+{
+  "id": "dark150_startup_missing_navigation_batch_20261012",
+  "status": "PASS_NATIVE_144DPI_SAME_INSTALL_COMPONENT",
+  "observedTheme": "Dark",
+  "requestedScale": 150,
+  "testedKeys": [
+    "Home",
+    "End",
+    "PageDown",
+    "PageUp",
+    "Down",
+    "Up",
+    "Ctrl+Home"
+  ],
+  "testedAssertions": 7,
+  "failed": 0,
+  "fullCellCredit": 0,
+  "records": [
+    {
+      "key": "Home",
+      "utc": "2026-10-12T22:42:36.165Z",
+      "evidence": "screenshots/dark150_startup_home_navigation_20261012.jpg",
+      "observation": "First row selected; leftmost State/Application columns revealed; no modal/action/scan. Visible-cell focus cue requires next comparison.",
+      "keyboardFocusSupport": "screenshots/dark150_startup_pagedown_selected_identity_20261012.jpg"
+    },
+    {
+      "key": "End",
+      "utc": "2026-10-12T22:43:02.862Z",
+      "evidence": "screenshots/dark150_startup_end_navigation_20261012.jpg",
+      "observation": "Horizontal navigation reveals Nyx control/File exists/Impact; current-user reversible and all-user read-only labels and Not measured values visible. No action or scan.",
+      "keyboardFocusSupport": "screenshots/dark150_startup_ctrlhome_setup_20261012.jpg"
+    },
+    {
+      "key": "PageDown",
+      "utc": "2026-10-12T22:44:01.354Z",
+      "evidence": "screenshots/dark150_startup_pagedown_navigation_20261012.jpg",
+      "observation": "Focus moved to lower Impact cell and vertical scrolling revealed later all-users read-only row; dotted focus retained; no dialog/action/scan.",
+      "selectedRow": "SecurityHealth / Microsoft Corporation / All users Run",
+      "identityEvidence": "screenshots/dark150_startup_pagedown_selected_identity_20261012.jpg"
+    },
+    {
+      "key": "PageUp",
+      "utc": "2026-10-12T22:44:43.578Z",
+      "evidence": "screenshots/dark150_startup_pageup_navigation_20261012.jpg",
+      "observation": "Returned to first current-user desktop row with dotted State-cell focus; later rows remain reachable; no activation."
+    },
+    {
+      "key": "Down",
+      "utc": "2026-10-12T22:45:01.063Z",
+      "evidence": "screenshots/dark150_startup_down_navigation_20261012.jpg",
+      "observation": "Moved exactly one row from current-user desktop to all-users desktop with dotted State-cell focus; no activation."
+    },
+    {
+      "key": "Up",
+      "utc": "2026-10-12T22:45:38.743Z",
+      "evidence": "screenshots/dark150_startup_up_navigation_20261012.jpg",
+      "observation": "Returned exactly one row to current-user desktop with visible State-cell focus; no activation."
+    },
+    {
+      "key": "Ctrl+Home",
+      "utc": "2026-10-12T22:47:00.256Z",
+      "evidence": "screenshots/dark150_startup_ctrlhome_navigation_20261012.jpg",
+      "observation": "From second all-users row/rightmost Impact cell, CtrlHome returned first current-user row/leftmost State with dotted focus; no action or scan."
+    }
+  ],
+  "observerLaunchUtc": "2026-10-12T22:41:30.845Z",
+  "alreadyCompletedExcluded": "CtrlEnd and previously captured file-location/resize/readonly predicates not rerun for credit",
+  "scope": "Seven missing native-installed Startup navigation assertions;73 samples144DPI PID9972;all predicate times within2495ms;60/60 frozen files match;no scan/startup/policy/product change. Not entire Startup cell or independent acceptance.",
+  "nativeDpi": 144,
+  "pid": 9972,
+  "nativeEvidence": "startup-navigation-native-20261012/NATIVE_ASSESSMENT.json"
+}

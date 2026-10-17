@@ -1,0 +1,268 @@
+{
+  "status": "QUALIFIED_SUPPLEMENT",
+  "nativeDpi": 192,
+  "theme": "Dark",
+  "interval": {
+    "startUtc": "2026-10-14T22:09:30.810Z",
+    "endUtc": "2026-10-14T22:11:12.828Z",
+    "samples": 22,
+    "all192": true,
+    "samePid": true,
+    "maxGapMs": 5017,
+    "startCovered": true,
+    "endCovered": true
+  },
+  "files": [
+    {
+      "Path": "LICENSE.txt",
+      "match": true
+    },
+    {
+      "Path": "Nyx PC Checkup.exe",
+      "match": true
+    },
+    {
+      "Path": "PAYLOAD_MANIFEST.json",
+      "match": true
+    },
+    {
+      "Path": "README_FIRST.md",
+      "match": true
+    },
+    {
+      "Path": "SBOM.json",
+      "match": true
+    },
+    {
+      "Path": "THIRD_PARTY_NOTICES.txt",
+      "match": true
+    },
+    {
+      "Path": "Uninstall Nyx PC Checkup.exe",
+      "match": true
+    },
+    {
+      "Path": "VERSION.json",
+      "match": true
+    },
+    {
+      "Path": "app/NyxPCCheckup.ps1",
+      "match": true
+    },
+    {
+      "Path": "app/actions/CleanupActions.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/actions/StartupActions.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/assets/brand_banner.png",
+      "match": true
+    },
+    {
+      "Path": "app/assets/nyx_pc_checkup.ico",
+      "match": true
+    },
+    {
+      "Path": "app/assets/nyx_pc_checkup.png",
+      "match": true
+    },
+    {
+      "Path": "app/checks/BackupStatus.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/BatteryHealth.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/CleanupScan.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/DownloadsAnalysis.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/DriveHealth.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/InstalledApps.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/NetworkBasics.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/PerformanceSnapshot.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/SecurityStatus.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/StartupApps.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/StorageHealth.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/StorageScan.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/SystemInfo.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/Uptime.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/checks/WindowsUpdates.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/config/defaults.json",
+      "match": true
+    },
+    {
+      "Path": "app/core/ActionHistory.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/core/CheckupEngine.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/core/Configuration.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/core/Diagnostics.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/core/Models.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/core/Paths.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/core/Privacy.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/core/RuntimeComposition.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/health_rules/HealthRules.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/health_rules/rules.json",
+      "match": true
+    },
+    {
+      "Path": "app/platform/windows/WindowsHelpers.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/reports/PdfWriter.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/reports/ReportExport.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/ui/Controls.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/ui/Dialogs.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/ui/MainWindow.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/ui/Theme.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/updates/Manifest.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/updates/Preferences.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/updates/UpdateChecker.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/updates/Versioning.psm1",
+      "match": true
+    },
+    {
+      "Path": "app/workers/ActionWorker.ps1",
+      "match": true
+    },
+    {
+      "Path": "app/workers/InstallWorker.ps1",
+      "match": true
+    },
+    {
+      "Path": "app/workers/ScanWorker.ps1",
+      "match": true
+    },
+    {
+      "Path": "app/workers/UninstallWorker.ps1",
+      "match": true
+    },
+    {
+      "Path": "app/workers/UpdateCheckWorker.ps1",
+      "match": true
+    },
+    {
+      "Path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "match": true
+    },
+    {
+      "Path": "docs/KNOWN_LIMITATIONS.md",
+      "match": true
+    },
+    {
+      "Path": "docs/PRIVACY_AND_SECURITY.md",
+      "match": true
+    },
+    {
+      "Path": "docs/USER_GUIDE.md",
+      "match": true
+    }
+  ],
+  "installedMetadata": {
+    "Product": "Nyx PC Checkup",
+    "Version": "1.0.0",
+    "Build": "2026.10.02-eng-qa26",
+    "InstalledUtc": "2026-10-13T23:30:57.2413842Z",
+    "InstallRoot": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+    "PayloadManifestSha256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B"
+  },
+  "priorQualification": "DARK200_CLEANUP_SETTINGS_NATIVE_QUALIFICATION_20261013.json",
+  "repeatedTests": 0,
+  "independentFinalVerdictReserved": true
+}

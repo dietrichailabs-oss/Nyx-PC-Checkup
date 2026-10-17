@@ -1,0 +1,42 @@
+{
+  "page": "Storage",
+  "theme": "FollowWindows",
+  "requestedScale": 125,
+  "startUtc": "2026-10-15T23:04:18.885Z",
+  "endUtc": "2026-10-15T23:04:18.885Z",
+  "status": "EXECUTED_PRESERVED_HOLD_METADATA_REVIEW",
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_225938_8324097.jsonl",
+  "screenshots": {
+    "context": "screenshots/followwindows125_storage_applied_context_20261015.jpg"
+  },
+  "observations": {
+    "pageExplanationAndThreePrimaryLabelsReadable": true,
+    "controlsAndPopulatedFindingsContained": true,
+    "noNewScan": true,
+    "noObservedException": true
+  },
+  "functionalPredicatesNotRepeated": [
+    "Downloads redirect",
+    "Windows Storage destination",
+    "real Full completion",
+    "Enter finding detail",
+    "keyboard origin return"
+  ],
+  "preservedEvidence": [
+    "screenshots/followwindows125_native120dpi_verified.png",
+    "screenshots/followwindows125_sidebar_scroll.png",
+    "screenshots/followwindows125_storage_downloads.png",
+    "screenshots/followwindows125_storage_enter_details.png",
+    "screenshots/followwindows125_storage_focus_recovery.png",
+    "screenshots/followwindows125_storage_full_dispatch.png",
+    "screenshots/followwindows125_storage_downloads.png",
+    "screenshots/followwindows125_storage_full_finished.png",
+    "screenshots/followwindows125_storage_credential_prompt.png",
+    "screenshots/followwindows125_storage_os_destination_20261006001820908_c8ef62a9.png",
+    "screenshots/followwindows125_storage_enter_details_20261006002214975_33c422a9.png",
+    "screenshots/followwindows125_storage_keyboard_return_20261006002243236_6549c50a.png",
+    "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+  ],
+  "fullCellCredit": 0,
+  "nativeQualification": "FOLLOWWINDOWS125_NATIVE_QUALIFICATION_HOLD_20261015.json"
+}

@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-15T22:07:18.408Z",
+  "payloadMatches": 60,
+  "mismatches": [],
+  "theme": "FollowWindows",
+  "windowsTheme": {
+    "AppsUseLightTheme": 1,
+    "SystemUsesLightTheme": 1
+  },
+  "metadataUnchanged": true,
+  "intervals": [
+    {
+      "page": "Home",
+      "samples": 60,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5017,
+      "startDeltaMs": 1785,
+      "endDeltaMs": 502
+    },
+    {
+      "page": "Checkup",
+      "samples": 49,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5017,
+      "startDeltaMs": 291,
+      "endDeltaMs": 1066
+    },
+    {
+      "page": "Storage",
+      "samples": 102,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5016,
+      "startDeltaMs": 2259,
+      "endDeltaMs": 1375
+    }
+  ],
+  "status": "THREE_CELLS_QUALIFIED_BEST_EFFORT",
+  "fullCellsAdded": 3,
+  "noTestsRepeated": true,
+  "independentVerdict": "RESERVED"
+}

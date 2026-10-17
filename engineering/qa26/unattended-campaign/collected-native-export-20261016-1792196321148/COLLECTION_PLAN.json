@@ -1,0 +1,84 @@
+{
+  "utc": "2026-10-17T00:18:57.647Z",
+  "sourceDisk": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\live_evidence_export_20261016_1792186891822\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+  "readOnlyProof": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/inspect-export-readonly-20261016.log",
+  "operations": [
+    {
+      "source": "J:/Users/Nyx/AppData/Local/NyxQA26NativeDpi",
+      "dest": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148/observer",
+      "files": [
+        "*.jsonl"
+      ],
+      "tree": true
+    },
+    {
+      "source": "J:/Users/Nyx/AppData/Local/Programs/Dietrich AI Labs/Nyx PC Checkup",
+      "dest": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148/installed",
+      "files": [
+        "*"
+      ],
+      "tree": true,
+      "exclude": [
+        "install-state.json"
+      ]
+    },
+    {
+      "source": "J:/Users/Nyx/AppData/Local/Dietrich AI Labs/Nyx PC Checkup",
+      "dest": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148/data",
+      "files": [
+        "config.json"
+      ],
+      "tree": false
+    },
+    {
+      "source": "J:/Users/Nyx/AppData/Local/Dietrich AI Labs/Nyx PC Checkup/scans",
+      "dest": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148/data/scans",
+      "files": [
+        "*.json",
+        "*.jsonl",
+        "*.log",
+        "*.txt"
+      ],
+      "tree": true
+    },
+    {
+      "source": "J:/Users/Nyx/AppData/Local/Dietrich AI Labs/Nyx PC Checkup/reports",
+      "dest": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148/data/reports",
+      "files": [
+        "*.json",
+        "*.jsonl",
+        "*.log",
+        "*.txt"
+      ],
+      "tree": true
+    },
+    {
+      "source": "J:/Users/Nyx/AppData/Local/Dietrich AI Labs/Nyx PC Checkup/logs",
+      "dest": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148/data/logs",
+      "files": [
+        "*.json",
+        "*.jsonl",
+        "*.log",
+        "*.txt"
+      ],
+      "tree": true
+    },
+    {
+      "source": "J:/Users/Nyx/AppData/Local/Dietrich AI Labs/Nyx PC Checkup/actions",
+      "dest": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148/data/actions",
+      "files": [
+        "*.json",
+        "*.jsonl",
+        "*.log",
+        "*.txt"
+      ],
+      "tree": true
+    }
+  ],
+  "excluded": [
+    "install-state.json"
+  ],
+  "noBackupMode": true,
+  "noPolicyChange": true,
+  "noGuestCredentials": true
+}

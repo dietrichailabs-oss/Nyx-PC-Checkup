@@ -1,0 +1,37 @@
+{
+  "page": "Checkup",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T21:53:12.997Z",
+  "endUtc": "2026-10-15T21:57:07.556Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "page": "screenshots/followwindows200_checkup_page_20261015.jpg",
+    "controls": "screenshots/followwindows200_checkup_controls_20261015.jpg",
+    "keyboard": "screenshots/followwindows200_checkup_keyboard_20261015.jpg",
+    "last": "screenshots/followwindows200_checkup_last_20261015.jpg",
+    "first": "screenshots/followwindows200_checkup_first_20261015.jpg",
+    "detail": "screenshots/followwindows200_checkup_detail_20261015.jpg",
+    "close": "screenshots/followwindows200_checkup_close_20261015.jpg",
+    "origin": "screenshots/followwindows200_checkup_origin_20261015.jpg",
+    "full_focus": "screenshots/followwindows200_checkup_full_focus_20261015.jpg",
+    "quick_focus": "screenshots/followwindows200_checkup_quick_focus_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "primaryControlsKeyboardReachable": true,
+    "firstLastKeyboardRecovery": true,
+    "detailEnterReadable": true,
+    "keyboardClose": true,
+    "originFocusReturn": true,
+    "practicalScrolling": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "limitations": [
+    "Reduced viewport requires keyboard scrolling and detail reading."
+  ],
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_214732_7958575.jsonl",
+  "fullCellCredit": 1,
+  "nativeQualification": "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json"
+}

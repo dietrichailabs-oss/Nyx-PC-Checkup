@@ -1,0 +1,4 @@
+The first runtime-pre-signing-binding.json used an unresolved path mapping and has NO match/failure credit.
+The user-approved corrected comparison is runtime-pre-signing-binding-corrected.json. It matches all 48 source runtime files represented in the frozen installed payload baseline.
+The 49th source-tree entry, app/platform/linux/CONTRACT.md, is source-only documentation absent from the Windows installed manifest; it is not a hash mismatch.
+These bindings do not convert signed-copy execution into frozen-byte candidate acceptance.

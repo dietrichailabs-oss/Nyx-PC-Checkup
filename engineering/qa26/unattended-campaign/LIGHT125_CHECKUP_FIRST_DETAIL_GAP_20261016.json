@@ -1,0 +1,48 @@
+{
+  "schema": "QA26-MISSING-PREDICATES-1",
+  "theme": "Light",
+  "scaleRequested": 125,
+  "page": "Checkup",
+  "startedUtc": "2026-10-16T21:42:39.913Z",
+  "status": "THREE_NEW_FIRST_DETAIL_CASES_EXECUTED_NATIVE_QUALIFICATION_PENDING",
+  "alreadyCompleted": "Historical final Network detail, Quick/Full focus, PageDown and resize retained. Only the first System overview detail and its exact keyboard close/return are new here. No scan.",
+  "requirements": {
+    "firstOverviewEnterDetail": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T21:43:11.006Z",
+      "evidence": "screenshots/light125_checkup_missing_20261016_first_system_overview_enter_1792186991006.jpg",
+      "observation": "Enter opens exact System overview from first Checkup row. Finding, rationale, no-action recommendation, no hardware serial collection statement, None safety, Windows CIM/local environment source and Complete True readable."
+    },
+    "firstOverviewCloseFocus": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T21:43:20.764Z",
+      "evidence": "screenshots/light125_checkup_missing_20261016_first_system_overview_close_focus_1792187000764.jpg"
+    },
+    "firstOverviewOriginReturn": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T21:44:12.122Z",
+      "evidence": "screenshots/light125_checkup_missing_20261016_first_system_overview_origin_return_1792187052122.jpg",
+      "observation": "Keyboard Close returns Checkup with the same first System overview row selected; no Quick/Full scan dispatched."
+    }
+  },
+  "screenshots": [
+    {
+      "label": "first_system_overview_enter",
+      "path": "screenshots/light125_checkup_missing_20261016_first_system_overview_enter_1792186991006.jpg",
+      "utc": "2026-10-16T21:43:11.126Z"
+    },
+    {
+      "label": "first_system_overview_close_focus",
+      "path": "screenshots/light125_checkup_missing_20261016_first_system_overview_close_focus_1792187000764.jpg",
+      "utc": "2026-10-16T21:43:20.765Z"
+    },
+    {
+      "label": "first_system_overview_origin_return",
+      "path": "screenshots/light125_checkup_missing_20261016_first_system_overview_origin_return_1792187052122.jpg",
+      "utc": "2026-10-16T21:44:12.123Z"
+    }
+  ],
+  "newCellCredit": 0,
+  "nativeDpi": "Owner-reported observer; exact exported interval evidence pending",
+  "completedUtc": "2026-10-16T21:44:12.123Z"
+}

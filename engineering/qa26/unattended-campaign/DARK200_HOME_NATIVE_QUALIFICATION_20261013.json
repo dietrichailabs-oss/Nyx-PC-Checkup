@@ -1,0 +1,1461 @@
+{
+  "batch": {
+    "theme": "Dark",
+    "scale": 200,
+    "tier": "BEST_EFFORT",
+    "page": "Home",
+    "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+    "startedAfterUtc": "2026-10-13T23:32:40.4014184Z",
+    "completedUtc": "2026-10-13T23:37:55.638Z",
+    "pid": 7232,
+    "preflightDpi": 192,
+    "requirements": {
+      "launch": true,
+      "primaryActionReachable": true,
+      "keyboardFocusRecovery": true,
+      "practicalVerticalScrolling": true,
+      "practicalHorizontalScrolling": true,
+      "essentialStatusReadableThroughRecovery": true,
+      "reportReviewReachable": true,
+      "cancelKeyboardOperable": true,
+      "saveNotActivated": true,
+      "noObservedCrashOrUnhandledException": true,
+      "scanStarted": false,
+      "productChanged": false
+    },
+    "limitations": [
+      "Constrained1366x768 viewport shows reduced content and clipped text until horizontal/vertical scrollbar recovery.",
+      "Report-review buttons initially clipped; Tab and ordinary vertical scrolling recover them.",
+      "No claim of perfect presentation or strict-scale visual acceptance."
+    ],
+    "screenshots": [
+      "screenshots/home200_report_review_20261013.jpg",
+      "screenshots/home200_export_controls_scrolled_20261013.jpg",
+      "screenshots/home200_cancel_keyboard_20261013.jpg",
+      "screenshots/home200_return_idle_20261013.jpg",
+      "screenshots/home200_primary_keyboard_20261013.jpg",
+      "screenshots/home200_storage_updates_20261013.jpg",
+      "screenshots/home200_security_recovered_20261013.jpg",
+      "screenshots/home200_startup_backup_20261013.jpg",
+      "screenshots/home200_backup_system_20261013.jpg"
+    ],
+    "fullCellCredit": 1,
+    "nativeQualification": {
+      "sampleCount": 65,
+      "maxGapMs": 5018,
+      "dpi": 192,
+      "pid": 7232,
+      "theme": "Dark",
+      "productFilesMatched": 60,
+      "evidence": "DARK200_HOME_NATIVE_QUALIFICATION_20261013.json"
+    }
+  },
+  "collection": {
+    "Utc": "2026-10-13T23:38:29.0908994Z",
+    "ObserverPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261013_233153_7955688.jsonl",
+    "ObserverBase64": "eyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMxOjUzLjgxMTMyNDZaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOi0zMjAwMCwiVG9wIjotMzIwMDAsIlJpZ2h0IjotMzE2ODYsIkJvdHRvbSI6LTMxOTUwfSwiUHJvZHVjdE1vZGlmaWVkIjpmYWxzZX0NCnsiU2NoZW1hIjoiUUEyNi1MSVZFLURQSS0xIiwiVXRjIjoiMjAyNi0xMC0xM1QyMzozMTo1OC44MTQzMzM3WiIsIlBpZCI6NzIzMiwiTmF0aXZlRHBpIjoxOTIsIldpbmRvd0JvdW5kcyI6eyJMZWZ0IjotMzIwMDAsIlRvcCI6LTMyMDAwLCJSaWdodCI6LTMxNjg2LCJCb3R0b20iOi0zMTk1MH0sIlByb2R1Y3RNb2RpZmllZCI6ZmFsc2V9DQp7IlNjaGVtYSI6IlFBMjYtTElWRS1EUEktMSIsIlV0YyI6IjIwMjYtMTAtMTNUMjM6MzI6MDMuODI2MTUxNVoiLCJQaWQiOjcyMzIsIk5hdGl2ZURwaSI6MTkyLCJXaW5kb3dCb3VuZHMiOnsiTGVmdCI6LTMyMDAwLCJUb3AiOi0zMjAwMCwiUmlnaHQiOi0zMTY4NiwiQm90dG9tIjotMzE5NTB9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMyOjA4LjgzNTA2MzdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOi0zMjAwMCwiVG9wIjotMzIwMDAsIlJpZ2h0IjotMzE2ODYsIkJvdHRvbSI6LTMxOTUwfSwiUHJvZHVjdE1vZGlmaWVkIjpmYWxzZX0NCnsiU2NoZW1hIjoiUUEyNi1MSVZFLURQSS0xIiwiVXRjIjoiMjAyNi0xMC0xM1QyMzozMjoxMy44Mzc1MjMyWiIsIlBpZCI6NzIzMiwiTmF0aXZlRHBpIjoxOTIsIldpbmRvd0JvdW5kcyI6eyJMZWZ0IjotMzIwMDAsIlRvcCI6LTMyMDAwLCJSaWdodCI6LTMxNjg2LCJCb3R0b20iOi0zMTk1MH0sIlByb2R1Y3RNb2RpZmllZCI6ZmFsc2V9DQp7IlNjaGVtYSI6IlFBMjYtTElWRS1EUEktMSIsIlV0YyI6IjIwMjYtMTAtMTNUMjM6MzI6MTguODM5NTgyOVoiLCJQaWQiOjcyMzIsIk5hdGl2ZURwaSI6MTkyLCJXaW5kb3dCb3VuZHMiOnsiTGVmdCI6LTMyMDAwLCJUb3AiOi0zMjAwMCwiUmlnaHQiOi0zMTY4NiwiQm90dG9tIjotMzE5NTB9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMyOjIzLjg0ODk4MjJaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOi0zMjAwMCwiVG9wIjotMzIwMDAsIlJpZ2h0IjotMzE2ODYsIkJvdHRvbSI6LTMxOTUwfSwiUHJvZHVjdE1vZGlmaWVkIjpmYWxzZX0NCnsiU2NoZW1hIjoiUUEyNi1MSVZFLURQSS0xIiwiVXRjIjoiMjAyNi0xMC0xM1QyMzozMjoyOC44NTcxOTA3WiIsIlBpZCI6NzIzMiwiTmF0aXZlRHBpIjoxOTIsIldpbmRvd0JvdW5kcyI6eyJMZWZ0IjotMzIwMDAsIlRvcCI6LTMyMDAwLCJSaWdodCI6LTMxNjg2LCJCb3R0b20iOi0zMTk1MH0sIlByb2R1Y3RNb2RpZmllZCI6ZmFsc2V9DQp7IlNjaGVtYSI6IlFBMjYtTElWRS1EUEktMSIsIlV0YyI6IjIwMjYtMTAtMTNUMjM6MzI6MzMuODYzMTY2NFoiLCJQaWQiOjcyMzIsIk5hdGl2ZURwaSI6MTkyLCJXaW5kb3dCb3VuZHMiOnsiTGVmdCI6LTMyMDAwLCJUb3AiOi0zMjAwMCwiUmlnaHQiOi0zMTY4NiwiQm90dG9tIjotMzE5NTB9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMyOjM4Ljg3MzUxMTNaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOi0zMjAwMCwiVG9wIjotMzIwMDAsIlJpZ2h0IjotMzE2ODYsIkJvdHRvbSI6LTMxOTUwfSwiUHJvZHVjdE1vZGlmaWVkIjpmYWxzZX0NCnsiU2NoZW1hIjoiUUEyNi1MSVZFLURQSS0xIiwiVXRjIjoiMjAyNi0xMC0xM1QyMzozMjo0My44ODA4NTgxWiIsIlBpZCI6NzIzMiwiTmF0aXZlRHBpIjoxOTIsIldpbmRvd0JvdW5kcyI6eyJMZWZ0IjotMzIwMDAsIlRvcCI6LTMyMDAwLCJSaWdodCI6LTMxNjg2LCJCb3R0b20iOi0zMTk1MH0sIlByb2R1Y3RNb2RpZmllZCI6ZmFsc2V9DQp7IlNjaGVtYSI6IlFBMjYtTElWRS1EUEktMSIsIlV0YyI6IjIwMjYtMTAtMTNUMjM6MzI6NDguODkxNzEwOVoiLCJQaWQiOjcyMzIsIk5hdGl2ZURwaSI6MTkyLCJXaW5kb3dCb3VuZHMiOnsiTGVmdCI6LTMyMDAwLCJUb3AiOi0zMjAwMCwiUmlnaHQiOi0zMTY4NiwiQm90dG9tIjotMzE5NTB9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMyOjUzLjg5NjExNjdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOi0zMjAwMCwiVG9wIjotMzIwMDAsIlJpZ2h0IjotMzE2ODYsIkJvdHRvbSI6LTMxOTUwfSwiUHJvZHVjdE1vZGlmaWVkIjpmYWxzZX0NCnsiU2NoZW1hIjoiUUEyNi1MSVZFLURQSS0xIiwiVXRjIjoiMjAyNi0xMC0xM1QyMzozMjo1OC44OTY4NjQ3WiIsIlBpZCI6NzIzMiwiTmF0aXZlRHBpIjoxOTIsIldpbmRvd0JvdW5kcyI6eyJMZWZ0IjotMzIwMDAsIlRvcCI6LTMyMDAwLCJSaWdodCI6LTMxNjg2LCJCb3R0b20iOi0zMTk1MH0sIlByb2R1Y3RNb2RpZmllZCI6ZmFsc2V9DQp7IlNjaGVtYSI6IlFBMjYtTElWRS1EUEktMSIsIlV0YyI6IjIwMjYtMTAtMTNUMjM6MzM6MDMuOTA4Njk0NloiLCJQaWQiOjcyMzIsIk5hdGl2ZURwaSI6MTkyLCJXaW5kb3dCb3VuZHMiOnsiTGVmdCI6LTMyMDAwLCJUb3AiOi0zMjAwMCwiUmlnaHQiOi0zMTY4NiwiQm90dG9tIjotMzE5NTB9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjA4LjkyNDIyNTRaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOi0zMjAwMCwiVG9wIjotMzIwMDAsIlJpZ2h0IjotMzE2ODYsIkJvdHRvbSI6LTMxOTUwfSwiUHJvZHVjdE1vZGlmaWVkIjpmYWxzZX0NCnsiU2NoZW1hIjoiUUEyNi1MSVZFLURQSS0xIiwiVXRjIjoiMjAyNi0xMC0xM1QyMzozMzoxMy45NDAyNzE3WiIsIlBpZCI6NzIzMiwiTmF0aXZlRHBpIjoxOTIsIldpbmRvd0JvdW5kcyI6eyJMZWZ0IjotMzIwMDAsIlRvcCI6LTMyMDAwLCJSaWdodCI6LTMxNjg2LCJCb3R0b20iOi0zMTk1MH0sIlByb2R1Y3RNb2RpZmllZCI6ZmFsc2V9DQp7IlNjaGVtYSI6IlFBMjYtTElWRS1EUEktMSIsIlV0YyI6IjIwMjYtMTAtMTNUMjM6MzM6MTguOTQ0NjMyNVoiLCJQaWQiOjcyMzIsIk5hdGl2ZURwaSI6MTkyLCJXaW5kb3dCb3VuZHMiOnsiTGVmdCI6LTMyMDAwLCJUb3AiOi0zMjAwMCwiUmlnaHQiOi0zMTY4NiwiQm90dG9tIjotMzE5NTB9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjIzLjk1MTY0MDVaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjI4Ljk1NzU2MDNaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjMzLjk3MTg3NjZaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjM4Ljk3NzYyMTBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjQzLjk3OTE3MzhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjQ4Ljk4MzMxNDhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjUzLjk5OTc1NDdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjMzOjU5LjAwMzE5NTlaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjA0LjAxMDIyNzhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjA5LjAyNDAzODVaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjE0LjAyNTY2NTBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjE5LjAyOTc1MjRaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjI0LjAzOTI4MjdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjI5LjA1NzU4NDdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjM0LjA2OTU3NDFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjM5LjA3NjIzNjNaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjQ0LjA5MjExMDRaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjQ5LjA5NTk1MjBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjU0LjEwODg4MzhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM0OjU5LjExMDU3MzBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjA0LjExMzQ0MDBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjA5LjEyMzU4NzJaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjE0LjEyODA5NjlaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjE5LjEzMTc1NzlaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjI0LjEzNDM0NzFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjI5LjE0MTQ4MzVaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjM0LjE0NDUyNTBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjM5LjE1ODE3NjRaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjQ0LjE1ODU1NzdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjQ5LjE2OTQ1OTdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjU0LjE3NDIzODBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM1OjU5LjE4MjIwMjNaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjA0LjE4MjkyMTRaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjA5LjE5MTg1NzFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjE0LjE5MjgyNzBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjE5LjE5Mzc5MDdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjI0LjIwMTM2OTZaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjI5LjIxNjExNDFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjM0LjIxODI0NDhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjM5LjIyNjk4NDlaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjQ0LjIzMTkzNDdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjQ5LjIzODMwMjlaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjU0LjI0NzU3MDJaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM2OjU5LjI1MTUxMzJaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjA0LjI1ODcwNTFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjA5LjI1OTk0OTdaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjE0LjI2MjY4MTBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjE5LjI2OTQ3ODhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjI0LjI4NDE0NTNaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjI5LjMwMDM4NzhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjM0LjMwODM0NjFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjM5LjMxNDk1MzFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjQ0LjMxNjczNjRaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjQ5LjMxODIxOTlaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjU0LjMxOTEyNDNaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM3OjU5LjMyMzQ0MTJaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM4OjA0LjMyOTc0NzhaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM4OjA5LjM0MjE3MzBaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM4OjE0LjM1NTQ1MTFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM4OjE5LjM1NzU1NzRaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0KeyJTY2hlbWEiOiJRQTI2LUxJVkUtRFBJLTEiLCJVdGMiOiIyMDI2LTEwLTEzVDIzOjM4OjI0LjM1Nzk0NTFaIiwiUGlkIjo3MjMyLCJOYXRpdmVEcGkiOjE5MiwiV2luZG93Qm91bmRzIjp7IkxlZnQiOjMyLCJUb3AiOjMyLCJSaWdodCI6MTM2NiwiQm90dG9tIjo2NzJ9LCJQcm9kdWN0TW9kaWZpZWQiOmZhbHNlfQ0K",
+    "InstalledFiles": [
+      {
+        "Path": "install-state.json",
+        "Length": 359,
+        "SHA256": "968958C8731CE9FEE936916A26E8FC75CB0FECD5164CDE2FA92129213BBE1736"
+      },
+      {
+        "Path": "LICENSE.txt",
+        "Length": 488,
+        "SHA256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD"
+      },
+      {
+        "Path": "Nyx PC Checkup.exe",
+        "Length": 33280,
+        "SHA256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75"
+      },
+      {
+        "Path": "PAYLOAD_MANIFEST.json",
+        "Length": 9997,
+        "SHA256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B"
+      },
+      {
+        "Path": "README_FIRST.md",
+        "Length": 7223,
+        "SHA256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62"
+      },
+      {
+        "Path": "SBOM.json",
+        "Length": 3223,
+        "SHA256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F"
+      },
+      {
+        "Path": "THIRD_PARTY_NOTICES.txt",
+        "Length": 572,
+        "SHA256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0"
+      },
+      {
+        "Path": "Uninstall Nyx PC Checkup.exe",
+        "Length": 35328,
+        "SHA256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC"
+      },
+      {
+        "Path": "VERSION.json",
+        "Length": 315,
+        "SHA256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526"
+      },
+      {
+        "Path": "app/NyxPCCheckup.ps1",
+        "Length": 6483,
+        "SHA256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC"
+      },
+      {
+        "Path": "app/actions/CleanupActions.psm1",
+        "Length": 7811,
+        "SHA256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B"
+      },
+      {
+        "Path": "app/actions/StartupActions.psm1",
+        "Length": 23951,
+        "SHA256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002"
+      },
+      {
+        "Path": "app/assets/brand_banner.png",
+        "Length": 4630,
+        "SHA256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831"
+      },
+      {
+        "Path": "app/assets/nyx_pc_checkup.ico",
+        "Length": 25277,
+        "SHA256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5"
+      },
+      {
+        "Path": "app/assets/nyx_pc_checkup.png",
+        "Length": 3315,
+        "SHA256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0"
+      },
+      {
+        "Path": "app/checks/BackupStatus.psm1",
+        "Length": 4417,
+        "SHA256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90"
+      },
+      {
+        "Path": "app/checks/BatteryHealth.psm1",
+        "Length": 3085,
+        "SHA256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC"
+      },
+      {
+        "Path": "app/checks/CleanupScan.psm1",
+        "Length": 11612,
+        "SHA256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96"
+      },
+      {
+        "Path": "app/checks/DownloadsAnalysis.psm1",
+        "Length": 7999,
+        "SHA256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319"
+      },
+      {
+        "Path": "app/checks/DriveHealth.psm1",
+        "Length": 3423,
+        "SHA256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549"
+      },
+      {
+        "Path": "app/checks/InstalledApps.psm1",
+        "Length": 4311,
+        "SHA256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86"
+      },
+      {
+        "Path": "app/checks/NetworkBasics.psm1",
+        "Length": 4679,
+        "SHA256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224"
+      },
+      {
+        "Path": "app/checks/PerformanceSnapshot.psm1",
+        "Length": 3373,
+        "SHA256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE"
+      },
+      {
+        "Path": "app/checks/SecurityStatus.psm1",
+        "Length": 9982,
+        "SHA256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07"
+      },
+      {
+        "Path": "app/checks/StartupApps.psm1",
+        "Length": 8100,
+        "SHA256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C"
+      },
+      {
+        "Path": "app/checks/StorageHealth.psm1",
+        "Length": 1299,
+        "SHA256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6"
+      },
+      {
+        "Path": "app/checks/StorageScan.psm1",
+        "Length": 6929,
+        "SHA256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1"
+      },
+      {
+        "Path": "app/checks/SystemInfo.psm1",
+        "Length": 2676,
+        "SHA256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C"
+      },
+      {
+        "Path": "app/checks/Uptime.psm1",
+        "Length": 1146,
+        "SHA256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A"
+      },
+      {
+        "Path": "app/checks/WindowsUpdates.psm1",
+        "Length": 4902,
+        "SHA256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252"
+      },
+      {
+        "Path": "app/config/defaults.json",
+        "Length": 461,
+        "SHA256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8"
+      },
+      {
+        "Path": "app/core/ActionHistory.psm1",
+        "Length": 24721,
+        "SHA256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB"
+      },
+      {
+        "Path": "app/core/CheckupEngine.psm1",
+        "Length": 7640,
+        "SHA256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0"
+      },
+      {
+        "Path": "app/core/Configuration.psm1",
+        "Length": 7302,
+        "SHA256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220"
+      },
+      {
+        "Path": "app/core/Diagnostics.psm1",
+        "Length": 1932,
+        "SHA256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1"
+      },
+      {
+        "Path": "app/core/Models.psm1",
+        "Length": 4355,
+        "SHA256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0"
+      },
+      {
+        "Path": "app/core/Paths.psm1",
+        "Length": 5304,
+        "SHA256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0"
+      },
+      {
+        "Path": "app/core/Privacy.psm1",
+        "Length": 6683,
+        "SHA256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802"
+      },
+      {
+        "Path": "app/core/RuntimeComposition.psm1",
+        "Length": 15055,
+        "SHA256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95"
+      },
+      {
+        "Path": "app/health_rules/HealthRules.psm1",
+        "Length": 4761,
+        "SHA256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC"
+      },
+      {
+        "Path": "app/health_rules/rules.json",
+        "Length": 784,
+        "SHA256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3"
+      },
+      {
+        "Path": "app/platform/windows/WindowsHelpers.psm1",
+        "Length": 6692,
+        "SHA256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29"
+      },
+      {
+        "Path": "app/reports/PdfWriter.psm1",
+        "Length": 3680,
+        "SHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9"
+      },
+      {
+        "Path": "app/reports/ReportExport.psm1",
+        "Length": 6677,
+        "SHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E"
+      },
+      {
+        "Path": "app/ui/Controls.psm1",
+        "Length": 14909,
+        "SHA256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446"
+      },
+      {
+        "Path": "app/ui/Dialogs.psm1",
+        "Length": 5892,
+        "SHA256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A"
+      },
+      {
+        "Path": "app/ui/MainWindow.psm1",
+        "Length": 73259,
+        "SHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8"
+      },
+      {
+        "Path": "app/ui/Theme.psm1",
+        "Length": 2769,
+        "SHA256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0"
+      },
+      {
+        "Path": "app/updates/Manifest.psm1",
+        "Length": 6396,
+        "SHA256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735"
+      },
+      {
+        "Path": "app/updates/Preferences.psm1",
+        "Length": 1164,
+        "SHA256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3"
+      },
+      {
+        "Path": "app/updates/UpdateChecker.psm1",
+        "Length": 6175,
+        "SHA256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980"
+      },
+      {
+        "Path": "app/updates/Versioning.psm1",
+        "Length": 2824,
+        "SHA256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43"
+      },
+      {
+        "Path": "app/workers/ActionWorker.ps1",
+        "Length": 5297,
+        "SHA256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9"
+      },
+      {
+        "Path": "app/workers/InstallWorker.ps1",
+        "Length": 9728,
+        "SHA256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F"
+      },
+      {
+        "Path": "app/workers/ScanWorker.ps1",
+        "Length": 9078,
+        "SHA256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79"
+      },
+      {
+        "Path": "app/workers/UninstallWorker.ps1",
+        "Length": 8487,
+        "SHA256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE"
+      },
+      {
+        "Path": "app/workers/UpdateCheckWorker.ps1",
+        "Length": 2473,
+        "SHA256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5"
+      },
+      {
+        "Path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+        "Length": 4900,
+        "SHA256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D"
+      },
+      {
+        "Path": "docs/KNOWN_LIMITATIONS.md",
+        "Length": 1605,
+        "SHA256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A"
+      },
+      {
+        "Path": "docs/PRIVACY_AND_SECURITY.md",
+        "Length": 5866,
+        "SHA256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64"
+      },
+      {
+        "Path": "docs/USER_GUIDE.md",
+        "Length": 5097,
+        "SHA256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159"
+      }
+    ],
+    "NyxConfig": "{\r\n    \"theme\":  \"Dark\",\r\n    \"notificationsEnabled\":  false,\r\n    \"developerLogging\":  false,\r\n    \"maxLogBytes\":  1048576,\r\n    \"maxLogFiles\":  3,\r\n    \"actionHistoryLimit\":  200,\r\n    \"reportIncludeUserName\":  false,\r\n    \"reportIncludeIpAddresses\":  false,\r\n    \"updates\":  {\r\n                    \"enabled\":  true,\r\n                    \"lastCheckUtc\":  \"2026-10-13T23:31:03.6782813+00:00\"\r\n                },\r\n    \"scan\":  {\r\n                 \"maxFiles\":  1000000,\r\n                 \"maxSeconds\":  180,\r\n                 \"duplicateHashMaxBytes\":  268435456,\r\n                 \"duplicateHashMaxFiles\":  500\r\n             }\r\n}\r\n",
+    "ProductChanged": false,
+    "PolicyChanged": false,
+    "ScanStarted": false,
+    "PSComputerName": "Nyx",
+    "RunspaceId": "8353c5d5-6a16-4700-bedc-16569ba2fc9f",
+    "PSShowComputerName": true
+  },
+  "comparison": [
+    {
+      "path": "LICENSE.txt",
+      "match": true
+    },
+    {
+      "path": "Nyx PC Checkup.exe",
+      "match": true
+    },
+    {
+      "path": "PAYLOAD_MANIFEST.json",
+      "match": true
+    },
+    {
+      "path": "README_FIRST.md",
+      "match": true
+    },
+    {
+      "path": "SBOM.json",
+      "match": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "match": true
+    },
+    {
+      "path": "Uninstall Nyx PC Checkup.exe",
+      "match": true
+    },
+    {
+      "path": "VERSION.json",
+      "match": true
+    },
+    {
+      "path": "app/NyxPCCheckup.ps1",
+      "match": true
+    },
+    {
+      "path": "app/actions/CleanupActions.psm1",
+      "match": true
+    },
+    {
+      "path": "app/actions/StartupActions.psm1",
+      "match": true
+    },
+    {
+      "path": "app/assets/brand_banner.png",
+      "match": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.ico",
+      "match": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.png",
+      "match": true
+    },
+    {
+      "path": "app/checks/BackupStatus.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/BatteryHealth.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/CleanupScan.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/DownloadsAnalysis.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/DriveHealth.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/InstalledApps.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/NetworkBasics.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/PerformanceSnapshot.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/SecurityStatus.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/StartupApps.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/StorageHealth.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/StorageScan.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/SystemInfo.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/Uptime.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/WindowsUpdates.psm1",
+      "match": true
+    },
+    {
+      "path": "app/config/defaults.json",
+      "match": true
+    },
+    {
+      "path": "app/core/ActionHistory.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/CheckupEngine.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Configuration.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Diagnostics.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Models.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Paths.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Privacy.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/RuntimeComposition.psm1",
+      "match": true
+    },
+    {
+      "path": "app/health_rules/HealthRules.psm1",
+      "match": true
+    },
+    {
+      "path": "app/health_rules/rules.json",
+      "match": true
+    },
+    {
+      "path": "app/platform/windows/WindowsHelpers.psm1",
+      "match": true
+    },
+    {
+      "path": "app/reports/PdfWriter.psm1",
+      "match": true
+    },
+    {
+      "path": "app/reports/ReportExport.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/Controls.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/Dialogs.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/MainWindow.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/Theme.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/Manifest.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/Preferences.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/UpdateChecker.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/Versioning.psm1",
+      "match": true
+    },
+    {
+      "path": "app/workers/ActionWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/InstallWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/ScanWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/UninstallWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/UpdateCheckWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "match": true
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "match": true
+    },
+    {
+      "path": "docs/PRIVACY_AND_SECURITY.md",
+      "match": true
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "match": true
+    }
+  ],
+  "interval": [
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:32:38.8735113Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:32:43.8808581Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:32:48.8917109Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:32:53.8961167Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:32:58.8968647Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:03.9086946Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:08.9242254Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:13.9402717Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:18.9446325Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31686,
+        "Bottom": -31950
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:23.9516405Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:28.9575603Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:33.9718766Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:38.9776210Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:43.9791738Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:48.9833148Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:53.9997547Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:33:59.0031959Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:04.0102278Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:09.0240385Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:14.0256650Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:19.0297524Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:24.0392827Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:29.0575847Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:34.0695741Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:39.0762363Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:44.0921104Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:49.0959520Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:54.1088838Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:34:59.1105730Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:04.1134400Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:09.1235872Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:14.1280969Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:19.1317579Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:24.1343471Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:29.1414835Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:34.1445250Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:39.1581764Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:44.1585577Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:49.1694597Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:54.1742380Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:35:59.1822023Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:04.1829214Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:09.1918571Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:14.1928270Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:19.1937907Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:24.2013696Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:29.2161141Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:34.2182448Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:39.2269849Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:44.2319347Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:49.2383029Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:54.2475702Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:36:59.2515132Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:04.2587051Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:09.2599497Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:14.2626810Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:19.2694788Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:24.2841453Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:29.3003878Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:34.3083461Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:39.3149531Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:44.3167364Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:49.3182199Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:54.3191243Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-13T23:37:59.3234412Z",
+      "Pid": 7232,
+      "NativeDpi": 192,
+      "WindowBounds": {
+        "Left": 32,
+        "Top": 32,
+        "Right": 1366,
+        "Bottom": 672
+      },
+      "ProductModified": false
+    }
+  ]
+}

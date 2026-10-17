@@ -1,0 +1,1288 @@
+{
+  "schema": "QA26-PRESERVED-EVIDENCE-PUBLICATION-RECONCILIATION-1",
+  "publicationPreparedUtc": "2026-10-17T20:01:10.971Z",
+  "requestedEvidenceDates": "2026-10-13 through 2026-10-17; earlier dependencies retained to support current ledgers",
+  "repository": "dietrichailabs-oss/Nyx-PC-Checkup",
+  "visibility": "private",
+  "branch": "eng/f023-result-detail-keyboard-activation",
+  "localBaseCommit": "e28083821019cfa21f889857319d34a4943abaa2",
+  "existingRemoteCommit": "6587a5a773a79ea0b62583f77200f54bfd7a520f",
+  "purpose": "Evidence reconciliation/publication only; no new tests, rebuild, product changes, result generation or additional test assignment",
+  "candidate": {
+    "name": "qa26-f023-candidate-20261002",
+    "source": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+    "build": "2026.10.02-eng-qa26",
+    "harness": "QA26-F023-PS51-26",
+    "setupSHA256": "A2D3571A1C96FCD39A95E40376FE0861AAC27C58545C3842DE75EB19B2E9331C",
+    "payloadManifestSHA256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+    "F011RawSHA256": "A5539F18E62F9F3B980F37F889D1AFA2B1BDCD7A1F19C4356653AF2D3688492B",
+    "identitySources": [
+      "F011_REVIEW_SUBMISSION_20261012.json",
+      "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json",
+      "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
+      "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/16"
+    ]
+  },
+  "authoritativeLedgerFiles": [
+    "STATE.json",
+    "SCOREBOARD_CURRENT.json",
+    "HUMAN_ACTION_QUEUE.json"
+  ],
+  "counts": {
+    "engineeringAssertionPASS": 312,
+    "engineeringAssertionFAIL": 0,
+    "signedCopyScopeAssertions": 149,
+    "otherEngineeringAssertions": 163,
+    "F011EligibleFunctionalAssertionsIncluded": 39,
+    "independentAcceptanceNotInferred": true,
+    "matrixRecordedComplete": 83,
+    "matrixTotal": 132,
+    "strictRecordedPASS": 56,
+    "strictTotal": 99,
+    "bestEffortRecordedPASS": 27,
+    "bestEffortTotal": 33,
+    "newResultCreditFromThisPublication": 0,
+    "priorRepositoryScoreboardComplete": 56,
+    "laterPreservedCellDelta": 27,
+    "laterBestEffortCellsByTheme": {
+      "Dark": 10,
+      "Light": 7,
+      "FollowWindows": 10
+    }
+  },
+  "assertionChain": [
+    {
+      "label": "Preserved Oct12 Engineering baseline",
+      "count": 196,
+      "record": "SIGNED_COPY_SCOREBOARD_20261011.json",
+      "components": [
+        {
+          "label": "signed-copy Smoke",
+          "count": 122
+        },
+        {
+          "label": "signed-copy settings/theme",
+          "count": 17
+        },
+        {
+          "label": "F011 installed functional evidence eligible for Independent QA review",
+          "count": 39
+        },
+        {
+          "label": "standard-user signed-copy privilege assertions",
+          "count": 10
+        },
+        {
+          "label": "native Home keyboard sequence",
+          "count": 1
+        },
+        {
+          "label": "native Startup navigation assertions",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "label": "Oct13 System boundary",
+      "count": 2,
+      "record": "SYSTEM_BOUNDARY_BATCH_20261013.json"
+    },
+    {
+      "label": "Oct13 Updates/Backup boundary",
+      "count": 4,
+      "record": "UPDATES_BACKUP_BOUNDARY_QUALIFIED_20261013.json"
+    },
+    {
+      "label": "Oct17 missing-only native qualification",
+      "count": 100,
+      "record": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "label": "Oct17 remaining three",
+      "count": 3,
+      "record": "REMAINING3_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "label": "Oct17 auxiliary evidence-qualified subset",
+      "count": 1,
+      "record": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "label": "Oct17 Cleanup navigation",
+      "count": 6,
+      "record": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json"
+    }
+  ],
+  "newCellQualifications": [
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Home",
+      "qualification": "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_home_initial_20261015.jpg",
+        "screenshots/followwindows200_home_preview_20261015.jpg",
+        "screenshots/followwindows200_home_continue_focus_20261015.jpg",
+        "screenshots/followwindows200_home_cancel_focus_20261015.jpg",
+        "screenshots/followwindows200_home_primary_focus_20261015.jpg",
+        "screenshots/followwindows200_home_top_labels_20261015.jpg",
+        "screenshots/followwindows200_home_storage_updates_status_20261015.jpg",
+        "screenshots/followwindows200_home_security_20261015.jpg",
+        "screenshots/followwindows200_home_system_label_20261015.jpg",
+        "screenshots/followwindows200_home_system_action_20261015.jpg",
+        "screenshots/followwindows200_home_startup_action_20261015.jpg",
+        "screenshots/followwindows200_home_lower_labels_20261015.jpg",
+        "screenshots/followwindows200_home_backup_label_20261015.jpg",
+        "screenshots/followwindows200_home_backup_action_20261015.jpg",
+        "FOLLOWWINDOWS200_HOME_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:07:18.408Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires fine vertical and horizontal scrollbar recovery; no strict presentation claim."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Checkup",
+      "qualification": "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_checkup_page_20261015.jpg",
+        "screenshots/followwindows200_checkup_controls_20261015.jpg",
+        "screenshots/followwindows200_checkup_keyboard_20261015.jpg",
+        "screenshots/followwindows200_checkup_last_20261015.jpg",
+        "screenshots/followwindows200_checkup_first_20261015.jpg",
+        "screenshots/followwindows200_checkup_detail_20261015.jpg",
+        "screenshots/followwindows200_checkup_close_20261015.jpg",
+        "screenshots/followwindows200_checkup_origin_20261015.jpg",
+        "screenshots/followwindows200_checkup_full_focus_20261015.jpg",
+        "screenshots/followwindows200_checkup_quick_focus_20261015.jpg",
+        "FOLLOWWINDOWS200_CHECKUP_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:07:18.408Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires keyboard scrolling and detail reading."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Storage",
+      "qualification": "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_storage_page_20261015.jpg",
+        "screenshots/followwindows200_storage_controls_20261015.jpg",
+        "screenshots/followwindows200_storage_downloads_20261015.jpg",
+        "screenshots/followwindows200_storage_grid_20261015.jpg",
+        "screenshots/followwindows200_storage_last_20261015.jpg",
+        "screenshots/followwindows200_storage_first_20261015.jpg",
+        "screenshots/followwindows200_storage_detail_20261015.jpg",
+        "screenshots/followwindows200_storage_close_20261015.jpg",
+        "screenshots/followwindows200_storage_origin_20261015.jpg",
+        "screenshots/followwindows200_storage_folders_20261015.jpg",
+        "screenshots/followwindows200_storage_folder_last_20261015.jpg",
+        "screenshots/followwindows200_storage_folder_label_20261015.jpg",
+        "screenshots/followwindows200_storage_files_20261015.jpg",
+        "screenshots/followwindows200_storage_file_last_20261015.jpg",
+        "screenshots/followwindows200_storage_file_folder_20261015.jpg",
+        "screenshots/followwindows200_storage_full_focus_20261015.jpg",
+        "screenshots/followwindows200_storage_downloads_focus_20261015.jpg",
+        "screenshots/followwindows200_storage_settings_focus_20261015.jpg",
+        "FOLLOWWINDOWS200_STORAGE_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_HOME_CHECKUP_STORAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:07:18.408Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires keyboard horizontal/vertical recovery. Storage Settings and Full controls tested for keyboard reachability only, not activated."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Startup",
+      "qualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_startup_page_20261015.jpg",
+        "screenshots/followwindows200_startup_controls_20261015.jpg",
+        "screenshots/followwindows200_startup_last_20261015.jpg",
+        "screenshots/followwindows200_startup_readonly_toolbar_20261015.jpg",
+        "screenshots/followwindows200_startup_readonly_skip_20261015.jpg",
+        "screenshots/followwindows200_startup_first_20261015.jpg",
+        "screenshots/followwindows200_startup_currentuser_20261015.jpg",
+        "screenshots/followwindows200_startup_disable_focus_20261015.jpg",
+        "screenshots/followwindows200_startup_folder_focus_20261015.jpg",
+        "screenshots/followwindows200_startup_folder_20261015.jpg",
+        "screenshots/followwindows200_startup_return_20261015.jpg",
+        "FOLLOWWINDOWS200_STARTUP_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:31:38.395Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "200% reduced viewport requires keyboard horizontal/vertical recovery. OneDrive containing folder observed with one selected item; selected filename below visible viewport."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Security",
+      "qualification": "FOLLOWWINDOWS200_APPS_SECURITY_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_security_page_20261015.jpg",
+        "screenshots/followwindows200_security_controls_20261015.jpg",
+        "screenshots/followwindows200_security_grid_20261015.jpg",
+        "screenshots/followwindows200_security_last_20261015.jpg",
+        "screenshots/followwindows200_security_detail_20261015.jpg",
+        "screenshots/followwindows200_security_close_20261015.jpg",
+        "screenshots/followwindows200_security_origin_20261015.jpg",
+        "screenshots/followwindows200_security_first_20261015.jpg",
+        "screenshots/followwindows200_security_primary_focus_20261015.jpg",
+        "screenshots/followwindows200_security_human_destination_20261015.jpg",
+        "screenshots/followwindows200_security_human_return_20261015.jpg",
+        "FOLLOWWINDOWS200_SECURITY_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_APPS_SECURITY_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_APPS_SECURITY_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:52:22.576Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "200% reduced viewport requires keyboard scrolling and full finding detail. Owner alone opened and closed Windows Security; no protection controls changed. Destination screenshot has partial host-overlay occlusion but Security at a glance and Virus & threat protection are visible."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Updates",
+      "qualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_updates_page_20261015.jpg",
+        "screenshots/followwindows200_updates_controls_20261015.jpg",
+        "screenshots/followwindows200_updates_last_20261015.jpg",
+        "screenshots/followwindows200_updates_detail_20261015.jpg",
+        "screenshots/followwindows200_updates_close_20261015.jpg",
+        "screenshots/followwindows200_updates_origin_20261015.jpg",
+        "screenshots/followwindows200_updates_first_20261015.jpg",
+        "screenshots/followwindows200_updates_primary_focus_20261015.jpg",
+        "screenshots/followwindows200_updates_destination_20261015.jpg",
+        "screenshots/followwindows200_updates_return_20261015.jpg",
+        "FOLLOWWINDOWS200_UPDATES_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:31:38.395Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "200% reduced viewport requires keyboard scrolling and detail reading."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Backup",
+      "qualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_backup_page_20261015.jpg",
+        "screenshots/followwindows200_backup_controls_20261015.jpg",
+        "screenshots/followwindows200_backup_last_20261015.jpg",
+        "screenshots/followwindows200_backup_detail_20261015.jpg",
+        "screenshots/followwindows200_backup_close_20261015.jpg",
+        "screenshots/followwindows200_backup_origin_20261015.jpg",
+        "screenshots/followwindows200_backup_first_20261015.jpg",
+        "screenshots/followwindows200_backup_primary_focus_20261015.jpg",
+        "screenshots/followwindows200_backup_destination_20261015.jpg",
+        "screenshots/followwindows200_backup_return_20261015.jpg",
+        "FOLLOWWINDOWS200_BACKUP_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:31:38.395Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "200% reduced viewport requires keyboard scrolling and detail reading; no strict layout claim."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "System",
+      "qualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_system_page_20261015.jpg",
+        "screenshots/followwindows200_system_controls_20261015.jpg",
+        "screenshots/followwindows200_system_first_20261015.jpg",
+        "screenshots/followwindows200_system_overview_20261015.jpg",
+        "screenshots/followwindows200_system_close_20261015.jpg",
+        "screenshots/followwindows200_system_origin_20261015.jpg",
+        "screenshots/followwindows200_system_uptime_20261015.jpg",
+        "screenshots/followwindows200_system_network_20261015.jpg",
+        "screenshots/followwindows200_system_drive_20261015.jpg",
+        "screenshots/followwindows200_system_last_20261015.jpg",
+        "screenshots/followwindows200_system_performance_20261015.jpg",
+        "screenshots/followwindows200_system_primary_20261015.jpg",
+        "screenshots/followwindows200_system_destination_20261015.jpg",
+        "screenshots/followwindows200_system_return_20261015.jpg",
+        "FOLLOWWINDOWS200_SYSTEM_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:31:38.395Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "200% reduced viewport requires keyboard scrolling and full detail reading."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Apps",
+      "qualification": "FOLLOWWINDOWS200_APPS_SECURITY_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_apps_page_20261015.jpg",
+        "screenshots/followwindows200_apps_controls_20261015.jpg",
+        "screenshots/followwindows200_apps_destination_20261015.jpg",
+        "screenshots/followwindows200_apps_full_focus_20261015.jpg",
+        "screenshots/followwindows200_apps_grid_20261015.jpg",
+        "screenshots/followwindows200_apps_last_20261015.jpg",
+        "screenshots/followwindows200_apps_first_20261015.jpg",
+        "screenshots/followwindows200_apps_folder_focus_20261015.jpg",
+        "screenshots/followwindows200_apps_unavailable_folder_20261015.jpg",
+        "screenshots/followwindows200_apps_selected_app_20261015.jpg",
+        "screenshots/followwindows200_apps_valid_folder_focus_20261015.jpg",
+        "screenshots/followwindows200_apps_folder_destination_20261015.jpg",
+        "screenshots/followwindows200_apps_filter_focus_20261015.jpg",
+        "screenshots/followwindows200_apps_no_match_input_20261015.jpg",
+        "screenshots/followwindows200_apps_empty_20261015.jpg",
+        "screenshots/followwindows200_apps_disabled_skip_20261015.jpg",
+        "screenshots/followwindows200_apps_cleared_20261015.jpg",
+        "screenshots/followwindows200_apps_restore_skip_20261015.jpg",
+        "screenshots/followwindows200_apps_restored_rows_20261015.jpg",
+        "FOLLOWWINDOWS200_APPS_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_APPS_SECURITY_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_APPS_SECURITY_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:52:22.576Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "200% reduced viewport requires keyboard horizontal/vertical recovery; unavailable OneDrive location handled by guard, valid Nyx folder dispatched with Enter."
+      ]
+    },
+    {
+      "theme": "FollowWindows",
+      "scale": 200,
+      "page": "Cleanup",
+      "qualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/followwindows200_cleanup_page_20261015.jpg",
+        "screenshots/followwindows200_cleanup_inventory_20261015.jpg",
+        "screenshots/followwindows200_cleanup_last_20261015.jpg",
+        "screenshots/followwindows200_cleanup_first_20261015.jpg",
+        "screenshots/followwindows200_cleanup_refresh_focus_20261015.jpg",
+        "screenshots/followwindows200_cleanup_consequence_autosize_20261015.jpg",
+        "screenshots/followwindows200_cleanup_zero_selection_20261015.jpg",
+        "screenshots/followwindows200_cleanup_zero_guard_20261015.jpg",
+        "screenshots/followwindows200_cleanup_idle_return_20261015.jpg",
+        "FOLLOWWINDOWS200_CLEANUP_BATCH_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_NATIVE_20261015.json",
+        "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T22:31:38.395Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "200% reduced viewport requires scrolling and native consequence-column autosize. No destructive cleanup performed."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Home",
+      "qualification": "DARK200_HOME_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/home200_report_review_20261013.jpg",
+        "screenshots/home200_export_controls_scrolled_20261013.jpg",
+        "screenshots/home200_cancel_keyboard_20261013.jpg",
+        "screenshots/home200_return_idle_20261013.jpg",
+        "screenshots/home200_primary_keyboard_20261013.jpg",
+        "screenshots/home200_storage_updates_20261013.jpg",
+        "screenshots/home200_security_recovered_20261013.jpg",
+        "screenshots/home200_startup_backup_20261013.jpg",
+        "screenshots/home200_backup_system_20261013.jpg",
+        "DARK200_HOME_BATCH_20261013.json",
+        "DARK200_HOME_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-13T23:37:55.638Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Constrained1366x768 viewport shows reduced content and clipped text until horizontal/vertical scrollbar recovery.",
+        "Report-review buttons initially clipped; Tab and ordinary vertical scrolling recover them.",
+        "No claim of perfect presentation or strict-scale visual acceptance."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Checkup",
+      "qualification": "DARK200_CHECKUP_STORAGE_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_checkup_controls_20261013.jpg",
+        "screenshots/dark200_checkup_grid_first_20261013.jpg",
+        "screenshots/dark200_checkup_grid_last_20261013.jpg",
+        "screenshots/dark200_checkup_grid_recovery_20261013.jpg",
+        "screenshots/dark200_checkup_detail_20261013.jpg",
+        "screenshots/dark200_checkup_detail_close_20261013.jpg",
+        "screenshots/dark200_checkup_detail_return_20261013.jpg",
+        "screenshots/dark200_checkup_full_focus_20261013.jpg",
+        "screenshots/dark200_checkup_quick_focus_20261013.jpg",
+        "DARK200_CHECKUP_STORAGE_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-13T23:43:58.405Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced grid viewport; text truncation recovered through exact finding detail and ordinary scrolling."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Storage",
+      "qualification": "DARK200_CHECKUP_STORAGE_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_storage_controls_20261013.jpg",
+        "screenshots/dark200_storage_downloads_20261013.jpg",
+        "screenshots/dark200_storage_detail_20261013.jpg",
+        "screenshots/dark200_storage_close_20261013.jpg",
+        "screenshots/dark200_storage_detail_return_20261013.jpg",
+        "screenshots/dark200_storage_full_focus_20261013.jpg",
+        "screenshots/dark200_storage_downloads_focus_20261013.jpg",
+        "screenshots/dark200_storage_settings_focus_20261013.jpg",
+        "screenshots/dark200_storage_folders_20261013.jpg",
+        "screenshots/dark200_storage_largest_files_20261013.jpg",
+        "screenshots/dark200_storage_last_file_20261013.jpg",
+        "screenshots/dark200_storage_file_folder_20261013.jpg",
+        "screenshots/dark200_storage_idle_return_20261013.jpg",
+        "DARK200_CHECKUP_STORAGE_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-13T23:51:15.478Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Constrained viewport requires vertical/horizontal scrolling; wheel was unreliable in one pane, visible scrollbar provided recovery.",
+        "Column text truncation is recoverable through detail/folder route; no perfect presentation claim.",
+        "Explorer keyboard-close path not credited; observed close button returned to idle Nyx."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Startup",
+      "qualification": "DARK200_STARTUP_SECURITY_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_startup_controls_20261013.jpg",
+        "screenshots/dark200_startup_keyboard_20261013.jpg",
+        "screenshots/dark200_startup_last_impact_20261013.jpg",
+        "screenshots/dark200_startup_readonly_reenable_20261013.jpg",
+        "screenshots/dark200_startup_readonly_disable_20261013.jpg",
+        "screenshots/dark200_startup_first_focus_20261013.jpg",
+        "screenshots/dark200_startup_arrow_focus_20261013.jpg",
+        "screenshots/dark200_startup_onedrive_20261013.jpg",
+        "screenshots/dark200_startup_disable_focus_20261013.jpg",
+        "screenshots/dark200_startup_folder_focus_20261013.jpg",
+        "screenshots/dark200_startup_folder_destination_20261013.jpg",
+        "screenshots/dark200_startup_idle_return_20261013.jpg",
+        "screenshots/dark200_startup_refresh_focus_20261013.jpg",
+        "DARK200_STARTUP_BATCH_20261013.json",
+        "DARK200_STARTUP_SECURITY_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-14T00:11:11.071Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Constrained viewport requires horizontal/vertical scrolling; no perfect presentation claim.",
+        "OneDrive containing folder observed; selected executable filename not independently visible, so no exact-name selection claim.",
+        "Refresh/mutation actions not executed in this accessibility cell; mutation suites remain separate."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Security",
+      "qualification": "DARK200_STARTUP_SECURITY_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_security_opening_20261013.jpg",
+        "screenshots/dark200_security_controls_20261013.jpg",
+        "screenshots/dark200_security_grid_20261013.jpg",
+        "screenshots/dark200_security_keyboard_20261013.jpg",
+        "screenshots/dark200_security_last_20261013.jpg",
+        "screenshots/dark200_security_detail_20261013.jpg",
+        "screenshots/dark200_security_close_focus_20261013.jpg",
+        "screenshots/dark200_security_return_origin_20261013.jpg",
+        "screenshots/dark200_security_first_recovery_20261013.jpg",
+        "screenshots/dark200_security_primary_focus_20261013.jpg",
+        "DARK200_SECURITY_BATCH_20261013.json",
+        "DARK200_STARTUP_SECURITY_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-14T00:19:11.096Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Constrained viewport and truncated grid text recover through scrolling and detail dialog.",
+        "Windows Security destination and human protection controls were not activated or credited."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Updates",
+      "qualification": "DARK200_UPDATES_BACKUP_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_updates_opening_20261013.jpg",
+        "screenshots/dark200_updates_controls_20261013.jpg",
+        "screenshots/dark200_updates_grid_20261013.jpg",
+        "screenshots/dark200_updates_keyboard_20261013.jpg",
+        "screenshots/dark200_updates_last_20261013.jpg",
+        "screenshots/dark200_updates_detail_20261013.jpg",
+        "screenshots/dark200_updates_close_20261013.jpg",
+        "screenshots/dark200_updates_return_20261013.jpg",
+        "screenshots/dark200_updates_first_20261013.jpg",
+        "screenshots/dark200_updates_primary_20261013.jpg",
+        "DARK200_UPDATES_BATCH_20261013.json",
+        "DARK200_UPDATES_BACKUP_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-14T00:35:55.989Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport and grid truncation recover through scrolling and exact finding details.",
+        "Windows Update destination not activated in this cell; no OS update action or full patch assurance credited."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Backup",
+      "qualification": "DARK200_UPDATES_BACKUP_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_backup_opening_20261013.jpg",
+        "screenshots/dark200_backup_controls_20261013.jpg",
+        "screenshots/dark200_backup_keyboard_20261013.jpg",
+        "screenshots/dark200_backup_last_20261013.jpg",
+        "screenshots/dark200_backup_detail_20261013.jpg",
+        "screenshots/dark200_backup_close_20261013.jpg",
+        "screenshots/dark200_backup_return_20261013.jpg",
+        "screenshots/dark200_backup_first_20261013.jpg",
+        "screenshots/dark200_backup_primary_20261013.jpg",
+        "DARK200_BACKUP_BATCH_20261013.json",
+        "DARK200_UPDATES_BACKUP_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-14T00:38:11.59Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport and truncated grid text recover through exact finding details and scrolling.",
+        "Windows Backup destination not activated; no backup configuration or backup execution credited."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "System",
+      "qualification": "DARK200_SYSTEM_APPS_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_system_opening_20261013.jpg",
+        "screenshots/dark200_system_controls_20261013.jpg",
+        "screenshots/dark200_system_grid_20261013.jpg",
+        "screenshots/dark200_system_keyboard_20261013.jpg",
+        "screenshots/dark200_system_last_20261013.jpg",
+        "screenshots/dark200_system_detail_20261013.jpg",
+        "screenshots/dark200_system_close_20261013.jpg",
+        "screenshots/dark200_system_return_20261013.jpg",
+        "screenshots/dark200_system_first_20261013.jpg",
+        "screenshots/dark200_system_primary_20261013.jpg",
+        "DARK200_SYSTEM_BATCH_20261013.json",
+        "DARK200_SYSTEM_APPS_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-14T00:42:07.648Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport/truncated grid text recover through scrolling and exact finding details.",
+        "Windows System About destination not activated in this cell; no OS setting change credited."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Apps",
+      "qualification": "DARK200_SYSTEM_APPS_NATIVE_QUALIFICATION_20261013.json",
+      "evidence": [
+        "screenshots/dark200_apps_controls_20261013.jpg",
+        "screenshots/dark200_apps_human_filter_20261013.jpg",
+        "screenshots/dark200_apps_empty_grid_20261013.jpg",
+        "screenshots/dark200_apps_search_return_20261013.jpg",
+        "screenshots/dark200_apps_restored_20261013.jpg",
+        "screenshots/dark200_apps_first_20261013.jpg",
+        "screenshots/dark200_apps_last_20261013.jpg",
+        "screenshots/dark200_apps_date_20261013.jpg",
+        "screenshots/dark200_apps_version_20261013.jpg",
+        "screenshots/dark200_apps_folder_control_20261013.jpg",
+        "screenshots/dark200_apps_folder_destination_20261013.jpg",
+        "screenshots/dark200_apps_folder_return_20261013.jpg",
+        "screenshots/dark200_apps_full_focus_20261013.jpg",
+        "screenshots/dark200_apps_installed_focus_20261013.jpg",
+        "DARK200_APPS_BATCH_20261013.json",
+        "DARK200_SYSTEM_APPS_NATIVE_QUALIFICATION_20261013.json"
+      ],
+      "completedUtc": "2026-10-14T00:49:15.488Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Automated text entry did not reach guest; human entered visible qa26_not_match_200. Empty-grid and restore outcomes observed directly.",
+        "Constrained viewport requires horizontal focus reveal; wheel did not recover desired control but reverse keyboard focus did.",
+        "Full Check and Installed Apps OS destination were not activated in this accessibility cell."
+      ]
+    },
+    {
+      "theme": "Dark",
+      "scale": 200,
+      "page": "Cleanup",
+      "qualification": "DARK200_CLEANUP_SUPPLEMENT_NATIVE_QUALIFICATION_20261014.json",
+      "evidence": [
+        "screenshots/dark200_cleanup_opening_20261013.jpg",
+        "screenshots/dark200_cleanup_controls_20261013.jpg",
+        "screenshots/dark200_cleanup_rows_20261013.jpg",
+        "screenshots/dark200_cleanup_keyboard_20261013.jpg",
+        "screenshots/dark200_cleanup_last_20261013.jpg",
+        "screenshots/dark200_cleanup_consequence_truncated_20261013.jpg",
+        "screenshots/dark200_cleanup_zero_summary_20261013.jpg",
+        "screenshots/dark200_cleanup_zero_guard_20261013.jpg",
+        "screenshots/dark200_cleanup_idle_return_20261013.jpg",
+        "DARK200_CLEANUP_BATCH_20261013.json",
+        "DARK200_CLEANUP_SETTINGS_NATIVE_QUALIFICATION_20261013.json",
+        "DARK200_CLEANUP_MISSING_PREDICATES_20261014.json",
+        "DARK200_CLEANUP_SUPPLEMENT_NATIVE_QUALIFICATION_20261014.json",
+        "screenshots/dark200_cleanup_consequence_autosize_20261014.jpg",
+        "screenshots/dark200_cleanup_refresh_focus_20261014.jpg"
+      ],
+      "completedUtc": "2026-10-14T22:12:25.5558879Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Consequence text requires ordinary native column-boundary double-click autosize; narrow viewport retained.",
+        "Refresh focus only: no redundant scan or deletion; prior grid/zero guard predicates reused, not repeated."
+      ]
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Home",
+      "qualification": "LIGHT200_HOME_NATIVE_QUALIFICATION_20261014.json",
+      "evidence": [
+        "LIGHT200_HOME_BATCH_20261014.json",
+        "LIGHT200_HOME_NATIVE_QUALIFICATION_20261014.json",
+        "LIGHT200_HOME_RAW_NATIVE_20261014.json"
+      ],
+      "completedUtc": "2026-10-14T22:37:39.0791237Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport recovered by ordinary scrollbars and keyboard focus; no strict/perfect presentation claim.",
+        "Preserved report review only; no new scan or export save."
+      ]
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Checkup",
+      "qualification": "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json",
+      "evidence": [
+        "screenshots/light200_checkup_controls_20261014.jpg",
+        "screenshots/light200_checkup_keyboard_20261014.jpg",
+        "screenshots/light200_checkup_last_20261014.jpg",
+        "screenshots/light200_checkup_first_20261014.jpg",
+        "screenshots/light200_checkup_detail_20261014.jpg",
+        "screenshots/light200_checkup_close_20261014.jpg",
+        "screenshots/light200_checkup_return_20261014.jpg",
+        "screenshots/light200_checkup_full_focus_20261014.jpg",
+        "screenshots/light200_checkup_quick_focus_20261014.jpg",
+        "LIGHT200_CHECKUP_BATCH_20261014.json",
+        "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json",
+        "LIGHT200_CHECKUP_STORAGE_STARTUP_NATIVE_20261014.json"
+      ],
+      "completedUtc": "2026-10-14T22:56:31.428Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced grid viewport and truncation recovered through ordinary scrolling and exact detail."
+      ]
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Storage",
+      "qualification": "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json",
+      "evidence": [
+        "screenshots/light200_storage_controls_20261014.jpg",
+        "screenshots/light200_storage_downloads_20261014.jpg",
+        "screenshots/light200_storage_grid_focus_20261014.jpg",
+        "screenshots/light200_storage_last_20261014.jpg",
+        "screenshots/light200_storage_first_20261014.jpg",
+        "screenshots/light200_storage_detail_20261014.jpg",
+        "screenshots/light200_storage_close_20261014.jpg",
+        "screenshots/light200_storage_detail_return_20261014.jpg",
+        "screenshots/light200_storage_folders_20261014.jpg",
+        "screenshots/light200_storage_folders_last_20261014.jpg",
+        "screenshots/light200_storage_files_20261014.jpg",
+        "screenshots/light200_storage_file_last_20261014.jpg",
+        "screenshots/light200_storage_file_folder_20261014.jpg",
+        "screenshots/light200_storage_idle_return_20261014.jpg",
+        "screenshots/light200_storage_full_focus_20261014.jpg",
+        "screenshots/light200_storage_downloads_focus_20261014.jpg",
+        "screenshots/light200_storage_settings_focus_20261014.jpg",
+        "LIGHT200_STORAGE_BATCH_20261014.json",
+        "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json",
+        "LIGHT200_CHECKUP_STORAGE_STARTUP_NATIVE_20261014.json"
+      ],
+      "completedUtc": "2026-10-14T22:56:31.428Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires keyboard focus/horizontal scroll recovery.",
+        "Selected file name not visible in Explorer viewport; folder and92-byte selection observed, no exact selection-name claim.",
+        "Storage OS destination and Full Check not activated in this accessibility cell."
+      ]
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Startup",
+      "qualification": "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json",
+      "evidence": [
+        "screenshots/light200_startup_controls_20261014.jpg",
+        "screenshots/light200_startup_grid_20261014.jpg",
+        "screenshots/light200_startup_keyboard_20261014.jpg",
+        "screenshots/light200_startup_last_20261014.jpg",
+        "screenshots/light200_startup_readonly_toolbar_20261014.jpg",
+        "screenshots/light200_startup_readonly_refresh_20261014.jpg",
+        "screenshots/light200_startup_first_20261014.jpg",
+        "screenshots/light200_startup_currentuser_20261014.jpg",
+        "screenshots/light200_startup_disable_focus_20261014.jpg",
+        "screenshots/light200_startup_folder_focus_20261014.jpg",
+        "screenshots/light200_startup_folder_20261014.jpg",
+        "screenshots/light200_startup_idle_return_20261014.jpg",
+        "LIGHT200_STARTUP_BATCH_20261014.json",
+        "LIGHT200_CHECKUP_STORAGE_STARTUP_QUALIFICATION_20261014.json",
+        "LIGHT200_CHECKUP_STORAGE_STARTUP_NATIVE_20261014.json"
+      ],
+      "completedUtc": "2026-10-14T22:56:31.428Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires keyboard horizontal recovery. Selected OneDrive filename off viewport; containing folder and selected item observed."
+      ]
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "System",
+      "qualification": "LIGHT200_SYSTEM_QUALIFICATION_20261014.json",
+      "evidence": [
+        "screenshots/light200_system_page_20261014.jpg",
+        "screenshots/light200_system_controls_20261014.jpg",
+        "screenshots/light200_system_destination_20261014.jpg",
+        "screenshots/light200_system_grid_20261014.jpg",
+        "screenshots/light200_system_overview_20261014.jpg",
+        "screenshots/light200_system_close_20261014.jpg",
+        "screenshots/light200_system_uptime_20261014.jpg",
+        "screenshots/light200_system_last_20261014.jpg",
+        "screenshots/light200_system_performance_20261014.jpg",
+        "screenshots/light200_system_origin_20261014.jpg",
+        "screenshots/light200_system_first_20261014.jpg",
+        "screenshots/light200_system_network_20261014.jpg",
+        "screenshots/light200_system_drive_20261014.jpg",
+        "screenshots/light200_system_primary_20261014.jpg",
+        "LIGHT200_SYSTEM_BATCH_20261014.json",
+        "LIGHT200_SYSTEM_NATIVE_20261014.json",
+        "LIGHT200_SYSTEM_QUALIFICATION_20261014.json"
+      ],
+      "completedUtc": "2026-10-14T23:39:56.353Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires keyboard scrolling and full detail reading."
+      ]
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Apps",
+      "qualification": "LIGHT200_APPS_QUALIFICATION_20261014.json",
+      "evidence": [
+        "screenshots/light200_apps_page_20261014.jpg",
+        "screenshots/light200_apps_controls_20261014.jpg",
+        "screenshots/light200_apps_destination_20261014.jpg",
+        "screenshots/light200_apps_full_focus_20261014.jpg",
+        "screenshots/light200_apps_grid_20261014.jpg",
+        "screenshots/light200_apps_last_20261014.jpg",
+        "screenshots/light200_apps_first_20261014.jpg",
+        "screenshots/light200_apps_folder_focus_20261014.jpg",
+        "screenshots/light200_apps_folder_destination_20261014.jpg",
+        "screenshots/light200_apps_filter_focus_20261014.jpg",
+        "screenshots/light200_apps_filter_input_unreceived_20261014.jpg",
+        "screenshots/light200_apps_human_filter_20261014.jpg",
+        "screenshots/light200_apps_empty_20261014.jpg",
+        "screenshots/light200_apps_disabled_skip_20261014.jpg",
+        "screenshots/light200_apps_cleared_20261014.jpg",
+        "screenshots/light200_apps_restore_skip_20261014.jpg",
+        "screenshots/light200_apps_restored_rows_20261014.jpg",
+        "LIGHT200_APPS_BATCH_20261014.json",
+        "LIGHT200_APPS_NATIVE_20261014.json",
+        "LIGHT200_APPS_QUALIFICATION_20261014.json"
+      ],
+      "completedUtc": "2026-10-14T23:50:22.701Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires keyboard horizontal/vertical recovery. Human entered case-insensitive no-match text after VM automation text injection failed; input provenance preserved."
+      ]
+    },
+    {
+      "theme": "Light",
+      "scale": 200,
+      "page": "Cleanup",
+      "qualification": "LIGHT200_CLEANUP_SETTINGS_QUALIFICATION_20261015.json",
+      "evidence": [
+        "screenshots/light200_cleanup_page_20261015.jpg",
+        "screenshots/light200_cleanup_inventory_20261015.jpg",
+        "screenshots/light200_cleanup_row_20261015.jpg",
+        "screenshots/light200_cleanup_last_20261015.jpg",
+        "screenshots/light200_cleanup_first_20261015.jpg",
+        "screenshots/light200_cleanup_refresh_focus_20261015.jpg",
+        "screenshots/light200_cleanup_consequence_autosize_20261015.jpg",
+        "screenshots/light200_cleanup_zero_selection_20261015.jpg",
+        "screenshots/light200_cleanup_zero_guard_20261015.jpg",
+        "screenshots/light200_cleanup_idle_return_20261015.jpg",
+        "LIGHT200_CLEANUP_BATCH_20261015.json",
+        "LIGHT200_CLEANUP_SETTINGS_NATIVE_20261015.json",
+        "LIGHT200_CLEANUP_SETTINGS_QUALIFICATION_20261015.json"
+      ],
+      "completedUtc": "2026-10-15T21:41:49.721Z",
+      "acceptanceClass": "BEST_EFFORT_WITH_LIMITATIONS",
+      "limitations": [
+        "Reduced viewport requires scrolling and native consequence-column autosize. No destructive cleanup performed."
+      ]
+    }
+  ],
+  "assertionReferenceAudit": {
+    "newOct17AssertionReferences": 110,
+    "missingOrHashMismatched": [],
+    "crossPageDuplicateImages": [],
+    "qualificationOnlyNotTestRerun": true
+  },
+  "remainingDiscrepancies": {
+    "publicationGap": "Closed by committing the existing later evidence and exact current ledgers, not by executing or inferring results",
+    "literalLegacyIdentityReferenceGaps": [
+      {
+        "theme": "Light",
+        "scale": 125,
+        "page": "Startup",
+        "reference": "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "repositoryPath": "engineering/qa26/unattended-campaign/collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "present": false,
+        "kind": null
+      },
+      {
+        "theme": "Light",
+        "scale": 125,
+        "page": "Updates",
+        "reference": "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "repositoryPath": "engineering/qa26/unattended-campaign/collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "present": false,
+        "kind": null
+      },
+      {
+        "theme": "Light",
+        "scale": 125,
+        "page": "Backup",
+        "reference": "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "repositoryPath": "engineering/qa26/unattended-campaign/collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "present": false,
+        "kind": null
+      },
+      {
+        "theme": "Light",
+        "scale": 125,
+        "page": "System",
+        "reference": "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "repositoryPath": "engineering/qa26/unattended-campaign/collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "present": false,
+        "kind": null
+      },
+      {
+        "theme": "Light",
+        "scale": 125,
+        "page": "Settings",
+        "reference": "collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "repositoryPath": "engineering/qa26/unattended-campaign/collected-contracts-20261005-200141/INSTALLED_IDENTITY_COMPARISON.json",
+        "present": false,
+        "kind": null
+      }
+    ],
+    "interpretation": "Five already-credited Light125 strict cells reference one absent historical INSTALLED_IDENTITY_COMPARISON.json. Raw INSTALLED_HASHES_RAW.json exists but was not substituted or regenerated. Original 83-cell ledger preserved, not silently reclassified. All 27 later best-effort cell references resolve.",
+    "otherIdentityArtifact": {
+      "path": "collected-contracts-20261005-200141/INSTALLED_HASHES_RAW.json",
+      "sha256": "f901e95cbfb2e7dbd3bd5747dd5e7a5640640ba3b53bd69a4a80e0d37b731d65"
+    },
+    "uncreditedStaleCaptureCases": 7,
+    "uncreditedOldLight125Cases": 23,
+    "metadataReview": "Independent QA only; original metadata evidence preserved without reclassification",
+    "settings200Readability": "Three theme Settings cells remain uncredited pending Independent QA review",
+    "scopeDistinction": "312 is a mixed-scope Engineering assertion aggregate, not 312 frozen-byte acceptance assertions. 149 signed-copy-scope assertions remain explicitly segregated."
+  },
+  "lifecycleMigration": {
+    "status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+    "record": "BASELINE_NATIVE_RECONCILIATION_20261017.json",
+    "compatibleBaselineQualified": 0,
+    "affectedSuites": [
+      "InstallerLifecycle",
+      "QA2Migration"
+    ],
+    "testsRunByThisTask": 0
+  },
+  "launcherSecurity": {
+    "id": "QA26-SEC-EXECUTIONPOLICY",
+    "issue": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/16",
+    "liveIssueState": "open",
+    "securityApproval": "NOT_ISSUED",
+    "functionalF011Separate": true
+  },
+  "publicationInputs": {
+    "changedOrUntrackedCampaignPaths": 1197,
+    "bytes": 59311401,
+    "allLocalCampaignManifestFiles": 2613,
+    "remoteEvidenceFilesRetained": [
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "8117431a57779be23ce0537a4b86a8c0061de1fc",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/DARK150_HOME_KEYBOARD_BATCH_20261012.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "9d1b3433da66b18a41f23280147c731d05d2f627",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/DARK150_STARTUP_NAVIGATION_BATCH_20261012.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "b56f7d7ca6cbbd38fe2979655d19cd4696828f92",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/f011-review-submission-20261012/F011FreshInstall_setup_diagnostics.json",
+        "localPresent": false,
+        "identical": null
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "189d6d71ecf92deffdea48690e644f1034767127",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/f011-review-submission-20261012/F011_desktop_shortcut_visible_main_window.png",
+        "localPresent": false,
+        "identical": null
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "340e2382f48168e2b921b6d963faff5e01240f06",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/f011-review-submission-20261012/REVIEW_SUBMISSION.json",
+        "localPresent": false,
+        "identical": null
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "9cce7d0fbf8e2604c1b565ce0ac89d79838ae27c",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/f011-review-submission-20261012/f011.json",
+        "localPresent": false,
+        "identical": null
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "40e831143005afb220b5aa9f3b6b2151effd4c2d",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/home-keyboard-native-20261012/NATIVE_ASSESSMENT.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "a1bfaa739a6cd916c47fd337e00aa0cbdcc1f5ec",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/home-keyboard-native-20261012/live-dpi.jsonl",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "00541743c48efa1b938931141a67d759bdb7634b",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/home-keyboard-native-20261012/metadata.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "25acc3358bbb826b473e42f600433b05ec4cb15c",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_applied_theme_context_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "4df82ef1ecafac9b6f20cff91e44d5365655ec45",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_home_export_focus_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "283bcc7f39b7d412f7c4b9e4a19291426dbad54f",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_home_primary_focus_recovery_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "98801c85e9604838b04156d2bf46165bc09f5175",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_home_reverse_primary_focus_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "04f4ac1d98b523e34e82091d204cf6ced5af02b1",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_ctrlhome_navigation_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "e2639dc711bde0d214f69728d772d028713aa015",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_ctrlhome_setup_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "5a48b748e576285b73c38966b65d5275f7c4d1af",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_down_navigation_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "12a06162b21a86191158caeacde4ac025f640b55",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_end_navigation_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "be647209938055ffeb38ad74bd4e848cf9884b52",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_home_navigation_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "2e73290e10e950cb28a1f84bcf7f8aeb7f0b0dd6",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_keyboard_entry_focus_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "acf5cde5c36fa29c4beee118f1cd257d637bf673",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_native_observer_launch_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "39b0c5cc8fb9d759a3eadba6efb45a899908c51b",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_pagedown_navigation_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "2f2ebc66779fc56ece96d21470465603a9496183",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_pagedown_selected_identity_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "b8b7861a62c08988f759d3b6b80d23d96a882281",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_pageup_navigation_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "d5e475879a2c5a2e6491523a09fe56c7f20cb99f",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/screenshots/dark150_startup_up_navigation_20261012.jpg",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "053ba65fcf6ec9d21d35702f254c3f9c28752825",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/signed-copy-privilege-standard-20261012/ASSESSMENT.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "f36afe2d3ec4cba6aeb5be5f057666decada2c32",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/signed-copy-privilege-standard-20261012/execution.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "842a91fb7c870134e5fe438d8c8f5f0865493a03",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/signed-copy-privilege-standard-20261012/privilege-standard.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/signed-copy-privilege-standard-20261012/stderr.txt",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "f582d764fff596bd9f321671ff5c307e76820882",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/signed-copy-privilege-standard-20261012/stdout.txt",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "e8bbb3524ee6321d74b43705d8c31ea9ec6019e4",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/startup-navigation-native-20261012/NATIVE_ASSESSMENT.json",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "e0a83b83244a74bb31bc2470a8c62db9d3fcc586",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/startup-navigation-native-20261012/live-dpi.jsonl",
+        "localPresent": true,
+        "identical": true
+      },
+      {
+        "oldMode": "000000",
+        "mode": "100644",
+        "oldOid": "0000000000000000000000000000000000000000",
+        "oid": "48a63b6b7237670a34374613df82cafa3360e24a",
+        "status": "A",
+        "path": "engineering/qa26/unattended-campaign/startup-navigation-native-20261012/metadata.json",
+        "localPresent": true,
+        "identical": true
+      }
+    ],
+    "originalBytesAndJsonTimestampsUnchanged": true,
+    "filesystemTimesRecordedInManifest": true,
+    "fullVmDiskImagesExcluded": true,
+    "externalRawSourcePathsPreservedAsProvenanceNotInvented": true,
+    "helperFixtureValidationIsNotAcceptanceCredit": true
+  },
+  "campaignComplete": false,
+  "releaseApproval": "NOT_GRANTED",
+  "finalDecisionOwner": "Independent QA",
+  "historicalNextActionFields": "Preserved as evidence only; not new test assignments"
+}

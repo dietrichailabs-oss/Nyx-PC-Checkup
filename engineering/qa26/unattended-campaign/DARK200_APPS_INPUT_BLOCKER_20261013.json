@@ -1,0 +1,13 @@
+{
+  "page": "Apps",
+  "theme": "Dark",
+  "scale": 200,
+  "status": "INCOMPLETE_INPUT_ROUTE",
+  "startUtc": "2026-10-14T00:42:16.427Z",
+  "observed": "Search caret visible; two type_text attempts after focus/refocus produced no visible text. No filter assertion credited. Not classified as product failure.",
+  "screenshots": [
+    "screenshots/dark200_apps_search_input_blocker_20261013.jpg"
+  ],
+  "nextAction": "Human types QA26_NO_MATCH_200 into current focused search; then inspect filtering and continue missing predicates.",
+  "fullCellCredit": 0
+}

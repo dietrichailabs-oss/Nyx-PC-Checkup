@@ -1,0 +1,10 @@
+{
+  "id": "QA26-SEC-EXECUTIONPOLICY",
+  "status": "OPEN_SECURITY_COMPLIANCE_REVIEW",
+  "finding": "Frozen Nyx PC Checkup installed launch behavior invokes PowerShell with -ExecutionPolicy Bypass.",
+  "url": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/16",
+  "functionalEvidence": "F011_REVIEW_SUBMISSION_20261012.json",
+  "securityApproval": "NOT_ISSUED",
+  "productChanges": false,
+  "qa27Created": false
+}

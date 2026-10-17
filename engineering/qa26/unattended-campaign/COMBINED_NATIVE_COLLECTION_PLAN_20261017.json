@@ -1,0 +1,58 @@
+{
+  "schema": "QA26-COMBINED-NATIVE-COLLECTION-PLAN-1",
+  "utc": "2026-10-17T01:43:53.101Z",
+  "exportRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_batch_export_20261017_0130",
+  "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+  "route": "Native Export-VM; validate completed config active disk reference; native DiskPart attach readonly; verify Current Read-only State Yes; native Robocopy allowlist; detach exact exported disk",
+  "allowlist": [
+    "Users/Nyx/AppData/Local/NyxQA26NativeDpi/live_20261017_*.jsonl",
+    "Users/Nyx/AppData/Local/Programs/Dietrich AI Labs/Nyx PC Checkup/** EXCEPT install-state.json",
+    "Users/Nyx/AppData/Local/Dietrich AI Labs/Nyx PC Checkup/config.json",
+    "Users/Nyx/AppData/Local/Dietrich AI Labs/Nyx PC Checkup/logs/*.log"
+  ],
+  "excluded": [
+    "install-state.json",
+    "credentials",
+    "security policy changes",
+    "original source disk attachment",
+    "old scans/reports already preserved"
+  ],
+  "expectedFrozenFiles": 60,
+  "bindingRule": "Both native samples bracketing the assertion within7.5 seconds, matching expected DPI and PID, non-minimized valid bounds, ProductModified false; full sampled interval audited separately, no requested-scale inference",
+  "scoreboardBefore": {
+    "PASS": 202,
+    "FAIL": 0,
+    "previousPASS": 198,
+    "newEligibleAssertions": 4,
+    "batch": "UPDATES_BACKUP_BOUNDARY_QUALIFIED_20261013.json",
+    "scope": "Engineering assertions; Independent QA final verdict reserved; no full matrix cell credit"
+  },
+  "baselineCountingPrecedent": "UPDATES_BACKUP_BOUNDARY_QUALIFIED_20261013.json counts individually executed native-qualified navigation assertions; new UI assertion credit must follow qualification, never full-cell inference",
+  "fullCellCredit": 0,
+  "completedExport": {
+    "result": {
+      "Status": "NATIVE_EXPORT_PROCESS_EXITED",
+      "ExitCode": 0,
+      "Root": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_batch_export_20261017_0130",
+      "Log": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_batch_export_20261017_0130.log",
+      "Utc": "2026-10-17T01:59:31.7435138Z"
+    },
+    "log": "",
+    "configPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_batch_export_20261017_0130\\Nyx\\Virtual Machines\\275A191C-CF8A-4929-9849-B9A293E9149D.vmcx",
+    "configSha256": "5ed70a65a487370c72895ec8a778b5c4c16c12c8d5c64e7d20669da37f49436c",
+    "activeDisk": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_batch_export_20261017_0130\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+    "configDiskReferenceCount": 1
+  },
+  "mount": {
+    "target": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_batch_export_20261017_0130\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+    "readOnly": true,
+    "diskNumber": 5,
+    "volume": "J:",
+    "nativeProof": "Current Read-only State : Yes",
+    "attachLog": "qa26_vm_automation/attach-native-batch-export-readonly-20261017-corrected.log",
+    "attached": false,
+    "detached": true,
+    "detachLog": "collected-native-batch-20261017-missing100/detach.log"
+  },
+  "collectionRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-batch-20261017-missing100"
+}

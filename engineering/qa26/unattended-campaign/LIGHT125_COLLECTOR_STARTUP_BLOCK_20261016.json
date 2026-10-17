@@ -1,0 +1,32 @@
+{
+  "schema": "QA26-COLLECTOR-STARTUP-DIAGNOSIS-1",
+  "utc": "2026-10-16T21:34:54.145Z",
+  "hostProbe": {
+    "powershell": "5.1.26100.9444",
+    "edition": "Desktop",
+    "effectivePolicy": "Restricted",
+    "scopePolicies": {
+      "MachinePolicy": "Undefined",
+      "UserPolicy": "Undefined",
+      "Process": "Undefined",
+      "CurrentUser": "Undefined",
+      "LocalMachine": "Undefined"
+    },
+    "securityModule": "IMPORT_OK",
+    "hyperVModule": "IMPORT_OK"
+  },
+  "resultAndErrorArtifacts": "Absent at diagnostic check",
+  "processInspection": "CIM access denied; elevated collector exit reason not captured",
+  "diagnosis": "Host native PS5.1 Restricted blocks script-file execution before collector entry; consistent with missing credential prompts. Elevated startup error has not been captured.",
+  "nativeAlternative": {
+    "source": "harness/Qa26NativeEvidence.cs",
+    "notUsed": true,
+    "reason": "Collect performs normal guest shutdown/restart and copies installation metadata; not suitable for live, metadata-excluding scoped collection."
+  },
+  "noPolicyChanges": true,
+  "noSecurityChanges": true,
+  "noMetadataInspection": true,
+  "noNewCollectorLaunch": true,
+  "newTestCredit": 0,
+  "next": "Use only a separately approved native live read-only metadata-excluding collection route; do not inline blocked scripts, bypass execution policy, modify product or repeat executed tests."
+}

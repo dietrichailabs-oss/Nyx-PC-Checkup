@@ -1,0 +1,336 @@
+﻿{
+    "ReportSchema":  "dietrich-ai-labs.[USER]-pc-checkup.report.v1",
+    "Product":  "[USER] PC Checkup",
+    "Version":  "1.0.0",
+    "Build":  "2026.10.02-eng-qa26",
+    "ScanMode":  "Quick",
+    "ScanStartedUtc":  "2026-10-05T12:22:39.5718379Z",
+    "ScanCompletedUtc":  "2026-10-05T12:22:49.1786215Z",
+    "Summary":  {
+                    "OverallStatus":  "NeedsAttention",
+                    "Headline":  "2 things need attention.",
+                    "Good":  9,
+                    "NeedsAttention":  2,
+                    "Optional":  1,
+                    "Unknown":  3,
+                    "Total":  15
+                },
+    "Results":  [
+                    {
+                        "CheckId":  "system.overview",
+                        "Category":  "System",
+                        "Name":  "System overview",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Desktop or fixed device with 3.1 GB RAM, running Windows build 26200.",
+                        "Reason":  "Basic system information was read successfully.",
+                        "Recommendation":  "No action is required. Hardware serial numbers and unique identifiers are intentionally not collected.",
+                        "ActionSafetyLevel":  "None",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Windows CIM / local environment",
+                        "Evidence":  {
+                                         "WindowsEdition":  "Microsoft Windows 11 Pro",
+                                         "WindowsVersion":  "10.0.26200",
+                                         "WindowsBuild":  "26200",
+                                         "Is64Bit":  true,
+                                         "Processor":  "AMD Ryzen 9 5900XT 16-Core Processor           ",
+                                         "InstalledRamBytes":  3377352704,
+                                         "SystemDriveCapacityBytes":  135317680128,
+                                         "SystemDriveFreeBytes":  114769063936,
+                                         "DeviceClass":  "Desktop or fixed device"
+                                     }
+                    },
+                    {
+                        "CheckId":  "storage.system-drive",
+                        "Category":  "Storage",
+                        "Name":  "System-drive free space",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "106.9 GB is free on C:\\.",
+                        "Reason":  "The system drive has 84.8% free.",
+                        "Recommendation":  "No storage action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  ".NET DriveInfo",
+                        "Evidence":  {
+                                         "Drive":  "C:\\",
+                                         "TotalBytes":  135317680128,
+                                         "FreeBytes":  114769059840,
+                                         "FreePercent":  84.8,
+                                         "Format":  "NTFS"
+                                     }
+                    },
+                    {
+                        "CheckId":  "updates.restart",
+                        "Category":  "Updates",
+                        "Name":  "Update restart",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows does not currently report a pending restart.",
+                        "Reason":  "No supported restart-pending marker was found.",
+                        "Recommendation":  "No restart is required by the checked Windows servicing markers.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Windows servicing registry",
+                        "Evidence":  {
+                                         "Pending":  false,
+                                         "Sources":  {
+
+                                                     },
+                                         "Complete":  true,
+                                         "Errors":  {
+
+                                                    }
+                                     }
+                    },
+                    {
+                        "CheckId":  "updates.pending",
+                        "Category":  "Updates",
+                        "Name":  "Windows updates",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "No pending software update was found in the local Windows Update cache.",
+                        "Reason":  "The supported local update query returned zero not-installed software updates.",
+                        "Recommendation":  "Open Windows Update for an online check when you need full patch assurance.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Microsoft.Update.Session local search",
+                        "Evidence":  {
+                                         "Success":  true,
+                                         "Count":  0,
+                                         "Error":  "[UNAVAILABLE]",
+                                         "PSComputerName":  "localhost",
+                                         "RunspaceId":  "0644f590-1a09-4316-b614-4365fc2bd826",
+                                         "PSShowComputerName":  false
+                                     }
+                    },
+                    {
+                        "CheckId":  "updates.last-success",
+                        "Category":  "Updates",
+                        "Name":  "Last successful Windows update",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports a successful installation on Saturday, October 3, 2026.",
+                        "Reason":  "The Windows Update automatic-update result exposed a last success date.",
+                        "Recommendation":  "No action is required based on this timestamp alone.",
+                        "ActionSafetyLevel":  "None",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Microsoft.Update.AutoUpdate",
+                        "Evidence":  {
+                                         "LastSuccessUtc":  "2026-10-03T05:48:04.0000000Z"
+                                     }
+                    },
+                    {
+                        "CheckId":  "security.antivirus",
+                        "Category":  "Security",
+                        "Name":  "Antivirus protection",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows reports that Microsoft Defender antivirus and real-time protection are active.",
+                        "Reason":  "Defender status APIs reported protection enabled.",
+                        "Recommendation":  "No antivirus action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Get-MpComputerStatus and SecurityCenter2",
+                        "Evidence":  {
+                                         "DefenderAntivirusEnabled":  true,
+                                         "DefenderRealTimeProtectionEnabled":  true,
+                                         "RegisteredProducts":  "Windows Defender"
+                                     }
+                    },
+                    {
+                        "CheckId":  "security.firewall",
+                        "Category":  "Security",
+                        "Name":  "Windows Firewall",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Windows Firewall is enabled for all reported profiles.",
+                        "Reason":  "Firewall profile states were read without changing them.",
+                        "Recommendation":  "No firewall action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Get-NetFirewallProfile",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "Domain",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Private",
+                                             "Enabled":  1
+                                         },
+                                         {
+                                             "Name":  "Public",
+                                             "Enabled":  1
+                                         }
+                                     ]
+                    },
+                    {
+                        "CheckId":  "security.windows-security-service",
+                        "Category":  "Security",
+                        "Name":  "Windows Security services",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "A supported Windows Security service is running.",
+                        "Reason":  "Service state was read without changing service configuration.",
+                        "Recommendation":  "No action is required.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Get-Service",
+                        "Evidence":  [
+                                         {
+                                             "Name":  "SecurityHealthService",
+                                             "Status":  "Running",
+                                             "StartType":  "Manual"
+                                         },
+                                         {
+                                             "Name":  "wscsvc",
+                                             "Status":  "Running",
+                                             "StartType":  "Automatic"
+                                         }
+                                     ]
+                    },
+                    {
+                        "CheckId":  "security.secure-boot",
+                        "Category":  "Security",
+                        "Name":  "Secure Boot",
+                        "Status":  "Unknown",
+                        "StatusLabel":  "Unknown / Could Not Check",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Complete":  false,
+                        "ErrorReason":  "Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.",
+                        "DataSource":  "Confirm-SecureBootUEFI",
+                        "Evidence":  null
+                    },
+                    {
+                        "CheckId":  "security.tpm",
+                        "Category":  "Security",
+                        "Name":  "Trusted Platform Module",
+                        "Status":  "Unknown",
+                        "StatusLabel":  "Unknown / Could Not Check",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "TPM status was unavailable through the supported local interface.",
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Complete":  false,
+                        "ErrorReason":  "TPM status was unavailable through the supported local interface.",
+                        "DataSource":  "Get-Tpm",
+                        "Evidence":  null
+                    },
+                    {
+                        "CheckId":  "security.encryption",
+                        "Category":  "Security",
+                        "Name":  "Drive encryption",
+                        "Status":  "Unknown",
+                        "StatusLabel":  "Unknown / Could Not Check",
+                        "Severity":  "Info",
+                        "Finding":  "This check could not be completed.",
+                        "Reason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "Recommendation":  "No automatic change was made. You can retry the check or review the technical details.",
+                        "ActionSafetyLevel":  "None",
+                        "Complete":  false,
+                        "ErrorReason":  "Drive-encryption status was unavailable through the supported local interface.",
+                        "DataSource":  "Get-BitLockerVolume",
+                        "Evidence":  null
+                    },
+                    {
+                        "CheckId":  "startup.entries",
+                        "Category":  "Startup",
+                        "Name":  "Startup applications",
+                        "Status":  "Optional",
+                        "StatusLabel":  "Optional",
+                        "Severity":  "Low",
+                        "Finding":  "8 program(s) start automatically with Windows.",
+                        "Reason":  "Startup programs may be useful; review is optional.",
+                        "Recommendation":  "Review startup apps only if useful. Version 1 can reversibly change current-user entries; all-users entries are visible but read-only and never trigger an elevation prompt.",
+                        "ActionSafetyLevel":  "ReversibleLocalChange",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Windows Run registry keys and Startup folders",
+                        "Evidence":  {
+                                         "EnabledCount":  8,
+                                         "DisabledByNyxCount":  0,
+                                         "BrokenPathCount":  0
+                                     }
+                    },
+                    {
+                        "CheckId":  "backup.status",
+                        "Category":  "Backup",
+                        "Name":  "Backup checkup",
+                        "Status":  "NeedsAttention",
+                        "StatusLabel":  "Needs Attention",
+                        "Severity":  "Medium",
+                        "Finding":  "No supported Windows backup configuration was detected.",
+                        "Reason":  "[USER] could not find File History or Windows Backup evidence. You may already use another backup service that [USER] PC Checkup cannot detect.",
+                        "Recommendation":  "Verify that important files are backed up somewhere separate from this PC.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  false,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "File History configuration and Windows Backup scheduled tasks",
+                        "Evidence":  "[UNAVAILABLE]"
+                    },
+                    {
+                        "CheckId":  "system.uptime",
+                        "Category":  "System",
+                        "Name":  "PC uptime",
+                        "Status":  "Good",
+                        "StatusLabel":  "Good",
+                        "Severity":  "Info",
+                        "Finding":  "Your PC has been running for 0.5 days.",
+                        "Reason":  "The PC has been running for 0.5 days.",
+                        "Recommendation":  "No restart is needed based on uptime alone.",
+                        "ActionSafetyLevel":  "SafeRedirect",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Win32_OperatingSystem and restart-pending markers",
+                        "Evidence":  {
+                                         "LastBootUtc":  "2026-10-05T00:14:25.9691000Z",
+                                         "UptimeDays":  0.51,
+                                         "RestartPending":  false,
+                                         "RestartStatusComplete":  true
+                                     }
+                    },
+                    {
+                        "CheckId":  "network.basics",
+                        "Category":  "Network",
+                        "Name":  "Network basics",
+                        "Status":  "NeedsAttention",
+                        "StatusLabel":  "Needs Attention",
+                        "Severity":  "Medium",
+                        "Finding":  "A network adapter is connected, but Internet access did not pass both supported checks.",
+                        "Reason":  "The Windows connectivity profile or bounded DNS lookup reported no Internet access.",
+                        "Recommendation":  "Check the router or Internet service. [USER] did not change DNS, proxy, firewall, or adapter settings.",
+                        "ActionSafetyLevel":  "None",
+                        "Complete":  true,
+                        "ErrorReason":  "[UNAVAILABLE]",
+                        "DataSource":  "Get-NetAdapter, Get-NetConnectionProfile, and one bounded DNS resolution test",
+                        "Evidence":  {
+                                         "ActiveAdapterCount":  1,
+                                         "InternetProfileCount":  0,
+                                         "DnsResolutionSucceeded":  false
+                                     }
+                    }
+                ],
+    "Privacy":  "This report excludes usernames, hardware serial numbers, product keys, browser data, document contents, passwords, tokens, and IP addresses by default."
+}

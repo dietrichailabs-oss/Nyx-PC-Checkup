@@ -1,0 +1,17 @@
+[
+  {
+    "path": "observer/live_20261017_021334_1757163.jsonl",
+    "bytes": 43252,
+    "sha256": "5d2ffe0d6c7f009ea737e90303974c47c797b7741ee4eae665a1b01653bf5bf7"
+  },
+  {
+    "path": "data/config.json",
+    "bytes": 642,
+    "sha256": "d13deea3bb15646c3656ef7ad1ff08182280edf6128cc6b2ebc44b2abe6305ef"
+  },
+  {
+    "path": "data/logs/nyx-pc-checkup.log",
+    "bytes": 23847,
+    "sha256": "1d9a2ae9ad1fa316651c26ebcaa8a7e5f949231e8f6a044e4e4bf1f471ee3f7b"
+  }
+]

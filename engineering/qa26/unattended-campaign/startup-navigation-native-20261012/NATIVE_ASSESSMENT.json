@@ -1,0 +1,82 @@
+{
+  "sha256": "33567f6801ea773d7740ae6011f5c93d2cc1a5dbececcd594f1830f00978ca5b",
+  "remoteSHA256": "33567f6801ea773d7740ae6011f5c93d2cc1a5dbececcd594f1830f00978ca5b",
+  "sampleCount": 73,
+  "nativeValues": [
+    144
+  ],
+  "pids": [
+    9972
+  ],
+  "payloadFilesCompared": 60,
+  "mismatches": [],
+  "timing": [
+    {
+      "key": "Home",
+      "predicateUtc": "2026-10-12T22:42:36.165Z",
+      "sampleUtc": "2026-10-12T22:42:38.6608339Z",
+      "deltaMs": 2495,
+      "nativeDpi": 144,
+      "pid": 9972,
+      "qualified": true
+    },
+    {
+      "key": "End",
+      "predicateUtc": "2026-10-12T22:43:02.862Z",
+      "sampleUtc": "2026-10-12T22:43:03.6932268Z",
+      "deltaMs": 831,
+      "nativeDpi": 144,
+      "pid": 9972,
+      "qualified": true
+    },
+    {
+      "key": "PageDown",
+      "predicateUtc": "2026-10-12T22:44:01.354Z",
+      "sampleUtc": "2026-10-12T22:44:03.7784469Z",
+      "deltaMs": 2424,
+      "nativeDpi": 144,
+      "pid": 9972,
+      "qualified": true
+    },
+    {
+      "key": "PageUp",
+      "predicateUtc": "2026-10-12T22:44:43.578Z",
+      "sampleUtc": "2026-10-12T22:44:43.8152995Z",
+      "deltaMs": 237,
+      "nativeDpi": 144,
+      "pid": 9972,
+      "qualified": true
+    },
+    {
+      "key": "Down",
+      "predicateUtc": "2026-10-12T22:45:01.063Z",
+      "sampleUtc": "2026-10-12T22:44:58.8364751Z",
+      "deltaMs": 2227,
+      "nativeDpi": 144,
+      "pid": 9972,
+      "qualified": true
+    },
+    {
+      "key": "Up",
+      "predicateUtc": "2026-10-12T22:45:38.743Z",
+      "sampleUtc": "2026-10-12T22:45:38.9066678Z",
+      "deltaMs": 163,
+      "nativeDpi": 144,
+      "pid": 9972,
+      "qualified": true
+    },
+    {
+      "key": "Ctrl+Home",
+      "predicateUtc": "2026-10-12T22:47:00.256Z",
+      "sampleUtc": "2026-10-12T22:46:58.9869921Z",
+      "deltaMs": 1270,
+      "nativeDpi": 144,
+      "pid": 9972,
+      "qualified": true
+    }
+  ],
+  "policyChanged": false,
+  "productChanged": false,
+  "scanStarted": false,
+  "fullCellCredit": 0
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T20:46:22.446Z",
+  "error": "UI is not allowed in this operation.",
+  "stage": "Get-Credential before guest Invoke-Command",
+  "guestChanges": false,
+  "newTestsCompleted": 0,
+  "helper": "harness/Prepare-Qa26SignedCopies.ps1",
+  "helperExecuted": false,
+  "approval": "User approved disposable self-signing, certificate trust, AllSigned and separately identified signed-copy testing",
+  "resume": "Interactive guest authentication required; no credential requests while owner is away"
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "QA26-MISSING-PREDICATES-1",
+  "theme": "Light",
+  "scaleRequested": 125,
+  "page": "Security",
+  "startedUtc": "2026-10-16T11:19:27.235Z",
+  "alreadyCompleted": "Historical antivirus detail, final-row navigation and primary keyboard focus retained; not repeated.",
+  "status": "MISSING_DETAIL_BATCH_EXECUTED_NATIVE_QUALIFICATION_PENDING",
+  "requirements": {
+    "firewallEnterFullDetail": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_security_missing_20261016_firewall_enter_full_detail_1792149605892.jpg",
+      "observation": "Correct Windows Firewall dialog; all profiles enabled, states read without changing, no firewall action required, SafeRedirect, Get-NetFirewallProfile, Complete True readable."
+    },
+    "firewallCloseKeyboardFocus": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_security_missing_20261016_firewall_close_focus_1792149613946.jpg"
+    },
+    "firewallKeyboardReturn": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_security_missing_20261016_firewall_origin_return_1792149627503.jpg",
+      "observation": "Enter on Close returns Security with the originating Firewall row selected; no Windows Security app opened."
+    },
+    "servicesEnterFullDetail": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_security_missing_20261016_services_enter_full_detail_1792149648877.jpg",
+      "observation": "Windows Security services dialog shows supported service running, state read without changing configuration, no action required, SafeRedirect, Get-Service, Complete True and technical service evidence."
+    },
+    "servicesCloseKeyboardFocus": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_security_missing_20261016_services_close_focus_1792149656936.jpg"
+    },
+    "servicesKeyboardReturn": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_security_missing_20261016_services_origin_return_1792149679556.jpg",
+      "observation": "Keyboard Close returns Security with services row selected; no OS service configuration or protection changes."
+    }
+  },
+  "screenshots": [
+    {
+      "label": "new_detail_context",
+      "path": "screenshots/light125_security_missing_20261016_new_detail_context_1792149581602.jpg",
+      "utc": "2026-10-16T11:19:41.622Z"
+    },
+    {
+      "label": "firewall_enter_full_detail",
+      "path": "screenshots/light125_security_missing_20261016_firewall_enter_full_detail_1792149605892.jpg",
+      "utc": "2026-10-16T11:20:05.893Z"
+    },
+    {
+      "label": "firewall_close_focus",
+      "path": "screenshots/light125_security_missing_20261016_firewall_close_focus_1792149613946.jpg",
+      "utc": "2026-10-16T11:20:13.947Z"
+    },
+    {
+      "label": "firewall_origin_return",
+      "path": "screenshots/light125_security_missing_20261016_firewall_origin_return_1792149627503.jpg",
+      "utc": "2026-10-16T11:20:27.504Z"
+    },
+    {
+      "label": "services_enter_full_detail",
+      "path": "screenshots/light125_security_missing_20261016_services_enter_full_detail_1792149648877.jpg",
+      "utc": "2026-10-16T11:20:48.878Z"
+    },
+    {
+      "label": "services_close_focus",
+      "path": "screenshots/light125_security_missing_20261016_services_close_focus_1792149656936.jpg",
+      "utc": "2026-10-16T11:20:56.937Z"
+    },
+    {
+      "label": "services_origin_return",
+      "path": "screenshots/light125_security_missing_20261016_services_origin_return_1792149679556.jpg",
+      "utc": "2026-10-16T11:21:19.557Z"
+    }
+  ],
+  "newCellCredit": 0,
+  "nativeDpi": "PENDING_FRESH_NATIVE_EVIDENCE",
+  "appliedThemeEvidence": "LIGHT125_RESUME_TRANSITION_20261016.json#/appliedSelectorEvidence",
+  "completedUtc": "2026-10-16T11:21:19.557Z",
+  "humanRedirect": "Historical Light125 human-only redirect remains queued; not automated or credited."
+}

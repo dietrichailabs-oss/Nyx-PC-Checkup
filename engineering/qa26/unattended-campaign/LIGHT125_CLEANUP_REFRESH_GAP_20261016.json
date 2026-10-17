@@ -1,0 +1,32 @@
+{
+  "schema": "QA26-MISSING-PREDICATES-1",
+  "theme": "Light",
+  "scaleRequested": 125,
+  "page": "Cleanup",
+  "startedUtc": "2026-10-16T21:41:44.911Z",
+  "status": "MISSING_REFRESH_FOCUS_EXECUTED_NATIVE_QUALIFICATION_PENDING",
+  "alreadyCompleted": "Historic grid first/last, consequence tooltip, zero-selection guard, selection reset and resize retained. Only Refresh keyboard reachability remains in this batch; no Full scan or deletion.",
+  "requirements": {
+    "refreshKeyboardReachableWithoutScan": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T21:42:28.969Z",
+      "evidence": "screenshots/light125_cleanup_missing_20261016_refresh_keyboard_focus_no_scan_1792186948969.jpg",
+      "observation": "CtrlShiftTab exits the checkbox grid, auto-scrolls Refresh with Full Check fully into view and shows a keyboard outline. Never activated; no Full scan, selection toggle, review or deletion."
+    }
+  },
+  "screenshots": [
+    {
+      "label": "refresh_navigation_setup",
+      "path": "screenshots/light125_cleanup_missing_20261016_refresh_navigation_setup_1792186913951.jpg",
+      "utc": "2026-10-16T21:41:53.952Z"
+    },
+    {
+      "label": "refresh_keyboard_focus_no_scan",
+      "path": "screenshots/light125_cleanup_missing_20261016_refresh_keyboard_focus_no_scan_1792186948969.jpg",
+      "utc": "2026-10-16T21:42:28.970Z"
+    }
+  ],
+  "newCellCredit": 0,
+  "nativeDpi": "Fresh observer owner-reported; exported interval collection pending",
+  "completedUtc": "2026-10-16T21:42:28.970Z"
+}

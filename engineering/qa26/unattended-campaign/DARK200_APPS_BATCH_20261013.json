@@ -1,0 +1,48 @@
+{
+  "page": "Apps",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:42:16.427Z",
+  "endUtc": "2026-10-14T00:49:15.488Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "practicalScrollRecovery": true,
+    "filterZero": true,
+    "filterClearRestoresInventory": true,
+    "firstLastKeyboardNavigation": true,
+    "horizontalKeyboardColumnRecovery": true,
+    "versionDateSizeReadable": true,
+    "primaryControlsKeyboardReachable": true,
+    "selectedFolderEnterOperable": true,
+    "containingFolderNotExecution": true,
+    "idleReturn": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noUninstall": true
+  },
+  "limitations": [
+    "Automated text entry did not reach guest; human entered visible qa26_not_match_200. Empty-grid and restore outcomes observed directly.",
+    "Constrained viewport requires horizontal focus reveal; wheel did not recover desired control but reverse keyboard focus did.",
+    "Full Check and Installed Apps OS destination were not activated in this accessibility cell."
+  ],
+  "screenshots": [
+    "screenshots/dark200_apps_controls_20261013.jpg",
+    "screenshots/dark200_apps_human_filter_20261013.jpg",
+    "screenshots/dark200_apps_empty_grid_20261013.jpg",
+    "screenshots/dark200_apps_search_return_20261013.jpg",
+    "screenshots/dark200_apps_restored_20261013.jpg",
+    "screenshots/dark200_apps_first_20261013.jpg",
+    "screenshots/dark200_apps_last_20261013.jpg",
+    "screenshots/dark200_apps_date_20261013.jpg",
+    "screenshots/dark200_apps_version_20261013.jpg",
+    "screenshots/dark200_apps_folder_control_20261013.jpg",
+    "screenshots/dark200_apps_folder_destination_20261013.jpg",
+    "screenshots/dark200_apps_folder_return_20261013.jpg",
+    "screenshots/dark200_apps_full_focus_20261013.jpg",
+    "screenshots/dark200_apps_installed_focus_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "observerPath": "live_20261014_003051_0482448.jsonl"
+}

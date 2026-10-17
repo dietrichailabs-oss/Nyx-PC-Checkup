@@ -1,0 +1,296 @@
+{
+  "schema": "QA26-LIGHT200-THREE-PAGE-QUALIFICATION-1",
+  "utc": "2026-10-14T22:56:31.428Z",
+  "nativeDpi": 192,
+  "theme": "Light",
+  "payloadMatches": 60,
+  "payloadMismatches": 0,
+  "metadataUnchanged": true,
+  "intervals": [
+    {
+      "page": "Checkup",
+      "samples": 20,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1296
+      ],
+      "maxGapMs": 5017,
+      "startDeltaMs": 2300,
+      "endDeltaMs": 273
+    },
+    {
+      "page": "Storage",
+      "samples": 80,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1296
+      ],
+      "maxGapMs": 5016,
+      "startDeltaMs": 1155,
+      "endDeltaMs": 2491
+    },
+    {
+      "page": "Startup",
+      "samples": 71,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1296
+      ],
+      "maxGapMs": 5017,
+      "startDeltaMs": 1036,
+      "endDeltaMs": 179
+    }
+  ],
+  "comparison": [
+    {
+      "path": "LICENSE.txt",
+      "match": true
+    },
+    {
+      "path": "Nyx PC Checkup.exe",
+      "match": true
+    },
+    {
+      "path": "PAYLOAD_MANIFEST.json",
+      "match": true
+    },
+    {
+      "path": "README_FIRST.md",
+      "match": true
+    },
+    {
+      "path": "SBOM.json",
+      "match": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "match": true
+    },
+    {
+      "path": "Uninstall Nyx PC Checkup.exe",
+      "match": true
+    },
+    {
+      "path": "VERSION.json",
+      "match": true
+    },
+    {
+      "path": "app/NyxPCCheckup.ps1",
+      "match": true
+    },
+    {
+      "path": "app/actions/CleanupActions.psm1",
+      "match": true
+    },
+    {
+      "path": "app/actions/StartupActions.psm1",
+      "match": true
+    },
+    {
+      "path": "app/assets/brand_banner.png",
+      "match": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.ico",
+      "match": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.png",
+      "match": true
+    },
+    {
+      "path": "app/checks/BackupStatus.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/BatteryHealth.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/CleanupScan.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/DownloadsAnalysis.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/DriveHealth.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/InstalledApps.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/NetworkBasics.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/PerformanceSnapshot.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/SecurityStatus.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/StartupApps.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/StorageHealth.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/StorageScan.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/SystemInfo.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/Uptime.psm1",
+      "match": true
+    },
+    {
+      "path": "app/checks/WindowsUpdates.psm1",
+      "match": true
+    },
+    {
+      "path": "app/config/defaults.json",
+      "match": true
+    },
+    {
+      "path": "app/core/ActionHistory.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/CheckupEngine.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Configuration.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Diagnostics.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Models.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Paths.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/Privacy.psm1",
+      "match": true
+    },
+    {
+      "path": "app/core/RuntimeComposition.psm1",
+      "match": true
+    },
+    {
+      "path": "app/health_rules/HealthRules.psm1",
+      "match": true
+    },
+    {
+      "path": "app/health_rules/rules.json",
+      "match": true
+    },
+    {
+      "path": "app/platform/windows/WindowsHelpers.psm1",
+      "match": true
+    },
+    {
+      "path": "app/reports/PdfWriter.psm1",
+      "match": true
+    },
+    {
+      "path": "app/reports/ReportExport.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/Controls.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/Dialogs.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/MainWindow.psm1",
+      "match": true
+    },
+    {
+      "path": "app/ui/Theme.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/Manifest.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/Preferences.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/UpdateChecker.psm1",
+      "match": true
+    },
+    {
+      "path": "app/updates/Versioning.psm1",
+      "match": true
+    },
+    {
+      "path": "app/workers/ActionWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/InstallWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/ScanWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/UninstallWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "app/workers/UpdateCheckWorker.ps1",
+      "match": true
+    },
+    {
+      "path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "match": true
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "match": true
+    },
+    {
+      "path": "docs/PRIVACY_AND_SECURITY.md",
+      "match": true
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "match": true
+    }
+  ],
+  "fullCellsAdded": 3,
+  "noTestsRepeated": true,
+  "noScanStarted": true,
+  "independentVerdict": "RESERVED"
+}

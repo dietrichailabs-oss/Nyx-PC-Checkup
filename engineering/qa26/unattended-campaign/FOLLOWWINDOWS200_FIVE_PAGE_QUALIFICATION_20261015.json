@@ -1,0 +1,116 @@
+{
+  "schema": "QA26-FIVE-PAGE-NATIVE-QUALIFICATION-1",
+  "utc": "2026-10-15T22:31:38.395Z",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "measuredNativeDpi": 192,
+  "windowsAppsUseLightTheme": 1,
+  "stablePid": 1224,
+  "frozenFilesMatched": 60,
+  "frozenMismatches": [],
+  "unexpectedFrozenFiles": [],
+  "installationMetadataUnchanged": true,
+  "build": "2026.10.02-eng-qa26",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "harness": "QA26-F023-PS51-26",
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_220946_3985020.jsonl",
+  "intervals": [
+    {
+      "page": "Startup",
+      "startUtc": "2026-10-15T22:13:20.329Z",
+      "endUtc": "2026-10-15T22:15:45.230Z",
+      "samples": 31,
+      "nativeDpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 1383,
+      "nearestEndMs": 1715,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "Updates",
+      "startUtc": "2026-10-15T22:15:53.499Z",
+      "endUtc": "2026-10-15T22:17:39.907Z",
+      "samples": 23,
+      "nativeDpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 1546,
+      "nearestEndMs": 2197,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "Backup",
+      "startUtc": "2026-10-15T22:18:13.910Z",
+      "endUtc": "2026-10-15T22:20:17.115Z",
+      "samples": 26,
+      "nativeDpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 1761,
+      "nearestEndMs": 198,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "System",
+      "startUtc": "2026-10-15T22:20:34.893Z",
+      "endUtc": "2026-10-15T22:25:56.883Z",
+      "samples": 66,
+      "nativeDpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 2434,
+      "nearestEndMs": 854,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "Cleanup",
+      "startUtc": "2026-10-15T22:26:15.846Z",
+      "endUtc": "2026-10-15T22:29:15.982Z",
+      "samples": 43,
+      "nativeDpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 1923,
+      "nearestEndMs": 2123,
+      "noModifiedSamples": true
+    }
+  ],
+  "rawSource": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/dark200_20261013/followwindows200-five-page-native-20261015.json",
+  "nativeEvidence": "FOLLOWWINDOWS200_FIVE_PAGE_NATIVE_20261015.json",
+  "batches": [
+    "FOLLOWWINDOWS200_STARTUP_BATCH_20261015.json",
+    "FOLLOWWINDOWS200_UPDATES_BATCH_20261015.json",
+    "FOLLOWWINDOWS200_BACKUP_BATCH_20261015.json",
+    "FOLLOWWINDOWS200_SYSTEM_BATCH_20261015.json",
+    "FOLLOWWINDOWS200_CLEANUP_BATCH_20261015.json"
+  ],
+  "screenshots": 54,
+  "qualified": true,
+  "engineeringOnly": true,
+  "independentQaFinalDecisionReserved": true,
+  "noScanStarted": true,
+  "noTestsRepeated": true,
+  "noProductChange": true,
+  "noPolicyChange": true
+}

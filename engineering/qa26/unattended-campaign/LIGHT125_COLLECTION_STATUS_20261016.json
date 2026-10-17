@@ -1,0 +1,16 @@
+{
+  "schema": "QA26-COLLECTION-STATUS-1",
+  "utc": "2026-10-16T11:30:16.792Z",
+  "ownerReports": {
+    "observerStarted": true,
+    "collectorActionCompleted": true
+  },
+  "resultPath": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/dark200_20261013/light125-missing-native-20261016.json",
+  "resultRead": "ENOENT",
+  "errorArtifactRead": "ENOENT",
+  "observedPowerShellWindows": 0,
+  "classification": "RESULT_NOT_YET_AVAILABLE_CAUSE_UNDETERMINED",
+  "requested": "Collector displayed message only; no credentials in chat, no blind prompt relaunch",
+  "metadata": "Not read or investigated",
+  "testsRepeated": false
+}

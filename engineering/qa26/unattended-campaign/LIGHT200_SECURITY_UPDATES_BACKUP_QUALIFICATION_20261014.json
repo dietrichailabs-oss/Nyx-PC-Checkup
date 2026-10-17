@@ -1,0 +1,47 @@
+{
+  "schema": "QA26-LIGHT200-SECURITY-UPDATES-BACKUP-QUALIFICATION-1",
+  "utc": "2026-10-14T23:31:13.361Z",
+  "payloadFilesMatched": 60,
+  "payloadMismatches": [],
+  "theme": "Light",
+  "metadataUnchanged": true,
+  "intervals": [
+    {
+      "page": "Security",
+      "samples": 15,
+      "dpi": [
+        192
+      ],
+      "pids": [
+        1296
+      ],
+      "maxGapMs": 5015,
+      "startDeltaMs": 426,
+      "endDeltaMs": 1946
+    },
+    {
+      "page": "Updates",
+      "samples": 0,
+      "dpi": [],
+      "pids": [],
+      "maxGapMs": null,
+      "startDeltaMs": null,
+      "endDeltaMs": null
+    },
+    {
+      "page": "Backup",
+      "samples": 0,
+      "dpi": [],
+      "pids": [],
+      "maxGapMs": null,
+      "startDeltaMs": null,
+      "endDeltaMs": null
+    }
+  ],
+  "humanDestinationNearestNativeSampleMs": 1495538,
+  "status": "INCOMPLETE_MISSING_FRESH_NATIVE_DPI_LOG",
+  "fullCellsAdded": 0,
+  "noTestsRepeated": true,
+  "noScanStarted": true,
+  "productFailure": false
+}

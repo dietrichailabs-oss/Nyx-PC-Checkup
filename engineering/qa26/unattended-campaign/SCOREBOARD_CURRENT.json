@@ -6,9 +6,9 @@
       "NOT_RUN": 43
     },
     "bestEffort": {
-      "PASS": 0,
+      "PASS": 27,
       "FAIL": 0,
-      "NOT_RUN": 33
+      "NOT_RUN": 6
     }
   },
   "focused": {
@@ -59,5 +59,19 @@
     "rawEvidence": "native-dpi-alternative-recovered-20261011/dpi_20261011_native.jsonl"
   },
   "scriptSuites": "BLOCKED_POLICY_CHANGE_DECLINED",
-  "campaignComplete": false
+  "campaignComplete": false,
+  "testedAssertionScoreboard": {
+    "PASS": 312,
+    "FAIL": 0,
+    "previousPASS": 306,
+    "newEligibleAssertions": 6,
+    "batch": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
+    "scope": "Individually executed native-qualified Engineering assertions only; no full-cell or Independent QA verdict implied"
+  },
+  "latestQualifiedBatch": {
+    "record": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
+    "newEligibleAssertions": 6,
+    "fullCellsAdded": 0
+  },
+  "updatedUtc": "2026-10-17T19:19:21.985Z"
 }

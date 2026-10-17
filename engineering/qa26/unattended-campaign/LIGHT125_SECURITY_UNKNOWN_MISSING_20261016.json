@@ -1,0 +1,110 @@
+{
+  "schema": "QA26-MISSING-PREDICATES-1",
+  "theme": "Light",
+  "scaleRequested": 125,
+  "page": "Security",
+  "startedUtc": "2026-10-16T11:27:34.262Z",
+  "status": "NINE_NEW_UNKNOWN_DETAIL_CASES_EXECUTED_NATIVE_QUALIFICATION_PENDING",
+  "alreadyCompleted": "Antivirus historical; Firewall/services saved earlier today. No repeated detail cases.",
+  "requirements": {
+    "secureBootEnterExplanation": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:28:15.656Z",
+      "evidence": "screenshots/light125_security_missing_20261016_secureboot_enter_explanation_1792150095656.jpg",
+      "observation": "Check could not be completed; unavailable on unsupported firmware or insufficient access; no automatic change; safety None, Confirm-SecureBootUEFI, Complete False fully readable. No false Good result."
+    },
+    "secureBootCloseFocus": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:28:24.349Z",
+      "evidence": "screenshots/light125_security_missing_20261016_secureboot_close_focus_1792150104349.jpg"
+    },
+    "secureBootOriginReturn": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:28:34.306Z",
+      "evidence": "screenshots/light125_security_missing_20261016_secureboot_origin_return_1792150114306.jpg"
+    },
+    "tpmEnterExplanation": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:28:58.090Z",
+      "evidence": "screenshots/light125_security_missing_20261016_tpm_enter_explanation_1792150138090.jpg",
+      "observation": "Trusted Platform Module dialog reports supported local interface unavailable, no automatic change, None safety, Get-Tpm, Complete False; full explanation readable, no false Good."
+    },
+    "tpmCloseFocus": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:29:06.537Z",
+      "evidence": "screenshots/light125_security_missing_20261016_tpm_close_focus_1792150146537.jpg"
+    },
+    "tpmOriginReturn": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:29:15.891Z",
+      "evidence": "screenshots/light125_security_missing_20261016_tpm_origin_return_1792150155891.jpg"
+    },
+    "driveEncryptionEnterExplanation": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:29:34.646Z",
+      "evidence": "screenshots/light125_security_missing_20261016_drive_encryption_enter_explanation_1792150174646.jpg",
+      "observation": "Drive encryption unavailable through supported local interface, no automatic change, safety None, Get-BitLockerVolume, Complete False; full essential explanation readable. No encryption or recovery-key controls opened."
+    },
+    "driveEncryptionCloseFocus": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:29:44.558Z",
+      "evidence": "screenshots/light125_security_missing_20261016_drive_encryption_close_focus_1792150184558.jpg"
+    },
+    "driveEncryptionOriginReturn": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "utc": "2026-10-16T11:30:16.790Z",
+      "evidence": "screenshots/light125_security_missing_20261016_drive_encryption_origin_return_1792150216790.jpg"
+    }
+  },
+  "screenshots": [
+    {
+      "label": "secureboot_enter_explanation",
+      "path": "screenshots/light125_security_missing_20261016_secureboot_enter_explanation_1792150095656.jpg",
+      "utc": "2026-10-16T11:28:15.657Z"
+    },
+    {
+      "label": "secureboot_close_focus",
+      "path": "screenshots/light125_security_missing_20261016_secureboot_close_focus_1792150104349.jpg",
+      "utc": "2026-10-16T11:28:24.350Z"
+    },
+    {
+      "label": "secureboot_origin_return",
+      "path": "screenshots/light125_security_missing_20261016_secureboot_origin_return_1792150114306.jpg",
+      "utc": "2026-10-16T11:28:34.307Z"
+    },
+    {
+      "label": "tpm_enter_explanation",
+      "path": "screenshots/light125_security_missing_20261016_tpm_enter_explanation_1792150138090.jpg",
+      "utc": "2026-10-16T11:28:58.090Z"
+    },
+    {
+      "label": "tpm_close_focus",
+      "path": "screenshots/light125_security_missing_20261016_tpm_close_focus_1792150146537.jpg",
+      "utc": "2026-10-16T11:29:06.538Z"
+    },
+    {
+      "label": "tpm_origin_return",
+      "path": "screenshots/light125_security_missing_20261016_tpm_origin_return_1792150155891.jpg",
+      "utc": "2026-10-16T11:29:15.893Z"
+    },
+    {
+      "label": "drive_encryption_enter_explanation",
+      "path": "screenshots/light125_security_missing_20261016_drive_encryption_enter_explanation_1792150174646.jpg",
+      "utc": "2026-10-16T11:29:34.647Z"
+    },
+    {
+      "label": "drive_encryption_close_focus",
+      "path": "screenshots/light125_security_missing_20261016_drive_encryption_close_focus_1792150184558.jpg",
+      "utc": "2026-10-16T11:29:44.559Z"
+    },
+    {
+      "label": "drive_encryption_origin_return",
+      "path": "screenshots/light125_security_missing_20261016_drive_encryption_origin_return_1792150216790.jpg",
+      "utc": "2026-10-16T11:30:16.791Z"
+    }
+  ],
+  "newCellCredit": 0,
+  "nativeDpi": "Human reports observer started; actual interval collection pending",
+  "metadataReview": "Independent QA only; untouched",
+  "completedUtc": "2026-10-16T11:30:16.791Z"
+}

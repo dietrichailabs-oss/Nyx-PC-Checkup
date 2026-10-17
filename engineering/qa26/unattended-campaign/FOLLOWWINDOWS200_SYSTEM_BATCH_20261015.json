@@ -1,0 +1,41 @@
+{
+  "page": "System",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T22:20:34.893Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "page": "screenshots/followwindows200_system_page_20261015.jpg",
+    "controls": "screenshots/followwindows200_system_controls_20261015.jpg",
+    "first": "screenshots/followwindows200_system_first_20261015.jpg",
+    "overview": "screenshots/followwindows200_system_overview_20261015.jpg",
+    "close": "screenshots/followwindows200_system_close_20261015.jpg",
+    "origin": "screenshots/followwindows200_system_origin_20261015.jpg",
+    "uptime": "screenshots/followwindows200_system_uptime_20261015.jpg",
+    "network": "screenshots/followwindows200_system_network_20261015.jpg",
+    "drive": "screenshots/followwindows200_system_drive_20261015.jpg",
+    "last": "screenshots/followwindows200_system_last_20261015.jpg",
+    "performance": "screenshots/followwindows200_system_performance_20261015.jpg",
+    "primary": "screenshots/followwindows200_system_primary_20261015.jpg",
+    "destination": "screenshots/followwindows200_system_destination_20261015.jpg",
+    "return": "screenshots/followwindows200_system_return_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "actualSystemAboutDestination": true,
+    "firstLastKeyboardRecovery": true,
+    "allFiveEssentialFindingsReadableViaDetails": true,
+    "keyboardCloseOriginReturn": true,
+    "primaryKeyboardReachable": true,
+    "noConfigurationChange": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_220946_3985020.jsonl",
+  "fullCellCredit": 1,
+  "endUtc": "2026-10-15T22:25:56.883Z",
+  "limitations": [
+    "200% reduced viewport requires keyboard scrolling and full detail reading."
+  ],
+  "nativeQualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+}

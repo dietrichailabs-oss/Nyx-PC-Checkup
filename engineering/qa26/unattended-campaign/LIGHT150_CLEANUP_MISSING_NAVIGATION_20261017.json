@@ -1,0 +1,207 @@
+{
+  "schema": "QA26-LIGHT150-CLEANUP-MISSING-NAVIGATION-BATCH-1",
+  "utc": "2026-10-17T18:35:27.711Z",
+  "plan": "LIGHT150_CLEANUP_MISSING_NAVIGATION_PLAN_20261017.json",
+  "observer": {
+    "startedObservedUtc": "2026-10-17T18:35:27.711Z",
+    "evidence": "screenshots/light150_cleanup_missingnav_observer_setup_20261017_1792262127710_3d9a0730-82a3-4a22-bb43-f5a1a5626593.jpg",
+    "filename": "Resolve exact live_20261017_18*.jsonl from collection; clipped console suffix not guessed",
+    "caseInterval": [
+      "2026-10-17T18:38:03.771Z",
+      "2026-10-17T18:40:08.381Z"
+    ]
+  },
+  "cases": [
+    {
+      "id": "light150_cleanup_missingnav_pageup_20261017",
+      "utc": "2026-10-17T18:38:03.771Z",
+      "page": "Cleanup",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Cleanup candidate grid pageup keyboard navigation retains readable focus and does not select or execute cleanup",
+      "key": "Page_Up",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "With dotted Age-cell focus established on wct2F92.tmp, PageUp returns to first Cleanup candidate 564ecbcf-ff2d-462a-b866... with Age-cell focus. Candidate checkboxes remain clear; no action, selection or scan. Required grid navigation only, no full-cell readability claim.",
+      "evidence": "screenshots/light150_cleanup_missingnav_pageup_20261017_1792262283772_d24a5286-ab3c-4baa-805a-8352bbf114bd.jpg",
+      "sha256": "0d131532121bd9b8a19a178a544cc9776a5b084976cb49723d6be3f0c6d91ab7",
+      "captureReceipt": "screenshots/light150_cleanup_missingnav_pageup_20261017_1792262283772_d24a5286-ab3c-4baa-805a-8352bbf114bd.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noSelection": true,
+      "noCleanup": true,
+      "nativeQualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "id": "light150_cleanup_missingnav_pagedown_20261017",
+      "utc": "2026-10-17T18:38:21.304Z",
+      "page": "Cleanup",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Cleanup candidate grid pagedown keyboard navigation retains readable focus and does not select or execute cleanup",
+      "key": "Page_Down",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "With grid focus confirmed, one grid PageDown moves dotted Age-cell focus from the first candidate to wct3D5B.tmp and exposes lower candidates. All visible checkboxes remain clear; Ready footer, no scan/cleanup. Earlier outer-pane PageDown was setup only and received zero credit.",
+      "evidence": "screenshots/light150_cleanup_missingnav_pagedown_20261017_1792262301305_07e3ed99-6c7b-43b6-a20b-d4be132e8f77.jpg",
+      "sha256": "3dd1baac5521c58218079dd721795392ff5ede791e551f6b192845c55643fb6a",
+      "captureReceipt": "screenshots/light150_cleanup_missingnav_pagedown_20261017_1792262301305_07e3ed99-6c7b-43b6-a20b-d4be132e8f77.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noSelection": true,
+      "noCleanup": true,
+      "nativeQualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "id": "light150_cleanup_missingnav_down_20261017",
+      "utc": "2026-10-17T18:38:31.220Z",
+      "page": "Cleanup",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Cleanup candidate grid down keyboard navigation retains readable focus and does not select or execute cleanup",
+      "key": "Down",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Down moves dotted Age-cell focus from wct3D5B.tmp to next candidate wct3DC4.tmp and scrolls that row into view. All visible checkboxes stay clear; no review, cleanup or scan.",
+      "evidence": "screenshots/light150_cleanup_missingnav_down_20261017_1792262311220_c9964298-8bf3-44a2-9990-82111d9c114a.jpg",
+      "sha256": "dfe71f12c5fd61c3349d27241f6a2d176acfa4e8267405f769a68cefedabdabd",
+      "captureReceipt": "screenshots/light150_cleanup_missingnav_down_20261017_1792262311220_c9964298-8bf3-44a2-9990-82111d9c114a.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noSelection": true,
+      "noCleanup": true,
+      "nativeQualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "id": "light150_cleanup_missingnav_up_20261017",
+      "utc": "2026-10-17T18:39:46.032Z",
+      "page": "Cleanup",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Cleanup candidate grid up keyboard navigation retains readable focus and does not select or execute cleanup",
+      "key": "Up",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Up returns dotted Age-cell focus from wct3DC4.tmp to preceding wct3D5B.tmp. No checkbox selected and no cleanup, review or scan started.",
+      "evidence": "screenshots/light150_cleanup_missingnav_up_20261017_1792262386032_0720e663-2a03-41f4-8a92-140da7486a29.jpg",
+      "sha256": "af135e815ea270ef1c85c477c3d160c4393f70714838010873e4ed69112ebd98",
+      "captureReceipt": "screenshots/light150_cleanup_missingnav_up_20261017_1792262386032_0720e663-2a03-41f4-8a92-140da7486a29.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noSelection": true,
+      "noCleanup": true,
+      "nativeQualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "id": "light150_cleanup_missingnav_left_20261017",
+      "utc": "2026-10-17T18:39:55.378Z",
+      "page": "Cleanup",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Cleanup candidate grid left keyboard navigation retains readable focus and does not select or execute cleanup",
+      "key": "Left",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Left moves dotted focus from Age to the exact Item cell wct3D5B.tmp on the same candidate. Checkbox remains clear, with no action or scan.",
+      "evidence": "screenshots/light150_cleanup_missingnav_left_20261017_1792262395379_2ca9bf78-6f3a-48cb-95df-736e53c07b74.jpg",
+      "sha256": "1e18be58d215572445671cec7f7305d4234a283662436d19d970b6796bf8db6b",
+      "captureReceipt": "screenshots/light150_cleanup_missingnav_left_20261017_1792262395379_2ca9bf78-6f3a-48cb-95df-736e53c07b74.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noSelection": true,
+      "noCleanup": true,
+      "nativeQualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "id": "light150_cleanup_missingnav_right_20261017",
+      "utc": "2026-10-17T18:40:08.381Z",
+      "page": "Cleanup",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Cleanup candidate grid right keyboard navigation retains readable focus and does not select or execute cleanup",
+      "key": "Right",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Right returns dotted focus from Item wct3D5B.tmp to its Age cell on the same candidate. All visible checkboxes remain clear; no refresh, review, cleanup or scan.",
+      "evidence": "screenshots/light150_cleanup_missingnav_right_20261017_1792262408381_600fec39-0b2c-4049-a076-e833ed15f9e6.jpg",
+      "sha256": "f1a04ecc331d909c175bc557c9c2f7a59b9ad1ed0eb2054394b7f590b7868568",
+      "captureReceipt": "screenshots/light150_cleanup_missingnav_right_20261017_1792262408381_600fec39-0b2c-4049-a076-e833ed15f9e6.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noSelection": true,
+      "noCleanup": true,
+      "nativeQualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json"
+    }
+  ],
+  "setup": [
+    {
+      "utc": "2026-10-17T18:37:08.197Z",
+      "evidence": "screenshots/light150_cleanup_missingnav_grid_setup_20261017_1792262228198_12175f95-f70a-4bf3-95e2-60d376518dee.jpg",
+      "sha256": "57bc7342c09e71ae6fff9b25c747aa4f43cf4acceb9fd04ad15d01c9e63345fb",
+      "credit": 0,
+      "description": "Non-checkbox grid focus setup; all visible checkboxes clear; no scan or cleanup"
+    },
+    {
+      "utc": "2026-10-17T18:37:09.779Z",
+      "evidence": "screenshots/light150_cleanup_missingnav_pagedown_20261017_1792262229780_3d6e923f-1624-4279-b793-183f1498ef51.jpg",
+      "sha256": "629c1f757eaf392f18a4840e2da0c952242d9dc65d9d22e3c42e6cdb71885600",
+      "credit": 0,
+      "stage": "FirstPageDownInputRoute",
+      "observation": "Outer Cleanup pane scrolled, but no dotted grid-cell focus is shown. Grid PageDown predicate is not credited; no product failure inferred."
+    },
+    {
+      "utc": "2026-10-17T18:38:02.440Z",
+      "evidence": "screenshots/light150_cleanup_missingnav_dotted_grid_focus_setup_20261017_1792262282441_60942767-23ce-464d-a9b2-6cf5d878f3a2.jpg",
+      "sha256": "3ade2284c4d77f3b7422ad8b586d1278895289318ba8af1e63ddba171ee3d8e1",
+      "credit": 0,
+      "description": "Single Tab reveals dotted Age-cell focus on wct2F92.tmp; all visible checkboxes remain clear"
+    },
+    {
+      "evidence": "screenshots/light150_cleanup_applied_theme_preservation_20261017_1792262487095_900aaeba-5386-4562-b89e-a6c5903702d3.jpg",
+      "sha256": "db0d2eb4226d9feffbec56218c4d83d8db70049c8172ba64106e78c1f457f199",
+      "observedSelector": "Light",
+      "utc": "2026-10-17T18:41:27.095Z",
+      "credit": 0,
+      "status": "REJECTED_TRANSIENT_CAPTURE_NOT_SELECTOR",
+      "stage": "TransientNonSelectorCaptureRejected"
+    }
+  ],
+  "status": "SIX_ENGINEERING_ASSERTIONS_NATIVE_QUALIFIED",
+  "fullCellCredit": 0,
+  "noScan": true,
+  "noDeletion": true,
+  "scoreboardBefore": {
+    "PASS": 306,
+    "FAIL": 0
+  },
+  "inputRouteUnqualified": [
+    "light150_cleanup_missingnav_pagedown_20261017"
+  ],
+  "recorderCorrection": {
+    "utc": "2026-10-17T18:39:44.619Z",
+    "authorization": "User approved recorder-only correction; continue without repeats",
+    "change": "Captured case and state context passed explicitly; predicate capture identity checked",
+    "guardStoppedDuplicate": true,
+    "duplicateRecordsAdded": 0,
+    "inputsRepeated": 0
+  },
+  "endUtc": "2026-10-17T18:40:44.129Z",
+  "appliedThemeEvidence": {
+    "evidence": "screenshots/light150_cleanup_selector_preservation_retry_no_test_20261017_1792262506066_522b2843-7393-407c-88f9-fc6ef4718e2c.jpg",
+    "sha256": "b863ad0959c58587c19bb2a33debf8ccb696130955811ace9df02621ac8ea501",
+    "observedSelector": "Light",
+    "utc": "2026-10-17T18:41:46.066Z",
+    "status": "VISUALLY_CONFIRMED_SELECTOR",
+    "credit": 0
+  },
+  "nextThemeSetup": {
+    "planned": "FOLLOWWINDOWS150_CLEANUP_MISSING_NAVIGATION_PLAN_20261017.json",
+    "status": "NOT_EXECUTED_CAPTURE_RECOVERY_DEFERRED",
+    "unsavedSelector": "FollowWindows",
+    "savePerformed": false,
+    "productAppliedTheme": "Light",
+    "preservedCurrentBatchFirst": true
+  },
+  "qualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
+  "newEligibleAssertions": 6
+}

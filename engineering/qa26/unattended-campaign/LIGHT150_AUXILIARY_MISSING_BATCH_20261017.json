@@ -1,0 +1,223 @@
+{
+  "schema": "QA26-LIGHT150-MISSING-AUXILIARY-BATCH-1",
+  "utc": "2026-10-17T12:52:39.636Z",
+  "plan": "LIGHT150_AUXILIARY_MISSING_PLAN_20261017.json",
+  "observer": {
+    "startedObservedUtc": "2026-10-17T12:52:39.636Z",
+    "evidence": "screenshots/light150_auxiliary_observer_start_1792241559635.jpg",
+    "filename": "CLIPPED_IN_CONSOLE; resolve exact filename from raw collection, do not guess",
+    "nativeDpi": "PENDING_FRESH_RAW_MEASUREMENT"
+  },
+  "cases": [
+    {
+      "id": "light150_storage_measured_folder_values_20261017",
+      "utc": "2026-10-17T12:57:54.345Z",
+      "page": "Storage",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "All preserved measured-folder names/counts/sizes/completeness readable; no measurement rerun",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "All five preserved measured-folder rows fully readable: Downloads282B/1/True; Desktop2.8KB/2/True; Documents2.2MB/25001/True; Pictures504B/1/True; Videos504B/1/True. Historical measurements only; no refresh or new scan.",
+      "evidence": "screenshots/light150_storage_measured_folder_values_20261017_1792241874345.jpg",
+      "sha256": "0d18ec8f5b663d321a6f7005cca43a576dfe7be02630fe6ce1c2ea69e8e3fec5",
+      "fullCellCredit": 0,
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 1
+    },
+    {
+      "id": "light150_storage_largest_first_row_20261017",
+      "utc": "2026-10-17T12:58:58.926Z",
+      "page": "Storage",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Largest-files first row reached with keyboard, required values readable",
+      "status": "EXECUTED_REPORTED_EVIDENCE_INVALID_UNCREDITED",
+      "details": "Ctrl+Home moved selection from a non-first desktop.ini row to first largest-file row Nyx PC Checkup.lnk,2.5KB,Folder C:\\Users\\Nyx\\Desktop. Selection highlight is visible; no file/folder action triggered. Dotted focus cues are not inferred from this capture.",
+      "evidence": "screenshots/light150_storage_largest_first_row_20261017_1792241938926.jpg",
+      "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+      "fullCellCredit": 0,
+      "focusRecovery": {
+        "method": "Single normal Tab revealed dotted focus on same first-row Folder cell",
+        "utc": "2026-10-17T12:59:14.098Z",
+        "evidence": "screenshots/light150_storage_largest_first_focus_recovery_1792241954097.jpg",
+        "additionalAssertionCredit": 0
+      },
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 0,
+      "evidenceDefect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE"
+    },
+    {
+      "id": "light150_storage_largest_final_row_20261017",
+      "utc": "2026-10-17T12:59:23.815Z",
+      "page": "Storage",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Largest-files final row reached with keyboard, exact selection and size readable",
+      "status": "EXECUTED_REPORTED_EVIDENCE_INVALID_UNCREDITED",
+      "details": "Ctrl+End reaches final largest-files row fixture_24983.txt,92B, with visible dotted Folder-cell focus and last-row selection. No file/folder activation.",
+      "evidence": "screenshots/light150_storage_largest_final_row_20261017_1792241963815.jpg",
+      "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+      "fullCellCredit": 0,
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 0,
+      "evidenceDefect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE"
+    },
+    {
+      "id": "light150_storage_largest_full_folder_tooltip_20261017",
+      "utc": "2026-10-17T12:59:41.220Z",
+      "page": "Storage",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Complete long Folder value readable through actual native tooltip",
+      "status": "EXECUTED_REPORTED_EVIDENCE_INVALID_UNCREDITED",
+      "details": "Actual native tooltip exposes complete C:\\Users\\Nyx\\Documents\\NyxQA26_ReadOnlyScanLoad_20261004 for selected fixture_24983.txt,92B. Pointer positioned with zero wheel displacement; no click or action activation.",
+      "evidence": "screenshots/light150_storage_largest_full_folder_tooltip_20261017_1792241981220.jpg",
+      "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+      "fullCellCredit": 0,
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 0,
+      "evidenceDefect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE"
+    },
+    {
+      "id": "light150_storage_largest_enter_exact_folder_20261017",
+      "utc": "2026-10-17T13:00:28.127Z",
+      "page": "Storage",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Enter opens actual containing folder with exact selected file; no file execution",
+      "status": "EXECUTED_REPORTED_EVIDENCE_INVALID_UNCREDITED",
+      "details": "One Enter on exact fixture_24983.txt largest-files row opened native Explorer in NyxQA26_ReadOnlyScanLoad_20261004, selecting fixture_24983 (Text Document); status shows25000items,1itemselected,92bytes. This is containing-folder selection, not file execution; no text editor or mutation.",
+      "evidence": "screenshots/light150_storage_largest_enter_exact_folder_20261017_1792242028127.jpg",
+      "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+      "fullCellCredit": 0,
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 0,
+      "evidenceDefect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE"
+    },
+    {
+      "id": "light150_storage_largest_keyboard_return_20261017",
+      "utc": "2026-10-17T13:02:23.703Z",
+      "page": "Storage",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Close only test Explorer and return to originating largest-files row",
+      "status": "EXECUTED_REPORTED_EVIDENCE_INVALID_UNCREDITED",
+      "details": "Ctrl+W closed only the test Explorer and returned to idle Nyx Storage. Initial returned viewport did not show the origin; normal Ctrl+End recovery then exposed the same fixture_24983.txt,92B, with dotted Folder-cell focus. Automatic immediate origin visibility is not claimed; recovery carries no duplicate final-row-navigation credit.",
+      "evidence": "screenshots/light150_storage_largest_keyboard_return_20261017_1792242143703.jpg",
+      "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+      "fullCellCredit": 0,
+      "limitation": "One normal Ctrl+End recovery was needed to expose the origin after Explorer close.",
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 0,
+      "evidenceDefect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE"
+    },
+    {
+      "id": "light150_apps_selected_filter_clears_action_20261017",
+      "utc": "2026-10-17T13:04:39.270Z",
+      "page": "Apps",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Filtering an explicitly selected app clears/disables its folder action; baseline selection is setup only",
+      "status": "EXECUTED_REPORTED_EVIDENCE_INVALID_UNCREDITED",
+      "details": "After explicit Edge selection and enabled folder-action baseline, exact q filter yields zero rows and disabled Open selected folder. Shift+Tab from search skips disabled folder and visibly focuses Run Full Check; no activation, scan, uninstall or folder dispatch.",
+      "evidence": "screenshots/light150_apps_selected_filter_clears_action_20261017_1792242279270.jpg",
+      "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+      "fullCellCredit": 0,
+      "supportingEvidence": [
+        "screenshots/light150_apps_selected_filter_setup_1792242222321.jpg",
+        "screenshots/light150_apps_selected_filter_empty_1792242257999.jpg"
+      ],
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 0,
+      "evidenceDefect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE"
+    },
+    {
+      "id": "light150_apps_selected_filter_restore_safe_20261017",
+      "utc": "2026-10-17T13:07:10.032Z",
+      "page": "Apps",
+      "theme": "Light",
+      "scale": 150,
+      "predicate": "Clearing filter does not revive stale folder selection/action",
+      "status": "EXECUTED_REPORTED_EVIDENCE_INVALID_UNCREDITED",
+      "details": "Backspace clears exact q filter and restores inventory rows without reviving prior Edge selection. Open selected folder remains disabled; Shift+Tab from search skips it and focuses Run Full Check, with no activation. Restored-row/filter behavior is setup context; new assertion is absence of stale folder action.",
+      "evidence": "screenshots/light150_apps_selected_filter_restore_safe_20261017_1792242430032.jpg",
+      "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+      "fullCellCredit": 0,
+      "supportingEvidence": [
+        "screenshots/light150_apps_selected_filter_setup_1792242222321.jpg",
+        "screenshots/light150_apps_selected_filter_empty_1792242257999.jpg",
+        "screenshots/light150_apps_selected_filter_restored_1792242300526.jpg"
+      ],
+      "nativeQualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+      "assertionCredit": 0,
+      "evidenceDefect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE"
+    }
+  ],
+  "setup": [
+    {
+      "stage": "LightThemeSaved",
+      "utc": "2026-10-17T12:55:26.922Z",
+      "evidence": "screenshots/light150_auxiliary_theme_save_setup_1792241726846.jpg",
+      "credit": 0,
+      "otherPreferencesUntouched": true
+    },
+    {
+      "stage": "AppliedLightSelectorAfterNormalRelaunch",
+      "utc": "2026-10-17T12:56:53.332Z",
+      "evidence": "screenshots/light150_auxiliary_applied_light_1792241813331.jpg",
+      "credit": 0
+    },
+    {
+      "stage": "ExplorerCloseKeyboardRoute",
+      "utc": "2026-10-17T13:00:57.875Z",
+      "method": "Alt_L+F4",
+      "observation": "Explorer remained open and address dropdown appeared; no close PASS or product failure inferred. Use supported Ctrl+W recovery.",
+      "evidence": "screenshots/light150_storage_altf4_not_forwarded_setup_1792242057874.jpg",
+      "credit": 0
+    },
+    {
+      "stage": "AfterExplorerCtrlW",
+      "utc": "2026-10-17T13:01:45.740Z",
+      "observation": "Ctrl+W closed only Explorer and returned to Nyx Storage; exact origin row not visible in initial viewport. Ctrl+End next is recovery only, not repeated navigation credit.",
+      "evidence": "screenshots/light150_storage_largest_return_initial_1792242105739.jpg",
+      "credit": 0
+    },
+    {
+      "stage": "ExplicitEdgeSelectionEnablesFolderAction",
+      "utc": "2026-10-17T13:03:42.322Z",
+      "evidence": "screenshots/light150_apps_selected_filter_setup_1792242222321.jpg",
+      "observation": "Edge explicitly selected; Open selected folder accepts visible keyboard focus. No dispatch and no repeat credit for already-completed folder focus predicate.",
+      "credit": 0
+    }
+  ],
+  "fullCellCredit": 0,
+  "noScan": true,
+  "noCompletedPredicateCreditRepeated": true,
+  "appliedThemeEvidence": "screenshots/light150_auxiliary_applied_light_1792241813331.jpg",
+  "storageExecuted": 6,
+  "inProgress": null,
+  "status": "NATIVE_COLLECTED_ONE_QUALIFIED_SEVEN_EVIDENCE_INCOMPLETE",
+  "endUtc": "2026-10-17T13:07:10.041Z",
+  "qualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+  "evidenceDefect": {
+    "id": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE",
+    "classification": "QA_EVIDENCE_CAPTURE_DEFECT_NOT_PRODUCT_FAILURE",
+    "affectedCases": [
+      "light150_storage_largest_first_row_20261017",
+      "light150_storage_largest_final_row_20261017",
+      "light150_storage_largest_full_folder_tooltip_20261017",
+      "light150_storage_largest_enter_exact_folder_20261017",
+      "light150_storage_largest_keyboard_return_20261017",
+      "light150_apps_selected_filter_clears_action_20261017",
+      "light150_apps_selected_filter_restore_safe_20261017"
+    ],
+    "finding": "Seven primary case files are byte-identical copies of the earlier largest-files first-row viewport. They do not document final-row, tooltip, Explorer activation/return or Apps filter outcomes. The first-row file also does not establish its claimed later keyboard transition. Supporting Apps state captures are identical to their baseline; the applied-selector-named capture shows Home, not a selector.",
+    "duplicateSHA256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023",
+    "originalFilesPreserved": true,
+    "repeatTestsAuthorized": false,
+    "helperCorrection": "REQUESTED_USER_APPROVAL_NOT_APPLIED",
+    "disposition": "Seven assertions uncredited; no product FAIL inferred; Independent QA review reserved"
+  },
+  "newEligibleAssertions": 1,
+  "evidenceIncomplete": 7
+}

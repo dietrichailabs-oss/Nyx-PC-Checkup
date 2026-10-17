@@ -1,0 +1,41 @@
+{
+  "page": "Cleanup",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:52:02.463Z",
+  "endUtc": "2026-10-14T00:55:59.1Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "sidebarScrollRecovery": true,
+    "populatedInventory": true,
+    "visibleKeyboardFocus": true,
+    "lastRowKeyboardRecovery": true,
+    "zeroSelectionSummary": true,
+    "zeroSelectionGuard": true,
+    "noDeletion": true,
+    "noScanStarted": true,
+    "fullConsequenceReadable": true,
+    "refreshPrimaryKeyboardFocus": true
+  },
+  "remainingPredicates": [],
+  "screenshots": [
+    "screenshots/dark200_cleanup_opening_20261013.jpg",
+    "screenshots/dark200_cleanup_controls_20261013.jpg",
+    "screenshots/dark200_cleanup_rows_20261013.jpg",
+    "screenshots/dark200_cleanup_keyboard_20261013.jpg",
+    "screenshots/dark200_cleanup_last_20261013.jpg",
+    "screenshots/dark200_cleanup_consequence_truncated_20261013.jpg",
+    "screenshots/dark200_cleanup_zero_summary_20261013.jpg",
+    "screenshots/dark200_cleanup_zero_guard_20261013.jpg",
+    "screenshots/dark200_cleanup_idle_return_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "classification": "Engineering best-effort qualified from preserved base predicates plus two newly executed missing predicates; Independent QA final verdict reserved.",
+  "supplement": "DARK200_CLEANUP_MISSING_PREDICATES_20261014.json",
+  "limitations": [
+    "Consequence text requires ordinary native column-boundary double-click autosize; narrow viewport retained.",
+    "Refresh focus only: no redundant scan or deletion; prior grid/zero guard predicates reused, not repeated."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "QA26-FRESH-EVIDENCE-HELPER-VALIDATION-1",
+  "utc": "2026-10-17T18:34:47.389Z",
+  "helper": "harness/qa26-fresh-screenshot-evidence-20261017.mjs",
+  "exactSavedSourceMatches": true,
+  "moduleImport": {
+    "status": "UNAVAILABLE_IN_NODE_REPL_FILE_RESOLVER",
+    "error": "EPERM realpath file URL",
+    "scope": "No Windows execution-policy change or blocked PowerShell script executed"
+  },
+  "fixtureChecks": [
+    {
+      "check": "Fresh query bytes and receipt saved, not cached fixture",
+      "pass": true
+    },
+    {
+      "check": "Duplicate image rejected",
+      "pass": true,
+      "message": "Duplicate image bytes rejected; preserve pending case, do not repeat test automatically"
+    },
+    {
+      "check": "Unexpected window rejected",
+      "pass": true,
+      "message": "Unexpected capture window; no evidence saved"
+    },
+    {
+      "check": "Ambiguous capture rejected",
+      "pass": true,
+      "message": "Exactly one unambiguous window screenshot required"
+    },
+    {
+      "check": "Invalid image rejected",
+      "pass": true,
+      "message": "Fresh image bytes and dimensions required"
+    },
+    {
+      "check": "Unsafe predicate path rejected",
+      "pass": true,
+      "message": "Safe predicate ID required"
+    },
+    {
+      "check": "Missing exact window rejected",
+      "pass": true,
+      "message": "Exact source window required"
+    }
+  ],
+  "liveCapture": {
+    "evidence": "screenshots/visible_guest_capture_validation_no_acceptance_credit_1792262043594_67161b86-ed03-4a43-8203-6aa98cea88bf.jpg",
+    "sha256": "ec893ff0955479409beebf645746af1241fe038b188c6549fb0e2aa2cf139385",
+    "observed": "Visible original guest Nyx Apps Light presentation",
+    "distinctFromInactiveBlackCapture": true
+  },
+  "result": "PASS_FIXTURE_AND_LIVE_CAPTURE_VALIDATION",
+  "acceptanceAssertionCredit": 0,
+  "testsRepeated": 0,
+  "scoreboard": {
+    "PASS": 306,
+    "FAIL": 0
+  },
+  "sevenDeficientCasesRemainUncredited": true
+}

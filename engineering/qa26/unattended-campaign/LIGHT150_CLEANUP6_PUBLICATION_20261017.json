@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-17T19:19:40.210Z",
+  "issue": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6239418877",
+  "qualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
+  "newEligibleAssertions": 6,
+  "scoreboard": {
+    "PASS": 312,
+    "FAIL": 0
+  },
+  "matrix": {
+    "complete": 83,
+    "total": 132
+  },
+  "campaignComplete": false
+}

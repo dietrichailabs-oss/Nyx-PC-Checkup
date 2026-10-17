@@ -1,0 +1,51 @@
+{
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "page": "Home",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "startedAfterUtc": "2026-10-13T23:32:40.4014184Z",
+  "completedUtc": "2026-10-13T23:37:55.638Z",
+  "pid": 7232,
+  "preflightDpi": 192,
+  "requirements": {
+    "launch": true,
+    "primaryActionReachable": true,
+    "keyboardFocusRecovery": true,
+    "practicalVerticalScrolling": true,
+    "practicalHorizontalScrolling": true,
+    "essentialStatusReadableThroughRecovery": true,
+    "reportReviewReachable": true,
+    "cancelKeyboardOperable": true,
+    "saveNotActivated": true,
+    "noObservedCrashOrUnhandledException": true,
+    "scanStarted": false,
+    "productChanged": false
+  },
+  "limitations": [
+    "Constrained1366x768 viewport shows reduced content and clipped text until horizontal/vertical scrollbar recovery.",
+    "Report-review buttons initially clipped; Tab and ordinary vertical scrolling recover them.",
+    "No claim of perfect presentation or strict-scale visual acceptance."
+  ],
+  "screenshots": [
+    "screenshots/home200_report_review_20261013.jpg",
+    "screenshots/home200_export_controls_scrolled_20261013.jpg",
+    "screenshots/home200_cancel_keyboard_20261013.jpg",
+    "screenshots/home200_return_idle_20261013.jpg",
+    "screenshots/home200_primary_keyboard_20261013.jpg",
+    "screenshots/home200_storage_updates_20261013.jpg",
+    "screenshots/home200_security_recovered_20261013.jpg",
+    "screenshots/home200_startup_backup_20261013.jpg",
+    "screenshots/home200_backup_system_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "nativeQualification": {
+    "sampleCount": 65,
+    "maxGapMs": 5018,
+    "dpi": 192,
+    "pid": 7232,
+    "theme": "Dark",
+    "productFilesMatched": 60,
+    "evidence": "DARK200_HOME_NATIVE_QUALIFICATION_20261013.json"
+  }
+}

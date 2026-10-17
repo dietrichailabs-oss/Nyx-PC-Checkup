@@ -1,0 +1,706 @@
+{
+  "schema": "QA26-NATIVE-EXPORT-COLLECTION-1",
+  "utc": "2026-10-17T00:20:38.326Z",
+  "plan": "NATIVE_LIVE_EXPORT_COLLECTION_PLAN_20261016.json",
+  "copiedRaw": [
+    {
+      "path": "observer/cleanup_20261011_124439.jsonl",
+      "bytes": 24380,
+      "sha256": "462bd51473ad50751c1b75fd727d677d0cfe34413c5fb4740458ed9b77cbacc7"
+    },
+    {
+      "path": "observer/dpi_20261011_native.jsonl",
+      "bytes": 6096,
+      "sha256": "17128e1d43b7808fc302a384657eed7ae62c8c51d7f7b035dd676596914c221c"
+    },
+    {
+      "path": "observer/live_20261011_200228_4934706.jsonl",
+      "bytes": 5079,
+      "sha256": "04be99d317a0c87655e4a12d6dff3b62b5d8a22c4f0ecd3da9d49da9e1562c50"
+    },
+    {
+      "path": "observer/live_20261012_220049_9697777.jsonl",
+      "bytes": 43200,
+      "sha256": "04d572948c52d43bf7d42f9fe2b1ba1e108d0554ec3610874f5dce5d6c68a04b"
+    },
+    {
+      "path": "observer/live_20261012_224108_5549143.jsonl",
+      "bytes": 13140,
+      "sha256": "33567f6801ea773d7740ae6011f5c93d2cc1a5dbececcd594f1830f00978ca5b"
+    },
+    {
+      "path": "observer/live_20261013_230256_6853525.jsonl",
+      "bytes": 43447,
+      "sha256": "163a335fc33d15509745a729d6ddecbe9083a48683283df85641c2df1053cf82"
+    },
+    {
+      "path": "observer/live_20261013_233153_7955688.jsonl",
+      "bytes": 43434,
+      "sha256": "9abe2f9c5c11c70b7a81b68ef66a42e33096ef4bbabe235ee71eaed7f2cc4301"
+    },
+    {
+      "path": "observer/live_20261014_000018_1957892.jsonl",
+      "bytes": 43460,
+      "sha256": "0fd756a7919e7e030d1c2ee8edc8d09bc03af18519f3d90fd4bc5cc718aacde8"
+    },
+    {
+      "path": "observer/live_20261014_003051_0482448.jsonl",
+      "bytes": 44211,
+      "sha256": "650059ba536bc2f6036764b0134be67bd8994944ac2324436085527b63240d3c"
+    },
+    {
+      "path": "observer/live_20261014_005116_9634060.jsonl",
+      "bytes": 44110,
+      "sha256": "6e96a74b1197a0922ddc2d4edf6a5a47567026ff19661112dda6cf5925360605"
+    },
+    {
+      "path": "observer/live_20261014_220848_4034134.jsonl",
+      "bytes": 44047,
+      "sha256": "20ecc1986b2cbc108e2e92229def35d84cec143a50d53c7197d86d5c8b2a8c2e"
+    },
+    {
+      "path": "observer/live_20261014_223926_7007301.jsonl",
+      "bytes": 43252,
+      "sha256": "36f4e124ab17a6dc620edb2b260c84836a4524fbaa447f78c985f53425981344"
+    },
+    {
+      "path": "observer/live_20261014_233159_4088654.jsonl",
+      "bytes": 43252,
+      "sha256": "a5f6eacc2c2fcf4a1905ad1966f99e0d59a197416795c0002204b04196eb07ac"
+    },
+    {
+      "path": "observer/live_20261015_212847_9109540.jsonl",
+      "bytes": 43203,
+      "sha256": "40bf15923a31b571962f287b7e9ff1e36b8d7f0f656cce9315edae97e9db3810"
+    },
+    {
+      "path": "observer/live_20261015_214732_7958575.jsonl",
+      "bytes": 43278,
+      "sha256": "dd91ee0c17e3468631d31bb3c48512cab54c16495ada51d78aa7f3ea4dc683d6"
+    },
+    {
+      "path": "observer/live_20261015_220946_3985020.jsonl",
+      "bytes": 44313,
+      "sha256": "e4d17a580c7e2e3e10c5c8e1b1be7ab6c134ff6e768807d31404d4e4716e1c75"
+    },
+    {
+      "path": "observer/live_20261015_223305_0833913.jsonl",
+      "bytes": 44422,
+      "sha256": "0fb49d7befbee26cc9602f2ff5394c46993931a2cd24517685ddd9b5616272d1"
+    },
+    {
+      "path": "observer/live_20261015_225938_8324097.jsonl",
+      "bytes": 43304,
+      "sha256": "52eaa58dac240371a35ce5be1cac0d54a7217b2421023ac8803ce533564f98e0"
+    },
+    {
+      "path": "data/config.json",
+      "bytes": 634,
+      "sha256": "e4a15903c05759843e34517a37e160fc736c0f08583ea2e924282f11dcd04ffd"
+    },
+    {
+      "path": "data/scans/last-scan.json",
+      "bytes": 366923,
+      "sha256": "9ebd0a3dd3933ab3161ae1629e9e010a0805c4a177cc440e560bb1b67a4295de"
+    },
+    {
+      "path": "data/reports/cancelledfull125-20261005-1916.json",
+      "bytes": 64095,
+      "sha256": "8c8d00ebd254474f2691b56cffba1e3aadf6d1bc6e8e7890373272f0470e0073"
+    },
+    {
+      "path": "data/reports/full125.json",
+      "bytes": 37602,
+      "sha256": "6f1f7ce2d20d885c60ff160789c97f2597bf29cbbbad878c08e623c9e8ba3b6c"
+    },
+    {
+      "path": "data/reports/fulldark100.json",
+      "bytes": 309314,
+      "sha256": "70d0d4b6b037da168e2e3d43670372833c9e7cbaf8595f64ad9bc76dce340d16"
+    },
+    {
+      "path": "data/reports/fulldark125-storage-20261005-1931.json",
+      "bytes": 387675,
+      "sha256": "a8246d4a37b83f7d97fc6e8073d557f2efea8ee2f8459d70c8cadb60536d6b64"
+    },
+    {
+      "path": "data/reports/quick125.json",
+      "bytes": 19997,
+      "sha256": "32aa16a8c8ca433b38d55b3aeaaa12199b64fe2a6056d3a85513a8004964478c"
+    },
+    {
+      "path": "data/reports/quickdark100.json",
+      "bytes": 54050,
+      "sha256": "007b4f9a9c9a4fde697e6b2686f57e53b142cc49ae8e9888ce1c96b670562043"
+    },
+    {
+      "path": "data/reports/quickdark125transition.json",
+      "bytes": 19997,
+      "sha256": "9ce03eb0d373de645ada9d3737545c4f576d5e33e5fa09af62f991cd47e35dce"
+    },
+    {
+      "path": "data/reports/quicklight125-20261005-2057.json",
+      "bytes": 54050,
+      "sha256": "0c82799f9a93b3590f15b5417c9c968b6da4cddf5df6b87aad324a503897a85b"
+    },
+    {
+      "path": "data/logs/nyx-pc-checkup.log",
+      "bytes": 23529,
+      "sha256": "bbf9ede9a145498e8c9ae03c1f42ac041aff287f58592c118b3a25fd78b53f5e"
+    },
+    {
+      "path": "data/actions/history.jsonl",
+      "bytes": 4865,
+      "sha256": "f0b9bc335c1ae7d7fc35eef5a9a8b90d7f573b2852183e03c908f781884d671f"
+    }
+  ],
+  "payload": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 488,
+      "sha256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD",
+      "match": true
+    },
+    {
+      "path": "Nyx PC Checkup.exe",
+      "bytes": 33280,
+      "sha256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "match": true
+    },
+    {
+      "path": "PAYLOAD_MANIFEST.json",
+      "bytes": 9997,
+      "sha256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+      "match": true
+    },
+    {
+      "path": "README_FIRST.md",
+      "bytes": 7223,
+      "sha256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62",
+      "match": true
+    },
+    {
+      "path": "SBOM.json",
+      "bytes": 3223,
+      "sha256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F",
+      "match": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 572,
+      "sha256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0",
+      "match": true
+    },
+    {
+      "path": "Uninstall Nyx PC Checkup.exe",
+      "bytes": 35328,
+      "sha256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC",
+      "match": true
+    },
+    {
+      "path": "VERSION.json",
+      "bytes": 315,
+      "sha256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "match": true
+    },
+    {
+      "path": "app/NyxPCCheckup.ps1",
+      "bytes": 6483,
+      "sha256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "match": true
+    },
+    {
+      "path": "app/actions/CleanupActions.psm1",
+      "bytes": 7811,
+      "sha256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+      "match": true
+    },
+    {
+      "path": "app/actions/StartupActions.psm1",
+      "bytes": 23951,
+      "sha256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+      "match": true
+    },
+    {
+      "path": "app/assets/brand_banner.png",
+      "bytes": 4630,
+      "sha256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831",
+      "match": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.ico",
+      "bytes": 25277,
+      "sha256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5",
+      "match": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.png",
+      "bytes": 3315,
+      "sha256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0",
+      "match": true
+    },
+    {
+      "path": "app/checks/BackupStatus.psm1",
+      "bytes": 4417,
+      "sha256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+      "match": true
+    },
+    {
+      "path": "app/checks/BatteryHealth.psm1",
+      "bytes": 3085,
+      "sha256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+      "match": true
+    },
+    {
+      "path": "app/checks/CleanupScan.psm1",
+      "bytes": 11612,
+      "sha256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+      "match": true
+    },
+    {
+      "path": "app/checks/DownloadsAnalysis.psm1",
+      "bytes": 7999,
+      "sha256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+      "match": true
+    },
+    {
+      "path": "app/checks/DriveHealth.psm1",
+      "bytes": 3423,
+      "sha256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+      "match": true
+    },
+    {
+      "path": "app/checks/InstalledApps.psm1",
+      "bytes": 4311,
+      "sha256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86",
+      "match": true
+    },
+    {
+      "path": "app/checks/NetworkBasics.psm1",
+      "bytes": 4679,
+      "sha256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+      "match": true
+    },
+    {
+      "path": "app/checks/PerformanceSnapshot.psm1",
+      "bytes": 3373,
+      "sha256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE",
+      "match": true
+    },
+    {
+      "path": "app/checks/SecurityStatus.psm1",
+      "bytes": 9982,
+      "sha256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+      "match": true
+    },
+    {
+      "path": "app/checks/StartupApps.psm1",
+      "bytes": 8100,
+      "sha256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+      "match": true
+    },
+    {
+      "path": "app/checks/StorageHealth.psm1",
+      "bytes": 1299,
+      "sha256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+      "match": true
+    },
+    {
+      "path": "app/checks/StorageScan.psm1",
+      "bytes": 6929,
+      "sha256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+      "match": true
+    },
+    {
+      "path": "app/checks/SystemInfo.psm1",
+      "bytes": 2676,
+      "sha256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+      "match": true
+    },
+    {
+      "path": "app/checks/Uptime.psm1",
+      "bytes": 1146,
+      "sha256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+      "match": true
+    },
+    {
+      "path": "app/checks/WindowsUpdates.psm1",
+      "bytes": 4902,
+      "sha256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+      "match": true
+    },
+    {
+      "path": "app/config/defaults.json",
+      "bytes": 461,
+      "sha256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8",
+      "match": true
+    },
+    {
+      "path": "app/core/ActionHistory.psm1",
+      "bytes": 24721,
+      "sha256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+      "match": true
+    },
+    {
+      "path": "app/core/CheckupEngine.psm1",
+      "bytes": 7640,
+      "sha256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0",
+      "match": true
+    },
+    {
+      "path": "app/core/Configuration.psm1",
+      "bytes": 7302,
+      "sha256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+      "match": true
+    },
+    {
+      "path": "app/core/Diagnostics.psm1",
+      "bytes": 1932,
+      "sha256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+      "match": true
+    },
+    {
+      "path": "app/core/Models.psm1",
+      "bytes": 4355,
+      "sha256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+      "match": true
+    },
+    {
+      "path": "app/core/Paths.psm1",
+      "bytes": 5304,
+      "sha256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+      "match": true
+    },
+    {
+      "path": "app/core/Privacy.psm1",
+      "bytes": 6683,
+      "sha256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+      "match": true
+    },
+    {
+      "path": "app/core/RuntimeComposition.psm1",
+      "bytes": 15055,
+      "sha256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95",
+      "match": true
+    },
+    {
+      "path": "app/health_rules/HealthRules.psm1",
+      "bytes": 4761,
+      "sha256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+      "match": true
+    },
+    {
+      "path": "app/health_rules/rules.json",
+      "bytes": 784,
+      "sha256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3",
+      "match": true
+    },
+    {
+      "path": "app/platform/windows/WindowsHelpers.psm1",
+      "bytes": 6692,
+      "sha256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+      "match": true
+    },
+    {
+      "path": "app/reports/PdfWriter.psm1",
+      "bytes": 3680,
+      "sha256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "match": true
+    },
+    {
+      "path": "app/reports/ReportExport.psm1",
+      "bytes": 6677,
+      "sha256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "match": true
+    },
+    {
+      "path": "app/ui/Controls.psm1",
+      "bytes": 14909,
+      "sha256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446",
+      "match": true
+    },
+    {
+      "path": "app/ui/Dialogs.psm1",
+      "bytes": 5892,
+      "sha256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A",
+      "match": true
+    },
+    {
+      "path": "app/ui/MainWindow.psm1",
+      "bytes": 73259,
+      "sha256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "match": true
+    },
+    {
+      "path": "app/ui/Theme.psm1",
+      "bytes": 2769,
+      "sha256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+      "match": true
+    },
+    {
+      "path": "app/updates/Manifest.psm1",
+      "bytes": 6396,
+      "sha256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+      "match": true
+    },
+    {
+      "path": "app/updates/Preferences.psm1",
+      "bytes": 1164,
+      "sha256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+      "match": true
+    },
+    {
+      "path": "app/updates/UpdateChecker.psm1",
+      "bytes": 6175,
+      "sha256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+      "match": true
+    },
+    {
+      "path": "app/updates/Versioning.psm1",
+      "bytes": 2824,
+      "sha256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+      "match": true
+    },
+    {
+      "path": "app/workers/ActionWorker.ps1",
+      "bytes": 5297,
+      "sha256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+      "match": true
+    },
+    {
+      "path": "app/workers/InstallWorker.ps1",
+      "bytes": 9728,
+      "sha256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F",
+      "match": true
+    },
+    {
+      "path": "app/workers/ScanWorker.ps1",
+      "bytes": 9078,
+      "sha256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "match": true
+    },
+    {
+      "path": "app/workers/UninstallWorker.ps1",
+      "bytes": 8487,
+      "sha256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+      "match": true
+    },
+    {
+      "path": "app/workers/UpdateCheckWorker.ps1",
+      "bytes": 2473,
+      "sha256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+      "match": true
+    },
+    {
+      "path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "bytes": 4900,
+      "sha256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D",
+      "match": true
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "bytes": 1605,
+      "sha256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A",
+      "match": true
+    },
+    {
+      "path": "docs/PRIVACY_AND_SECURITY.md",
+      "bytes": 5866,
+      "sha256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64",
+      "match": true
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "bytes": 5097,
+      "sha256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159",
+      "match": true
+    }
+  ],
+  "observerIntervals": [
+    {
+      "file": "cleanup_20261011_124439.jsonl",
+      "count": 82,
+      "firstUtc": "2026-10-11T16:45:15.0763397Z",
+      "lastUtc": "2026-10-11T16:52:00.7736382Z",
+      "nativeDpi": [
+        144
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "dpi_20261011_native.jsonl",
+      "count": 20,
+      "firstUtc": "2026-10-11T16:01:45.5422897Z",
+      "lastUtc": "2026-10-11T16:03:20.7226885Z",
+      "nativeDpi": [
+        144
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261011_200228_4934706.jsonl",
+      "count": 28,
+      "firstUtc": "2026-10-11T20:02:28.5093109Z",
+      "lastUtc": "2026-10-11T20:04:43.7119103Z",
+      "nativeDpi": [
+        144
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261012_220049_9697777.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-12T22:00:49.9697777Z",
+      "lastUtc": "2026-10-12T22:20:45.5721123Z",
+      "nativeDpi": [
+        144
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261012_224108_5549143.jsonl",
+      "count": 73,
+      "firstUtc": "2026-10-12T22:41:08.5569186Z",
+      "lastUtc": "2026-10-12T22:47:08.9884775Z",
+      "nativeDpi": [
+        144
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261013_230256_6853525.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-13T23:02:56.6893784Z",
+      "lastUtc": "2026-10-13T23:22:53.1838114Z",
+      "nativeDpi": [
+        144
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261013_233153_7955688.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-13T23:31:53.8113246Z",
+      "lastUtc": "2026-10-13T23:51:50.6370359Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261014_000018_1957892.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-14T00:00:18.1957892Z",
+      "lastUtc": "2026-10-14T00:20:14.8304496Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261014_003051_0482448.jsonl",
+      "count": 243,
+      "firstUtc": "2026-10-14T00:30:51.0502524Z",
+      "lastUtc": "2026-10-14T00:50:46.9256046Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261014_005116_9634060.jsonl",
+      "count": 244,
+      "firstUtc": "2026-10-14T00:51:16.9792238Z",
+      "lastUtc": "2026-10-14T01:11:12.7525329Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261014_220848_4034134.jsonl",
+      "count": 243,
+      "firstUtc": "2026-10-14T22:08:48.4074590Z",
+      "lastUtc": "2026-10-14T22:28:44.6028415Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261014_223926_7007301.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-14T22:39:26.7165517Z",
+      "lastUtc": "2026-10-14T22:59:23.2683720Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261014_233159_4088654.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-14T23:31:59.4088654Z",
+      "lastUtc": "2026-10-14T23:51:56.1326915Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261015_212847_9109540.jsonl",
+      "count": 237,
+      "firstUtc": "2026-10-15T21:28:47.9109540Z",
+      "lastUtc": "2026-10-15T21:48:44.4268349Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261015_214732_7958575.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-15T21:47:32.8117837Z",
+      "lastUtc": "2026-10-15T22:07:29.5274885Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261015_220946_3985020.jsonl",
+      "count": 245,
+      "firstUtc": "2026-10-15T22:09:46.4080894Z",
+      "lastUtc": "2026-10-15T22:29:43.1528923Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261015_223305_0833913.jsonl",
+      "count": 246,
+      "firstUtc": "2026-10-15T22:33:05.0919424Z",
+      "lastUtc": "2026-10-15T22:53:01.7982332Z",
+      "nativeDpi": [
+        192
+      ],
+      "parseErrors": 0
+    },
+    {
+      "file": "live_20261015_225938_8324097.jsonl",
+      "count": 240,
+      "firstUtc": "2026-10-15T22:59:38.8324097Z",
+      "lastUtc": "2026-10-15T23:19:35.4909480Z",
+      "nativeDpi": [
+        120
+      ],
+      "parseErrors": 0
+    }
+  ],
+  "newTestCredit": 0,
+  "remainingExecuted23": "NATIVE_INTERVAL_NOT_PROVEN_DO_NOT_REPEAT",
+  "metadata": "Excluded and not inspected",
+  "sourceVmUnaffected": true,
+  "detached": true
+}

@@ -1,0 +1,23 @@
+{
+  "page": "Cleanup",
+  "theme": "Dark",
+  "scale": 200,
+  "status": "PASS_MISSING_PREDICATES_QUALIFIED",
+  "startUtc": "2026-10-14T22:09:30.810Z",
+  "endUtc": "2026-10-14T22:11:12.828Z",
+  "newPredicates": {
+    "fullConsequenceReadable": true,
+    "refreshPrimaryKeyboardFocus": true
+  },
+  "recovery": "Native column-header right-boundary double-click autosize; full consequence text visible. CtrlShiftTab restores Refresh with Full Check focus without activation.",
+  "consequence": "Moves this exact item to the Windows Recycle Bin.",
+  "noSelectionToggle": true,
+  "noDeletion": true,
+  "noScanStarted": true,
+  "completedPredicatesReusedNotRepeated": "DARK200_CLEANUP_BATCH_20261013.json",
+  "screenshots": [
+    "screenshots/dark200_cleanup_consequence_autosize_20261014.jpg",
+    "screenshots/dark200_cleanup_refresh_focus_20261014.jpg"
+  ],
+  "fullCellCredit": 0
+}

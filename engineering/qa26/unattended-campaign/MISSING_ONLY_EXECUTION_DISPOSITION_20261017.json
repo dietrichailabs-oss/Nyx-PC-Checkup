@@ -1,0 +1,48 @@
+{
+  "schema": "QA26-MISSING-ONLY-EXECUTION-DISPOSITION-1",
+  "utc": "2026-10-17T01:33:29.087Z",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "execution": {
+    "Light150": 58,
+    "Dark150": 20,
+    "FollowWindows150": 20,
+    "Light125FreshRedirects": 2
+  },
+  "new150NavigationCases": 98,
+  "allObservedExpected": true,
+  "qualifiedNew150NavigationCases": 98,
+  "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json",
+  "records": [
+    "LIGHT150_MISSING_NAVIGATION_BATCH_20261016.json",
+    "OTHER150_MISSING_NAVIGATION_BATCH_20261016.json",
+    "LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json",
+    "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"
+  ],
+  "scoreboard": {
+    "matrixComplete": 83,
+    "matrixTotal": 132,
+    "testedEngineeringAssertionsPass": 302,
+    "testedEngineeringAssertionsFail": 0,
+    "newEligibleAssertions": 100,
+    "newFullCellCredit": 0
+  },
+  "old23Light125Disposition": "Preserved; collection found no contemporaneous native interval. No rerun or retroactive DPI credit. Independent QA disposition required.",
+  "historical150Disposition": "New navigation qualification must not retroactively qualify older page/action evidence. Audit exact historical evidence separately; existing native records explicitly restrict their time scope.",
+  "metadataDisposition": "WAITING_INDEPENDENT_QA_METADATA_REVIEW; excluded from collection and investigation",
+  "remainingKnownUnrelatedGaps": [
+    "FollowWindows150 Storage long-path tooltip",
+    "FollowWindows150 Startup missing-location fixture",
+    "FollowWindows150 Storage/Security human-only redirects where not already captured",
+    "F020/F022 exact cross-grid acceptance audit",
+    "F010/F016 focused gates",
+    "InstallerLifecycle and QA2Migration: approved untouched pre-existing compatible PS5.1 baseline only"
+  ],
+  "policyChanged": false,
+  "productChanged": false,
+  "scanRepeated": false,
+  "completedPredicatesRepeated": false,
+  "finalDecisionOwner": "Independent QA",
+  "qualifiedFresh125Redirects": 2
+}

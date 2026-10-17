@@ -1,0 +1,37 @@
+{
+  "page": "Checkup",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-13T23:41:26.361Z",
+  "endUtc": "2026-10-13T23:43:58.405Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "primaryQuickFullKeyboardReachable": true,
+    "keyboardFirstLastRecovery": true,
+    "detailEnterActivation": true,
+    "detailEssentialTextReadable": true,
+    "detailKeyboardCloseReturn": true,
+    "practicalScrolling": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noDestructiveAction": true
+  },
+  "limitations": [
+    "Reduced grid viewport; text truncation recovered through exact finding detail and ordinary scrolling."
+  ],
+  "screenshots": [
+    "screenshots/dark200_checkup_controls_20261013.jpg",
+    "screenshots/dark200_checkup_grid_first_20261013.jpg",
+    "screenshots/dark200_checkup_grid_last_20261013.jpg",
+    "screenshots/dark200_checkup_grid_recovery_20261013.jpg",
+    "screenshots/dark200_checkup_detail_20261013.jpg",
+    "screenshots/dark200_checkup_detail_close_20261013.jpg",
+    "screenshots/dark200_checkup_detail_return_20261013.jpg",
+    "screenshots/dark200_checkup_full_focus_20261013.jpg",
+    "screenshots/dark200_checkup_quick_focus_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "nativeEvidence": "DARK200_CHECKUP_STORAGE_NATIVE_QUALIFICATION_20261013.json"
+}

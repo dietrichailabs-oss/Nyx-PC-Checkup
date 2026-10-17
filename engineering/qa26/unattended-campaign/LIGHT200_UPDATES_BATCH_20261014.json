@@ -1,0 +1,37 @@
+{
+  "page": "Updates",
+  "theme": "Light",
+  "scale": 200,
+  "startUtc": "2026-10-14T23:25:04.359Z",
+  "endUtc": "2026-10-14T23:27:46.010Z",
+  "status": "EXECUTED_PENDING_NATIVE_INTERVAL",
+  "screenshots": {
+    "page": "screenshots/light200_updates_page_20261014.jpg",
+    "controls": "screenshots/light200_updates_controls_20261014.jpg",
+    "destination": "screenshots/light200_updates_destination_20261014.jpg",
+    "grid": "screenshots/light200_updates_grid_20261014.jpg",
+    "last": "screenshots/light200_updates_last_20261014.jpg",
+    "last_detail": "screenshots/light200_updates_last_detail_20261014.jpg",
+    "close": "screenshots/light200_updates_close_20261014.jpg",
+    "origin": "screenshots/light200_updates_origin_20261014.jpg",
+    "first": "screenshots/light200_updates_first_20261014.jpg",
+    "first_detail": "screenshots/light200_updates_first_detail_20261014.jpg",
+    "middle_detail": "screenshots/light200_updates_middle_detail_20261014.jpg",
+    "primary_focus": "screenshots/light200_updates_primary_focus_20261014.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "actualWindowsUpdateDestination": true,
+    "firstLastKeyboardRecovery": true,
+    "allThreeEssentialFindingsReadableViaDetails": true,
+    "keyboardCloseOriginReturn": true,
+    "primaryKeyboardReachable": true,
+    "noUpdateInitiated": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "limitations": [
+    "Reduced viewport requires keyboard scrolling and detail reading."
+  ],
+  "fullCellCredit": 0
+}

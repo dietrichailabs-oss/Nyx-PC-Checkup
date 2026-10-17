@@ -1,0 +1,64 @@
+{
+  "schema": "QA26-APPS-SECURITY-NATIVE-QUALIFICATION-1",
+  "utc": "2026-10-15T22:52:22.576Z",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "measuredNativeDpi": 192,
+  "windowsAppsUseLightTheme": 1,
+  "stablePid": 1224,
+  "frozenFilesMatched": 60,
+  "mismatches": [],
+  "unexpectedPayloadFiles": [],
+  "installationMetadataUnchanged": true,
+  "build": "2026.10.02-eng-qa26",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "harness": "QA26-F023-PS51-26",
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_223305_0833913.jsonl",
+  "intervals": [
+    {
+      "page": "Apps",
+      "startUtc": "2026-10-15T22:34:37.080Z",
+      "endUtc": "2026-10-15T22:45:07.722Z",
+      "samples": 134,
+      "nativeDpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5017,
+      "nearestStartMs": 1861,
+      "nearestEndMs": 1684,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "Security",
+      "startUtc": "2026-10-15T22:45:45.689Z",
+      "endUtc": "2026-10-15T22:50:35.897Z",
+      "samples": 60,
+      "nativeDpi": [
+        192
+      ],
+      "pids": [
+        1224
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 427,
+      "nearestEndMs": 675,
+      "noModifiedSamples": true
+    }
+  ],
+  "rawSource": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/dark200_20261013/followwindows200-apps-security-native-20261015.json",
+  "nativeEvidence": "FOLLOWWINDOWS200_APPS_SECURITY_NATIVE_20261015.json",
+  "batches": [
+    "FOLLOWWINDOWS200_APPS_BATCH_20261015.json",
+    "FOLLOWWINDOWS200_SECURITY_BATCH_20261015.json"
+  ],
+  "screenshots": 30,
+  "qualified": true,
+  "engineeringOnly": true,
+  "independentQaFinalDecisionReserved": true,
+  "noTestsRepeated": true,
+  "noProductChange": true,
+  "noPolicyChange": true
+}

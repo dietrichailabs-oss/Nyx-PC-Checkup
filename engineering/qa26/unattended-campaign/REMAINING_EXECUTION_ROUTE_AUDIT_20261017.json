@@ -1,0 +1,119 @@
+{
+  "schema": "QA26-REMAINING-EXECUTION-ROUTE-AUDIT-1",
+  "utc": "2026-10-17T02:35:32.784Z",
+  "newTestsExecutedByAudit": 0,
+  "scoreboard": {
+    "PASS": 302,
+    "FAIL": 0,
+    "previousPASS": 202,
+    "newEligibleAssertions": 100,
+    "batch": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json",
+    "scope": "Individually executed native-qualified Engineering assertions; no new full matrix cells; Independent QA final verdict reserved"
+  },
+  "matrix": {
+    "strict": {
+      "PASS": 56,
+      "FAIL": 0,
+      "NOT_RUN": 43
+    },
+    "bestEffort": {
+      "PASS": 27,
+      "FAIL": 0,
+      "NOT_RUN": 6
+    }
+  },
+  "collection": {
+    "cases": 3,
+    "plan": "REMAINING3_NATIVE_COLLECTION_PLAN_20261017.json",
+    "exportRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_remaining3_export_20261017_0228",
+    "initialNativeProcess": 41948,
+    "completionReceipt": "NOT_PRESENT_AT_2026-10-17T02:32:14.2185819Z",
+    "nativeJobStatus": "UNCONFIRMED_NORMAL_UAC_CANCELED",
+    "diagnosticCommandResult": "The operation was canceled by the user.",
+    "noDiskAttached": true,
+    "noDuplicateExport": true,
+    "noSourceVmShutdown": true,
+    "noGuestCredentialsRequested": true
+  },
+  "hostNativePreflight": {
+    "PowerShellVersion": "5.1.26100.9444",
+    "PSEdition": "Desktop",
+    "effectivePolicy": "Restricted",
+    "user": "MARK\\bossm",
+    "sid": "S-1-5-21-3992859858-1566294323-2851406645-1001",
+    "isAdministrator": false,
+    "policyChanged": false,
+    "suitability": "Not a disposable acceptance baseline; no blocked QA script executed inline or through product launcher."
+  },
+  "suiteDependencyAudit": [
+    {
+      "file": "Run-WindowsSmokeTests.ps1",
+      "sha256": "f58821ff1188d7484019b33eccf6c5ea2e59dd87ce52a07009bd928e5ceb06ba",
+      "scope": "Repository contract inspection only, not a new exact-frozen suite run or acceptance result",
+      "runtimeCompositionImportLine": 60,
+      "qaConstructedExecutionPolicyFlags": [
+        {
+          "line": 223,
+          "text": "        $updateArgs=\"-NoLogo -NoProfile -ExecutionPolicy Bypass -File `\"$updateWorker`\" -OutputPath `\"$manualOutput`\" -Manual 1\""
+        },
+        {
+          "line": 390,
+          "text": "            $probeArgs=\"-NoLogo -NoProfile -ExecutionPolicy Bypass -File `\"$appScript`\" -AcceptanceProbe -AcceptanceOutputPath `\"$probePath`\"\""
+        },
+        {
+          "line": 418,
+          "text": "            $probeArgs=\"-NoLogo -NoProfile -ExecutionPolicy Bypass -File `\"$appScript`\" -AcceptanceProbe -AcceptanceUiCloseProbe -AcceptanceOutputPath `\"$probePath`\"\""
+        },
+        {
+          "line": 442,
+          "text": "    $args=\"-NoLogo -NoProfile -ExecutionPolicy Bypass -File `\"$worker`\" -Mode Quick -OutputPath `\"$out`\" -ProgressPath `\"$progress`\" -CancelPath `\"$cancel`\"\""
+        }
+      ]
+    },
+    {
+      "file": "Run-WindowsSettingsThemeRegression.ps1",
+      "sha256": "58aa243f0a4ca3cf100563c71e5c7ff2a6fe1e5ed28c3d3a2125c0744d2e8f06",
+      "scope": "Repository contract inspection only, not a new exact-frozen suite run or acceptance result",
+      "runtimeCompositionImportLine": 30,
+      "qaConstructedExecutionPolicyFlags": []
+    },
+    {
+      "file": "Run-WindowsElevatedStartupRollback.ps1",
+      "sha256": "394b6cc819a38ff1bbcfb37e7209145f1eb6a16a4ae11533be541a051feb9e20",
+      "scope": "Repository contract inspection only, not a new exact-frozen suite run or acceptance result",
+      "runtimeCompositionImportLine": 55,
+      "qaConstructedExecutionPolicyFlags": []
+    }
+  ],
+  "F016": {
+    "source": "product/tests/powershell/Test-QA19ProgressConcurrency.ps1",
+    "sha256": "e2d22770d66c016ddd7579d8e67aebb30a49b46a76f065f98a34f06822bdd5a9",
+    "scope": "Deterministic extracted progress-function regression, not installed scan stress",
+    "usesProductFunctionAstExtraction": true,
+    "execution": "NOT_RUN_NO_POLICY_CHANGE_OR_BLOCKED_SCRIPT_INLINING",
+    "reason": "Exact script execution is not permitted under naturally Restricted host/known guest baselines; signed-copy evidence does not become frozen acceptance."
+  },
+  "legacySuites": {
+    "status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+    "evidence": "BASELINE_NATIVE_RECONCILIATION_20261017.json",
+    "notRun": [
+      "InstallerLifecycle",
+      "QA2Migration"
+    ]
+  },
+  "olderLight200": {
+    "records": [
+      "LIGHT200_SECURITY_UPDATES_BACKUP_QUALIFICATION_20261014.json",
+      "LIGHT200_SECURITY_BATCH_20261014.json",
+      "LIGHT200_UPDATES_BATCH_20261014.json",
+      "LIGHT200_BACKUP_BATCH_20261014.json"
+    ],
+    "status": "PRESERVED_TESTS_NATIVE_INTERVAL_GAPS_UNCHANGED",
+    "noRepeat": true,
+    "qualification": "LIGHT200_SECURITY_UPDATES_BACKUP_QUALIFICATION_20261014.json",
+    "noFilenameDpiInference": true
+  },
+  "disputedMetadata": "Excluded; Independent QA only; no field-level investigation",
+  "independentQAOwnsFinalVerdict": true,
+  "campaignComplete": false
+}

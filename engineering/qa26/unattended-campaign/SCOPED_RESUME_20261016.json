@@ -1,0 +1,37 @@
+{
+  "schema": "QA26-SCOPED-RESUME-1",
+  "utc": "2026-10-16T11:16:06.621Z",
+  "ownerDirection": "Continue unrelated runnable missing tests; metadata remains with Independent QA; do not repeat completed predicates.",
+  "metadataReview": "WAITING_INDEPENDENT_QA_METADATA_REVIEW",
+  "plan": {
+    "theme": "Light",
+    "scale": 125,
+    "pages": [
+      "Home",
+      "Security",
+      "Apps"
+    ],
+    "scope": "Missing predicate gaps only. No repeated scans, no existing full-cell PASS retests. Fresh native observer required; new acceptance credit remains withheld pending identity qualification."
+  },
+  "scoreboardBefore": {
+    "strict": {
+      "PASS": 56,
+      "FAIL": 0,
+      "NOT_RUN": 43
+    },
+    "bestEffort": {
+      "PASS": 27,
+      "FAIL": 0,
+      "NOT_RUN": 6
+    }
+  },
+  "assertionsBefore": {
+    "PASS": 202,
+    "FAIL": 0,
+    "previousPASS": 198,
+    "newEligibleAssertions": 4,
+    "batch": "UPDATES_BACKUP_BOUNDARY_QUALIFIED_20261013.json",
+    "scope": "Engineering assertions; Independent QA final verdict reserved; no full matrix cell credit"
+  },
+  "productModified": false
+}

@@ -1,0 +1,46 @@
+{
+  "page": "Settings",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:56:09.293Z",
+  "endUtc": "2026-10-14T01:01:14.644Z",
+  "status": "INCOMPLETE_READABILITY",
+  "requirements": {
+    "pageReachable": true,
+    "appliedDarkSelector": true,
+    "keyboardPreferencesReachableWithoutToggle": true,
+    "updateCheckFocusOnly": true,
+    "localDataFolderEnter": true,
+    "folderIdleReturn": true,
+    "saveKeyboardFocusOnly": true,
+    "privacyPromiseReadable": true,
+    "privacyDetailReadable": true,
+    "noPreferenceChange": true,
+    "noDeletion": true,
+    "noScanStarted": true,
+    "deleteLogFullLabelReadable": false
+  },
+  "remainingPredicates": [
+    "Full delete-log label and remaining essential intro/update text recovery",
+    "Native interval/identity qualification",
+    "Reconcile complete best-effort checklist before any cell PASS"
+  ],
+  "screenshots": [
+    "screenshots/dark200_settings_opening_20261013.jpg",
+    "screenshots/dark200_settings_appearance_20261013.jpg",
+    "screenshots/dark200_settings_theme_closed_20261013.jpg",
+    "screenshots/dark200_settings_notifications_20261013.jpg",
+    "screenshots/dark200_settings_updates_20261013.jpg",
+    "screenshots/dark200_settings_check_focus_20261013.jpg",
+    "screenshots/dark200_settings_folder_focus_20261013.jpg",
+    "screenshots/dark200_settings_folder_destination_20261013.jpg",
+    "screenshots/dark200_settings_idle_return_20261013.jpg",
+    "screenshots/dark200_settings_delete_clipped_20261013.jpg",
+    "screenshots/dark200_settings_save_focus_20261013.jpg",
+    "screenshots/dark200_settings_privacy_promise_20261013.jpg",
+    "screenshots/dark200_settings_privacy_detail_20261013.jpg"
+  ],
+  "fullCellCredit": 0,
+  "classification": "Unresolved readability; no complete-cell PASS or confirmed product FAIL."
+}

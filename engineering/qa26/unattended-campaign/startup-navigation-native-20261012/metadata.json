@@ -1,0 +1,326 @@
+{
+    "Utc":  "2026-10-12T22:47:10.6743255Z",
+    "ObserverPath":  "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261012_224108_5549143.jsonl",
+    "ObserverBytes":  13140,
+    "ObserverSHA256":  "33567F6801EA773D7740AE6011F5C93D2CC1A5DBECECCD594F1830F00978CA5B",
+    "InstalledFiles":  [
+                           {
+                               "Path":  "install-state.json",
+                               "Length":  359,
+                               "SHA256":  "20B67BC8A47C7CBB0A3AEA37D6B488AA2204D8CDA7AFB27E87A50AACCAC2831A"
+                           },
+                           {
+                               "Path":  "LICENSE.txt",
+                               "Length":  488,
+                               "SHA256":  "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD"
+                           },
+                           {
+                               "Path":  "Nyx PC Checkup.exe",
+                               "Length":  33280,
+                               "SHA256":  "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75"
+                           },
+                           {
+                               "Path":  "PAYLOAD_MANIFEST.json",
+                               "Length":  9997,
+                               "SHA256":  "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B"
+                           },
+                           {
+                               "Path":  "README_FIRST.md",
+                               "Length":  7223,
+                               "SHA256":  "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62"
+                           },
+                           {
+                               "Path":  "SBOM.json",
+                               "Length":  3223,
+                               "SHA256":  "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F"
+                           },
+                           {
+                               "Path":  "THIRD_PARTY_NOTICES.txt",
+                               "Length":  572,
+                               "SHA256":  "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0"
+                           },
+                           {
+                               "Path":  "Uninstall Nyx PC Checkup.exe",
+                               "Length":  35328,
+                               "SHA256":  "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC"
+                           },
+                           {
+                               "Path":  "VERSION.json",
+                               "Length":  315,
+                               "SHA256":  "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526"
+                           },
+                           {
+                               "Path":  "app/NyxPCCheckup.ps1",
+                               "Length":  6483,
+                               "SHA256":  "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC"
+                           },
+                           {
+                               "Path":  "app/actions/CleanupActions.psm1",
+                               "Length":  7811,
+                               "SHA256":  "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B"
+                           },
+                           {
+                               "Path":  "app/actions/StartupActions.psm1",
+                               "Length":  23951,
+                               "SHA256":  "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002"
+                           },
+                           {
+                               "Path":  "app/assets/brand_banner.png",
+                               "Length":  4630,
+                               "SHA256":  "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831"
+                           },
+                           {
+                               "Path":  "app/assets/nyx_pc_checkup.ico",
+                               "Length":  25277,
+                               "SHA256":  "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5"
+                           },
+                           {
+                               "Path":  "app/assets/nyx_pc_checkup.png",
+                               "Length":  3315,
+                               "SHA256":  "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0"
+                           },
+                           {
+                               "Path":  "app/checks/BackupStatus.psm1",
+                               "Length":  4417,
+                               "SHA256":  "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90"
+                           },
+                           {
+                               "Path":  "app/checks/BatteryHealth.psm1",
+                               "Length":  3085,
+                               "SHA256":  "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC"
+                           },
+                           {
+                               "Path":  "app/checks/CleanupScan.psm1",
+                               "Length":  11612,
+                               "SHA256":  "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96"
+                           },
+                           {
+                               "Path":  "app/checks/DownloadsAnalysis.psm1",
+                               "Length":  7999,
+                               "SHA256":  "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319"
+                           },
+                           {
+                               "Path":  "app/checks/DriveHealth.psm1",
+                               "Length":  3423,
+                               "SHA256":  "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549"
+                           },
+                           {
+                               "Path":  "app/checks/InstalledApps.psm1",
+                               "Length":  4311,
+                               "SHA256":  "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86"
+                           },
+                           {
+                               "Path":  "app/checks/NetworkBasics.psm1",
+                               "Length":  4679,
+                               "SHA256":  "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224"
+                           },
+                           {
+                               "Path":  "app/checks/PerformanceSnapshot.psm1",
+                               "Length":  3373,
+                               "SHA256":  "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE"
+                           },
+                           {
+                               "Path":  "app/checks/SecurityStatus.psm1",
+                               "Length":  9982,
+                               "SHA256":  "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07"
+                           },
+                           {
+                               "Path":  "app/checks/StartupApps.psm1",
+                               "Length":  8100,
+                               "SHA256":  "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C"
+                           },
+                           {
+                               "Path":  "app/checks/StorageHealth.psm1",
+                               "Length":  1299,
+                               "SHA256":  "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6"
+                           },
+                           {
+                               "Path":  "app/checks/StorageScan.psm1",
+                               "Length":  6929,
+                               "SHA256":  "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1"
+                           },
+                           {
+                               "Path":  "app/checks/SystemInfo.psm1",
+                               "Length":  2676,
+                               "SHA256":  "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C"
+                           },
+                           {
+                               "Path":  "app/checks/Uptime.psm1",
+                               "Length":  1146,
+                               "SHA256":  "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A"
+                           },
+                           {
+                               "Path":  "app/checks/WindowsUpdates.psm1",
+                               "Length":  4902,
+                               "SHA256":  "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252"
+                           },
+                           {
+                               "Path":  "app/config/defaults.json",
+                               "Length":  461,
+                               "SHA256":  "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8"
+                           },
+                           {
+                               "Path":  "app/core/ActionHistory.psm1",
+                               "Length":  24721,
+                               "SHA256":  "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB"
+                           },
+                           {
+                               "Path":  "app/core/CheckupEngine.psm1",
+                               "Length":  7640,
+                               "SHA256":  "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0"
+                           },
+                           {
+                               "Path":  "app/core/Configuration.psm1",
+                               "Length":  7302,
+                               "SHA256":  "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220"
+                           },
+                           {
+                               "Path":  "app/core/Diagnostics.psm1",
+                               "Length":  1932,
+                               "SHA256":  "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1"
+                           },
+                           {
+                               "Path":  "app/core/Models.psm1",
+                               "Length":  4355,
+                               "SHA256":  "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0"
+                           },
+                           {
+                               "Path":  "app/core/Paths.psm1",
+                               "Length":  5304,
+                               "SHA256":  "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0"
+                           },
+                           {
+                               "Path":  "app/core/Privacy.psm1",
+                               "Length":  6683,
+                               "SHA256":  "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802"
+                           },
+                           {
+                               "Path":  "app/core/RuntimeComposition.psm1",
+                               "Length":  15055,
+                               "SHA256":  "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95"
+                           },
+                           {
+                               "Path":  "app/health_rules/HealthRules.psm1",
+                               "Length":  4761,
+                               "SHA256":  "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC"
+                           },
+                           {
+                               "Path":  "app/health_rules/rules.json",
+                               "Length":  784,
+                               "SHA256":  "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3"
+                           },
+                           {
+                               "Path":  "app/platform/windows/WindowsHelpers.psm1",
+                               "Length":  6692,
+                               "SHA256":  "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29"
+                           },
+                           {
+                               "Path":  "app/reports/PdfWriter.psm1",
+                               "Length":  3680,
+                               "SHA256":  "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9"
+                           },
+                           {
+                               "Path":  "app/reports/ReportExport.psm1",
+                               "Length":  6677,
+                               "SHA256":  "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E"
+                           },
+                           {
+                               "Path":  "app/ui/Controls.psm1",
+                               "Length":  14909,
+                               "SHA256":  "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446"
+                           },
+                           {
+                               "Path":  "app/ui/Dialogs.psm1",
+                               "Length":  5892,
+                               "SHA256":  "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A"
+                           },
+                           {
+                               "Path":  "app/ui/MainWindow.psm1",
+                               "Length":  73259,
+                               "SHA256":  "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8"
+                           },
+                           {
+                               "Path":  "app/ui/Theme.psm1",
+                               "Length":  2769,
+                               "SHA256":  "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0"
+                           },
+                           {
+                               "Path":  "app/updates/Manifest.psm1",
+                               "Length":  6396,
+                               "SHA256":  "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735"
+                           },
+                           {
+                               "Path":  "app/updates/Preferences.psm1",
+                               "Length":  1164,
+                               "SHA256":  "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3"
+                           },
+                           {
+                               "Path":  "app/updates/UpdateChecker.psm1",
+                               "Length":  6175,
+                               "SHA256":  "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980"
+                           },
+                           {
+                               "Path":  "app/updates/Versioning.psm1",
+                               "Length":  2824,
+                               "SHA256":  "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43"
+                           },
+                           {
+                               "Path":  "app/workers/ActionWorker.ps1",
+                               "Length":  5297,
+                               "SHA256":  "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9"
+                           },
+                           {
+                               "Path":  "app/workers/InstallWorker.ps1",
+                               "Length":  9728,
+                               "SHA256":  "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F"
+                           },
+                           {
+                               "Path":  "app/workers/ScanWorker.ps1",
+                               "Length":  9078,
+                               "SHA256":  "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79"
+                           },
+                           {
+                               "Path":  "app/workers/UninstallWorker.ps1",
+                               "Length":  8487,
+                               "SHA256":  "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE"
+                           },
+                           {
+                               "Path":  "app/workers/UpdateCheckWorker.ps1",
+                               "Length":  2473,
+                               "SHA256":  "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5"
+                           },
+                           {
+                               "Path":  "docs/INSTALL_UPGRADE_UNINSTALL.md",
+                               "Length":  4900,
+                               "SHA256":  "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D"
+                           },
+                           {
+                               "Path":  "docs/KNOWN_LIMITATIONS.md",
+                               "Length":  1605,
+                               "SHA256":  "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A"
+                           },
+                           {
+                               "Path":  "docs/PRIVACY_AND_SECURITY.md",
+                               "Length":  5866,
+                               "SHA256":  "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64"
+                           },
+                           {
+                               "Path":  "docs/USER_GUIDE.md",
+                               "Length":  5097,
+                               "SHA256":  "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159"
+                           }
+                       ],
+    "ApplicationProcesses":  [
+                                 {
+                                     "ProcessId":  9972,
+                                     "CreationDate":  "\/Date(1791749120073)\/",
+                                     "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+                                 }
+                             ],
+    "PolicyChanged":  false,
+    "ProductChanged":  false,
+    "ScanStarted":  false,
+    "PSComputerName":  "Nyx",
+    "RunspaceId":  "2c7103e5-2e34-41c7-a0a3-d20870ccb333",
+    "PSShowComputerName":  true
+}

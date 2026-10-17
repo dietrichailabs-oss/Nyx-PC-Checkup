@@ -1,0 +1,78 @@
+{
+  "schema": "QA26-SYSTEM-BOUNDARY-BATCH-1",
+  "page": "System",
+  "observedTheme": "Dark",
+  "requestedScale": 150,
+  "measuredDpi": 144,
+  "productChanged": false,
+  "scanStarted": false,
+  "executedChecks": 2,
+  "passCredit": 2,
+  "checks": [
+    {
+      "id": "dark150_system_ctrl_end_20261013",
+      "utc": "2026-10-13T23:05:47.973Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Confirmed dotted keyboard focus moved to last Current performance row, final What Nyx found cell; no activation or scan.",
+      "evidence": "screenshots/system_ctrl_end_20261013.jpg"
+    },
+    {
+      "id": "dark150_system_ctrl_home_20261013",
+      "utc": "2026-10-13T23:05:56.526Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Dotted keyboard focus returned to first System overview row, Status cell; no activation or scan.",
+      "evidence": "screenshots/system_ctrl_home_20261013.jpg"
+    }
+  ],
+  "nativeEvidence": "system-boundary-native-20261013.json",
+  "nativeBindings": [
+    {
+      "id": "dark150_system_ctrl_end_20261013",
+      "utc": "2026-10-13T23:05:47.973Z",
+      "nearest": {
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-13T23:05:46.9376715Z",
+          "Pid": 9972,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "delta": 1036
+      }
+    },
+    {
+      "id": "dark150_system_ctrl_home_20261013",
+      "utc": "2026-10-13T23:05:56.526Z",
+      "nearest": {
+        "sample": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-13T23:05:56.9383047Z",
+          "Pid": 9972,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "delta": 412
+      }
+    }
+  ],
+  "installedProductFilesMatched": 60,
+  "installStateAssessment": {
+    "build": "2026.10.02-eng-qa26",
+    "payloadManifestMatch": true,
+    "generatedMetadataHashDiffers": true,
+    "oldContentNotAvailable": true,
+    "noClaimOnlyTimestampChanged": true
+  }
+}

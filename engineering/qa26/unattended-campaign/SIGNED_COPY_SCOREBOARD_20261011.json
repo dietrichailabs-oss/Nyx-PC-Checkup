@@ -1,8 +1,8 @@
 {
-  "updatedUtc": "2026-10-11T23:07:34.498Z",
-  "scope": "Separate self-signed copies; not frozen candidate acceptance",
-  "completedSuites": 2,
-  "passedChecks": 139,
+  "updatedUtc": "2026-10-12T22:50:25.745Z",
+  "scope": "Engineering evidence:139 signed-copy checks +39 frozen-installed F011 checks +10 standard signed-copy privilege assertions +1 Home keyboard sequence +7 Startup navigation assertions. Independent acceptance pending;no new full-cell credit.",
+  "completedSuites": 3,
+  "passedChecks": 196,
   "failedChecks": 0,
   "suites": {
     "Smoke": {
@@ -21,10 +21,48 @@
       "status": "NOT_RUN_REQUIRES_QUALIFIED_CLEAN_SNAPSHOT"
     },
     "InstalledLaunch": {
-      "status": "NOT_RUN_REQUIRES_QUALIFIED_CLEAN_SNAPSHOT"
+      "status": "COMPLETED_FUNCTIONAL_EVIDENCE_ELIGIBLE_INDEPENDENT_QA_REVIEW",
+      "reportedPassed": 39,
+      "reportedFailed": 0,
+      "reportedTotal": 39,
+      "evidence": "f011-quarantined-20261012/f011.json",
+      "sha256": "a5539f18e62f9f3b980f37f889d1afa2b1bdcd7a1f19c4356653af2d3688492b",
+      "scope": "Frozen installed product with separate signed test runner; independent review pending"
     },
     "ElevatedRollback": {
       "status": "NOT_RUN_REQUIRES_QUALIFIED_CLEAN_SNAPSHOT"
+    },
+    "StandardPrivilege": {
+      "status": "PASS_STANDARD_USER_SIGNED_COPY_SCOPE",
+      "reportedPassed": 12,
+      "reportedTotal": 12,
+      "failed": 0,
+      "assertionsPassed": 10,
+      "informationalOrDeferredRecords": 2,
+      "evidence": "signed-copy-privilege-standard-20261012/privilege-standard.json",
+      "sha256": "72dc6ad24c878861a37d9d87c82bac1c17f95b40c3175cd49d9d023d042c6b2d",
+      "bytes": 7078,
+      "startedUtc": "2026-10-12T21:54:04.9899057Z",
+      "completedUtc": "2026-10-12T21:54:06.9656684Z",
+      "isAdministrator": false,
+      "expectedSid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+      "scope": "Separate signed source copies; standard-user privilege scope only, not elevated rollback or alternate-admin UI observation, not frozen-byte independent acceptance",
+      "executionPolicy": "AllSigned",
+      "policyChanged": false
+    },
+    "HomeKeyboardNative": {
+      "status": "PASS_NATIVE_144DPI_SAME_INSTALL_COMPONENT",
+      "assertionsPassed": 1,
+      "failed": 0,
+      "evidence": "DARK150_HOME_KEYBOARD_BATCH_20261012.json",
+      "fullCellCredit": 0
+    },
+    "StartupNavigationNative": {
+      "status": "PASS_NATIVE_144DPI_SAME_INSTALL_COMPONENT",
+      "assertionsPassed": 7,
+      "failed": 0,
+      "evidence": "DARK150_STARTUP_NAVIGATION_BATCH_20261012.json",
+      "fullCellCredit": 0
     }
   },
   "frozenScoreboardUnchanged": {
@@ -38,5 +76,8 @@
       "FAIL": 0,
       "NOT_RUN": 33
     }
-  }
+  },
+  "completedStandardPrivilegeScopes": 1,
+  "reportedPassingRecords": 190,
+  "informationalExcludedRecords": 2
 }

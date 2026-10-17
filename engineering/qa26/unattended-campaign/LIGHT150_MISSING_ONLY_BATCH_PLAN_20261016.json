@@ -1,0 +1,579 @@
+{
+  "schema": "QA26-LIGHT150-MISSING-ONLY-PLAN-1",
+  "utc": "2026-10-17T00:30:59.809Z",
+  "theme": "Light",
+  "requestedScale": 150,
+  "requiredNativeDpi": 144,
+  "cases": [
+    {
+      "page": "Checkup",
+      "key": "Home",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_home_20261016_1792197455525.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Checkup",
+      "key": "End",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_end_20261016_1792197465198.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Checkup",
+      "key": "PageUp",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_pageup_20261016_1792197485516.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Checkup",
+      "key": "PageDown",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_pagedown_20261016_1792197476560.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Checkup",
+      "key": "Up",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_up_20261016_1792197504295.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Checkup",
+      "key": "Down",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_down_20261016_1792197494893.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Checkup",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_left_20261016_1792197513993.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Checkup",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_checkup_right_20261016_1792197526630.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "Home",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_home_20261016_1792197586798.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "End",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_end_20261016_1792197596231.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "PageUp",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_pageup_20261016_1792197615329.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "PageDown",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_pagedown_20261016_1792197605762.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "Up",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_up_20261016_1792197635011.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "Down",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_down_20261016_1792197624478.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_left_20261016_1792197646094.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Storage",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_storage_right_20261016_1792197656814.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "Home",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_home_20261016_1792197711113.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "End",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_end_20261016_1792197720631.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "PageUp",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_pageup_20261016_1792197742177.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "PageDown",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_pagedown_20261016_1792197731180.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "Up",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_up_20261016_1792197763999.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "Down",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_down_20261016_1792197752414.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_left_20261016_1792197776044.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Startup",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_startup_right_20261016_1792197785953.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "Home",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_home_20261016_1792197845332.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "End",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_end_20261016_1792197856634.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "PageUp",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_pageup_20261016_1792197877765.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "PageDown",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_pagedown_20261016_1792197866999.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "Up",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_up_20261016_1792197899665.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "Down",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_down_20261016_1792197888733.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_left_20261016_1792197911316.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Security",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_security_right_20261016_1792197923050.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "Home",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_home_20261016_1792197978365.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "End",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_end_20261016_1792197989782.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "PageUp",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_pageup_20261016_1792198014104.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "PageDown",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_pagedown_20261016_1792198003252.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "Up",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_up_20261016_1792198036584.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "Down",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_down_20261016_1792198025821.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_left_20261016_1792198046875.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Updates",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_updates_right_20261016_1792198061679.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "Home",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_home_20261016_1792198132813.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "End",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_end_20261016_1792198159430.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "PageUp",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_pageup_20261016_1792198181821.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "PageDown",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_pagedown_20261016_1792198170800.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "Up",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_up_20261016_1792198206260.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "Down",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_down_20261016_1792198194363.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_left_20261016_1792198227921.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Backup",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_backup_right_20261016_1792198241869.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "Home",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_home_20261016_1792198339829.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "End",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_end_20261016_1792198351991.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "PageUp",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_pageup_20261016_1792198379832.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "PageDown",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_pagedown_20261016_1792198367975.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "Up",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_up_20261016_1792198403356.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "Down",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_down_20261016_1792198391142.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_left_20261016_1792198415903.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "System",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_system_right_20261016_1792198427958.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Apps",
+      "key": "Left",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_apps_left_20261016_1792198506124.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    },
+    {
+      "page": "Apps",
+      "key": "Right",
+      "predicate": "navigation_without_activation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "evidence": "screenshots/light150_missingnav_apps_right_20261016_1792198518790.jpg",
+      "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+    }
+  ],
+  "explicitlyExcluded": "All completed Apps Home/End/PageUp/PageDown/Up/Down; all completed result-detail/action/scan predicates. Historical native gaps are not a reason to repeat.",
+  "nativeQualification": "VERIFIED_NATIVE144_FULL_RAW_INTERVAL_PID7668_58_ASSERTIONS_ONLY",
+  "beforeTransitionPreserved": {
+    "scanAndReportFiles": [
+      {
+        "path": "data/scans/last-scan.json",
+        "bytes": 366923,
+        "sha256": "9ebd0a3dd3933ab3161ae1629e9e010a0805c4a177cc440e560bb1b67a4295de"
+      },
+      {
+        "path": "data/reports/cancelledfull125-20261005-1916.json",
+        "bytes": 64095,
+        "sha256": "8c8d00ebd254474f2691b56cffba1e3aadf6d1bc6e8e7890373272f0470e0073"
+      },
+      {
+        "path": "data/reports/full125.json",
+        "bytes": 37602,
+        "sha256": "6f1f7ce2d20d885c60ff160789c97f2597bf29cbbbad878c08e623c9e8ba3b6c"
+      },
+      {
+        "path": "data/reports/fulldark100.json",
+        "bytes": 309314,
+        "sha256": "70d0d4b6b037da168e2e3d43670372833c9e7cbaf8595f64ad9bc76dce340d16"
+      },
+      {
+        "path": "data/reports/fulldark125-storage-20261005-1931.json",
+        "bytes": 387675,
+        "sha256": "a8246d4a37b83f7d97fc6e8073d557f2efea8ee2f8459d70c8cadb60536d6b64"
+      },
+      {
+        "path": "data/reports/quick125.json",
+        "bytes": 19997,
+        "sha256": "32aa16a8c8ca433b38d55b3aeaaa12199b64fe2a6056d3a85513a8004964478c"
+      },
+      {
+        "path": "data/reports/quickdark100.json",
+        "bytes": 54050,
+        "sha256": "007b4f9a9c9a4fde697e6b2686f57e53b142cc49ae8e9888ce1c96b670562043"
+      },
+      {
+        "path": "data/reports/quickdark125transition.json",
+        "bytes": 19997,
+        "sha256": "9ce03eb0d373de645ada9d3737545c4f576d5e33e5fa09af62f991cd47e35dce"
+      },
+      {
+        "path": "data/reports/quicklight125-20261005-2057.json",
+        "bytes": 54050,
+        "sha256": "0c82799f9a93b3590f15b5417c9c968b6da4cddf5df6b87aad324a503897a85b"
+      }
+    ],
+    "executed125Redirects": [
+      "LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json",
+      "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"
+    ],
+    "nativeObserver": {
+      "hostObservedUtc": "2026-10-17T00:21:28.379Z",
+      "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261017_002100_3968008.jsonl",
+      "status": "STARTED_VISIBLE_NATIVE_LOG_PATH_MEASUREMENTS_PENDING_COLLECTION",
+      "evidence": "screenshots/light125_fresh_observer_started_1792196488379.jpg",
+      "nativeObserved": {
+        "dpi": 120,
+        "pid": 5820,
+        "firstUtc": "2026-10-17T00:21:00.3983266Z",
+        "headEvidence": "screenshots/light125_native120_log_head_1792197036049.jpg",
+        "method": "Existing native JSONL displayed read-only in guest Notepad; not requested scaling",
+        "tailEvidence": "screenshots/light125_native120_log_tail_1792197059808.jpg",
+        "lastDisplayedUtc": "2026-10-17T00:30:16.2158277Z",
+        "fullRawCollection": "PENDING; head/tail screenshots are not a full sampled-interval audit"
+      }
+    }
+  },
+  "newCredit": 0,
+  "transition": {
+    "status": "APPLIED_NATIVE144_VERIFIED_NORMAL_SIGNIN_COMPLETED",
+    "requestedScale": 150,
+    "evidence": "screenshots/light150_saved_requires_signout_1792197180919.jpg",
+    "utc": "2026-10-17T00:33:00.920Z"
+  },
+  "observerStarted": {
+    "hostUtc": "2026-10-17T00:34:19.892Z",
+    "evidence": "screenshots/light150_observer_started_1792197259891.jpg",
+    "fullFilename": "Pending native file-picker observation; console path clips outside work area"
+  },
+  "observerRenewed": {
+    "utc": "2026-10-17T00:51:08.781Z",
+    "evidence": "screenshots/light150_observer_renewed_1792198268780.jpg"
+  },
+  "nativeLogs": [
+    "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261017_003358_4930622.jsonl",
+    "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261017_005107_8645829.jsonl"
+  ],
+  "nativeVisualProof": {
+    "dpi": 144,
+    "pid": 7668,
+    "firstIntervalHead": "screenshots/light150_native144_first_interval_head_1792198708567.jpg",
+    "firstIntervalStart": "2026-10-17T00:33:58.4930622Z",
+    "rawIntervalQualification": "PENDING_FULL_RAW_READ",
+    "notInferredFromRequestedScale": true,
+    "firstIntervalTail": "screenshots/light150_native144_first_interval_tail_1792198722569.jpg",
+    "firstIntervalEnd": "2026-10-17T00:53:55.3566913Z",
+    "renewedHead": "screenshots/light150_native144_renewed_interval_head_1792198778117.jpg",
+    "renewedStart": "2026-10-17T00:51:07.8645829Z",
+    "renewedTail": "screenshots/light150_native144_renewed_interval_tail_1792198823178.jpg",
+    "renewedLastDisplayedUtc": "2026-10-17T00:59:18.6170663Z"
+  },
+  "appliedThemeEvidence": "screenshots/light150_applied_light_selector_1792198950067.jpg"
+}

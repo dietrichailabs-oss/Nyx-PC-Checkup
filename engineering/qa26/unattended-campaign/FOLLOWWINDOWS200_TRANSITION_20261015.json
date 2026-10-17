@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-15T21:44:53.002Z",
+  "from": "Light",
+  "to": "FollowWindows",
+  "requestedScale": 200,
+  "scalingChanged": false,
+  "themeOnly": true,
+  "noScanStarted": true,
+  "noSecurityPrivacyPreferenceChange": true,
+  "status": "NORMAL_RELAUNCH_VISIBLE_NATIVE_QUALIFICATION_PENDING",
+  "screenshots": {
+    "selected": "screenshots/followwindows200_transition_selected_20261015.jpg",
+    "saved": "screenshots/followwindows200_transition_saved_20261015.jpg",
+    "closed": "screenshots/followwindows200_transition_closed_20261015.jpg",
+    "applied": "screenshots/followwindows200_transition_applied_20261015.jpg",
+    "observer": "screenshots/followwindows200_transition_observer_20261015.jpg"
+  }
+}

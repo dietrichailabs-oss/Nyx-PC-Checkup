@@ -1,0 +1,52 @@
+{
+  "schema": "QA26-MISSING-PREDICATES-1",
+  "theme": "Light",
+  "scaleRequested": 125,
+  "page": "Apps",
+  "startedUtc": "2026-10-16T11:21:19.564Z",
+  "alreadyCompleted": "Historical full scan, filter zero/restore, folder destination, navigation and Installed Apps redirect retained. No rerun of scans or destinations; filter traversal is setup only for new stale-selection check.",
+  "status": "MISSING_STALE_SELECTION_BATCH_EXECUTED_NATIVE_QUALIFICATION_PENDING",
+  "requirements": {
+    "filteredSelectionFolderActionSkipped": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_apps_missing_20261016_filtered_selection_folder_skipped_1792149732885.jpg",
+      "observation": "With q filtering out the selected Edge row, ShiftTab from Search skips Open selected folder and focuses Run Full Check; no scan or folder dispatch."
+    },
+    "clearFilterDoesNotReviveStaleFolderAction": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_apps_missing_20261016_clear_filter_stale_action_still_skipped_1792149784946.jpg",
+      "observation": "After BackSpace clears q and all five inventory rows return unselected, ShiftTab from Search still skips Open selected folder to Run Full Check. No stale selection revival, folder dispatch, scan or uninstall."
+    }
+  },
+  "screenshots": [
+    {
+      "label": "selected_application_setup",
+      "path": "screenshots/light125_apps_missing_20261016_selected_application_setup_1792149706400.jpg",
+      "utc": "2026-10-16T11:21:46.401Z"
+    },
+    {
+      "label": "selected_item_filtered_out_setup",
+      "path": "screenshots/light125_apps_missing_20261016_selected_item_filtered_out_setup_1792149724560.jpg",
+      "utc": "2026-10-16T11:22:04.561Z"
+    },
+    {
+      "label": "filtered_selection_folder_skipped",
+      "path": "screenshots/light125_apps_missing_20261016_filtered_selection_folder_skipped_1792149732885.jpg",
+      "utc": "2026-10-16T11:22:12.886Z"
+    },
+    {
+      "label": "cleared_filter_rows_unselected",
+      "path": "screenshots/light125_apps_missing_20261016_cleared_filter_rows_unselected_1792149753634.jpg",
+      "utc": "2026-10-16T11:22:33.635Z"
+    },
+    {
+      "label": "clear_filter_stale_action_still_skipped",
+      "path": "screenshots/light125_apps_missing_20261016_clear_filter_stale_action_still_skipped_1792149784946.jpg",
+      "utc": "2026-10-16T11:23:05.085Z"
+    }
+  ],
+  "newCellCredit": 0,
+  "nativeDpi": "PENDING_FRESH_NATIVE_EVIDENCE",
+  "appliedThemeEvidence": "LIGHT125_RESUME_TRANSITION_20261016.json#/appliedSelectorEvidence",
+  "completedUtc": "2026-10-16T11:23:05.085Z"
+}

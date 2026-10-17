@@ -1,0 +1,47 @@
+{
+  "page": "Startup",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:01:58.395Z",
+  "endUtc": "2026-10-14T00:11:11.071Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "sidebarScrollRecovery": true,
+    "refreshKeyboardReachable": true,
+    "firstLastArrowGridFocus": true,
+    "horizontalColumnRecovery": true,
+    "impactTextReadable": true,
+    "allUsersModificationControlsDisabled": true,
+    "currentUserDisableKeyboardReachableNotActivated": true,
+    "enabledEntryReenableDisabled": true,
+    "openLocationKeyboardOperable": true,
+    "containingFolderNotExecution": true,
+    "returnIdle": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noStartupMutation": true
+  },
+  "limitations": [
+    "Constrained viewport requires horizontal/vertical scrolling; no perfect presentation claim.",
+    "OneDrive containing folder observed; selected executable filename not independently visible, so no exact-name selection claim.",
+    "Refresh/mutation actions not executed in this accessibility cell; mutation suites remain separate."
+  ],
+  "screenshots": [
+    "screenshots/dark200_startup_controls_20261013.jpg",
+    "screenshots/dark200_startup_keyboard_20261013.jpg",
+    "screenshots/dark200_startup_last_impact_20261013.jpg",
+    "screenshots/dark200_startup_readonly_reenable_20261013.jpg",
+    "screenshots/dark200_startup_readonly_disable_20261013.jpg",
+    "screenshots/dark200_startup_first_focus_20261013.jpg",
+    "screenshots/dark200_startup_arrow_focus_20261013.jpg",
+    "screenshots/dark200_startup_onedrive_20261013.jpg",
+    "screenshots/dark200_startup_disable_focus_20261013.jpg",
+    "screenshots/dark200_startup_folder_focus_20261013.jpg",
+    "screenshots/dark200_startup_folder_destination_20261013.jpg",
+    "screenshots/dark200_startup_idle_return_20261013.jpg",
+    "screenshots/dark200_startup_refresh_focus_20261013.jpg"
+  ],
+  "fullCellCredit": 1
+}

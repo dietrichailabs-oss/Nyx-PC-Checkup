@@ -1,0 +1,40 @@
+{
+  "page": "Startup",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T22:13:20.329Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "page": "screenshots/followwindows200_startup_page_20261015.jpg",
+    "controls": "screenshots/followwindows200_startup_controls_20261015.jpg",
+    "last": "screenshots/followwindows200_startup_last_20261015.jpg",
+    "readonly_toolbar": "screenshots/followwindows200_startup_readonly_toolbar_20261015.jpg",
+    "readonly_skip": "screenshots/followwindows200_startup_readonly_skip_20261015.jpg",
+    "first": "screenshots/followwindows200_startup_first_20261015.jpg",
+    "currentuser": "screenshots/followwindows200_startup_currentuser_20261015.jpg",
+    "disable_focus": "screenshots/followwindows200_startup_disable_focus_20261015.jpg",
+    "folder_focus": "screenshots/followwindows200_startup_folder_focus_20261015.jpg",
+    "folder": "screenshots/followwindows200_startup_folder_20261015.jpg",
+    "return": "screenshots/followwindows200_startup_return_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "firstLastKeyboardRecovery": true,
+    "currentUserEnabledDisableReachable": true,
+    "reenableDisabledForEnabled": true,
+    "allUsersModificationDisabled": true,
+    "disabledControlsSkipped": true,
+    "openContainingFolderEnter": true,
+    "noStartupMutation": true,
+    "noFileExecution": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_220946_3985020.jsonl",
+  "fullCellCredit": 1,
+  "endUtc": "2026-10-15T22:15:45.230Z",
+  "limitations": [
+    "200% reduced viewport requires keyboard horizontal/vertical recovery. OneDrive containing folder observed with one selected item; selected filename below visible viewport."
+  ],
+  "nativeQualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "QA26-NATIVE-LIVE-EXPORT-PLAN-1",
+  "utc": "2026-10-16T21:41:31.823Z",
+  "vmName": "Nyx",
+  "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+  "destination": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/live_evidence_export_20261016_1792186891822",
+  "route": "Existing Windows Hyper-V Manager Export, then read-only attachment of exported disk and allowlisted evidence extraction",
+  "documentation": "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/deploy/export-and-import-virtual-machines",
+  "status": "COLLECTED_DETACHED_NATIVE_DPI_INTERVAL_GAP",
+  "reason": "Elevated Hyper-V Manager rejects automated input at Windows integrity boundary; no elevation bypass attempted",
+  "policyChanged": false,
+  "productChanged": false,
+  "originalVmShutdown": false,
+  "metadataReview": "Opaque VM preservation only; do not open, compare or extract disputed install-state metadata",
+  "exportCompleted": true,
+  "collectionQualified": false,
+  "batchCompletedUtc": "2026-10-16T21:44:12.123Z",
+  "executedPredicatesPreserved": 23,
+  "screenshotsPreserved": 30,
+  "managerEvidence": {
+    "screenshot": "screenshots/native_hyperv_export_integrity_boundary_20261016_1792187052123.jpg",
+    "accessibility": "Accessibility is limited because the target window has higher Windows integrity than the Computer Use helper.\nWindow: \"Hyper-V Manager\", App: mmc.exe.\n\t0 window Hyper-V Manager Secondary Actions: Raise\n\t\t1 title bar (settable, string) Value: Hyper-V Manager"
+  },
+  "ownerClarification": {
+    "utc": "2026-10-16T21:52:15.529Z",
+    "action": "Correct host Hyper-V export now started"
+  },
+  "actualExportRoot": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/live_evidence_export_20261016_1792186891822/Nyx",
+  "disksObserved": [
+    {
+      "path": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/live_evidence_export_20261016_1792186891822/Nyx/Virtual Hard Disks/Nyx.vhdx",
+      "bytes": 23727177728,
+      "modifiedUtc": "2026-10-16T21:52:51.307Z"
+    }
+  ],
+  "runtimeObservation": {
+    "utc": "2026-10-16T21:52:51.438Z",
+    "vm": "Nyx",
+    "state": "Running",
+    "managerAction": "Cancel Exporting visible; export not complete"
+  },
+  "progressEvidence": "screenshots/native_hyperv_export_in_progress_20261016_1792187571438.jpg",
+  "exportCompletionObservedUtc": "2026-10-16T22:18:55.311Z",
+  "configEvidence": {
+    "path": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/live_evidence_export_20261016_1792186891822/Nyx/Virtual Machines/275A191C-CF8A-4929-9849-B9A293E9149D.vmcx",
+    "sha256": "584d1fa3e00a23d667a7f908319db1bd72c33160cadd834ac6e43151e5451dc5",
+    "sourceVmIdMatchesFilename": true,
+    "diskReferences": [
+      "Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx"
+    ]
+  },
+  "actualExportedDiskCount": 24,
+  "completedEvidence": "screenshots/native_hyperv_export_completed_nyx_running_20261016_1792189135311.jpg",
+  "mount": {
+    "target": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\live_evidence_export_20261016_1792186891822\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+    "targetInsideExportVerified": true,
+    "nonReparseGuard": "Windows Get-Item verified root, Nyx, Virtual Hard Disks and exact leaf: no ReparsePoint/LinkType/Target; FullName path boundary passed",
+    "readOnly": true,
+    "tool": "C:\\Windows\\System32\\diskpart.exe",
+    "attachSpec": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/attach-export-readonly-20261016.txt",
+    "detachSpec": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/detach-export-readonly-20261016.txt",
+    "attachLog": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/attach-export-readonly-20261016.log",
+    "attached": false,
+    "policyChanged": false,
+    "fileProbeNote": "Node realpath returned EPERM. Windows filesystem metadata guard succeeded without changing permissions.",
+    "diskNumber": 5,
+    "volume": "J:",
+    "nativeReadOnlyProof": "Current Read-only State : Yes",
+    "inspectLog": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/inspect-export-readonly-20261016.log",
+    "attachedObservedUtc": "2026-10-17T00:18:29.927Z",
+    "detached": true,
+    "detachLog": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/detach-export-readonly-20261016.log"
+  },
+  "collectionRoot": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa14_github_publish/repo/engineering/qa26/unattended-campaign/collected-native-export-20261016-1792196321148",
+  "frozenPayload": {
+    "expected": 60,
+    "matched": 60,
+    "mismatches": 0,
+    "metadataExcluded": true
+  },
+  "nativeLogCount": 18,
+  "latestNativeUtc": "2026-10-15T23:19:35.4909480Z",
+  "qualificationLimitation": "No native observer interval dated 2026-10-16 found. No clock offset inferred from screenshot; 23 executed predicates remain preserved and uncredited, not to be repeated."
+}

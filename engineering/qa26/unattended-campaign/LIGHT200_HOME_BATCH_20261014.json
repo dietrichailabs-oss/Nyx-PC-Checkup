@@ -1,0 +1,46 @@
+{
+  "page": "Home",
+  "theme": "Light",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T22:19:28.540Z",
+  "endUtc": "2026-10-14T22:21:51.758Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "reportReviewReadable": true,
+    "reviewContinueKeyboardReachableNotActivated": true,
+    "cancelKeyboardOperable": true,
+    "returnIdle": true,
+    "primaryKeyboardReachableNotActivated": true,
+    "summaryStatusesReadable": true,
+    "allSixCategoryMeaningsReadableViaScrolling": true,
+    "practicalHorizontalVerticalRecovery": true,
+    "noObservedException": true,
+    "noNewScan": true,
+    "noExportSaved": true,
+    "noDeletion": true
+  },
+  "preservedReport": "Full completed2026-10-08T23:05:25.6882604Z",
+  "limitations": [
+    "Reduced viewport and clipped content require horizontal/vertical scrollbar recovery and focus reveal.",
+    "Report review controls initially below viewport; Tab reveals actions.",
+    "No strict/perfect presentation claim; no redundant scan."
+  ],
+  "screenshots": [
+    "screenshots/light200_home_idle_20261014.jpg",
+    "screenshots/light200_home_report_review_20261014.jpg",
+    "screenshots/light200_home_review_continue_20261014.jpg",
+    "screenshots/light200_home_review_cancel_20261014.jpg",
+    "screenshots/light200_home_return_20261014.jpg",
+    "screenshots/light200_home_primary_focus_20261014.jpg",
+    "screenshots/light200_home_summary_20261014.jpg",
+    "screenshots/light200_home_storage_updates_20261014.jpg",
+    "screenshots/light200_home_startup_status_20261014.jpg",
+    "screenshots/light200_home_backup_20261014.jpg",
+    "screenshots/light200_home_system_20261014.jpg",
+    "screenshots/light200_home_security_label_20261014.jpg",
+    "screenshots/light200_home_security_status_20261014.jpg"
+  ],
+  "fullCellCredit": 1
+}

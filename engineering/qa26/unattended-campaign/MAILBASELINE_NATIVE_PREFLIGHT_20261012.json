@@ -1,0 +1,8 @@
+﻿{
+    "Status":  "NATIVE_PREFLIGHT_COLLECTED",
+    "VmId":  "8a47a0da-1a2e-4dc2-8f7b-1e6dbba2117b",
+    "NativeOutput":  "{\n    \"PowerShellVersion\":  \"5.1.26100.7920\",\n    \"PSEdition\":  \"Desktop\",\n    \"WindowsBuild\":  \"26200\",\n    \"User\":  \"DESKTOP-4D83OSL\\\\Nyx\",\n    \"Sid\":  \"S-1-5-21-1723763126-3146604107-184641064-1002\",\n    \"IsAdministrator\":  false,\n    \"PolicyList\":  [\n                       {\n                           \"Scope\":  \"MachinePolicy\",\n                           \"Policy\":  \"Undefined\"\n                       },\n                       {\n                           \"Scope\":  \"UserPolicy\",\n                           \"Policy\":  \"Undefined\"\n                       },\n                       {\n                           \"Scope\":  \"Process\",\n                           \"Policy\":  \"Undefined\"\n                       },\n                       {\n                           \"Scope\":  \"CurrentUser\",\n                           \"Policy\":  \"Undefined\"\n                       },\n                       {\n                           \"Scope\":  \"LocalMachine\",\n                           \"Policy\":  \"Undefined\"\n                       }\n                   ],\n    \"EffectivePolicy\":  \"Restricted\",\n    \"NyxInstallExists\":  false,\n    \"NyxDataExists\":  false,\n    \"NyxUninstallRegistration\":  false,\n    \"PolicyChangedByCollector\":  false,\n    \"TestsRun\":  0\n}",
+    "OwnerReportedPasswordChange":  true,
+    "PolicyChangedByCollector":  false,
+    "TestsRun":  0
+}

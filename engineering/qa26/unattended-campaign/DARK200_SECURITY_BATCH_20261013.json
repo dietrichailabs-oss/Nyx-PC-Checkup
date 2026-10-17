@@ -1,0 +1,39 @@
+{
+  "page": "Security",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:11:37.199Z",
+  "endUtc": "2026-10-14T00:19:11.096Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "practicalScrollRecovery": true,
+    "firstLastKeyboardRecovery": true,
+    "detailKeyboardActivation": true,
+    "essentialDetailReadable": true,
+    "closeKeyboardOperable": true,
+    "returnOriginFocus": true,
+    "primaryKeyboardReachableNotActivated": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noSecurityMutation": true
+  },
+  "limitations": [
+    "Constrained viewport and truncated grid text recover through scrolling and detail dialog.",
+    "Windows Security destination and human protection controls were not activated or credited."
+  ],
+  "screenshots": [
+    "screenshots/dark200_security_opening_20261013.jpg",
+    "screenshots/dark200_security_controls_20261013.jpg",
+    "screenshots/dark200_security_grid_20261013.jpg",
+    "screenshots/dark200_security_keyboard_20261013.jpg",
+    "screenshots/dark200_security_last_20261013.jpg",
+    "screenshots/dark200_security_detail_20261013.jpg",
+    "screenshots/dark200_security_close_focus_20261013.jpg",
+    "screenshots/dark200_security_return_origin_20261013.jpg",
+    "screenshots/dark200_security_first_recovery_20261013.jpg",
+    "screenshots/dark200_security_primary_focus_20261013.jpg"
+  ],
+  "fullCellCredit": 1
+}

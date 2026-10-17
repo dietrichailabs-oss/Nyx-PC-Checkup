@@ -1,0 +1,75 @@
+{
+  "page": "Security",
+  "theme": "FollowWindows",
+  "requestedScale": 125,
+  "startUtc": "2026-10-15T23:04:40.956Z",
+  "status": "EXECUTED_PRESERVED_HOLD_METADATA_REVIEW",
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_225938_8324097.jsonl",
+  "screenshots": {
+    "context": "screenshots/followwindows125_security_context_20261015.jpg",
+    "last": "screenshots/followwindows125_security_missing_last_20261015.jpg",
+    "first": "screenshots/followwindows125_security_missing_first_20261015.jpg",
+    "antivirus_detail": "screenshots/followwindows125_security_antivirus_detail_20261015.jpg",
+    "firewall_detail": "screenshots/followwindows125_security_firewall_detail_20261015.jpg",
+    "services_detail": "screenshots/followwindows125_security_services_detail_20261015.jpg",
+    "finding_labels": "screenshots/followwindows125_security_finding_labels_20261015.jpg",
+    "text_statuses": "screenshots/followwindows125_security_text_statuses_20261015.jpg",
+    "human_focus": "screenshots/followwindows125_security_human_focus_20261015.jpg",
+    "human_destination": "screenshots/followwindows125_security_human_destination_20261015.jpg",
+    "human_return": "screenshots/followwindows125_security_human_return_20261015.jpg"
+  },
+  "requirements": {
+    "firstLastKeyboardRecovery": true,
+    "positiveAntivirusExplanationReadable": true,
+    "positiveFirewallExplanationReadable": true,
+    "positiveServicesExplanationReadable": true,
+    "fullFindingNamesRecoveredByNativeAutosize": true,
+    "fullTextStatusesRecoveredWithoutColor": true,
+    "noNewScan": true,
+    "noProtectionChange": true,
+    "noObservedException": true,
+    "humanWindowsSecurityRedirectDestination": true,
+    "humanClosesWindowsSecurity": true
+  },
+  "preservedPredicates": [
+    {
+      "id": "followwindows125_security_unknown_details",
+      "evidence": "screenshots/followwindows125_security_unknown_details.png",
+      "status": "PASS"
+    },
+    {
+      "id": "followwindows125_security_reverse_tab",
+      "evidence": "screenshots/followwindows125_security_reverse_tab.png",
+      "status": "PASS"
+    },
+    {
+      "id": "followwindows125_security_unknown_details",
+      "evidence": "screenshots/followwindows125_security_unknown_details.png",
+      "status": "PASS"
+    },
+    {
+      "id": "followwindows125_security_primary_focus",
+      "evidence": "screenshots/followwindows125_security_primary_focus.png",
+      "status": "PASS"
+    }
+  ],
+  "fullCellCredit": 0,
+  "incidentalNavigation": [
+    {
+      "utc": "2026-10-15T23:10:08.942Z",
+      "detail": "Attempted Check-header autosize after focus scroll landed on Firewall row, reopening already completed detail. No new test credit; no scan or protection change."
+    }
+  ],
+  "endUtc": "2026-10-15T23:15:30.352Z",
+  "pendingPredicates": [
+    "nativeDpiAndInstalledIdentityQualification",
+    "coverageReconciliationWithPreservedFunctionalPredicates"
+  ],
+  "humanRedirect": {
+    "utc": "2026-10-15T23:13:24.878Z",
+    "input": "Owner pressed Enter in new125 cell",
+    "observed": "Unobstructed Windows Security title and Security at a glance destination",
+    "agentGuestSecurityInput": false
+  },
+  "nativeQualification": "FOLLOWWINDOWS125_NATIVE_QUALIFICATION_HOLD_20261015.json"
+}

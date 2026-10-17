@@ -1,0 +1,39 @@
+{
+  "page": "Security",
+  "theme": "Light",
+  "scale": 200,
+  "startUtc": "2026-10-14T22:57:02.669Z",
+  "endUtc": "2026-10-14T22:58:05.121Z",
+  "status": "PARTIAL_EXECUTED_PENDING_HUMAN_REDIRECT_AND_NATIVE",
+  "screenshots": {
+    "page": "screenshots/light200_security_page_20261014.jpg",
+    "controls": "screenshots/light200_security_controls_20261014.jpg",
+    "keyboard": "screenshots/light200_security_keyboard_20261014.jpg",
+    "last": "screenshots/light200_security_last_20261014.jpg",
+    "detail": "screenshots/light200_security_detail_20261014.jpg",
+    "close": "screenshots/light200_security_close_20261014.jpg",
+    "first_return": "screenshots/light200_security_first_return_20261014.jpg",
+    "primary_focus": "screenshots/light200_security_primary_focus_20261014.jpg",
+    "human_destination": "screenshots/light200_security_human_destination_20261014.jpg"
+  },
+  "requirements": {
+    "firstLastKeyboardRecovery": true,
+    "detailEnterReadable": true,
+    "keyboardCloseOriginReturn": true,
+    "primaryKeyboardReachable": true,
+    "noScanStarted": true,
+    "noProtectionChange": true,
+    "humanWindowsSecurityDestinationObserved": true
+  },
+  "pending": [
+    "Native collection covering earlier executed grid/detail interval and human redirect",
+    "Human close Windows Security; fresh DPI observer for subsequent batches"
+  ],
+  "fullCellCredit": 0,
+  "humanAction": {
+    "reported": "done",
+    "observed": "Windows Security: Security at a glance visible",
+    "utc": "2026-10-14T23:24:18.806Z",
+    "agentProtectionInteraction": false
+  }
+}

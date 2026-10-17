@@ -1,0 +1,2448 @@
+{
+  "status": "INSPECTION_COMPLETE_NATIVE_QUALIFICATION_PENDING",
+  "approvalUrl": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6134250470",
+  "scoreboard": {
+    "pass": 196,
+    "fail": 0,
+    "newTests": 0
+  },
+  "policyChanged": false,
+  "productChanged": false,
+  "qualifiedCompatibleBaselines": 0,
+  "limitations": "Offline absent registry values are not native effective policy. Inaccessible chains and undetected Windows volumes remain unqualified, not proven incompatible.",
+  "baselines": [
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "LeanDesk-090-7bd5f6f-QA",
+      "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+      "state": "Running",
+      "checkpointId": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx_B20E52E1-2993-4B56-94E7-8E4A3B73384C.avhdx",
+          "offline": {
+            "Index": 1,
+            "Path": "I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx_B20E52E1-2993-4B56-94E7-8E4A3B73384C.avhdx",
+            "Status": "READ_ONLY_INSPECTION_ERROR",
+            "Error": "Failed to mount the virtual disk.\n\nThe system failed to mount 'I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx_B20E52E1-2993-4B56-94E7-8E4A3B73384C.avhdx'.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount 'I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx_B20E52E1-2993-4B56-94E7-8E4A3B73384C.avhdx': The process cannot access the file because it is being used by another process. (0x80070020).",
+            "DiskOffline": null,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": {
+        "vmName": "LeanDesk-090-7bd5f6f-QA",
+        "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+        "source": "Owner-provided screenshot from requested guest preflight; console identity supplied by conversation, not visible in screenshot",
+        "PowerShellVersion": "5.1.26100.9444",
+        "PSEdition": "Desktop",
+        "User": "desktop-4d83osl\\nyx",
+        "PolicyList": [
+          {
+            "Scope": "MachinePolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "UserPolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "Process",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "CurrentUser",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "LocalMachine",
+            "Policy": "Undefined"
+          }
+        ],
+        "EffectivePolicy": "Restricted",
+        "testsRun": 0,
+        "policyChangedByQA": false,
+        "limitation": "Screenshot does not establish SID/admin state, cleanliness, candidate hashes, or VM identity independently."
+      }
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "LeanDesk-090-7bd5f6f-QA",
+      "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+      "checkpointName": "Automatic Checkpoint - LeanDesk-090-7bd5f6f-QA - (9/20/2026 - 2:40:44 PM)",
+      "checkpointId": "9f2f9078-3211-4284-adca-f50b2cfb4e8e",
+      "creationTime": "/Date(1789929644406)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx.vhdx",
+          "offline": {
+            "Index": 2,
+            "Path": "I:\\Nyx\\LeanDesk_090_7bd5f6f_QA\\Disks\\Nyx.vhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-2\\mark.DAT",
+                "SHA256": "7C1F186F3EF75EB121B8F8B85D5833C56BFA78FD44E3CBC883FDCEE70889F137",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-2\\Nyx.DAT",
+                "SHA256": "8EF5441536C6996166837FB6CA819EF64ED16E1A9D4C6489E7D77C5198815420",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "NO_USER_HIVE"
+              }
+            ]
+          },
+          "machine": {
+            "index": 2,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "LeanDeskC6LifecycleQA_20260826",
+      "vmId": "8e53bd51-0b7b-4ea7-bd53-eecec323f0ea",
+      "state": "Off",
+      "checkpointId": null,
+      "disks": [
+        {
+          "path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_A81ADD85-5FEC-4547-9984-B508E15DE8E4.avhdx",
+          "offline": {
+            "Index": 3,
+            "Path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_A81ADD85-5FEC-4547-9984-B508E15DE8E4.avhdx",
+            "Status": "READ_ONLY_INSPECTION_ERROR",
+            "Error": "Failed to mount the virtual disk.\n\nThe system failed to mount 'I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_A81ADD85-5FEC-4547-9984-B508E15DE8E4.avhdx'.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount 'I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_A81ADD85-5FEC-4547-9984-B508E15DE8E4.avhdx': The chain of virtual hard disks is inaccessible. There was an error opening a virtual hard disk further up the chain. (0xC03A0019).",
+            "DiskOffline": null,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "LeanDeskC6LifecycleQA_20260826",
+      "vmId": "8e53bd51-0b7b-4ea7-bd53-eecec323f0ea",
+      "checkpointName": "Pre-LeanDesk081-20260830_2028",
+      "checkpointId": "3133a7da-64cd-4454-924d-f9fd59c999c6",
+      "creationTime": "/Date(1788134716457)/",
+      "disks": [
+        {
+          "path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_6139BC01-BB5E-4FA7-8481-FF514B83D3B2.avhdx",
+          "offline": {
+            "Index": 4,
+            "Path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_6139BC01-BB5E-4FA7-8481-FF514B83D3B2.avhdx",
+            "Status": "READ_ONLY_INSPECTION_ERROR",
+            "Error": "Failed to mount the virtual disk.\n\nThe system failed to mount 'I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_6139BC01-BB5E-4FA7-8481-FF514B83D3B2.avhdx'.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount 'I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_6139BC01-BB5E-4FA7-8481-FF514B83D3B2.avhdx': The chain of virtual hard disks is inaccessible. There was an error opening a virtual hard disk further up the chain. (0xC03A0019).",
+            "DiskOffline": null,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "LeanDeskC6LifecycleQA_20260826",
+      "vmId": "8e53bd51-0b7b-4ea7-bd53-eecec323f0ea",
+      "checkpointName": "Pre-RangeScout164-20260831_1439",
+      "checkpointId": "e17b1a5e-bb96-4f4a-bed5-f9a27a3e9519",
+      "creationTime": "/Date(1788201549758)/",
+      "disks": [
+        {
+          "path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_14229E59-9AC0-4C32-99D4-A5927332B091.avhdx",
+          "offline": {
+            "Index": 5,
+            "Path": "I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_14229E59-9AC0-4C32-99D4-A5927332B091.avhdx",
+            "Status": "READ_ONLY_INSPECTION_ERROR",
+            "Error": "Failed to mount the virtual disk.\n\nThe system failed to mount 'I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_14229E59-9AC0-4C32-99D4-A5927332B091.avhdx'.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount 'I:\\LeanDeskC6LifecycleQA_20260826\\Virtual Hard Disks\\LeanDeskC6LifecycleQA_14229E59-9AC0-4C32-99D4-A5927332B091.avhdx': The chain of virtual hard disks is inaccessible. There was an error opening a virtual hard disk further up the chain. (0xC03A0019).",
+            "DiskOffline": null,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "MailArchiveDev18SecurityQA_20260902",
+      "vmId": "9e9df1b1-0d76-448d-a181-b825545533d8",
+      "state": "Off",
+      "checkpointId": null,
+      "disks": [
+        {
+          "path": "I:\\MailArchiveDev18SecurityQA_20260902\\Virtual Hard Disks\\MailArchiveDev18SecurityQA_OS.vhdx",
+          "offline": {
+            "Index": 6,
+            "Path": "I:\\MailArchiveDev18SecurityQA_20260902\\Virtual Hard Disks\\MailArchiveDev18SecurityQA_OS.vhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-6\\mark.DAT",
+                "SHA256": "644C1936CB687822DE0784D91E1E0498CD4E41621B4950CA86B438790871D16C",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-6\\Nyx.DAT",
+                "SHA256": "CE159418D482412AD48791F07C81B83B8E64E99AF901F9167548D23380A6BED8",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "NO_USER_HIVE"
+              }
+            ]
+          },
+          "machine": {
+            "index": 6,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        },
+        {
+          "path": "I:\\MailArchiveDev18SecurityQA_20260902\\Virtual Hard Disks\\MailArchiveDev18SecurityQA_Evidence.vhdx",
+          "offline": {
+            "Index": 7,
+            "Path": "I:\\MailArchiveDev18SecurityQA_20260902\\Virtual Hard Disks\\MailArchiveDev18SecurityQA_Evidence.vhdx",
+            "Status": "WINDOWS_VOLUME_NOT_DETECTED",
+            "Error": null,
+            "DiskOffline": false,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "state": "Running",
+      "checkpointId": null,
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+          "offline": {
+            "Index": 8,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+            "Status": "READ_ONLY_INSPECTION_ERROR",
+            "Error": "Failed to mount the virtual disk.\n\nThe system failed to mount 'I:\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx'.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount 'I:\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx': The process cannot access the file because it is being used by another process. (0x80070020).",
+            "DiskOffline": null,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": {
+        "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+        "vmName": "Nyx",
+        "status": "NATIVE_METADATA_COLLECTED",
+        "error": null,
+        "metadata": {
+          "PowerShellVersion": "5.1.26100.7920",
+          "PSEdition": "Desktop",
+          "WindowsVersion": "10.0.26200",
+          "WindowsBuild": "26200",
+          "User": "DESKTOP-4D83OSL\\Nyx",
+          "Sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+          "IsAdministrator": false,
+          "PolicyList": [
+            {
+              "Scope": "MachinePolicy",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "UserPolicy",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "Process",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "CurrentUser",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "LocalMachine",
+              "Policy": "Undefined"
+            }
+          ],
+          "EffectivePolicy": "Restricted",
+          "NyxInstallExists": true,
+          "NyxDataExists": true,
+          "NyxUninstallRegistration": true,
+          "NyxProcesses": [
+            {
+              "ProcessId": 9972,
+              "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+            }
+          ],
+          "PolicyChanged": false,
+          "ProductChanged": false
+        }
+      }
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "EXEC004_PRETEST_20260804_0844",
+      "checkpointId": "07126637-ce84-43cc-a69b-fb4ae445f9ce",
+      "creationTime": "/Date(1785847374218)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx.vhdx",
+          "offline": {
+            "Index": 9,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx.vhdx",
+            "Status": "WINDOWS_VOLUME_NOT_DETECTED",
+            "Error": null,
+            "DiskOffline": false,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Nyx - (8/4/2026 - 10:11:06 AM)",
+      "checkpointId": "03694aef-e568-4810-a8f9-956c47b70a8c",
+      "creationTime": "/Date(1785852668262)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_70636C92-2785-4C86-86A9-37EC7210CECB.avhdx",
+          "offline": {
+            "Index": 10,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_70636C92-2785-4C86-86A9-37EC7210CECB.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-10\\mark.DAT",
+                "SHA256": "3B958D1E1A034392336FC521C7AEF6B0B3560D4F90448321AC987E212CEFEEA0",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-10\\Nyx.DAT",
+                "SHA256": "DEF4FC5FCD3F0E2B82D9A5416F6C0F2D92D6393203ED6ECC8B5566D0BD39BA7C",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-10\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 10,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Pre-RangeScout164-20260831_1450",
+      "checkpointId": "cdf74f06-5491-4d7e-b667-c84414fad6ad",
+      "creationTime": "/Date(1788202203618)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_3CDF463A-91C1-4E13-8479-E1FF68918215.avhdx",
+          "offline": {
+            "Index": 11,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_3CDF463A-91C1-4E13-8479-E1FF68918215.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-11\\mark.DAT",
+                "SHA256": "D64A9C032101E755352A4953EBA9E357DC9158CCC0EBCDD5825AD8E4DE2E7B24",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-11\\Nyx.DAT",
+                "SHA256": "04026AB81462CF881E32C5332EF2B5523F2A88208C08131FDCF5A004E86B66D0",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "NO_USER_HIVE"
+              }
+            ]
+          },
+          "machine": {
+            "index": 11,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Pre-LeanDesk090-Lifecycle_20260903_164140",
+      "checkpointId": "101cb7aa-2ad2-44d6-956c-f6829d165f93",
+      "creationTime": "/Date(1788468103031)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5180FFC8-D7F0-445F-A9B5-428EB6FCDDEC.avhdx",
+          "offline": {
+            "Index": 12,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5180FFC8-D7F0-445F-A9B5-428EB6FCDDEC.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-12\\mark.DAT",
+                "SHA256": "0A5AAAFE6B64048CFFD3A8548861582D383D8B9D102041706544BEE710A7B48A",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-12\\Nyx.DAT",
+                "SHA256": "8EF5441536C6996166837FB6CA819EF64ED16E1A9D4C6489E7D77C5198815420",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "NO_USER_HIVE"
+              }
+            ]
+          },
+          "machine": {
+            "index": 12,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA15_BEFORE_BOUNDS_CLASSIFICATION_20260926_140749",
+      "checkpointId": "b9f102f2-0cb6-40b7-a03b-c5f3a5132c4d",
+      "creationTime": "/Date(1790446071126)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_EB5B467F-F694-4F70-A395-1EF7AAB02B20.avhdx",
+          "offline": {
+            "Index": 13,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_EB5B467F-F694-4F70-A395-1EF7AAB02B20.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-13\\mark.DAT",
+                "SHA256": "04089260BFB1DFA0796027A75FAF729DC993F0E13F214DEEB19886D8747093F2",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-13\\Nyx.DAT",
+                "SHA256": "8EF5441536C6996166837FB6CA819EF64ED16E1A9D4C6489E7D77C5198815420",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "NO_USER_HIVE"
+              }
+            ]
+          },
+          "machine": {
+            "index": 13,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA16_BEFORE_F013_20260926_154559",
+      "checkpointId": "3a8421d2-dc30-4587-8cf4-b5f39c9276a7",
+      "creationTime": "/Date(1790451960371)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5B463DE8-FAB2-4FE7-8960-1D61C25EE735.avhdx",
+          "offline": {
+            "Index": 14,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5B463DE8-FAB2-4FE7-8960-1D61C25EE735.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-14\\mark.DAT",
+                "SHA256": "F42BE2A0CF58FDFB751A023764AA10586530421789B5FB9CEF653ACFAE121835",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-14\\Nyx.DAT",
+                "SHA256": "CE159418D482412AD48791F07C81B83B8E64E99AF901F9167548D23380A6BED8",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "NO_USER_HIVE"
+              }
+            ]
+          },
+          "machine": {
+            "index": 14,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA16_FROZEN_BEFORE_QA17_20260926_204520",
+      "checkpointId": "0b2b0c98-551e-4d1a-979f-b08c3689143e",
+      "creationTime": "/Date(1790469920600)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_3770CE7D-E9E6-4980-BF68-1AB1BB49A744.avhdx",
+          "offline": {
+            "Index": 15,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_3770CE7D-E9E6-4980-BF68-1AB1BB49A744.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-15\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-15\\Nyx.DAT",
+                "SHA256": "D7946A3360D0F21BACECDF435CC2B4F8E60EF2BED1261CBD081C475E6BFA694B",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-15\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 15,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA17_FROZEN_BEFORE_QA18_20260926_211932",
+      "checkpointId": "6b51b7ee-2457-48af-82c7-dd3d74879b12",
+      "creationTime": "/Date(1790471972588)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_B7D641F9-C202-41AD-B546-827FAEC9ED9A.avhdx",
+          "offline": {
+            "Index": 16,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_B7D641F9-C202-41AD-B546-827FAEC9ED9A.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-16\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-16\\Nyx.DAT",
+                "SHA256": "CD30D543C1CF83DE55E754EC4A3E59F1C52E0598AE3738288BFD73E096878B34",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-16\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 16,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA18_FROZEN_BEFORE_QA19_20260926_215258",
+      "checkpointId": "6695468c-5276-42f9-82b4-08cbe6df458c",
+      "creationTime": "/Date(1790473979013)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_199B6E8B-1319-4065-8374-D7B7458B45A7.avhdx",
+          "offline": {
+            "Index": 17,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_199B6E8B-1319-4065-8374-D7B7458B45A7.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-17\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-17\\Nyx.DAT",
+                "SHA256": "EEA8E20FC81C1D82FC8CE901392F584AAEA70DBD3CF07EB5705E0B52094AD7E4",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-17\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 17,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_094112",
+      "checkpointId": "cebee246-9878-4111-b0f2-1679bd91fadd",
+      "creationTime": "/Date(1790516474973)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_DC178612-9F25-4C0A-944D-F0DCD6960E15.avhdx",
+          "offline": {
+            "Index": 18,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_DC178612-9F25-4C0A-944D-F0DCD6960E15.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-18\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-18\\Nyx.DAT",
+                "SHA256": "54FF3DC10F64A3D776B5D88E6B5A4DE1B58D18B5FEE7889CE0B9F361A07C8FE8",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-18\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 18,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_094847",
+      "checkpointId": "b0df14d8-bb60-4f94-995d-eb33f7331944",
+      "creationTime": "/Date(1790516929593)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_13AEE7E8-8F94-467A-88C2-CBA9F54F69F9.avhdx",
+          "offline": {
+            "Index": 19,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_13AEE7E8-8F94-467A-88C2-CBA9F54F69F9.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-19\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-19\\Nyx.DAT",
+                "SHA256": "A1597327154D7B7F34DEC7E55118BFD7505766F463638ED7C025ABC9E9EA331E",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-19\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 19,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_095053",
+      "checkpointId": "b247647b-d162-422c-a636-c41e1fd2da10",
+      "creationTime": "/Date(1790517055923)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C7E9CF9-2F42-44D6-94E7-7E9A7A955486.avhdx",
+          "offline": {
+            "Index": 20,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C7E9CF9-2F42-44D6-94E7-7E9A7A955486.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-20\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-20\\Nyx.DAT",
+                "SHA256": "A1597327154D7B7F34DEC7E55118BFD7505766F463638ED7C025ABC9E9EA331E",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-20\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 20,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_LIVE_EVIDENCE_20260927_095356",
+      "checkpointId": "8323e691-011c-4f54-ba37-7c23a782941e",
+      "creationTime": "/Date(1790517237871)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_35DADAA8-0519-4057-9AFA-1F5340E33577.avhdx",
+          "offline": {
+            "Index": 21,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_35DADAA8-0519-4057-9AFA-1F5340E33577.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-21\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-21\\Nyx.DAT",
+                "SHA256": "A1597327154D7B7F34DEC7E55118BFD7505766F463638ED7C025ABC9E9EA331E",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-21\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 21,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA19_PRESERVED_BEFORE_QA20_20260927_102927",
+      "checkpointId": "ddbffd7a-5206-4d7e-af28-d45a77898cb7",
+      "creationTime": "/Date(1790519367725)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_72E31D40-C63E-4A2E-B6B3-B8546B7F3A06.avhdx",
+          "offline": {
+            "Index": 22,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_72E31D40-C63E-4A2E-B6B3-B8546B7F3A06.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-22\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-22\\Nyx.DAT",
+                "SHA256": "3AEEDA8C9A2392C4288C4DBE0942A7830E5260FE87AFE527192A57820D49E3D9",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-22\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 22,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA20_PRESERVED_BEFORE_QA21_20260927_105405",
+      "checkpointId": "83de8218-1e54-4682-9e96-27339e8345ef",
+      "creationTime": "/Date(1790520845547)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_213AFD61-4DE1-4E06-AFE0-CDCE4A0ECE48.avhdx",
+          "offline": {
+            "Index": 23,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_213AFD61-4DE1-4E06-AFE0-CDCE4A0ECE48.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-23\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-23\\Nyx.DAT",
+                "SHA256": "0EB6C18678147DFDDC676A10F6209C0AF15D935636A8C3A96C59BDC520A43B02",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-23\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 23,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA21_PRESERVED_BEFORE_QA22_20260927_135209",
+      "checkpointId": "6ee0e5d4-0c12-4d80-968c-ddc60c65c136",
+      "creationTime": "/Date(1790531531743)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_25A18483-2644-4047-B1B8-41E415569FEE.avhdx",
+          "offline": {
+            "Index": 24,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_25A18483-2644-4047-B1B8-41E415569FEE.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-24\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-24\\Nyx.DAT",
+                "SHA256": "AD8D8A230E5829245E20900C575162851A8019A157C9A71BD8C5A837A48C2FEC",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-24\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 24,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA22_BEFORE_CONTROLLED_F019_20260927_142505",
+      "checkpointId": "9ed4aab2-b394-46b4-a155-c69f577bfbb7",
+      "creationTime": "/Date(1790533507283)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_497BB009-80BA-4FB5-9DE9-0D4C22D49049.avhdx",
+          "offline": {
+            "Index": 25,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_497BB009-80BA-4FB5-9DE9-0D4C22D49049.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-25\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-25\\Nyx.DAT",
+                "SHA256": "E07C2C9B3236E67D96C7AA492EF18D7926C70DAFBEF0A7B83452B9F5B8D36435",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-25\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 25,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA22_PRESERVED_BEFORE_QA23_20260927_170636",
+      "checkpointId": "6aedc3ab-20fa-4d04-8ebb-fb59231f4fd3",
+      "creationTime": "/Date(1790543196608)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_440ACCA0-2C3E-4E26-BA7C-C4A2F1D470E8.avhdx",
+          "offline": {
+            "Index": 26,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_440ACCA0-2C3E-4E26-BA7C-C4A2F1D470E8.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-26\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-26\\Nyx.DAT",
+                "SHA256": "73F45050A0B1708518D1B33D46716D9D4DD82A1365A5A2ED1D386B43F7FD31C2",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-26\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 26,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA23_PRESERVED_BEFORE_QA24_20260927_192231",
+      "checkpointId": "f1ed309a-0a88-4540-9bbf-05d2c1b73441",
+      "creationTime": "/Date(1790551351737)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_4ECA8D9C-3D1E-4EFD-B1F1-CB802F77F5AC.avhdx",
+          "offline": {
+            "Index": 27,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_4ECA8D9C-3D1E-4EFD-B1F1-CB802F77F5AC.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-27\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-27\\Nyx.DAT",
+                "SHA256": "84DAF30AB47CD97120DEB642DD395EACC698CD330DCD498936F66260074BD804",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-27\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 27,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA24_PRESERVED_BEFORE_QA25_20260928_193319",
+      "checkpointId": "87b3af79-1cd0-4acc-91fe-ca5a23e3f5bd",
+      "creationTime": "/Date(1790638401660)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_CB96EB45-A45E-4253-B490-D39754A752CB.avhdx",
+          "offline": {
+            "Index": 28,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_CB96EB45-A45E-4253-B490-D39754A752CB.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-28\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-28\\Nyx.DAT",
+                "SHA256": "21816A75B4E55CDA70F1033F95583C1269B061DF374760ACCEEEF81C58270909",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-28\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 28,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA24_PRESERVED_BEFORE_QA25_20261002_213750",
+      "checkpointId": "ae5bfacb-4282-4b03-9529-4edc75cf99c2",
+      "creationTime": "/Date(1790991471363)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_66F91873-E092-45DA-8743-DF79BB769A14.avhdx",
+          "offline": {
+            "Index": 29,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_66F91873-E092-45DA-8743-DF79BB769A14.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-29\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-29\\Nyx.DAT",
+                "SHA256": "DE7548A3549FF12CC6B7EEEF231BAF6DEE35234AE0B6B326D0B3DD56BC717BA5",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-29\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 29,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "QA25_FROZEN_BEFORE_QA26_20261002_225346",
+      "checkpointId": "e3950ceb-e61d-4ce8-abdc-c3431c54143b",
+      "creationTime": "/Date(1790996027028)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_9B2EFC85-AA7B-4C52-8199-E5DDA85C5D4E.avhdx",
+          "offline": {
+            "Index": 30,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_9B2EFC85-AA7B-4C52-8199-E5DDA85C5D4E.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-30\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-30\\Nyx.DAT",
+                "SHA256": "5FB9FC72DA3BEB9824117FAA10FCEFA40093E743C23E23D41C7018A752469EF2",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-30\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 30,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx",
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "checkpointName": "Nyx - (10/11/2026 - 9:57:43 AM)",
+      "checkpointId": "b5a61454-4f13-4d35-a0e3-d1d64f36a2b6",
+      "creationTime": "/Date(1791727066407)/",
+      "disks": [
+        {
+          "path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx",
+          "offline": {
+            "Index": 31,
+            "Path": "I:\\Nyx\\Virtual Hard Disks\\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-31\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-31\\Nyx.DAT",
+                "SHA256": "1EBDB6874308ED4DD1149C054EBE604C8BEE70E44289B10A5D191E986B46B7B5",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-31\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 31,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "Nyx-QA26-Clean-20261011",
+      "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+      "state": "Running",
+      "checkpointId": null,
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean_7BD6CC99-7A0D-4C09-BAAB-81BFA4227E6C.avhdx",
+          "offline": {
+            "Index": 32,
+            "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean_7BD6CC99-7A0D-4C09-BAAB-81BFA4227E6C.avhdx",
+            "Status": "READ_ONLY_INSPECTION_ERROR",
+            "Error": "Failed to mount the virtual disk.\n\nThe system failed to mount 'G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean_7BD6CC99-7A0D-4C09-BAAB-81BFA4227E6C.avhdx'.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount 'G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean_7BD6CC99-7A0D-4C09-BAAB-81BFA4227E6C.avhdx': The process cannot access the file because it is being used by another process. (0x80070020).",
+            "DiskOffline": null,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": {
+        "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+        "vmName": "Nyx-QA26-Clean-20261011",
+        "status": "NATIVE_METADATA_COLLECTED",
+        "error": null,
+        "metadata": {
+          "PowerShellVersion": "5.1.26100.7920",
+          "PSEdition": "Desktop",
+          "WindowsVersion": "10.0.26200",
+          "WindowsBuild": "26200",
+          "User": "DESKTOP-4D83OSL\\Nyx",
+          "Sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+          "IsAdministrator": false,
+          "PolicyList": [
+            {
+              "Scope": "MachinePolicy",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "UserPolicy",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "Process",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "CurrentUser",
+              "Policy": "AllSigned"
+            },
+            {
+              "Scope": "LocalMachine",
+              "Policy": "Undefined"
+            }
+          ],
+          "EffectivePolicy": "AllSigned",
+          "NyxInstallExists": false,
+          "NyxDataExists": true,
+          "NyxUninstallRegistration": false,
+          "NyxProcesses": [],
+          "PolicyChanged": false,
+          "ProductChanged": false
+        }
+      }
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx-QA26-Clean-20261011",
+      "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+      "checkpointName": "Automatic Checkpoint - Nyx-QA26-Clean-20261011 - (10/11/2026 - 7:15:15 PM)",
+      "checkpointId": "3aaae941-acf4-4418-9461-5058db46227c",
+      "creationTime": "/Date(1791760516148)/",
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean.vhdx",
+          "offline": {
+            "Index": 33,
+            "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\clean_disposable_20261011\\QA26Clean.vhdx",
+            "Status": "WINDOWS_VOLUME_NOT_DETECTED",
+            "Error": null,
+            "DiskOffline": false,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": null
+    },
+    {
+      "kind": "VM_CURRENT",
+      "vmName": "Nyx-QA26-Disposable-20261011",
+      "vmId": "a249c204-2794-4807-90e6-28a129989059",
+      "state": "Running",
+      "checkpointId": null,
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable_401B61DA-F512-4E96-9413-5C733041F96E.avhdx",
+          "offline": {
+            "Index": 34,
+            "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable_401B61DA-F512-4E96-9413-5C733041F96E.avhdx",
+            "Status": "READ_ONLY_INSPECTION_ERROR",
+            "Error": "Failed to mount the virtual disk.\n\nThe system failed to mount 'G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable_401B61DA-F512-4E96-9413-5C733041F96E.avhdx'.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount 'G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable_401B61DA-F512-4E96-9413-5C733041F96E.avhdx': The process cannot access the file because it is being used by another process. (0x80070020).",
+            "DiskOffline": null,
+            "Users": []
+          },
+          "machine": null
+        }
+      ],
+      "native": {
+        "vmId": "a249c204-2794-4807-90e6-28a129989059",
+        "vmName": "Nyx-QA26-Disposable-20261011",
+        "status": "NATIVE_METADATA_COLLECTED",
+        "error": null,
+        "metadata": {
+          "PowerShellVersion": "5.1.26100.7920",
+          "PSEdition": "Desktop",
+          "WindowsVersion": "10.0.26200",
+          "WindowsBuild": "26200",
+          "User": "DESKTOP-4D83OSL\\Nyx",
+          "Sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+          "IsAdministrator": false,
+          "PolicyList": [
+            {
+              "Scope": "MachinePolicy",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "UserPolicy",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "Process",
+              "Policy": "Undefined"
+            },
+            {
+              "Scope": "CurrentUser",
+              "Policy": "AllSigned"
+            },
+            {
+              "Scope": "LocalMachine",
+              "Policy": "Undefined"
+            }
+          ],
+          "EffectivePolicy": "AllSigned",
+          "NyxInstallExists": true,
+          "NyxDataExists": true,
+          "NyxUninstallRegistration": true,
+          "NyxProcesses": [
+            {
+              "ProcessId": 5660,
+              "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+            }
+          ],
+          "PolicyChanged": false,
+          "ProductChanged": false
+        }
+      }
+    },
+    {
+      "kind": "CHECKPOINT",
+      "vmName": "Nyx-QA26-Disposable-20261011",
+      "vmId": "a249c204-2794-4807-90e6-28a129989059",
+      "checkpointName": "Automatic Checkpoint - Nyx-QA26-Disposable-20261011 - (10/11/2026 - 10:22:57 AM)",
+      "checkpointId": "942f767d-93ad-4c10-8ed8-46cbe565e18a",
+      "creationTime": "/Date(1791728579169)/",
+      "disks": [
+        {
+          "path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable.vhdx",
+          "offline": {
+            "Index": 35,
+            "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\disposable_20261011\\clone\\QA26-disposable.vhdx",
+            "Status": "READ_ONLY_USER_METADATA_COLLECTED",
+            "Error": null,
+            "DiskOffline": null,
+            "Users": [
+              {
+                "Name": "mark",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-35\\mark.DAT",
+                "SHA256": "BC120D0BDF200C6E10AD44F03B2C87C7CCF5509097C905FFC073E6C5C584C7BA",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "Nyx",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-35\\Nyx.DAT",
+                "SHA256": "1EBDB6874308ED4DD1149C054EBE604C8BEE70E44289B10A5D191E986B46B7B5",
+                "NyxInstallRootExists": true,
+                "NyxDataRootExists": true,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": true,
+                "ParserStatus": "READ_ONLY_PARSED"
+              },
+              {
+                "Name": "defaultuser0",
+                "Status": "COPIED_READ_ONLY",
+                "CopyPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\baseline_inventory_20261012\\user-hive-copies-35\\defaultuser0.DAT",
+                "SHA256": "EFF7413373379DD142E934DAA28FC9BE9EEA02A42CECA339E467AF8B4FBEB1F3",
+                "NyxInstallRootExists": false,
+                "NyxDataRootExists": false,
+                "UserEnableScripts": null,
+                "UserPolicy": null,
+                "CurrentUserPolicy": null,
+                "NyxUninstallRegistration": false,
+                "ParserStatus": "READ_ONLY_PARSED"
+              }
+            ]
+          },
+          "machine": {
+            "index": 35,
+            "status": "READ_ONLY_COPIED_HIVE_PARSED",
+            "windowsBuild": "26200",
+            "installationType": "Client",
+            "machineEnableScripts": null,
+            "machinePolicy": null,
+            "localMachine": null,
+            "profiles": [
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1000",
+                "profile": "C:\\Users\\defaultuser0"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1001",
+                "profile": "C:\\Users\\mark"
+              },
+              {
+                "sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+                "profile": "C:\\Users\\Nyx"
+              }
+            ]
+          }
+        }
+      ],
+      "native": null
+    }
+  ],
+  "next": "Native policy qualification of pre-existing MailArchiveDev18SecurityQA_20260902 on isolated disposable copy; preserve its source baseline. Do not declare no compatible baseline solely from absent offline policy values."
+}

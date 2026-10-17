@@ -1,0 +1,191 @@
+{
+  "StartedUtc": "2026-10-17T18:44:02.2891581Z",
+  "ExportRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844",
+  "Leaf": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+  "Destination": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-light150-cleanup6-20261017",
+  "ReadOnlyRequested": true,
+  "MetadataExcluded": true,
+  "PolicyChanged": false,
+  "TestsRepeated": 0,
+  "Chain": [
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx",
+      "Bytes": 3698327552,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_5C68DBB0-62B8-4790-89CA-94C485ED1911.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_9B2EFC85-AA7B-4C52-8199-E5DDA85C5D4E.avhdx",
+      "Bytes": 3668967424,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_9B2EFC85-AA7B-4C52-8199-E5DDA85C5D4E.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_66F91873-E092-45DA-8743-DF79BB769A14.avhdx",
+      "Bytes": 2284847104,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_66F91873-E092-45DA-8743-DF79BB769A14.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_CB96EB45-A45E-4253-B490-D39754A752CB.avhdx",
+      "Bytes": 679477248,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_CB96EB45-A45E-4253-B490-D39754A752CB.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_4ECA8D9C-3D1E-4EFD-B1F1-CB802F77F5AC.avhdx",
+      "Bytes": 2375024640,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_4ECA8D9C-3D1E-4EFD-B1F1-CB802F77F5AC.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_440ACCA0-2C3E-4E26-BA7C-C4A2F1D470E8.avhdx",
+      "Bytes": 2333081600,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_440ACCA0-2C3E-4E26-BA7C-C4A2F1D470E8.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_497BB009-80BA-4FB5-9DE9-0D4C22D49049.avhdx",
+      "Bytes": 1733296128,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_497BB009-80BA-4FB5-9DE9-0D4C22D49049.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_25A18483-2644-4047-B1B8-41E415569FEE.avhdx",
+      "Bytes": 1322254336,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_25A18483-2644-4047-B1B8-41E415569FEE.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_213AFD61-4DE1-4E06-AFE0-CDCE4A0ECE48.avhdx",
+      "Bytes": 1877999616,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_213AFD61-4DE1-4E06-AFE0-CDCE4A0ECE48.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_72E31D40-C63E-4A2E-B6B3-B8546B7F3A06.avhdx",
+      "Bytes": 1236271104,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_72E31D40-C63E-4A2E-B6B3-B8546B7F3A06.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_35DADAA8-0519-4057-9AFA-1F5340E33577.avhdx",
+      "Bytes": 1301282816,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_35DADAA8-0519-4057-9AFA-1F5340E33577.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_5C7E9CF9-2F42-44D6-94E7-7E9A7A955486.avhdx",
+      "Bytes": 824180736,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_5C7E9CF9-2F42-44D6-94E7-7E9A7A955486.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_13AEE7E8-8F94-467A-88C2-CBA9F54F69F9.avhdx",
+      "Bytes": 591396864,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_13AEE7E8-8F94-467A-88C2-CBA9F54F69F9.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_DC178612-9F25-4C0A-944D-F0DCD6960E15.avhdx",
+      "Bytes": 1217396736,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_DC178612-9F25-4C0A-944D-F0DCD6960E15.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_199B6E8B-1319-4065-8374-D7B7458B45A7.avhdx",
+      "Bytes": 1307574272,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_199B6E8B-1319-4065-8374-D7B7458B45A7.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_B7D641F9-C202-41AD-B546-827FAEC9ED9A.avhdx",
+      "Bytes": 1385168896,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_B7D641F9-C202-41AD-B546-827FAEC9ED9A.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_3770CE7D-E9E6-4980-BF68-1AB1BB49A744.avhdx",
+      "Bytes": 1710227456,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx_3770CE7D-E9E6-4980-BF68-1AB1BB49A744.avhdx",
+      "ParentPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx.vhdx",
+      "Bytes": 14473494528,
+      "VhdType": "Differencing"
+    },
+    {
+      "Path": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Hard Disks\\Nyx.vhdx",
+      "ParentPath": "",
+      "Bytes": 23727177728,
+      "VhdType": "Dynamic"
+    }
+  ],
+  "Copies": [
+    {
+      "Filter": "live_20261017_18*.jsonl",
+      "Name": "observer",
+      "Source": "J:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi",
+      "Destination": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-light150-cleanup6-20261017\\observer",
+      "MetadataExcluded": false,
+      "ExitCode": 1
+    },
+    {
+      "Filter": "*",
+      "Name": "installed",
+      "Source": "J:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+      "Destination": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-light150-cleanup6-20261017\\installed",
+      "MetadataExcluded": true,
+      "ExitCode": 1
+    },
+    {
+      "Filter": "config.json",
+      "Name": "config",
+      "Source": "J:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup",
+      "Destination": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-light150-cleanup6-20261017\\data",
+      "MetadataExcluded": false,
+      "ExitCode": 1
+    },
+    {
+      "Filter": "*.log",
+      "Name": "productlogs",
+      "Source": "J:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\logs",
+      "Destination": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-light150-cleanup6-20261017\\data\\logs",
+      "MetadataExcluded": false,
+      "ExitCode": 1
+    },
+    {
+      "Filter": "*.json",
+      "Name": "preservedscans",
+      "Source": "J:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans",
+      "Destination": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-light150-cleanup6-20261017\\data\\scans",
+      "MetadataExcluded": false,
+      "ExitCode": 1
+    }
+  ],
+  "Attached": false,
+  "Detached": true,
+  "Success": true,
+  "SourceVMBefore": {
+    "Name": "Nyx",
+    "State": 2,
+    "Status": "Operating normally"
+  },
+  "ExportStartedUtc": "2026-10-17T18:44:03.7216624Z",
+  "ExportCompletedUtc": "2026-10-17T19:16:43.8535445Z",
+  "ExportExitCode": 0,
+  "ExportConfigSHA256": "323f056d77e9f26c57814529d7efde7ae39e5bf1c2545297dd14ca3123aea512",
+  "ExportConfig": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_cleanup6_export_20261017_1844\\Nyx\\Virtual Machines\\275A191C-CF8A-4929-9849-B9A293E9149D.vmcx",
+  "ChainValid": true,
+  "DiskNumber": 5,
+  "NativeIsReadOnly": true,
+  "SourceVolume": "J:\\",
+  "VMAfter": {
+    "Name": "Nyx",
+    "State": 2,
+    "Status": "Operating normally"
+  },
+  "CompletedUtc": "2026-10-17T19:16:55.2493604Z"
+}

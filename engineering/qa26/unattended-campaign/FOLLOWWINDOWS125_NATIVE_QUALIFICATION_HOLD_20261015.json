@@ -1,0 +1,104 @@
+{
+  "schema": "QA26-NATIVE-QUALIFICATION-HOLD-1",
+  "utc": "2026-10-15T23:19:42.035Z",
+  "requestedScale": 125,
+  "measuredNativeDpi": 120,
+  "stablePid": 9504,
+  "theme": "FollowWindows",
+  "windowsAppsUseLightTheme": 1,
+  "frozenFilesMatched": 60,
+  "frozenMismatches": [],
+  "unexpectedPayloadFiles": [],
+  "intervals": [
+    {
+      "page": "Home",
+      "startUtc": "2026-10-15T23:01:02.317Z",
+      "endUtc": "2026-10-15T23:02:49.862Z",
+      "samples": 24,
+      "nativeDpi": [
+        120
+      ],
+      "pids": [
+        9504
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 1652,
+      "nearestEndMs": 763,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "Checkup",
+      "startUtc": "2026-10-15T23:03:35.561Z",
+      "endUtc": "2026-10-15T23:03:35.561Z",
+      "samples": 2,
+      "nativeDpi": [
+        120
+      ],
+      "pids": [
+        9504
+      ],
+      "maxGapMs": 5002,
+      "nearestStartMs": 1427,
+      "nearestEndMs": 1427,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "Storage",
+      "startUtc": "2026-10-15T23:04:18.885Z",
+      "endUtc": "2026-10-15T23:04:18.885Z",
+      "samples": 2,
+      "nativeDpi": [
+        120
+      ],
+      "pids": [
+        9504
+      ],
+      "maxGapMs": 5005,
+      "nearestStartMs": 314,
+      "nearestEndMs": 314,
+      "noModifiedSamples": true
+    },
+    {
+      "page": "Security",
+      "startUtc": "2026-10-15T23:04:40.956Z",
+      "endUtc": "2026-10-15T23:15:30.352Z",
+      "samples": 132,
+      "nativeDpi": [
+        120
+      ],
+      "pids": [
+        9504
+      ],
+      "maxGapMs": 5016,
+      "nearestStartMs": 1713,
+      "nearestEndMs": 214,
+      "noModifiedSamples": true
+    }
+  ],
+  "rawSource": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/dark200_20261013/followwindows125-missing-native-20261015.json",
+  "nativeEvidence": "FOLLOWWINDOWS125_MISSING_NATIVE_20261015.json",
+  "freshEvidence": [
+    "FOLLOWWINDOWS125_HOME_MISSING_PREDICATES_20261015.json",
+    "FOLLOWWINDOWS125_CHECKUP_CONTEXT_20261015.json",
+    "FOLLOWWINDOWS125_STORAGE_CONTEXT_20261015.json",
+    "FOLLOWWINDOWS125_SECURITY_MISSING_PREDICATES_20261015.json"
+  ],
+  "screenshots": 18,
+  "fullCellCredit": 0,
+  "qualificationStatus": "HOLD_UNEXPECTED_GENERATED_METADATA_TEXT_DIFFERENCE",
+  "comparison": {
+    "generatedInstallStateTextEqualsSavedReference": false,
+    "reference": "lhNative.InstallState saved Oct15 prior qualified200 collection",
+    "scope": "Generated metadata excluded from60 immutable payload files",
+    "fieldLevelInspectionPerformedAfterMismatch": false,
+    "actualByteDifferenceNotYetDiagnosed": true
+  },
+  "noProductFailureDeclared": true,
+  "independentQaFinalDecisionReserved": true,
+  "noFurtherQaAfterMismatch": true,
+  "noProductOrPolicyChange": true,
+  "ownerDirection": {
+    "utc": "2026-10-16T02:14:18.957Z",
+    "decision": "Independent QA review only; no Engineering metadata investigation."
+  }
+}

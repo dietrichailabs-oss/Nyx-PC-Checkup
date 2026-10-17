@@ -1,0 +1,45 @@
+{
+  "page": "Checkup",
+  "theme": "FollowWindows",
+  "requestedScale": 125,
+  "startUtc": "2026-10-15T23:03:35.561Z",
+  "endUtc": "2026-10-15T23:03:35.561Z",
+  "status": "EXECUTED_PRESERVED_HOLD_METADATA_REVIEW",
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_225938_8324097.jsonl",
+  "screenshots": {
+    "context": "screenshots/followwindows125_checkup_applied_context_20261015.jpg"
+  },
+  "observations": {
+    "currentPageHeadingAndPrimaryLabelsReadable": true,
+    "quickAndFullControlsContained": true,
+    "findingsPopulated": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "functionalPredicatesNotRepeated": [
+    "Enter details",
+    "keyboard exit/reverse tab",
+    "first/last row",
+    "real Quick/Full completion",
+    "cancellation"
+  ],
+  "preservedEvidence": [
+    "screenshots/followwindows125_native120dpi_verified.png",
+    "screenshots/followwindows125_checkup_enter_details.png",
+    "screenshots/followwindows125_checkup_keyboard_exit.png",
+    "screenshots/followwindows125_checkup_reverse_tab.png",
+    "screenshots/followwindows125_sidebar_scroll.png",
+    "screenshots/followwindows125_checkup_lastrow_scroll.png",
+    "screenshots/followwindows125_checkup_result_enter.png",
+    "screenshots/followwindows125_checkup_focus_recovery.png",
+    "screenshots/followwindows125_checkup_keyboard_last.png",
+    "screenshots/followwindows125_checkup_enter_details.png",
+    "screenshots/followwindows125_checkup_primary_focus.png",
+    "screenshots/followwindows125_checkup_targeted_sequence.png",
+    "screenshots/followwindows125_checkup_quick_cancel_dispatch.png",
+    "screenshots/followwindows125_checkup_quick_cancelled_ui.png",
+    "collected-native-contracts-20261004/INSTALLED_HASHES.json"
+  ],
+  "fullCellCredit": 0,
+  "nativeQualification": "FOLLOWWINDOWS125_NATIVE_QUALIFICATION_HOLD_20261015.json"
+}

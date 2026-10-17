@@ -1,0 +1,27 @@
+{
+  "schema": "QA26-FRESH-SCREENSHOT-EVIDENCE-1",
+  "predicateId": "light150_cleanup_missingnav_dotted_grid_focus_setup_20261017",
+  "captureRequestedUtc": "2026-10-17T18:38:02.284Z",
+  "captureReturnedUtc": "2026-10-17T18:38:02.440Z",
+  "sourceWindow": {
+    "app": "process:C:\\Windows\\System32\\vmconnect.exe",
+    "id": 2254570,
+    "title": "Nyx on MARK - Virtual Machine Connection"
+  },
+  "sourceScreenshotId": "screenshot-0",
+  "image": {
+    "width": 913,
+    "height": 607,
+    "mimeType": "image/jpeg",
+    "bytes": 84884,
+    "sha256": "3ade2284c4d77f3b7422ad8b586d1278895289318ba8af1e63ddba171ee3d8e1"
+  },
+  "evidence": "screenshots/light150_cleanup_missingnav_dotted_grid_focus_setup_20261017_1792262282441_60942767-23ce-464d-a9b2-6cf5d878f3a2.jpg",
+  "freshQueryPerformed": true,
+  "cachedGlobalImageUsed": false,
+  "duplicateBytesRejected": true,
+  "qualification": "UNQUALIFIED_CAPTURE_ONLY",
+  "nativeDpi": "REQUIRES_SEPARATE_CONTEMPORANEOUS_NATIVE_EVIDENCE",
+  "assertionCredit": 0,
+  "fullCellCredit": 0
+}

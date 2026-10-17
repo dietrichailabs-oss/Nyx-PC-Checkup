@@ -1,0 +1,20 @@
+{
+  "vm": "Nyx-QA26-Clean-20261011",
+  "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+  "checkpointId": "07126637-ce84-43cc-a69b-fb4ae445f9ce",
+  "rawSHA256": "e585453c44614b18cf47e93b58856063c877dffbfd57425b1cca9530542d8d08",
+  "collectorSHA256": "9aa883009768f874ef384a6be5e7b1ca01756f79d66fc540c8279a2091f603b3",
+  "status": "NO_NYX_INSTALLATION_OBSERVED_IN_ISOLATED_BASELINE",
+  "standardUser": true,
+  "collectionErrors": 0,
+  "uninstallRecords": 0,
+  "productDirectories": 0,
+  "productProcesses": 0,
+  "startupAssessment": "Both returned records are the same Microsoft OneDrive startup value; broad Nyx filter matched the user-profile path, not a Nyx product entry.",
+  "osAssessment": "Environment.OSVersion is a compatibility-version string, not verified native OS build.",
+  "policy": "Restricted",
+  "policyChanged": false,
+  "securityControlsChanged": false,
+  "independentQaAcceptance": false,
+  "testsExecuted": 0
+}

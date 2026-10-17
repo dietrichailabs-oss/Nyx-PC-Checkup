@@ -1,0 +1,37 @@
+{
+  "schema": "QA26-LIGHT125-MISSING-STORAGE-REDIRECT-1",
+  "startedUtc": "2026-10-17T00:22:20.270Z",
+  "observedUtc": "2026-10-17T00:22:56.367Z",
+  "nativeObserver": {
+    "hostObservedUtc": "2026-10-17T00:21:28.379Z",
+    "guestPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261017_002100_3968008.jsonl",
+    "status": "STARTED_VISIBLE_NATIVE_LOG_PATH_MEASUREMENTS_PENDING_COLLECTION",
+    "evidence": "screenshots/light125_fresh_observer_started_1792196488379.jpg",
+    "nativeObserved": {
+      "dpi": 120,
+      "pid": 5820,
+      "firstUtc": "2026-10-17T00:21:00.3983266Z",
+      "headEvidence": "screenshots/light125_native120_log_head_1792197036049.jpg",
+      "method": "Existing native JSONL displayed read-only in guest Notepad; not requested scaling",
+      "tailEvidence": "screenshots/light125_native120_log_tail_1792197059808.jpg",
+      "lastDisplayedUtc": "2026-10-17T00:30:16.2158277Z",
+      "fullRawCollection": "PENDING; head/tail screenshots are not a full sampled-interval audit"
+    }
+  },
+  "theme": "Light",
+  "requestedScale": 125,
+  "nativeDpi": 120,
+  "requirements": {
+    "actualOsStorageRedirect": {
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "After human normal Windows UAC/credentials, actual Settings System > Storage destination shows Local Disk C:126GB and storage categories. No setting or cleanup action changed.",
+      "evidence": "screenshots/light125_storage_actual_os_destination_1792196576366.jpg"
+    }
+  },
+  "noScanRepeated": true,
+  "noPolicyChanged": true,
+  "fullCellCredit": false,
+  "returnEvidence": "screenshots/light125_storage_redirect_return_1792196585557.jpg",
+  "returnObservation": "Nyx Storage restored Ready with original three findings and primary action highlighted; no scan or OS setting changed.",
+  "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json"
+}

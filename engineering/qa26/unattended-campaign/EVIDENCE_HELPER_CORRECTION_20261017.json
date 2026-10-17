@@ -1,0 +1,30 @@
+{
+  "schema": "QA26-EVIDENCE-HELPER-CORRECTION-1",
+  "utc": "2026-10-17T18:31:10.529Z",
+  "authorization": "User approved evidence helper fix only; do not repeat tests",
+  "helper": "harness/qa26-fresh-screenshot-evidence-20261017.mjs",
+  "defect": "QA26-EVIDENCE-LIGHT150-AUX8-STALE-CAPTURE",
+  "changes": [
+    "Capture at save time using exact window, not cached global image",
+    "Reject duplicate bytes against known evidence hashes before writing",
+    "Reject ambiguous or unexpected capture windows",
+    "Write unique immutable image and capture receipt together; no overwrite",
+    "Prevent evidence identity overrides and repeated executed predicate IDs"
+  ],
+  "validation": "NOT_RUN_USER_APPROVED_CORRECTION_ONLY",
+  "testsExecuted": 0,
+  "affectedSevenRepeated": 0,
+  "affectedSevenRemainUncredited": true,
+  "productChanged": false,
+  "frozenAcceptanceHarnessChanged": false,
+  "policyChanged": false,
+  "engineeringAssertions": {
+    "PASS": 306,
+    "FAIL": 0
+  },
+  "matrix": {
+    "complete": 83,
+    "total": 132
+  },
+  "finalDecisionOwner": "Independent QA"
+}

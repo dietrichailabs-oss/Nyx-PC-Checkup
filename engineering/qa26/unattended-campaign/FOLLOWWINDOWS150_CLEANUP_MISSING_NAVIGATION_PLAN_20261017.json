@@ -1,0 +1,46 @@
+{
+  "schema": "QA26-FOLLOWWINDOWS150-CLEANUP-MISSING-NAVIGATION-PLAN-1",
+  "utc": "2026-10-17T18:41:15.145Z",
+  "theme": "FollowWindows",
+  "scale": 150,
+  "page": "Cleanup",
+  "cases": [
+    {
+      "id": "followwindows150_cleanup_missingnav_pagedown_20261017",
+      "key": "Page_Down",
+      "predicate": "Cleanup candidate grid pagedown keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_pageup_20261017",
+      "key": "Page_Up",
+      "predicate": "Cleanup candidate grid pageup keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_down_20261017",
+      "key": "Down",
+      "predicate": "Cleanup candidate grid down keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_up_20261017",
+      "key": "Up",
+      "predicate": "Cleanup candidate grid up keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_left_20261017",
+      "key": "Left",
+      "predicate": "Cleanup candidate grid left keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_right_20261017",
+      "key": "Right",
+      "predicate": "Cleanup candidate grid right keyboard navigation retains readable focus and does not select or execute cleanup"
+    }
+  ],
+  "deduplication": "Existing FollowWindows150 Cleanup controls, CtrlEnd, zero summary/guard and full consequence autosize excluded. No existing PageUp/PageDown/arrow grid navigation IDs found.",
+  "nativeEvidence": "Requires fresh observer, measured144DPI, exact frozen identity, Light applied, no full cell credit inferred",
+  "status": "NOT_EXECUTED_CAPTURE_RECOVERY_DEFERRED",
+  "noScan": true,
+  "noDeletion": true,
+  "fullCellCredit": 0,
+  "limitation": "No FollowWindows acceptance test executed; unsaved theme selection only. Host-window occlusion contaminated setup captures; no credit."
+}

@@ -1,0 +1,35 @@
+{
+  "page": "Backup",
+  "theme": "Light",
+  "scale": 200,
+  "startUtc": "2026-10-14T23:28:01.092Z",
+  "endUtc": "2026-10-14T23:29:59.616Z",
+  "status": "EXECUTED_PENDING_NATIVE_INTERVAL",
+  "screenshots": {
+    "page": "screenshots/light200_backup_page_20261014.jpg",
+    "controls": "screenshots/light200_backup_controls_20261014.jpg",
+    "destination": "screenshots/light200_backup_destination_20261014.jpg",
+    "grid": "screenshots/light200_backup_grid_20261014.jpg",
+    "last": "screenshots/light200_backup_last_20261014.jpg",
+    "detail": "screenshots/light200_backup_detail_20261014.jpg",
+    "close": "screenshots/light200_backup_close_20261014.jpg",
+    "origin": "screenshots/light200_backup_origin_20261014.jpg",
+    "first": "screenshots/light200_backup_first_20261014.jpg",
+    "primary": "screenshots/light200_backup_primary_20261014.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "actualWindowsBackupDestination": true,
+    "firstLastKeyboardRecovery": true,
+    "essentialDetailReadable": true,
+    "keyboardCloseOriginReturn": true,
+    "primaryKeyboardReachable": true,
+    "noPreferenceChange": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "limitations": [
+    "Reduced viewport requires keyboard scrolling and full detail reading."
+  ],
+  "fullCellCredit": 0
+}

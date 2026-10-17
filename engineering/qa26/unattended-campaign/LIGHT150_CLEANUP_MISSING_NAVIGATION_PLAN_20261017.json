@@ -1,0 +1,45 @@
+{
+  "schema": "QA26-LIGHT150-CLEANUP-MISSING-NAVIGATION-PLAN-1",
+  "utc": "2026-10-17T18:34:47.390Z",
+  "theme": "Light",
+  "scale": 150,
+  "page": "Cleanup",
+  "cases": [
+    {
+      "id": "light150_cleanup_missingnav_pagedown_20261017",
+      "key": "Page_Down",
+      "predicate": "Cleanup candidate grid pagedown keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "light150_cleanup_missingnav_pageup_20261017",
+      "key": "Page_Up",
+      "predicate": "Cleanup candidate grid pageup keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "light150_cleanup_missingnav_down_20261017",
+      "key": "Down",
+      "predicate": "Cleanup candidate grid down keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "light150_cleanup_missingnav_up_20261017",
+      "key": "Up",
+      "predicate": "Cleanup candidate grid up keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "light150_cleanup_missingnav_left_20261017",
+      "key": "Left",
+      "predicate": "Cleanup candidate grid left keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "light150_cleanup_missingnav_right_20261017",
+      "key": "Right",
+      "predicate": "Cleanup candidate grid right keyboard navigation retains readable focus and does not select or execute cleanup"
+    }
+  ],
+  "deduplication": "All existing Light150 Cleanup ledger records inspected; existing selection, CtrlEnd, consequence, zero guard and safety text excluded. Seven deficient auxiliary cases excluded from repetition.",
+  "nativeEvidence": "Requires fresh observer, measured144DPI, exact frozen identity, Light applied, no full cell credit inferred",
+  "status": "PLANNED_NOT_EXECUTED",
+  "noScan": true,
+  "noDeletion": true,
+  "fullCellCredit": 0
+}

@@ -1,0 +1,30 @@
+{
+  "theme": "Dark",
+  "scale": 200,
+  "supportPolicy": "BEST_EFFORT",
+  "pages": [
+    "Home",
+    "Checkup",
+    "Storage",
+    "Startup",
+    "Security",
+    "Updates",
+    "Backup",
+    "System",
+    "Apps",
+    "Cleanup",
+    "Settings"
+  ],
+  "status": "WAITING_NORMAL_DISPLAY_TRANSITION",
+  "requirements": [
+    "Measured native192DPI",
+    "Applied Dark theme",
+    "Exact frozen installed identity",
+    "Every page and primary action reachable",
+    "Practical keyboard and scrolling recovery",
+    "Essential information ultimately readable",
+    "No crash or unhandled exception",
+    "Destructive-action safety and privacy preserved"
+  ],
+  "noScanUntilPreservationChecked": true
+}

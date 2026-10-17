@@ -1,0 +1,66 @@
+﻿{
+    "Utc":  "2026-10-11T23:44:27.4217149Z",
+    "Id":  "CLEAN_INSTALLED_LAUNCH_EXECUTION_20261011",
+    "Result":  {
+                   "ExitCode":  1,
+                   "Stdout":  {
+
+                              },
+                   "Stderr":  {
+                                  "value":  "The F-011 visible-window regression requires an interactive Windows desktop session.\r\nAt C:\\NyxQA26Signed\\source_20261011\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsInstal\r\nledLaunchRegression.ps1:38 char:41\r\n+ ... nteractive){throw \u0027The F-011 visible-window regression requires an in ...\r\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : OperationStopped: (The F-011 visib...esktop session.:String) [], Ru \r\n   ntimeException\r\n    + FullyQualifiedErrorId : The F-011 visible-window regression requires an interactive Windows \r\n    desktop session.\r\n \r\n",
+                                  "PSPath":  "C:\\NyxQA26SignedResults\\installed_launch_20261011\\stderr.txt",
+                                  "PSParentPath":  "C:\\NyxQA26SignedResults\\installed_launch_20261011",
+                                  "PSChildName":  "stderr.txt",
+                                  "PSDrive":  {
+                                                  "Used":  20926689280,
+                                                  "Free":  114390990848,
+                                                  "CurrentLocation":  "Users\\Nyx\\Documents",
+                                                  "Name":  "C",
+                                                  "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                                  "Root":  "C:\\",
+                                                  "Description":  "",
+                                                  "MaximumSize":  null,
+                                                  "Credential":  {
+                                                                     "UserName":  null,
+                                                                     "Password":  null
+                                                                 },
+                                                  "DisplayRoot":  null
+                                              },
+                                  "PSProvider":  {
+                                                     "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                                     "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                                     "Name":  "FileSystem",
+                                                     "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                                     "ModuleName":  "Microsoft.PowerShell.Core",
+                                                     "Module":  null,
+                                                     "Description":  "",
+                                                     "Capabilities":  "Filter, ShouldProcess, Credentials",
+                                                     "Home":  "C:\\Users\\Nyx",
+                                                     "Drives":  [
+                                                                    {
+                                                                        "Used":  20926689280,
+                                                                        "Free":  114390990848,
+                                                                        "CurrentLocation":  "Users\\Nyx\\Documents",
+                                                                        "Name":  "C",
+                                                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                                                        "Root":  "C:\\",
+                                                                        "Description":  "",
+                                                                        "MaximumSize":  null,
+                                                                        "Credential":  {
+                                                                                           "UserName":  null,
+                                                                                           "Password":  null
+                                                                                       },
+                                                                        "DisplayRoot":  null
+                                                                    }
+                                                                ]
+                                                 },
+                                  "ReadCount":  1
+                              },
+                   "Output":  "C:\\NyxQA26SignedResults\\installed_launch_20261011",
+                   "SignedCopyOnly":  true,
+                   "FrozenCandidateAcceptance":  false,
+                   "PSComputerName":  "Nyx-QA26-Clean-20261011",
+                   "RunspaceId":  "159595e2-94cf-4f71-937f-574522f322ef",
+                   "PSShowComputerName":  true
+               }
+}

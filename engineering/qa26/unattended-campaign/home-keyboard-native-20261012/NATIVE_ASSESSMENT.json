@@ -1,0 +1,45 @@
+{
+  "nativeSHA256": "04d572948c52d43bf7d42f9fe2b1ba1e108d0554ec3610874f5dce5d6c68a04b",
+  "remoteSHA256": "04d572948c52d43bf7d42f9fe2b1ba1e108d0554ec3610874f5dce5d6c68a04b",
+  "sampleCount": 240,
+  "nativeValues": [
+    144
+  ],
+  "pids": [
+    9972
+  ],
+  "payloadFilesCompared": 60,
+  "payloadMismatch": [],
+  "timing": [
+    {
+      "predicateUtc": "2026-10-12T22:02:52.277Z",
+      "sampleUtc": "2026-10-12T22:02:50.1119032Z",
+      "deltaMs": 2166,
+      "pid": 9972,
+      "nativeDpi": 144,
+      "qualified": true
+    },
+    {
+      "predicateUtc": "2026-10-12T22:03:29.099Z",
+      "sampleUtc": "2026-10-12T22:03:30.1681671Z",
+      "deltaMs": 1069,
+      "pid": 9972,
+      "nativeDpi": 144,
+      "qualified": true
+    },
+    {
+      "predicateUtc": "2026-10-12T22:04:12.740Z",
+      "sampleUtc": "2026-10-12T22:04:15.1854136Z",
+      "deltaMs": 2445,
+      "pid": 9972,
+      "nativeDpi": 144,
+      "qualified": true
+    }
+  ],
+  "themeEvidence": "screenshots/dark150_applied_theme_context_20261012.jpg",
+  "themeScope": "Dark selector and rendered palette observed with no preference/save/relaunch change during batch; same PID9972 at all predicate timestamps and collection. No historical theme credit inferred.",
+  "productChanged": false,
+  "policyChanged": false,
+  "scanStarted": false,
+  "fullCellCredit": 0
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dark150_home_keyboard_wrap_primary_export_reverse_20261012",
+  "status": "PASS_NATIVE_144DPI_SAME_INSTALL_COMPONENT",
+  "page": "Home",
+  "observedTheme": "Dark",
+  "requestedScale": 150,
+  "testCount": 1,
+  "productFailures": 0,
+  "fullCellCredit": 0,
+  "details": "One stateful keyboard sequence: reverse sidebar wrap exposes Settings focus; Tab moves to Check My PC with visible outline and autoscroll exposing category counts; Tab reaches Export report with visible outline; ShiftTab returns to Check My PC. Idle state and disabled Cancel preserved, no scan or export activation.",
+  "utc": [
+    "2026-10-12T22:02:52.277Z",
+    "2026-10-12T22:03:29.099Z",
+    "2026-10-12T22:04:12.740Z"
+  ],
+  "observerLaunchUtc": "2026-10-12T22:01:20.971Z",
+  "evidence": [
+    "screenshots/dark150_home_primary_focus_recovery_20261012.jpg",
+    "screenshots/dark150_home_export_focus_20261012.jpg",
+    "screenshots/dark150_home_reverse_primary_focus_20261012.jpg"
+  ],
+  "nativeContext": "240 fresh samples,144DPI,PID9972;all3 predicate times within2445ms of matching samples;60/60 frozen payload hashes match;raw guest/collected SHA256 matches. One stateful component only, not entire Home cell.",
+  "themeEvidence": "screenshots/dark150_applied_theme_context_20261012.jpg",
+  "themeObservation": "Settings selector Dark and dark rendered palette observed without changing/saving/relaunching preferences; PID continuity and native raw remain to be collected.",
+  "nativeEvidence": "home-keyboard-native-20261012/NATIVE_ASSESSMENT.json",
+  "nativeDpi": 144,
+  "pid": 9972
+}

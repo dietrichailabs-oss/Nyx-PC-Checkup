@@ -1,0 +1,47 @@
+{
+  "page": "Storage",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-13T23:44:10.812Z",
+  "endUtc": "2026-10-13T23:51:15.478Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "allThreePrimaryActionsKeyboardReachable": true,
+    "downloadsRedirectCorrect": true,
+    "resultGridFirstLastFocus": true,
+    "detailEnterActivationReadable": true,
+    "detailCloseOriginRecovery": true,
+    "measuredFolderTableReachable": true,
+    "largestFilesTableReachable": true,
+    "fixtureContainingFolderNotExecution": true,
+    "exactFixtureSelected92Bytes": true,
+    "practicalScrollRecovery": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noDeletion": true
+  },
+  "limitations": [
+    "Constrained viewport requires vertical/horizontal scrolling; wheel was unreliable in one pane, visible scrollbar provided recovery.",
+    "Column text truncation is recoverable through detail/folder route; no perfect presentation claim.",
+    "Explorer keyboard-close path not credited; observed close button returned to idle Nyx."
+  ],
+  "screenshots": [
+    "screenshots/dark200_storage_controls_20261013.jpg",
+    "screenshots/dark200_storage_downloads_20261013.jpg",
+    "screenshots/dark200_storage_detail_20261013.jpg",
+    "screenshots/dark200_storage_close_20261013.jpg",
+    "screenshots/dark200_storage_detail_return_20261013.jpg",
+    "screenshots/dark200_storage_full_focus_20261013.jpg",
+    "screenshots/dark200_storage_downloads_focus_20261013.jpg",
+    "screenshots/dark200_storage_settings_focus_20261013.jpg",
+    "screenshots/dark200_storage_folders_20261013.jpg",
+    "screenshots/dark200_storage_largest_files_20261013.jpg",
+    "screenshots/dark200_storage_last_file_20261013.jpg",
+    "screenshots/dark200_storage_file_folder_20261013.jpg",
+    "screenshots/dark200_storage_idle_return_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "nativeEvidence": "DARK200_CHECKUP_STORAGE_NATIVE_QUALIFICATION_20261013.json"
+}

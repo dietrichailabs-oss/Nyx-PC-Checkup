@@ -1,0 +1,27 @@
+{
+  "schema": "QA26-FRESH-SCREENSHOT-EVIDENCE-1",
+  "predicateId": "fresh_fixture_not_acceptance",
+  "captureRequestedUtc": "2026-10-17T18:33:23.963Z",
+  "captureReturnedUtc": "2026-10-17T18:33:23.964Z",
+  "sourceWindow": {
+    "app": "qa26-validation-fixture",
+    "id": 91,
+    "title": "Synthetic helper validation only"
+  },
+  "sourceScreenshotId": "fixture",
+  "image": {
+    "width": 913,
+    "height": 607,
+    "mimeType": "image/jpeg",
+    "bytes": 79022,
+    "sha256": "26da2cbec3ffe174d359ca223612476fdce3931cf249cf6d0b65034f740c9023"
+  },
+  "evidence": "screenshots/fresh_fixture_not_acceptance_1792262003964_38a07048-b09a-4ade-b5e1-0f98d5937ba0.jpg",
+  "freshQueryPerformed": true,
+  "cachedGlobalImageUsed": false,
+  "duplicateBytesRejected": true,
+  "qualification": "UNQUALIFIED_CAPTURE_ONLY",
+  "nativeDpi": "REQUIRES_SEPARATE_CONTEMPORANEOUS_NATIVE_EVIDENCE",
+  "assertionCredit": 0,
+  "fullCellCredit": 0
+}

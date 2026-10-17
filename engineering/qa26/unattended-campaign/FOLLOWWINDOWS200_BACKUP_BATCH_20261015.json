@@ -1,0 +1,37 @@
+{
+  "page": "Backup",
+  "theme": "FollowWindows",
+  "scale": 200,
+  "startUtc": "2026-10-15T22:18:13.910Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "screenshots": {
+    "page": "screenshots/followwindows200_backup_page_20261015.jpg",
+    "controls": "screenshots/followwindows200_backup_controls_20261015.jpg",
+    "last": "screenshots/followwindows200_backup_last_20261015.jpg",
+    "detail": "screenshots/followwindows200_backup_detail_20261015.jpg",
+    "close": "screenshots/followwindows200_backup_close_20261015.jpg",
+    "origin": "screenshots/followwindows200_backup_origin_20261015.jpg",
+    "first": "screenshots/followwindows200_backup_first_20261015.jpg",
+    "primary_focus": "screenshots/followwindows200_backup_primary_focus_20261015.jpg",
+    "destination": "screenshots/followwindows200_backup_destination_20261015.jpg",
+    "return": "screenshots/followwindows200_backup_return_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "primaryKeyboardReachable": true,
+    "firstLastKeyboardRecovery": true,
+    "exactDetailEnterReadable": true,
+    "keyboardCloseOriginReturn": true,
+    "officialWindowsBackupDestination": true,
+    "noBackupPreferenceChanges": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_220946_3985020.jsonl",
+  "fullCellCredit": 1,
+  "endUtc": "2026-10-15T22:20:17.115Z",
+  "limitations": [
+    "200% reduced viewport requires keyboard scrolling and detail reading; no strict layout claim."
+  ],
+  "nativeQualification": "FOLLOWWINDOWS200_FIVE_PAGE_QUALIFICATION_20261015.json"
+}

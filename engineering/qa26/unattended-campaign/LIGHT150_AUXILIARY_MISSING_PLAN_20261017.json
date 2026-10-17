@@ -1,0 +1,68 @@
+{
+  "schema": "QA26-LIGHT150-MISSING-AUXILIARY-PREDICATE-PLAN-1",
+  "utc": "2026-10-17T12:52:03.304Z",
+  "theme": "Light",
+  "requestedScale": 150,
+  "nativeDpi": "REQUIRES_FRESH_MEASUREMENT_NOT_INFERRED",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "cases": [
+    {
+      "id": "light150_storage_measured_folder_values_20261017",
+      "page": "Storage",
+      "predicate": "All preserved measured-folder names/counts/sizes/completeness readable; no measurement rerun"
+    },
+    {
+      "id": "light150_storage_largest_first_row_20261017",
+      "page": "Storage",
+      "predicate": "Largest-files first row reached with keyboard, required values readable"
+    },
+    {
+      "id": "light150_storage_largest_final_row_20261017",
+      "page": "Storage",
+      "predicate": "Largest-files final row reached with keyboard, exact selection and size readable"
+    },
+    {
+      "id": "light150_storage_largest_full_folder_tooltip_20261017",
+      "page": "Storage",
+      "predicate": "Complete long Folder value readable through actual native tooltip"
+    },
+    {
+      "id": "light150_storage_largest_enter_exact_folder_20261017",
+      "page": "Storage",
+      "predicate": "Enter opens actual containing folder with exact selected file; no file execution"
+    },
+    {
+      "id": "light150_storage_largest_keyboard_return_20261017",
+      "page": "Storage",
+      "predicate": "Close only test Explorer and return to originating largest-files row"
+    },
+    {
+      "id": "light150_apps_selected_filter_clears_action_20261017",
+      "page": "Apps",
+      "predicate": "Filtering an explicitly selected app clears/disables its folder action; baseline selection is setup only"
+    },
+    {
+      "id": "light150_apps_selected_filter_restore_safe_20261017",
+      "page": "Apps",
+      "predicate": "Clearing filter does not revive stale folder selection/action"
+    }
+  ],
+  "excluded": [
+    "All completed main-result-grid navigation, details and OS redirects",
+    "Completed Light150 Apps folder/first-last/filter-empty observations are not repeated for credit",
+    "New scans, startup mutation, cleanup/deletion, uninstall, update, security/privacy changes",
+    "install-state.json"
+  ],
+  "noFullCellCreditUntilCompleteChecklist": true,
+  "status": "PLANNED_MISSING_ONLY",
+  "scoreboardBefore": {
+    "PASS": 305,
+    "FAIL": 0,
+    "previousPASS": 302,
+    "newEligibleAssertions": 3,
+    "batch": "REMAINING3_NATIVE_QUALIFICATION_20261017.json",
+    "scope": "Individually executed native-qualified Engineering assertions; no new full matrix cells; Independent QA final verdict reserved"
+  }
+}

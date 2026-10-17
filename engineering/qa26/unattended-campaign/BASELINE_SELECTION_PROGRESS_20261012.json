@@ -1,0 +1,202 @@
+{
+  "status": "IN_PROGRESS_BASELINE_AUDIT_NO_COMPATIBLE_BASELINE_QUALIFIED",
+  "approvalUrl": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6134250470",
+  "inventory": "baseline_inventory_20261012/inventory.json",
+  "vmCount": 6,
+  "checkpointCount": 28,
+  "uniqueDiskTargets": 35,
+  "offlineUserProfilesParsed": 69,
+  "offlinePersistentPermittingUsersFound": 0,
+  "offlineInferenceNotNativeExecutionProof": true,
+  "currentAllSignedGuestsUnchanged": true,
+  "executionPolicyChanged": false,
+  "qaBypassAdded": false,
+  "testsRun": 0,
+  "scoreboardUnchanged": 196,
+  "nextAction": "Complete baseline audit with per-baseline access limitations retained. Owner-provided current LeanDesk guest preflight reports Restricted; no lifecycle or migration execution credited. Do not infer all inaccessible baseline policies.",
+  "nativePreflight": [
+    {
+      "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+      "vmName": "LeanDesk-090-7bd5f6f-QA",
+      "status": "AUTHENTICATED_METADATA_UNAVAILABLE",
+      "error": "The credential is invalid.",
+      "metadata": null
+    },
+    {
+      "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+      "vmName": "Nyx",
+      "status": "NATIVE_METADATA_COLLECTED",
+      "error": null,
+      "metadata": {
+        "PowerShellVersion": "5.1.26100.7920",
+        "PSEdition": "Desktop",
+        "WindowsVersion": "10.0.26200",
+        "WindowsBuild": "26200",
+        "User": "DESKTOP-4D83OSL\\Nyx",
+        "Sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+        "IsAdministrator": false,
+        "PolicyList": [
+          {
+            "Scope": "MachinePolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "UserPolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "Process",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "CurrentUser",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "LocalMachine",
+            "Policy": "Undefined"
+          }
+        ],
+        "EffectivePolicy": "Restricted",
+        "NyxInstallExists": true,
+        "NyxDataExists": true,
+        "NyxUninstallRegistration": true,
+        "NyxProcesses": [
+          {
+            "ProcessId": 9972,
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+          }
+        ],
+        "PolicyChanged": false,
+        "ProductChanged": false
+      }
+    },
+    {
+      "vmId": "616e1226-ff25-4f03-acbc-e8b54b7f0c72",
+      "vmName": "Nyx-QA26-Clean-20261011",
+      "status": "NATIVE_METADATA_COLLECTED",
+      "error": null,
+      "metadata": {
+        "PowerShellVersion": "5.1.26100.7920",
+        "PSEdition": "Desktop",
+        "WindowsVersion": "10.0.26200",
+        "WindowsBuild": "26200",
+        "User": "DESKTOP-4D83OSL\\Nyx",
+        "Sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+        "IsAdministrator": false,
+        "PolicyList": [
+          {
+            "Scope": "MachinePolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "UserPolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "Process",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "CurrentUser",
+            "Policy": "AllSigned"
+          },
+          {
+            "Scope": "LocalMachine",
+            "Policy": "Undefined"
+          }
+        ],
+        "EffectivePolicy": "AllSigned",
+        "NyxInstallExists": false,
+        "NyxDataExists": true,
+        "NyxUninstallRegistration": false,
+        "NyxProcesses": [],
+        "PolicyChanged": false,
+        "ProductChanged": false
+      }
+    },
+    {
+      "vmId": "a249c204-2794-4807-90e6-28a129989059",
+      "vmName": "Nyx-QA26-Disposable-20261011",
+      "status": "NATIVE_METADATA_COLLECTED",
+      "error": null,
+      "metadata": {
+        "PowerShellVersion": "5.1.26100.7920",
+        "PSEdition": "Desktop",
+        "WindowsVersion": "10.0.26200",
+        "WindowsBuild": "26200",
+        "User": "DESKTOP-4D83OSL\\Nyx",
+        "Sid": "S-1-5-21-1723763126-3146604107-184641064-1002",
+        "IsAdministrator": false,
+        "PolicyList": [
+          {
+            "Scope": "MachinePolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "UserPolicy",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "Process",
+            "Policy": "Undefined"
+          },
+          {
+            "Scope": "CurrentUser",
+            "Policy": "AllSigned"
+          },
+          {
+            "Scope": "LocalMachine",
+            "Policy": "Undefined"
+          }
+        ],
+        "EffectivePolicy": "AllSigned",
+        "NyxInstallExists": true,
+        "NyxDataExists": true,
+        "NyxUninstallRegistration": true,
+        "NyxProcesses": [
+          {
+            "ProcessId": 5660,
+            "CommandLine": "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+          }
+        ],
+        "PolicyChanged": false,
+        "ProductChanged": false
+      }
+    }
+  ],
+  "ownerProvidedNativePreflight": {
+    "vmName": "LeanDesk-090-7bd5f6f-QA",
+    "vmId": "38ba33fb-93e6-4abb-afd1-e1465ed5c6ab",
+    "source": "Owner-provided screenshot from requested guest preflight; console identity supplied by conversation, not visible in screenshot",
+    "PowerShellVersion": "5.1.26100.9444",
+    "PSEdition": "Desktop",
+    "User": "desktop-4d83osl\\nyx",
+    "PolicyList": [
+      {
+        "Scope": "MachinePolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "UserPolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "Process",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "CurrentUser",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "LocalMachine",
+        "Policy": "Undefined"
+      }
+    ],
+    "EffectivePolicy": "Restricted",
+    "testsRun": 0,
+    "policyChangedByQA": false,
+    "limitation": "Screenshot does not establish SID/admin state, cleanliness, candidate hashes, or VM identity independently."
+  }
+}

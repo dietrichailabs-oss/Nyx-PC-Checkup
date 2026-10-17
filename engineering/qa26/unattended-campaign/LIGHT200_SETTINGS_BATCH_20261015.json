@@ -1,0 +1,47 @@
+{
+  "page": "Settings",
+  "theme": "Light",
+  "scale": 200,
+  "startUtc": "2026-10-15T21:33:39.499Z",
+  "endUtc": "2026-10-15T21:39:21.156Z",
+  "status": "NATIVE_QUALIFIED_PARTIAL_WAITING_INDEPENDENT_LABEL_REVIEW",
+  "screenshots": {
+    "page": "screenshots/light200_settings_page_20261015.jpg",
+    "theme": "screenshots/light200_settings_theme_20261015.jpg",
+    "notification": "screenshots/light200_settings_notification_20261015.jpg",
+    "updates_preference": "screenshots/light200_settings_updates_preference_20261015.jpg",
+    "manual_update_focus": "screenshots/light200_settings_manual_update_focus_20261015.jpg",
+    "data_focus": "screenshots/light200_settings_data_focus_20261015.jpg",
+    "data_destination": "screenshots/light200_settings_data_destination_20261015.jpg",
+    "delete_focus_clipped": "screenshots/light200_settings_delete_focus_clipped_20261015.jpg",
+    "maximized_clipped": "screenshots/light200_settings_maximized_clipped_20261015.jpg",
+    "horizontal_limit_clipped": "screenshots/light200_settings_horizontal_limit_clipped_20261015.jpg",
+    "save_focus": "screenshots/light200_settings_save_focus_20261015.jpg",
+    "privacy_promise": "screenshots/light200_settings_privacy_promise_20261015.jpg",
+    "privacy_lower": "screenshots/light200_settings_privacy_lower_20261015.jpg"
+  },
+  "requirements": {
+    "pageReachable": true,
+    "themeKeyboardReachable": true,
+    "notificationKeyboardReachable": true,
+    "updatePreferenceKeyboardReachable": true,
+    "manualUpdateFocusReachable": true,
+    "localDataFolderDestination": true,
+    "deleteControlFocusReachable": true,
+    "saveKeyboardReachable": true,
+    "privacyPromiseReadable": true,
+    "lowerPrivacyTextReadable": true,
+    "noPreferenceChange": true,
+    "noDeletionActivation": true,
+    "noScanStarted": true,
+    "noObservedException": true
+  },
+  "unresolved": [
+    "Essential delete-log action label remains Delete local after focus,maximize,horizontal scrollbar right limit.",
+    "Deletion confirmation not activated; destructive action requires action-time human authorization."
+  ],
+  "observerPath": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261015_212847_9109540.jsonl",
+  "fullCellCredit": 0,
+  "independentVerdict": "RESERVED",
+  "nativeQualification": "LIGHT200_CLEANUP_SETTINGS_QUALIFICATION_20261015.json"
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "Path":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\f011_collection_20261012\\f011.json",
+        "Bytes":  39726,
+        "SHA256":  "A5539F18E62F9F3B980F37F889D1AFA2B1BDCD7A1F19C4356653AF2D3688492B"
+    },
+    {
+        "Path":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\f011_collection_20261012\\F011_INSTALLED_LAUNCH_EVIDENCE\\F011FreshInstall_setup_diagnostics.json",
+        "Bytes":  2066,
+        "SHA256":  "F916BAB1544C1D92F15C7E4C09F3A3C9E29D1CB2343E9225957FF07C7865CA62"
+    },
+    {
+        "Path":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\f011_collection_20261012\\F011_INSTALLED_LAUNCH_EVIDENCE\\F011_desktop_shortcut_visible_main_window.png",
+        "Bytes":  32291,
+        "SHA256":  "45A5010C0DC93200E4875ED5AD1A8BC168EBA6A18C2689F7E8C91601FB7DC002"
+    }
+]

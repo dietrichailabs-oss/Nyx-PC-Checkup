@@ -1,0 +1,49 @@
+{
+  "schema": "QA26-MISSING-PREDICATES-1",
+  "theme": "Light",
+  "scaleRequested": 125,
+  "page": "Home",
+  "startedUtc": "2026-10-16T11:17:54.411Z",
+  "status": "TWO_NEW_FOCUS_CASES_EXECUTED_NATIVE_AND_APPLIED_THEME_QUALIFICATION_PENDING",
+  "alreadyCompleted": "Historical Home scan/progress/categories/export-preview/cancel-return/resize evidence retained; not rerun.",
+  "requirements": {
+    "continueKeyboardReachable": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_home_missing_20261016_continue_tab_recovery_1792149506189.jpg",
+      "observation": "Tab from preview text exposes lower action row; Continue to save highlighted with keyboard traversal, no activation or save dialog."
+    },
+    "cancelKeyboardFocus": {
+      "status": "OBSERVED_PENDING_NATIVE_QUALIFICATION",
+      "evidence": "screenshots/light125_home_missing_20261016_cancel_focus_1792149513518.jpg",
+      "observation": "Next Tab reaches Cancel with visible rectangular keyboard outline; Continue remains visible. Existing cancellation return already tested historically, dismissal below is cleanup only."
+    }
+  },
+  "screenshots": [
+    {
+      "label": "preview_entry_context",
+      "path": "screenshots/light125_home_missing_20261016_preview_entry_context_1792149487940.jpg",
+      "utc": "2026-10-16T11:18:07.941Z"
+    },
+    {
+      "label": "continue_tab_recovery",
+      "path": "screenshots/light125_home_missing_20261016_continue_tab_recovery_1792149506189.jpg",
+      "utc": "2026-10-16T11:18:26.276Z"
+    },
+    {
+      "label": "cancel_focus",
+      "path": "screenshots/light125_home_missing_20261016_cancel_focus_1792149513518.jpg",
+      "utc": "2026-10-16T11:18:33.519Z"
+    },
+    {
+      "label": "safe_return_cleanup_only",
+      "path": "screenshots/light125_home_missing_20261016_safe_return_cleanup_only_1792149530924.jpg",
+      "utc": "2026-10-16T11:18:50.926Z"
+    }
+  ],
+  "nativeDpi": "PENDING_FRESH_NATIVE_EVIDENCE",
+  "metadataReview": "Independent QA; untouched",
+  "newCellCredit": 0,
+  "cleanupEvidence": "screenshots/light125_home_missing_20261016_safe_return_cleanup_only_1792149530924.jpg",
+  "completedUtc": "2026-10-16T11:18:50.926Z",
+  "appliedThemeEvidence": "LIGHT125_RESUME_TRANSITION_20261016.json#/appliedSelectorEvidence"
+}

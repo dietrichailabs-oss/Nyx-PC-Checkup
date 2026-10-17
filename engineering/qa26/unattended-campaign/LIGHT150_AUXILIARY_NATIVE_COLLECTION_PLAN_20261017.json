@@ -1,0 +1,66 @@
+{
+  "schema": "QA26-LIGHT150-AUX8-NATIVE-COLLECTION-1",
+  "utc": "2026-10-17T13:08:06.876Z",
+  "status": "COLLECTED_READ_ONLY_DETACHED_QUALIFIED_WITH_EVIDENCE_DEFECT",
+  "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+  "exportRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_lightaux8_export_20261017_1308",
+  "collectionRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-light150-aux8-20261017",
+  "result": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_lightaux8_export_20261017_1308_collection.json",
+  "cases": [
+    {
+      "id": "light150_storage_measured_folder_values_20261017",
+      "utc": "2026-10-17T12:57:54.345Z",
+      "evidence": "screenshots/light150_storage_measured_folder_values_20261017_1792241874345.jpg"
+    },
+    {
+      "id": "light150_storage_largest_first_row_20261017",
+      "utc": "2026-10-17T12:58:58.926Z",
+      "evidence": "screenshots/light150_storage_largest_first_row_20261017_1792241938926.jpg"
+    },
+    {
+      "id": "light150_storage_largest_final_row_20261017",
+      "utc": "2026-10-17T12:59:23.815Z",
+      "evidence": "screenshots/light150_storage_largest_final_row_20261017_1792241963815.jpg"
+    },
+    {
+      "id": "light150_storage_largest_full_folder_tooltip_20261017",
+      "utc": "2026-10-17T12:59:41.220Z",
+      "evidence": "screenshots/light150_storage_largest_full_folder_tooltip_20261017_1792241981220.jpg"
+    },
+    {
+      "id": "light150_storage_largest_enter_exact_folder_20261017",
+      "utc": "2026-10-17T13:00:28.127Z",
+      "evidence": "screenshots/light150_storage_largest_enter_exact_folder_20261017_1792242028127.jpg"
+    },
+    {
+      "id": "light150_storage_largest_keyboard_return_20261017",
+      "utc": "2026-10-17T13:02:23.703Z",
+      "evidence": "screenshots/light150_storage_largest_keyboard_return_20261017_1792242143703.jpg"
+    },
+    {
+      "id": "light150_apps_selected_filter_clears_action_20261017",
+      "utc": "2026-10-17T13:04:39.270Z",
+      "evidence": "screenshots/light150_apps_selected_filter_clears_action_20261017_1792242279270.jpg"
+    },
+    {
+      "id": "light150_apps_selected_filter_restore_safe_20261017",
+      "utc": "2026-10-17T13:07:10.032Z",
+      "evidence": "screenshots/light150_apps_selected_filter_restore_safe_20261017_1792242430032.jpg"
+    }
+  ],
+  "observerFilter": "live_20261017_12*.jsonl",
+  "theme": "Light",
+  "nativeDpiNotInferred": true,
+  "route": "Single native Windows PowerShell UAC session: live Export-VM; actual exported VMCX leaf binding; export-only chain/Test-VHD guard; Mount-VHD ReadOnly; allowlisted copies excluding install-state.json; Dismount-VHD finally",
+  "metadataExcluded": true,
+  "noGuestCredentials": true,
+  "policyChanged": false,
+  "productChanged": false,
+  "testsRepeated": 0,
+  "fullCellCredit": 0,
+  "assertionCreditPending": false,
+  "newEligibleAssertions": 1,
+  "evidenceIncomplete": 7,
+  "qualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+  "completedUtc": "2026-10-17T13:56:02.198Z"
+}

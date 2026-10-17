@@ -1,0 +1,19 @@
+{
+  "schema": "QA26-UNRELATED-MISSING-BATCH-1",
+  "utc": "2026-10-16T11:23:05.085Z",
+  "records": [
+    "LIGHT125_HOME_MISSING_PREDICATES_20261016.json",
+    "LIGHT125_SECURITY_MISSING_PREDICATES_20261016.json",
+    "LIGHT125_APPS_MISSING_PREDICATES_20261016.json"
+  ],
+  "newCases": 10,
+  "screenshots": 16,
+  "status": "EXECUTED_OBSERVED_NATIVE_QUALIFICATION_PENDING",
+  "newCellCredit": 0,
+  "newSuiteAssertionCredit": 0,
+  "metadataReview": "Independent QA owned; no inspection, recollection, modification or classification",
+  "observer": "Desktop launch not confirmed. Human fresh observer start requested; do not infer DPI from requested125 or reuse historical120 interval.",
+  "noNewScans": true,
+  "noFrozenChanges": true,
+  "followup": "Collect exact new interval evidence if observer exists. If absent, preserve as unqualified; do not repeat executed predicates or retroactively infer DPI."
+}

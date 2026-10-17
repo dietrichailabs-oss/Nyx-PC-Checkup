@@ -1,0 +1,41 @@
+{
+  "page": "Updates",
+  "theme": "Dark",
+  "scale": 200,
+  "tier": "BEST_EFFORT",
+  "startUtc": "2026-10-14T00:34:06.480Z",
+  "endUtc": "2026-10-14T00:35:55.989Z",
+  "status": "PASS_BEST_EFFORT_WITH_LIMITATIONS",
+  "requirements": {
+    "pageReachable": true,
+    "practicalScrolling": true,
+    "visibleKeyboardFocus": true,
+    "firstLastGridRecovery": true,
+    "exactFindingEnter": true,
+    "essentialDetailReadable": true,
+    "keyboardClose": true,
+    "originFocusRestored": true,
+    "primaryKeyboardReachableNotActivated": true,
+    "noObservedException": true,
+    "noScanStarted": true,
+    "noUpdateMutation": true
+  },
+  "limitations": [
+    "Reduced viewport and grid truncation recover through scrolling and exact finding details.",
+    "Windows Update destination not activated in this cell; no OS update action or full patch assurance credited."
+  ],
+  "screenshots": [
+    "screenshots/dark200_updates_opening_20261013.jpg",
+    "screenshots/dark200_updates_controls_20261013.jpg",
+    "screenshots/dark200_updates_grid_20261013.jpg",
+    "screenshots/dark200_updates_keyboard_20261013.jpg",
+    "screenshots/dark200_updates_last_20261013.jpg",
+    "screenshots/dark200_updates_detail_20261013.jpg",
+    "screenshots/dark200_updates_close_20261013.jpg",
+    "screenshots/dark200_updates_return_20261013.jpg",
+    "screenshots/dark200_updates_first_20261013.jpg",
+    "screenshots/dark200_updates_primary_20261013.jpg"
+  ],
+  "fullCellCredit": 1,
+  "observerPath": "live_20261014_003051_0482448.jsonl"
+}
