@@ -1,0 +1,15 @@
+{
+  "PurposeBuiltVMControlTools": [],
+  "ConnectedCodexHosts": [
+    "local guest only"
+  ],
+  "ExistingWindowsVirtualizationNamespace": "Invalid namespace, observed earlier this turn; no host access retry",
+  "KnownExecutables": {
+    "WindowsSandbox.exe": false,
+    "vmconnect.exe": false,
+    "VirtualBox.exe": false,
+    "VMware Workstation/vmware.exe": false
+  },
+  "GetVMAndNewVMCommands": [],
+  "PriorHostAccessEvidence": "Previously inventoried current-identity MARK SMB/DCOM access denied; no new authentication or network probes in this GUI continuation."
+}
