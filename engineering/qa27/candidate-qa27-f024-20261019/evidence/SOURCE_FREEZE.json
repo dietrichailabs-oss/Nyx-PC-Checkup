@@ -1,0 +1,11 @@
+{
+  "SourceCommit": "ee357ca33dbb87653924c6def90ff29a38898fdb",
+  "BaseCommit": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Branch": "eng/f024-pdf-export-empty-lines",
+  "Build": "2026.10.19-eng-qa27",
+  "Harness": "QA27-F024-PS51-27",
+  "SourceTreeSHA256": "103D15B084ED4CE02D314D89C7B2D92599122D0C2936113A1EF585355EC240D6",
+  "SourceFiles": 149,
+  "QA26BranchModified": false,
+  "ReleaseAuthorization": false
+}

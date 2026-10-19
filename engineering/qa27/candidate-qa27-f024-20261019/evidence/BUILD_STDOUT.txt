@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "setup": {
+      "path": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "bytes": 553984,
+      "sha256": "8251F288E069F9B94DC98FF6B87E2C70326EAE8888FFA41B64E90C4527165EE8"
+    },
+    "portable": {
+      "path": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist\\Nyx_PC_Checkup_1.0.0_Portable.zip",
+      "bytes": 218651,
+      "sha256": "C59D1726E43C3EDE8E0AAC6014B067207102CBB51F9E2308265E597FCA6AB610"
+    },
+    "source": {
+      "path": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist\\Nyx_PC_Checkup_1.0.0_Source.zip",
+      "bytes": 806768,
+      "sha256": "B0F7B77140E6B578738E17DE69836E100A18E0201040B53906D2A1EF10E393A5"
+    }
+  },
+  "sourceTreeSha256": "103D15B084ED4CE02D314D89C7B2D92599122D0C2936113A1EF585355EC240D6"
+}

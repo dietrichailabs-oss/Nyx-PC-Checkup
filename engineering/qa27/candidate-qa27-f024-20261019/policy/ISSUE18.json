@@ -1,0 +1,24 @@
+{
+  "url": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/18",
+  "title": "QA26-F-024 — PDF summary export fails on empty separator line",
+  "issue_number": 18,
+  "body": "## Status\n\n**Independent QA classification: genuine product failure / release blocker**\n\nFinding: **F-024 — PDF summary export fails before output is written because the frozen report exporter passes legitimate empty separator strings into a PDF writer parameter that rejects empty strings.**\n\n## Frozen QA26 identity\n\nSource:\n`0303a78a06f67252c86634cd73f1e4bda32dd3cc`\n\nBuild:\n`2026.10.02-eng-qa26`\n\nHarness:\n`QA26-F023-PS51-26`\n\nSetup SHA-256:\n`A2D3571A1C96FCD39A95E40376FE0861AAC27C58545C3842DE75EB19B2E9331C`\n\nEvidence handoff commit:\n`e20ba656882c01c9c4262838f4a76714d995bc05`\n\nEvidence archive:\n`QA26_ENGINEERING_EVIDENCE_20261019_212515_R1.zip`\n\nArchive SHA-256:\n`3D67E5D5B190CE59243346594809C38B64A8403729151447FAD7CCA6FDA97FC6`\n\n## Native failure\n\nInstalled non-elevated GUI:\n\n1. Export report.\n2. Continue to save.\n3. Select **PDF summary (*.pdf)**.\n4. Choose a fresh destination.\n5. Dispatch Save exactly once.\n\nObserved handled error:\n\n```text\nThe report could not be exported.\nCannot bind argument to parameter 'Lines' because it is an empty string.\n```\n\nExpected:\n- valid readable PDF is produced from the preserved Full scan.\n\nActual:\n- no PDF file is produced.\n\nFailure evidence:\n`engineering/qa26/unattended-campaign/vm-local-reconciled-20261018-201227/raw-continuation/functional-exports-20261018T192122Z/PDF_EXPORT_FAILURE_QUALIFICATION.json`\n\nError screenshot SHA-256:\n`1C86BEA7B76DD9BA1344CE804684F03679A450D374A5442CE38A586F3CD8FD0F`\n\nPreserved scan SHA-256:\n`9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE`\n\n## Source correlation\n\nFrozen source evidence correlates the native failure:\n\n- `app/reports/ReportExport.psm1` intentionally inserts empty separator lines in report content and passes the line array to `Write-NyxSimplePdf`.\n- `app/reports/PdfWriter.psm1` declares mandatory `string[] Lines` without accepting empty-string elements.\n- PowerShell parameter binding rejects the legitimate empty separator before PDF output is written.\n\nThis is static source correlation to the observed native failure, not a synthetic rerun.\n\n## Required correction\n\n1. Preserve legitimate blank separator lines in PDF reports.\n2. Make the PDF-writing contract safely accept legitimate empty line elements, or equivalently normalize them before binding without removing intended report spacing.\n3. Do not broadly suppress parameter-binding errors.\n4. Preserve normal non-empty report lines and existing PDF escaping/wrapping behavior.\n5. Treat null/invalid inputs deliberately rather than weakening validation indiscriminately.\n6. Add focused regression coverage for:\n   - report containing blank separator lines;\n   - report with ordinary non-empty lines;\n   - multiple consecutive blank lines;\n   - empty overall report input if that state is possible;\n   - actual PDF export from a representative preserved scan.\n7. Verify output file exists, is nonzero, begins with a valid PDF header, and the export path returns success.\n8. Preserve TXT/other export formats.\n9. Do not alter unrelated product behavior.\n\n## DPI scope\n\nPer owner policy on 2026-10-19, **no additional DPI/display-scaling matrix work is required**. Leave the test VM at its stable scale. The historical 132-cell matrix is retained as evidence only; remaining scale cells are waived, not blockers.\n\n## Successor\n\nQA26 product bytes are frozen.\n\nCreate a new immutable successor candidate (QA27) after the correction. Never overwrite QA26.\n\nRun focused F-024 regression first on exact successor bytes. If green, run only the remaining non-DPI release gates applicable after the product change.\n\nIndependent QA owns final PASS/HOLD/FAIL.",
+  "state": "open",
+  "user": {
+    "login": "dietrichailabs-oss",
+    "name": "dietrichailabs-oss",
+    "email": null,
+    "avatar_url": "https://avatars.githubusercontent.com/u/300248644?v=4",
+    "id": 300248644
+  },
+  "assignees": null,
+  "labels": null,
+  "milestone": null,
+  "state_reason": null,
+  "comments": 0,
+  "created_at": "2026-10-19T21:33:35Z",
+  "updated_at": "2026-10-19T21:33:35Z",
+  "closed_at": null,
+  "display_url": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/18",
+  "display_title": "QA26-F-024 — PDF summary export fails on empty separator line"
+}

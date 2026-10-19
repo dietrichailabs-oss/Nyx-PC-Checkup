@@ -1,0 +1,6 @@
+{
+  "ProductBlobsMatched": 146,
+  "Commit": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Method": "Pinned archive binaries exact; text normalized only where LF matches Git blob; exact Git SOURCE_TREE_IDENTITY fetched",
+  "OriginalQa26ArchiveAndEvidenceUnmodified": true
+}

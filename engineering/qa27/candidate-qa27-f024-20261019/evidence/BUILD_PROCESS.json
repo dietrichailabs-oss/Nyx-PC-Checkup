@@ -1,0 +1,14 @@
+{
+  "StartedUtc": "2026-10-19T21:49:37.280784+00:00",
+  "WorkingDirectory": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product",
+  "ValidatedBuildDirectories": [
+    "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\build\\native",
+    "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\release_staging",
+    "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist",
+    "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\evidence",
+    "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\handoff_staging"
+  ],
+  "NoRegressionDispatch": true,
+  "CompletedUtc": "2026-10-19T21:49:39.866152+00:00",
+  "ExitCode": 0
+}

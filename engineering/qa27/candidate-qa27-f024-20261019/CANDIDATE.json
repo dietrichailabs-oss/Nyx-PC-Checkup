@@ -1,0 +1,93 @@
+{
+  "build": "2026.10.19-eng-qa27",
+  "harness": "QA27-F024-PS51-27",
+  "artifacts": {
+    "setup": {
+      "path": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "bytes": 553984,
+      "sha256": "8251F288E069F9B94DC98FF6B87E2C70326EAE8888FFA41B64E90C4527165EE8"
+    },
+    "portable": {
+      "path": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist\\Nyx_PC_Checkup_1.0.0_Portable.zip",
+      "bytes": 218651,
+      "sha256": "C59D1726E43C3EDE8E0AAC6014B067207102CBB51F9E2308265E597FCA6AB610"
+    },
+    "source": {
+      "path": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist\\Nyx_PC_Checkup_1.0.0_Source.zip",
+      "bytes": 806768,
+      "sha256": "B0F7B77140E6B578738E17DE69836E100A18E0201040B53906D2A1EF10E393A5"
+    }
+  },
+  "sourceTreeSha256": "103D15B084ED4CE02D314D89C7B2D92599122D0C2936113A1EF585355EC240D6",
+  "sourceFiles": 149,
+  "payloadManifestSha256": "5DCD0BBAA3F5BE1AE853B5A3D43C72D88586AB6E1A8C346BBC11827457A52F89",
+  "nativePeInspection": [
+    {
+      "path": "Nyx PC Checkup.exe",
+      "size": 33280,
+      "sha256": "190253A8413FEBAD7163076ACA8DBEAB159F2E3B3E645FDCC95C3252292BE517",
+      "machine": "0x8664",
+      "sections": 4,
+      "timestamp": 0,
+      "optionalHeaderMagic": "0x020B",
+      "subsystem": 2,
+      "dllCharacteristics": "0x8160",
+      "dynamicBase": true,
+      "nxCompat": true,
+      "highEntropyVa": true,
+      "resourceRva": 32768,
+      "resourceSize": 27840,
+      "importRva": 8884,
+      "importSize": 60,
+      "containsAsInvokerManifest": true,
+      "containsProductName": true
+    },
+    {
+      "path": "Uninstall Nyx PC Checkup.exe",
+      "size": 35328,
+      "sha256": "A18A832251383CA88AFCEDA57D2713269F8082DD8B13D3D83FDC15C1206CD127",
+      "machine": "0x8664",
+      "sections": 4,
+      "timestamp": 0,
+      "optionalHeaderMagic": "0x020B",
+      "subsystem": 2,
+      "dllCharacteristics": "0x8160",
+      "dynamicBase": true,
+      "nxCompat": true,
+      "highEntropyVa": true,
+      "resourceRva": 36864,
+      "resourceSize": 27904,
+      "importRva": 12772,
+      "importSize": 60,
+      "containsAsInvokerManifest": true,
+      "containsProductName": true
+    },
+    {
+      "path": "Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "size": 553984,
+      "sha256": "8251F288E069F9B94DC98FF6B87E2C70326EAE8888FFA41B64E90C4527165EE8",
+      "machine": "0x8664",
+      "sections": 5,
+      "timestamp": 0,
+      "optionalHeaderMagic": "0x020B",
+      "subsystem": 2,
+      "dllCharacteristics": "0x8160",
+      "dynamicBase": true,
+      "nxCompat": true,
+      "highEntropyVa": true,
+      "resourceRva": 679936,
+      "resourceSize": 27888,
+      "importRva": 527284,
+      "importSize": 80,
+      "containsAsInvokerManifest": true,
+      "containsProductName": true
+    }
+  ],
+  "regressionSuitesExecuted": 0,
+  "focusedF024": "NOT_RUN_NATIVE_PS51_GATE_REQUIRED_FIRST",
+  "releaseAuthorization": false,
+  "sourceCommit": "ee357ca33dbb87653924c6def90ff29a38898fdb",
+  "baseSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "branch": "eng/f024-pdf-export-empty-lines",
+  "frozenUtc": "2026-10-19T21:52:09.171314+00:00"
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "File":  "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\src\\app\\reports\\PdfWriter.psm1",
+        "ParserDiagnostics":  [
+
+                              ]
+    },
+    {
+        "File":  "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\tests\\powershell\\Test-QA27PdfExportBlankLines.ps1",
+        "ParserDiagnostics":  [
+
+                              ]
+    }
+]

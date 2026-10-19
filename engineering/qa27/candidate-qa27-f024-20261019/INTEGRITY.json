@@ -1,0 +1,17 @@
+{
+  "Utc": "2026-10-19T21:52:09.171314+00:00",
+  "SourceZipRecordsMatchFrozenGitCommit": 149,
+  "SourceIdentityBlobMatchesGit": true,
+  "SourceZipCRC": true,
+  "ArtifactHashesVerified": true,
+  "OriginalQA26ArtifactsMatched": 60,
+  "PreviousQA26EvidenceManifestFilesMatched": 17,
+  "PreservedScanConfigHistoryUnchanged": true,
+  "QA26EvidenceAndBranchModified": false,
+  "OriginalVMAccessed": false,
+  "DisputedMetadataInspected": false,
+  "SecurityPoliciesChanged": false,
+  "ScaleOrDpiChanged": false,
+  "GitCanonicalVsQA26Archive": "QA26 source archive text was CRLF; unchanged source was bound to exact frozen Git LF blobs before editing. QA27 packages use the exact published Git bytes. Binary files were matched without text normalization.",
+  "Compiler": "Portable official LLVM23.1.3 build tools; no installation/registration. Native executable version/PE sizes may differ from QA26; new immutable hashes are authoritative."
+}

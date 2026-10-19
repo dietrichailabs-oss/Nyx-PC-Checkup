@@ -1,0 +1,30 @@
+{
+    "Utc":  "2026-10-19T21:53:02.7845001Z",
+    "Computer":  "DESKTOP-4D83OSL",
+    "Version":  "5.1.26100.9711",
+    "PSEdition":  "Desktop",
+    "EffectivePolicy":  "Restricted",
+    "Scopes":  [
+                   {
+                       "Scope":  "MachinePolicy",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "UserPolicy",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "Process",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "CurrentUser",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "LocalMachine",
+                       "Policy":  "Undefined"
+                   }
+               ],
+    "IsAdministrator":  false
+}
