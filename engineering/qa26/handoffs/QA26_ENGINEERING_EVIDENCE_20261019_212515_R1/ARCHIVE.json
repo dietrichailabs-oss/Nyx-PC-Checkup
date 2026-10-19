@@ -1,0 +1,15 @@
+{
+  "createdUtc": "2026-10-19T21:28:29.5329383Z",
+  "filename": "QA26_ENGINEERING_EVIDENCE_20261019_212515_R1.zip",
+  "bytes": 126613210,
+  "sha256": "3D67E5D5B190CE59243346594809C38B64A8403729151447FAD7CCA6FDA97FC6",
+  "localPath": "C:\\Nyx\\handoffs\\QA26_ENGINEERING_EVIDENCE_20261019_212515_R1.zip",
+  "stagingPath": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\QA26_ENGINEERING_EVIDENCE_20261019_212515_R1\\QA26_ENGINEERING_EVIDENCE_20261019_212515_R1.zip",
+  "copyHashVerified": true,
+  "sourceFiles": 3456,
+  "archiveEntries": 3459,
+  "releaseTag": "qa26-engineering-evidence-20261019_212515-r1",
+  "releaseUrl": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/releases/tag/qa26-engineering-evidence-20261019_212515-r1",
+  "assetUrl": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/releases/download/qa26-engineering-evidence-20261019_212515-r1/QA26_ENGINEERING_EVIDENCE_20261019_212515_R1.zip",
+  "publicationState": "PREPARED_PENDING_GIT_AND_ASSET_UPLOAD"
+}

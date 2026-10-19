@@ -1,0 +1,3 @@
+{"Utc":"2026-10-18T18:25:24.2489173Z","Event":"DISPLAY200_REQUESTED_SIGNOUT_PENDING","TestsExecuted":0,"NewCredit":0,"EngineeringPASS":327}
+{"Utc":"2026-10-18T19:18:49.1972998Z","Event":"OWNER_SKIPPED_200_PERCENT_BATCH","Status":"SKIPPED_OWNER_DISPLAY_USABILITY_CONSTRAINT","OwnerDirection":"Cannot keep200 because chat cannot be seen; skip200 and keep current resolution","TestsExecuted":0,"NewCredit":0,"EngineeringPASS":327,"EngineeringFAIL":0,"NoPASSInferred":true,"CurrentReportedResolution":"2560x1440","ResolutionWillNotBeChanged":true,"RequestedScalingRestoration":150}
+{"Utc":"2026-10-18T19:21:49.0972948Z","Event":"OWNER_SKIPPED_ALL_DPI_TESTING","NewCredit":0,"PASS":327,"FAIL":0,"NoDisplayChanges":true}

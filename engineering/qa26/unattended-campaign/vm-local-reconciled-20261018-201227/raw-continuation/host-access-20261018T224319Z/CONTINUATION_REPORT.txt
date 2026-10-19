@@ -1,0 +1,6 @@
+QA26 host access attempt
+MARK resolves to Hyper-V host addresses. SMB445 and DCOM135 are reachable. Existing SSH22 and WinRM5985/5986 did not respond to bounded connection probes.
+Host share enumeration and WMI/DCOM management denied the current Windows identity (DCOM HRESULT0x80070005). The known G$ QA handoff path/root is not accessible as exposed to this identity. No host/baseline filesystem contents inferred from that result.
+Only a guest-local Codex execution host is connected. No authenticated host-side execution route was obtained. An existing authenticated authorized executor/connection endpoint is required; its name/address was requested without asking for passwords or security-policy changes.
+No new credentials read, supplied or stored. No firewall, authentication, trust, execution-policy, VPN, product, VM state, service, bridge or scheduled-task changes. Original VM and approved baselines unaccessed.
+No test repeated or newly executed. All DPI testing remains skipped. Engineering score unchanged328PASS/1FAIL; PDF failure remains open. All60 frozen artifacts and27 prior evidence-manifest files match; live scan/config/history unchanged. QA remains incomplete.

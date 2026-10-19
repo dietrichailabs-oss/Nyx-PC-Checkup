@@ -1,0 +1,70 @@
+{
+  "Schema": "QA26-COMPUTER-USE-PERMISSION-DIAGNOSIS-1",
+  "Utc": "2026-10-18T16:35:37.2412976Z",
+  "UserRequest": "Fix Computer Use and run two missing cases while keeping frozen product and security policies unchanged",
+  "Finding": "Native launcher identity and hosted graphical-window process identity differ",
+  "SessionPermissionFile": "C:\\Users\\Nyx\\.codex\\computer-use\\sessions\\01a14fcc-ceaa-78a0-bdd3-328daf4f5a91.toml",
+  "SessionPermissionSHA256": "E6216BE415D0F2D076B3315227EBEDA7B5C17D60861DC7FA27806765AD62E69F",
+  "SessionPermissionText": "[apps]\nallowed = [\"nyx pc checkup.exe\", \"explorer.exe\"]\n",
+  "AllowedSessionApps": [
+    "nyx pc checkup.exe",
+    "explorer.exe"
+  ],
+  "NyxGraphicalHost": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "NyxGraphicalProcesses": [
+    {
+      "SessionId": 3,
+      "Pid": 3288,
+      "Title": "Nyx PC Checkup",
+      "Responding": true
+    },
+    {
+      "SessionId": 3,
+      "Pid": 14424,
+      "Title": "Nyx PC Checkup",
+      "Responding": true
+    }
+  ],
+  "Owner": "DESKTOP-4D83OSL\\Nyx",
+  "ComputerUseSameOwnerAndSessionVerified": true,
+  "Inference": "Session application filtering excludes PowerShell-hosted Nyx windows because only the native launcher is authorized",
+  "IndependentReadOnlyChecks": [
+    "Installed @oai/sky version0.7.8 inspected",
+    "Public JS wrapper forwards discovery without JS-side exclusions",
+    "Supported Windows API requires a returned window object",
+    "Full-desktop API documentation is Linux-only and is not an alternative Windows route",
+    "No app security-policy entry granting PowerShell was found or added",
+    "Relevant native GUI processes respond and share user/session with controller"
+  ],
+  "ScopeConflict": "Adding powershell.exe to session/persistent allowances would change app permissions; user requires security policies unchanged. Do not spoof process identity, construct window handles, use alternate raw UI automation, or bypass this filter.",
+  "ExistingPolicyModified": false,
+  "ComputerUsePermissionModified": false,
+  "ExecutionPolicyModified": false,
+  "FrozenProductModified": false,
+  "OriginalVMModified": false,
+  "VPNModified": false,
+  "ObserverRerun": false,
+  "NyxRelaunched": false,
+  "TestsExecuted": 0,
+  "AssertionsAdded": 0,
+  "MatrixCellsAdded": 0,
+  "EngineeringPASS": 318,
+  "EngineeringFAIL": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "PendingCases": [
+    "dark150_cleanup_missingnav_left_20261018",
+    "dark150_cleanup_missingnav_right_20261018"
+  ],
+  "RemainingRequiredPrerequisites": [
+    "Authorized supported access to the PowerShell-hosted Nyx graphical window",
+    "Visible native144DPI and exact Dark theme",
+    "Fresh case-bound capture and existing immutable payload/session prerequisites"
+  ],
+  "HistoricalEvidenceUnchanged": true,
+  "ProductFailureClaimed": false,
+  "OfficialDocumentation": "https://learn.chatgpt.com/docs/computer-use",
+  "SkillGuidance": "C:\\Users\\Nyx\\.codex\\plugins\\cache\\openai-bundled\\computer-use\\26.1013.40934\\docs\\guidance.md",
+  "SkillRule": "Do not change Windows security settings, Windows privacy settings, or any in-app security or privacy settings. Do not act on security or privacy permission requests.",
+  "NoFurtherRoutineHumanQuestion": true
+}

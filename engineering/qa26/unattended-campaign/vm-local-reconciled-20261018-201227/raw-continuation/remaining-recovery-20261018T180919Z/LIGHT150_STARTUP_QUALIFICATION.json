@@ -1,0 +1,38 @@
+{
+  "Utc": "2026-10-18T18:18:59.847459+00:00",
+  "PredicateId": "light150_startup_missing_location_20261018",
+  "Status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+  "Theme": "Light",
+  "Scale": 150,
+  "NativeDpi": 144,
+  "Pid": 4816,
+  "SessionId": 2,
+  "Preconditions": "LIGHT150_STARTUP_PRECONDITIONS.json",
+  "BeforeReceipt": "light150_startup_missing_location_before_20261018T1818237122689Z_643c227500834f98a352ac00ba2d0947.json",
+  "AfterReceipt": "light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.json",
+  "ReturnReceipt": "light150_startup_missing_location_return_20261018T1818524006836Z_0c9a95d5e2b14aa69372899bd5bec34a.json",
+  "Screenshot": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\remaining-recovery-20261018T180919Z\\light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.png",
+  "ScreenshotSHA256": "DBF16F5462C9C9F717D2D3A6028077785E4EDC7A69F9E758ECCB7A9B58A3BA2B",
+  "Observed": "Exact existing missing-target fixture gives readable handled unavailable-location modal by one Enter; focused OK. Escape closes normally and restores location-action focus. No executable activation, startup change, scan, elevation or exception.",
+  "FrozenFilesMatched": 60,
+  "PreservedData": [
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "Unchanged": true
+    }
+  ],
+  "HelperSHA256": "E1AF11F10A1238EEC1C4603AE2FFE340B714907DD9EE13739A913EA82EA1A6A7",
+  "TestsRepeated": 0,
+  "NewAssertionCredit": 1,
+  "EngineeringPASSAfter": 326,
+  "EngineeringFAIL": 0,
+  "FullCellsAdded": 0,
+  "CampaignComplete": false,
+  "FinalDecisionOwner": "Independent QA"
+}

@@ -1,0 +1,261 @@
+{
+  "Utc": "2026-10-18T18:11:17.695186+00:00",
+  "HostStateUnmodified": true,
+  "ExistingPredicateStatusUpdates": [
+    {
+      "id": "followwindows150_cleanup_one_item_summary_20261018",
+      "utc": "2026-10-18T13:35:15.886Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "predicate": "Selecting exactly one displayed zero-byte candidate reports one item and zero bytes without executing cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Exactly the displayed BITFB98.tmp zero-byte candidate was checked; Ctrl+Tab reveals Selected: 1 item(s), 0 B and Review and clean selected. No cleanup or scan executed.",
+      "evidence": "screenshots/followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg",
+      "sha256": "07e1ee7feb0753a8206edecd82f1abd1414a4694b8155224b10ced93acfff3b6",
+      "captureReceipt": "screenshots/followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noCleanup": true,
+      "selectedCount": 1,
+      "selectedBytes": 0,
+      "qualification": "FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "visualReview": "One selected item / 0 B summary and review action readable; candidate identity supported by the preserved checked BITFB98.tmp frame.",
+      "nativeBinding": {
+        "PredicateId": "followwindows150_cleanup_one_item_summary_20261018",
+        "Receipt": "screenshots/followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg.capture.json",
+        "Screenshot": "screenshots/followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg",
+        "SHA256": "07E1EE7FEB0753A8206EDECD82F1ABD1414A4694B8155224B10CED93ACFFF3B6",
+        "CaptureStart": "2026-10-18T13:35:15.500Z",
+        "CaptureEnd": "2026-10-18T13:35:15.886Z",
+        "NativeBefore": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:35:11.8708374Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "NativeAfter": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:35:16.8749000Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "BracketSeconds": 5.004063,
+        "HistoricalRecordCount": 1,
+        "HistoricalCredit": 0
+      },
+      "originalExecutionUtc": "2026-10-18T13:35:15.886Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "rerun": false
+    },
+    {
+      "id": "followwindows150_cleanup_confirmation_exact_20261018",
+      "utc": "2026-10-18T13:35:40.846Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "predicate": "Review opens a readable exact-item destructive confirmation without executing cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Review opens Confirm destructive cleanup action with You selected 1 item(s) totaling 0 B, Windows Recycle Bin consequence, and Yes/No controls readable. No destructive acceptance was sent.",
+      "evidence": "screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg",
+      "sha256": "023f27f33bf2b9fa7b589d3a9636ced3a013ffe299f1b962f430dffab2496a2d",
+      "captureReceipt": "screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noCleanup": true,
+      "selectedCount": 1,
+      "selectedBytes": 0,
+      "destructiveAcceptance": false,
+      "transitionFrame": "screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330531728_e5aab8dd-24d8-4057-bc74-16bfd3e4e745.jpg",
+      "qualification": "FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "visualReview": "Destructive confirmation visibly states 1 item / 0 B and Windows Recycle Bin consequence with Yes/No; no acceptance recorded.",
+      "nativeBinding": {
+        "PredicateId": "followwindows150_cleanup_confirmation_exact_20261018",
+        "Receipt": "screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg.capture.json",
+        "Screenshot": "screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg",
+        "SHA256": "023F27F33BF2B9FA7B589D3A9636CED3A013FFE299F1B962F430DFFAB2496A2D",
+        "CaptureStart": "2026-10-18T13:35:40.690Z",
+        "CaptureEnd": "2026-10-18T13:35:40.846Z",
+        "NativeBefore": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:35:36.9194980Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "NativeAfter": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:35:41.9262185Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "BracketSeconds": 5.00672,
+        "HistoricalRecordCount": 1,
+        "HistoricalCredit": 0
+      },
+      "originalExecutionUtc": "2026-10-18T13:35:40.846Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "rerun": false
+    },
+    {
+      "id": "followwindows150_cleanup_keyboard_cancel_20261018",
+      "utc": "2026-10-18T13:36:03.293Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "predicate": "Keyboard focus reaches No and cancellation preserves the candidate without cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Tab visibly focuses No; Return on No dismisses confirmation, leaves Selected: 1 item(s), 0 B, and returns to Ready with no cleanup. Candidate-preservation and zero restoration are checked separately next.",
+      "evidence": "screenshots/followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg",
+      "sha256": "cc95f5a56c0544b2beb3f8f4080a0f1173f0df856cb1411128ee6cd471857bc4",
+      "captureReceipt": "screenshots/followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noCleanup": true,
+      "selectedCount": 1,
+      "selectedBytes": 0,
+      "noFocusEvidence": "screenshots/followwindows150_cleanup_no_focus_support_20261018_1792330552487_0530ff40-efc7-4072-a2b3-8b46eb75ad1a.jpg",
+      "noFocusSHA256": "3dfaaaf9a46e4259cca2ae643b0b5e79c872ce70c32ade7d44ae93d246823da5",
+      "qualification": "FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "visualReview": "Supporting fresh frame shows dotted focus on No; subsequent primary frame has no modal, retains 1 item / 0 B and Ready.",
+      "nativeBinding": {
+        "PredicateId": "followwindows150_cleanup_keyboard_cancel_20261018",
+        "Receipt": "screenshots/followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg.capture.json",
+        "Screenshot": "screenshots/followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg",
+        "SHA256": "CC95F5A56C0544B2BEB3F8F4080A0F1173F0DF856CB1411128EE6CD471857BC4",
+        "CaptureStart": "2026-10-18T13:36:03.164Z",
+        "CaptureEnd": "2026-10-18T13:36:03.293Z",
+        "NativeBefore": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:36:01.9877402Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "NativeAfter": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:36:06.9948038Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "BracketSeconds": 5.007063,
+        "HistoricalRecordCount": 1,
+        "HistoricalCredit": 0
+      },
+      "originalExecutionUtc": "2026-10-18T13:36:03.293Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "rerun": false
+    },
+    {
+      "id": "followwindows150_cleanup_restore_zero_20261018",
+      "utc": "2026-10-18T13:37:11.706Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "predicate": "Clearing the preserved candidate restores zero-selection state after cancellation",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "BITFB98.tmp remained displayed and checked after No cancellation. Its checkbox was cleared; Ctrl+Tab reveals Selected: 0 item(s), 0 B and Ready. No cleanup or scan executed.",
+      "evidence": "screenshots/followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg",
+      "sha256": "722edd33f825a119e17f4733dfe769391a479f165e23d14481c475ad772d36b8",
+      "captureReceipt": "screenshots/followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noScan": true,
+      "noCleanup": true,
+      "selectedCount": 0,
+      "selectedBytes": 0,
+      "preservedCandidateEvidence": "screenshots/followwindows150_cleanup_preserved_candidate_support_20261018_1792330624121_b50cbfb3-962c-40d0-a339-2eefed4e2818.jpg",
+      "preservedCandidateSHA256": "c36f975b094b281f679bf8e4852a5681fb9ccf0fe11063919bcbb7a4a32060aa",
+      "qualification": "FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "visualReview": "Supporting frame retains checked BITFB98.tmp after No. Final primary frame shows 0 items / 0 B, focused review action, Ready.",
+      "nativeBinding": {
+        "PredicateId": "followwindows150_cleanup_restore_zero_20261018",
+        "Receipt": "screenshots/followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg.capture.json",
+        "Screenshot": "screenshots/followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg",
+        "SHA256": "722EDD33F825A119E17F4733DFE769391A479F165E23D14481C475AD772D36B8",
+        "CaptureStart": "2026-10-18T13:37:11.428Z",
+        "CaptureEnd": "2026-10-18T13:37:11.706Z",
+        "NativeBefore": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:37:07.0384698Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "NativeAfter": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:37:12.0415966Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        },
+        "BracketSeconds": 5.003127,
+        "HistoricalRecordCount": 1,
+        "HistoricalCredit": 0
+      },
+      "originalExecutionUtc": "2026-10-18T13:37:11.706Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "rerun": false
+    }
+  ],
+  "CompletedPredicateIdsAdded": [],
+  "EngineeringPASS": 324,
+  "EngineeringFAIL": 0,
+  "MatrixCellsAdded": 0,
+  "CampaignComplete": false
+}

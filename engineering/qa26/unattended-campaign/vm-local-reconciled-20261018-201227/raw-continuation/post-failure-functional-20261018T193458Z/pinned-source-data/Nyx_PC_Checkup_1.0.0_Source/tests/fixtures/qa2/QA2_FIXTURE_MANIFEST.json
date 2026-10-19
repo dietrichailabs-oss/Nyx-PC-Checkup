@@ -1,0 +1,31 @@
+{
+  "schema": "dietrich-ai-labs.nyx-pc-checkup.qa2-runtime-fixture.v1",
+  "product": "Nyx PC Checkup",
+  "version": "1.0.0",
+  "build": "2026.08.23-eng-qa2",
+  "purpose": "Exact prior-version fixture for disposable-Windows QA2 to corrected-build rollback migration regression only. These bytes are not a release candidate.",
+  "engineeringHandoff": {
+    "name": "Nyx_PC_Checkup_1.0.0_Engineering_QA_Handoff(1).zip",
+    "size": 647484,
+    "sha256": "61B870429BDB22A3F7106A8720A9EE9845D9C2D8B499336E5E1EF9EFBC4D81AF"
+  },
+  "qaFailureHandoff": {
+    "name": "Nyx_PC_Checkup_1.0.0_Independent_QA_FAIL_Master_Handoff(1).zip",
+    "size": 667197,
+    "sha256": "5DE23C322DD48C69FCEC47331217962603CDE8011CDE9A90083371D3FDDFF6E5"
+  },
+  "fixtures": [
+    {
+      "path": "Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+      "size": 417280,
+      "sha256": "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5",
+      "use": "Install the exact QA2 runtime in a disposable Windows snapshot before creating the legacy current-user rollback state."
+    },
+    {
+      "path": "Nyx_PC_Checkup_1.0.0_QA2_Source.zip",
+      "size": 209483,
+      "sha256": "22FCFA7E3050CA854803DD0265109F92444E38E081483A7E2C73DFC0BC522B36",
+      "use": "Static source/schema fixture corresponding to the exact QA2 candidate."
+    }
+  ]
+}

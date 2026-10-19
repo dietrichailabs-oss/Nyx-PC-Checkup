@@ -1,0 +1,26 @@
+{
+  "Utc": "2026-10-18T22:43:19.7581960Z",
+  "Addresses": [
+    {
+      "InterfaceAlias": "Ethernet",
+      "IPAddress": "172.30.244.13",
+      "PrefixLength": 20
+    }
+  ],
+  "DefaultRoutes": [
+    {
+      "InterfaceAlias": "Ethernet",
+      "NextHop": "172.30.240.1",
+      "RouteMetric": 0
+    }
+  ],
+  "Dns": [
+    {
+      "InterfaceAlias": "Ethernet",
+      "ServerAddresses": [
+        "172.30.240.1"
+      ]
+    }
+  ],
+  "SshClient": "C:\\WINDOWS\\System32\\OpenSSH\\ssh.exe"
+}

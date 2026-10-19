@@ -1,0 +1,87 @@
+{
+  "schema": "QA26_ENGINEERING_EVIDENCE_HANDOFF_V1",
+  "createdUtc": "2026-10-19T21:28:19.1118095Z",
+  "repository": "dietrichailabs-oss/Nyx-PC-Checkup",
+  "branch": "eng/f023-result-detail-keyboard-activation",
+  "publicationParent": "a7a1a7d1f9a910a84588eabbca1caa36e3a36db5",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "setupSha256": "A2D3571A1C96FCD39A95E40376FE0861AAC27C58545C3842DE75EB19B2E9331C",
+  "payloadManifestSha256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+  "f011RawReportSha256": "A5539F18E62F9F3B980F37F889D1AFA2B1BDCD7A1F19C4356653AF2D3688492B",
+  "engineeringAssertions": {
+    "pass": 328,
+    "fail": 1,
+    "historicalSignedCopyScope": 149,
+    "independentQaFinalVerdict": "RESERVED"
+  },
+  "matrix": {
+    "ledgerComplete": 83,
+    "total": 132,
+    "strictComplete": 56,
+    "strictTotal": 99,
+    "bestEffortComplete": 27,
+    "bestEffortTotal": 33,
+    "additionalCellsFromReconciliation": 0,
+    "independentQaAcceptance": "NOT_GRANTED",
+    "futureDpiTesting": "SKIPPED_BY_OWNER_NOT_COMPLETE"
+  },
+  "reconciliation": {
+    "previousHostPass": 318,
+    "previousHostFail": 0,
+    "addedPreviouslyExecutedQualifications": 10,
+    "addedPreviouslyExecutedFailures": 1,
+    "hostResumptionTestsExecuted": 0,
+    "collectedFiles": 701,
+    "sourceCopyHashMismatches": 0,
+    "rawContinuationFiles": 610,
+    "nonstandardCaptureJsonFiles": 17
+  },
+  "ledgerPaths": [
+    "engineering/qa26/unattended-campaign/STATE.json",
+    "engineering/qa26/unattended-campaign/HUMAN_ACTION_QUEUE.json",
+    "engineering/qa26/unattended-campaign/SCOREBOARD_CURRENT.json"
+  ],
+  "reconciliationPath": "engineering/qa26/unattended-campaign/vm-local-reconciled-20261018-201227/HOST_RECONCILIATION.json",
+  "pdfFailure": {
+    "id": "installed_gui_export_pdf_missing_20261018",
+    "status": "ENGINEERING_FAIL_PENDING_INDEPENDENT_QA",
+    "error": "Cannot bind argument to parameter 'Lines' because it is an empty string.",
+    "screenshotSha256": "1C86BEA7B76DD9BA1344CE804684F03679A450D374A5442CE38A586F3CD8FD0F",
+    "rerun": false,
+    "fixed": false
+  },
+  "lifecycleMigration": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE; approved untouched compatible native PS5.1 baseline not qualified",
+  "launcherSecurity": {
+    "issue": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/16",
+    "status": "OPEN_NOT_APPROVED",
+    "functionalF011AcceptanceSeparate": true
+  },
+  "archive": {
+    "name": "QA26_ENGINEERING_EVIDENCE_20261019_212515_R1.zip",
+    "releaseUrl": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/releases/tag/qa26-engineering-evidence-20261019_212515-r1",
+    "localPath": "C:\\Nyx\\handoffs\\QA26_ENGINEERING_EVIDENCE_20261019_212515_R1.zip",
+    "includes": "All preserved campaign files including Git-ignored evidence, plus QA26 top-level policy/gate records and this handoff metadata",
+    "excludes": [
+      "Unrelated OWNER_INSTALLER_TRANSFER_20261018.json",
+      "Unrelated screenshots/owner_chatgpt_store_offline_20261018*",
+      "VM images/exports",
+      "Git internals",
+      "Recursive prior handoff ZIPs"
+    ],
+    "timestampAuthority": "FILE_INVENTORY.json records exact original CreationTimeUtc and LastWriteTimeUtc; ZIP timestamp precision is lower"
+  },
+  "decisions": [
+    "No product changes, rebuilds, re-signing, repackaging, policy changes or new tests in this publication",
+    "Original Nyx remains Saved; no VM operations performed for publication",
+    "No release approval, security approval or Independent QA PASS implied",
+    "Five historical Light125 completed-cell identity dependencies remain reserved; 83 is the Engineering ledger count",
+    "Historical signed-copy scope is not exact-frozen acceptance scope",
+    "One earlier unintended TXT behavior repeat is preserved uncredited; overwrite-decline remains unqualified and must not be retried",
+    "Recovered original Full raw has zero extra assertion/cell credit; no retrospective DPI or worker-cleanup proof",
+    "Seventeen original capture JSONs contain nonstandard Infinity geometry; original bytes retained without rewriting; invalid geometry not used for qualification",
+    "Metadata and readability review items remain reserved for Independent QA"
+  ],
+  "priorReport": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6257212284"
+}

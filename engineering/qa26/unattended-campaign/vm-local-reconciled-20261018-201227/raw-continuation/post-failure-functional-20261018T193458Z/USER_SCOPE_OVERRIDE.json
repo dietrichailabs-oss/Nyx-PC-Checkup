@@ -1,0 +1,12 @@
+{
+  "Utc": "2026-10-18T19:35:09.0930256Z",
+  "UserOverride": "Continue unrelated tests despite documented PDF failure; no first-failure stop for unrelated work",
+  "FrozenProductUnchanged": true,
+  "SecurityPoliciesUnchanged": true,
+  "DpiTests": "SKIPPED_OWNER",
+  "NoRepeats": true,
+  "BaselinePASS": 327,
+  "BaselineFAIL": 1,
+  "OriginalRuleNotEdited": true,
+  "PriorFailure": "../functional-exports-20261018T192122Z/PDF_EXPORT_FAILURE_QUALIFICATION.json"
+}

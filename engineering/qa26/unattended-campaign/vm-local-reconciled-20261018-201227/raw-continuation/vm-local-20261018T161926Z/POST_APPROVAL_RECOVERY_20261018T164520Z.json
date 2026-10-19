@@ -1,0 +1,73 @@
+{
+  "Schema": "QA26-POST-APPROVAL-CONTROLLER-RECOVERY-1",
+  "Utc": "2026-10-18T16:45:22.0121758Z",
+  "UserAuthorization": "Explicitly approved Computer Use permission for Nyx PowerShell-hosted GUI only; no terminal control; unchanged Windows security/execution policy",
+  "PermissionApplied": true,
+  "Scope": "Current chat session only",
+  "PermissionFile": "C:\\Users\\Nyx\\.codex\\computer-use\\sessions\\01a14fcc-ceaa-78a0-bdd3-328daf4f5a91.toml",
+  "PermissionText": "[apps]\nallowed = [\"nyx pc checkup.exe\", \"explorer.exe\", \"powershell.exe\"]\n",
+  "PermissionSHA256": "2F3303CCF5B9F1F739122532795D002FEFB127F1A319CB50C4D57CDA61F94CB1",
+  "NativePS51": {
+    "Version": "5.1.26100.9711",
+    "EffectivePolicy": "Restricted",
+    "Scopes": [
+      "MachinePolicy=Undefined",
+      "UserPolicy=Undefined",
+      "Process=Undefined",
+      "CurrentUser=Undefined",
+      "LocalMachine=Undefined"
+    ]
+  },
+  "OriginalNyxMainWindowRestored": true,
+  "Restoration": "Windows shell taskbar previews and grounded Alt+Shift+Tab on returned Explorer window; existing Nyx Home main GUI visible afterward",
+  "NewNyxInstanceLaunched": false,
+  "ProductWindowInputActions": 0,
+  "TerminalInputActions": 0,
+  "ControllerRecovery": [
+    "Reset JS kernel and reimported installed @oai/sky",
+    "Verified session permission retains powershell.exe",
+    "Used returned Explorer window and current screenshots to inspect shell taskbar/task switcher",
+    "Restored existing Nyx main window via normal Windows task switch",
+    "Reset JS kernel; stopped only exact verified Computer Use companion PID15792 in session3; supported import restarted controller",
+    "Fresh list_apps/list_windows still omit native Nyx GUI"
+  ],
+  "RejectedInputErrors": [
+    "no monitor found for window",
+    "point70,565 over ChatGPT.exe rather than Explorer: input rejected; no Codex control"
+  ],
+  "CurrentReturnedWindows": [
+    {
+      "App": "OpenAI.Codex_2p2nqsd0c76g0!App",
+      "Title": "ChatGPT",
+      "Id": 131896
+    },
+    {
+      "App": "process:C:\\Windows\\explorer.exe",
+      "Title": "Nyx-QA26-Codex-20261018_121140 - File Explorer",
+      "Id": 394018
+    }
+  ],
+  "Status": "BLOCKED_CONTROLLER_WINDOW_DISCOVERY_AFTER_APPROVAL",
+  "CorrectionToEarlierDiagnosis": "Session permission mismatch existed and was explicitly resolved. It was insufficient to restore window discovery. Exact remaining native-controller cause is unconfirmed; do not claim permission is still missing.",
+  "RequiredCapability": "Supported Computer Use returns exact verified Nyx GUI window for targeting and fresh capture",
+  "CasePrerequisites": "Still require visible measured144DPI, observed Dark theme, matching frozen payload, native non-elevated session and fresh case-bound evidence",
+  "PendingCases": [
+    "dark150_cleanup_missingnav_left_20261018",
+    "dark150_cleanup_missingnav_right_20261018"
+  ],
+  "TestsExecuted": 0,
+  "QualifiedAssertionsAdded": 0,
+  "MatrixCellsAdded": 0,
+  "EngineeringPASS": 318,
+  "EngineeringFAIL": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "HistoricalInputsUnchanged": true,
+  "ProductChanged": false,
+  "WindowsSecurityPolicyChanged": false,
+  "WindowsExecutionPolicyChanged": false,
+  "OriginalVMTouched": false,
+  "VPNChanged": false,
+  "NoFurtherRoutinePrompt": true,
+  "FinalDecisionOwner": "Independent QA"
+}

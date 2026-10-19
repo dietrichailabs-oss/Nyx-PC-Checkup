@@ -1,0 +1,72 @@
+{
+  "Utc": "2026-10-18T19:41:33.933905+00:00",
+  "FirstFailureStopRule": "OVERRIDDEN_BY_USER_FOR_UNRELATED_TESTS",
+  "Items": [
+    {
+      "Id": "DPI_SCALING_LAYOUT",
+      "Status": "SKIPPED_BY_OWNER",
+      "Action": "No display/theme/resolution changes or testing; no credit."
+    },
+    {
+      "Id": "EXACT_FROZEN_SOURCE_AND_QA2_FIXTURES",
+      "Status": "RECOVERED_VERIFIED_DATA_ONLY",
+      "Evidence": "PINNED_SOURCE_RECOVERY.json",
+      "Action": "Prior unavailable-files claim superseded; 145 source file and 2 fixture hashes match."
+    },
+    {
+      "Id": "NATIVE_SAVE_CANCEL",
+      "Status": "QUALIFIED_EXISTING_EXECUTION_NO_RERUN",
+      "Evidence": "CANCEL_RECOVERY_QUALIFICATION.json",
+      "Credit": 1
+    },
+    {
+      "Id": "NATIVE_TXT_JSON_EXPORT",
+      "Status": "PREVIOUSLY_EXECUTED_NO_ADDITIONAL_CREDIT",
+      "Action": "Existing reports/ledger executions retained. One unintended TXT output is quarantined as evidence, with no score credit."
+    },
+    {
+      "Id": "NATIVE_PDF_EXPORT",
+      "Status": "FAIL_PRESERVED_NO_RETEST",
+      "Evidence": "PRESERVED_PDF_FAILURE.json",
+      "Action": "Frozen product unchanged; failure remains open. Owner waives first-failure stop only for unrelated work."
+    },
+    {
+      "Id": "NATIVE_OVERWRITE_DECLINE",
+      "Status": "EXECUTED_SETUP_INVALID_NO_RETRY",
+      "Evidence": "OVERWRITE_DECLINE_UNQUALIFIED.json",
+      "Action": "Do not repeat this attempt or claim a decline/overwrite PASS."
+    },
+    {
+      "Id": "STANDARD_F010_F016_PRIVACY_SUITE_REMAINDER",
+      "Status": "BLOCKED_UNCHANGED_EXECUTION_POLICY",
+      "Action": "Exact unsigned runners now available, but Restricted native PS5.1 does not permit unchanged execution. No policy change, signing, inlining or product-launcher workaround."
+    },
+    {
+      "Id": "WINDOWS_GATE_ORCHESTRATOR",
+      "Status": "BLOCKED_ROUTE_AND_FULL_MASTER_DEPENDENCY",
+      "Action": "Pinned orchestrator constructs prohibited QA ExecutionPolicy Bypass; MASTER_MANIFEST.json is not in recovered source archive. Not executed."
+    },
+    {
+      "Id": "ELEVATED_STARTUP_ROLLBACK",
+      "Status": "BLOCKED_ISOLATED_BASELINE_AND_EXECUTION_ROUTE",
+      "Action": "Requires qualified disposable native baseline and permitted exact runner route; updated in-use clone not treated as destructive-suite baseline."
+    },
+    {
+      "Id": "INSTALLER_LIFECYCLE_QA2_MIGRATION",
+      "Status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+      "Action": "Exact fixtures recovered, but Independent QA approved untouched compatible baseline remains unavailable here. Original VM stays Saved/unaccessed."
+    },
+    {
+      "Id": "PREVIOUS_SUITE_EXECUTIONS",
+      "Status": "NO_REPEATS",
+      "Action": "Python224/lint2/nativeF023116, signed-copy Smoke122/Settings17/privilege10 and F01139 already executed. No rerun or signed-copy promotion to frozen acceptance."
+    },
+    {
+      "Id": "HISTORICAL_EVIDENCE_RESERVATIONS_AND_FINAL_DECISION",
+      "Status": "INDEPENDENT_QA_ONLY",
+      "Action": "Stale images, older context/DPI gaps, Settings200 label and disputed metadata are reserved; no retrospective credit or security/release verdict."
+    }
+  ],
+  "NoCurrentlyRunnableMissingCaseIdentifiedUnderCurrentConstraints": true,
+  "CampaignComplete": false
+}

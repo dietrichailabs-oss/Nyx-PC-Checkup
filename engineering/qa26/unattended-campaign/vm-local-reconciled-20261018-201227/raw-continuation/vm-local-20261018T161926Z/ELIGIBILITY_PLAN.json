@@ -1,0 +1,40 @@
+{
+  "Schema": "QA26-VM-LOCAL-MISSING-ONLY-PLAN-1",
+  "Utc": "2026-10-18T16:29:07.7400534Z",
+  "Status": "GATED_ENVIRONMENT_NOT_EXECUTED",
+  "HistoricalCompletedPredicateRecords": 1184,
+  "HistoricalPendingRunRecords": 10,
+  "Cases": [
+    {
+      "id": "dark150_cleanup_missingnav_left_20261018",
+      "key": "Left",
+      "predicate": "Cleanup Left navigation moves cell focus without selecting or executing cleanup"
+    },
+    {
+      "id": "dark150_cleanup_missingnav_right_20261018",
+      "key": "Right",
+      "predicate": "Cleanup Right navigation restores cell focus without selecting or executing cleanup"
+    }
+  ],
+  "PredicateSource": "DARK150_CLEANUP_REMAINING_HORIZONTAL_PLAN_20261018.json",
+  "HistoricalPlanNoTestsExecuted": true,
+  "Deduplication": "Exact planned IDs absent from completedPredicates; remaining-plan and queue record0 executed; campaign record search finds only plan/queue references; completed Dark Cleanup navigation/selection/confirmation/resize/guard predicates excluded",
+  "Prerequisites": [
+    "Returned targetable native Nyx main window",
+    "Fresh capture bound to that window",
+    "Visible native144DPI at150%",
+    "Observed applied Dark theme",
+    "Non-elevated session and frozen bytes matching",
+    "Fresh separate before/after images bound to each exact case id"
+  ],
+  "NoRepeatReservations": [
+    "All completed predicates including unqualified executions",
+    "Four FollowWindows150 Cleanup confirmation/cancel cases await original native collection; no rerun",
+    "Seven stale-image cases and historical DPI gaps; Independent QA disposition only",
+    "All pending authoritative scans; no new scan",
+    "InstallerLifecycle/QA2Migration blocked untouched legacy baseline"
+  ],
+  "TestsExecuted": 0,
+  "QualifiedAssertionsAdded": 0,
+  "MatrixCellsAdded": 0
+}

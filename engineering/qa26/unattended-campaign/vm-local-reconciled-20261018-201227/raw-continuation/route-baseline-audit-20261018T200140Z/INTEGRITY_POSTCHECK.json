@@ -1,0 +1,61 @@
+{
+  "Utc": "2026-10-18T20:06:32.110197+00:00",
+  "FrozenArtifactsMatched": 60,
+  "SourceTreeFilesMatched": 145,
+  "PriorContinuationManifestFilesMatched": 205,
+  "PreservedData": [
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\config.json",
+      "SHA256": "D13DEEA3BB15646C3656EF7AD1FF08182280EDF6128CC6B2EBC44B2ABE6305EF",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "Unchanged": true
+    }
+  ],
+  "ImportedLedgerFiles": [
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+      "SHA256": "3ABEDFB36F1277EEDD172B6C778995E3AEA356998B189380198BA04B8CEBC330",
+      "MatchesPriorCopiedInput": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+      "SHA256": "55178301571C1046FC80441D1FB35C03D6C1F72BEDEAEAF355D8B20FF98D7E5F",
+      "MatchesPriorCopiedInput": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_PLAN_20261018.json",
+      "SHA256": "6A9A20E95B6773A946DBE7D1B47400B89618859BC3AC58A89E25CDA1A2D5C0C1",
+      "MatchesPriorCopiedInput": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\HUMAN_ACTION_QUEUE.json",
+      "SHA256": "4C33F2A6318B0358A0BC99A137288268DAD9868B88A833C775DF49ADC8AF0E94",
+      "MatchesPriorCopiedInput": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\SCOREBOARD_CURRENT.json",
+      "SHA256": "423733988EF9BFF7C1DCB1C99124384A92F848D64D498B7E934DF2E37A033A52",
+      "MatchesPriorCopiedInput": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\STATE.json",
+      "SHA256": "59ED559C854FD15B43138764694BEFF595D75EEF7C8B05D43E95621E4F4D5C44",
+      "MatchesPriorCopiedInput": true
+    }
+  ],
+  "NoProductOrSecurityPolicyChange": true,
+  "OriginalVMAccessed": false,
+  "MetadataExcludedAndUninspected": true,
+  "NewTestsExecuted": 0,
+  "RepeatedTests": 0,
+  "DisplayThemeChanges": 0
+}

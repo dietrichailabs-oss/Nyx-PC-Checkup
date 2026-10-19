@@ -1,0 +1,24 @@
+{
+  "Utc": "2026-10-18T22:45:15.875963+00:00",
+  "RunNow": false,
+  "InputsNeeded": [
+    "Existing authorized authenticated execution connection to MARK or approved independent baseline",
+    "Read-only current baseline identity and policy preflight",
+    "Independent QA approval/provenance for untouched compatible pre-existing nativePS5.1 baseline"
+  ],
+  "Preserve": [
+    "OriginalVM275a191c-cf8a-4929-9849-b9a293e9149d Saved/unmodified",
+    "FrozenSource0303a78a06f67252c86634cd73f1e4bda32dd3cc build2026.10.02-eng-qa26 harnessQA26-F023-PS51-26",
+    "All Windows security, authentication, execution, trust and VPN policies",
+    "Imported ledgers and preserved scans; disputed install-state excluded"
+  ],
+  "NoRepeatInputs": [
+    "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\route-baseline-audit-20261018T200140Z\\ELIGIBILITY_AND_RESUME_REQUIREMENTS.json",
+    "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\route-baseline-audit-20261018T200140Z\\PINNED_RESUME_ARTIFACTS.json",
+    "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\STATE.json"
+  ],
+  "NoWholePhaseRerun": true,
+  "NoDpiTests": true,
+  "ExistingPdfFailureRetained": true,
+  "PermissionToChangePolicies": false
+}

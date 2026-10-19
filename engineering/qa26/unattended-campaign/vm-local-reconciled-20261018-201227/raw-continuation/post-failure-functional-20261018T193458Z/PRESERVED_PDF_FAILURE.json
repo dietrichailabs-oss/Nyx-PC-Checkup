@@ -1,0 +1,75 @@
+{
+  "Schema": "QA26-INSTALLED-PDF-EXPORT-FAILURE-1",
+  "Utc": "2026-10-18T19:28:52.068432+00:00",
+  "PredicateId": "installed_gui_export_pdf_missing_20261018",
+  "Status": "FAIL_ENGINEERING_NATIVE_QUALIFIED",
+  "Build": "2026.10.02-eng-qa26",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Harness": "QA26-F023-PS51-26",
+  "VMId": "068a8dc7-f5e1-4e0e-a941-e0a3955e5a29",
+  "Pid": 11392,
+  "SessionId": 1,
+  "MainWindow": 66444,
+  "SaveDialog": 525122,
+  "OwnedErrorDialog": 590658,
+  "NonElevated": true,
+  "Preconditions": "PRECONDITIONS.json",
+  "SelectedFormatReceipt": "installed_export_pdf_type_selected_20261018T1926339243586Z_853321a45d8e4c18bccc83f61e6bb634.json",
+  "SaveDispatchReceipt": "installed_gui_export_pdf_missing_20261018_20261018T1926490388348Z_a7cc1836bc4d466085f7f40abfbb23f8.json",
+  "ErrorReceipt": "installed_export_pdf_outcome_bound_20261018T1927120209670Z_bcddaff394f442788d20cc32f74b5a6e.json",
+  "ErrorScreenshot": "installed_export_pdf_outcome_bound_20261018T1927120209670Z_bcddaff394f442788d20cc32f74b5a6e.png",
+  "ErrorScreenshotSHA256": "1C86BEA7B76DD9BA1344CE804684F03679A450D374A5442CE38A586F3CD8FD0F",
+  "ExactError": "The report could not be exported.\r\nCannot bind argument to parameter 'Lines' because it is an empty string.",
+  "Expected": "Native Export report -> Continue to save -> PDF summary (*.pdf) -> fresh destination produces a valid readable PDF of the preserved Full scan",
+  "Actual": "Handled export error. No PDF file created.",
+  "Output": "report-native-pdf.pdf",
+  "OutputExists": false,
+  "SaveDispatchedExactlyOnce": true,
+  "ScanSHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+  "ScanCompletedUtc": "2026-10-08T23:05:25.6882604Z",
+  "FrozenSourceEvidence": [
+    {
+      "Path": "app/reports/PdfWriter.psm1",
+      "SHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "Copy": "frozen-source-evidence/app/reports/PdfWriter.psm1"
+    },
+    {
+      "Path": "app/reports/ReportExport.psm1",
+      "SHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "Copy": "frozen-source-evidence/app/reports/ReportExport.psm1"
+    },
+    {
+      "Path": "app/ui/MainWindow.psm1",
+      "SHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "Copy": "frozen-source-evidence/app/ui/MainWindow.psm1"
+    },
+    {
+      "Path": "PAYLOAD_MANIFEST.json",
+      "SHA256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+      "Copy": "frozen-source-evidence/PAYLOAD_MANIFEST.json"
+    }
+  ],
+  "RootCauseAssessment": {
+    "Classification": "STATIC_SOURCE_CORRELATION_NOT_REEXECUTED",
+    "Finding": "ReportExport.psm1 deliberately adds empty separator lines at lines57/61 and other locations; line84 passes the split report text into Write-NyxSimplePdf. PdfWriter.psm1 line30 declares mandatory string[] Lines without AllowEmptyString. This matches the observed argument-binding error before output is written.",
+    "ProductEdited": false,
+    "NoBindingReproOrTestRerun": true
+  },
+  "DpiTestingSkippedByOwner": true,
+  "DpiOrMatrixCredit": 0,
+  "NoDisplayOrThemeChangeDuringBatch": true,
+  "NewEngineeringFailureCredit": 1,
+  "EngineeringPASS": 327,
+  "EngineeringFAIL": 1,
+  "TestsRepeated": 0,
+  "NewScan": false,
+  "Cleanup": false,
+  "PolicyChanged": false,
+  "MetadataExcludedAndUninspected": true,
+  "OriginalVMAccessed": false,
+  "Integrity": "INTEGRITY_POSTCHECK.json",
+  "FurtherTestsStopped": true,
+  "StopRule": "AGENTS.md: Stop on a first genuine product failure with evidence; do not change frozen bytes.",
+  "IndependentQAFinalVerdictReserved": true,
+  "CampaignComplete": false
+}

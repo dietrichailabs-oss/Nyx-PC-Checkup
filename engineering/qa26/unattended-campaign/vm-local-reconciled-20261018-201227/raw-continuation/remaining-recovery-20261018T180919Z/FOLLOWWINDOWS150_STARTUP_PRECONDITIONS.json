@@ -1,0 +1,21 @@
+{
+  "Utc": "2026-10-18T18:21:38.387046+00:00",
+  "PredicateId": "followwindows150_startup_missing_location_20261018",
+  "Status": "PREREQUISITES_QUALIFIED",
+  "Theme": "FollowWindows",
+  "NativeDpi": 144,
+  "Pid": 8800,
+  "SessionId": 2,
+  "NonElevated": true,
+  "BeforeReceipt": "followwindows150_startup_missing_location_before_20261018T1821304141545Z_05d30f9b7a7849238745dfe961be09c1.json",
+  "AppliedThemeEvidence": "followwindows150_applied_selector_setup_20261018T1820384307031Z_0608bce051224c5888d6993bf3365bf8.json",
+  "NormalRelaunchObserved": true,
+  "Fixture": "\"C:\\Q26EvidenceHarness\\QA26_INTENTIONALLY_MISSING.exe\"",
+  "FixtureTargetExists": false,
+  "FrozenFilesMatched": 60,
+  "HelperSHA256": "6A13584AC2DB2268CB1BD4150F8E06F8F5054B6BD96503E65DC55187BB1E0BE0",
+  "HelperSourceSHA256": "042BC3B512B5210F00638DF98819F102FC521A40054E18992DF125E7CD48CEA0",
+  "NoScans": true,
+  "NoStartupMutation": true,
+  "NonThemeConfigUnchanged": true
+}

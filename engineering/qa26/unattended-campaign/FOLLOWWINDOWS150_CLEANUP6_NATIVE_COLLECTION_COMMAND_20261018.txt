@@ -1,0 +1,81 @@
+$ErrorActionPreference='Stop'
+$root='G:\Marks Apps 2\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\qa26_vm_automation\native_followcleanup6_export_20261018_1311'
+$dest='G:\Marks Apps 2\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\qa14_github_publish\repo\engineering\qa26\unattended-campaign\collected-native-followwindows150-cleanup6-20261018'
+$receipt=$root+'_collection.json'
+$r=[ordered]@{StartedUtc=[DateTime]::UtcNow.ToString('o');ExportRoot=$root;Destination=$dest;ReadOnlyRequested=$true;MetadataExcluded=$true;PolicyChanged=$false;TestsRepeated=0;Chain=@();Copies=@();Attached=$false;Detached=$false;Success=$false}
+$leaf=$null
+try {
+ Import-Module Hyper-V -ErrorAction Stop
+ if(Test-Path -LiteralPath $root){throw 'Reserved export root already exists; no duplicate export allowed'}
+ if(Test-Path -LiteralPath $dest){throw 'Reserved collection destination already exists'}
+ if((Get-PSDrive G).Free -lt 170GB){throw 'Insufficient reserved free space'}
+ $vm=Get-VM -Id '275a191c-cf8a-4929-9849-b9a293e9149d'
+ $r.SourceVMBefore=$vm | Select-Object Name,State,Status
+ if($vm.Name -ne 'Nyx' -or $vm.State.ToString() -ne 'Running' -or $vm.Status -ne 'Operating normally'){throw 'Unexpected source VM state'}
+ New-Item -ItemType Directory -Path $root | Out-Null
+ $r.ExportStartedUtc=[DateTime]::UtcNow.ToString('o')
+ Export-VM -VM $vm -Path $root -CaptureLiveState CaptureCrashConsistentState -ErrorAction Stop | Out-Null
+ $r.ExportCompletedUtc=[DateTime]::UtcNow.ToString('o')
+ $config=Join-Path $root 'Nyx\Virtual Machines\275A191C-CF8A-4929-9849-B9A293E9149D.vmcx'
+ $r.ExportConfig=$config
+ $r.ExportConfigSHA256=(Get-FileHash -LiteralPath $config -Algorithm SHA256).Hash
+ $bytes=[IO.File]::ReadAllBytes($config)
+ $texts=@([Text.Encoding]::Unicode.GetString($bytes),[Text.Encoding]::Unicode.GetString($bytes,1,$bytes.Length-1),[Text.Encoding]::UTF8.GetString($bytes))
+ $names=@($texts | ForEach-Object {[regex]::Matches($_,'Nyx_[0-9A-Fa-f-]+\.avhdx') | ForEach-Object {$_.Value}} | Sort-Object -Unique)
+ if($names.Count -ne 1){throw 'Export config does not resolve exactly one active leaf'}
+ $diskRoot=[IO.Path]::GetFullPath((Join-Path $root 'Nyx\Virtual Hard Disks'))+'\'
+ $leaf=Join-Path $diskRoot $names[0]
+ $r.Leaf=$leaf
+ $p=$leaf;$seen=@{}
+ while($p){
+  $p=[IO.Path]::GetFullPath($p)
+  if(-not $p.StartsWith($diskRoot,[StringComparison]::OrdinalIgnoreCase)){throw 'Export chain escapes reserved disk directory'}
+  if($seen.ContainsKey($p)){throw 'Export chain cycle'};$seen[$p]=$true
+  $item=Get-Item -LiteralPath $p
+  if(($item.Attributes -band [IO.FileAttributes]::ReparsePoint) -ne 0){throw 'Reparse point in exported chain'}
+  $v=Get-VHD -Path $p
+  if($v.Attached){throw 'Export chain already attached'}
+  $r.Chain+=@{Path=$p;ParentPath=$v.ParentPath;Bytes=$item.Length;VhdType=$v.VhdType.ToString()}
+  $p=$v.ParentPath
+ }
+ if(-not(Test-VHD -Path $leaf)){throw 'Export chain is invalid'}
+ $r.ChainValid=$true
+ $mounted=Mount-VHD -Path $leaf -ReadOnly -Passthru
+ $r.Attached=$true
+ $disk=$mounted | Get-Disk
+ $r.DiskNumber=$disk.Number;$r.NativeIsReadOnly=$disk.IsReadOnly
+ if(-not $disk.IsReadOnly){throw 'Native disk is not read-only'}
+ $vols=@($disk | Get-Partition | Get-Volume | Where-Object {$_.FileSystem -eq 'NTFS' -and $_.DriveLetter})
+ $roots=@($vols | ForEach-Object {$_.DriveLetter+':\'} | Where-Object {Test-Path -LiteralPath (Join-Path $_ 'Users\Nyx\AppData\Local\NyxQA26NativeDpi')})
+ if($roots.Count -ne 1){throw 'Exactly one existing guest evidence volume required; no drive-letter changes allowed'}
+ $source=$roots[0];$r.SourceVolume=$source
+ $local=Join-Path $source 'Users\Nyx\AppData\Local'
+ $jobs=@(
+  @{Name='observer';Source=(Join-Path $local 'NyxQA26NativeDpi');Destination=(Join-Path $dest 'observer');Filter='live_20261018_13*.jsonl';Recursive=$false;Exclude=$false},
+  @{Name='installed';Source=(Join-Path $local 'Programs\Dietrich AI Labs\Nyx PC Checkup');Destination=(Join-Path $dest 'installed');Filter='*';Recursive=$true;Exclude=$true},
+  @{Name='config';Source=(Join-Path $local 'Dietrich AI Labs\Nyx PC Checkup');Destination=(Join-Path $dest 'data');Filter='config.json';Recursive=$false;Exclude=$false},
+  @{Name='productlogs';Source=(Join-Path $local 'Dietrich AI Labs\Nyx PC Checkup\logs');Destination=(Join-Path $dest 'data\logs');Filter='*.log';Recursive=$true;Exclude=$false}
+ )
+ New-Item -ItemType Directory -Path $dest | Out-Null
+ foreach($j in $jobs){
+  if(-not(Test-Path -LiteralPath $j.Source)){throw ('Missing evidence source: '+$j.Name)}
+  $args=@($j.Source,$j.Destination,$j.Filter,'/COPY:DAT','/DCOPY:T','/R:0','/W:0','/XJ','/NP')
+  if($j.Recursive){$args+='/E'}
+  if($j.Exclude){$args+=@('/XF','install-state.json')}
+  & "$env:SystemRoot\System32\robocopy.exe" @args | Out-File -LiteralPath ($root+'_'+$j.Name+'_copy.log') -Encoding utf8
+  $rc=$LASTEXITCODE
+  $r.Copies+=@{Name=$j.Name;Source=$j.Source;Destination=$j.Destination;Filter=$j.Filter;MetadataExcluded=$j.Exclude;ExitCode=$rc}
+  if($rc -ge 8){throw ('Evidence copy failed: '+$j.Name+' code '+$rc)}
+ }
+ $r.Success=$true
+} catch {$r.Error=$_.Exception.Message}
+finally{
+ if($r.Attached -and $leaf){
+  try {Dismount-VHD -Path $leaf -ErrorAction Stop;$r.Attached=$false;$r.Detached=-not (Get-VHD -Path $leaf).Attached}
+  catch {$r.DetachError=$_.Exception.Message;$r.Success=$false}
+ }
+ try {$r.VMAfter=Get-VM -Id '275a191c-cf8a-4929-9849-b9a293e9149d' | Select-Object Name,State,Status} catch {$r.VMStateError=$_.Exception.Message}
+ $r.CompletedUtc=[DateTime]::UtcNow.ToString('o')
+ $r | ConvertTo-Json -Depth 14 | Set-Content -LiteralPath $receipt -Encoding UTF8
+}
+if(-not $r.Success){exit 1}

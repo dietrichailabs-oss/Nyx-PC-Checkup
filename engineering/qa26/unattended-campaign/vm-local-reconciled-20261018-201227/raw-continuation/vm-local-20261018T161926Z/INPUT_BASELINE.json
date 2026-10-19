@@ -1,0 +1,64 @@
+{
+  "RecordedUtc": "2026-10-18T16:19:27.2486509Z",
+  "Session": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\vm-local-20261018T161926Z",
+  "Inputs": [
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+      "Bytes": 766285,
+      "SHA256": "55178301571C1046FC80441D1FB35C03D6C1F72BEDEAEAF355D8B20FF98D7E5F"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_PLAN_20261018.json",
+      "Bytes": 88008,
+      "SHA256": "6A9A20E95B6773A946DBE7D1B47400B89618859BC3AC58A89E25CDA1A2D5C0C1"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+      "Bytes": 32589,
+      "SHA256": "3ABEDFB36F1277EEDD172B6C778995E3AEA356998B189380198BA04B8CEBC330"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\HUMAN_ACTION_QUEUE.json",
+      "Bytes": 31547,
+      "SHA256": "4C33F2A6318B0358A0BC99A137288268DAD9868B88A833C775DF49ADC8AF0E94"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\SCOREBOARD_CURRENT.json",
+      "Bytes": 2724,
+      "SHA256": "423733988EF9BFF7C1DCB1C99124384A92F848D64D498B7E934DF2E37A033A52"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\STATE.json",
+      "Bytes": 748578,
+      "SHA256": "59ED559C854FD15B43138764694BEFF595D75EEF7C8B05D43E95621E4F4D5C44"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\AGENTS.md",
+      "Bytes": 5065,
+      "SHA256": "E79E7C8148B5ADBF9191376AE258A87EA782A199137D5FE6FCF8E06628F82036"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\HANDOFF.md",
+      "Bytes": 4796,
+      "SHA256": "448AEE18B9D5A191E5649E9D672D625D9AD18C154153A3D898E4B72D74153C3A"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\START_IN_CODEX.txt",
+      "Bytes": 1729,
+      "SHA256": "9B0377983B445711A2B5D245C3DB226B37A097C8EC1F561226693B51AD7E2C81"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\SOURCE_FILE_INDEX.json",
+      "Bytes": 1607986,
+      "SHA256": "826BF495044ABF8E245323FA9B9BE9DC9C52568C1102C502AC5724D6186FD628"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\QA26_PRESERVED_CONTEXT.zip",
+      "Bytes": 156024442,
+      "SHA256": "8ABB3911C87C1BB5B9C6E57DBA27AC5F93BA80FF64639663E351864A091D69DD"
+    }
+  ],
+  "TestsRun": 0,
+  "ProductModified": false,
+  "PolicyChanged": false
+}

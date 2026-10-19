@@ -1,0 +1,486 @@
+{
+  "Schema": "QA26-CLONE-INSTALLED-PAYLOAD-1",
+  "Utc": "2026-10-18T16:29:06.3539261Z",
+  "Root": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+  "Build": "2026.10.02-eng-qa26",
+  "PinnedManifestSHA256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+  "PayloadFiles": 59,
+  "MatchingPayloadFiles": 59,
+  "ManifestPlusPayloadMatches": 60,
+  "Rows": [
+    {
+      "Path": "app/actions/CleanupActions.psm1",
+      "ExpectedSHA256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+      "ActualSHA256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+      "ExpectedBytes": 7811,
+      "ActualBytes": 7811,
+      "Match": true
+    },
+    {
+      "Path": "app/actions/StartupActions.psm1",
+      "ExpectedSHA256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+      "ActualSHA256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+      "ExpectedBytes": 23951,
+      "ActualBytes": 23951,
+      "Match": true
+    },
+    {
+      "Path": "app/assets/brand_banner.png",
+      "ExpectedSHA256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831",
+      "ActualSHA256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831",
+      "ExpectedBytes": 4630,
+      "ActualBytes": 4630,
+      "Match": true
+    },
+    {
+      "Path": "app/assets/nyx_pc_checkup.ico",
+      "ExpectedSHA256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5",
+      "ActualSHA256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5",
+      "ExpectedBytes": 25277,
+      "ActualBytes": 25277,
+      "Match": true
+    },
+    {
+      "Path": "app/assets/nyx_pc_checkup.png",
+      "ExpectedSHA256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0",
+      "ActualSHA256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0",
+      "ExpectedBytes": 3315,
+      "ActualBytes": 3315,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/BackupStatus.psm1",
+      "ExpectedSHA256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+      "ActualSHA256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+      "ExpectedBytes": 4417,
+      "ActualBytes": 4417,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/BatteryHealth.psm1",
+      "ExpectedSHA256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+      "ActualSHA256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+      "ExpectedBytes": 3085,
+      "ActualBytes": 3085,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/CleanupScan.psm1",
+      "ExpectedSHA256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+      "ActualSHA256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+      "ExpectedBytes": 11612,
+      "ActualBytes": 11612,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/DownloadsAnalysis.psm1",
+      "ExpectedSHA256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+      "ActualSHA256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+      "ExpectedBytes": 7999,
+      "ActualBytes": 7999,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/DriveHealth.psm1",
+      "ExpectedSHA256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+      "ActualSHA256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+      "ExpectedBytes": 3423,
+      "ActualBytes": 3423,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/InstalledApps.psm1",
+      "ExpectedSHA256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86",
+      "ActualSHA256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86",
+      "ExpectedBytes": 4311,
+      "ActualBytes": 4311,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/NetworkBasics.psm1",
+      "ExpectedSHA256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+      "ActualSHA256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+      "ExpectedBytes": 4679,
+      "ActualBytes": 4679,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/PerformanceSnapshot.psm1",
+      "ExpectedSHA256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE",
+      "ActualSHA256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE",
+      "ExpectedBytes": 3373,
+      "ActualBytes": 3373,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/SecurityStatus.psm1",
+      "ExpectedSHA256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+      "ActualSHA256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+      "ExpectedBytes": 9982,
+      "ActualBytes": 9982,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/StartupApps.psm1",
+      "ExpectedSHA256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+      "ActualSHA256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+      "ExpectedBytes": 8100,
+      "ActualBytes": 8100,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/StorageHealth.psm1",
+      "ExpectedSHA256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+      "ActualSHA256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+      "ExpectedBytes": 1299,
+      "ActualBytes": 1299,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/StorageScan.psm1",
+      "ExpectedSHA256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+      "ActualSHA256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+      "ExpectedBytes": 6929,
+      "ActualBytes": 6929,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/SystemInfo.psm1",
+      "ExpectedSHA256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+      "ActualSHA256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+      "ExpectedBytes": 2676,
+      "ActualBytes": 2676,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/Uptime.psm1",
+      "ExpectedSHA256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+      "ActualSHA256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+      "ExpectedBytes": 1146,
+      "ActualBytes": 1146,
+      "Match": true
+    },
+    {
+      "Path": "app/checks/WindowsUpdates.psm1",
+      "ExpectedSHA256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+      "ActualSHA256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+      "ExpectedBytes": 4902,
+      "ActualBytes": 4902,
+      "Match": true
+    },
+    {
+      "Path": "app/config/defaults.json",
+      "ExpectedSHA256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8",
+      "ActualSHA256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8",
+      "ExpectedBytes": 461,
+      "ActualBytes": 461,
+      "Match": true
+    },
+    {
+      "Path": "app/core/ActionHistory.psm1",
+      "ExpectedSHA256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+      "ActualSHA256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+      "ExpectedBytes": 24721,
+      "ActualBytes": 24721,
+      "Match": true
+    },
+    {
+      "Path": "app/core/CheckupEngine.psm1",
+      "ExpectedSHA256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0",
+      "ActualSHA256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0",
+      "ExpectedBytes": 7640,
+      "ActualBytes": 7640,
+      "Match": true
+    },
+    {
+      "Path": "app/core/Configuration.psm1",
+      "ExpectedSHA256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+      "ActualSHA256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+      "ExpectedBytes": 7302,
+      "ActualBytes": 7302,
+      "Match": true
+    },
+    {
+      "Path": "app/core/Diagnostics.psm1",
+      "ExpectedSHA256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+      "ActualSHA256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+      "ExpectedBytes": 1932,
+      "ActualBytes": 1932,
+      "Match": true
+    },
+    {
+      "Path": "app/core/Models.psm1",
+      "ExpectedSHA256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+      "ActualSHA256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+      "ExpectedBytes": 4355,
+      "ActualBytes": 4355,
+      "Match": true
+    },
+    {
+      "Path": "app/core/Paths.psm1",
+      "ExpectedSHA256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+      "ActualSHA256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+      "ExpectedBytes": 5304,
+      "ActualBytes": 5304,
+      "Match": true
+    },
+    {
+      "Path": "app/core/Privacy.psm1",
+      "ExpectedSHA256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+      "ActualSHA256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+      "ExpectedBytes": 6683,
+      "ActualBytes": 6683,
+      "Match": true
+    },
+    {
+      "Path": "app/core/RuntimeComposition.psm1",
+      "ExpectedSHA256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95",
+      "ActualSHA256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95",
+      "ExpectedBytes": 15055,
+      "ActualBytes": 15055,
+      "Match": true
+    },
+    {
+      "Path": "app/health_rules/HealthRules.psm1",
+      "ExpectedSHA256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+      "ActualSHA256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+      "ExpectedBytes": 4761,
+      "ActualBytes": 4761,
+      "Match": true
+    },
+    {
+      "Path": "app/health_rules/rules.json",
+      "ExpectedSHA256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3",
+      "ActualSHA256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3",
+      "ExpectedBytes": 784,
+      "ActualBytes": 784,
+      "Match": true
+    },
+    {
+      "Path": "app/NyxPCCheckup.ps1",
+      "ExpectedSHA256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "ActualSHA256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "ExpectedBytes": 6483,
+      "ActualBytes": 6483,
+      "Match": true
+    },
+    {
+      "Path": "app/platform/windows/WindowsHelpers.psm1",
+      "ExpectedSHA256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+      "ActualSHA256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+      "ExpectedBytes": 6692,
+      "ActualBytes": 6692,
+      "Match": true
+    },
+    {
+      "Path": "app/reports/PdfWriter.psm1",
+      "ExpectedSHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "ActualSHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "ExpectedBytes": 3680,
+      "ActualBytes": 3680,
+      "Match": true
+    },
+    {
+      "Path": "app/reports/ReportExport.psm1",
+      "ExpectedSHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "ActualSHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "ExpectedBytes": 6677,
+      "ActualBytes": 6677,
+      "Match": true
+    },
+    {
+      "Path": "app/ui/Controls.psm1",
+      "ExpectedSHA256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446",
+      "ActualSHA256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446",
+      "ExpectedBytes": 14909,
+      "ActualBytes": 14909,
+      "Match": true
+    },
+    {
+      "Path": "app/ui/Dialogs.psm1",
+      "ExpectedSHA256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A",
+      "ActualSHA256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A",
+      "ExpectedBytes": 5892,
+      "ActualBytes": 5892,
+      "Match": true
+    },
+    {
+      "Path": "app/ui/MainWindow.psm1",
+      "ExpectedSHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "ActualSHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "ExpectedBytes": 73259,
+      "ActualBytes": 73259,
+      "Match": true
+    },
+    {
+      "Path": "app/ui/Theme.psm1",
+      "ExpectedSHA256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+      "ActualSHA256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+      "ExpectedBytes": 2769,
+      "ActualBytes": 2769,
+      "Match": true
+    },
+    {
+      "Path": "app/updates/Manifest.psm1",
+      "ExpectedSHA256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+      "ActualSHA256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+      "ExpectedBytes": 6396,
+      "ActualBytes": 6396,
+      "Match": true
+    },
+    {
+      "Path": "app/updates/Preferences.psm1",
+      "ExpectedSHA256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+      "ActualSHA256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+      "ExpectedBytes": 1164,
+      "ActualBytes": 1164,
+      "Match": true
+    },
+    {
+      "Path": "app/updates/UpdateChecker.psm1",
+      "ExpectedSHA256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+      "ActualSHA256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+      "ExpectedBytes": 6175,
+      "ActualBytes": 6175,
+      "Match": true
+    },
+    {
+      "Path": "app/updates/Versioning.psm1",
+      "ExpectedSHA256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+      "ActualSHA256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+      "ExpectedBytes": 2824,
+      "ActualBytes": 2824,
+      "Match": true
+    },
+    {
+      "Path": "app/workers/ActionWorker.ps1",
+      "ExpectedSHA256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+      "ActualSHA256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+      "ExpectedBytes": 5297,
+      "ActualBytes": 5297,
+      "Match": true
+    },
+    {
+      "Path": "app/workers/InstallWorker.ps1",
+      "ExpectedSHA256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F",
+      "ActualSHA256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F",
+      "ExpectedBytes": 9728,
+      "ActualBytes": 9728,
+      "Match": true
+    },
+    {
+      "Path": "app/workers/ScanWorker.ps1",
+      "ExpectedSHA256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "ActualSHA256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "ExpectedBytes": 9078,
+      "ActualBytes": 9078,
+      "Match": true
+    },
+    {
+      "Path": "app/workers/UninstallWorker.ps1",
+      "ExpectedSHA256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+      "ActualSHA256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+      "ExpectedBytes": 8487,
+      "ActualBytes": 8487,
+      "Match": true
+    },
+    {
+      "Path": "app/workers/UpdateCheckWorker.ps1",
+      "ExpectedSHA256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+      "ActualSHA256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+      "ExpectedBytes": 2473,
+      "ActualBytes": 2473,
+      "Match": true
+    },
+    {
+      "Path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "ExpectedSHA256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D",
+      "ActualSHA256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D",
+      "ExpectedBytes": 4900,
+      "ActualBytes": 4900,
+      "Match": true
+    },
+    {
+      "Path": "docs/KNOWN_LIMITATIONS.md",
+      "ExpectedSHA256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A",
+      "ActualSHA256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A",
+      "ExpectedBytes": 1605,
+      "ActualBytes": 1605,
+      "Match": true
+    },
+    {
+      "Path": "docs/PRIVACY_AND_SECURITY.md",
+      "ExpectedSHA256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64",
+      "ActualSHA256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64",
+      "ExpectedBytes": 5866,
+      "ActualBytes": 5866,
+      "Match": true
+    },
+    {
+      "Path": "docs/USER_GUIDE.md",
+      "ExpectedSHA256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159",
+      "ActualSHA256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159",
+      "ExpectedBytes": 5097,
+      "ActualBytes": 5097,
+      "Match": true
+    },
+    {
+      "Path": "LICENSE.txt",
+      "ExpectedSHA256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD",
+      "ActualSHA256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD",
+      "ExpectedBytes": 488,
+      "ActualBytes": 488,
+      "Match": true
+    },
+    {
+      "Path": "Nyx PC Checkup.exe",
+      "ExpectedSHA256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "ActualSHA256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "ExpectedBytes": 33280,
+      "ActualBytes": 33280,
+      "Match": true
+    },
+    {
+      "Path": "README_FIRST.md",
+      "ExpectedSHA256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62",
+      "ActualSHA256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62",
+      "ExpectedBytes": 7223,
+      "ActualBytes": 7223,
+      "Match": true
+    },
+    {
+      "Path": "SBOM.json",
+      "ExpectedSHA256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F",
+      "ActualSHA256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F",
+      "ExpectedBytes": 3223,
+      "ActualBytes": 3223,
+      "Match": true
+    },
+    {
+      "Path": "THIRD_PARTY_NOTICES.txt",
+      "ExpectedSHA256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0",
+      "ActualSHA256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0",
+      "ExpectedBytes": 572,
+      "ActualBytes": 572,
+      "Match": true
+    },
+    {
+      "Path": "Uninstall Nyx PC Checkup.exe",
+      "ExpectedSHA256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC",
+      "ActualSHA256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC",
+      "ExpectedBytes": 35328,
+      "ActualBytes": 35328,
+      "Match": true
+    },
+    {
+      "Path": "VERSION.json",
+      "ExpectedSHA256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "ActualSHA256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "ExpectedBytes": 315,
+      "ActualBytes": 315,
+      "Match": true
+    }
+  ],
+  "DisputedMetadataExcludedAndUninspected": true,
+  "Scope": "Current installed frozen bytes only; no historical execution credit; no release or security approval"
+}

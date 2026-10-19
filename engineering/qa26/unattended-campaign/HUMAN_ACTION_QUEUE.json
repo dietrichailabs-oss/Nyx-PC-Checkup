@@ -75,7 +75,10 @@
     "evidence": "BASELINE_NATIVE_RECONCILIATION_20261017.json",
     "inspectedInventory": "6 saved QA VMs, 28 checkpoints, 35 unique disk targets; 34 VM/checkpoint records retained",
     "isolatedMailBaseline": "Saved after-sign-in native PS5.1 Desktop preflight has effective Restricted, all scopes Undefined; source remained off during preparation, child disconnected, no policy change",
-    "suitesNotRun": ["InstallerLifecycle", "QA2Migration"],
+    "suitesNotRun": [
+      "InstallerLifecycle",
+      "QA2Migration"
+    ],
     "requiredPrerequisite": "Independent QA approved accessible untouched pre-existing compatible native PS5.1 baseline qualification; do not change policy, add QA bypass, sign frozen runtime, or use launcher trampoline",
     "limitation": "Inaccessible chains and undetected Windows volumes remain unqualified, not proven inherently incompatible",
     "unrelatedUiTestingContinues": true,
@@ -83,7 +86,12 @@
   },
   "combinedNativeBatch20261017": {
     "status": "COLLECTED_DETACHED_100_NEW_ASSERTIONS_NATIVE_QUALIFIED",
-    "executionRecords": ["LIGHT150_MISSING_NAVIGATION_BATCH_20261016.json", "OTHER150_MISSING_NAVIGATION_BATCH_20261016.json", "LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json", "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"],
+    "executionRecords": [
+      "LIGHT150_MISSING_NAVIGATION_BATCH_20261016.json",
+      "OTHER150_MISSING_NAVIGATION_BATCH_20261016.json",
+      "LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json",
+      "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"
+    ],
     "new150NavigationCasesExecuted": 98,
     "fresh125RedirectsExecuted": 2,
     "newFullCellCredit": 0,
@@ -103,7 +111,10 @@
     "frozenPayloadMatched": 60,
     "old23Disposition": "Preserved, no repeat. No contemporaneous native interval found; Independent QA disposition required. No DPI extrapolation.",
     "freshExecutedCases": 2,
-    "freshRecords": ["LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json", "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"],
+    "freshRecords": [
+      "LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json",
+      "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"
+    ],
     "freshNativeLog": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261017_002100_3968008.jsonl",
     "freshNativeVisualProof": "120 DPI, PID 5820; exact raw interval collection still pending. Metadata excluded.",
     "nextHumanPrerequisite": "Normal Windows sign-in after authorized150 scaling sign-out; do not repeat old25 cases or reopen the obsolete PowerShell collector.",
@@ -422,5 +433,97 @@
       "action": "Preserve executed Updates/Backup and Security human-redirect evidence without repeat or retrospective native-DPI inference. Native observer did not record those intervals.",
       "evidence": "LIGHT200_SECURITY_UPDATES_BACKUP_QUALIFICATION_20261014.json"
     }
-  ]
+  ],
+  "followWindows150CleanupSixNativeCollection20261018": {
+    "status": "COLLECTED_DETACHED_SIX_NATIVE_QUALIFIED",
+    "plan": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_COLLECTION_PLAN_20261018.json",
+    "qualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+    "newQualifiedAssertions": 6,
+    "engineeringAssertionPASS": 318,
+    "engineeringAssertionFAIL": 0,
+    "fullCellsAdded": 0,
+    "diskDetached": true,
+    "noGuestCredentials": true,
+    "metadataExcluded": true,
+    "testsRepeated": 0
+  },
+  "followWindows150CleanupSafety20261018": {
+    "status": "FOUR_EXISTING_EXECUTIONS_NATIVE_QUALIFIED_NO_RERUN",
+    "batch": "FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+    "caseIds": [
+      "followwindows150_cleanup_one_item_summary_20261018",
+      "followwindows150_cleanup_confirmation_exact_20261018",
+      "followwindows150_cleanup_keyboard_cancel_20261018",
+      "followwindows150_cleanup_restore_zero_20261018"
+    ],
+    "newEligibleAssertions": 4,
+    "noCleanup": true,
+    "noScan": true,
+    "noRepeats": true,
+    "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+    "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+    "testsRepeated": 0
+  },
+  "dark150CleanupHorizontalInput20261018": {
+    "status": "TWO_PREVIOUSLY_MISSING_CASES_QUALIFIED_ON_UPDATED_CLONE",
+    "plannedCases": [
+      "dark150_cleanup_missingnav_left_20261018",
+      "dark150_cleanup_missingnav_right_20261018"
+    ],
+    "executedCases": 2,
+    "evidence": "screenshots/qa26_theme_setup_input_blocker_20261018_1792330761589_b009bb40-69d3-4aeb-ba84-e464f7037ad2.jpg",
+    "noProductFailureClaimed": true,
+    "request": "After native export finishes, restore normal guest input if it remains unresponsive; no VM restart or state discard",
+    "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/dark150-native144-20261018T175251Z/DARK150_CLEANUP_HORIZONTAL_NATIVE_QUALIFICATION.json",
+    "newEligibleAssertions": 2,
+    "additionalHumanInputRequired": false
+  },
+  "vmLocalReconciliation20261018": {
+    "status": "COLLECTED_HASH_MATCHED_DETACHED_AND_RECONCILED",
+    "record": "vm-local-reconciled-20261018-201227/HOST_RECONCILIATION.json",
+    "engineeringAssertions": {
+      "PASS": 328,
+      "FAIL": 1
+    },
+    "matrixComplete": 83,
+    "matrixTotal": 132,
+    "newHostTests": 0,
+    "sourceCopiedFiles": 701,
+    "copyHashMismatches": 0,
+    "disputedMetadataExcluded": true
+  },
+  "pdfExportFailure20261018": {
+    "status": "WAITING_INDEPENDENT_QA_CLASSIFICATION",
+    "predicateId": "installed_gui_export_pdf_missing_20261018",
+    "evidence": "vm-local-reconciled-20261018-201227/raw-continuation/functional-exports-20261018T192122Z/PDF_EXPORT_FAILURE_QUALIFICATION.json",
+    "action": "Classify preserved frozen-product PDF Lines argument-binding failure. No rerun or frozen-byte fix; owner permits unrelated eligible non-DPI work."
+  },
+  "nonDpiNativeBaseline20261018": {
+    "status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+    "evidence": "vm-local-reconciled-20261018-201227/HOST_NATIVE_ROUTE_DISPOSITION.json",
+    "required": "Accessible Independent QA approved untouched pre-existing compatible native PS5.1 baseline with an existing policy permitting exact frozen harness and unsigned modules. No policy/trust change, QA bypass or launcher trampoline.",
+    "qualifiedCompatibleBaselines": 0,
+    "hostManagementAccess": "AVAILABLE; supersedes guest-only host access denial, but is not native baseline qualification",
+    "hostNativePolicy": "Restricted",
+    "currentUpdatedCloneEligible": false,
+    "noNewCredentialPromptLaunched": true
+  },
+  "futureDpiTesting20261018": {
+    "status": "SKIPPED_BY_OWNER",
+    "action": "Do not execute DPI/layout/matrix tests or change display to finish matrix. Historical cell counts and qualification reservations remain unchanged; no new credit."
+  },
+  "unqualifiedOverwrite20261018": {
+    "status": "EXECUTED_SETUP_INVALID_NO_CREDIT_NO_RETRY",
+    "record": "vm-local-reconciled-20261018-201227/raw-continuation/post-failure-functional-20261018T193458Z/OVERWRITE_DECLINE_UNQUALIFIED.json",
+    "unexpectedPreviouslyExecutedTxtExport": 1,
+    "credit": 0,
+    "action": "Preserve all raw; no repeated overwrite or TXT attempt without separate disposition."
+  },
+  "nonstandardCaptureJson20261018": {
+    "status": "PRESERVED_EVIDENCE_FORMAT_LIMITATION",
+    "files": 17,
+    "reason": "Unquoted Infinity values in UI accessibility geometry are non-standard JSON. Original bytes remain unchanged. Inspection-only null substitutions were restricted to non-finite numeric tokens; no geometry inferred and no fixtures or product code changed.",
+    "record": "vm-local-reconciled-20261018-201227/NONSTANDARD_CAPTURE_AUDIT.json",
+    "newCreditFromFormatRepair": 0
+  }
 }

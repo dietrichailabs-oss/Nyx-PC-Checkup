@@ -1,0 +1,26 @@
+{
+  "Schema": "QA26-INSTALLED-NATIVE-EXPORT-MISSING-FORMATS-1",
+  "Status": "MISSING_NOT_EXECUTED",
+  "Build": "2026.10.02-eng-qa26",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Harness": "QA26-F023-PS51-26",
+  "Scope": "Functional installed GUI export of the preserved existing Full scan. No DPI/layout assertions, scaling or theme changes, new scan, synthetic-secret injection, or script-suite execution.",
+  "Cases": [
+    {"PredicateId": "installed_gui_export_txt_missing_20261018", "Format": "TXT", "Output": "report-native-txt.txt", "Predicate": "Normal installed GUI preview/continue/save writes a fresh default-redacted UTF8 TXT report with the frozen build, original Full scan identity and ordered findings"},
+    {"PredicateId": "installed_gui_export_pdf_missing_20261018", "Format": "PDF", "Output": "report-native-pdf.pdf", "Predicate": "Normal installed GUI preview/continue/PDF selection/save writes a structurally valid, readable PDF of the preserved Full report; all expected findings and privacy footer remain present"}
+  ],
+  "Deduplication": {
+    "NativeHistoricalExportsFound": "FollowWindows125 Quick/Full JSON and Dark125 transition Quick JSON; these are not repeated",
+    "PriorNativeTxtOrPdfGUIExportExecutionsFound": 0,
+    "SignedCopySmoke": "Already executed PDF header and injected-redaction checks are preserved separately; not rerun and no new credit for those checks",
+    "PreviewAndNavigation": "Previously tested shared preview/focus actions are required setup only; receive no separate credit",
+    "Sources": ["authoritative-ledgers/STATE.json completedPredicates", "preserved-context/engineering/qa26/unattended-campaign/signed-copy-smoke-20261011/smoke.json", "frozen docs/USER_GUIDE.md Reports contract"]
+  },
+  "Preconditions": ["All59 payload hashes plus pinned manifest match", "Exact current non-elevated native Nyx process/session/window", "Preserved scan SHA256 9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE", "Config and action history captured before, never changed", "Fresh uniquely named screenshots and receipts", "Each case persisted STARTED_ONCE before export workflow; no retry after unknown save outcome", "Fixed fresh outputs under this continuation folder only; no overwrite or sharing"],
+  "GuiInstrumentScope": "Existing authorized one-shot GUI instrument rebound to PID11392/session1/main66444. Owned preview and common save dialog titles explicitly allowlisted. Filename input restricted to the two fixed files in this folder. No service, network bridge, terminal input, arbitrary typing, product writes, policy changes, or QA script execution.",
+  "DpiTestsSkippedByOwner": true,
+  "NoFullPrivacySafetySuitePASSClaimed": true,
+  "NoMatrixCredit": true,
+  "StopOnFirstGenuineProductFailure": true,
+  "FinalDecisionOwner": "Independent QA"
+}

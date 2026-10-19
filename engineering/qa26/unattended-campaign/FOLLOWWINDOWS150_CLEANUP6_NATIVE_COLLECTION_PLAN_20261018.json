@@ -1,0 +1,30 @@
+{
+  "schema": "QA26-FOLLOWWINDOWS150-CLEANUP6-NATIVE-COLLECTION-PLAN-1",
+  "utc": "2026-10-18T13:09:29.243Z",
+  "status": "COLLECTED_READONLY_DETACHED_SIX_QUALIFIED",
+  "vmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+  "exportRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_followcleanup6_export_20261018_1311",
+  "collectionRoot": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018",
+  "receipt": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_followcleanup6_export_20261018_1311_collection.json",
+  "caseIds": [
+    "followwindows150_cleanup_missingnav_pagedown_20261017",
+    "followwindows150_cleanup_missingnav_pageup_20261017",
+    "followwindows150_cleanup_missingnav_down_20261017",
+    "followwindows150_cleanup_missingnav_up_20261017",
+    "followwindows150_cleanup_missingnav_left_20261017",
+    "followwindows150_cleanup_missingnav_right_20261017"
+  ],
+  "observerFilter": "live_20261018_13*.jsonl",
+  "metadataExcluded": true,
+  "noGuestCredentials": true,
+  "policyChanged": false,
+  "productBytesChanged": false,
+  "testsRepeated": 0,
+  "fullCellCredit": 0,
+  "theme": "FollowWindows",
+  "qualificationRequires": "Measured144DPI brackets, stable current PID, applied FollowWindows selector and config, exact60frozenfiles, six bound capture receipts, native read-only and detached receipt",
+  "sessionId": 52755,
+  "launchedUtc": "2026-10-18T13:10:36.875Z",
+  "ownerApproved": true,
+  "qualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json"
+}

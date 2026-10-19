@@ -1,0 +1,12 @@
+{
+  "Schema": "QA26-VM-LOCAL-HUMAN-QUEUE-DELTA-1",
+  "Utc": "2026-10-18T16:45:22.0314779Z",
+  "Id": "COMPUTER_USE_TARGET_AND_CAPTURE",
+  "Status": "BLOCKED_CONTROLLER_WINDOW_DISCOVERY_AFTER_APPROVAL",
+  "PermissionPrerequisite": "RESOLVED_USER_APPROVED_AND_APPLIED",
+  "OrdinaryWindowRestoration": "COMPLETED_AUTONOMOUSLY",
+  "RemainingRequirement": "Supported Computer Use returns exact verified Nyx GUI window for targeting and fresh capture",
+  "NoHumanQuestionIssued": true,
+  "CaseStatus": "BOTH_NOT_RUN",
+  "Record": "POST_APPROVAL_RECOVERY_20261018T164520Z.json"
+}

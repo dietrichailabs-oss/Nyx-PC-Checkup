@@ -1,0 +1,61 @@
+{
+  "Utc": "2026-10-18T20:06:32.110197+00:00",
+  "Files": [
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\RUN_QA15_WINDOWS_GATE.ps1",
+      "RelativePath": "tests/powershell/RUN_QA15_WINDOWS_GATE.ps1",
+      "Bytes": 17265,
+      "SHA256": "42A1FA1837C99A00F41CF1B41FD22C8E6490EDAC8F788454D060593D7846268B"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsSmokeTests.ps1",
+      "RelativePath": "tests/powershell/Run-WindowsSmokeTests.ps1",
+      "Bytes": 42001,
+      "SHA256": "125FE4AA381594F6DD693B15F14B0C48CF908868CD6BF2663036208F51C51503"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsSettingsThemeRegression.ps1",
+      "RelativePath": "tests/powershell/Run-WindowsSettingsThemeRegression.ps1",
+      "Bytes": 7270,
+      "SHA256": "820491AB6BCF5FDBA10424A541C464DCAA1D8D4F4654E86F3C1FB793492CC745"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsElevatedStartupRollback.ps1",
+      "RelativePath": "tests/powershell/Run-WindowsElevatedStartupRollback.ps1",
+      "Bytes": 13799,
+      "SHA256": "4DE36AC3D10900798A97AA5B2AB14FD000568F29A33651FC172DB56FE6EEF3C8"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsInstallerLifecycle.ps1",
+      "RelativePath": "tests/powershell/Run-WindowsInstallerLifecycle.ps1",
+      "Bytes": 21779,
+      "SHA256": "93811822FF7DEC9EAA7D9546E2E039B4DBE9286A5F80BDD58217DDE72BA47B9F"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Run-WindowsQA2MigrationRegression.ps1",
+      "RelativePath": "tests/powershell/Run-WindowsQA2MigrationRegression.ps1",
+      "Bytes": 53486,
+      "SHA256": "14630FDB4E0040E24B14767ADAB351DB7BE402CC7D812261C9BD791CF349FA7A"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\powershell\\Test-QA19ProgressConcurrency.ps1",
+      "RelativePath": "tests/powershell/Test-QA19ProgressConcurrency.ps1",
+      "Bytes": 6235,
+      "SHA256": "A89135C1B9E8BA06AB4C80CAB80865040A4CB005486D085DC59C33404FE6BA27"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\pinned-source-data\\Nyx_PC_Checkup_1.0.0_Source\\tests\\fixtures\\qa2\\Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+      "RelativePath": "tests/fixtures/qa2/Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+      "Bytes": 417280,
+      "SHA256": "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5"
+    },
+    {
+      "Path": "C:\\Q26F023\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "Bytes": 562688,
+      "SHA256": "A2D3571A1C96FCD39A95E40376FE0861AAC27C58545C3842DE75EB19B2E9331C"
+    }
+  ],
+  "AllAvailable": true,
+  "Source": "Existing verified QA26 source archive and staged candidate; no rebuild/re-sign/repackage",
+  "ExecuteNow": false
+}

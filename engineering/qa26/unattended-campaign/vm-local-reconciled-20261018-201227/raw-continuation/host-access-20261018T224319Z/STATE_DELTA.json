@@ -1,0 +1,15 @@
+{
+  "Utc": "2026-10-18T22:45:15.875963+00:00",
+  "EngineeringPASS": 328,
+  "EngineeringFAIL": 1,
+  "NewTests": 0,
+  "RepeatedTests": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "HostReachabilityBlockerResolved": true,
+  "HostAuthenticationAuthorizationBlockerRemains": true,
+  "BaselineNotAccessed": true,
+  "OriginalVmNotAccessed": true,
+  "DpiSkipped": true,
+  "CampaignComplete": false
+}

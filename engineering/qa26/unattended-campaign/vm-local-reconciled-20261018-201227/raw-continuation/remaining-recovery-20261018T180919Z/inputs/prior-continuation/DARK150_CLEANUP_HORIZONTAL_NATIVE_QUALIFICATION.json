@@ -1,0 +1,135 @@
+{
+  "Schema": "QA26-DARK150-CLEANUP-HORIZONTAL-NATIVE-QUALIFICATION-1",
+  "Utc": "2026-10-18T18:03:58.4598426Z",
+  "Status": "TWO_NEW_ENGINEERING_ASSERTIONS_PASS_NATIVE_QUALIFIED",
+  "CandidateBuild": "2026.10.02-eng-qa26",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Harness": "QA26-F023-PS51-26",
+  "VMId": "068A8DC7-F5E1-4E0E-A941-E0A3955E5A29",
+  "NativeContext": {
+    "Pid": 7504,
+    "AppliedThemeEvidence": "post_signin_native144_qualification_20261018T1753159286107Z_7ab0907d98c6485db8777a034d66a52a.json",
+    "SameContextAcrossBothCases": true,
+    "NativeDpi": 144,
+    "Theme": "Dark",
+    "Preconditions": "PRECONDITIONS_QUALIFIED.json",
+    "SessionId": 2,
+    "Scale": 150,
+    "TargetAndHelperNonElevated": true
+  },
+  "Cases": [
+    {
+      "Schema": "QA26-INDIVIDUAL-NATIVE-QUALIFICATION-1",
+      "Utc": "2026-10-18T18:01:56.2714224Z",
+      "PredicateId": "dark150_cleanup_missingnav_left_20261018",
+      "Status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "Theme": "Dark",
+      "Scale": 150,
+      "NativeDpi": 144,
+      "Pid": 7504,
+      "SessionId": 2,
+      "BeforeReceipt": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\keyboard_age_focus_baseline_20261018T1759330892403Z_5cbbe8efc25a4a61b20d0c6aeb9b70e1.json",
+      "AfterReceipt": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\dark150_cleanup_missingnav_left_20261018_20261018T1800369938893Z_554b3cdffebf4333b21a45e19e62303f.json",
+      "AfterScreenshot": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\dark150_cleanup_missingnav_left_20261018_20261018T1800369938893Z_554b3cdffebf4333b21a45e19e62303f.png",
+      "AfterScreenshotSHA256": "742F6CDE17FEDE77E0BCC396F188C62E8603CE4DAB7F3863966453FCF2FBC4DC",
+      "Observed": "Left moved visible dotted focus from Age Row5 to Item Row5 on wct2AA6.tmp; cleanup checkboxes remain clear; Ready retained; no scan, dialog, cleanup or other activation",
+      "ZeroSelectionBeforeEvidence": "cleanup_grid_visibility_setup_20261018T1755295990176Z_851e27f2492341209344c5b80d23db88.json",
+      "PreservedScanAndActionHistoryUnchanged": true,
+      "Preconditions": "PRECONDITIONS_QUALIFIED.json",
+      "ExecutedOnce": true,
+      "NewAssertions": 1,
+      "NewMatrixCells": 0,
+      "EngineeringPASSAfter": 319,
+      "EngineeringFAIL": 0,
+      "Scope": "Fresh individual frozen-payload functional GUI assertion on updated AppSetup clone; not historical DPI credit, full matrix cell, security approval or Independent QA verdict"
+    },
+    {
+      "Schema": "QA26-INDIVIDUAL-NATIVE-QUALIFICATION-1",
+      "Utc": "2026-10-18T18:03:58.4280738Z",
+      "PredicateId": "dark150_cleanup_missingnav_right_20261018",
+      "Status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "Theme": "Dark",
+      "Scale": 150,
+      "NativeDpi": 144,
+      "Pid": 7504,
+      "SessionId": 2,
+      "BeforeReceipt": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\dark150_cleanup_missingnav_left_20261018_20261018T1800369938893Z_554b3cdffebf4333b21a45e19e62303f.json",
+      "AfterReceipt": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\dark150_cleanup_missingnav_right_20261018_20261018T1801571966090Z_ea278bb4b5084a139ed836fd058a97d7.json",
+      "AfterScreenshot": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\dark150_cleanup_missingnav_right_20261018_20261018T1801571966090Z_ea278bb4b5084a139ed836fd058a97d7.png",
+      "AfterScreenshotSHA256": "08B3E51E2D5A264EA7A09076B9B54DFA5ADD4FEDCE27EA598AC4B57F7B1612B7",
+      "Observed": "Right restored visible dotted focus from Item Row5 to Age Row5 on wct2AA6.tmp; cleanup checkboxes remain clear; Ready retained; no scan, dialog, cleanup or other activation",
+      "PreservedScanAndActionHistoryUnchanged": true,
+      "ExecutedOnce": true,
+      "NewAssertions": 1,
+      "NewMatrixCells": 0,
+      "EngineeringPASSAfter": 320,
+      "EngineeringFAIL": 0,
+      "Scope": "Fresh individual frozen-payload functional GUI assertion on updated AppSetup clone; not historical DPI credit, full matrix cell, security approval or Independent QA verdict"
+    }
+  ],
+  "NewEligibleAssertions": 2,
+  "EngineeringPASSBefore": 318,
+  "EngineeringPASSAfter": 320,
+  "EngineeringFAIL": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "FullMatrixCellsAdded": 0,
+  "FrozenPayloadFilesMatched": 60,
+  "PreservedScanAndActionHistory": [
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "SHA256Before": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "SHA256After": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "SHA256Before": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "SHA256After": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "Unchanged": true
+    }
+  ],
+  "TestsRepeated": 0,
+  "NewScans": 0,
+  "CleanupOperations": 0,
+  "IndependentQAFinalVerdictReserved": true,
+  "CampaignComplete": false,
+  "HistoricalLedgersUnmodified": true,
+  "Scope": "Fresh individual missing predicates on updated AppSetup clone only. No retrospective qualification of original VM, historical screenshot/DPI gaps, or whole matrix cells.",
+  "Security": {
+    "QA26_SEC_EXECUTIONPOLICY": "Still a separate Independent QA/security decision; no approval implied",
+    "WindowsExecutionPolicyChanged": false,
+    "OriginalVMTouched": false,
+    "ProductChanged": false,
+    "NativePS51": {
+      "Version": "5.1.26100.9711",
+      "EffectivePolicy": "Restricted",
+      "Scopes": [
+        "MachinePolicy=Undefined",
+        "UserPolicy=Undefined",
+        "Process=Undefined",
+        "CurrentUser=Undefined",
+        "LocalMachine=Undefined"
+      ]
+    },
+    "VPNChanged": false,
+    "WindowsSecurityPolicyChanged": false
+  },
+  "GuiInstrument": {
+    "SourceSHA256": "A6EBC84E64DC203A25A46731095BDA968E91CC11708F9DB4662AF85475A25165",
+    "FreshNativeCopyFromScreenPerInvocation": true,
+    "Route": "User-authorized one-shot native GUI helper; installed Computer Use vendor discovery remains unable to enumerate this PowerShell-hosted GUI",
+    "NoServiceOrNetworkBridge": true,
+    "ExeSHA256": "4E59BF22BE071EFD56B056E3535F36A183F8EC6CD3488A9B535FAEA9990CCDE5",
+    "VersionChangesBeforeExecutionOnly": true,
+    "NoTerminalInput": true,
+    "Source": "NyxGuiProbe.cs"
+  },
+  "RemainingReservedWork": [
+    "Four original FollowWindows150 Cleanup safety cases: collection/qualification pending, no rerun",
+    "Seven stale-image cases and historical native-DPI gaps: Independent QA disposition, no rerun",
+    "Settings200 readability: Independent QA review",
+    "InstallerLifecycle/QA2Migration: untouched approved native PS5.1 baseline prerequisite remains blocked",
+    "Focused F020/F022/F010/F016 closeout remains incomplete; this batch does not declare those gates PASS"
+  ]
+}

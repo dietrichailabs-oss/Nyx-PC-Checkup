@@ -1,0 +1,8 @@
+{
+  "Utc": "2026-10-18T18:25:24.2513575Z",
+  "RequiredAction": "Normal Windows sign-in after ordinary Display sign-out; authentication stays human",
+  "NoRoutinePermissionRequired": true,
+  "TestsExecuted": 0,
+  "Native192Qualified": false,
+  "Status": "WAITING_NORMAL_SIGNIN_AFTER_SIGNOUT"
+}

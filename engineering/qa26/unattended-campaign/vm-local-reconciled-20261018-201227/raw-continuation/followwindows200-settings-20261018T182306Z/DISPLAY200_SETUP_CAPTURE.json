@@ -1,0 +1,19 @@
+{
+  "Schema": "QA26-DISPLAY-SETUP-CAPTURE-1",
+  "SavedUtc": "2026-10-18T18:25:23.637Z",
+  "Window": {
+    "app": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel",
+    "id": 459238,
+    "title": "Settings"
+  },
+  "ScreenshotId": "screenshot-0",
+  "Width": 672,
+  "Height": 442,
+  "FreshSkyQuery": true,
+  "Image": "DISPLAY200_SIGNOUT_REQUIRED.jpg",
+  "SHA256": "5e723a4fe0b40831273cada411c60cdfb54bb4cfd0806909bbb9576d28b6399f",
+  "Bytes": 40987,
+  "Observed": "Custom scaling200; Windows explicitly says factor will not be applied until sign out; Sign out now visible",
+  "Native192Qualified": false,
+  "TestsExecuted": 0
+}

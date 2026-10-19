@@ -1,0 +1,45 @@
+{
+  "Utc": "2026-10-18T22:43:38.017633+00:00",
+  "ReadOnlyNetworkReachability": true,
+  "ResolvedAddresses": [
+    "172.30.192.1",
+    "172.30.240.1",
+    "172.31.208.1"
+  ],
+  "Targets": [
+    {
+      "Host": "MARK",
+      "Reason": "KVP-reported physical host",
+      "Port": 22,
+      "Connected": false,
+      "Error": "timed out",
+      "Utc": "2026-10-18T22:43:32.003670+00:00"
+    },
+    {
+      "Host": "MARK",
+      "Reason": "KVP-reported physical host",
+      "Port": 445,
+      "Connected": true,
+      "Peer": "172.30.240.1",
+      "Utc": "2026-10-18T22:43:32.004665+00:00"
+    },
+    {
+      "Host": "MARK",
+      "Reason": "KVP-reported physical host",
+      "Port": 5985,
+      "Connected": false,
+      "Error": "timed out",
+      "Utc": "2026-10-18T22:43:32.004665+00:00"
+    },
+    {
+      "Host": "MARK",
+      "Reason": "KVP-reported physical host",
+      "Port": 5986,
+      "Connected": false,
+      "Error": "timed out",
+      "Utc": "2026-10-18T22:43:32.004665+00:00"
+    }
+  ],
+  "AuthenticationAttempts": 0,
+  "FirewallVpnPolicyChanges": 0
+}

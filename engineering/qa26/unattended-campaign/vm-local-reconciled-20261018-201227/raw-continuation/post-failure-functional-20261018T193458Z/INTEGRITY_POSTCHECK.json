@@ -1,0 +1,61 @@
+{
+  "Utc": "2026-10-18T19:41:33.933905+00:00",
+  "FrozenArtifactsMatched": 60,
+  "PayloadManifestSHA256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+  "PreservedData": [
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\config.json",
+      "SHA256": "D13DEEA3BB15646C3656EF7AD1FF08182280EDF6128CC6B2EBC44B2ABE6305EF",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "Unchanged": true
+    }
+  ],
+  "ProtectedFixtureSHA256": "347DA4DFCC8A8B70AF881F47799F9A43F93CA7512AA3B605B501D46BC5AEAC03",
+  "ProtectedFixtureUnchanged": true,
+  "PriorManifestFilesMatched": 67,
+  "OldManifestListedFilesUnmodified": true,
+  "NativePolicy": {
+    "Utc": "2026-10-18T19:41:33.4078388Z",
+    "Version": "5.1.26100.9711",
+    "EffectivePolicy": "Restricted",
+    "Scopes": [
+      {
+        "Scope": "MachinePolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "UserPolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "Process",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "CurrentUser",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "LocalMachine",
+        "Policy": "Undefined"
+      }
+    ],
+    "PolicyChanged": false
+  },
+  "VisibleMainHandle": 66444,
+  "NewScans": 0,
+  "CleanupOperations": 0,
+  "StartupMutations": 0,
+  "OriginalVMAccessed": false,
+  "MetadataExcludedAndUninspected": true,
+  "ResolutionScalingThemeChanged": false
+}

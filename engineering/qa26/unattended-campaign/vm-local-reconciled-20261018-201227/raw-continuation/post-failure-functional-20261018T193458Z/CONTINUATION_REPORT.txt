@@ -1,0 +1,10 @@
+QA26 unrelated functional continuation
+Local Engineering score: 328 PASS, 1 FAIL. Matrix remains 83/132; no matrix credit.
+One previously executed native Save-dialog cancellation newly qualified from existing evidence, without rerunning it.
+The existing PDF Lines binding failure remains documented and open. Frozen product bytes are unchanged.
+One new overwrite-decline attempt was invalid: the native dialog saved its suggested TXT filename despite the helper filename edit. The intended overwrite prompt never appeared. This inadvertently repeated TXT export once; no credit, no product failure inferred, no retry. New output was moved into this continuation folder with provenance; protected fixture and old manifest-listed evidence remain unchanged.
+Pinned source and QA2 fixtures recovered and hash verified. Previous missing-files claims are superseded. No blocked script was executed.
+All DPI/scaling/layout testing skipped by owner. No resolution, scaling, theme, Windows security or execution-policy change.
+Remaining scripts require a permitted exact execution route; native PS5.1 remains Restricted with all five scopes Undefined. Lifecycle/migration also require the approved untouched compatible baseline. Historical evidence reservations and security/release decisions remain Independent QA work. See REMAINING_WORK_DISPOSITION.json.
+First-failure stop overridden for unrelated tests. No routine permission questions. No further eligible runnable missing case identified under current constraints. Campaign is incomplete, not approved for release.
+All 60 frozen artifacts match; preserved scan/config/history and protected fixture are unchanged. Original VM unaccessed. Imported host ledgers unchanged; local delta needs separate reconciliation.

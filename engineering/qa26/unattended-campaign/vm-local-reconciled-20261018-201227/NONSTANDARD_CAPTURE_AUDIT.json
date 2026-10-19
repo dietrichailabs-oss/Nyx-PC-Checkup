@@ -1,0 +1,181 @@
+{
+  "schema": "QA26-PRESERVED-NONSTANDARD-JSON-1",
+  "utc": "2026-10-19T00:38:58.410Z",
+  "strictParseFailures": [
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_pdf_continue_focus_20261018T1925419111099Z_499fce5a55d54fffb7b2e72a9d1175e9.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_pdf_outcome_bound_20261018T1927120209670Z_bcddaff394f442788d20cc32f74b5a6e.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_pdf_preview_setup_20261018T1925263184520Z_e32903143ec64d8b8473742c3e518989.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_txt_continue_focus_20261018T1923549403366Z_ba97fc163293474e87b571167c874d8e.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_txt_preview_bound_20261018T1923414408376Z_bd975b6ecfaa4f61879470a84cc904e3.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_txt_preview_setup_20261018T1923044886788Z_cfbc1689d7e645af8c970071c6d40955.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_gui_export_pdf_missing_20261018_20261018T1926490388348Z_a7cc1836bc4d466085f7f40abfbb23f8.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/overwrite_decline_continue_focus_20261018T1938100179533Z_17efa9b6613348fc9efd4a4a4a208e0a.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/overwrite_decline_preview_setup_20261018T1937546419736Z_a904a0f01352488298fb20b3a19260b0.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/overwrite_decline_save_once_20261018T1939454278197Z_3ccb1dbd2ece48b59db372caee5cb19c.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/unexpected_native_txt_outcome_bound_20261018T1939583001179Z_d41bae956ffb45e4943f4739e9fcb80f.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/dark150_startup_missing_location_20261018_20261018T1814599808061Z_5550ddedd5dc48b79858e0a2154513bb.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/followwindows_save_activate_setup_20261018T1819484961663Z_a161c152861642038def0ae1f138ec7a.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/light_theme_save_activate_setup_20261018T1816541680611Z_38ec02fb2c5b4b2ab2bc25b8576df7e1.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    },
+    {
+      "path": "vm-local-20261018T161926Z/save_dark_settings_setup_20261018T1651560164213Z_b8f377df978f4496972d8fabc284928d.json",
+      "error": "Unexpected token 'I', ...\"false,\"X\":Infinity,\"\"... is not valid JSON"
+    }
+  ],
+  "inspectionViews": [
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_pdf_continue_focus_20261018T1925419111099Z_499fce5a55d54fffb7b2e72a9d1175e9.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_pdf_outcome_bound_20261018T1927120209670Z_bcddaff394f442788d20cc32f74b5a6e.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_pdf_preview_setup_20261018T1925263184520Z_e32903143ec64d8b8473742c3e518989.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_txt_continue_focus_20261018T1923549403366Z_ba97fc163293474e87b571167c874d8e.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_txt_preview_bound_20261018T1923414408376Z_bd975b6ecfaa4f61879470a84cc904e3.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_export_txt_preview_setup_20261018T1923044886788Z_cfbc1689d7e645af8c970071c6d40955.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "functional-exports-20261018T192122Z/installed_gui_export_pdf_missing_20261018_20261018T1926490388348Z_a7cc1836bc4d466085f7f40abfbb23f8.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/overwrite_decline_continue_focus_20261018T1938100179533Z_17efa9b6613348fc9efd4a4a4a208e0a.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/overwrite_decline_preview_setup_20261018T1937546419736Z_a904a0f01352488298fb20b3a19260b0.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/overwrite_decline_save_once_20261018T1939454278197Z_3ccb1dbd2ece48b59db372caee5cb19c.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "post-failure-functional-20261018T193458Z/unexpected_native_txt_outcome_bound_20261018T1939583001179Z_d41bae956ffb45e4943f4739e9fcb80f.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/dark150_startup_missing_location_20261018_20261018T1814599808061Z_5550ddedd5dc48b79858e0a2154513bb.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/followwindows_save_activate_setup_20261018T1819484961663Z_a161c152861642038def0ae1f138ec7a.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "remaining-recovery-20261018T180919Z/light_theme_save_activate_setup_20261018T1816541680611Z_38ec02fb2c5b4b2ab2bc25b8576df7e1.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "vm-local-20261018T161926Z/save_dark_settings_setup_20261018T1651560164213Z_b8f377df978f4496972d8fabc284928d.json",
+      "nonfiniteTokens": 4,
+      "inspectionViewOnly": true,
+      "sourceUnmodified": true
+    }
+  ],
+  "originalFilesUnmodified": true,
+  "noGeometryInferred": true,
+  "noTestRepeated": true
+}

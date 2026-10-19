@@ -1,0 +1,17 @@
+{
+  "recordedUtc": "2026-10-19T00:42:17.0234211Z",
+  "repository": "dietrichailabs-oss/Nyx-PC-Checkup",
+  "issue": 15,
+  "commentId": 6257212284,
+  "commentUrl": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6257212284",
+  "publicationStatus": "COMMENT_POSTED",
+  "engineeringAssertionsPass": 328,
+  "engineeringAssertionsFail": 1,
+  "ledgerCompleteCells": 83,
+  "totalMatrixCells": 132,
+  "hostResumptionTestsExecuted": 0,
+  "newFullCells": 0,
+  "rawEvidencePublication": "LOCAL_ONLY_NOT_COMMITTED_OR_PUSHED",
+  "independentQaVerdict": "RESERVED",
+  "releaseApproval": "NOT_GRANTED"
+}

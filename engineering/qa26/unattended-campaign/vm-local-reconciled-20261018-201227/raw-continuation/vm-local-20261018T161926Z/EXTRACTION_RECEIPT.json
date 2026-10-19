@@ -1,0 +1,12 @@
+{
+  "Schema": "QA26-DATA-EXTRACTION-1",
+  "SourceArchive": "QA26_PRESERVED_CONTEXT.zip",
+  "ArchiveSHA256": "8ABB3911C87C1BB5B9C6E57DBA27AC5F93BA80FF64639663E351864A091D69DD",
+  "Destination": "preserved-context",
+  "IndexEntries": 3719,
+  "ExtractedFiles": 3719,
+  "MissingOrSizeMismatchedEntries": [],
+  "ArchiveScriptsExecuted": false,
+  "DisputedMetadataContentsUninspected": true,
+  "IndexNotCryptographicQualification": true
+}

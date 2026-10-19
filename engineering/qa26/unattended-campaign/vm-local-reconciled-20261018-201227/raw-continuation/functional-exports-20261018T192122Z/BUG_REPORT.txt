@@ -1,0 +1,43 @@
+QA26: installed PDF report export fails on a normal preserved Full report
+
+Build: 2026.10.02-eng-qa26
+Frozen source: 0303a78a06f67252c86634cd73f1e4bda32dd3cc
+Harness reference: QA26-F023-PS51-26
+Engineering reproduction count: ONE; no repeat attempted.
+
+Reproduction performed through the normal, non-elevated installed GUI:
+1. Open the frozen installed Nyx PC Checkup with its preserved Full scan.
+2. Choose Export report, then Continue to save in the preview.
+3. In the native save dialog, choose PDF summary (*.pdf).
+4. Select a new file in this continuation folder and choose Save once.
+
+Expected: A valid readable PDF report is created.
+Actual: No PDF is created. A Nyx error dialog says:
+The report could not be exported.
+Cannot bind argument to parameter 'Lines' because it is an empty string.
+
+Primary evidence:
+PDF_EXPORT_FAILURE_QUALIFICATION.json
+installed_export_pdf_outcome_bound_20261018T1927120209670Z_bcddaff394f442788d20cc32f74b5a6e.png
+CASE_EXECUTIONS.jsonl
+INTEGRITY_POSTCHECK.json
+
+Source correlation (read only; no repair or new binding experiment):
+ReportExport.psm1 adds blank separator lines to the report text, then passes
+the split text to Write-NyxSimplePdf at line84. PdfWriter.psm1 line30 declares
+mandatory string[] Lines without allowing empty strings. This matches the
+observed argument-binding failure. The prior signed-copy PDF-header check
+does not establish that a full normal installed report can be exported.
+
+All60 frozen artifacts match. Original scan, config and action history are
+unchanged. No scan, cleanup, startup mutation, Windows/security/policy change,
+original VM access, metadata inspection, or DPI test was performed here.
+
+The prospective TXT save was cancelled before saving because an earlier
+same-build native TXT report was discovered on Desktop. Its original bytes
+were copied and hashed; no duplicate TXT export or new credit was taken.
+
+Local Engineering scoreboard: 327 PASS / 1 FAIL. Matrix remains83/132.
+Further testing stopped at the first genuine product failure as required by
+AGENTS.md. Product remains frozen; Independent QA owns final disposition.
+All remaining DPI testing is skipped by owner direction, without PASS credit.

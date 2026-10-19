@@ -1,0 +1,27 @@
+{
+  "Utc": "2026-10-18T20:06:32.110197+00:00",
+  "CurrentGuest": {
+    "VirtualMachineId": "068A8DC7-F5E1-4E0E-A941-E0A3955E5A29",
+    "VirtualMachineName": "Nyx-AppSetup-20261018_1792337380402",
+    "PhysicalHostName": "MARK",
+    "FullyQualifiedDomainName": null
+  },
+  "CurrentGuestEligibleForLifecycleMigration": false,
+  "HistoricalAudit": {
+    "Path": "preserved-context/engineering/qa26/unattended-campaign/BASELINE_NATIVE_RECONCILIATION_20261017.json",
+    "SHA256": "17D0DA464844D78F997A76D0273438D52DE0A8118F123B7E3EB7A7D915FE9CDF",
+    "AsOf": "2026-10-17T01:54:48.819Z",
+    "QualifiedCompatibleBaselines": 0,
+    "InspectedScope": {
+      "vmCount": 6,
+      "checkpointCount": 28,
+      "uniqueDiskTargets": 35,
+      "offlineUserProfilesParsed": 69
+    },
+    "NotALiveHostInventory": true
+  },
+  "ActualLocalAccess": "No Hyper-V command/provider, no mapped host drive and no active remote PowerShell session. Existing exposed execution tool is local guest only.",
+  "NoDiskOrVmStateMutated": true,
+  "NoCredentialsRequestedOrUsed": true,
+  "RemainingRequirement": "An accessible Independent QA approved untouched pre-existing compatible Windows native PS5.1 baseline with an existing policy permitting exact frozen scripts/modules; no policy/trust/launcher changes."
+}

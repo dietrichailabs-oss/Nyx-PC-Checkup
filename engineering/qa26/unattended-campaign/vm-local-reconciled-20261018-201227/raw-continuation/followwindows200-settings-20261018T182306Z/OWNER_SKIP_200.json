@@ -1,0 +1,12 @@
+{
+  "Utc": "2026-10-18T19:18:49.2831904Z",
+  "Status": "SKIPPED_OWNER_DISPLAY_USABILITY_CONSTRAINT",
+  "TestsExecuted": 0,
+  "Plan": "PLAN.json",
+  "NewAssertions": 0,
+  "FullCellCredit": 0,
+  "EngineeringPASS": 327,
+  "EngineeringFAIL": 0,
+  "AuthenticationNotAutomated": true,
+  "OwnerDirection": "Skip200% batch; retain current display resolution. Restore preceding150% scaling only."
+}

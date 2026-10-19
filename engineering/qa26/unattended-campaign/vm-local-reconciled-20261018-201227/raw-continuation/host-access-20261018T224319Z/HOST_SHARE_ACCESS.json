@@ -1,0 +1,8 @@
+{
+  "Utc": "2026-10-18T22:43:46.6272221Z",
+  "Command": "net view \\\\MARK",
+  "Output": "System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n",
+  "ExitCode": 2,
+  "CredentialsSupplied": false,
+  "PoliciesChanged": false
+}

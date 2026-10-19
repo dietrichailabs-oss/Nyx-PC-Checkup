@@ -1,0 +1,28 @@
+{
+    "Utc":  "2026-10-18T19:41:33.4078388Z",
+    "Version":  "5.1.26100.9711",
+    "EffectivePolicy":  "Restricted",
+    "Scopes":  [
+                   {
+                       "Scope":  "MachinePolicy",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "UserPolicy",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "Process",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "CurrentUser",
+                       "Policy":  "Undefined"
+                   },
+                   {
+                       "Scope":  "LocalMachine",
+                       "Policy":  "Undefined"
+                   }
+               ],
+    "PolicyChanged":  false
+}

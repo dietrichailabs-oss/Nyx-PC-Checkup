@@ -1,0 +1,2 @@
+[apps]
+allowed = ["nyx pc checkup.exe", "explorer.exe"]

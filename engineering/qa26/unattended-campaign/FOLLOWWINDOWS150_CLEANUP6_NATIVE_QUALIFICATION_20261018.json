@@ -1,0 +1,859 @@
+{
+  "schema": "QA26-FOLLOWWINDOWS150-CLEANUP6-NATIVE-QUALIFICATION-1",
+  "utc": "2026-10-18T14:18:38.051Z",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "result": "SIX_ENGINEERING_ASSERTIONS_PASS",
+  "previousAssertionPass": 312,
+  "newEligibleAssertionPass": 6,
+  "totalAssertionPass": 318,
+  "assertionFail": 0,
+  "fullCellCredit": 0,
+  "matrixComplete": 83,
+  "matrixTotal": 132,
+  "campaignComplete": false,
+  "cases": [
+    {
+      "id": "followwindows150_cleanup_missingnav_pagedown_20261017",
+      "utc": "2026-10-18T13:05:34.327Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "key": "Page_Down",
+      "predicate": "Cleanup candidate grid pagedown keyboard navigation retains readable focus and does not select or execute cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "PageDown moved dotted Age-cell focus from first candidate 564ecbcf-ff2d-462a-b866... to wct3D5B.tmp and exposed lower candidates. All visible checkboxes remained clear; no scan or cleanup.",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_pagedown_20261017_1792328734327_f4534433-be59-4305-8563-a1d8a78ee544.jpg",
+      "sha256": "dc9d0cbefddd1fba614d8ed43075cd2b0df3628ee0004a7656dc11dbc8c2c70a",
+      "captureReceipt": "screenshots/followwindows150_cleanup_missingnav_pagedown_20261017_1792328734327_f4534433-be59-4305-8563-a1d8a78ee544.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noSelection": true,
+      "noScan": true,
+      "noCleanup": true,
+      "nativeQualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_pageup_20261017",
+      "utc": "2026-10-18T13:05:42.573Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "key": "Page_Up",
+      "predicate": "Cleanup candidate grid pageup keyboard navigation retains readable focus and does not select or execute cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "PageUp returns dotted Age-cell focus from wct3D5B.tmp to first candidate 564ecbcf-ff2d-462a-b866...; visible checkboxes remain clear; no scan or cleanup.",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_pageup_20261017_1792328742574_8ec6ecb0-e8f7-4cee-b24a-f67b87dd0b5d.jpg",
+      "sha256": "3418f300cfda67414d83f3644f15896ff6951bfc69c4efe39f9717bc9e308650",
+      "captureReceipt": "screenshots/followwindows150_cleanup_missingnav_pageup_20261017_1792328742574_8ec6ecb0-e8f7-4cee-b24a-f67b87dd0b5d.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noSelection": true,
+      "noScan": true,
+      "noCleanup": true,
+      "nativeQualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_down_20261017",
+      "utc": "2026-10-18T13:07:57.925Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "key": "Down",
+      "predicate": "Cleanup candidate grid down keyboard navigation retains readable focus and does not select or execute cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Down moves dotted Age-cell focus from first candidate to BITFB98.tmp; visible checkboxes remain clear; no scan or cleanup.",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_down_20261017_1792328877925_17db9b62-b2cb-4d16-9644-67300ec00418.jpg",
+      "sha256": "51a6d598ad1a54013532155149033e84571cd399812f7cb1b03cbf269dec90ec",
+      "captureReceipt": "screenshots/followwindows150_cleanup_missingnav_down_20261017_1792328877925_17db9b62-b2cb-4d16-9644-67300ec00418.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noSelection": true,
+      "noScan": true,
+      "noCleanup": true,
+      "nativeQualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_up_20261017",
+      "utc": "2026-10-18T13:08:03.908Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "key": "Up",
+      "predicate": "Cleanup candidate grid up keyboard navigation retains readable focus and does not select or execute cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Up returns dotted Age-cell focus from BITFB98.tmp to first candidate; visible checkboxes remain clear; no scan or cleanup.",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_up_20261017_1792328883909_9278d561-6c8a-4e40-8279-866452006ae6.jpg",
+      "sha256": "51368eabd0e55d7ff901eccaa6c6433ab58c1d7e750ba89c11e8900f6a6cdbb5",
+      "captureReceipt": "screenshots/followwindows150_cleanup_missingnav_up_20261017_1792328883909_9278d561-6c8a-4e40-8279-866452006ae6.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noSelection": true,
+      "noScan": true,
+      "noCleanup": true,
+      "nativeQualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_left_20261017",
+      "utc": "2026-10-18T13:08:09.809Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "key": "Left",
+      "predicate": "Cleanup candidate grid left keyboard navigation retains readable focus and does not select or execute cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Left moves dotted focus from first-row Age to its Item cell; visible checkboxes remain clear; no scan or cleanup.",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_left_20261017_1792328889809_c9e3b5b1-ddd6-4296-a099-ac2f70fa772c.jpg",
+      "sha256": "39129d82f8060814bdfd432bf37d817b4f2de683bb40795cdb945e5a2c8e367b",
+      "captureReceipt": "screenshots/followwindows150_cleanup_missingnav_left_20261017_1792328889809_c9e3b5b1-ddd6-4296-a099-ac2f70fa772c.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noSelection": true,
+      "noScan": true,
+      "noCleanup": true,
+      "nativeQualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_right_20261017",
+      "utc": "2026-10-18T13:08:19.306Z",
+      "theme": "FollowWindows",
+      "scale": 150,
+      "page": "Cleanup",
+      "key": "Right",
+      "predicate": "Cleanup candidate grid right keyboard navigation retains readable focus and does not select or execute cleanup",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "details": "Right restores dotted focus from first-row Item to Age; visible checkboxes remain clear; no scan or cleanup.",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_right_20261017_1792328899307_444be595-c4f9-4ae6-a6d9-1a287bd2d590.jpg",
+      "sha256": "3687a18eec4368918dd11f04d766831af2c88294efcd99c42cefc821b1c46593",
+      "captureReceipt": "screenshots/followwindows150_cleanup_missingnav_right_20261017_1792328899307_444be595-c4f9-4ae6-a6d9-1a287bd2d590.jpg.capture.json",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "noSelection": true,
+      "noScan": true,
+      "noCleanup": true,
+      "nativeQualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json"
+    }
+  ],
+  "nativeBindings": [
+    {
+      "id": "followwindows150_cleanup_missingnav_pagedown_20261017",
+      "utc": "2026-10-18T13:05:34.327Z",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_pagedown_20261017_1792328734327_f4534433-be59-4305-8563-a1d8a78ee544.jpg",
+      "before": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 25,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:05:30.5373345Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "after": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 26,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:05:35.5417201Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "deltaBeforeMs": 3790,
+      "deltaAfterMs": 1214,
+      "captureOK": true,
+      "qualified": true
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_pageup_20261017",
+      "utc": "2026-10-18T13:05:42.573Z",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_pageup_20261017_1792328742574_8ec6ecb0-e8f7-4cee-b24a-f67b87dd0b5d.jpg",
+      "before": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 27,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:05:40.5535426Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "after": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 28,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:05:45.5650817Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "deltaBeforeMs": 2020,
+      "deltaAfterMs": 2992,
+      "captureOK": true,
+      "qualified": true
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_down_20261017",
+      "utc": "2026-10-18T13:07:57.925Z",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_down_20261017_1792328877925_17db9b62-b2cb-4d16-9644-67300ec00418.jpg",
+      "before": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 54,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:07:55.8573112Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "after": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 55,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:08:00.8700406Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "deltaBeforeMs": 2068,
+      "deltaAfterMs": 2945,
+      "captureOK": true,
+      "qualified": true
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_up_20261017",
+      "utc": "2026-10-18T13:08:03.908Z",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_up_20261017_1792328883909_9278d561-6c8a-4e40-8279-866452006ae6.jpg",
+      "before": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 55,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:08:00.8700406Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "after": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 56,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:08:05.8856931Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "deltaBeforeMs": 3038,
+      "deltaAfterMs": 1977,
+      "captureOK": true,
+      "qualified": true
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_left_20261017",
+      "utc": "2026-10-18T13:08:09.809Z",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_left_20261017_1792328889809_c9e3b5b1-ddd6-4296-a099-ac2f70fa772c.jpg",
+      "before": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 56,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:08:05.8856931Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "after": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 57,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:08:10.8993763Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "deltaBeforeMs": 3924,
+      "deltaAfterMs": 1090,
+      "captureOK": true,
+      "qualified": true
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_right_20261017",
+      "utc": "2026-10-18T13:08:19.306Z",
+      "evidence": "screenshots/followwindows150_cleanup_missingnav_right_20261017_1792328899307_444be595-c4f9-4ae6-a6d9-1a287bd2d590.jpg",
+      "before": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 58,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:08:15.9116946Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "after": {
+        "file": "collected-native-followwindows150-cleanup6-20261018/observer/live_20261018_130330_2511799.jsonl",
+        "line": 59,
+        "row": {
+          "Schema": "QA26-LIVE-DPI-1",
+          "Utc": "2026-10-18T13:08:20.9178374Z",
+          "Pid": 1800,
+          "NativeDpi": 144,
+          "WindowBounds": {
+            "Left": 32,
+            "Top": 32,
+            "Right": 1366,
+            "Bottom": 696
+          },
+          "ProductModified": false
+        }
+      },
+      "deltaBeforeMs": 3395,
+      "deltaAfterMs": 1611,
+      "captureOK": true,
+      "qualified": true
+    }
+  ],
+  "nativeInterval": {
+    "samples": 35,
+    "firstUtc": "2026-10-18T13:05:30.5373345Z",
+    "lastUtc": "2026-10-18T13:08:20.9178374Z",
+    "pids": [
+      1800
+    ],
+    "dpiValues": [
+      144
+    ],
+    "maxGapMs": 5016,
+    "parseErrors": 0,
+    "productModified": false
+  },
+  "installedIdentity": {
+    "compared": 60,
+    "mismatches": [],
+    "extraFiles": [],
+    "missingFiles": [],
+    "payloadManifestSHA256": "b1a6490bab92a7deabc38a3a5b3748926be3f6b3adb1404912313450c45ec56b",
+    "metadataExcluded": true
+  },
+  "theme": {
+    "applied": "FollowWindows",
+    "appliedSelectorEvidence": "screenshots/followwindows150_resume_applied_selector_foreground_setup_20261018_1792328587910_7b5a03a2-6bf7-426c-9954-ea2a66ee5f71.jpg",
+    "appliedSelectorSHA256": "8f027d1b4d7ec9c1cfbc2f6eda3b607d9436ac1996fc72c0ff215c8a76f7e228",
+    "config": "collected-native-followwindows150-cleanup6-20261018/data/config.json",
+    "actualRelaunchObserved": true,
+    "pid": 1800,
+    "paletteOnlyInference": false
+  },
+  "screenshots": {
+    "helperSHA256": "21f35a2104c9844528b4acf2651006baa0748983dc79062a2328a06f81a25734",
+    "sourceWindowId": 2254570,
+    "uniquePrimaryImages": 6,
+    "freshCaptureReceiptsBound": true,
+    "previousDeficientSevenRetested": false
+  },
+  "collection": {
+    "root": "collected-native-followwindows150-cleanup6-20261018",
+    "receipt": "collected-native-followwindows150-cleanup6-20261018/COLLECTION_RECEIPT.json",
+    "sourceReceipt": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\native_followcleanup6_export_20261018_1311_collection.json",
+    "nativeReadOnly": true,
+    "chainValid": true,
+    "detached": true,
+    "sourceVMAfter": {
+      "Name": "Nyx",
+      "State": 2,
+      "Status": "Operating normally"
+    },
+    "exportConfigurationSHA256": "20A491ABB762C1E78715E2A7D98A09FE7A1D105AF7B0B35E2A3B4FF82360D342",
+    "completedUtc": "2026-10-18T13:58:04.4306427Z"
+  },
+  "rawManifest": [
+    {
+      "path": "installed/app/actions/CleanupActions.psm1",
+      "bytes": 7811,
+      "sha256": "b72208af305b52d9e01131bf6a941a5d0faec2188a361732a4da7931f8af367b",
+      "mtimeUtc": "2026-10-17T00:33:26.094Z"
+    },
+    {
+      "path": "installed/app/actions/StartupActions.psm1",
+      "bytes": 23951,
+      "sha256": "a913040e406ad7db738847aff4be9f7f218033ecc27f0ba63fb46add73490002",
+      "mtimeUtc": "2026-10-17T00:33:26.098Z"
+    },
+    {
+      "path": "installed/app/assets/brand_banner.png",
+      "bytes": 4630,
+      "sha256": "838733d426505d0a62a5700fc8e3ca0386b3d79ae2b5bde3b6b1c4e8eebc0831",
+      "mtimeUtc": "2026-10-17T00:33:26.098Z"
+    },
+    {
+      "path": "installed/app/assets/nyx_pc_checkup.ico",
+      "bytes": 25277,
+      "sha256": "2070830bfc4b9abe31263e129f1b27eaef7a468df0d0cc4739a06b55fea20db5",
+      "mtimeUtc": "2026-10-17T00:33:26.098Z"
+    },
+    {
+      "path": "installed/app/assets/nyx_pc_checkup.png",
+      "bytes": 3315,
+      "sha256": "6dc3691c601ab6dabf65ec7c954cf1e1d90dc7ea92f0be06042920f7d9c91dd0",
+      "mtimeUtc": "2026-10-17T00:33:26.101Z"
+    },
+    {
+      "path": "installed/app/checks/BackupStatus.psm1",
+      "bytes": 4417,
+      "sha256": "020df878527988aff5043a2cfab521e24308cc9fa2e355a5f1937d1b4d36db90",
+      "mtimeUtc": "2026-10-17T00:33:26.101Z"
+    },
+    {
+      "path": "installed/app/checks/BatteryHealth.psm1",
+      "bytes": 3085,
+      "sha256": "6146c8b5f162c84e62c7dffca0e9bc2d91e6a40b9c660371684a56e3d44196ac",
+      "mtimeUtc": "2026-10-17T00:33:26.103Z"
+    },
+    {
+      "path": "installed/app/checks/CleanupScan.psm1",
+      "bytes": 11612,
+      "sha256": "b69e91b8cc8521471a130abcc714c483b116b0256dc2583955d0498274eb6b96",
+      "mtimeUtc": "2026-10-17T00:33:26.103Z"
+    },
+    {
+      "path": "installed/app/checks/DownloadsAnalysis.psm1",
+      "bytes": 7999,
+      "sha256": "1780f131ea63ca316591a2d2e2c1a8e52eaa2340ed2fc1accf8820927f034319",
+      "mtimeUtc": "2026-10-17T00:33:26.103Z"
+    },
+    {
+      "path": "installed/app/checks/DriveHealth.psm1",
+      "bytes": 3423,
+      "sha256": "4563a1e9b3780c57b61ffa761713b7fb5ce6f1450478e6cdf4c1090f81976549",
+      "mtimeUtc": "2026-10-17T00:33:26.103Z"
+    },
+    {
+      "path": "installed/app/checks/InstalledApps.psm1",
+      "bytes": 4311,
+      "sha256": "025c66f0f060407466a2b68e0633dfa49e181f8e3e90d345b0fbfe49f51dee86",
+      "mtimeUtc": "2026-10-17T00:33:26.105Z"
+    },
+    {
+      "path": "installed/app/checks/NetworkBasics.psm1",
+      "bytes": 4679,
+      "sha256": "f203197f0b0671acf3041973bead16204e0a847d7c9ccd162f2d37b629749224",
+      "mtimeUtc": "2026-10-17T00:33:26.105Z"
+    },
+    {
+      "path": "installed/app/checks/PerformanceSnapshot.psm1",
+      "bytes": 3373,
+      "sha256": "2d1a4387c00ca5c43fcb5e1a92b9460e6d909b4699263a625138e48655e720fe",
+      "mtimeUtc": "2026-10-17T00:33:26.105Z"
+    },
+    {
+      "path": "installed/app/checks/SecurityStatus.psm1",
+      "bytes": 9982,
+      "sha256": "be5286dd57fc46621fbc1dced4e369a2f0aed44f951cebed6ea57b9e7f1b9e07",
+      "mtimeUtc": "2026-10-17T00:33:26.105Z"
+    },
+    {
+      "path": "installed/app/checks/StartupApps.psm1",
+      "bytes": 8100,
+      "sha256": "9946be978ce369538414e56414bf43617a6ae0c462d3aa2d40c1f862c0a1ba0c",
+      "mtimeUtc": "2026-10-17T00:33:26.105Z"
+    },
+    {
+      "path": "installed/app/checks/StorageHealth.psm1",
+      "bytes": 1299,
+      "sha256": "45b3880bb314713b5de1d9ca53605864921121e364093cedc69ae0d63b4b42b6",
+      "mtimeUtc": "2026-10-17T00:33:26.107Z"
+    },
+    {
+      "path": "installed/app/checks/StorageScan.psm1",
+      "bytes": 6929,
+      "sha256": "6c902069cf622ab9b588807b447dac48fe535ce1a1a9528fec6b5e34d4be2cc1",
+      "mtimeUtc": "2026-10-17T00:33:26.107Z"
+    },
+    {
+      "path": "installed/app/checks/SystemInfo.psm1",
+      "bytes": 2676,
+      "sha256": "a94f1969a6f6d910c861e1d6063fc7a4a443c24561c2084ab4ec3369af39745c",
+      "mtimeUtc": "2026-10-17T00:33:26.107Z"
+    },
+    {
+      "path": "installed/app/checks/Uptime.psm1",
+      "bytes": 1146,
+      "sha256": "c6f32c481a959d12eea1629fac8724305a4f489f0f690a187787590cab94542a",
+      "mtimeUtc": "2026-10-17T00:33:26.107Z"
+    },
+    {
+      "path": "installed/app/checks/WindowsUpdates.psm1",
+      "bytes": 4902,
+      "sha256": "304d3fdc4d3b52a0213efb126db25dfdef3616149016f610e0d01cb52c24c252",
+      "mtimeUtc": "2026-10-17T00:33:26.109Z"
+    },
+    {
+      "path": "installed/app/config/defaults.json",
+      "bytes": 461,
+      "sha256": "15eeb90a8d02d15227fa9120eaca4c3256b822ca8ddc10e756eb1b23cd8a99c8",
+      "mtimeUtc": "2026-10-17T00:33:26.110Z"
+    },
+    {
+      "path": "installed/app/core/ActionHistory.psm1",
+      "bytes": 24721,
+      "sha256": "2007a6de90b526dfd0c807904162f9f67c6ffd176029b8c29d637ad4295354db",
+      "mtimeUtc": "2026-10-17T00:33:26.112Z"
+    },
+    {
+      "path": "installed/app/core/CheckupEngine.psm1",
+      "bytes": 7640,
+      "sha256": "d3d5172ad945e977a8b829a150bcf4b8cb9bfa16b924f787121a7b875bc88cb0",
+      "mtimeUtc": "2026-10-17T00:33:26.112Z"
+    },
+    {
+      "path": "installed/app/core/Configuration.psm1",
+      "bytes": 7302,
+      "sha256": "525e2a5d54b7b78554fc0e54b1d5d238df2312f01215f8086809ead51ae77220",
+      "mtimeUtc": "2026-10-17T00:33:26.112Z"
+    },
+    {
+      "path": "installed/app/core/Diagnostics.psm1",
+      "bytes": 1932,
+      "sha256": "de54e13c35f5a8759300419e14e2b6077c7bbd1d8b8d050a4b481eb481443ea1",
+      "mtimeUtc": "2026-10-17T00:33:26.114Z"
+    },
+    {
+      "path": "installed/app/core/Models.psm1",
+      "bytes": 4355,
+      "sha256": "7f311735610da72f5d88ba85d29bc0cf41b5efd6cb04079b4f541565251984a0",
+      "mtimeUtc": "2026-10-17T00:33:26.114Z"
+    },
+    {
+      "path": "installed/app/core/Paths.psm1",
+      "bytes": 5304,
+      "sha256": "2ea5914c2ae68e0adbf6ab4065de13b6957983087dbc6fe39a5fdf85e1b134f0",
+      "mtimeUtc": "2026-10-17T00:33:26.114Z"
+    },
+    {
+      "path": "installed/app/core/Privacy.psm1",
+      "bytes": 6683,
+      "sha256": "d6f859fd274fe0da8dd2ff92ca7d27870f2dd873c52378511318913c06427802",
+      "mtimeUtc": "2026-10-17T00:33:26.114Z"
+    },
+    {
+      "path": "installed/app/core/RuntimeComposition.psm1",
+      "bytes": 15055,
+      "sha256": "e97a0da8eefeabdc36e89a59e789a8a2e59bd49cf45a5205f6f14904fdb50d95",
+      "mtimeUtc": "2026-10-17T00:33:26.114Z"
+    },
+    {
+      "path": "installed/app/health_rules/HealthRules.psm1",
+      "bytes": 4761,
+      "sha256": "867b9e86dbcfaee6c9393e41c28b60d584274c87bde55d26ce3f6006138cc7cc",
+      "mtimeUtc": "2026-10-17T00:33:26.118Z"
+    },
+    {
+      "path": "installed/app/health_rules/rules.json",
+      "bytes": 784,
+      "sha256": "e5d02d37c13402e1215f70c895ce1bfd22707c4958a5f61547cce459273d5df3",
+      "mtimeUtc": "2026-10-17T00:33:26.118Z"
+    },
+    {
+      "path": "installed/app/NyxPCCheckup.ps1",
+      "bytes": 6483,
+      "sha256": "bfbd5abaa4d619c64b3875b571e1129f4dcba3b4e17c1e8221e21c595b0245ac",
+      "mtimeUtc": "2026-10-17T00:33:26.118Z"
+    },
+    {
+      "path": "installed/app/platform/windows/WindowsHelpers.psm1",
+      "bytes": 6692,
+      "sha256": "780a4952406e542f03fa465321e5622f99fc837380562c790d5126ce1c7a2f29",
+      "mtimeUtc": "2026-10-17T00:33:26.122Z"
+    },
+    {
+      "path": "installed/app/reports/PdfWriter.psm1",
+      "bytes": 3680,
+      "sha256": "9771307b0998186ce0296613686fc4d966f03c649cf6f53a034a17a89c92f3f9",
+      "mtimeUtc": "2026-10-17T00:33:26.122Z"
+    },
+    {
+      "path": "installed/app/reports/ReportExport.psm1",
+      "bytes": 6677,
+      "sha256": "30363ad179f44baa8531305e0ccf41c352f32cd4180c0c2a1c8469d91ca0f12e",
+      "mtimeUtc": "2026-10-17T00:33:26.124Z"
+    },
+    {
+      "path": "installed/app/ui/Controls.psm1",
+      "bytes": 14909,
+      "sha256": "666f899776d54961b4f35da9856ce26b15c5fa1bd341617417329a0b9b9e0446",
+      "mtimeUtc": "2026-10-17T00:33:26.124Z"
+    },
+    {
+      "path": "installed/app/ui/Dialogs.psm1",
+      "bytes": 5892,
+      "sha256": "b1c5f8351c904bf27f4fd285326f06382f5bb90db31a7079b86aa272cbaf001a",
+      "mtimeUtc": "2026-10-17T00:33:26.126Z"
+    },
+    {
+      "path": "installed/app/ui/MainWindow.psm1",
+      "bytes": 73259,
+      "sha256": "b1fd7f0060d477c15542c23d929676b2b6519e2200da858fab1215bbc2fdabb8",
+      "mtimeUtc": "2026-10-17T00:33:26.126Z"
+    },
+    {
+      "path": "installed/app/ui/Theme.psm1",
+      "bytes": 2769,
+      "sha256": "c00598624be93aaf618c13ba910e4378a74d6901e9529ca3bedef08ef7c5eeb0",
+      "mtimeUtc": "2026-10-17T00:33:26.126Z"
+    },
+    {
+      "path": "installed/app/updates/Manifest.psm1",
+      "bytes": 6396,
+      "sha256": "e4b2fd9d433859bc6cf506034f750b2526fe873b28181cabb13aeeba987bc735",
+      "mtimeUtc": "2026-10-17T00:33:26.128Z"
+    },
+    {
+      "path": "installed/app/updates/Preferences.psm1",
+      "bytes": 1164,
+      "sha256": "83c12ea1af7435ecadcd8ee59a7685cb071a442d46ef500c5f4aab55d39e00c3",
+      "mtimeUtc": "2026-10-17T00:33:26.128Z"
+    },
+    {
+      "path": "installed/app/updates/UpdateChecker.psm1",
+      "bytes": 6175,
+      "sha256": "04c5c237d9b1d67fa2a530e8f993d669f3c70c979a6e9b37f78cbe7b5ca53980",
+      "mtimeUtc": "2026-10-17T00:33:26.130Z"
+    },
+    {
+      "path": "installed/app/updates/Versioning.psm1",
+      "bytes": 2824,
+      "sha256": "41958bfd1ca5df4866dfd4cd77a3ab156796164f517e346395acd14ad9960c43",
+      "mtimeUtc": "2026-10-17T00:33:26.130Z"
+    },
+    {
+      "path": "installed/app/workers/ActionWorker.ps1",
+      "bytes": 5297,
+      "sha256": "09676ede70be3b41c06aa462eaf4d76e8e0dabfb33bbc1a817788e66824e49d9",
+      "mtimeUtc": "2026-10-17T00:33:26.132Z"
+    },
+    {
+      "path": "installed/app/workers/InstallWorker.ps1",
+      "bytes": 9728,
+      "sha256": "4242da520ee1b2f3d5b0799e3c20d59aaf70e2442522ed2b1ac18ac06af1388f",
+      "mtimeUtc": "2026-10-17T00:33:26.132Z"
+    },
+    {
+      "path": "installed/app/workers/ScanWorker.ps1",
+      "bytes": 9078,
+      "sha256": "6cd64c5492e8ac4f2b4335a2cc17b697ffbbddda39cb0c422e68263426c95f79",
+      "mtimeUtc": "2026-10-17T00:33:26.132Z"
+    },
+    {
+      "path": "installed/app/workers/UninstallWorker.ps1",
+      "bytes": 8487,
+      "sha256": "4bc5dafb9da4907a495386759f69c62c45b4d825d1cbd90bdc521663df5e34ee",
+      "mtimeUtc": "2026-10-17T00:33:26.134Z"
+    },
+    {
+      "path": "installed/app/workers/UpdateCheckWorker.ps1",
+      "bytes": 2473,
+      "sha256": "a9d34c89241537462602c378dcd48d711b40e4acc6959fb49d7ba1d1968037c5",
+      "mtimeUtc": "2026-10-17T00:33:26.134Z"
+    },
+    {
+      "path": "installed/docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "bytes": 4900,
+      "sha256": "b5bdccde0fc22c6b490f60959796cea7f6d8fc5ee1c0b4ec4d51f5528e8d915d",
+      "mtimeUtc": "2026-10-17T00:33:26.136Z"
+    },
+    {
+      "path": "installed/docs/KNOWN_LIMITATIONS.md",
+      "bytes": 1605,
+      "sha256": "d60cb64e0ecde81e6b31d7a66696c929086a12cc5b246b5751a44f636a38466a",
+      "mtimeUtc": "2026-10-17T00:33:26.136Z"
+    },
+    {
+      "path": "installed/docs/PRIVACY_AND_SECURITY.md",
+      "bytes": 5866,
+      "sha256": "a881c09fa5fcacb7aad585fe7bf599f018caeff2b83a83d9b932cdaced240d64",
+      "mtimeUtc": "2026-10-17T00:33:26.136Z"
+    },
+    {
+      "path": "installed/docs/USER_GUIDE.md",
+      "bytes": 5097,
+      "sha256": "c435e197ebe5e29cafb6c4db0dc0d31bbbe2c10840a058a1c3c8be153e12c159",
+      "mtimeUtc": "2026-10-17T00:33:26.138Z"
+    },
+    {
+      "path": "installed/LICENSE.txt",
+      "bytes": 488,
+      "sha256": "a133a1b0b7024ece1be97ef2e0f3fd3bd645e3eb9afb8d14655acbd2a44a47ad",
+      "mtimeUtc": "2026-10-17T00:33:26.138Z"
+    },
+    {
+      "path": "installed/Nyx PC Checkup.exe",
+      "bytes": 33280,
+      "sha256": "9b20e399c090eeac78f6b257610ef915852a30baa52bb31d7546c5783052cb75",
+      "mtimeUtc": "2026-10-17T00:33:26.138Z"
+    },
+    {
+      "path": "installed/PAYLOAD_MANIFEST.json",
+      "bytes": 9997,
+      "sha256": "b1a6490bab92a7deabc38a3a5b3748926be3f6b3adb1404912313450c45ec56b",
+      "mtimeUtc": "2026-10-17T00:33:26.138Z"
+    },
+    {
+      "path": "installed/README_FIRST.md",
+      "bytes": 7223,
+      "sha256": "ef827680ddafff73b8050737722a05f2c09296701ae9cfc165f80c1f8000df62",
+      "mtimeUtc": "2026-10-17T00:33:26.140Z"
+    },
+    {
+      "path": "installed/SBOM.json",
+      "bytes": 3223,
+      "sha256": "dcc106579a02a32cf5b8bc91ccfbcd796800f084a51481f5d8962a73d79c763f",
+      "mtimeUtc": "2026-10-17T00:33:26.140Z"
+    },
+    {
+      "path": "installed/THIRD_PARTY_NOTICES.txt",
+      "bytes": 572,
+      "sha256": "4ebec3c18cf41719c5e3666c138c3359a02cd016e9f0afa0b3ae0308816ac6c0",
+      "mtimeUtc": "2026-10-17T00:33:26.140Z"
+    },
+    {
+      "path": "installed/Uninstall Nyx PC Checkup.exe",
+      "bytes": 35328,
+      "sha256": "ce3672ba838d9d727a01e8f8588c22faecdac7c3b25896733f53dcb3345963dc",
+      "mtimeUtc": "2026-10-17T00:33:26.140Z"
+    },
+    {
+      "path": "installed/VERSION.json",
+      "bytes": 315,
+      "sha256": "6d00b4234606c7c4bdf11739e9fb043ecf3aadfa19c9355738e92d9ace598526",
+      "mtimeUtc": "2026-10-17T00:33:26.142Z"
+    },
+    {
+      "path": "observer/live_20261018_130330_2511799.jsonl",
+      "bytes": 41220,
+      "sha256": "a890e079e82d62106762621a05958fb7bac0764cbd3b9479f4b8e43b04df6921",
+      "mtimeUtc": "2026-10-18T13:03:30.253Z"
+    },
+    {
+      "path": "data/config.json",
+      "bytes": 642,
+      "sha256": "d13deea3bb15646c3656ef7ad1ff08182280edf6128cc6b2ebc44b2abe6305ef",
+      "mtimeUtc": "2026-10-18T13:01:22.459Z"
+    },
+    {
+      "path": "data/logs/nyx-pc-checkup.log",
+      "bytes": 24101,
+      "sha256": "71eb5fa2928eb9b4612ee838aa7d8f0ebc7cd205bca938070a6013d8985c794d",
+      "mtimeUtc": "2026-10-18T13:02:03.951Z"
+    },
+    {
+      "path": "COLLECTION_RECEIPT.json",
+      "bytes": 16191,
+      "sha256": "d4b4553053ee910a583d810cca0472368aa1abb2b2d39e4e799aeca6eca99204",
+      "mtimeUtc": "2026-10-18T13:58:04.469Z"
+    }
+  ],
+  "productLogs": [
+    {
+      "path": "data/logs/nyx-pc-checkup.log",
+      "bytes": 24101,
+      "sha256": "71eb5fa2928eb9b4612ee838aa7d8f0ebc7cd205bca938070a6013d8985c794d",
+      "mtimeUtc": "2026-10-18T13:02:03.951Z"
+    }
+  ],
+  "limitations": [
+    "Partial grid-navigation assertion credit only; no complete-cell or suite PASS",
+    "No blanket absence-of-errors assurance inferred from logs",
+    "Historical 149 signed-copy-scope assertions remain separately scoped; aggregate318 is not318 frozen-candidate acceptances",
+    "Four newer FollowWindows safety cases remain pending fresh native collection",
+    "Old screenshot/native-interval gaps and five-cell literal identity-reference discrepancy remain unchanged"
+  ],
+  "metadata": "install-state.json excluded and uninspected; Independent QA only",
+  "noProductChanged": true,
+  "noPolicyChanged": true,
+  "noQaBypassAdded": true,
+  "noScansRepeated": true,
+  "noCompletedPredicatesRepeated": true,
+  "finalDecisionOwner": "Independent QA"
+}

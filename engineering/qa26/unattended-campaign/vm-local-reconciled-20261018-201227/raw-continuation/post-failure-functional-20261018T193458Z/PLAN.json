@@ -1,0 +1,28 @@
+{
+  "Schema": "QA26-UNRELATED-FUNCTIONAL-CONTINUATION-1",
+  "Utc": "2026-10-18T19:36:52.176998+00:00",
+  "UserOverride": "First-failure stop waived for unrelated tests; PDF failure retained",
+  "DpiTesting": "SKIPPED_BY_OWNER_NO_DISPLAY_CHANGES",
+  "ExistingExecutionToQualify": {
+    "PredicateId": "native_export_save_dialog_cancel_20261018",
+    "SourceCase": "installed_gui_export_txt_missing_20261018",
+    "ExecutionEvidence": "../functional-exports-20261018T192122Z/installed_export_txt_abort_prior_output_20261018T1925130094582Z_0dc27aaba8ef428ab7928409f642848e.json",
+    "Scope": "Already executed Escape from native Save dialog; expected no output and return to idle main. No rerun."
+  },
+  "NewCase": {
+    "PredicateId": "native_export_overwrite_decline_preserves_file_20261018",
+    "Predicate": "Native TXT Save As existing isolated fixture -> Confirm Save As -> No leaves fixture bytes unchanged and returns to Save dialog; Cancel exits without serialization or export",
+    "NoYesOrOverwrite": true,
+    "Fixture": "protected-export-existing.txt",
+    "FreshOutputScope": "This session folder only",
+    "NoTestRepeat": true
+  },
+  "UnrelatedToPdfFailure": "Decline/cancel exits before ReportExport/PdfWriter serialization. No PDF save or failed case repeated.",
+  "FrozenBuild": "2026.10.02-eng-qa26",
+  "NoScans": true,
+  "NoCleanup": true,
+  "NoPrivacySettingChange": true,
+  "NoWholeSuiteOrMatrixCredit": true,
+  "EngineeringPASSBefore": 327,
+  "EngineeringFAILBefore": 1
+}

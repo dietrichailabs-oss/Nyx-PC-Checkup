@@ -1,0 +1,9 @@
+{
+  "Utc": "2026-10-18T22:45:15.875963+00:00",
+  "QueueKey": "ACCESSIBLE_APPROVED_EXISTING_NATIVE_PS51_BASELINE",
+  "SupersedesLocalQueueRequirementDescriptionOnly": true,
+  "Status": "HOST_REACHABLE_CURRENT_IDENTITY_DENIED",
+  "RoutinePermissionRequests": 0,
+  "EssentialConnectionInformationRequested": true,
+  "Requirement": "Existing authenticated authorized host-side executor or baseline connection endpoint; no passwords, security changes or new services requested."
+}

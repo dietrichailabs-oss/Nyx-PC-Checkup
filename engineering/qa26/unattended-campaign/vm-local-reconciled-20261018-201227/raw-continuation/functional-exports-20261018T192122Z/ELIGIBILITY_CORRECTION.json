@@ -1,0 +1,8 @@
+{
+  "Utc": "2026-10-18T19:25:16.3141196Z",
+  "Status": "TXT_INELIGIBLE_PRIOR_OUTPUT_FOUND_PDF_REMAINS_ELIGIBLE",
+  "PriorPlanCorrected": "PLAN.json PriorNativeTxtOrPdfGUIExportExecutionsFound0 is superseded forTXT",
+  "TXT": "No save; cancelled normally; historical output copied/hash preserved; no credit",
+  "PDF": "No prior PDF reports found in imported ledgers or known Desktop/Documents/Downloads/app reports output locations; no duplicate native GUI PDF action found",
+  "DpiTestsSkipped": true
+}

@@ -1,0 +1,101 @@
+﻿{
+    "Schema":  "NYX-OWNER-APPSETUP-CLONE-1",
+    "StartedUtc":  "2026-10-18T15:29:47.1327939Z",
+    "SourceVMId":  "275a191c-cf8a-4929-9849-b9a293e9149d",
+    "CloneName":  "Nyx-AppSetup-20261018_1792337380402",
+    "Root":  "C:\\Nyx\\clones\\Nyx-AppSetup-20261018_1792337380402",
+    "CheckpointName":  "QA26_BASELINE_BEFORE_SIGNIN_FIX_20261018_1792337380402",
+    "Phase":  "STOPPED_WITH_ERROR",
+    "Success":  false,
+    "ProductChanged":  false,
+    "ExecutionPolicyChanged":  false,
+    "VPNSettingsChanged":  false,
+    "FirewallChanged":  false,
+    "DNSChanged":  false,
+    "TestsExecuted":  0,
+    "ScoreboardCreditAdded":  0,
+    "FrozenSource":  "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+    "Build":  "2026.10.02-eng-qa26",
+    "Harness":  "QA26-F023-PS51-26",
+    "TargetFix":  "KB5085516 or an applicable superseding cumulative update",
+    "TargetFixApplied":  false,
+    "SourceBefore":  {
+                         "Name":  "Nyx",
+                         "Id":  "275a191c-cf8a-4929-9849-b9a293e9149d",
+                         "State":  "Running",
+                         "CheckpointType":  "Standard",
+                         "DiskPaths":  [
+                                           "I:\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx"
+                                       ],
+                         "MACs":  [
+                                      "00155D00020E"
+                                  ]
+                     },
+    "PreservedLedgers":  [
+                             {
+                                 "Name":  "STATE.json",
+                                 "OriginalPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\STATE.json",
+                                 "CopiedPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\signin_fix_clone_20261018_1792337380402\\preserved-ledgers\\STATE.json",
+                                 "SHA256":  "59ED559C854FD15B43138764694BEFF595D75EEF7C8B05D43E95621E4F4D5C44",
+                                 "Bytes":  748578,
+                                 "OriginalLastWriteUtc":  "2026-10-18T14:18:38.0583588Z"
+                             },
+                             {
+                                 "Name":  "HUMAN_ACTION_QUEUE.json",
+                                 "OriginalPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\HUMAN_ACTION_QUEUE.json",
+                                 "CopiedPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\signin_fix_clone_20261018_1792337380402\\preserved-ledgers\\HUMAN_ACTION_QUEUE.json",
+                                 "SHA256":  "4C33F2A6318B0358A0BC99A137288268DAD9868B88A833C775DF49ADC8AF0E94",
+                                 "Bytes":  31547,
+                                 "OriginalLastWriteUtc":  "2026-10-18T14:18:38.1701059Z"
+                             },
+                             {
+                                 "Name":  "SCOREBOARD_CURRENT.json",
+                                 "OriginalPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\SCOREBOARD_CURRENT.json",
+                                 "CopiedPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\signin_fix_clone_20261018_1792337380402\\preserved-ledgers\\SCOREBOARD_CURRENT.json",
+                                 "SHA256":  "423733988EF9BFF7C1DCB1C99124384A92F848D64D498B7E934DF2E37A033A52",
+                                 "Bytes":  2724,
+                                 "OriginalLastWriteUtc":  "2026-10-18T14:18:38.0583588Z"
+                             },
+                             {
+                                 "Name":  "FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+                                 "OriginalPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+                                 "CopiedPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\signin_fix_clone_20261018_1792337380402\\preserved-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+                                 "SHA256":  "55178301571C1046FC80441D1FB35C03D6C1F72BEDEAEAF355D8B20FF98D7E5F",
+                                 "Bytes":  766285,
+                                 "OriginalLastWriteUtc":  "2026-10-18T13:37:37.2222459Z"
+                             },
+                             {
+                                 "Name":  "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+                                 "OriginalPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+                                 "CopiedPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\signin_fix_clone_20261018_1792337380402\\preserved-ledgers\\FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+                                 "SHA256":  "3ABEDFB36F1277EEDD172B6C778995E3AEA356998B189380198BA04B8CEBC330",
+                                 "Bytes":  32589,
+                                 "OriginalLastWriteUtc":  "2026-10-18T14:18:38.0528478Z"
+                             },
+                             {
+                                 "Name":  "FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_PLAN_20261018.json",
+                                 "OriginalPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa14_github_publish\\repo\\engineering\\qa26\\unattended-campaign\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_PLAN_20261018.json",
+                                 "CopiedPath":  "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\signin_fix_clone_20261018_1792337380402\\preserved-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_PLAN_20261018.json",
+                                 "SHA256":  "6A9A20E95B6773A946DBE7D1B47400B89618859BC3AC58A89E25CDA1A2D5C0C1",
+                                 "Bytes":  88008,
+                                 "OriginalLastWriteUtc":  "2026-10-18T13:34:51.8861627Z"
+                             }
+                         ],
+    "UpdatedUtc":  "2026-10-18T15:30:40.6986589Z",
+    "Checkpoint":  {
+                       "Id":  "a61b38f3-d4b8-4563-962e-e19552283f8b",
+                       "Name":  "QA26_BASELINE_BEFORE_SIGNIN_FIX_20261018_1792337380402",
+                       "CreationTime":  "2026-10-18T15:29:53.0217130Z",
+                       "SnapshotType":  "Standard",
+                       "DiskPaths":  [
+                                         "I:\\Nyx\\Virtual Hard Disks\\Nyx_38E50318-2BDA-4DD6-A96A-4CF681291D44.avhdx"
+                                     ]
+                   },
+    "SourcePreservedState":  "Saved",
+    "ExportRoot":  "C:\\Nyx\\clones\\Nyx-AppSetup-20261018_1792337380402\\PreservedExport",
+    "ExportedConfig":  "C:\\Nyx\\clones\\Nyx-AppSetup-20261018_1792337380402\\PreservedExport\\Nyx\\Virtual Machines\\A61B38F3-D4B8-4563-962E-E19552283F8B.vmcx",
+    "ExportedConfigSHA256":  "B724A7BABCC83DA933A5CDC54711C6E7BBAC064ABE0B7D1385AAB014E41B613E",
+    "ExportCompletedUtc":  "2026-10-18T15:30:37.6354835Z",
+    "Error":  "Unable to import virtual machine due to configuration errors.  Please use Compare-VM to repair the virtual machine.",
+    "CompletedUtc":  "2026-10-18T15:30:40.6976588Z"
+}

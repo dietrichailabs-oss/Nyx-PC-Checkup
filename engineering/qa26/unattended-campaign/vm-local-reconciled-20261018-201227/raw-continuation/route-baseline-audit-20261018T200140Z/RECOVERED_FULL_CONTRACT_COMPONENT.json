@@ -1,0 +1,68 @@
+{
+  "Schema": "QA26-HISTORICAL-RAW-COLLECTION-ONLY-1",
+  "Utc": "2026-10-18T20:05:22.472782+00:00",
+  "PredicateReference": "Light125AppsFull20261005_2142",
+  "ImportedStatus": "PENDING_COLLECTION",
+  "LocalStatus": "RAW_COLLECTED_CONTRACT_COMPONENT_RECONCILED",
+  "RawSHA256": "3CF7EE8D2CF1A5203912377C5D8794988B31F6B441336A1654811DBC148CA88A",
+  "OriginalStartedUtc": "2026-10-06T01:41:31.4478983Z",
+  "OriginalCompletedUtc": "2026-10-06T01:42:11.4019523Z",
+  "PreservedFiles": [
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\app-data-at-end\\scans\\last-scan.json",
+      "Copy": "recovered-original-full\\original-full-20261006T014211Z.json",
+      "SHA256": "3CF7EE8D2CF1A5203912377C5D8794988B31F6B441336A1654811DBC148CA88A",
+      "Bytes": 326971
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\CANDIDATE.json",
+      "Copy": "recovered-original-full\\CANDIDATE.json",
+      "SHA256": "B9C89654A0A5DBDD87E5AFD679BAD8FD33705C6BF4E57C974ACC5746A8CDF8CC",
+      "Bytes": 1751
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\INSTALLED_PAYLOAD_HASHES.json",
+      "Copy": "recovered-original-full\\INSTALLED_PAYLOAD_HASHES.json",
+      "SHA256": "0817B8F0A78EA53B004EBE343EF80A52E0DECC50B380BD2362B00616B9AE8825",
+      "Bytes": 10600
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\END.json",
+      "Copy": "recovered-original-full\\END.json",
+      "SHA256": "A7720D6FB5BD7FDEA150B43A3B19163E1F4DFB6C51AC583DB66FEBAA87F1BC83",
+      "Bytes": 161
+    }
+  ],
+  "HistoricalPayloadHashesMatched": 60,
+  "Checks": {
+    "jsonObjectAndResults": true,
+    "validTimestampOrder": true,
+    "uniqueCheckIds": true,
+    "requiredResultFields": true,
+    "statusVocabulary": true,
+    "summaryMatchesCounts": true,
+    "modePopulation": true,
+    "readOnlyCompletion": true
+  },
+  "WorkerErrorCheckIdPresent": false,
+  "HistoricalUiRecord": {
+    "id": "light125_apps_full_completed_1791250956325_a40c7d90",
+    "status": "PASS_OBSERVED",
+    "details": {
+      "observation": "Actual Full completed and Apps inventory populated; footer 2 things need attention, idle Cancel disabled. No WorkerError assertion until original raw contract collected."
+    },
+    "evidence": "screenshots/light125_apps_full_completed_1791250956325_a40c7d90.jpg",
+    "utc": "2026-10-06T01:42:36.326Z"
+  },
+  "NewTestExecutions": 0,
+  "RepeatedTests": 0,
+  "EngineeringPASSAdded": 0,
+  "MatrixCredit": 0,
+  "Scope": "Exact inherited historical raw data recovered as data and independently contract-checked. Current clone data is not fresh execution evidence. No new installed-function test or full F010/F016 gate claimed.",
+  "Remaining": [
+    "Original activation-to-worker process binding and complete lifecycle/cancellation proof are not supplied by the later snapshot.",
+    "No historical DPI, theme qualification, grid, cell or current security-health inference.",
+    "Original source VM remains unaccessed; inherited copied baseline does not supersede the original raw."
+  ],
+  "ImportedLedgersModified": false
+}

@@ -1,0 +1,21 @@
+{
+  "Utc": "2026-10-18T18:18:44.109953+00:00",
+  "PredicateId": "light150_startup_missing_location_20261018",
+  "Status": "PREREQUISITES_QUALIFIED",
+  "Theme": "Light",
+  "NativeDpi": 144,
+  "Pid": 4816,
+  "SessionId": 2,
+  "NonElevated": true,
+  "BeforeReceipt": "light150_startup_missing_location_before_20261018T1818237122689Z_643c227500834f98a352ac00ba2d0947.json",
+  "AppliedThemeEvidence": "light150_applied_native144_setup_20261018T1817308669388Z_4243b66e8b864b338af154b5a7c5271f.json",
+  "NormalRelaunchObserved": true,
+  "Fixture": "\"C:\\Q26EvidenceHarness\\QA26_INTENTIONALLY_MISSING.exe\"",
+  "FixtureTargetExists": false,
+  "FrozenFilesMatched": 60,
+  "HelperSHA256": "E1AF11F10A1238EEC1C4603AE2FFE340B714907DD9EE13739A913EA82EA1A6A7",
+  "HelperSourceSHA256": "81E13CE15C0F3CC7D6246547FCE45200008CD0610B7A850FFE6A559C96A4F60F",
+  "NoScans": true,
+  "NoStartupMutation": true,
+  "NonThemeConfigUnchanged": true
+}

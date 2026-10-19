@@ -1,0 +1,1032 @@
+{
+  "Schema": "QA26-CONTINUATION-MANIFEST-1",
+  "Utc": "2026-10-18T19:41:33.933905+00:00",
+  "Files": [
+    {
+      "Path": "BASE_SCOREBOARD_CURRENT.json",
+      "Bytes": 3412,
+      "SHA256": "ED9F5AF18E26771058955EFA90A669BAC4F5E0844DFDFCEEE8BEB28522A633E5"
+    },
+    {
+      "Path": "CANCEL_RECOVERY_QUALIFICATION.json",
+      "Bytes": 2544,
+      "SHA256": "E591842BEE05A83904973ACFA05EBD4ACCF894BD1C310FE0414F00066AB2F604"
+    },
+    {
+      "Path": "CASE_EXECUTIONS.jsonl",
+      "Bytes": 1170,
+      "SHA256": "4C376D63107E699F22ECA02B152B9E6467A347874BFBCBD386A3785A50EF1362"
+    },
+    {
+      "Path": "config_before.json",
+      "Bytes": 642,
+      "SHA256": "D13DEEA3BB15646C3656EF7AD1FF08182280EDF6128CC6B2EBC44B2ABE6305EF"
+    },
+    {
+      "Path": "CONTINUATION_REPORT.txt",
+      "Bytes": 1771,
+      "SHA256": "6388F11A52919AF387FE310CBD82F651D943A6E1E9BA74F4017EDDBDE4D14399"
+    },
+    {
+      "Path": "CURRENT_NYX_WINDOWS.json",
+      "Bytes": 843,
+      "SHA256": "712D7C26C5FD8526989D333B4D8F9093D34B6B0121264D6CE6EE37F6C4FE8BCD"
+    },
+    {
+      "Path": "DELTA.jsonl",
+      "Bytes": 627,
+      "SHA256": "D310E8854929FDA9093F346277A7E043881177D6F7678C8A1868F18AA84783F5"
+    },
+    {
+      "Path": "FILE_PREFLIGHT.json",
+      "Bytes": 987,
+      "SHA256": "8F36C5B92C3A0CC70C909DF6A25351E7D7516DCE981309B933D063C613736FD8"
+    },
+    {
+      "Path": "final_idle_native_state_20261018T1940385968271Z_714519ebffb34f9b936f9649f2b92993.json",
+      "Bytes": 20064,
+      "SHA256": "AA3857417ECAAEF5F6907B42020932CFD3C0BD76859F0B3C68A9A28C40B65899"
+    },
+    {
+      "Path": "final_idle_native_state_20261018T1940385968271Z_714519ebffb34f9b936f9649f2b92993.png",
+      "Bytes": 85835,
+      "SHA256": "25AD8C9A504D8EE708CB49ABF6BBEC190FF3634CCE60471BFB3DF3A8C4A4D5FF"
+    },
+    {
+      "Path": "FINAL_WINDOW_INVENTORY.json",
+      "Bytes": 843,
+      "SHA256": "712D7C26C5FD8526989D333B4D8F9093D34B6B0121264D6CE6EE37F6C4FE8BCD"
+    },
+    {
+      "Path": "finalize_unrelated.py",
+      "Bytes": 11470,
+      "SHA256": "549C1780CDB56BF33E765616093EC57FDF84B3949EA0B6AF6FD4B9CD1AF7245B"
+    },
+    {
+      "Path": "history_before.jsonl",
+      "Bytes": 4865,
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F"
+    },
+    {
+      "Path": "HUMAN_ACTION_QUEUE_DELTA.json",
+      "Bytes": 1681,
+      "SHA256": "40C6CBC7BF19294952276E737C0CA2886A417C93139CA937B9B16ECE00E7EEB9"
+    },
+    {
+      "Path": "INTEGRITY_POSTCHECK.json",
+      "Bytes": 1935,
+      "SHA256": "BF0970D62C05E58EE0EE51C06AF5F8B723FD057791B0EFC6496C2B4883911D68"
+    },
+    {
+      "Path": "NATIVE_POLICY_POSTCHECK.json",
+      "Bytes": 569,
+      "SHA256": "76AC3D6D7308803602A0BF788CDCA5D3F5B0FDE086F22CA4BB1EE10CD4097432"
+    },
+    {
+      "Path": "NyxSaveGuardProbe.cs",
+      "Bytes": 12740,
+      "SHA256": "0D8CAF79CFCA945D7ED79BBC439BE7292E4B382C232F8F48FA65C81EA0654229"
+    },
+    {
+      "Path": "NyxSaveGuardProbe.exe",
+      "Bytes": 18944,
+      "SHA256": "968C9599C75A465A1472ECBE204C61CEF181F3DB836E1466E8A3250E6558E07F"
+    },
+    {
+      "Path": "NyxSaveGuardProbe_before_no_only.cs",
+      "Bytes": 12597,
+      "SHA256": "116A8722E5D440CB89412FD761EDF352E90346D4872DD8F0F937BC2555E1CA00"
+    },
+    {
+      "Path": "NyxSaveGuardProbe_before_no_only.exe",
+      "Bytes": 18944,
+      "SHA256": "0DEE76B557A05F9B1ABD23371D9BE15D8EA8F9E608521826BD3AB1F41B371145"
+    },
+    {
+      "Path": "NyxWindowInventory.cs",
+      "Bytes": 1450,
+      "SHA256": "20D83236CCBB7617AF5F591B6E6FF10E951F8E4D69488D1CAE74BB385237D30F"
+    },
+    {
+      "Path": "NyxWindowInventory.exe",
+      "Bytes": 8192,
+      "SHA256": "595DA8772DB810BA3B870C63B5A64059F040744BD7294F945BDD9D8914C30C3B"
+    },
+    {
+      "Path": "overwrite_decline_continue_focus_20261018T1938100179533Z_17efa9b6613348fc9efd4a4a4a208e0a.json",
+      "Bytes": 5574,
+      "SHA256": "5B830BB350F4B257D6C58A356DF7EAB2E03495C6EBC7A8EFB7FDF57ADDC53756"
+    },
+    {
+      "Path": "overwrite_decline_continue_focus_20261018T1938100179533Z_17efa9b6613348fc9efd4a4a4a208e0a.png",
+      "Bytes": 117646,
+      "SHA256": "3199C03A059181B32BD7C8711A984931FD7D6ED58D7431E871454564A59A9375"
+    },
+    {
+      "Path": "overwrite_decline_fixed_fixture_20261018T1939352522119Z_8f1ec0a43b4447e4971eb68f801c0c51.json",
+      "Bytes": 16910,
+      "SHA256": "F94F684F31235B5A8C03605D11A2494933ADEA8F91481AB13E3B9CF792F0B7B2"
+    },
+    {
+      "Path": "overwrite_decline_fixed_fixture_20261018T1939352522119Z_8f1ec0a43b4447e4971eb68f801c0c51.png",
+      "Bytes": 78491,
+      "SHA256": "106AA225C0A0DBA0CF1CE16E7D8C817C9644F6DE645B819B24671937CCE04B72"
+    },
+    {
+      "Path": "overwrite_decline_preview_setup_20261018T1937546419736Z_a904a0f01352488298fb20b3a19260b0.json",
+      "Bytes": 24918,
+      "SHA256": "00F43C662C4D13D0EC63270C5C19EC9B945351BA4899766A0A0CEB279CCA9614"
+    },
+    {
+      "Path": "overwrite_decline_preview_setup_20261018T1937546419736Z_a904a0f01352488298fb20b3a19260b0.png",
+      "Bytes": 85835,
+      "SHA256": "CDD601DB919C17F237F8F9022F574C02F061ACA568D15E1233391011275FFC04"
+    },
+    {
+      "Path": "overwrite_decline_save_bound_20261018T1939244879215Z_5df4a390e90f4fe19345526d415ab5c1.json",
+      "Bytes": 16870,
+      "SHA256": "F9634C1247C575E0B5BFC1A40A3D57E59BC99345610CC4228DE043A0001ECB8D"
+    },
+    {
+      "Path": "overwrite_decline_save_bound_20261018T1939244879215Z_5df4a390e90f4fe19345526d415ab5c1.png",
+      "Bytes": 76432,
+      "SHA256": "878D7E2137B793E66E185FD67D4E2859EB57DA4BEB151260A1E65D4EDF719571"
+    },
+    {
+      "Path": "overwrite_decline_save_once_20261018T1939454278197Z_3ccb1dbd2ece48b59db372caee5cb19c.json",
+      "Bytes": 21409,
+      "SHA256": "7092CE1DE1C0EF36BF56897D920E448D0D9140A959A6E31954EC7B536072D440"
+    },
+    {
+      "Path": "overwrite_decline_save_once_20261018T1939454278197Z_3ccb1dbd2ece48b59db372caee5cb19c.png",
+      "Bytes": 85835,
+      "SHA256": "25AD8C9A504D8EE708CB49ABF6BBEC190FF3634CCE60471BFB3DF3A8C4A4D5FF"
+    },
+    {
+      "Path": "OVERWRITE_DECLINE_UNQUALIFIED.json",
+      "Bytes": 1943,
+      "SHA256": "3F77053B90B3852DEDBA1E26F4E57E9F410140BB44C610F5C4C005E64FD82F08"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/ARCHITECTURE.md",
+      "Bytes": 12098,
+      "SHA256": "630A99610313C4E9D050926EBDB31229C0835653371636280065DDAFCD3B23A3"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/BUILD_AND_REPRODUCE.md",
+      "Bytes": 3450,
+      "SHA256": "7852C22EA28FFE55FDF3F1C43DEAD7DD65DE650788D5AA0428FAEA2E41D915CD"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/ENGINEERING_SCOPE.md",
+      "Bytes": 34818,
+      "SHA256": "8CA2D9B96587C8FC4C0B9EF4916F96DDF72311A9FCAE91F0317D36BDF47F8497"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "Bytes": 4900,
+      "SHA256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/KNOWN_LIMITATIONS.md",
+      "Bytes": 1605,
+      "SHA256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/MODULE_CONTRACTS.md",
+      "Bytes": 11373,
+      "SHA256": "096E74162D871A2B5A16E3525AB4709FF9C5282EFB3AB6B2973F8AEBE369ACC2"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/MODULE_MAP.md",
+      "Bytes": 5511,
+      "SHA256": "1EC2CFA4DE33D51D085507B4FC23ACED6296C799E45BCA6808B15F1CD13B8860"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/PRIVACY_AND_SECURITY.md",
+      "Bytes": 5866,
+      "SHA256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA10_F009_UI_CLOSE_CORRECTION.md",
+      "Bytes": 2791,
+      "SHA256": "7366375E10389E803A64B1AE320B803754B5B7DF17A5268BEE233C1D930A0FE9"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA12_F011_INSTALLED_LAUNCH_CORRECTION.md",
+      "Bytes": 4499,
+      "SHA256": "EEF4384B92732DF4934A327D77A68D7CCFE9FD2236092358415EC0D98DB07CCC"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA15_F012_SETTINGS_THEME_SAVE_CORRECTION.md",
+      "Bytes": 468,
+      "SHA256": "AF1D4346085ED3B8DA6F5BAAC600E422C208809030DD1F2160615FD38A49EDF8"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA23_F020_GRID_AUDIT.md",
+      "Bytes": 1800,
+      "SHA256": "9D059A8ED0894463475C3920619A616655A3B8C8B71EF5D4E7F39C065E47FF57"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA24_F021_CALLBACK_AUDIT.md",
+      "Bytes": 2779,
+      "SHA256": "445A24E2BF4F360059D2C046CD3904BFE0CF40BAD8827E14E0750E219EA083A3"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA25_F022_COLUMN_READABILITY.md",
+      "Bytes": 2846,
+      "SHA256": "1CBF9CDF3A879BB7AE2707013ABAC2B1876A897F998ED88F828D70C04E635254"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA26_F023_KEYBOARD_ACTIONS.md",
+      "Bytes": 2053,
+      "SHA256": "65BBAC5843A86158280CA2338D73FE581A59D2F6B6D5E616F21830C9E690EF61"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA2_CORRECTION_MATRIX.md",
+      "Bytes": 7093,
+      "SHA256": "387A9BB86B8BD35E75DC903678AC6567DB6D57573EEF4E449B69C73148272AC5"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA3_CORRECTION_MATRIX.md",
+      "Bytes": 6120,
+      "SHA256": "0F9EE9CA1FC7D7F5CBBCF60B5796C326CDFF6CD2C4172809B213D051F3C3D50E"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA4_WINDOWS_HARNESS_CORRECTION.md",
+      "Bytes": 2820,
+      "SHA256": "92D96A97C5AD57A88C60726C7A83C089475850426902608977F434F591D4E30C"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA5_WINDOWS_EXECUTION_CORRECTION.md",
+      "Bytes": 8156,
+      "SHA256": "2E480B8B3BCF89C341ED1DAEFDCC76398695D64D36A499D69B30C926810377A6"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA6_MODULE_COMPOSITION_CORRECTION.md",
+      "Bytes": 5521,
+      "SHA256": "2E595A08465F10259585893166537566555429C86B6CCA5DFDBAFFCF7F087C75"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA7_F006_UNINSTALL_CORRECTION.md",
+      "Bytes": 2707,
+      "SHA256": "3DEE6624835EAD321E741EA1E032B3304AD88A216E7F237176C305BBDF5DD56B"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA7_WINDOWS_HARNESS_REISSUE.md",
+      "Bytes": 1416,
+      "SHA256": "87A7853C6BF85C31CEB550C5A31B9C3EFDF26FE871DE0B73FBDA15C3374D9703"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA8_F007_EMPTY_COLLECTION_CORRECTION.md",
+      "Bytes": 1671,
+      "SHA256": "F4B05BF2B9430434561FAF749ED3D8BABA8DBA863C397CD256010018BC955953"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA9_F008_UI_CORRECTION.md",
+      "Bytes": 2833,
+      "SHA256": "BDDACF2CC75735ACC908B5B60AEF09A9E0EEC5E7FCA6D2CC2916AD8B8F6D8621"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA9_WH004_MIGRATION_HARNESS_CORRECTION.md",
+      "Bytes": 3596,
+      "SHA256": "8AA021B2C5AAF121F544CC3DAE4276FD5825D75A7924596E9E67135D39B84BD8"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA9_WH005_MIGRATION_HARNESS_CORRECTION.md",
+      "Bytes": 3492,
+      "SHA256": "72748E04CD06FFE6555DF7E4B45FB0A22A103DF4CF41D683DE7C760C001E14EF"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA9_WH006_MIGRATION_HARNESS_CORRECTION.md",
+      "Bytes": 3074,
+      "SHA256": "F3A8D1269A7C052BAC108569F0AA33F75C0F8712EA713926158F54A30A38DDCB"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/QA_TEST_PLAN.md",
+      "Bytes": 12608,
+      "SHA256": "709CD2EF820375675C811AD819CE093F13EF33F965AF233BD4BFAFAFA3ED13C3"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/RELEASE_NOTES.md",
+      "Bytes": 2529,
+      "SHA256": "6293CCB00F76F8484ACCED8F96542EAD52B7C4EEF24BF1BD0964E0DAC32A03D6"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/UPDATE_CHECK_IMPLEMENTATION.md",
+      "Bytes": 5899,
+      "SHA256": "27FD6E2F91BA1D549845AD2BBE34EB23F59510E5DB37DC03A21DCB0D15E63EA6"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/USER_GUIDE.md",
+      "Bytes": 5097,
+      "SHA256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/docs/WHO_GETS_WHAT_NEXT.md",
+      "Bytes": 1567,
+      "SHA256": "1DBE5CF77A151B735319EE04CF8511B5CD00F52BA60FD144C004A65AF55A1897"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/LICENSE.txt",
+      "Bytes": 488,
+      "SHA256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/app.manifest",
+      "Bytes": 1083,
+      "SHA256": "D8FB3B287C4EF05552A8073CB7AFB905C50A624D734F5723181CED08883BB7A9"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/imports/kernel32.def",
+      "Bytes": 311,
+      "SHA256": "DC9583CD47A06A5A2F0BD028F17CFD0782244C83480D4E66FDCCA493FFF6CFB7"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/imports/shell32.def",
+      "Bytes": 52,
+      "SHA256": "44378DE1D0A9A12DF5FE6DF01561D7124D3AE577DADC9C8694DE9DBDC1A96F22"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/imports/user32.def",
+      "Bytes": 42,
+      "SHA256": "48370A5C167741B800AF5B0A164D1B2D3C0D4AF41275385F4CB477FB52E1DB6F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/installer.cpp",
+      "Bytes": 17249,
+      "SHA256": "E59886D0E4B292189E3FDF34A7E03C3E5D9CEB26BAEA046500DCA1A99F3BD79A"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/launcher.cpp",
+      "Bytes": 1268,
+      "SHA256": "A9959EE2D9013ACB0D5CC8420A79C158BE90D2B54CB86CEFC021E20674F52AB5"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/uninstaller.cpp",
+      "Bytes": 1416,
+      "SHA256": "090EC28D3CC66A82381A494093E138B68FEEC09FAC688F4DFE9799BEFE6712B4"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/native/win_types.hpp",
+      "Bytes": 6117,
+      "SHA256": "4372460FA66D4C4ED6279F1608EFFCE02DEE991542B7F411A8A60A23B9986F9C"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/pytest.ini",
+      "Bytes": 157,
+      "SHA256": "A802D2C895B17C2AA2961B9CDC61A01BBA0FF94C5AA82A70BB3E022FE93E2250"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/README_FIRST.md",
+      "Bytes": 7223,
+      "SHA256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/SBOM.json",
+      "Bytes": 3223,
+      "SHA256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/SOURCE_TREE_IDENTITY.json",
+      "Bytes": 25483,
+      "SHA256": "C22763912CC9D165A88F42B869EFEBC5199B10FA6C5F71C7C81BAC0EBDF4580C"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/actions/CleanupActions.psm1",
+      "Bytes": 7811,
+      "SHA256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/actions/StartupActions.psm1",
+      "Bytes": 23951,
+      "SHA256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/assets/brand_banner.png",
+      "Bytes": 4630,
+      "SHA256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/assets/nyx_pc_checkup.ico",
+      "Bytes": 25277,
+      "SHA256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/assets/nyx_pc_checkup.png",
+      "Bytes": 3315,
+      "SHA256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/BackupStatus.psm1",
+      "Bytes": 4417,
+      "SHA256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/BatteryHealth.psm1",
+      "Bytes": 3085,
+      "SHA256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/CleanupScan.psm1",
+      "Bytes": 11612,
+      "SHA256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/DownloadsAnalysis.psm1",
+      "Bytes": 7999,
+      "SHA256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/DriveHealth.psm1",
+      "Bytes": 3423,
+      "SHA256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/InstalledApps.psm1",
+      "Bytes": 4311,
+      "SHA256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/NetworkBasics.psm1",
+      "Bytes": 4679,
+      "SHA256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/PerformanceSnapshot.psm1",
+      "Bytes": 3373,
+      "SHA256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/SecurityStatus.psm1",
+      "Bytes": 9982,
+      "SHA256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/StartupApps.psm1",
+      "Bytes": 8100,
+      "SHA256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/StorageHealth.psm1",
+      "Bytes": 1299,
+      "SHA256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/StorageScan.psm1",
+      "Bytes": 6929,
+      "SHA256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/SystemInfo.psm1",
+      "Bytes": 2676,
+      "SHA256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/Uptime.psm1",
+      "Bytes": 1146,
+      "SHA256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/checks/WindowsUpdates.psm1",
+      "Bytes": 4902,
+      "SHA256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/config/defaults.json",
+      "Bytes": 461,
+      "SHA256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/ActionHistory.psm1",
+      "Bytes": 24721,
+      "SHA256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/CheckupEngine.psm1",
+      "Bytes": 7640,
+      "SHA256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/Configuration.psm1",
+      "Bytes": 7302,
+      "SHA256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/Diagnostics.psm1",
+      "Bytes": 1932,
+      "SHA256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/Models.psm1",
+      "Bytes": 4355,
+      "SHA256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/Paths.psm1",
+      "Bytes": 5304,
+      "SHA256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/Privacy.psm1",
+      "Bytes": 6683,
+      "SHA256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/core/RuntimeComposition.psm1",
+      "Bytes": 15055,
+      "SHA256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/health_rules/HealthRules.psm1",
+      "Bytes": 4761,
+      "SHA256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/health_rules/rules.json",
+      "Bytes": 784,
+      "SHA256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/NyxPCCheckup.ps1",
+      "Bytes": 6483,
+      "SHA256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/platform/linux/CONTRACT.md",
+      "Bytes": 391,
+      "SHA256": "AA823BEAAD73174A70BA7191FB95A3DC2B4F0A0F864C68A97F2410C86C22D253"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/platform/windows/WindowsHelpers.psm1",
+      "Bytes": 6692,
+      "SHA256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/reports/PdfWriter.psm1",
+      "Bytes": 3680,
+      "SHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/reports/ReportExport.psm1",
+      "Bytes": 6677,
+      "SHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/ui/Controls.psm1",
+      "Bytes": 14909,
+      "SHA256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/ui/Dialogs.psm1",
+      "Bytes": 5892,
+      "SHA256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/ui/MainWindow.psm1",
+      "Bytes": 73259,
+      "SHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/ui/Theme.psm1",
+      "Bytes": 2769,
+      "SHA256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/updates/Manifest.psm1",
+      "Bytes": 6396,
+      "SHA256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/updates/Preferences.psm1",
+      "Bytes": 1164,
+      "SHA256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/updates/UpdateChecker.psm1",
+      "Bytes": 6175,
+      "SHA256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/updates/Versioning.psm1",
+      "Bytes": 2824,
+      "SHA256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/workers/ActionWorker.ps1",
+      "Bytes": 5297,
+      "SHA256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/workers/InstallWorker.ps1",
+      "Bytes": 9728,
+      "SHA256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/workers/ScanWorker.ps1",
+      "Bytes": 9078,
+      "SHA256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/workers/UninstallWorker.ps1",
+      "Bytes": 8487,
+      "SHA256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/src/app/workers/UpdateCheckWorker.ps1",
+      "Bytes": 2473,
+      "SHA256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/fixtures/qa2/Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+      "Bytes": 417280,
+      "SHA256": "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/fixtures/qa2/Nyx_PC_Checkup_1.0.0_QA2_Source.zip",
+      "Bytes": 209483,
+      "SHA256": "22FCFA7E3050CA854803DD0265109F92444E38E081483A7E2C73DFC0BC522B36"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/fixtures/qa2/QA2_FIXTURE_MANIFEST.json",
+      "Bytes": 1346,
+      "SHA256": "16D68F99925BC509F2F2BE1B907144927CD75D9F2A0C08FAD1D05250A054743F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/InstallerDiagnosticsHelpers.ps1",
+      "Bytes": 10180,
+      "SHA256": "4C54ACD60E661728A50EE84B0EABE52585C219002ABB8AD3B9A203A038E8A1A0"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Run-WindowsElevatedStartupRollback.ps1",
+      "Bytes": 13799,
+      "SHA256": "4DE36AC3D10900798A97AA5B2AB14FD000568F29A33651FC172DB56FE6EEF3C8"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Run-WindowsInstalledLaunchRegression.ps1",
+      "Bytes": 28594,
+      "SHA256": "2FB7A8DA1BFBEBC2CA774E4FC2B89B581B6BC91304C65A6AFFC6F9D3DE56B4FD"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Run-WindowsInstallerLifecycle.ps1",
+      "Bytes": 21779,
+      "SHA256": "93811822FF7DEC9EAA7D9546E2E039B4DBE9286A5F80BDD58217DDE72BA47B9F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Run-WindowsQA2MigrationRegression.ps1",
+      "Bytes": 53486,
+      "SHA256": "14630FDB4E0040E24B14767ADAB351DB7BE402CC7D812261C9BD791CF349FA7A"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Run-WindowsSettingsThemeRegression.ps1",
+      "Bytes": 7270,
+      "SHA256": "820491AB6BCF5FDBA10424A541C464DCAA1D8D4F4654E86F3C1FB793492CC745"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Run-WindowsSmokeTests.ps1",
+      "Bytes": 42001,
+      "SHA256": "125FE4AA381594F6DD693B15F14B0C48CF908868CD6BF2663036208F51C51503"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/RUN_QA15_WINDOWS_GATE.ps1",
+      "Bytes": 17265,
+      "SHA256": "42A1FA1837C99A00F41CF1B41FD22C8E6490EDAC8F788454D060593D7846268B"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA16WindowBoundsGeometry.ps1",
+      "Bytes": 2357,
+      "SHA256": "78027EB8F9D6F069B02EA222DFEA0313EA96526E728FC951DE3FFAA80A5927E7"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA17DeviceGeometry.ps1",
+      "Bytes": 1574,
+      "SHA256": "7286ED1D76020FA41E6A03741147D6C2820ACB6C7311CFBCC576C97E61500DA1"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA18StartupDeferredState.ps1",
+      "Bytes": 6948,
+      "SHA256": "8D8C7B471DD6FD55A706301748139D11662C6B88C17929E2CF17825590837C05"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA19ProgressConcurrency.ps1",
+      "Bytes": 6235,
+      "SHA256": "A89135C1B9E8BA06AB4C80CAB80865040A4CB005486D085DC59C33404FE6BA27"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA20PropertyGuards.ps1",
+      "Bytes": 4730,
+      "SHA256": "2459D90ABB1B00A097E45FA4E279A5AFD42F217428B5182074634D367440399F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA21RegistryProvider.ps1",
+      "Bytes": 5485,
+      "SHA256": "2962B75125D6ED2867524ADBF2DF3B87B226D24F5E1E527FAA5D3909D62D7876"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA22CategoryCardinality.ps1",
+      "Bytes": 5915,
+      "SHA256": "8C09D3A41668158ACADD46E5A65BA591055F04675B9B178FEA919E94A411878F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA23GridFocusVisibility.ps1",
+      "Bytes": 6346,
+      "SHA256": "11727C223983C08A65BC789BAD6B0C4091F700C6A0812608448CF80AD60C46EB"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA24DeferredPages.ps1",
+      "Bytes": 12305,
+      "SHA256": "6843931AEA710A8138FA9A2CCC4202D520F12A3F847C9252AB44A0DD5F0CAC87"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA25AppsColumnReadability.ps1",
+      "Bytes": 7737,
+      "SHA256": "CC65AEE0FD73E024D084D258D32DA7C6B8693A351E3066CCF2F0CFBC429C232E"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/powershell/Test-QA26ResultKeyboardActivation.ps1",
+      "Bytes": 10938,
+      "SHA256": "D1DCD5CD04AF2420C5A50F4432179566BDE76C37C56D316C3C3719B2D753AAFA"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_engineering_contracts.py",
+      "Bytes": 45197,
+      "SHA256": "AC6D7F6E6370913B018F8053684976C8548659F9EEEDED61BEC2D9D3ECACB70F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_installer_branch_diagnostics.py",
+      "Bytes": 3572,
+      "SHA256": "2B7826EB63055890E0A493CB40209CB226BBAA4F38B752F75DA3ADD71C86AF21"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_powershell51_generic_list_compatibility.py",
+      "Bytes": 4799,
+      "SHA256": "69BBB46EBE15DEC87AC6EC4FC923BF7E33D71DF941F2037E25E41A28CBD2FC96"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_powershell51_module_composition.py",
+      "Bytes": 4766,
+      "SHA256": "0CF7736B6C8B42E2B135A561DABE45CA5509FD6CDBFB268EB7E8353909C5004F"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_powershell51_parser_safety.py",
+      "Bytes": 4785,
+      "SHA256": "B07F6F668F002DF57E703100866D4F7EB4D03F511FDEE189C8E6630CA2D9A8A7"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_privacy_reference.py",
+      "Bytes": 3449,
+      "SHA256": "A49B43AC28892B45414F673B1D94F1275B19B848942BD4F153834B371272C93A"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa10_f009_ui_close_cleanup.py",
+      "Bytes": 3945,
+      "SHA256": "57DFECAA0C6FB38ED5C77180BD37683D52D2900A02906932576D38931E9F3630"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa11_f010_persisted_scan_validation.py",
+      "Bytes": 2653,
+      "SHA256": "C69276B9C0C852CA70A355666B056F4D4B449A036F40E17E968F2C0DA5100B7D"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa14_f011_installed_launch.py",
+      "Bytes": 5868,
+      "SHA256": "3BE5AB82A5C5C3A01B35964321B6BC21209F4AB872DB02489FC9CAF0F4CF0864"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa15_f012_settings_theme_save.py",
+      "Bytes": 2625,
+      "SHA256": "57D48C9847D6C7A9E2D9647CFD8528B891894804E8FFF6DA0B1582500F42EEA4"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa18_f015_startup_state.py",
+      "Bytes": 2242,
+      "SHA256": "FB8E604D39A16B6840700EF88BEA38563D0B2CA864CF95B23E2540F9A37CC599"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa19_f016_progress_concurrency.py",
+      "Bytes": 1736,
+      "SHA256": "590654D419A2C095A74901B3EA2B50DD52AEBD77E15A6B99D3DE628A37D821BD"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa22_f019_category_cardinality.py",
+      "Bytes": 1386,
+      "SHA256": "C02812B28EE5516E7FC5B200EBD6BF8B2BE22E39A7054CF18A0378B923C8BC1D"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa23_f020_grid_focus.py",
+      "Bytes": 2293,
+      "SHA256": "29A89B891C5A7E54E3B600DE3977B62CC77FA9199F140983B7AFF3ED93555703"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa24_f021_deferred_pages.py",
+      "Bytes": 2693,
+      "SHA256": "EAEB57230E70507F060A3B9835740AA12957FD2C382FCBE3D2A6E9247D71F9ED"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa25_f022_apps_columns.py",
+      "Bytes": 2006,
+      "SHA256": "DF01502BB601C71268505FCE15FD255185A224F9B6A781C496E0923D5F7823A9"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa26_f023_grid_actions.py",
+      "Bytes": 1691,
+      "SHA256": "AD4C8F21FC57FC4109464FA85C5C197AAB9D42C48E98029BC97B25B9EC6380BE"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa2_migration_reference.py",
+      "Bytes": 14295,
+      "SHA256": "DF749FDE6FA3BC0985EC9742608938339E5C2B2B8FA86A2A5A9D7810687877FD"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa8_f007_empty_collection.py",
+      "Bytes": 2380,
+      "SHA256": "F41CFDA4E6179FF7D839638103BF3215F3DE8D058A132F3F8B745638F1F4E454"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa9_f008_ui_responsiveness.py",
+      "Bytes": 5000,
+      "SHA256": "E5A199A068C36F2B74DDAD349B34447646B079AED9E0022CDA2898AE0436DBBB"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa9_wh004_harness_correction.py",
+      "Bytes": 617,
+      "SHA256": "E319FAE88693763BCEE492DDEE1D53DAB47430867AB0875B13D4924B23EAAE35"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa9_wh005_harness_correction.py",
+      "Bytes": 620,
+      "SHA256": "45D912320B20CBE9BF1529F7D15BE1296A11DC337A2F9FA520688CE61810C0AC"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_qa9_wh006_harness_correction.py",
+      "Bytes": 578,
+      "SHA256": "8AB9B14809ACD3AA7842A2CEF6CD1A1E7AFE9274F22AF986C167DEF280BF5869"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/test_update_reference.py",
+      "Bytes": 8696,
+      "SHA256": "A4A8691B7462AF3162233635BB7F3F1D23D293556554E02BF076E85BD5141542"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tests/tools/ps_lint.py",
+      "Bytes": 15280,
+      "SHA256": "D1E3DC532F5624A47A23475C50E5DA9E30D352870782502E3D945E20342638DB"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/THIRD_PARTY_NOTICES.txt",
+      "Bytes": 572,
+      "SHA256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tools/build_and_verify_reproduction.py",
+      "Bytes": 5320,
+      "SHA256": "8112E5D221B00AF0D36D48EC208627923B7FFC8B6C1225449713CCC6F76F8688"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tools/build_release.py",
+      "Bytes": 102226,
+      "SHA256": "8779FC0533D7499BE0361A6C72E12736BFA3E6D71B0F2D09EFD6F195E3E214CD"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/tools/ps_lint.py",
+      "Bytes": 15280,
+      "SHA256": "D1E3DC532F5624A47A23475C50E5DA9E30D352870782502E3D945E20342638DB"
+    },
+    {
+      "Path": "pinned-source-data/Nyx_PC_Checkup_1.0.0_Source/VERSION.json",
+      "Bytes": 315,
+      "SHA256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526"
+    },
+    {
+      "Path": "PINNED_SOURCE_RECOVERY.json",
+      "Bytes": 689,
+      "SHA256": "7EEB2DDE9AC45D28025AA84A757D7E4CF651029495057018A372D667FFFF282D"
+    },
+    {
+      "Path": "PLAN.json",
+      "Bytes": 1523,
+      "SHA256": "F23337E640F53726BA8B7568BC691750330F7037137F7D16084AA87793391692"
+    },
+    {
+      "Path": "prepare.py",
+      "Bytes": 6892,
+      "SHA256": "E485C23799479E06F674CA784614592039C19623A2834B6F3F570060602F522E"
+    },
+    {
+      "Path": "PRESERVED_PDF_FAILURE.json",
+      "Bytes": 3769,
+      "SHA256": "43225C64484FFE98729EABA01C9D1DC17DFEF99E170E12B3E5E8CBAE9C88A6BA"
+    },
+    {
+      "Path": "protected-export-existing.txt",
+      "Bytes": 8793,
+      "SHA256": "347DA4DFCC8A8B70AF881F47799F9A43F93CA7512AA3B605B501D46BC5AEAC03"
+    },
+    {
+      "Path": "PROTECTED_FIXTURE.json",
+      "Bytes": 502,
+      "SHA256": "9C8A84CE1DFC623E4046BF36AF96D2052E164729B1F7F1546D8B3803CB01C28E"
+    },
+    {
+      "Path": "qualify_existing_cancel.py",
+      "Bytes": 4091,
+      "SHA256": "F7D9A02012EE23767657AFF68970870F1E0B10B07EDE66990BA473BFD091628D"
+    },
+    {
+      "Path": "REMAINING_WORK_DISPOSITION.json",
+      "Bytes": 3368,
+      "SHA256": "936D538D1735E8248D6F45ED8C5ED7D28A2A8FFAFB49186B0F870D6DD44F56E1"
+    },
+    {
+      "Path": "scan_before.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE"
+    },
+    {
+      "Path": "SCOREBOARD_AFTER_CANCEL_RECOVERY.json",
+      "Bytes": 3315,
+      "SHA256": "4C92CD7C88C8B8CF29CB9F753C698BFE60E7E74B239EAFBA67C8976585AEB209"
+    },
+    {
+      "Path": "SCOREBOARD_CURRENT.json",
+      "Bytes": 3437,
+      "SHA256": "B1FE98F12161B448D2457680648D3DCF6A2FE0A2E67B5DC0CEE99F4B8BF796AD"
+    },
+    {
+      "Path": "SCRIPT_ROUTE_AUDIT.json",
+      "Bytes": 1682,
+      "SHA256": "0E80580D3736D34B370F0C2E7208CF56286E47783339EBC0B2512717E751BE30"
+    },
+    {
+      "Path": "STATE_DELTA.json",
+      "Bytes": 725,
+      "SHA256": "8A05FBFDB7F234DAD8B867C2B495EDCA8DFBAB90EEAB59C4FBD2D07A9334538C"
+    },
+    {
+      "Path": "unexpected-native-txt-output.txt",
+      "Bytes": 8793,
+      "SHA256": "347DA4DFCC8A8B70AF881F47799F9A43F93CA7512AA3B605B501D46BC5AEAC03"
+    },
+    {
+      "Path": "unexpected_native_txt_outcome_bound_20261018T1939583001179Z_d41bae956ffb45e4943f4739e9fcb80f.json",
+      "Bytes": 2237,
+      "SHA256": "6FAEE107FE240FD70A448455DFE058E438B1E50293950594D34AD7C43861E61A"
+    },
+    {
+      "Path": "unexpected_native_txt_outcome_bound_20261018T1939583001179Z_d41bae956ffb45e4943f4739e9fcb80f.png",
+      "Bytes": 23086,
+      "SHA256": "EB9AD7D49004EDF78089D18DACD4FD985674B8405B8879808875550F54EA116B"
+    },
+    {
+      "Path": "unexpected_txt_acknowledge_20261018T1940040361113Z_d830fc7ee3404d6893b837aaaa243970.json",
+      "Bytes": 20071,
+      "SHA256": "8CC86DA5897AA9304DD42AA4FD265E9FCF77D7C8F9B78976A1D5FC6E35A92829"
+    },
+    {
+      "Path": "unexpected_txt_acknowledge_20261018T1940040361113Z_d830fc7ee3404d6893b837aaaa243970.png",
+      "Bytes": 85835,
+      "SHA256": "25AD8C9A504D8EE708CB49ABF6BBEC190FF3634CCE60471BFB3DF3A8C4A4D5FF"
+    },
+    {
+      "Path": "UNEXPECTED_TXT_OUTPUT_PROVENANCE.json",
+      "Bytes": 563,
+      "SHA256": "DC09D375C44ACCE0832ED2C46DCB2C33587409E5A1CCB8DEF2A9B008AE198684"
+    },
+    {
+      "Path": "unrelated_functional_environment_preflight_20261018T1936535494650Z_665b7eb63ac9418a8505dfa84f57e2a6.json",
+      "Bytes": 20102,
+      "SHA256": "935FAB98870E0510AA4408F543E33E23A167F7AC0FCA30E96090278319A44873"
+    },
+    {
+      "Path": "unrelated_functional_environment_preflight_20261018T1936535494650Z_665b7eb63ac9418a8505dfa84f57e2a6.png",
+      "Bytes": 88891,
+      "SHA256": "4D8C73CD37978B42B6B6F4CD0D9377B4A268B5753D6A0E6B2BFDBC4F19DD1D35"
+    },
+    {
+      "Path": "USER_SCOPE_OVERRIDE.json",
+      "Bytes": 473,
+      "SHA256": "F6E5A8A5ED54E7AC9F6E5AAB03B2106B0478677BE8322474E38F0C1F2B046031"
+    },
+    {
+      "Path": "WINDOW_INVENTORY_OVERWRITE.json",
+      "Bytes": 972,
+      "SHA256": "5F6600094FF490E6405268AE85280DE9C8CE109865E94429E0F1DA8E88CFA37E"
+    },
+    {
+      "Path": "WINDOW_INVENTORY_PREVIEW.json",
+      "Bytes": 1022,
+      "SHA256": "864DBB4C8EF4B020CDAAB55F103F040332E8D70F23D9D04AD3FA3D70D56F9FEB"
+    },
+    {
+      "Path": "WINDOW_INVENTORY_SAVE.json",
+      "Bytes": 2755,
+      "SHA256": "6A2E3D34D1DC99BFFD1CB34DC29A6439A1348FFFB67665AEF9E2B354568C91BE"
+    },
+    {
+      "Path": "WINDOWS_PS51_POLICY_POSTCHECK.json",
+      "Bytes": 893,
+      "SHA256": "9AEFAA41D7F787E3AEADAE3A1EAA338B01C581E020E825B0FB03477E15B8F3E3"
+    }
+  ],
+  "Count": 205
+}

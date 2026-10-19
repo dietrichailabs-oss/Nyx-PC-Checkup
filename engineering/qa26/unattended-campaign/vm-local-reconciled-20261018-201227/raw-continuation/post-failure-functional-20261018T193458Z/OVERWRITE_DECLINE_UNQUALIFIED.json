@@ -1,0 +1,27 @@
+{
+  "Schema": "QA26-UNQUALIFIED-EXACT-ONCE-ATTEMPT-1",
+  "Utc": "2026-10-18T19:41:33.933905+00:00",
+  "PredicateId": "native_export_overwrite_decline_preserves_file_20261018",
+  "Status": "EXECUTED_SETUP_INVALID_NO_CREDIT_NO_RETRY",
+  "AttemptCount": 1,
+  "OverwritePromptObserved": false,
+  "DeclineActionDispatched": false,
+  "ProtectedFixtureUnchanged": true,
+  "NewPASS": 0,
+  "NewFAIL": 0,
+  "Outcome": "Filename UIA edit appeared visually but did not establish the intended existing-file target. Save emitted the suggested TXT filename. Exact cause is not proven; no frozen product failure inferred.",
+  "Receipt": "unexpected_native_txt_outcome_bound_20261018T1939583001179Z_d41bae956ffb45e4943f4739e9fcb80f.json",
+  "UnexpectedOutput": {
+    "OriginalPath": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\functional-exports-20261018T192122Z\\Nyx_PC_Checkup_Report_20261018_153811.txt",
+    "CreatedUtc": "2026-10-18T19:39:45.119803+00:00",
+    "SHA256": "347DA4DFCC8A8B70AF881F47799F9A43F93CA7512AA3B605B501D46BC5AEAC03",
+    "Bytes": 8793,
+    "PreservedPath": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\post-failure-functional-20261018T193458Z\\unexpected-native-txt-output.txt",
+    "OriginalPathNowAbsent": true,
+    "PreservedForReview": true
+  },
+  "RepeatAccounting": "One unintended TXT export repeated an already-executed export behavior while attempting a distinct missing overwrite-decline case. No TXT credit and no retry.",
+  "CaptureError": "After Continue, helper returned Visible window bounds unavailable; read-only inventory confirmed Save dialog opened. Continue was not repeated.",
+  "PDFImpact": "Original PDF serialization failure remains documented. Its requested output-path evidence is not a proven committed path; selected PDF format and observed Lines binding failure remain direct evidence.",
+  "NoFrozenBytesChanged": true
+}

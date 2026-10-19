@@ -1,0 +1,64 @@
+{
+  "Utc": "2026-10-18T20:06:32.110197+00:00",
+  "ExactArtifactsAvailable": true,
+  "FirstFailureStopWaivedForUnrelatedWork": true,
+  "Items": [
+    {
+      "Id": "F016_NATIVE_CONCURRENCY",
+      "Status": "BLOCKED_NATIVE_EXECUTION_ROUTE",
+      "Runner": "Test-QA19ProgressConcurrency.ps1",
+      "Reason": "Exact runner available; native PS5.1 Restricted. Script itself extracts functions, but no QA inlining or alternative-engine substitution has been executed.",
+      "Next": "Qualify permitted native route and deduplicate exact assertions before running this missing leaf suite."
+    },
+    {
+      "Id": "F010_MALFORMED_AND_PRIVACY_REMAINDER",
+      "Status": "BLOCKED_NATIVE_ROUTE_AND_NO_REPEAT_FILTER",
+      "Reason": "No current native route. Source/static and signed-copy smoke assertions already executed; no whole-suite rerun or promotion to frozen acceptance.",
+      "Next": "Identify only actually missing frozen predicates and a permitted existing leaf execution path; do not rerun Smoke122."
+    },
+    {
+      "Id": "ELEVATED_STARTUP_ROLLBACK",
+      "Status": "BLOCKED_ISOLATED_BASELINE_AND_NATIVE_ROUTE",
+      "Reason": "Destructive isolated ProgramData tests require qualified disposable baseline; standard privilege assertions already executed.",
+      "Next": "Use only missing branch predicates on qualified baseline with ordinary security controls; no automatic phase rerun."
+    },
+    {
+      "Id": "INSTALLER_LIFECYCLE",
+      "Status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+      "Reason": "No accessible approved untouched compatible native baseline. Current clone must retain frozen install and data.",
+      "Next": "Qualified external baseline plus pinned setup and unchanged exact runner."
+    },
+    {
+      "Id": "QA2_MIGRATION",
+      "Status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+      "Reason": "Both QA2 fixtures recovered/verified; baseline and permitted native route remain missing.",
+      "Next": "Qualified external baseline plus pinned QA2 and candidate setups and unchanged runner."
+    },
+    {
+      "Id": "HISTORICAL_FULL_RAW_PENDING_COLLECTION",
+      "Status": "COLLECTION_GAP_RESOLVED_CONTRACT_COMPONENT_ONLY",
+      "Evidence": "RECOVERED_FULL_CONTRACT_COMPONENT.json",
+      "NewTestExecutions": 0,
+      "EngineeringCredit": 0
+    },
+    {
+      "Id": "NATIVE_EXPORTS",
+      "Status": "EXECUTED_NO_RETRY",
+      "Reason": "TXT/JSON already executed, PDF genuine failure retained, overwrite-decline attempt invalid and not repeated."
+    },
+    {
+      "Id": "ALL_DPI_AND_LAYOUT",
+      "Status": "SKIPPED_BY_OWNER",
+      "Reason": "No display changes, matrix tests, historical DPI inference, or credit."
+    },
+    {
+      "Id": "HISTORICAL_RESERVED_EVIDENCE_AND_FINAL_VERDICT",
+      "Status": "INDEPENDENT_QA_ONLY",
+      "Reason": "No stale-image repairs by rerun, no disputed metadata inspection, no final acceptance/security/release verdict."
+    }
+  ],
+  "FreshEligibleRunnableMissingTestsIdentified": 0,
+  "NoWholePhaseDispatchAuthorizedByThisPlan": true,
+  "NoNewAutomationsOrServices": true,
+  "NoPolicyChangeRequested": true
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "QA26-FOLLOWWINDOWS150-CLEANUP-RESUME-PLAN-1",
+  "utc": "2026-10-18T13:00:48.921Z",
+  "sourcePlan": "FOLLOWWINDOWS150_CLEANUP_MISSING_NAVIGATION_PLAN_20261017.json",
+  "theme": "FollowWindows",
+  "requestedScale": 150,
+  "expectedNativeDpi": 144,
+  "cases": [
+    {
+      "id": "followwindows150_cleanup_missingnav_pagedown_20261017",
+      "key": "Page_Down",
+      "predicate": "Cleanup candidate grid pagedown keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_pageup_20261017",
+      "key": "Page_Up",
+      "predicate": "Cleanup candidate grid pageup keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_down_20261017",
+      "key": "Down",
+      "predicate": "Cleanup candidate grid down keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_up_20261017",
+      "key": "Up",
+      "predicate": "Cleanup candidate grid up keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_left_20261017",
+      "key": "Left",
+      "predicate": "Cleanup candidate grid left keyboard navigation retains readable focus and does not select or execute cleanup"
+    },
+    {
+      "id": "followwindows150_cleanup_missingnav_right_20261017",
+      "key": "Right",
+      "predicate": "Cleanup candidate grid right keyboard navigation retains readable focus and does not select or execute cleanup"
+    }
+  ],
+  "status": "RESUMING_UNEXECUTED_CASES_ONLY",
+  "nativeEvidence": "Fresh measured native DPI, exact installed identity, actual FollowWindows selection after normal relaunch; requested scale alone is not proof",
+  "excluded": "All completed predicates and seven deficient auxiliary cases; no scan, cleanup, startup mutation, settings privacy/security change or frozen product change",
+  "helperSHA256": "21f35a2104c9844528b4acf2651006baa0748983dc79062a2328a06f81a25734"
+}

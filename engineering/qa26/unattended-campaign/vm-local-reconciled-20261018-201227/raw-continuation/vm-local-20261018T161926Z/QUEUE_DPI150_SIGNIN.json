@@ -1,0 +1,11 @@
+{
+  "Schema": "QA26-VM-LOCAL-HUMAN-QUEUE-DELTA-1",
+  "Utc": "2026-10-18T16:53:48.3082724Z",
+  "Id": "REMAINING_DPI_SESSION_LOGINS",
+  "Status": "NATIVE150_SIGNOUT_PREPARED_NORMAL_WINDOWS_SIGNIN_HUMAN_ONLY",
+  "NoRepeatQuestion": true,
+  "Scope": "AppSetup clone current session only",
+  "Reason": "Windows explicitly requires signout to apply custom150",
+  "ResumeRecord": "DPI150_SIGNOUT_CHECKPOINT.json",
+  "Credit": 0
+}

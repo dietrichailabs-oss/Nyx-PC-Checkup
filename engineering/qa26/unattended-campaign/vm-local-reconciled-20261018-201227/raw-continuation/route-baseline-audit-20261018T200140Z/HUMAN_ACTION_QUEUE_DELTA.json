@@ -1,0 +1,19 @@
+{
+  "Utc": "2026-10-18T20:06:32.110197+00:00",
+  "PermissionQuestionsAsked": 0,
+  "OrdinaryPermissionsPending": 0,
+  "Items": [
+    {
+      "Id": "ACCESSIBLE_APPROVED_EXISTING_NATIVE_PS51_BASELINE",
+      "Status": "BLOCKED_EXTERNAL_CAPABILITY_REQUIRED",
+      "Requirement": "An accessible approved untouched compatible baseline and existing permitted native5.1 execution route. Current guest-only tools cannot access host Hyper-V baselines.",
+      "Evidence": [
+        "ROUTE_CAPABILITY_AUDIT.json",
+        "BASELINE_DISPOSITION.json"
+      ],
+      "NoPolicyOrTrustChangeRequested": true,
+      "NoImmediateUserQuestion": true
+    }
+  ],
+  "DpiActionRequested": false
+}

@@ -1,0 +1,51 @@
+{
+  "Schema": "QA26-FOLLOWWINDOWS200-SETTINGS-MISSING-ONLY-PLAN-1",
+  "Status": "NOT_EXECUTED_NATIVE192_SESSION_REQUIRED",
+  "Build": "2026.10.02-eng-qa26",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "Harness": "QA26-F023-PS51-26",
+  "Page": "Settings",
+  "Theme": "FollowWindows",
+  "RequestedScale": 200,
+  "RequiredMeasuredNativeDpi": 192,
+  "SupportPolicy": "BEST_EFFORT",
+  "EngineeringPASSBefore": 327,
+  "EngineeringFAILBefore": 0,
+  "MatrixPASSBefore": 83,
+  "MatrixTotal": 132,
+  "Deduplication": {
+    "CanonicalMatrixSettingsFollowWindows200": "NOT_RUN",
+    "PriorFollowWindows200SettingsCaseRecordsFound": 0,
+    "PriorFollowWindows200SettingsBatchFilesFound": 0,
+    "PriorSettingsPageScreenshotsFound": 0,
+    "ExcludedStorageSettingsScreenshot": "followwindows200_storage_settings_focus_20261015.jpg belongs to Storage, not Settings page",
+    "OtherTheme200SettingsTests": "Already executed; not repeated and not credited in this batch",
+    "SourceInventory": "../remaining-recovery-20261018T180919Z/RECORD_STATUS_INVENTORY.json"
+  },
+  "Cases": [
+    {"PredicateId": "followwindows200_settings_page_readability_20261018", "Predicate": "Settings page introduction is reachable, readable and contained through practical scrolling"},
+    {"PredicateId": "followwindows200_settings_theme_keyboard_20261018", "Predicate": "Applied FollowWindows selector is readable and keyboard reachable without changing it"},
+    {"PredicateId": "followwindows200_settings_notification_keyboard_20261018", "Predicate": "Notification control and complete no-resident-monitor explanation are readable and keyboard reachable; no toggle"},
+    {"PredicateId": "followwindows200_settings_update_preference_readability_20261018", "Predicate": "Update preference and public-manifest privacy explanation are readable; no toggle or request"},
+    {"PredicateId": "followwindows200_settings_manual_update_focus_20261018", "Predicate": "Manual update action is fully reachable with visible keyboard focus; no network activation"},
+    {"PredicateId": "followwindows200_settings_localdata_folder_keyboard_20261018", "Predicate": "Keyboard local-data action opens the exact native data folder and closes normally; no file mutation"},
+    {"PredicateId": "followwindows200_settings_delete_label_reachability_20261018", "Predicate": "Delete-log action meaning and keyboard focus are ultimately readable using ordinary focus/scroll/maximize recovery; never activate deletion"},
+    {"PredicateId": "followwindows200_settings_save_keyboard_20261018", "Predicate": "Save settings action is readable and keyboard reachable; no save needed"},
+    {"PredicateId": "followwindows200_settings_privacy_promise_20261018", "Predicate": "Complete main privacy promise is readable with practical scrolling; no preference change"},
+    {"PredicateId": "followwindows200_settings_privacy_lower_20261018", "Predicate": "Remaining local-first, redaction, update and log wording is readable through practical scrolling"}
+  ],
+  "Prerequisites": [
+    "Normal human Windows sign-in after ordinary custom200 scaling sign-out",
+    "Fresh actual guest identity, native PS5.1 and unchanged Restricted/all-Undefined policy",
+    "All59 frozen payload files plus pinned manifest match",
+    "Applied FollowWindows verified after normal launch, exact non-elevated native Nyx process/session/window",
+    "Fresh before/after native192 measurements and uniquely named, hashed capture receipts per exact predicate",
+    "STARTED_ONCE persisted before each new case, outcome persisted before transitions"
+  ],
+  "NoRepeatsOrNewScans": true,
+  "NoProductOrSecurityPrivacyPolicyChanges": true,
+  "ExistingDarkLight200ReadabilityReview": "Reserved for Independent QA. Do not mark corresponding old evidence PASS or run their predicates again.",
+  "FullCellCredit": 0,
+  "FinalDecisionOwner": "Independent QA",
+  "StopOnFirstGenuineProductFailure": true
+}

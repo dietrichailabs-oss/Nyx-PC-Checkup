@@ -1,0 +1,29 @@
+{
+  "Utc": "2026-10-18T19:40:39.9097516Z",
+  "Version": "7.6.5",
+  "EffectivePolicy": "RemoteSigned",
+  "Scopes": [
+    {
+      "Scope": "MachinePolicy",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "UserPolicy",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "Process",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "CurrentUser",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "LocalMachine",
+      "Policy": "RemoteSigned"
+    }
+  ],
+  "ComputerName": "DESKTOP-4D83OSL",
+  "PolicyChanged": false
+}

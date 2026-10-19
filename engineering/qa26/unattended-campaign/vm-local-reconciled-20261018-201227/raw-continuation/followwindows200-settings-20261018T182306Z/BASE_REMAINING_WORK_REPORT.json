@@ -1,0 +1,191 @@
+{
+  "Schema": "QA26-REMAINING-WORK-CONTINUATION-1",
+  "Utc": "2026-10-18T18:22:55.073081+00:00",
+  "Status": "SEVEN_NEWLY_QUALIFIED_ASSERTIONS_NO_FAILURES",
+  "RecoveredOriginalExecutions": 4,
+  "NewTestsExecuted": 3,
+  "TestsRepeated": 0,
+  "NewScans": 0,
+  "CleanupOperations": 0,
+  "StartupMutations": 0,
+  "RecoveredQualification": "FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+  "NewCases": [
+    {
+      "Utc": "2026-10-18T18:15:42.054167+00:00",
+      "PredicateId": "dark150_startup_missing_location_20261018",
+      "Status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "Theme": "Dark",
+      "Scale": 150,
+      "NativeDpi": 144,
+      "Pid": 7504,
+      "SessionId": 2,
+      "Preconditions": "DARK150_STARTUP_PRECONDITIONS.json",
+      "BeforeReceipt": "dark150_startup_missing_location_before_20261018T1814406673732Z_663c5c10df3643aa988f35966c0e7b37.json",
+      "AfterReceipt": "dark150_startup_missing_location_20261018_20261018T1814599808061Z_5550ddedd5dc48b79858e0a2154513bb.json",
+      "ReturnReceipt": "dark150_startup_missing_location_return_20261018T1815115590507Z_e55c1a8871b9409484a95258016fcf01.json",
+      "Screenshot": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\remaining-recovery-20261018T180919Z\\dark150_startup_missing_location_20261018_20261018T1814599808061Z_5550ddedd5dc48b79858e0a2154513bb.png",
+      "ScreenshotSHA256": "45DE0AF22D46BB63DEC0CBE331B07D70AA376C32EA0BD564606C9325C09876D5",
+      "Observed": "Exact existing missing-target fixture gives readable handled unavailable-location modal by one Enter; focused OK. Escape closes normally and restores location-action focus. No executable activation, startup change, scan, elevation or exception.",
+      "FrozenFilesMatched": 60,
+      "PreservedData": [
+        {
+          "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+          "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+          "Unchanged": true
+        },
+        {
+          "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+          "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+          "Unchanged": true
+        }
+      ],
+      "HelperSHA256": "CC4BDF9BB973DA032930F1F29A1FC49AC375E9CFDF3B40EB65504850A8D7CC32",
+      "TestsRepeated": 0,
+      "NewAssertionCredit": 1,
+      "EngineeringPASSAfter": 325,
+      "EngineeringFAIL": 0,
+      "FullCellsAdded": 0,
+      "CampaignComplete": false,
+      "FinalDecisionOwner": "Independent QA"
+    },
+    {
+      "Utc": "2026-10-18T18:18:59.847459+00:00",
+      "PredicateId": "light150_startup_missing_location_20261018",
+      "Status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "Theme": "Light",
+      "Scale": 150,
+      "NativeDpi": 144,
+      "Pid": 4816,
+      "SessionId": 2,
+      "Preconditions": "LIGHT150_STARTUP_PRECONDITIONS.json",
+      "BeforeReceipt": "light150_startup_missing_location_before_20261018T1818237122689Z_643c227500834f98a352ac00ba2d0947.json",
+      "AfterReceipt": "light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.json",
+      "ReturnReceipt": "light150_startup_missing_location_return_20261018T1818524006836Z_0c9a95d5e2b14aa69372899bd5bec34a.json",
+      "Screenshot": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\remaining-recovery-20261018T180919Z\\light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.png",
+      "ScreenshotSHA256": "DBF16F5462C9C9F717D2D3A6028077785E4EDC7A69F9E758ECCB7A9B58A3BA2B",
+      "Observed": "Exact existing missing-target fixture gives readable handled unavailable-location modal by one Enter; focused OK. Escape closes normally and restores location-action focus. No executable activation, startup change, scan, elevation or exception.",
+      "FrozenFilesMatched": 60,
+      "PreservedData": [
+        {
+          "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+          "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+          "Unchanged": true
+        },
+        {
+          "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+          "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+          "Unchanged": true
+        }
+      ],
+      "HelperSHA256": "E1AF11F10A1238EEC1C4603AE2FFE340B714907DD9EE13739A913EA82EA1A6A7",
+      "TestsRepeated": 0,
+      "NewAssertionCredit": 1,
+      "EngineeringPASSAfter": 326,
+      "EngineeringFAIL": 0,
+      "FullCellsAdded": 0,
+      "CampaignComplete": false,
+      "FinalDecisionOwner": "Independent QA"
+    },
+    {
+      "Utc": "2026-10-18T18:21:54.390265+00:00",
+      "PredicateId": "followwindows150_startup_missing_location_20261018",
+      "Status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "Theme": "FollowWindows",
+      "Scale": 150,
+      "NativeDpi": 144,
+      "Pid": 8800,
+      "SessionId": 2,
+      "Preconditions": "FOLLOWWINDOWS150_STARTUP_PRECONDITIONS.json",
+      "BeforeReceipt": "followwindows150_startup_missing_location_before_20261018T1821304141545Z_05d30f9b7a7849238745dfe961be09c1.json",
+      "AfterReceipt": "followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.json",
+      "ReturnReceipt": "followwindows150_startup_missing_location_return_20261018T1821467903019Z_7ed7de6fa57b40f7b5aef0e9f1bbe121.json",
+      "Screenshot": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\remaining-recovery-20261018T180919Z\\followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.png",
+      "ScreenshotSHA256": "EB224C4F116C2EB3CCAA5A4E0F2E6A4C6F1D1F515EEE182A7EFBD53A4CDE74A4",
+      "Observed": "Exact existing missing-target fixture gives readable handled unavailable-location modal by one Enter; focused OK. Escape closes normally and restores location-action focus. No executable activation, startup change, scan, elevation or exception.",
+      "FrozenFilesMatched": 60,
+      "PreservedData": [
+        {
+          "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+          "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+          "Unchanged": true
+        },
+        {
+          "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+          "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+          "Unchanged": true
+        }
+      ],
+      "HelperSHA256": "6A13584AC2DB2268CB1BD4150F8E06F8F5054B6BD96503E65DC55187BB1E0BE0",
+      "TestsRepeated": 0,
+      "NewAssertionCredit": 1,
+      "EngineeringPASSAfter": 327,
+      "EngineeringFAIL": 0,
+      "FullCellsAdded": 0,
+      "CampaignComplete": false,
+      "FinalDecisionOwner": "Independent QA"
+    }
+  ],
+  "EngineeringPASSBefore": 320,
+  "EngineeringPASSAfter": 327,
+  "EngineeringFAIL": 0,
+  "FullCellsAdded": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "FixtureBlockerResolved": "Existing inherited current-user missing executable fixture verified read-only; no fixture created or edited",
+  "FrozenArtifactsMatched": 60,
+  "Policy": {
+    "NativePowerShell": "5.1.26100.9711",
+    "Effective": "Restricted",
+    "AllFiveScopes": "Undefined",
+    "Changed": false
+  },
+  "OnlyPreferenceChange": "Theme Dark -> Light -> FollowWindows through normal Settings save and app relaunch; all other config fields unchanged",
+  "CurrentTheme": "FollowWindows",
+  "CurrentNativeDpi": 144,
+  "Pid": 8800,
+  "SessionId": 2,
+  "VMId": "068a8dc7-f5e1-4e0e-a941-e0a3955e5a29",
+  "OriginalVMAccessed": false,
+  "MetadataExcludedAndUninspected": true,
+  "HostLedgersUnmodified": true,
+  "NeedsHostReconciliation": true,
+  "IndependentQAFinalVerdictReserved": true,
+  "CampaignComplete": false,
+  "Remaining": [
+    {
+      "Id": "FOLLOWWINDOWS200_SETTINGS",
+      "Status": "MISSING_NOT_EXECUTED_REQUIRES_NATIVE192_SESSION",
+      "Action": "Normal display transition and human Windows sign-in, then fresh applied theme/privilege/payload/capture prerequisites. Run only new Settings predicates; no changes to privacy/security or delete activation."
+    },
+    {
+      "Id": "HISTORICAL_EVIDENCE_RESERVATIONS",
+      "Status": "INDEPENDENT_QA_DISPOSITION_NO_RERUN",
+      "Action": "Seven stale-image cases, older native-DPI gaps, theme-context gaps, and disputed install-state metadata stay reserved and unmodified."
+    },
+    {
+      "Id": "SETTINGS200_LABEL_REVIEW",
+      "Status": "INDEPENDENT_QA_REVIEW",
+      "Action": "Dark/Light essential delete-log label clipping is not PASS. Preserve review evidence; a new theme does not resolve the prior readability decision."
+    },
+    {
+      "Id": "INSTALLER_LIFECYCLE_QA2_MIGRATION",
+      "Status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+      "Action": "Requires accessible Independent QA approved untouched compatible native PS5.1 baseline. Updated AppSetup clone with naturally Restricted policy does not qualify; no bypass/signing/policy change."
+    },
+    {
+      "Id": "F010_F016",
+      "Status": "INCOMPLETE_EXACT_EXECUTION_ROUTE_AND_LIVE_EVIDENCE",
+      "Action": "Original scan/cancellation/worker proof reservations persist. No scan repeat, extracted blocked-script inlining, or signed-copy promotion to frozen acceptance."
+    },
+    {
+      "Id": "F020_F022_F008",
+      "Status": "INCOMPLETE_CROSS_GRID_AND_FULL_CELL_CLOSEOUT",
+      "Action": "Three newly missing location assertions do not reconcile all older context/DPI evidence into full cells. Use exact historical evidence and Independent QA decisions."
+    },
+    {
+      "Id": "QA26_SEC_EXECUTIONPOLICY",
+      "Status": "INDEPENDENT_QA_SECURITY_DECISION",
+      "Action": "Functional GUI evidence grants no security or release approval."
+    }
+  ]
+}

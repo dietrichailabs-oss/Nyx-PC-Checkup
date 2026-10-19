@@ -1,0 +1,11 @@
+{
+  "Schema": "QA26-VM-LOCAL-HUMAN-QUEUE-DELTA-1",
+  "Utc": "2026-10-18T16:32:28.5437761Z",
+  "Id": "COMPUTER_USE_TARGET_AND_CAPTURE",
+  "Status": "BLOCKED_CAPABILITY",
+  "Supersedes": "LOCAL_NYX_WINDOW_AND_DISPLAY_CONTEXT routine prompt",
+  "UserRoutinePromptPreference": "Do ordinary controls autonomously; no repeat question",
+  "Requirement": "Supported Computer Use API returns an operable native Nyx window; then verify fresh capture, visible144DPI, exact Dark theme and non-elevated session before either case",
+  "TestsRun": 0,
+  "Credit": 0
+}

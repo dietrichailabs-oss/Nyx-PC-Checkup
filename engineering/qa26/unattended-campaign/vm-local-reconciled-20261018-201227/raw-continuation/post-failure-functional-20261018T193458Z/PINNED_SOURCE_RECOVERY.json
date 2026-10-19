@@ -1,0 +1,14 @@
+{
+  "Utc": "2026-10-18T19:36:52.176998+00:00",
+  "SourceArchive": "C:\\Q26F023\\Nyx_PC_Checkup_1.0.0_Source.zip",
+  "SHA256": "4BDAC6FD0E071A100550CFCEEA59C5CED0180C36C05873981D623147F02B9C25",
+  "Bytes": 802906,
+  "DataExtractionOnly": true,
+  "ScriptsExecuted": 0,
+  "FrozenBuild": "2026.10.02-eng-qa26",
+  "SourceFilesCompared": 145,
+  "SourceTreeSHA256": "AD7CAD8E05E0B35B9ACC89BA03718D12CC4E90B03C7C101D19B0A247B972E4D0",
+  "Qa2FixturesMatched": 2,
+  "Correction": "Prior blanket statement that frozen runners and fixtures were unavailable is superseded. Exact archive is staged at C:\\Q26F023. Policy/baseline restrictions remain.",
+  "NoProductBuildOrInstall": true
+}

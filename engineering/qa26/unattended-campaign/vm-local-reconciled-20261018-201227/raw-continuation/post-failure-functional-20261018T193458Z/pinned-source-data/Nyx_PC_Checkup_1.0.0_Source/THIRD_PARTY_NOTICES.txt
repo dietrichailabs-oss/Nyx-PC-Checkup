@@ -1,0 +1,10 @@
+Nyx PC Checkup Version 1 bundles no third-party runtime libraries.
+
+The application uses operating-system components supplied with supported
+Windows installations, including Windows PowerShell 5.1, .NET Framework
+Windows Forms, Windows Management Instrumentation/CIM, Windows Update COM,
+Windows Security interfaces, Windows Storage interfaces, and WScript.Shell for
+shortcut creation. Those components are not redistributed in this package.
+
+The native launchers and installer are original Dietrich AI Labs code and link
+only to Windows system DLLs at runtime.

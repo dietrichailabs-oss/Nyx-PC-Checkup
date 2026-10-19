@@ -1,0 +1,160 @@
+{
+  "Utc": "2026-10-18T18:09:59.529646+00:00",
+  "Source": "Copied original pre-clone observer bytes inherited from the preserved 15:29Z source checkpoint; not a new clone measurement or execution",
+  "EarlierObserverPrefixMatchesPreservedReadOnlyExport": true,
+  "FullRawSamples": 240,
+  "FirstUtc": "2026-10-18T13:34:21.7897661Z",
+  "LastUtc": "2026-10-18T13:54:18.6357768Z",
+  "MaxGapSeconds": 5.020606,
+  "Bindings": [
+    {
+      "PredicateId": "followwindows150_cleanup_one_item_summary_20261018",
+      "Receipt": "screenshots/followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg.capture.json",
+      "Screenshot": "screenshots/followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg",
+      "SHA256": "07E1EE7FEB0753A8206EDECD82F1ABD1414A4694B8155224B10CED93ACFFF3B6",
+      "CaptureStart": "2026-10-18T13:35:15.500Z",
+      "CaptureEnd": "2026-10-18T13:35:15.886Z",
+      "NativeBefore": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:35:11.8708374Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "NativeAfter": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:35:16.8749000Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "BracketSeconds": 5.004063,
+      "HistoricalRecordCount": 1,
+      "HistoricalCredit": 0
+    },
+    {
+      "PredicateId": "followwindows150_cleanup_confirmation_exact_20261018",
+      "Receipt": "screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg.capture.json",
+      "Screenshot": "screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg",
+      "SHA256": "023F27F33BF2B9FA7B589D3A9636CED3A013FFE299F1B962F430DFFAB2496A2D",
+      "CaptureStart": "2026-10-18T13:35:40.690Z",
+      "CaptureEnd": "2026-10-18T13:35:40.846Z",
+      "NativeBefore": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:35:36.9194980Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "NativeAfter": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:35:41.9262185Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "BracketSeconds": 5.00672,
+      "HistoricalRecordCount": 1,
+      "HistoricalCredit": 0
+    },
+    {
+      "PredicateId": "followwindows150_cleanup_keyboard_cancel_20261018",
+      "Receipt": "screenshots/followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg.capture.json",
+      "Screenshot": "screenshots/followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg",
+      "SHA256": "CC95F5A56C0544B2BEB3F8F4080A0F1173F0DF856CB1411128EE6CD471857BC4",
+      "CaptureStart": "2026-10-18T13:36:03.164Z",
+      "CaptureEnd": "2026-10-18T13:36:03.293Z",
+      "NativeBefore": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:36:01.9877402Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "NativeAfter": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:36:06.9948038Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "BracketSeconds": 5.007063,
+      "HistoricalRecordCount": 1,
+      "HistoricalCredit": 0
+    },
+    {
+      "PredicateId": "followwindows150_cleanup_restore_zero_20261018",
+      "Receipt": "screenshots/followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg.capture.json",
+      "Screenshot": "screenshots/followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg",
+      "SHA256": "722EDD33F825A119E17F4733DFE769391A479F165E23D14481C475AD772D36B8",
+      "CaptureStart": "2026-10-18T13:37:11.428Z",
+      "CaptureEnd": "2026-10-18T13:37:11.706Z",
+      "NativeBefore": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:37:07.0384698Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "NativeAfter": {
+        "Schema": "QA26-LIVE-DPI-1",
+        "Utc": "2026-10-18T13:37:12.0415966Z",
+        "Pid": 1800,
+        "NativeDpi": 144,
+        "WindowBounds": {
+          "Left": 32,
+          "Top": 32,
+          "Right": 1366,
+          "Bottom": 696
+        },
+        "ProductModified": false
+      },
+      "BracketSeconds": 5.003127,
+      "HistoricalRecordCount": 1,
+      "HistoricalCredit": 0
+    }
+  ],
+  "NoTestsExecuted": true
+}

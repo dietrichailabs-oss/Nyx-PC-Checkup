@@ -1,0 +1,158 @@
+﻿NYX PC CHECKUP - LOCAL DIAGNOSTIC SUMMARY
+Dietrich AI Labs
+Version 1.0.0 | Build 2026.10.02-eng-qa26
+Scan: Full | Completed: 2026-10-08T23:05:25.6882604Z
+
+Overall: Needs Attention
+2 things need attention.
+Good 14 | Needs Attention 2 | Optional 2 | Unknown 3
+
+[Good] System - System overview
+Finding: Desktop or fixed device with 4.4 GB RAM, running Windows build 26200.
+Why: Basic system information was read successfully.
+Recommendation: No action is required. Hardware serial numbers and unique identifiers are intentionally not collected.
+Source: Windows CIM / local environment | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Storage - System-drive free space
+Finding: 106.8 GB is free on C:\.
+Why: The system drive has 84.8% free.
+Recommendation: No storage action is required.
+Source: .NET DriveInfo | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Updates - Update restart
+Finding: Windows does not currently report a pending restart.
+Why: No supported restart-pending marker was found.
+Recommendation: No restart is required by the checked Windows servicing markers.
+Source: Windows servicing registry | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Updates - Windows updates
+Finding: No pending software update was found in the local Windows Update cache.
+Why: The supported local update query returned zero not-installed software updates.
+Recommendation: Open Windows Update for an online check when you need full patch assurance.
+Source: Microsoft.Update.Session local search | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Updates - Last successful Windows update
+Finding: Windows reports a successful installation on Saturday, October 3, 2026.
+Why: The Windows Update automatic-update result exposed a last success date.
+Recommendation: No action is required based on this timestamp alone.
+Source: Microsoft.Update.AutoUpdate | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Security - Antivirus protection
+Finding: Windows reports that Microsoft Defender antivirus and real-time protection are active.
+Why: Defender status APIs reported protection enabled.
+Recommendation: No antivirus action is required.
+Source: Get-MpComputerStatus and SecurityCenter2 | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Security - Windows Firewall
+Finding: Windows Firewall is enabled for all reported profiles.
+Why: Firewall profile states were read without changing them.
+Recommendation: No firewall action is required.
+Source: Get-NetFirewallProfile | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Security - Windows Security services
+Finding: A supported Windows Security service is running.
+Why: Service state was read without changing service configuration.
+Recommendation: No action is required.
+Source: Get-Service | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Unknown / Could Not Check] Security - Secure Boot
+Finding: This check could not be completed.
+Why: Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.
+Recommendation: No automatic change was made. You can retry the check or review the technical details.
+Source: Confirm-SecureBootUEFI | Complete: False
+Could not check: Secure Boot status was unavailable. This is common on unsupported firmware or without sufficient access.
+
+[Unknown / Could Not Check] Security - Trusted Platform Module
+Finding: This check could not be completed.
+Why: TPM status was unavailable through the supported local interface.
+Recommendation: No automatic change was made. You can retry the check or review the technical details.
+Source: Get-Tpm | Complete: False
+Could not check: TPM status was unavailable through the supported local interface.
+
+[Unknown / Could Not Check] Security - Drive encryption
+Finding: This check could not be completed.
+Why: Drive-encryption status was unavailable through the supported local interface.
+Recommendation: No automatic change was made. You can retry the check or review the technical details.
+Source: Get-BitLockerVolume | Complete: False
+Could not check: Drive-encryption status was unavailable through the supported local interface.
+
+[Optional] Startup - Startup applications
+Finding: 8 program(s) start automatically with Windows.
+Why: Startup programs may be useful; review is optional.
+Recommendation: Review startup apps only if useful. Version 1 can reversibly change current-user entries; all-users entries are visible but read-only and never trigger an elevation prompt.
+Source: Windows Run registry keys and Startup folders | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Needs Attention] Backup - Backup checkup
+Finding: No supported Windows backup configuration was detected.
+Why: [USER] could not find File History or Windows Backup evidence. You may already use another backup service that [USER] PC Checkup cannot detect.
+Recommendation: Verify that important files are backed up somewhere separate from this PC.
+Source: File History configuration and Windows Backup scheduled tasks | Complete: False
+Could not check: [UNAVAILABLE]
+
+[Good] System - PC uptime
+Finding: Your PC has been running for 3.0 days.
+Why: The PC has been running for 3.0 days.
+Recommendation: No restart is needed based on uptime alone.
+Source: Win32_OperatingSystem and restart-pending markers | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Needs Attention] Network - Network basics
+Finding: A network adapter is connected, but Internet access did not pass both supported checks.
+Why: The Windows connectivity profile or bounded DNS lookup reported no Internet access.
+Recommendation: Check the router or Internet service. [USER] did not change DNS, proxy, firewall, or adapter settings.
+Source: Get-NetAdapter, Get-NetConnectionProfile, and one bounded DNS resolution test | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Storage - User profile, folders, and largest files
+Finding: The checked user profile uses 1.0 GB. The largest named user folder is Documents at 2.2 MB.
+Why: The user profile and selected user folders were measured without following junctions or symbolic links.
+Recommendation: Review large items before deciding whether anything should be moved or removed. Old or large does not mean unwanted.
+Source: .NET file-system enumeration | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Downloads - Downloads checkup
+Finding: Downloads contains at least 1 readable file(s) using 282 B.
+Why: No notable Downloads cleanup opportunity was found.
+Recommendation: Review files yourself. [USER] never assumes that an old file is unwanted.
+Source: Top-level Downloads file metadata and bounded SHA-256 duplicate comparison | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Optional] Cleanup - Safe cleanup preview
+Finding: 95 optional item(s) totaling 912.6 KB are available for review.
+Why: Only user temporary files, selected old installers/archives, and the Recycle Bin are included.
+Recommendation: Nothing is selected automatically. Review each item and confirm before moving files to the Recycle Bin or emptying it.
+Source: User temp, top-level Downloads metadata, and Recycle Bin shell view | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Drive Health - Physical drive health
+Finding: No drive-health warning was reported.
+Why: All physical drives returned a Healthy state through the available Windows Storage interface.
+Recommendation: Continue normal backups. A healthy status does not guarantee that a drive cannot fail.
+Source: Get-PhysicalDisk / Get-StorageReliabilityCounter | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Performance - Current performance snapshot
+Finding: CPU is about 2% and memory use is about 68% in this snapshot.
+Why: Current CPU and memory use are within ordinary snapshot ranges.
+Recommendation: No performance action is required from this snapshot.
+Source: Windows CIM, process list, and optional performance counter | Complete: True
+Could not check: [UNAVAILABLE]
+
+[Good] Applications - Installed applications
+Finding: 5 installed application(s) were listed from supported uninstall records.
+Why: The list is informational; [USER] does not call applications junk or uninstall anything automatically.
+Recommendation: Use Windows Installed Apps settings when you intentionally want to remove a program.
+Source: Current-user and machine uninstall registry records | Complete: True
+Could not check: [UNAVAILABLE]
+
+Privacy: Everything analyzed by PC Checkup stays on this computer unless you explicitly export it.
+This report excludes usernames, hardware serial numbers, product keys, browser data, document contents, passwords, tokens, and IP addresses by default.

@@ -1,0 +1,40 @@
+{
+  "StartedUtc": "2026-10-18T15:33:55.2193159Z",
+  "SourceVMId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+  "CheckpointId": "a61b38f3-d4b8-4563-962e-e19552283f8b",
+  "CloneName": "Nyx-AppSetup-20261018_1792337380402",
+  "PreservationReceipt": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\signin_fix_clone_20261018_1792337380402\\PRESERVATION_CLONE_RECEIPT.json",
+  "Phase": "READY_DISCONNECTED_INDEPENDENT_CLONE",
+  "Success": true,
+  "TestsExecuted": 0,
+  "ScoreboardCreditAdded": 0,
+  "ProductChanged": false,
+  "VPNSettingsChanged": false,
+  "ExecutionPolicyChanged": false,
+  "WindowsUpdateApplied": false,
+  "UpdatedUtc": "2026-10-18T15:34:48.3286568Z",
+  "CloneVMId": "068a8dc7-f5e1-4e0e-a941-e0a3955e5a29",
+  "CloneMAC": "02207988F25D",
+  "CloneDisks": [
+    {
+      "Path": "C:\\Nyx\\clones\\Nyx-AppSetup-20261018_1792337380402\\WorkingClone\\Virtual Hard Disks\\Nyx.vhdx",
+      "Type": "Dynamic",
+      "FileSize": 34363932672,
+      "VirtualSize": 136365211648,
+      "ParentPath": ""
+    }
+  ],
+  "CloneDiskIndependent": true,
+  "CloneNetwork": [
+    {
+      "Name": "Network Adapter",
+      "Connected": false,
+      "SwitchName": null,
+      "MacAddress": "02207988F25D"
+    }
+  ],
+  "SourceState": "Saved",
+  "VPNStatus": "Up",
+  "CloneState": "Saved",
+  "CompletedUtc": "2026-10-18T15:34:48.3283065Z"
+}

@@ -1,0 +1,25 @@
+{
+  "Utc": "2026-10-18T19:36:52.176998+00:00",
+  "FrozenArtifactsMatched": 60,
+  "PreservedData": [
+    {
+      "Live": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "Copy": "scan_before.json",
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE"
+    },
+    {
+      "Live": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\config.json",
+      "Copy": "config_before.json",
+      "SHA256": "D13DEEA3BB15646C3656EF7AD1FF08182280EDF6128CC6B2EBC44B2ABE6305EF"
+    },
+    {
+      "Live": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "Copy": "history_before.jsonl",
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F"
+    }
+  ],
+  "PriorEvidenceManifestVerified": 67,
+  "NoProductOrSecurityPolicyChange": true,
+  "OriginalVMAccessed": false,
+  "MetadataExcludedAndUninspected": true
+}

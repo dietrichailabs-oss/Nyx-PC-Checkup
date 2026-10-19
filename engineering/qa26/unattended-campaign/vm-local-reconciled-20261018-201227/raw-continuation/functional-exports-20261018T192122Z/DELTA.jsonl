@@ -1,0 +1,2 @@
+{"Utc": "2026-10-18T19:28:52.068432+00:00", "Event": "TXT_PRIOR_OUTPUT_DISCOVERED_NO_SAVE_NO_CREDIT", "Credit": 0, "NoRepeat": true}
+{"Utc": "2026-10-18T19:28:52.068432+00:00", "Event": "PDF_EXPORT_FAILURE_NATIVE_QUALIFIED", "PredicateId": "installed_gui_export_pdf_missing_20261018", "NewPASS": 0, "NewFAIL": 1, "EngineeringPASS": 327, "EngineeringFAIL": 1, "MatrixCellsAdded": 0, "FurtherTestExecutionStopped": true}

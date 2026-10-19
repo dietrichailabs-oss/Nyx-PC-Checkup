@@ -1,0 +1,77 @@
+{
+  "Schema": "QA26-DPI150-SIGNOUT-CHECKPOINT-1",
+  "Utc": "2026-10-18T16:53:47.9242909Z",
+  "Status": "READY_FOR_NORMAL_CLONE_SIGNOUT_HUMAN_SIGNIN_REQUIRED",
+  "GuiControl": "WORKING_VIA_USER_AUTHORIZED_ONE_SHOT_NATIVE_NYX_GUI_INSTRUMENT",
+  "VendorComputerUseDiscovery": "Still excludes Nyx-hosted window; vendor binaries unchanged",
+  "HelperSource": "NyxGuiProbe.cs",
+  "HelperSourceSHA256": "1F24BB2A067BF179FF76C0883E84475E712574BF0C178000B59E55CF4230F7E6",
+  "HelperExe": "NyxGuiProbe.exe",
+  "HelperExeSHA256": "C1C73ECFC7F445290D8D935B00486B2A62EEC5A988BAA0975165ED09B8DC12E0",
+  "HelperValidation": {
+    "OneShotNoServiceNoNetworkNoProductWrite": true,
+    "ExactMainWindow": 197538,
+    "NonElevatedTargetAndHelperVerified": true,
+    "ExactProcess": "Windows PowerShell native x64 hosting Nyx WinForms GUI",
+    "ExactPid": 3288,
+    "InvalidTargetFixtureExitCode": 1,
+    "InvalidTargetFixture": "System.Exception: Exact Nyx WinForms/owned-message target guard failed\r\n   at NyxGuiProbe.Validate(IntPtr h)\r\n   at NyxGuiProbe.Main(String[] args)",
+    "FreshNativeScreenshotAndDpi": "native_helper_validation_20261018T1647459626392Z_6da17fdc1ff34c6a9051072b8274ae36.json",
+    "TerminalWindowsRejected": true
+  },
+  "UserAuthorization": "User explicitly approved Nyx PowerShell-hosted GUI access and then allowed whatever needed for completion; local one-shot helper repair scope disclosed before creation",
+  "Display": {
+    "RequestedScale": 150,
+    "WindowsMessage": "The custom scale factor will not be applied until you sign out",
+    "AppliedNativeDpiLastObserved": 96,
+    "Applied150Qualified": false,
+    "Evidence": "DISPLAY150_SIGNOUT_REQUIRED.jpg",
+    "SHA256": "E819DCEC856018D1CF623F1F5EEAE3AEF05E580D0EB962151EB4F5C59AD44678"
+  },
+  "Theme": {
+    "AppliedTheme": "NOT_YET_DARK_NEXT_LAUNCH_REQUIRED",
+    "Saved": true,
+    "Evidence": "save_dark_settings_setup_20261018T1651560164213Z_b8f377df978f4496972d8fabc284928d.json",
+    "Selected": "Dark",
+    "Dialog": "Settings were saved; theme changes apply next time Nyx is opened"
+  },
+  "NativePS51": {
+    "Version": "5.1.26100.9711",
+    "EffectivePolicy": "Restricted",
+    "Scopes": [
+      "MachinePolicy=Undefined",
+      "UserPolicy=Undefined",
+      "Process=Undefined",
+      "CurrentUser=Undefined",
+      "LocalMachine=Undefined"
+    ]
+  },
+  "FrozenProductMatches": 60,
+  "ProductModified": false,
+  "DisputedMetadataUninspected": true,
+  "ScansRun": 0,
+  "CleanupExecuted": 0,
+  "CompletedTestsRepeated": 0,
+  "TestsExecuted": 0,
+  "PendingCases": [
+    "dark150_cleanup_missingnav_left_20261018",
+    "dark150_cleanup_missingnav_right_20261018"
+  ],
+  "Resume": [
+    "Human signs into the same AppSetup clone through normal Windows controls; authentication is not automated",
+    "Open frozen Nyx via shipped native launcher as ordinary user",
+    "Resolve fresh target PID and window handle; do not reuse old session handles; rebind the narrow helper guard",
+    "Qualify native144DPI, applied Dark theme, unchanged frozen payload, non-elevated privilege/session and fresh screenshot provenance",
+    "Set up Cleanup cell focus without selecting anything or starting scans",
+    "Execute Left once and persist fresh case-bound image/receipt, then Right once and persist fresh case-bound image/receipt",
+    "Only credit individual results after native DPI/theme/identity/capture/no-mutation evidence qualifies; do not mix old/new sessions into full cell PASS"
+  ],
+  "EngineeringPASS": 318,
+  "EngineeringFAIL": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "OriginalVMTouched": false,
+  "WindowsSecurityAndExecutionPoliciesChanged": false,
+  "VPNChanged": false,
+  "IndependentQAFinalVerdictReserved": true
+}

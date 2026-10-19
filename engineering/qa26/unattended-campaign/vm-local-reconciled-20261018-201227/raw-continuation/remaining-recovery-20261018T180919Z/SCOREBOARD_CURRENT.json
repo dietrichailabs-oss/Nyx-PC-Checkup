@@ -1,0 +1,86 @@
+{
+  "scoreboard": {
+    "strict": {
+      "PASS": 56,
+      "FAIL": 0,
+      "NOT_RUN": 43
+    },
+    "bestEffort": {
+      "PASS": 27,
+      "FAIL": 0,
+      "NOT_RUN": 6
+    }
+  },
+  "focused": {
+    "F023": "PASS",
+    "F015": "PASS_RECONCILED",
+    "F020": "INCOMPLETE",
+    "F022": "INCOMPLETE",
+    "F010": "INCOMPLETE",
+    "F016": "INCOMPLETE"
+  },
+  "nativeDpiAlternative": {
+    "status": "RECOVERED_NATIVE_DPI_COMPONENT_PASS",
+    "deploy": {
+      "ProductModified": false,
+      "Status": "BLOCKED",
+      "Error": "Failed to initiate copying files to the guest.\r\n\r\n'Nyx' failed to initiate copying files to the guest: The device is not ready. (0x80070015). (Virtual machine ID 275A191C-CF8A-4929-9849-B9A293E9149D)",
+      "PolicyChanged": false
+    },
+    "exeSha256": "89407dfa2fb8de5ecb107e39fb2e0dd8109a3db1a94802d66846d1b71f59b760",
+    "component": "harness/Qa26ReadOnlyDpiObserver.cs",
+    "scope": "Exact native measurement interval only, original guest. Minimized samples excluded from visible layout qualification. No retroactive prior batch credit.",
+    "productModified": false,
+    "utc": "2026-10-11T15:58:10.203Z",
+    "guestService": {
+      "beforeEnabled": false,
+      "enabled": true,
+      "explicitUserApproval": true
+    },
+    "policyChanged": false,
+    "collection": "G:/Marks Apps 2/Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)/qa26_vm_automation/native_dpi_recovered_20261011_120518",
+    "observerOutput": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\dpi_20261011_native.jsonl",
+    "measurementCount": 20,
+    "visibleMeasurementCount": 8,
+    "nativeDpi": 144,
+    "utcRange": [
+      "2026-10-11T16:01:45.5422897Z",
+      "2026-10-11T16:03:20.7226885Z"
+    ],
+    "visibleUtcRange": [
+      "2026-10-11T16:02:45.6833034Z",
+      "2026-10-11T16:03:20.7226885Z"
+    ],
+    "pid": 10220,
+    "installedBuild": "2026.10.02-eng-qa26",
+    "payloadFilesCompared": 60,
+    "payloadMismatchCount": 0,
+    "fullCellCredit": 0,
+    "rawEvidence": "native-dpi-alternative-recovered-20261011/dpi_20261011_native.jsonl"
+  },
+  "scriptSuites": "BLOCKED_POLICY_CHANGE_DECLINED",
+  "campaignComplete": false,
+  "testedAssertionScoreboard": {
+    "PASS": 327,
+    "FAIL": 0,
+    "previousPASS": 320,
+    "newEligibleAssertions": 7,
+    "batch": "REMAINING_WORK_REPORT.json",
+    "scope": "Local continuation Engineering aggregate including149 historical signed-copy-scope assertions and2 fresh native-qualified frozen-payload GUI assertions; not release/security approval"
+  },
+  "latestQualifiedBatch": {
+    "record": "REMAINING_WORK_REPORT.json",
+    "newEligibleAssertions": 7,
+    "fullCellsAdded": 0,
+    "recoveredOriginalExecutions": 4,
+    "newExecutions": 3
+  },
+  "updatedUtc": "2026-10-18T18:21:54.390265+00:00",
+  "continuationDelta": {
+    "HostLedgerUnmodified": true,
+    "NeedsSeparateHostReconciliation": true,
+    "BaseHostScoreboardSHA256": "423733988EF9BFF7C1DCB1C99124384A92F848D64D498B7E934DF2E37A033A52",
+    "PriorLocalScoreboard": "../dark150-native144-20261018T175251Z/SCOREBOARD_CURRENT.json",
+    "ThisBatchScope": "Four original Cleanup assertions recovered plus three strict150 missing Startup location assertions; no repeats"
+  }
+}

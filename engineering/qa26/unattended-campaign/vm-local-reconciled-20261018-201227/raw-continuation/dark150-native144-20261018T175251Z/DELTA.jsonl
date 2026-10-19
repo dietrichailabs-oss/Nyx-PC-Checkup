@@ -1,0 +1,2 @@
+{"Utc":"2026-10-18T18:01:56.2887138Z","Event":"QUALIFIED_NEW_ASSERTION","PredicateId":"dark150_cleanup_missingnav_left_20261018","Credit":1,"EngineeringPASS":319,"EngineeringFAIL":0,"MatrixPASS":83,"MatrixTotal":132,"Record":"LEFT_QUALIFICATION.json"}
+{"Utc":"2026-10-18T18:03:58.4654300Z","Event":"QUALIFIED_NEW_ASSERTION","PredicateId":"dark150_cleanup_missingnav_right_20261018","Credit":1,"EngineeringPASS":320,"EngineeringFAIL":0,"MatrixPASS":83,"MatrixTotal":132,"Record":"RIGHT_QUALIFICATION.json"}

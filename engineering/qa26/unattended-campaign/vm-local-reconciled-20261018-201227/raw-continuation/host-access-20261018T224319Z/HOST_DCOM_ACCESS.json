@@ -1,0 +1,10 @@
+{
+  "Utc": "2026-10-18T22:44:21.0164354Z",
+  "Host": "MARK",
+  "Transport": "Existing DCOM",
+  "CredentialsSupplied": false,
+  "Success": false,
+  "Error": "Access is denied. ",
+  "ErrorId": "HRESULT 0x80070005,Microsoft.Management.Infrastructure.CimCmdlets.NewCimSessionCommand",
+  "ReadOnly": true
+}

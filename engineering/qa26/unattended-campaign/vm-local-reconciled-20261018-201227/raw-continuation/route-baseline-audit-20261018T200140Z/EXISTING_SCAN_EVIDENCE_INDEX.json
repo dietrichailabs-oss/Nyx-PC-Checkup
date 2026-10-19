@@ -1,0 +1,2458 @@
+{
+  "Utc": "2026-10-18T20:03:33.427747+00:00",
+  "ReadOnly": true,
+  "NoMetadataInspected": true,
+  "Files": [
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261002_230247\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212916,
+      "SHA256": "8A0D0452B0BE7A5B9236254378925E72D76F0E1847C97FC5BD0D22DD5516B233",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T03:09:08.2792905Z",
+      "CompletedUtc": "2026-10-03T03:09:34.8659670Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261002_232612\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212916,
+      "SHA256": "8A0D0452B0BE7A5B9236254378925E72D76F0E1847C97FC5BD0D22DD5516B233",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T03:09:08.2792905Z",
+      "CompletedUtc": "2026-10-03T03:09:34.8659670Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261002_233648\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212916,
+      "SHA256": "8A0D0452B0BE7A5B9236254378925E72D76F0E1847C97FC5BD0D22DD5516B233",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T03:09:08.2792905Z",
+      "CompletedUtc": "2026-10-03T03:09:34.8659670Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_000222\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212916,
+      "SHA256": "8A0D0452B0BE7A5B9236254378925E72D76F0E1847C97FC5BD0D22DD5516B233",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T03:09:08.2792905Z",
+      "CompletedUtc": "2026-10-03T03:09:34.8659670Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_001041\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212916,
+      "SHA256": "8A0D0452B0BE7A5B9236254378925E72D76F0E1847C97FC5BD0D22DD5516B233",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T03:09:08.2792905Z",
+      "CompletedUtc": "2026-10-03T03:09:34.8659670Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_001954\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 43503,
+      "SHA256": "6A7DFCC21368E09CA9EF829CF1D024D3B709037096F3BE1888E5A67167C1CFFE",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-03T04:23:26.6146932Z",
+      "CompletedUtc": "2026-10-03T04:23:44.1075960Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_002716\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_003543\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_004044\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_004931\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_005332\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_143332\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_144115\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_145753\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_151118\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_153123\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_154401\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_155329\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_155959\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_161824\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_163733\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 212908,
+      "SHA256": "4A2AE4938F611E7BCBE24DCB8E8B92DD57083A47EF5B63A2E21811CB38657532",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T04:31:54.0413430Z",
+      "CompletedUtc": "2026-10-03T04:32:20.1230718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_164852\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 211939,
+      "SHA256": "1CA622C943386069AB903AEAC723CFFD21C2E75A4E9FAC748CEDBF860D8050BD",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T20:57:48.3628816Z",
+      "CompletedUtc": "2026-10-03T20:58:14.1955291Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_165946\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 17869,
+      "SHA256": "6F2E0300E9B2F0AC5F89FEE2B27E145744227D80EB64E7D52936FA71AFF152AE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T21:02:53.1796796Z",
+      "CompletedUtc": "2026-10-03T21:03:04.9580687Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 11
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_171822\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 17869,
+      "SHA256": "6F2E0300E9B2F0AC5F89FEE2B27E145744227D80EB64E7D52936FA71AFF152AE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T21:02:53.1796796Z",
+      "CompletedUtc": "2026-10-03T21:03:04.9580687Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 11
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_172402\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 17869,
+      "SHA256": "6F2E0300E9B2F0AC5F89FEE2B27E145744227D80EB64E7D52936FA71AFF152AE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T21:02:53.1796796Z",
+      "CompletedUtc": "2026-10-03T21:03:04.9580687Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 11
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_191656\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 53749,
+      "SHA256": "2C64EF8D784C34B4CF339FD30F7DA915B096EBFBD1F975F20799B7D5F4E598E5",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-03T23:24:34.2357222Z",
+      "CompletedUtc": "2026-10-03T23:24:49.7987089Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_192742\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 218737,
+      "SHA256": "44757680F6AC5056BF89CE920622BF2895F5A5E92CA2778040EBF30B995565A4",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T23:33:33.1270712Z",
+      "CompletedUtc": "2026-10-03T23:33:59.1114745Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_193743\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 56785,
+      "SHA256": "8FEFDA788CE1F45FFDD29A1689EC197FBCEB58D84DCA9403CA2FC0A58B409BA3",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T23:40:30.4815999Z",
+      "CompletedUtc": "2026-10-03T23:40:49.0092551Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_194323\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 56785,
+      "SHA256": "8FEFDA788CE1F45FFDD29A1689EC197FBCEB58D84DCA9403CA2FC0A58B409BA3",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T23:40:30.4815999Z",
+      "CompletedUtc": "2026-10-03T23:40:49.0092551Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_195020\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 53742,
+      "SHA256": "D2761F4AB23B32A97415E0DE26E8395293A98FE35FD41B311CD6790F14CE01DB",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-03T23:55:11.6744708Z",
+      "CompletedUtc": "2026-10-03T23:55:21.3642826Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_200543\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 17863,
+      "SHA256": "5A264D05AB3C2F6C1665ACD30EE5F6BD01658412354DC4FC85A0C2D98577CA87",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T00:12:48.9715772Z",
+      "CompletedUtc": "2026-10-04T00:12:56.9187121Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 11
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_202143\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 17863,
+      "SHA256": "EFC10AECE356043A5EA0FFB28B7981BDE85D1AC168492A9C18ADDB0365EEF1B3",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T00:24:30.1455336Z",
+      "CompletedUtc": "2026-10-04T00:24:38.2328717Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 11
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_202708\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 17863,
+      "SHA256": "EFC10AECE356043A5EA0FFB28B7981BDE85D1AC168492A9C18ADDB0365EEF1B3",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T00:24:30.1455336Z",
+      "CompletedUtc": "2026-10-04T00:24:38.2328717Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 11
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_203231\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 17863,
+      "SHA256": "EFC10AECE356043A5EA0FFB28B7981BDE85D1AC168492A9C18ADDB0365EEF1B3",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T00:24:30.1455336Z",
+      "CompletedUtc": "2026-10-04T00:24:38.2328717Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 11
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261003_205147\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 53744,
+      "SHA256": "156E589BAE38AC96D30166FFB7ECE11C3343A09D7A9B5BACB02D8ECD00D7A1DD",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T00:54:13.8591926Z",
+      "CompletedUtc": "2026-10-04T00:54:30.7405613Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_134656\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 275102,
+      "SHA256": "6AC1DA635A0BE7385726EDF76F37BA8F0616FBBC720C5BC2F085BBCBB69A2E04",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T17:40:50.6580025Z",
+      "CompletedUtc": "2026-10-04T17:41:33.5389901Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_154448\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 294958,
+      "SHA256": "B4BF62494535276410495C7FE429F5D77A4F20F9E3D53361F67D2AFAE14FAF90",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T19:43:09.2363110Z",
+      "CompletedUtc": "2026-10-04T19:43:46.7600219Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_201439\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_201439\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_201439\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 54054,
+      "SHA256": "ED4E18D40081431CC08170AF3EC8F5E47056E932D93733426F5AE2C41635EE0C",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T22:47:16.7485538Z",
+      "CompletedUtc": "2026-10-04T22:47:28.3349882Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_203342\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_203342\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261004_203342\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 54054,
+      "SHA256": "ED4E18D40081431CC08170AF3EC8F5E47056E932D93733426F5AE2C41635EE0C",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T22:47:16.7485538Z",
+      "CompletedUtc": "2026-10-04T22:47:28.3349882Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261005_200211\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261005_200211\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261005_200211\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261005_200211\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261005_200211\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 51388,
+      "SHA256": "663E87387238EB891F69BEF605BC9805462E74596ACB864F43A8D313B62BF463",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:08:25.5268440Z",
+      "CompletedUtc": "2026-10-06T00:08:34.0957782Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 13
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\app-data-at-end\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261006_175317\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 326971,
+      "SHA256": "3CF7EE8D2CF1A5203912377C5D8794988B31F6B441336A1654811DBC148CA88A",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-06T01:41:31.4478983Z",
+      "CompletedUtc": "2026-10-06T01:42:11.4019523Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_100122\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_100122\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_100122\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_100122\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_100122\\app-data-at-end\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_100122\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_160516\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_160516\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_160516\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_160516\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_160516\\app-data-at-end\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261011_160516\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261013_193055\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261013_193055\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261013_193055\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261013_193055\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261013_193055\\app-data-at-end\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261013_193055\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261015_185801\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261015_185801\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261015_185801\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261015_185801\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261015_185801\\app-data-at-end\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261015_185801\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261016_203325\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261016_203325\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261016_203325\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261016_203325\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261016_203325\\app-data-at-end\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261016_203325\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261018_135149\\app-data-at-end\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261018_135149\\app-data-at-end\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261018_135149\\app-data-at-end\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261018_135149\\app-data-at-end\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261018_135149\\app-data-at-end\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26Evidence\\native_20261018_135149\\app-data-at-end\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_125738\\SCAN_001_RAW.json",
+      "Bytes": 57278,
+      "SHA256": "61352CE956622889970609D8100E3B25A2CC3D7A6F03FF1DE2F52E7FE7FFEAB6",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T17:00:11.4073925Z",
+      "CompletedUtc": "2026-10-04T17:00:28.5708592Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_133911\\SCAN_001_RAW.json",
+      "Bytes": 57278,
+      "SHA256": "90B7396B281B544F216EDB451253947AD46EB7202C155F75501775D2943A89AE",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T17:40:12.9450236Z",
+      "CompletedUtc": "2026-10-04T17:40:29.8113176Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_133911\\SCAN_002_RAW.json",
+      "Bytes": 275102,
+      "SHA256": "6AC1DA635A0BE7385726EDF76F37BA8F0616FBBC720C5BC2F085BBCBB69A2E04",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T17:40:50.6580025Z",
+      "CompletedUtc": "2026-10-04T17:41:33.5389901Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_134657\\SCAN_001_RAW.json",
+      "Bytes": 54032,
+      "SHA256": "2BCF0C78791AB9D367D0ED1728B5BEB4755A53B33A7A0202D10B9BB0F05D2B76",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T17:57:04.7996310Z",
+      "CompletedUtc": "2026-10-04T17:57:20.2242088Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_134657\\SCAN_002_RAW.json",
+      "Bytes": 271816,
+      "SHA256": "73DCB99728212492B670F972D4C7A818829EC683067E6699A986F1D17C4CA271",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T17:57:55.2494666Z",
+      "CompletedUtc": "2026-10-04T17:58:36.6536715Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_134657\\SCAN_003_RAW.json",
+      "Bytes": 54032,
+      "SHA256": "14A917201EA485956C3C3DB3D319329DBC3E04A27EB35C88327091B9658D6644",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T17:59:29.9327765Z",
+      "CompletedUtc": "2026-10-04T17:59:39.7860698Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_134657\\SCAN_004_RAW.json",
+      "Bytes": 54036,
+      "SHA256": "18604E722DE487188904ED3915EDEB01C5D393CEEAC6BA4AC8F32B6F70F4DEB4",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T18:03:27.0596310Z",
+      "CompletedUtc": "2026-10-04T18:03:36.8589864Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserver\\20261004_134657\\SCAN_005_RAW.json",
+      "Bytes": 271862,
+      "SHA256": "24D572C942C27C31A0CE9A9C732F39707B5AAE9332FAD334637C82B28692594F",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T18:05:34.7771090Z",
+      "CompletedUtc": "2026-10-04T18:06:12.1598794Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV4\\20261004_153102\\SCAN_001_RAW.json",
+      "Bytes": 644,
+      "SHA256": "B94F512045D7DD31683B1502776893F5169E7140E5A8FE1BCDF22F7281933B32",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T19:34:46.4581762Z",
+      "CompletedUtc": "2026-10-04T19:34:46.5383007Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 0
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261004_153948\\SCAN_001_RAW.json",
+      "Bytes": 57294,
+      "SHA256": "2192546E471AA6AFE8EFAC1F32DF9E384CDB38D10206A1A1E9CAC115983A290F",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T19:40:59.4841110Z",
+      "CompletedUtc": "2026-10-04T19:41:16.4454502Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261004_153948\\SCAN_002_RAW.json",
+      "Bytes": 294972,
+      "SHA256": "F00FC64AD1E433074F5CD6A0BA4375AB8CEA37586941F093BBDDB8F38D412014",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T19:41:43.8521170Z",
+      "CompletedUtc": "2026-10-04T19:42:26.4208268Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261004_153948\\SCAN_003_RAW.json",
+      "Bytes": 57296,
+      "SHA256": "6F53B37F2637A274E4D1B1B289BC198797BE33092FCD2329C1FE0754EE2382ED",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T19:42:43.3479365Z",
+      "CompletedUtc": "2026-10-04T19:42:52.9378334Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261004_153948\\SCAN_004_RAW.json",
+      "Bytes": 294958,
+      "SHA256": "B4BF62494535276410495C7FE429F5D77A4F20F9E3D53361F67D2AFAE14FAF90",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T19:43:09.2363110Z",
+      "CompletedUtc": "2026-10-04T19:43:46.7600219Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261004_203343\\SCAN_001_RAW.json",
+      "Bytes": 54050,
+      "SHA256": "8837BB65CD4F02D705C712AAF70F9EFFF00925220426239C6F563C1D993D24B7",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-05T00:41:22.4344366Z",
+      "CompletedUtc": "2026-10-05T00:41:39.3865669Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_190742\\SCAN_001_RAW.json",
+      "Bytes": 57294,
+      "SHA256": "4B7F84026B2CDCDBA0A9C33CC09AA829D0EDBDBD9CD0E64A626DAF8742DD0386",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-05T23:11:55.8991572Z",
+      "CompletedUtc": "2026-10-05T23:12:13.1082213Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_190742\\SCAN_002_RAW.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_190742\\SCAN_003_RAW.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_200212\\SCAN_001_RAW.json",
+      "Bytes": 57294,
+      "SHA256": "E1A024FB9FD36FE39A57C49F234BB8AD5A2F95CACC1220DA4359B2523F2314F6",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:06:10.1360144Z",
+      "CompletedUtc": "2026-10-06T00:06:27.3764313Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_200212\\SCAN_002_RAW.json",
+      "Bytes": 387648,
+      "SHA256": "528E5EA700F9282C8B1F9E246ACA19B322DB4726E1BDD3CEDA66F494C6E89FEB",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-06T00:06:39.5205667Z",
+      "CompletedUtc": "2026-10-06T00:07:23.8001003Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_200212\\SCAN_003_RAW.json",
+      "Bytes": 57294,
+      "SHA256": "C50AB8FAC2349B03680FAFF81A2ADCC78E9FE0AABAFEA2C0A094BF836B3402A0",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:07:39.6507546Z",
+      "CompletedUtc": "2026-10-06T00:07:49.3482444Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_200212\\SCAN_004_RAW.json",
+      "Bytes": 51388,
+      "SHA256": "663E87387238EB891F69BEF605BC9805462E74596ACB864F43A8D313B62BF463",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:08:25.5268440Z",
+      "CompletedUtc": "2026-10-06T00:08:34.0957782Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 13
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_200212\\SCAN_005_RAW.json",
+      "Bytes": 54048,
+      "SHA256": "E1B238CB90F249729EF914CAB82AA4FF9FF0991B47BD163479FC9A1A6CC3544C",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:10:12.5130197Z",
+      "CompletedUtc": "2026-10-06T00:10:22.5254123Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26InstalledScanObserverV5\\20261005_200212\\SCAN_006_RAW.json",
+      "Bytes": 384436,
+      "SHA256": "2A2E61BDD4E49E6E47EB307133D7AE9CBF57391526FA466FE558DE2976E9992A",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-06T00:11:09.0524934Z",
+      "CompletedUtc": "2026-10-06T00:11:48.2759754Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-contracts-20261005-200141\\observer-v5-20261005-190742\\SCAN_001_RAW.json",
+      "Bytes": 57294,
+      "SHA256": "4B7F84026B2CDCDBA0A9C33CC09AA829D0EDBDBD9CD0E64A626DAF8742DD0386",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-05T23:11:55.8991572Z",
+      "CompletedUtc": "2026-10-05T23:12:13.1082213Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-contracts-20261005-200141\\observer-v5-20261005-190742\\SCAN_002_RAW.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-contracts-20261005-200141\\observer-v5-20261005-190742\\SCAN_003_RAW.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-export-20261016-1792196321148\\data\\reports\\cancelledfull125-20261005-1916.json",
+      "Bytes": 64095,
+      "SHA256": "8C8D00EBD254474F2691B56CFFBA1E3AADF6D1BC6E8E7890373272F0470E0073",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:15:52.5529200Z",
+      "CompletedUtc": "2026-10-05T23:16:19.8639718Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 16
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-export-20261016-1792196321148\\data\\reports\\fulldark100.json",
+      "Bytes": 309314,
+      "SHA256": "70D0D4B6B037DA168E2E3D43670372833C9E7CBAF8595F64AD9BC76DCE340D16",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-04T21:06:04.1603990Z",
+      "CompletedUtc": "2026-10-04T21:06:42.9523110Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-export-20261016-1792196321148\\data\\reports\\fulldark125-storage-20261005-1931.json",
+      "Bytes": 387675,
+      "SHA256": "A8246D4A37B83F7D97FC6E8073D557F2EFEA8EE2F8459D70C8CADB60536D6B64",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-05T23:31:06.2146613Z",
+      "CompletedUtc": "2026-10-05T23:31:48.3530991Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-export-20261016-1792196321148\\data\\reports\\quickdark100.json",
+      "Bytes": 54050,
+      "SHA256": "007B4F9A9C9A4FDE697E6B2686F57E53B142CC49AE8E9888CE1C96B670562043",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-04T20:21:33.4123292Z",
+      "CompletedUtc": "2026-10-04T20:21:49.7050304Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-export-20261016-1792196321148\\data\\reports\\quicklight125-20261005-2057.json",
+      "Bytes": 54050,
+      "SHA256": "0C82799F9A93B3590F15B5417C9C968B6DA4CDDF5DF6B87AAD324A503897A85B",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:56:59.6574435Z",
+      "CompletedUtc": "2026-10-06T00:57:11.3924828Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-export-20261016-1792196321148\\data\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-light150-cleanup6-20261017\\data\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-08T23:04:38.7617192Z",
+      "CompletedUtc": "2026-10-08T23:05:25.6882604Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\native-collection-reconciliation-20261011\\raw\\SCAN_001_RAW.json",
+      "Bytes": 57294,
+      "SHA256": "E1A024FB9FD36FE39A57C49F234BB8AD5A2F95CACC1220DA4359B2523F2314F6",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:06:10.1360144Z",
+      "CompletedUtc": "2026-10-06T00:06:27.3764313Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\native-collection-reconciliation-20261011\\raw\\SCAN_002_RAW.json",
+      "Bytes": 387648,
+      "SHA256": "528E5EA700F9282C8B1F9E246ACA19B322DB4726E1BDD3CEDA66F494C6E89FEB",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-06T00:06:39.5205667Z",
+      "CompletedUtc": "2026-10-06T00:07:23.8001003Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\native-collection-reconciliation-20261011\\raw\\SCAN_003_RAW.json",
+      "Bytes": 57294,
+      "SHA256": "C50AB8FAC2349B03680FAFF81A2ADCC78E9FE0AABAFEA2C0A094BF836B3402A0",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:07:39.6507546Z",
+      "CompletedUtc": "2026-10-06T00:07:49.3482444Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\native-collection-reconciliation-20261011\\raw\\SCAN_004_RAW.json",
+      "Bytes": 51388,
+      "SHA256": "663E87387238EB891F69BEF605BC9805462E74596ACB864F43A8D313B62BF463",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:08:25.5268440Z",
+      "CompletedUtc": "2026-10-06T00:08:34.0957782Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 13
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\native-collection-reconciliation-20261011\\raw\\SCAN_005_RAW.json",
+      "Bytes": 54048,
+      "SHA256": "E1B238CB90F249729EF914CAB82AA4FF9FF0991B47BD163479FC9A1A6CC3544C",
+      "Mode": "Quick",
+      "StartedUtc": "2026-10-06T00:10:12.5130197Z",
+      "CompletedUtc": "2026-10-06T00:10:22.5254123Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 15
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\native-collection-reconciliation-20261011\\raw\\SCAN_006_RAW.json",
+      "Bytes": 384436,
+      "SHA256": "2A2E61BDD4E49E6E47EB307133D7AE9CBF57391526FA466FE558DE2976E9992A",
+      "Mode": "Full",
+      "StartedUtc": "2026-10-06T00:11:09.0524934Z",
+      "CompletedUtc": "2026-10-06T00:11:48.2759754Z",
+      "Keys": [
+        "Schema",
+        "Mode",
+        "StartedUtc",
+        "CompletedUtc",
+        "Cancelled",
+        "ReadOnly",
+        "Summary",
+        "Results"
+      ],
+      "Results": 21
+    }
+  ]
+}

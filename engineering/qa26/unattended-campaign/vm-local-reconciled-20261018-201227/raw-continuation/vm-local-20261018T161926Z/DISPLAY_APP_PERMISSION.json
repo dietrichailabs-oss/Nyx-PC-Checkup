@@ -1,0 +1,9 @@
+{
+  "Utc": "2026-10-18T16:48:52.3539608Z",
+  "Authorization": "User permits whatever needed; ordinary Display150 setup for two QA26 cases",
+  "Scope": "Current chat only; Windows Settings Display page",
+  "AddedApplication": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel",
+  "BeforeSHA256": "2F3303CCF5B9F1F739122532795D002FEFB127F1A319CB50C4D57CDA61F94CB1",
+  "AfterSHA256": "768982F099D096901FE58488CDC305AC9D55193E6A289FDDDB11CC08BED84059",
+  "WindowsSecurityOrExecutionPolicyChanged": false
+}

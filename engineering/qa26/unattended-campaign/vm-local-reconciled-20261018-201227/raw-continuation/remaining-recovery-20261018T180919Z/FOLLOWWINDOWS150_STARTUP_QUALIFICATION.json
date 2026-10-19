@@ -1,0 +1,38 @@
+{
+  "Utc": "2026-10-18T18:21:54.390265+00:00",
+  "PredicateId": "followwindows150_startup_missing_location_20261018",
+  "Status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+  "Theme": "FollowWindows",
+  "Scale": 150,
+  "NativeDpi": 144,
+  "Pid": 8800,
+  "SessionId": 2,
+  "Preconditions": "FOLLOWWINDOWS150_STARTUP_PRECONDITIONS.json",
+  "BeforeReceipt": "followwindows150_startup_missing_location_before_20261018T1821304141545Z_05d30f9b7a7849238745dfe961be09c1.json",
+  "AfterReceipt": "followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.json",
+  "ReturnReceipt": "followwindows150_startup_missing_location_return_20261018T1821467903019Z_7ed7de6fa57b40f7b5aef0e9f1bbe121.json",
+  "Screenshot": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\remaining-recovery-20261018T180919Z\\followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.png",
+  "ScreenshotSHA256": "EB224C4F116C2EB3CCAA5A4E0F2E6A4C6F1D1F515EEE182A7EFBD53A4CDE74A4",
+  "Observed": "Exact existing missing-target fixture gives readable handled unavailable-location modal by one Enter; focused OK. Escape closes normally and restores location-action focus. No executable activation, startup change, scan, elevation or exception.",
+  "FrozenFilesMatched": 60,
+  "PreservedData": [
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "Unchanged": true
+    }
+  ],
+  "HelperSHA256": "6A13584AC2DB2268CB1BD4150F8E06F8F5054B6BD96503E65DC55187BB1E0BE0",
+  "TestsRepeated": 0,
+  "NewAssertionCredit": 1,
+  "EngineeringPASSAfter": 327,
+  "EngineeringFAIL": 0,
+  "FullCellsAdded": 0,
+  "CampaignComplete": false,
+  "FinalDecisionOwner": "Independent QA"
+}

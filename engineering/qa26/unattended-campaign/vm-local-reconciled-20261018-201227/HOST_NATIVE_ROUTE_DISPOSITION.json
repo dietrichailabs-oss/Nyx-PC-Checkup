@@ -1,0 +1,50 @@
+{
+  "schema": "QA26-HOST-NATIVE-ROUTE-DISPOSITION-1",
+  "utc": "2026-10-19T00:38:58.410Z",
+  "existingVmCount": 8,
+  "checkpointMetadataCount": 31,
+  "knownOriginalBaselineAudit": "BASELINE_NATIVE_RECONCILIATION_20261017.json",
+  "historicalInspectedVms": 6,
+  "historicalCheckpoints": 28,
+  "historicalUniqueDiskTargets": 35,
+  "newlyDiscoveredCompatibleUntouchedBaselines": 0,
+  "qualifiedCompatibleBaselines": 0,
+  "hostManagementAccess": "AVAILABLE",
+  "hostNativePs51": {
+    "version": "5.1.26100.9549",
+    "edition": "Desktop",
+    "is64Bit": true,
+    "effectivePolicy": "Restricted",
+    "allFiveScopes": "Undefined",
+    "user": "MARK\\bossm",
+    "administrator": false,
+    "inUseNotDisposable": true
+  },
+  "updatedCloneNativePolicyFromRecoveredPreflight": "Restricted",
+  "currentOriginalVm": "Saved",
+  "noVmStartRestoreForBaselineInspection": true,
+  "noNewAuthenticationAttempt": true,
+  "noPolicyOrTrustChange": true,
+  "noBlockedRunnerExecuted": true,
+  "blockedMissingLeaves": [
+    "F016 native progress/concurrency",
+    "F010 malformed/privacy remainder after no-repeat filtering",
+    "Elevated Startup rollback"
+  ],
+  "blockedSuites": [
+    "InstallerLifecycle",
+    "QA2Migration"
+  ],
+  "excluded": [
+    "All future DPI/layout testing"
+  ],
+  "reserved": [
+    "PDF product-failure classification",
+    "Unqualified overwrite decline and unintended repeated TXT export",
+    "Stale screenshots and old native/context gaps",
+    "Disputed generated installation metadata",
+    "Settings200 readability",
+    "Separate launcher-security Issue16"
+  ],
+  "limitation": "No compatible baseline is qualified. Old inaccessible/undetected baseline records remain unqualified, not proven inherently incompatible. No repeat offline disk scan or test-suite dispatch was performed."
+}

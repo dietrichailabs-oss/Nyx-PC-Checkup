@@ -1,0 +1,197 @@
+{
+  "Utc": "2026-10-18T18:22:55.073081+00:00",
+  "CollectedInputsVerified": 37,
+  "Inputs": [
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+      "SHA256": "3ABEDFB36F1277EEDD172B6C778995E3AEA356998B189380198BA04B8CEBC330",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+      "SHA256": "55178301571C1046FC80441D1FB35C03D6C1F72BEDEAEAF355D8B20FF98D7E5F",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_PLAN_20261018.json",
+      "SHA256": "6A9A20E95B6773A946DBE7D1B47400B89618859BC3AC58A89E25CDA1A2D5C0C1",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\HUMAN_ACTION_QUEUE.json",
+      "SHA256": "4C33F2A6318B0358A0BC99A137288268DAD9868B88A833C775DF49ADC8AF0E94",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\SCOREBOARD_CURRENT.json",
+      "SHA256": "423733988EF9BFF7C1DCB1C99124384A92F848D64D498B7E934DF2E37A033A52",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\authoritative-ledgers\\STATE.json",
+      "SHA256": "59ED559C854FD15B43138764694BEFF595D75EEF7C8B05D43E95621E4F4D5C44",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\SCOREBOARD_CURRENT.json",
+      "SHA256": "8E8AE2F8FECC46DC48C3BE6E65EF264FCB51030B295C32C79BD3CD861C434714",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\STATE_DELTA.json",
+      "SHA256": "F0DA0ABD3B9D6431909839894460266996922CF0530367D5A407911CD0202523",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\DARK150_CLEANUP_HORIZONTAL_NATIVE_QUALIFICATION.json",
+      "SHA256": "9A44A81278128039354E0C1C5F35580AB037E88F040B074029F16C9F7E6DF93B",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\dark150-native144-20261018T175251Z\\MANIFEST.json",
+      "SHA256": "5385A885C98B9E4AC889A9380FA8A48AF80FCA8B80F40E39772F1CF402A5DBC7",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\clone-provenance\\PRESERVATION_CLONE_RECEIPT.json",
+      "SHA256": "E32590880FCAFE30D6341E1004D7A8B5DE0EB0F57D136555C80D4466AD275536",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\clone-provenance\\CLONE_READY_RECEIPT.json",
+      "SHA256": "F1930152C49729D1F5CB64A82C6516FEAE2A5947FB07C643C80298A15432AFAD",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+      "SHA256": "3ABEDFB36F1277EEDD172B6C778995E3AEA356998B189380198BA04B8CEBC330",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\data\\config.json",
+      "SHA256": "D13DEEA3BB15646C3656EF7AD1FF08182280EDF6128CC6B2EBC44B2ABE6305EF",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261018_130330_2511799.jsonl",
+      "SHA256": "22FBE2B2B03A8904F0D1B90E176BCB67DD623E556C6340DA574CDF7820537AA1",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261018_133421_7897661.jsonl",
+      "SHA256": "CEC148179B7CD04BE4A88C438CFBE35AFFCE009DA5C027960AFDBB13B022323E",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\observer\\live_20261018_130330_2511799.jsonl",
+      "SHA256": "A890E079E82D62106762621A05958FB7BAC0764CBD3B9479F4B8E43B04DF6921",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_confirmation_exact_20261018_1792330531728_e5aab8dd-24d8-4057-bc74-16bfd3e4e745.jpg",
+      "SHA256": "DAD00C5832FFB89E6E50DB170E15E4623932198940ABB34B752AA39EEFEB745F",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_confirmation_exact_20261018_1792330531728_e5aab8dd-24d8-4057-bc74-16bfd3e4e745.jpg.capture.json",
+      "SHA256": "32B5E1100B1688D631D0008CB4A6F4D2B0C53A21592B97FF65EDA3547387788E",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg",
+      "SHA256": "023F27F33BF2B9FA7B589D3A9636CED3A013FFE299F1B962F430DFFAB2496A2D",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg.capture.json",
+      "SHA256": "5F0B73F3EF4821D8EDBCE91BAD97E76A3EE311260C6BF687B5C7743E33A31524",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg",
+      "SHA256": "CC95F5A56C0544B2BEB3F8F4080A0F1173F0DF856CB1411128EE6CD471857BC4",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg.capture.json",
+      "SHA256": "1054F6662C67AE25FA14FE0271EB704E9E3D18F65A773A4AB6CDAD17E9DC18A7",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_no_focus_support_20261018_1792330552487_0530ff40-efc7-4072-a2b3-8b46eb75ad1a.jpg",
+      "SHA256": "3DFAAAF9A46E4259CCA2AE643B0B5E79C872CE70C32ADE7D44AE93D246823DA5",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_no_focus_support_20261018_1792330552487_0530ff40-efc7-4072-a2b3-8b46eb75ad1a.jpg.capture.json",
+      "SHA256": "6B0051BDAC5D5E254024B63FC8626288E17486F21715ACB812877F57E68E65B0",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg",
+      "SHA256": "07E1EE7FEB0753A8206EDECD82F1ABD1414A4694B8155224B10CED93ACFFF3B6",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg.capture.json",
+      "SHA256": "759C1A2B7567904B1A82CB907AAC7FFBC612E2A4AC92FA9BA8AEE2115FEC6DD6",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_preserved_candidate_support_20261018_1792330624121_b50cbfb3-962c-40d0-a339-2eefed4e2818.jpg",
+      "SHA256": "C36F975B094B281F679BF8E4852A5681FB9CCF0FE11063919BCBB7A4A32060AA",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_preserved_candidate_support_20261018_1792330624121_b50cbfb3-962c-40d0-a339-2eefed4e2818.jpg.capture.json",
+      "SHA256": "DF1E9C8AB636A3900A72B57249CF3489E128D7C1938D50D9F137104246D4EE4D",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg",
+      "SHA256": "722EDD33F825A119E17F4733DFE769391A479F165E23D14481C475AD772D36B8",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg.capture.json",
+      "SHA256": "5D41A3C50FD4957575271F7DA2067AD43FBB18D6B0497FDDF88B22757356E690",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_safety_observer_setup_20261018_1792330491884_47907a3d-bfe3-4c22-9916-6f3f444da5f9.jpg",
+      "SHA256": "D8757DE28BA9A96FC9387B157F0D3A5AA1A4BA4A1CCE3F8B84E8AEE642E2B265",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_cleanup_safety_observer_setup_20261018_1792330491884_47907a3d-bfe3-4c22-9916-6f3f444da5f9.jpg.capture.json",
+      "SHA256": "13A1F9BCDA121E825EC14327DF9A6AC10E68720EC458C7BAE2A835C27BB2070D",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_resume_applied_selector_foreground_setup_20261018_1792328587910_7b5a03a2-6bf7-426c-9954-ea2a66ee5f71.jpg",
+      "SHA256": "8F027D1B4D7EC9C1CFBC2F6EDA3B607D9436AC1996FC72C0FF215C8A76F7E228",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\screenshots\\followwindows150_resume_applied_selector_foreground_setup_20261018_1792328587910_7b5a03a2-6bf7-426c-9954-ea2a66ee5f71.jpg.capture.json",
+      "SHA256": "3321CC7BCAA72C6EA4506CE399A7138745823F7F748E668C7969BD04D4A6CD35",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Unchanged": true
+    },
+    {
+      "Source": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "Unchanged": true
+    }
+  ],
+  "FrozenArtifactsMatched": 60,
+  "PreservedScanUnchanged": true,
+  "ActionHistoryUnchanged": true,
+  "MissingTargetFixtureUnchanged": true,
+  "AllNonThemeConfigFieldsUnchanged": true,
+  "NoProductOrSecurityPolicyChange": true
+}

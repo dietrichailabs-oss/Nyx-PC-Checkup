@@ -1,0 +1,7 @@
+{
+  "Utc": "2026-10-18T20:01:40.4114863Z",
+  "Request": "Resolve existing permitted execution route and baseline; complete only eligible missing non-DPI tests; no frozen/security-policy changes or repeats",
+  "OriginalVmPreserved": true,
+  "NoDpiTesting": true,
+  "FirstFailureOverrideForUnrelatedTests": true
+}

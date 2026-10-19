@@ -1,0 +1,49 @@
+{
+  "Schema": "QA26-STRICT150-STARTUP-MISSING-LOCATION-PLAN-1",
+  "Status": "PLANNED_MISSING_ONLY_PREREQUISITES_REQUIRED_PER_THEME",
+  "Build": "2026.10.02-eng-qa26",
+  "FrozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "RequiredNativeDpi": 144,
+  "Page": "Startup",
+  "Cases": [
+    {"PredicateId": "dark150_startup_missing_location_20261018", "Theme": "Dark", "Scale": 150},
+    {"PredicateId": "followwindows150_startup_missing_location_20261018", "Theme": "FollowWindows", "Scale": 150},
+    {"PredicateId": "light150_startup_missing_location_20261018", "Theme": "Light", "Scale": 150}
+  ],
+  "Predicate": "Keyboard Open file location on the existing intentionally missing current-user fixture gives a readable handled unavailable-location message; no executable, startup mutation, elevation or scan is launched",
+  "RequirementSources": [
+    "preserved-context/engineering/qa26/unattended-campaign/FOCUSED_GATE_RECONCILIATION.json: F022 essential-value/action and unavailable-folder requirement",
+    "preserved-context/engineering/qa26/unattended-campaign/MISSING_ONLY_EXECUTION_DISPOSITION_20261017.json: remaining FollowWindows150 missing-location fixture",
+    "Frozen installed app/ui/MainWindow.psm1: Show-NyxStartupPage / Open file location handler"
+  ],
+  "Deduplication": {
+    "CanonicalCompletedRecords": 1184,
+    "StatusInventory": "RECORD_STATUS_INVENTORY.json",
+    "KnownExecutedMissingLocationContexts": ["Dark125", "FollowWindows125"],
+    "AllThreeStrict150StartupMatrixCells": "NOT_RUN",
+    "NoExistingStrict150MissingLocationExecutionFound": true,
+    "ExistingValidLocationAndNavigationTestsAreSetupOnlyAndReceiveNoCredit": true,
+    "NewCaseIDsAbsentFromCanonicalAndPriorContinuation": true
+  },
+  "Fixture": {
+    "Scope": "Existing inherited fixture; no new registry values or startup files",
+    "Key": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Value": "NyxQA26_MissingTarget_Fixture",
+    "Data": "\"C:\\Q26EvidenceHarness\\QA26_INTENTIONALLY_MISSING.exe\"",
+    "TargetExists": false,
+    "NoFixtureMutationAuthorizedByThisPlan": true
+  },
+  "PerCasePrerequisites": [
+    "Exact 59 payload hashes plus pinned manifest match",
+    "Fresh actual 144 DPI and applied-theme observation",
+    "Non-elevated exact Nyx process and current session",
+    "Fixture selected by observed UI identity, never by guessed row index",
+    "Visible location keyboard focus and fresh before image",
+    "Append STARTED_ONCE before exactly one activation; any unknown outcome remains executed and must not be retried"
+  ],
+  "HelperScope": "Existing authorized one-shot native GUI instrument. Only output Root changed for separate evidence. Exact PID/session/window/process/class/non-elevation guards and action whitelist retained; new launch guards may be rebound after normal theme relaunch with a fresh preflight.",
+  "NoScansOrCleanup": true,
+  "NoDisableOrEnableStartup": true,
+  "NoWholeCellOrFocusedGateCredit": true,
+  "StopOnFirstGenuineProductFailure": true
+}

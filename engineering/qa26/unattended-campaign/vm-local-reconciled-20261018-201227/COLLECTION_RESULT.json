@@ -1,0 +1,46 @@
+{
+    "StartedUtc":  "2026-10-19T00:12:30.2870118Z",
+    "VMId":  "068a8dc7-f5e1-4e0e-a941-e0a3955e5a29",
+    "OriginalVMId":  "275a191c-cf8a-4929-9849-b9a293e9149d",
+    "NoTestsRun":  true,
+    "DpiTestingSkipped":  true,
+    "PolicyChanged":  false,
+    "MetadataExcluded":  true,
+    "Attached":  false,
+    "Detached":  false,
+    "Status":  "STOPPED_WITH_ERROR",
+    "Copies":  [
+
+               ],
+    "Chain":  [
+                  {
+                      "Path":  "C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx_CB33AB3A-B79A-435F-85AA-065891D1AEAC.avhdx",
+                      "Type":  "Differencing",
+                      "Bytes":  8262778880,
+                      "ParentPath":  "C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx_06AE5232-42F6-444B-8442-31EBEED172C2.avhdx"
+                  },
+                  {
+                      "Path":  "C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx_06AE5232-42F6-444B-8442-31EBEED172C2.avhdx",
+                      "Type":  "Differencing",
+                      "Bytes":  24231542784,
+                      "ParentPath":  "C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx.vhdx"
+                  },
+                  {
+                      "Path":  "C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx.vhdx",
+                      "Type":  "Dynamic",
+                      "Bytes":  34363932672,
+                      "ParentPath":  ""
+                  }
+              ],
+    "SourceVM":  {
+                     "State":  "Running",
+                     "Name":  "Nyx-AppSetup-20261018_1792337380402"
+                 },
+    "LiveDiskIdentityOnly":  "C:\\Nyx\\clones\\Nyx-AppSetup-20261018_1792337380402\\WorkingClone\\Virtual Hard Disks\\Nyx_CB33AB3A-B79A-435F-85AA-065891D1AEAC.avhdx",
+    "ExportRoot":  "C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227",
+    "ExportStartedUtc":  "2026-10-19T00:12:31.1467822Z",
+    "ExportCompletedUtc":  "2026-10-19T00:26:56.2302262Z",
+    "Error":  "Failed to mount the virtual disk.\n\nThe system failed to mount \u0027C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx_CB33AB3A-B79A-435F-85AA-065891D1AEAC.avhdx\u0027.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount \u0027C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx_CB33AB3A-B79A-435F-85AA-065891D1AEAC.avhdx\u0027: The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed and unencrypted and must not be sparse. (0xC03A001A).",
+    "ErrorDetail":  "Failed to mount the virtual disk.\n\nThe system failed to mount \u0027C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx_CB33AB3A-B79A-435F-85AA-065891D1AEAC.avhdx\u0027.\r\n\r\nFailed to mount the virtual disk.\n\nThe system failed to mount \u0027C:\\Nyx\\collections\\QA26_AppSetup_Continuation_20261018_201227\\Nyx-AppSetup-20261018_1792337380402\\Virtual Hard Disks\\Nyx_CB33AB3A-B79A-435F-85AA-065891D1AEAC.avhdx\u0027: The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed and unencrypted and must not be sparse. (0xC03A001A).",
+    "CompletedUtc":  "2026-10-19T00:26:56.5056676Z"
+}

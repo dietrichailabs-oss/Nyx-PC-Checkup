@@ -1,0 +1,475 @@
+{
+  "light150CleanupSixNativeCollection20261017": {
+    "status": "COLLECTED_DETACHED_SIX_NATIVE_QUALIFIED",
+    "plan": "LIGHT150_CLEANUP6_NATIVE_COLLECTION_PLAN_20261017.json",
+    "batch": "LIGHT150_CLEANUP_MISSING_NAVIGATION_20261017.json",
+    "executedMissingCases": 6,
+    "distinctPrimaryImages": 6,
+    "assertionCreditPendingNativeEvidence": false,
+    "qualification": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
+    "newQualifiedAssertions": 6,
+    "engineeringAssertionPASSAfterQualification": 312,
+    "diskDetached": true,
+    "noFurtherHumanCollectionActionRequired": true,
+    "noGuestCredentials": true,
+    "testsRepeated": 0,
+    "metadataExcluded": true,
+    "existingRawScansReadOnlyCopy": true,
+    "scoreboardPASSBeforeQualification": 306,
+    "productFAIL": 0
+  },
+  "light150AuxiliaryEightEvidenceDisposition20261017": {
+    "status": "COLLECTED_DETACHED_ONE_QUALIFIED_SEVEN_EVIDENCE_INCOMPLETE",
+    "qualification": "LIGHT150_AUXILIARY_NATIVE_QUALIFICATION_20261017.json",
+    "nativeReadOnlyVerified": true,
+    "diskDetached": true,
+    "pendingNativeCollection": 0,
+    "newEligibleAssertions": 1,
+    "uncreditedEvidenceCases": 7,
+    "engineeringAssertionPASS": 306,
+    "engineeringAssertionFAIL": 0,
+    "matrixComplete": 83,
+    "matrixTotal": 132,
+    "reason": "Seven primary case captures reused an earlier image; supporting state images also do not prove the reported endpoints. Native DPI and frozen files qualify, but screenshot sufficiency does not.",
+    "requestedDecision": "Evidence-helper-only correction approved and applied. Seven affected executed cases remain uncredited; no repeat authorized. Independent QA evidence disposition remains open.",
+    "helperCorrectionApplied": true,
+    "helperCorrectionRecord": "EVIDENCE_HELPER_CORRECTION_20261017.json",
+    "helperValidation": "PASS_FIXTURE_AND_LIVE_CAPTURE_VALIDATION",
+    "helperValidationRecord": "EVIDENCE_HELPER_VALIDATION_20261017.json",
+    "metadataExcludedAndUninspected": true,
+    "productFailureClaimed": false,
+    "campaignComplete": false,
+    "finalDecisionOwner": "Independent QA"
+  },
+  "remainingThreeNativeCollection20261017": {
+    "status": "COLLECTED_DETACHED_THREE_ASSERTIONS_NATIVE_QUALIFIED",
+    "action": "Completed using the existing successful export; no further approval or credential action needed for these three cases. Do not repeat them.",
+    "plan": "REMAINING3_NATIVE_COLLECTION_PLAN_20261017.json",
+    "audit": "REMAINING_EXECUTION_ROUTE_AUDIT_20261017.json",
+    "exportRoot": "qa26_vm_automation/native_remaining3_export_20261017_0228",
+    "executedCasesPendingQualification": 0,
+    "newEligibleAssertions": 3,
+    "qualification": "REMAINING3_NATIVE_QUALIFICATION_20261017.json",
+    "guestCredentialsNeeded": false,
+    "diskDetached": true,
+    "nativeReadOnlyVerified": true,
+    "noPolicyChange": true,
+    "noAutomaticPromptRetry": true,
+    "noTestsRepeated": true,
+    "scoreboardCreditPending": false
+  },
+  "followWindows150SecurityRedirect20261017": {
+    "status": "PASS_ENGINEERING_NATIVE_QUALIFIED_HUMAN_CLOSED",
+    "qualification": "REMAINING3_NATIVE_QUALIFICATION_20261017.json",
+    "additionalHumanActionRequired": false,
+    "record": "FOLLOWWINDOWS150_REMAINING_MISSING_20261017.json",
+    "predicateId": "followwindows150_security_human_redirect_missing_20261017",
+    "action": "Completed by human; destination and return screenshots preserved. No activation or closure should be repeated; native qualification remains pending for this new redirect",
+    "completedPredicateNotRepeated": true,
+    "newCredit": 0,
+    "nativeEvidence": "Fresh pre-existing observer started; new case raw interval qualification pending",
+    "latestQualifiedScoreboard": "302 Engineering assertions PASS, 0 FAIL; matrix83/132; Independent QA final verdict reserved"
+  },
+  "legacyNativeBaseline20261017": {
+    "status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+    "evidence": "BASELINE_NATIVE_RECONCILIATION_20261017.json",
+    "inspectedInventory": "6 saved QA VMs, 28 checkpoints, 35 unique disk targets; 34 VM/checkpoint records retained",
+    "isolatedMailBaseline": "Saved after-sign-in native PS5.1 Desktop preflight has effective Restricted, all scopes Undefined; source remained off during preparation, child disconnected, no policy change",
+    "suitesNotRun": [
+      "InstallerLifecycle",
+      "QA2Migration"
+    ],
+    "requiredPrerequisite": "Independent QA approved accessible untouched pre-existing compatible native PS5.1 baseline qualification; do not change policy, add QA bypass, sign frozen runtime, or use launcher trampoline",
+    "limitation": "Inaccessible chains and undetected Windows volumes remain unqualified, not proven inherently incompatible",
+    "unrelatedUiTestingContinues": true,
+    "testCredit": 0
+  },
+  "combinedNativeBatch20261017": {
+    "status": "COLLECTED_DETACHED_100_NEW_ASSERTIONS_NATIVE_QUALIFIED",
+    "executionRecords": [
+      "LIGHT150_MISSING_NAVIGATION_BATCH_20261016.json",
+      "OTHER150_MISSING_NAVIGATION_BATCH_20261016.json",
+      "LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json",
+      "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"
+    ],
+    "new150NavigationCasesExecuted": 98,
+    "fresh125RedirectsExecuted": 2,
+    "newFullCellCredit": 0,
+    "qualification": "MISSING_ONLY_NATIVE_QUALIFICATION_20261017.json; 100 new assertions qualified, all60 frozen files match, native120 for fresh125 redirects and native144 for all98 new150 cases; no historical DPI extrapolation",
+    "exportResult": "qa26_vm_automation/native_batch_export_20261017_0130_result.json",
+    "nextHumanAction": "None for this completed collection; no repeated UAC or guest credentials. Other missing fixtures/native-baseline prerequisites and Independent QA decisions remain separate",
+    "previous150SignInPrerequisite": "COMPLETED; full raw native144 intervals qualified for Light, Dark and FollowWindows; 1090 raw native samples recovered across five logs",
+    "old23Light125": "Preserved, no rerun; missing contemporaneous native interval requires Independent QA disposition",
+    "metadata": "Leave disputed install-state metadata untouched for Independent QA",
+    "securityOrExecutionPolicyChanged": false,
+    "frozenProductChanged": false
+  },
+  "light125MissingCaseQualification20261016": {
+    "status": "NATIVE_COLLECTION_COMPLETE_OLD23_INTERVAL_GAP_FRESH2_RAW_PENDING",
+    "nativeCollectionResult": "collected-native-export-20261016-1792196321148/COLLECTION_RESULTS.json",
+    "diskDetached": true,
+    "frozenPayloadMatched": 60,
+    "old23Disposition": "Preserved, no repeat. No contemporaneous native interval found; Independent QA disposition required. No DPI extrapolation.",
+    "freshExecutedCases": 2,
+    "freshRecords": [
+      "LIGHT125_STORAGE_REDIRECT_MISSING_20261016.json",
+      "LIGHT125_SECURITY_REDIRECT_MISSING_20261016.json"
+    ],
+    "freshNativeLog": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261017_002100_3968008.jsonl",
+    "freshNativeVisualProof": "120 DPI, PID 5820; exact raw interval collection still pending. Metadata excluded.",
+    "nextHumanPrerequisite": "Normal Windows sign-in after authorized150 scaling sign-out; do not repeat old25 cases or reopen the obsolete PowerShell collector.",
+    "executedCases": 23,
+    "screenshots": 30,
+    "nativeAlternativeEvidence": "NATIVE_LIVE_EXPORT_COLLECTION_PLAN_20261016.json",
+    "nativeExportDestination": "G:\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\qa26_vm_automation\\live_evidence_export_20261016_1792186891822",
+    "evidence": "LIGHT125_THREE_PAGE_MISSING_BATCH_20261016.json",
+    "action": "Native export completed with original Nyx Running. Source VM configuration identifies exactly one active exported AVHDX; Windows metadata path guard passed. Approve normal UAC for native Windows DiskPart read-only attachment of that exported copy only. No guest credentials, PowerShell script, policy/permission change, VM shutdown or metadata investigation. Require successful read-only proof before collection, then detach exact disk. Do not repeat23 executed predicates or infer absent DPI.",
+    "collector": "qa26_vm_automation/dark200_20261013/collect-light125-missing-20261016.ps1",
+    "metadata": "Excluded from collector entirely; Independent QA review remains unchanged.",
+    "newAcceptanceCredit": 0
+  },
+  "offlineMetadataReview20261015": {
+    "id": "FOLLOWWINDOWS125_GENERATED_METADATA_REVIEW_20261015",
+    "status": "WAITING_INDEPENDENT_QA_METADATA_REVIEW",
+    "reason": "Collected install-state text differs from the saved qualified reference. All 60 immutable payload files match. Actual byte or field-level difference has not been diagnosed; no product failure declared.",
+    "requestedAction": "Owner selected Independent QA review. Do not investigate the metadata difference or resume QA execution pending their classification.",
+    "evidence": "FOLLOWWINDOWS125_NATIVE_QUALIFICATION_HOLD_20261015.json",
+    "nativeCollection": "Already collected; measured 120 DPI with stable PID 9504. Do not rerun the collector or completed predicates.",
+    "fullCellCredit": 0,
+    "offlinePolicy": "Do not launch more UAC or credential prompts while owner is asleep. Recurring work remains paused."
+  },
+  "schema": "QA26-HUMAN-ACTION-QUEUE-1",
+  "items": [
+    {
+      "id": "DPI125_LOGIN",
+      "status": "COMPLETE",
+      "action": "Sign into the disposable Nyx VM as Nyx after normal Display sign-out; no authentication automation",
+      "affectedTest": "FollowWindows125 batch and subsequent DPI batches",
+      "prerequisite": "Persist state, perform normal Windows sign-out only after independent100% tests",
+      "queuedUtc": "2026-10-04T20:19:49.274Z",
+      "promptShown": true
+    },
+    {
+      "id": "COLLECT_DARK100_RAW_EVIDENCE_UAC",
+      "status": "COMPLETE",
+      "action": "Approve only normal host UAC for Collect-QA26-Unattended.ps1; then sign into Nyx after its normal restart. No credential/security bypass.",
+      "affectedTest": "Dark100 and Light100 Home/Checkup raw contracts, installed identity/geometry collection; future native DPI transitions and suites require normal authorized host access/sign-in",
+      "queuedUtc": "2026-10-04T21:20:02.932Z",
+      "promptShown": false,
+      "launchResult": "Retry cancelled by Windows: operation was canceled by the user. Collector did not start. Host MARK/bossm process confirmed non-elevated.",
+      "lastAttemptUtc": "2026-10-04T22:51:47.963Z"
+    },
+    {
+      "id": "FW125_STORAGE_OS_REDIRECT",
+      "status": "COMPLETE",
+      "reason": "Exact FollowWindows125 redirect is currently on guest Windows Settings credential UAC. Human must choose No; no password entry or bypass.",
+      "nextAction": "Exercise redirect during grouped human session; dismiss credential prompt without changing OS storage settings if it recurs.",
+      "lastObservedUtc": "2026-10-06T00:14:38.723Z",
+      "completedUtc": "2026-10-06T00:18:20.912Z",
+      "resolution": "Native Windows System Storage destination observed; credential prompt no longer visible; no settings changed."
+    },
+    {
+      "id": "FW125_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Opening/manipulating the Windows Security application is not automated; Nyx read-only findings and primary action focus are verified.",
+      "nextAction": "Human verifies safe Windows Security redirect only, without changing protection settings.",
+      "action": "Human verifies safe Windows Security redirect only, without changing protection settings.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
+    },
+    {
+      "id": "COLLECT_125_AUTHORITATIVE_UAC",
+      "status": "COMPLETE",
+      "reason": "Host Get-VM now succeeds under approved escalation, but read-only Mount-VHD failed with required privilege not held (0x80070522). Collector preserved error and restarted Nyx normally. Authoritative raw collection requires a genuinely elevated collector token; no product failure established.",
+      "nextAction": "Grouped human session approves existing read-only collector; validate quick125/full125 and installed observer per-run records/timestamps before crediting contracts.",
+      "lastAttemptUtc": "2026-10-05T13:12:41.153Z",
+      "launchResult": "Normal RunAs launch returned operation canceled by user. No elevated collection completed.",
+      "completedUtc": "2026-10-05T23:09:30.046Z",
+      "resolution": "Collection read-only succeeded; signed-in native Nyx Home observed."
+    },
+    {
+      "id": "NATIVE_SESSION_LOGIN_20261005",
+      "status": "COMPLETE",
+      "reason": "Guest lock screen observed after normal collector restart; authentication is not automated.",
+      "nextAction": "Sign into disposable Nyx VM as Nyx; resume from persisted STATE without rerunning completed cells.",
+      "completedUtc": "2026-10-05T23:09:30.046Z",
+      "resolution": "Collection read-only succeeded; signed-in native Nyx Home observed."
+    },
+    {
+      "id": "DARK125_STORAGE_OS_REDIRECT",
+      "status": "COMPLETE",
+      "reason": "Credential UAC from Windows Settings redirect; no credential entry or bypass.",
+      "nextAction": "Human clicks No; capture native return and continue independent cells."
+    },
+    {
+      "id": "DARK125_SECURITY_OS_REDIRECT",
+      "status": "COMPLETE",
+      "reason": "Windows Security cannot be automated; read-only Nyx findings and keyboard focus complete.",
+      "nextAction": "Human activates focused redirect and leaves destination open for read-only screenshot; no protection changes.",
+      "completedUtc": "2026-10-05T23:47:38.808Z",
+      "resolution": "Owner direct button click and captured Windows Security destination; no protection changes."
+    },
+    {
+      "id": "COLLECT_TARGETED_AND_LIGHT125_RAW",
+      "status": "COLLECTED_RECONCILIATION_IN_PROGRESS",
+      "reason": "Original targeted transition/cancellation and latest Light125 Quick records require existing read-only collector with actual host UAC approval and subsequent guest login.",
+      "nextAction": "Grouped session approve collector; validate original JSON, exact gaps and live cleanup; no product changes.",
+      "action": "Exact preserved raw is now collected; continue focused-gate and worker-cleanup reconciliation automatically.",
+      "expectedPrompt": "Normal host UAC for the qualified read-only evidence collector",
+      "minimumInput": "None currently",
+      "automaticResume": "Reconcile original event timestamps/cancellation and exported Light125 Quick without substituting newer scans."
+    },
+    {
+      "id": "LIGHT125_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Windows Security cannot be automated; Nyx read-only findings and keyboard primary focus recorded.",
+      "nextAction": "Grouped human session opens destination for screenshot, closes without protection changes.",
+      "action": "Grouped human session opens destination for screenshot, closes without protection changes.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
+    },
+    {
+      "id": "REMAINING_DPI_SESSION_LOGINS",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Native 150% and 200% applied-DPI sessions require normal Windows sign-out/sign-in; authentication is not automated.",
+      "nextAction": "Grouped attended session: sign in as Nyx after each authorized DPI transition; persist state and verify actual DPI before crediting cells.",
+      "affectedTest": "Remaining strict150 and best-effort200 matrix",
+      "queuedUtc": "2026-10-06T15:55:31.346Z",
+      "action": "Grouped attended session: sign in as Nyx after each authorized DPI transition; persist state and verify actual DPI before crediting cells.",
+      "expectedPrompt": "Normal Windows sign-in screen after the planned DPI transition",
+      "minimumInput": "Sign in normally as Nyx; do not share credentials",
+      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans"
+    },
+    {
+      "id": "HOST_NOTIFICATION_OVERLAYS",
+      "status": "COMPLETE",
+      "reason": "Host ChatGPT and Windows Update notification overlays obscure VM capture; no host update/restart or Codex UI automation performed.",
+      "nextAction": "Dismiss host notifications normally without initiating updates, then resume unobscured VM evidence capture.",
+      "queuedUtc": "2026-10-06T16:26:18.965Z"
+    },
+    {
+      "id": "LIGHT150_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Windows Security app is human-only; native Nyx readonly findings tested.",
+      "nextAction": "Group with end-of-campaign human checks; no protection-setting changes.",
+      "action": "Group with end-of-campaign human checks; no protection-setting changes.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
+    },
+    {
+      "id": "FW150_SECURITY_OS_REDIRECT",
+      "status": "BLOCKED_HUMAN",
+      "reason": "Windows Security interaction is human-only; no automated protection changes.",
+      "nextAction": "Grouped end session checks safe redirect and captures destination without modifying protection.",
+      "action": "Grouped end session checks safe redirect and captures destination without modifying protection.",
+      "expectedPrompt": "Windows Security destination opened from the exact Nyx theme/DPI session",
+      "minimumInput": "Open the destination and close it normally; do not change protection settings",
+      "automaticResume": "Capture exact destination evidence and resume remaining independent predicates"
+    },
+    {
+      "id": "DARK150_SECURITY_WINDOW_CLOSE",
+      "status": "RESOLVED_OBSERVED",
+      "reason": "Nyx redirect opened Windows Security; no interaction inside it performed.",
+      "nextAction": "Close existing Windows Security window normally without changing protection. It is now foreground and obscures Nyx shortcut after saved-Light normal close; resume applied-Light relaunch afterward.",
+      "queuedUtc": "2026-10-07T00:04:57.931Z",
+      "completedUtc": "2026-10-08T22:58:04.488Z",
+      "resolution": "User restored desktop and closed Windows Security; unobscured VM and Nyx relaunch observed."
+    },
+    {
+      "id": "FOLLOWWINDOWS150_STORAGE_SETTINGS_UAC_DISMISS",
+      "details": "At 2026-10-08T02:02 heartbeat UAC prompt absent and System > Storage visible. Human resolution method not observed; no automated credential or approval input.",
+      "evidence": "screenshots/recapture_followwindows150_storage_uac_blocker_1791424722130.jpg",
+      "utc": "2026-10-08T01:59:03.9540572Z",
+      "status": "RESOLVED_OBSERVED"
+    },
+    {
+      "id": "GUEST_DISPLAY_UNAVAILABLE_20261008",
+      "status": "RESOLVED_OBSERVED",
+      "reason": "Native display black in two captures while VM Connection reports Running; exact cause unknown.",
+      "nextAction": "Restore visible desktop normally; sign in manually if required. Do not restart or discard preserved scans.",
+      "queuedUtc": "2026-10-08T03:33:32.6744374Z",
+      "completedUtc": "2026-10-08T22:58:04.488Z",
+      "resolution": "User restored desktop and closed Windows Security; unobscured VM and Nyx relaunch observed."
+    },
+    {
+      "id": "COLLECT_LIGHT150_SEPARATE_FULL_RAW",
+      "status": "COLLECTED_CONTRACT_RECONCILED_COMPONENT",
+      "reason": "Separate new Full finished UI; actual contract and worker cleanup require end-of-campaign read-only collector/UAC. Recover prior observer records separately; do not replace original evidence.",
+      "queuedUtc": "2026-10-08T23:08:02.291Z",
+      "action": "Approve the grouped read-only collection after the native helper is qualified.",
+      "expectedPrompt": "Normal host UAC for the qualified read-only evidence collector",
+      "minimumInput": "Approve the exact collector UAC prompt, then sign into Nyx after normal restart",
+      "automaticResume": "Validate exact preserved records, installation identity and native DPI without rerunning scans",
+      "resolution": "Existing read-only collection contains exact October8 Full; contract checked without rerun. Native DPI/worker cleanup not inferred.",
+      "evidence": "preserved-contract-reconciliation-20261011/RESULTS.json"
+    },
+    {
+      "id": "FOLLOWWINDOWS150_LOCALFOLDER_CLOSE_20261008",
+      "status": "RESOLVED_OBSERVED",
+      "action": "Close guest Explorer Nyx PC Checkup window normally, then allow observed return to Nyx Settings. Automated normal-close attempts did not dismiss. Do not delete files or use force termination.",
+      "evidence": "screenshots/followwindows150_localfolder_close_blocker_attended_1791502885989.jpg",
+      "utc": "2026-10-08T23:41:25.995Z",
+      "resolvedUtc": "2026-10-09T16:55:31.856Z",
+      "resolution": "After user reconnect,Explorergone andfocusonlyTabchangesSettingscontrol. Originalreturnfocusnotcredited."
+    },
+    {
+      "id": "COLLECTOR_EXECUTION_POLICY_20261011",
+      "status": "RESOLVED_HARNESS_FIXTURE",
+      "reason": "Elevated diagnostic wrapper confirms existing collector file rejected by PowerShell execution policy: running scripts disabled. No new collection folder; no collection credit; policy not bypassed or changed.",
+      "nextAction": "Await permission to correct the disclosed helper bug, then rerun only the bounded harness fixture self-check.",
+      "evidence": "qa26_vm_automation/COLLECTOR_LAUNCH_20261011.txt",
+      "queuedUtc": "2026-10-11T13:34:26.185Z",
+      "action": "Native executable fixture comparison succeeds without changing PowerShell execution policy.",
+      "automationReason": "PowerShell script policy blocks existing .ps1; alternate harness route not exhausted.",
+      "expectedPrompt": "No Windows prompt for fixture repair; separate normal UAC only for privileged Hyper-V operations",
+      "minimumInput": "None",
+      "automaticResume": "Attempt normal privileged preservation checkpoint; live collection remains separately unverified."
+    },
+    {
+      "id": "HYPERV_NATIVE_INFRASTRUCTURE_UAC_20261011",
+      "status": "COMPLETE",
+      "reason": "Native WMI inventory and actual full-checkpoint creation both returned Access is denied; no snapshot was created.",
+      "action": "After helper qualification, approve the exact native helper through normal host UAC for preservation checkpoint and read-only evidence collection.",
+      "expectedPrompt": "Normal host UAC for Qa26NativeEvidence.exe; never a credential bypass",
+      "minimumInput": "None for completed operation",
+      "automaticResume": "Record preservation checkpoint identity, collect historical raw and native observer evidence, and automate isolated-fixture preparation if the elevated hypervisor interface permits.",
+      "cleanSnapshotCredit": false,
+      "resolution": "Normal privileged preservation checkpoint and fixed native read-only collection succeeded; clean destructive snapshot not established.",
+      "completedUtc": "2026-10-11T14:10:54.501Z"
+    },
+    {
+      "id": "GUEST_DISPLAY_RECONNECT_20261011",
+      "status": "RESOLVED_OBSERVED",
+      "action": "Reconnect existing Nyx VM console; sign in normally if prompted, without restart/discard.",
+      "reason": "Fresh VM Connection screenshot is black while Running after normal collector restart; UI tests cannot observe guest predicates.",
+      "expectedPrompt": "Existing VM Connection display or normal guest sign-in",
+      "minimumInput": "Restore visible guest desktop and report ready; no credentials shared",
+      "automaticResume": "Remaining Dark navigation predicates; isolated suite preparation continues independently.",
+      "resolution": "Owner restored console; fresh screenshot shows signed-in applied Dark Nyx Home.",
+      "resolvedUtc": "2026-10-11T14:17:37.475Z"
+    },
+    {
+      "id": "ISOLATED_SCRIPT_EXECUTION_POLICY_20261011",
+      "status": "BLOCKED_POLICY_CHANGE_DECLINED",
+      "action": "User explicitly declined disposable-VM RemoteSigned setup; do not change policy or bypass. Script suites remain unexecuted.",
+      "reason": "Actual frozen smoke runner was denied by guest execution policy before tests executed.",
+      "expectedPrompt": "No policy change has been initiated.",
+      "minimumInput": "Approved trusted-script execution route.",
+      "automaticResume": "Run frozen Smoke suite, then remaining isolated suites once approved execution is available."
+    },
+    {
+      "id": "NATIVE_OBSERVER_TRUSTED_RESTART_20261011",
+      "status": "RESOLVED_NATIVE_HARNESS_ALTERNATIVE",
+      "action": "Provide approved trusted runner route to restart read-only native DPI observer. Existing observer stopped at 2026-10-11T14:05:44Z and cannot qualify later batches. Do not bypass or disable Windows execution policy.",
+      "evidence": "NATIVE_DPI_ALTERNATIVE_20261011.json",
+      "utc": "2026-10-11T15:27:51.864Z",
+      "resolution": "Native observer launched interactively and 20 records recovered; no script-policy change."
+    },
+    {
+      "id": "CLEAN_BASELINE_NORMAL_SIGNIN_20261011",
+      "status": "COMPLETE",
+      "vm": "Nyx-QA26-Clean-20261011",
+      "minimumInput": "Complete the normal Windows sign-in/password-change flow in Nyx-QA26-Clean-20261011, then confirm desktop visible; never post password.",
+      "reason": "Fresh isolated checkpoint clone must be signed in and independently qualified before destructive suite acknowledgment.",
+      "resume": "Qualify baseline; do not infer clean state from checkpoint name. Frozen product unchanged.",
+      "observed": "Guest console shows Changing password for Nyx; no agent credential change performed.",
+      "resolution": "Normal guest sign-in completed; native baseline and F011 non-admin run collected."
+    },
+    {
+      "id": "CLEAN_VM_SELF_SIGNED_TRUST_UI_20261011",
+      "status": "RESOLVED_VERIFIED",
+      "vm": "Nyx-QA26-Clean-20261011",
+      "approved": true,
+      "certificate": "C:\\Users\\Nyx\\Desktop\\NyxQA26TestSigner.cer",
+      "signerThumbprint": "E410B385320A5E3A8C50F4D4D07599A9CF3AE60C",
+      "minimumInput": "Install desktop NyxQA26TestSigner.cer into Local Machine Trusted Publishers only, approve normal guest UAC, and verify wizard says Trusted Publishers. Current User Root already verified; do not repeat it.",
+      "reason": "No confirmed guest-state changes from current scripted mouse/keyboard input; do not bypass trust prompts.",
+      "resume": "Use clean authenticated bridge ActivateTrust to verify exact stores and apply approved CurrentUser AllSigned, then run remaining suites on qualified isolated baseline.",
+      "rootStoreVerified": true,
+      "publisherStoreVerified": false,
+      "resolvedUtc": "2026-10-11T23:44:21.961Z"
+    },
+    {
+      "id": "STANDARD_PRIVILEGE_NORMAL_CREDENTIALS_20261012",
+      "status": "COMPLETE",
+      "action": "Normal host UAC and masked Nyx guest credentials for signed standard-user suite; no policy change.",
+      "resolution": "Exit0;raw result and stderr/stdout collected."
+    },
+    {
+      "id": "INDEPENDENT_QA_TRUSTED_INSTALLED_MODULE_ROUTE_20261012",
+      "status": "WAITING_INDEPENDENT_QA_SECURITY",
+      "action": "Independent QA/security-approved existing execution baseline or approved testing route preserving frozen bytes and prohibition on QA-created bypass workarounds.",
+      "evidence": "REMAINING_SUITE_EXECUTION_PREREQUISITE_20261012.json"
+    },
+    {
+      "id": "GUEST_DISPLAY_UNAVAILABLE_20261013_2120",
+      "status": "RESOLVED_OBSERVED",
+      "reason": "Nyx on MARK console Running but black; activation and one fresh-binding recovery did not restore display.",
+      "action": "Restore guest access and resume only missing predicates; preserve existing authoritative scans and completed evidence.",
+      "minimumInput": "Reconnect/restore desktop normally; no restart, password shared or scan",
+      "evidence": "screenshots/qa26_guest_display_blocker_20261013_2120.jpg",
+      "queuedUtc": "2026-10-14T01:24:55.9049153Z"
+    },
+    {
+      "id": "DARK200_SETTINGS_READABILITY_REVIEW_20261013",
+      "status": "WAITING_INDEPENDENT_QA",
+      "action": "Classify essential delete-log action label clipping at best-effort200 using preserved complete review evidence; do not infer a PASS or modify frozen candidate.",
+      "evidence": "DARK200_SETTINGS_READABILITY_REVIEW_20261013.json",
+      "issueComment": 6158607950,
+      "queuedUtc": "2026-10-14T01:24:55.9049153Z"
+    },
+    {
+      "id": "LIGHT200_SETTINGS_READABILITY_REVIEW_20261015",
+      "status": "WAITING_INDEPENDENT_QA_NATIVE_COLLECTION_PENDING",
+      "action": "Classify essential delete-log label clipping after keyboard focus, maximize and horizontal right-limit recovery. No deletion activation or frozen-byte change.",
+      "evidence": "LIGHT200_SETTINGS_BATCH_20261015.json"
+    },
+    {
+      "id": "LIGHT200_HISTORICAL_DPI_GAP_20261014",
+      "status": "EVIDENCE_GAP_REVIEW_REQUIRED",
+      "action": "Preserve executed Updates/Backup and Security human-redirect evidence without repeat or retrospective native-DPI inference. Native observer did not record those intervals.",
+      "evidence": "LIGHT200_SECURITY_UPDATES_BACKUP_QUALIFICATION_20261014.json"
+    }
+  ],
+  "followWindows150CleanupSixNativeCollection20261018": {
+    "status": "COLLECTED_DETACHED_SIX_NATIVE_QUALIFIED",
+    "plan": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_COLLECTION_PLAN_20261018.json",
+    "qualification": "FOLLOWWINDOWS150_CLEANUP6_NATIVE_QUALIFICATION_20261018.json",
+    "newQualifiedAssertions": 6,
+    "engineeringAssertionPASS": 318,
+    "engineeringAssertionFAIL": 0,
+    "fullCellsAdded": 0,
+    "diskDetached": true,
+    "noGuestCredentials": true,
+    "metadataExcluded": true,
+    "testsRepeated": 0
+  },
+  "followWindows150CleanupSafety20261018": {
+    "status": "FOUR_EXECUTED_NATIVE_COLLECTION_PENDING",
+    "batch": "FOLLOWWINDOWS150_CLEANUP_CONFIRM_CANCEL_BATCH_20261018.json",
+    "caseIds": [
+      "followwindows150_cleanup_one_item_summary_20261018",
+      "followwindows150_cleanup_confirmation_exact_20261018",
+      "followwindows150_cleanup_keyboard_cancel_20261018",
+      "followwindows150_cleanup_restore_zero_20261018"
+    ],
+    "newEligibleAssertions": 0,
+    "noCleanup": true,
+    "noScan": true,
+    "noRepeats": true
+  },
+  "dark150CleanupHorizontalInput20261018": {
+    "status": "INPUT_RECOVERY_PENDING",
+    "plannedCases": [
+      "dark150_cleanup_missingnav_left_20261018",
+      "dark150_cleanup_missingnav_right_20261018"
+    ],
+    "executedCases": 0,
+    "evidence": "screenshots/qa26_theme_setup_input_blocker_20261018_1792330761589_b009bb40-69d3-4aeb-ba84-e464f7037ad2.jpg",
+    "noProductFailureClaimed": true,
+    "request": "After native export finishes, restore normal guest input if it remains unresponsive; no VM restart or state discard"
+  }
+}

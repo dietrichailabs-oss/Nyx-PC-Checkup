@@ -1,0 +1,716 @@
+{
+  "Utc": "2026-10-18T18:09:59.529646+00:00",
+  "PinnedManifestSHA256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+  "MatchedArtifactsPerScope": 60,
+  "MetadataExcludedAndUninspected": true,
+  "Files": [
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\actions\\CleanupActions.psm1",
+      "SHA256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+      "Bytes": 7811
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\actions\\CleanupActions.psm1",
+      "SHA256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+      "Bytes": 7811
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\actions\\StartupActions.psm1",
+      "SHA256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+      "Bytes": 23951
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\actions\\StartupActions.psm1",
+      "SHA256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+      "Bytes": 23951
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\assets\\brand_banner.png",
+      "SHA256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831",
+      "Bytes": 4630
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\assets\\brand_banner.png",
+      "SHA256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831",
+      "Bytes": 4630
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\assets\\nyx_pc_checkup.ico",
+      "SHA256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5",
+      "Bytes": 25277
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\assets\\nyx_pc_checkup.ico",
+      "SHA256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5",
+      "Bytes": 25277
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\assets\\nyx_pc_checkup.png",
+      "SHA256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0",
+      "Bytes": 3315
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\assets\\nyx_pc_checkup.png",
+      "SHA256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0",
+      "Bytes": 3315
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\BackupStatus.psm1",
+      "SHA256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+      "Bytes": 4417
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\BackupStatus.psm1",
+      "SHA256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+      "Bytes": 4417
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\BatteryHealth.psm1",
+      "SHA256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+      "Bytes": 3085
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\BatteryHealth.psm1",
+      "SHA256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+      "Bytes": 3085
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\CleanupScan.psm1",
+      "SHA256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+      "Bytes": 11612
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\CleanupScan.psm1",
+      "SHA256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+      "Bytes": 11612
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\DownloadsAnalysis.psm1",
+      "SHA256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+      "Bytes": 7999
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\DownloadsAnalysis.psm1",
+      "SHA256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+      "Bytes": 7999
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\DriveHealth.psm1",
+      "SHA256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+      "Bytes": 3423
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\DriveHealth.psm1",
+      "SHA256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+      "Bytes": 3423
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\InstalledApps.psm1",
+      "SHA256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86",
+      "Bytes": 4311
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\InstalledApps.psm1",
+      "SHA256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86",
+      "Bytes": 4311
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\NetworkBasics.psm1",
+      "SHA256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+      "Bytes": 4679
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\NetworkBasics.psm1",
+      "SHA256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+      "Bytes": 4679
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\PerformanceSnapshot.psm1",
+      "SHA256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE",
+      "Bytes": 3373
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\PerformanceSnapshot.psm1",
+      "SHA256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE",
+      "Bytes": 3373
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\SecurityStatus.psm1",
+      "SHA256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+      "Bytes": 9982
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\SecurityStatus.psm1",
+      "SHA256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+      "Bytes": 9982
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\StartupApps.psm1",
+      "SHA256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+      "Bytes": 8100
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\StartupApps.psm1",
+      "SHA256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+      "Bytes": 8100
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\StorageHealth.psm1",
+      "SHA256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+      "Bytes": 1299
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\StorageHealth.psm1",
+      "SHA256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+      "Bytes": 1299
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\StorageScan.psm1",
+      "SHA256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+      "Bytes": 6929
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\StorageScan.psm1",
+      "SHA256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+      "Bytes": 6929
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\SystemInfo.psm1",
+      "SHA256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+      "Bytes": 2676
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\SystemInfo.psm1",
+      "SHA256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+      "Bytes": 2676
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\Uptime.psm1",
+      "SHA256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+      "Bytes": 1146
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\Uptime.psm1",
+      "SHA256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+      "Bytes": 1146
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\checks\\WindowsUpdates.psm1",
+      "SHA256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+      "Bytes": 4902
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\checks\\WindowsUpdates.psm1",
+      "SHA256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+      "Bytes": 4902
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\config\\defaults.json",
+      "SHA256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8",
+      "Bytes": 461
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\config\\defaults.json",
+      "SHA256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8",
+      "Bytes": 461
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1",
+      "SHA256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+      "Bytes": 24721
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\ActionHistory.psm1",
+      "SHA256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+      "Bytes": 24721
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\CheckupEngine.psm1",
+      "SHA256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0",
+      "Bytes": 7640
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\CheckupEngine.psm1",
+      "SHA256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0",
+      "Bytes": 7640
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Configuration.psm1",
+      "SHA256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+      "Bytes": 7302
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\Configuration.psm1",
+      "SHA256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+      "Bytes": 7302
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Diagnostics.psm1",
+      "SHA256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+      "Bytes": 1932
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\Diagnostics.psm1",
+      "SHA256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+      "Bytes": 1932
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Models.psm1",
+      "SHA256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+      "Bytes": 4355
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\Models.psm1",
+      "SHA256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+      "Bytes": 4355
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Paths.psm1",
+      "SHA256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+      "Bytes": 5304
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\Paths.psm1",
+      "SHA256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+      "Bytes": 5304
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Privacy.psm1",
+      "SHA256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+      "Bytes": 6683
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\Privacy.psm1",
+      "SHA256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+      "Bytes": 6683
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\RuntimeComposition.psm1",
+      "SHA256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95",
+      "Bytes": 15055
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\core\\RuntimeComposition.psm1",
+      "SHA256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95",
+      "Bytes": 15055
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\health_rules\\HealthRules.psm1",
+      "SHA256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+      "Bytes": 4761
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\health_rules\\HealthRules.psm1",
+      "SHA256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+      "Bytes": 4761
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\health_rules\\rules.json",
+      "SHA256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3",
+      "Bytes": 784
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\health_rules\\rules.json",
+      "SHA256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3",
+      "Bytes": 784
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1",
+      "SHA256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "Bytes": 6483
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\NyxPCCheckup.ps1",
+      "SHA256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "Bytes": 6483
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\platform\\windows\\WindowsHelpers.psm1",
+      "SHA256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+      "Bytes": 6692
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\platform\\windows\\WindowsHelpers.psm1",
+      "SHA256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+      "Bytes": 6692
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\reports\\PdfWriter.psm1",
+      "SHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "Bytes": 3680
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\reports\\PdfWriter.psm1",
+      "SHA256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "Bytes": 3680
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\reports\\ReportExport.psm1",
+      "SHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "Bytes": 6677
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\reports\\ReportExport.psm1",
+      "SHA256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "Bytes": 6677
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\ui\\Controls.psm1",
+      "SHA256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446",
+      "Bytes": 14909
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\ui\\Controls.psm1",
+      "SHA256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446",
+      "Bytes": 14909
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\ui\\Dialogs.psm1",
+      "SHA256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A",
+      "Bytes": 5892
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\ui\\Dialogs.psm1",
+      "SHA256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A",
+      "Bytes": 5892
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\ui\\MainWindow.psm1",
+      "SHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "Bytes": 73259
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\ui\\MainWindow.psm1",
+      "SHA256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "Bytes": 73259
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\ui\\Theme.psm1",
+      "SHA256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+      "Bytes": 2769
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\ui\\Theme.psm1",
+      "SHA256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+      "Bytes": 2769
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\updates\\Manifest.psm1",
+      "SHA256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+      "Bytes": 6396
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\updates\\Manifest.psm1",
+      "SHA256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+      "Bytes": 6396
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\updates\\Preferences.psm1",
+      "SHA256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+      "Bytes": 1164
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\updates\\Preferences.psm1",
+      "SHA256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+      "Bytes": 1164
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\updates\\UpdateChecker.psm1",
+      "SHA256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+      "Bytes": 6175
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\updates\\UpdateChecker.psm1",
+      "SHA256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+      "Bytes": 6175
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\updates\\Versioning.psm1",
+      "SHA256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+      "Bytes": 2824
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\updates\\Versioning.psm1",
+      "SHA256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+      "Bytes": 2824
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ActionWorker.ps1",
+      "SHA256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+      "Bytes": 5297
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\workers\\ActionWorker.ps1",
+      "SHA256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+      "Bytes": 5297
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\InstallWorker.ps1",
+      "SHA256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F",
+      "Bytes": 9728
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\workers\\InstallWorker.ps1",
+      "SHA256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F",
+      "Bytes": 9728
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\ScanWorker.ps1",
+      "SHA256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "Bytes": 9078
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\workers\\ScanWorker.ps1",
+      "SHA256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "Bytes": 9078
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\UninstallWorker.ps1",
+      "SHA256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+      "Bytes": 8487
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\workers\\UninstallWorker.ps1",
+      "SHA256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+      "Bytes": 8487
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\workers\\UpdateCheckWorker.ps1",
+      "SHA256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+      "Bytes": 2473
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\app\\workers\\UpdateCheckWorker.ps1",
+      "SHA256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+      "Bytes": 2473
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\docs\\INSTALL_UPGRADE_UNINSTALL.md",
+      "SHA256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D",
+      "Bytes": 4900
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\docs\\INSTALL_UPGRADE_UNINSTALL.md",
+      "SHA256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D",
+      "Bytes": 4900
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\docs\\KNOWN_LIMITATIONS.md",
+      "SHA256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A",
+      "Bytes": 1605
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\docs\\KNOWN_LIMITATIONS.md",
+      "SHA256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A",
+      "Bytes": 1605
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\docs\\PRIVACY_AND_SECURITY.md",
+      "SHA256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64",
+      "Bytes": 5866
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\docs\\PRIVACY_AND_SECURITY.md",
+      "SHA256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64",
+      "Bytes": 5866
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\docs\\USER_GUIDE.md",
+      "SHA256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159",
+      "Bytes": 5097
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\docs\\USER_GUIDE.md",
+      "SHA256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159",
+      "Bytes": 5097
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\LICENSE.txt",
+      "SHA256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD",
+      "Bytes": 488
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\LICENSE.txt",
+      "SHA256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD",
+      "Bytes": 488
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe",
+      "SHA256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "Bytes": 33280
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\Nyx PC Checkup.exe",
+      "SHA256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "Bytes": 33280
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\README_FIRST.md",
+      "SHA256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62",
+      "Bytes": 7223
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\README_FIRST.md",
+      "SHA256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62",
+      "Bytes": 7223
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\SBOM.json",
+      "SHA256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F",
+      "Bytes": 3223
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\SBOM.json",
+      "SHA256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F",
+      "Bytes": 3223
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\THIRD_PARTY_NOTICES.txt",
+      "SHA256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0",
+      "Bytes": 572
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\THIRD_PARTY_NOTICES.txt",
+      "SHA256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0",
+      "Bytes": 572
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Uninstall Nyx PC Checkup.exe",
+      "SHA256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC",
+      "Bytes": 35328
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\Uninstall Nyx PC Checkup.exe",
+      "SHA256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC",
+      "Bytes": 35328
+    },
+    {
+      "Scope": "current-clone",
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\VERSION.json",
+      "SHA256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "Bytes": 315
+    },
+    {
+      "Scope": "historical-source-collected",
+      "Path": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\preserved-context\\engineering\\qa26\\unattended-campaign\\collected-native-followwindows150-cleanup6-20261018\\installed\\VERSION.json",
+      "SHA256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "Bytes": 315
+    }
+  ]
+}

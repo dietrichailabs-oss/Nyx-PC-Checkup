@@ -1,0 +1,55 @@
+{
+  "Schema": "QA26-COMPUTER-USE-RECOVERY-1",
+  "Utc": "2026-10-18T16:32:28.3780394Z",
+  "UserPreference": "Full control for ordinary restoration/display steps; no further routine prompts",
+  "SupportedRecoveryAttempted": [
+    "Refreshed native window inventory",
+    "Selected returned Explorer window; activated it; refreshed accessibility and screenshot",
+    "Reset JavaScript kernel; reimported installed @oai/sky; refreshed app inventory"
+  ],
+  "ExplorerRecovery": "PASS_FOREGROUND_ACTIVATION_AND_FRESH_CAPTURE",
+  "NyxRecovery": "BLOCKED_NO_RETURNED_WINDOW",
+  "LatestReturnedWindows": [
+    {
+      "Title": "Nyx-QA26-Codex-20261018_121140 - File Explorer",
+      "App": "process:C:\\Windows\\explorer.exe",
+      "Id": 394018
+    },
+    {
+      "Title": "ChatGPT",
+      "App": "OpenAI.Codex_2p2nqsd0c76g0!App",
+      "Id": 131896
+    }
+  ],
+  "NyxInstalledAppReturned": {
+    "ReturnedWindows": 0,
+    "IsRunningReportedByComputerUse": false,
+    "Id": "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Nyx PC Checkup.exe"
+  },
+  "Diagnosis": "Computer Use discovery does not expose existing native Nyx windows; absence is a tooling limitation, not evidence of a missing installation or product failure",
+  "NativeDpiQualification": "Still unqualified for visible Dark150; prior log contains96DPI on minimized main and small second window only",
+  "PendingCases": [
+    "dark150_cleanup_missingnav_left_20261018",
+    "dark150_cleanup_missingnav_right_20261018"
+  ],
+  "TestsExecuted": 0,
+  "QualifiedAssertionsAdded": 0,
+  "MatrixCellsAdded": 0,
+  "EngineeringAssertionsPASS": 318,
+  "EngineeringAssertionsFAIL": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "BlockedRequirement": "Supported Computer Use API returns an operable native Nyx window; then verify fresh capture, visible144DPI, exact Dark theme and non-elevated session before either case",
+  "RoutineHumanPromptSupersededByUserPreference": true,
+  "NoFurtherHumanQuestionIssued": true,
+  "Skill": "C:\\Users\\Nyx\\.codex\\plugins\\cache\\openai-bundled\\computer-use\\26.1013.40934\\skills\\computer-use\\SKILL.md",
+  "Guidance": "C:\\Users\\Nyx\\.codex\\plugins\\cache\\openai-bundled\\computer-use\\26.1013.40934\\docs\\guidance.md",
+  "Rule": "Never reconstruct an app or window from guessed fields. Do not call get_window, activate_window, or any input method until selection has produced exactly one returned window.",
+  "OfficialDocumentation": "https://learn.chatgpt.com/docs/computer-use",
+  "ProductModified": false,
+  "SecurityPolicyModified": false,
+  "VPNChanged": false,
+  "OriginalVMTouched": false,
+  "ScriptSuitesRun": false,
+  "IndependentQAVerdictReserved": true
+}

@@ -1,0 +1,25 @@
+{
+  "Schema": "QA26-HUMAN-QUEUE-DELTA-1",
+  "Utc": "2026-10-18T18:03:58.4918742Z",
+  "dark150CleanupHorizontalInput20261018": {
+    "AdditionalHumanActionRequired": false,
+    "CaseIds": [
+      "dark150_cleanup_missingnav_left_20261018",
+      "dark150_cleanup_missingnav_right_20261018"
+    ],
+    "Status": "COMPLETE_TWO_NATIVE_QUALIFIED",
+    "Qualified": 2,
+    "Record": "DARK150_CLEANUP_HORIZONTAL_NATIVE_QUALIFICATION.json",
+    "ExecutedOnce": 2
+  },
+  "Current150Login": {
+    "Theme": "Dark",
+    "Session": 2,
+    "Status": "COMPLETE_NATIVE144_VERIFIED"
+  },
+  "GuiControl": {
+    "VendorDiscoveryIssueUnchanged": true,
+    "Status": "WORKING_VIA_AUTHORIZED_ONE_SHOT_NYX_GUI_HELPER"
+  },
+  "HistoricalUnrelatedQueueUnmodified": true
+}

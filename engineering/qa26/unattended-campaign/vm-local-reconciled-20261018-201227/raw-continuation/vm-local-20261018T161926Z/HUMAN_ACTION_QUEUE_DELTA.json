@@ -1,0 +1,25 @@
+{
+  "Schema": "QA26-VM-LOCAL-HUMAN-QUEUE-DELTA-1",
+  "Utc": "2026-10-18T16:29:07.7427845Z",
+  "Items": [
+    {
+      "Id": "LOCAL_NYX_WINDOW_AND_DISPLAY_CONTEXT",
+      "Status": "WAITING_HUMAN",
+      "Requirement": "Dismiss duplicate-instance dialog if present; restore existing Nyx main window and report current Display scaling",
+      "AskedOnceForThisRequirement": true
+    },
+    {
+      "Id": "COMPUTER_USE_TARGET_AND_CAPTURE",
+      "Status": "BLOCKED_CAPABILITY_PENDING_RESTORED_WINDOW_RECHECK",
+      "Requirement": "Computer Use must return the native Nyx window and capture the selected window with reliable provenance before input",
+      "NoAlternativeBridge": true
+    },
+    {
+      "Id": "QA26_EXISTING_OBSERVER_APPDATA_EXCEPTION",
+      "Status": "APPROVED_AND_COLLECTED",
+      "Requirement": "User approved unchanged existing observer unique AppData output copied and hashed into continuation",
+      "Evidence": "NATIVE_DPI_PREFLIGHT.json"
+    }
+  ],
+  "HistoricalQueueUnchanged": true
+}

@@ -1,0 +1,47 @@
+{
+  "Utc": "2026-10-18T19:37:06.2632091Z",
+  "RunnersAvailable": true,
+  "SourceArchivePinned": true,
+  "NoScriptsExecuted": true,
+  "Policy": "Restricted; all5 scopes Undefined",
+  "MasterManifestPresent": false,
+  "Runners": [
+    {
+      "Name": "RUN_QA15_WINDOWS_GATE.ps1",
+      "SHA256": "42A1FA1837C99A00F41CF1B41FD22C8E6490EDAC8F788454D060593D7846268B",
+      "Signature": "NotSigned",
+      "Executed": false
+    },
+    {
+      "Name": "Run-WindowsSmokeTests.ps1",
+      "SHA256": "125FE4AA381594F6DD693B15F14B0C48CF908868CD6BF2663036208F51C51503",
+      "Signature": "NotSigned",
+      "Executed": false
+    },
+    {
+      "Name": "Run-WindowsElevatedStartupRollback.ps1",
+      "SHA256": "4DE36AC3D10900798A97AA5B2AB14FD000568F29A33651FC172DB56FE6EEF3C8",
+      "Signature": "NotSigned",
+      "Executed": false
+    },
+    {
+      "Name": "Run-WindowsInstallerLifecycle.ps1",
+      "SHA256": "93811822FF7DEC9EAA7D9546E2E039B4DBE9286A5F80BDD58217DDE72BA47B9F",
+      "Signature": "NotSigned",
+      "Executed": false
+    },
+    {
+      "Name": "Run-WindowsQA2MigrationRegression.ps1",
+      "SHA256": "14630FDB4E0040E24B14767ADAB351DB7BE402CC7D812261C9BD791CF349FA7A",
+      "Signature": "NotSigned",
+      "Executed": false
+    },
+    {
+      "Name": "Test-QA19ProgressConcurrency.ps1",
+      "SHA256": "A89135C1B9E8BA06AB4C80CAB80865040A4CB005486D085DC59C33404FE6BA27",
+      "Signature": "NotSigned",
+      "Executed": false
+    }
+  ],
+  "OtherRestrictions": "Orchestrator constructs ExecutionPolicy Bypass at line183; Standard/Elevated require clean disposable acknowledgment. No workaround or destructive suite here."
+}

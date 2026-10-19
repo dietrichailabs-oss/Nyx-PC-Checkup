@@ -1,0 +1,18 @@
+{
+  "Utc": "2026-10-18T18:14:59.0561710Z",
+  "PredicateId": "dark150_startup_missing_location_20261018",
+  "Status": "PREREQUISITES_QUALIFIED",
+  "Theme": "Dark",
+  "NativeDpi": 144,
+  "Pid": 7504,
+  "SessionId": 2,
+  "NonElevated": true,
+  "BeforeReceipt": "dark150_startup_missing_location_before_20261018T1814406673732Z_663c5c10df3643aa988f35966c0e7b37.json",
+  "Fixture": "\"C:\\Q26EvidenceHarness\\QA26_INTENTIONALLY_MISSING.exe\"",
+  "FixtureTargetExists": false,
+  "FrozenFilesMatched": 60,
+  "HelperSHA256": "CC4BDF9BB973DA032930F1F29A1FC49AC375E9CFDF3B40EB65504850A8D7CC32",
+  "HelperChange": "Separate evidence Root plus bounded Ctrl+Shift+Tab chord for native grid exit; existing identity/session/privilege guards retained",
+  "NoScans": true,
+  "NoStartupMutation": true
+}

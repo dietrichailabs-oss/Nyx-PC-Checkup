@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "storage": {
+    "criticalFreePercent": 5,
+    "criticalFreeBytes": 10737418240,
+    "attentionFreePercent": 10,
+    "attentionFreeBytes": 21474836480,
+    "downloadsOptionalBytes": 5368709120,
+    "tempOptionalBytes": 1073741824,
+    "desktopOptionalBytes": 5368709120
+  },
+  "downloads": {
+    "oldDays": 30,
+    "veryOldDays": 90,
+    "yearDays": 365,
+    "largeBytes": 104857600,
+    "veryLargeBytes": 1073741824,
+    "installerOldDays": 30,
+    "archiveOldDays": 90
+  },
+  "uptime": {
+    "optionalDays": 14,
+    "attentionDaysWithRestartPending": 7
+  },
+  "battery": {
+    "attentionHealthPercent": 50,
+    "optionalHealthPercent": 75
+  },
+  "performance": {
+    "highCpuPercent": 90,
+    "highMemoryPercent": 90
+  }
+}

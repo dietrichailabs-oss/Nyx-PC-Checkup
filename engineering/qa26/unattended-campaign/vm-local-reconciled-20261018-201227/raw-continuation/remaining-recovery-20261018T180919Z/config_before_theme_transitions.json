@@ -1,0 +1,20 @@
+﻿{
+    "theme":  "Dark",
+    "notificationsEnabled":  false,
+    "developerLogging":  false,
+    "maxLogBytes":  1048576,
+    "maxLogFiles":  3,
+    "actionHistoryLimit":  200,
+    "reportIncludeUserName":  false,
+    "reportIncludeIpAddresses":  false,
+    "updates":  {
+                    "enabled":  true,
+                    "lastCheckUtc":  "2026-10-13T23:31:03.6782813+00:00"
+                },
+    "scan":  {
+                 "maxFiles":  1000000,
+                 "maxSeconds":  180,
+                 "duplicateHashMaxBytes":  268435456,
+                 "duplicateHashMaxFiles":  500
+             }
+}

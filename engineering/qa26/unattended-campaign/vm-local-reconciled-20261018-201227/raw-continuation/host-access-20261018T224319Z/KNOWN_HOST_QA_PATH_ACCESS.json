@@ -1,0 +1,8 @@
+{
+  "Utc": "2026-10-18T22:44:07.8213757Z",
+  "Path": "\\\\MARK\\G$\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\engineering\\qa26\\unattended-campaign\\STATE.json",
+  "Accessible": false,
+  "Error": "Cannot find path '\\\\MARK\\G$\\Marks Apps 2\\Nyx_PC_Checkup_1.0.0_Independent_QA5_HOLD_Master_Handoff(2)\\engineering\\qa26\\unattended-campaign\\STATE.json' because it does not exist.",
+  "ErrorId": "PathNotFound,Microsoft.PowerShell.Commands.GetItemCommand",
+  "CredentialsSupplied": false
+}

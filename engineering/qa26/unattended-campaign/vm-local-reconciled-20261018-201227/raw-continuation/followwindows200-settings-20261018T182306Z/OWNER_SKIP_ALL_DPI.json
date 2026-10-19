@@ -1,0 +1,12 @@
+{
+  "Utc": "2026-10-18T19:21:49.0145996Z",
+  "Status": "ALL_DPI_TESTING_SKIPPED_BY_OWNER",
+  "Scope": "All remaining DPI/scaling/layout matrix testing",
+  "OwnerDirection": "Skip all DPI testing; owner will take issue up with QA; complete remaining non-DPI work",
+  "TestsExecutedIn200Batch": 0,
+  "NewCredit": 0,
+  "DisplayResolutionOrScalingChangedAfterDirection": false,
+  "NoAcceptanceInferred": true,
+  "EngineeringPASS": 327,
+  "EngineeringFAIL": 0
+}

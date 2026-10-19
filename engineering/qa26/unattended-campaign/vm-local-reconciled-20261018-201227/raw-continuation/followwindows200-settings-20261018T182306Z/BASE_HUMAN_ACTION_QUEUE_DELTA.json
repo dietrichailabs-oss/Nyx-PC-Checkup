@@ -1,0 +1,47 @@
+{
+  "Utc": "2026-10-18T18:22:55.073081+00:00",
+  "Resolved": [
+    "Four FollowWindows150 safety native collections",
+    "Existing missing-target fixture access for strict150 Startup",
+    "Dark/Light/FollowWindows150 missing-location assertions"
+  ],
+  "NoRoutinePermissionNeeded": true,
+  "Remaining": [
+    {
+      "Id": "FOLLOWWINDOWS200_SETTINGS",
+      "Status": "MISSING_NOT_EXECUTED_REQUIRES_NATIVE192_SESSION",
+      "Action": "Normal display transition and human Windows sign-in, then fresh applied theme/privilege/payload/capture prerequisites. Run only new Settings predicates; no changes to privacy/security or delete activation."
+    },
+    {
+      "Id": "HISTORICAL_EVIDENCE_RESERVATIONS",
+      "Status": "INDEPENDENT_QA_DISPOSITION_NO_RERUN",
+      "Action": "Seven stale-image cases, older native-DPI gaps, theme-context gaps, and disputed install-state metadata stay reserved and unmodified."
+    },
+    {
+      "Id": "SETTINGS200_LABEL_REVIEW",
+      "Status": "INDEPENDENT_QA_REVIEW",
+      "Action": "Dark/Light essential delete-log label clipping is not PASS. Preserve review evidence; a new theme does not resolve the prior readability decision."
+    },
+    {
+      "Id": "INSTALLER_LIFECYCLE_QA2_MIGRATION",
+      "Status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+      "Action": "Requires accessible Independent QA approved untouched compatible native PS5.1 baseline. Updated AppSetup clone with naturally Restricted policy does not qualify; no bypass/signing/policy change."
+    },
+    {
+      "Id": "F010_F016",
+      "Status": "INCOMPLETE_EXACT_EXECUTION_ROUTE_AND_LIVE_EVIDENCE",
+      "Action": "Original scan/cancellation/worker proof reservations persist. No scan repeat, extracted blocked-script inlining, or signed-copy promotion to frozen acceptance."
+    },
+    {
+      "Id": "F020_F022_F008",
+      "Status": "INCOMPLETE_CROSS_GRID_AND_FULL_CELL_CLOSEOUT",
+      "Action": "Three newly missing location assertions do not reconcile all older context/DPI evidence into full cells. Use exact historical evidence and Independent QA decisions."
+    },
+    {
+      "Id": "QA26_SEC_EXECUTIONPOLICY",
+      "Status": "INDEPENDENT_QA_SECURITY_DECISION",
+      "Action": "Functional GUI evidence grants no security or release approval."
+    }
+  ],
+  "AuthenticationNotAutomated": true
+}

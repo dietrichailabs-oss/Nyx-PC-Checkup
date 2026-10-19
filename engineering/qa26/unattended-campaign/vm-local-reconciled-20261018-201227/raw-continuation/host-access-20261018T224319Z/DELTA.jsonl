@@ -1,0 +1,3 @@
+{"Utc": "2026-10-18T22:45:15.875963+00:00", "Event": "HOST_MARK_RESOLVED_SMB_AND_DCOM_REACHABLE", "NewTestExecutions": 0, "RepeatedTests": 0, "EngineeringPASS": 328, "EngineeringFAIL": 1}
+{"Utc": "2026-10-18T22:45:15.875963+00:00", "Event": "CURRENT_IDENTITY_SHARE_AND_DCOM_ACCESS_DENIED", "NewTestExecutions": 0, "RepeatedTests": 0, "EngineeringPASS": 328, "EngineeringFAIL": 1}
+{"Utc": "2026-10-18T22:45:15.875963+00:00", "Event": "NO_BASELINE_OR_TEST_EXECUTION_SECURITY_UNCHANGED", "NewTestExecutions": 0, "RepeatedTests": 0, "EngineeringPASS": 328, "EngineeringFAIL": 1}

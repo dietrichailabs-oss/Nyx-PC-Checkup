@@ -1,0 +1,14 @@
+{
+  "Schema": "QA26-VM-LOCAL-HUMAN-QUEUE-DELTA-1",
+  "Utc": "2026-10-18T16:35:37.4490869Z",
+  "Id": "COMPUTER_USE_TARGET_AND_CAPTURE",
+  "Status": "BLOCKED_APPLICATION_PERMISSION_SCOPE",
+  "Diagnosis": "PERMISSION_DIAGNOSIS_20261018T163537Z.json",
+  "Requirement": "Supported app identity permission covering the Nyx graphical host is absent; current instruction forbids changing security policies",
+  "RoutineRestorationPromptClosed": true,
+  "RepeatedRequestIssued": false,
+  "CasesNotRun": [
+    "dark150_cleanup_missingnav_left_20261018",
+    "dark150_cleanup_missingnav_right_20261018"
+  ]
+}

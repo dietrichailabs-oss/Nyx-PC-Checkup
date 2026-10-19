@@ -1,0 +1,27 @@
+{
+  "Version": "7.6.5",
+  "PSEdition": "Core",
+  "EffectivePolicy": "RemoteSigned",
+  "Scopes": [
+    {
+      "Scope": "MachinePolicy",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "UserPolicy",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "Process",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "CurrentUser",
+      "Policy": "Undefined"
+    },
+    {
+      "Scope": "LocalMachine",
+      "Policy": "RemoteSigned"
+    }
+  ]
+}

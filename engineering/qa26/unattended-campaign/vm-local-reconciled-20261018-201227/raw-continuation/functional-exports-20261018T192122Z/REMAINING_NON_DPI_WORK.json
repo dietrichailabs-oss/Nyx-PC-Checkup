@@ -1,0 +1,47 @@
+{
+  "Utc": "2026-10-18T19:28:52.068432+00:00",
+  "Scope": "Eligible non-DPI continuation under frozen-product and unchanged-policy constraints",
+  "Results": [
+    {
+      "Work": "All DPI/scaling/layout matrix testing",
+      "Status": "SKIPPED_BY_OWNER",
+      "Credit": 0,
+      "Action": "Owner takes DPI issue to QA. No more display changes or testing."
+    },
+    {
+      "Work": "Native TXT export",
+      "Status": "PREVIOUSLY_EXECUTED_OUTPUT_DISCOVERED_NO_RETEST",
+      "Credit": 0,
+      "Evidence": "historical-native-txt-20261016_174520.txt"
+    },
+    {
+      "Work": "Native PDF export",
+      "Status": "FAIL_ENGINEERING_NATIVE_QUALIFIED",
+      "Credit": 0,
+      "FailureCredit": 1,
+      "Evidence": "PDF_EXPORT_FAILURE_QUALIFICATION.json"
+    },
+    {
+      "Work": "InstallerLifecycle and QA2Migration",
+      "Status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+      "Action": "Independent QA approved accessible untouched compatible native PS5.1 baseline required. Updated AppSetup clone is ineligible. No policy bypass, re-signing or product mutation."
+    },
+    {
+      "Work": "Standard / F010 malformed / F016 concurrency / elevated rollback / privacy safety suite closeout",
+      "Status": "NOT_COMPLETED_EXECUTION_AND_FIXTURE_PREREQUISITES_PLUS_FIRST_FAILURE_STOP",
+      "Action": "Exact frozen test source/fixtures are host-only dependencies, not included in this handoff; current native PS5.1 Restricted/allUndefined also blocks script execution. Previously executed signed-copy Smoke122, Settings17 and standard-privilege10 assertions are not rerun or promoted to frozen acceptance. No extraction/inlining workaround."
+    },
+    {
+      "Work": "Seven stale-image cases, old native/context gaps, Settings200 label and disputed metadata",
+      "Status": "INDEPENDENT_QA_RESERVED_NO_RETEST",
+      "Action": "Preserve prior evidence and scope; no retrospective acceptance or metadata inspection."
+    },
+    {
+      "Work": "QA26 security/release verdict",
+      "Status": "INDEPENDENT_QA_ONLY",
+      "Action": "No release or security approval issued."
+    }
+  ],
+  "CampaignComplete": false,
+  "NoAllTestsCompleteClaim": true
+}

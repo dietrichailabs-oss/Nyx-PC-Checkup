@@ -1,0 +1,21 @@
+{
+  "Utc": "2026-10-18T19:41:33.933905+00:00",
+  "EngineeringPASS": 328,
+  "EngineeringFAIL": 1,
+  "NewQualifiedPASS": 1,
+  "NewQualifiedFAIL": 0,
+  "QualifiedExecution": "Existing native Save dialog cancel; no rerun",
+  "NewAttempt": "Overwrite-decline setup invalid, no credit/no retry",
+  "UnintendedRepeatedBehavior": "TXT export once; no credit",
+  "FullCellsAdded": 0,
+  "MatrixPASS": 83,
+  "MatrixTotal": 132,
+  "DpiTestingSkipped": true,
+  "ProductModified": false,
+  "SecurityPolicyChanged": false,
+  "OriginalVmAccessed": false,
+  "ImportedHostLedgersModified": false,
+  "NeedsSeparateHostReconciliation": true,
+  "CampaignComplete": false,
+  "Disposition": "REMAINING_WORK_DISPOSITION.json"
+}

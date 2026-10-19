@@ -61,17 +61,29 @@
   "scriptSuites": "BLOCKED_POLICY_CHANGE_DECLINED",
   "campaignComplete": false,
   "testedAssertionScoreboard": {
-    "PASS": 312,
-    "FAIL": 0,
-    "previousPASS": 306,
-    "newEligibleAssertions": 6,
-    "batch": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
-    "scope": "Individually executed native-qualified Engineering assertions only; no full-cell or Independent QA verdict implied"
-  },
-  "latestQualifiedBatch": {
-    "record": "LIGHT150_CLEANUP6_NATIVE_QUALIFICATION_20261017.json",
-    "newEligibleAssertions": 6,
+    "PASS": 328,
+    "FAIL": 1,
+    "previousPASS": 318,
+    "previousFAIL": 0,
+    "newEligibleAssertions": 10,
+    "newEligibleFailures": 1,
+    "batch": "vm-local-reconciled-20261018-201227/HOST_RECONCILIATION.json",
+    "scope": "Reconciled Engineering aggregate including149 historical signed-copy-scope assertions; 5 earlier clone functional passes plus4 recovered original Cleanup executions plus1 recovered native Save-cancel assertion; not Independent QA acceptance or release/security approval",
+    "testsExecutedByHostReconciliation": 0,
     "fullCellsAdded": 0
   },
-  "updatedUtc": "2026-10-17T19:19:21.985Z"
+  "latestQualifiedBatch": {
+    "record": "vm-local-reconciled-20261018-201227/HOST_RECONCILIATION.json",
+    "newEligibleAssertions": 10,
+    "newEligibleFailures": 1,
+    "fullCellsAdded": 0,
+    "testsExecutedByHost": 0
+  },
+  "updatedUtc": "2026-10-19T00:38:58.410Z",
+  "campaignStatus": "NON_DPI_RECONCILED_APPROVED_NATIVE_BASELINE_REQUIRED",
+  "ownerScope": {
+    "skipAllDpiTesting": true,
+    "pdfFailureRetained": true,
+    "unrelatedEligibleWorkMayContinue": true
+  }
 }

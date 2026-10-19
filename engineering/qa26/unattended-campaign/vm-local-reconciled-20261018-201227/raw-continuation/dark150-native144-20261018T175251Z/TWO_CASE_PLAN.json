@@ -1,0 +1,30 @@
+{
+  "Schema": "QA26-DARK150-TWO-CASE-PLAN-1",
+  "Utc": "2026-10-18T17:56:42.8458523Z",
+  "PredicateIds": [
+    "dark150_cleanup_missingnav_left_20261018",
+    "dark150_cleanup_missingnav_right_20261018"
+  ],
+  "CasesExecuted": 0,
+  "CanonicalCompletedRecordsChecked": 1184,
+  "PreservedHistoricalPlanSaysNoTestsExecuted": true,
+  "StartingCell": "Age Row5; visible wct2AA6.tmp data row; Left to Item Row5, Right restores Age Row5",
+  "MeasuredNativeDpi": 144,
+  "Theme": "Dark applied visible",
+  "Privilege": "Native target and helper non-elevated",
+  "NoNewScanOrCleanup": true,
+  "PreservedDataBefore": [
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE"
+    },
+    {
+      "Path": "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+      "Bytes": 4865,
+      "SHA256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F"
+    }
+  ],
+  "HelperSourceSHA256": "79E56BE3C365872C1305E4B00F261652D3A97505C7D89B976BD68555FDE70EFB",
+  "HelperExeSHA256": "034E95F6AA64999E8F655CC5D963FA41C2ACECEB19E7880C66F077416EC95E91"
+}

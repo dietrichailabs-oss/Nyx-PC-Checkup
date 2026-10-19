@@ -1,0 +1,10 @@
+{
+  "Utc": "2026-10-18T18:11:17.695186+00:00",
+  "followWindows150CleanupSafety20261018": {
+    "status": "FOUR_EXISTING_EXECUTIONS_NATIVE_QUALIFIED",
+    "qualification": "FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+    "additionalHumanActionRequired": false,
+    "testsRepeated": 0
+  },
+  "OtherHistoricalReservationsUnchanged": true
+}

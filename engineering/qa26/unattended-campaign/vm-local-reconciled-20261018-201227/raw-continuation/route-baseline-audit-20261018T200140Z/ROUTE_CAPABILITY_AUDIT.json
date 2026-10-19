@@ -1,0 +1,114 @@
+{
+  "Utc": "2026-10-18T20:05:22.472782+00:00",
+  "Guest": {
+    "VirtualMachineId": "068A8DC7-F5E1-4E0E-A941-E0A3955E5A29",
+    "VirtualMachineName": "Nyx-AppSetup-20261018_1792337380402",
+    "PhysicalHostName": "MARK",
+    "FullyQualifiedDomainName": null
+  },
+  "NativeX64": {
+    "Version": "5.1.26100.9711",
+    "PSEdition": "Desktop",
+    "Is64BitProcess": true,
+    "EffectivePolicy": "Restricted",
+    "Scopes": [
+      {
+        "Scope": "MachinePolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "UserPolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "Process",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "CurrentUser",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "LocalMachine",
+        "Policy": "Undefined"
+      }
+    ]
+  },
+  "NativeX86": {
+    "Version": "5.1.26100.9711",
+    "PSEdition": "Desktop",
+    "Is64BitProcess": false,
+    "EffectivePolicy": "Restricted",
+    "Scopes": [
+      {
+        "Scope": "MachinePolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "UserPolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "Process",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "CurrentUser",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "LocalMachine",
+        "Policy": "Undefined"
+      }
+    ]
+  },
+  "PowerShell7": {
+    "Version": "7.6.5",
+    "PSEdition": "Core",
+    "EffectivePolicy": "RemoteSigned",
+    "Scopes": [
+      {
+        "Scope": "MachinePolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "UserPolicy",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "Process",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "CurrentUser",
+        "Policy": "Undefined"
+      },
+      {
+        "Scope": "LocalMachine",
+        "Policy": "RemoteSigned"
+      }
+    ]
+  },
+  "LocalHyperV": {
+    "CommandGetVMAvailable": false,
+    "VirtualizationNamespaceQuery": "Invalid namespace"
+  },
+  "ExistingPSSessions": 0,
+  "SmbMappings": 0,
+  "SmbConnectionInventory": "Access is denied; not retried with elevation",
+  "DriveD": "Read-only Windows installation DVD, not an approved pre-existing runnable baseline",
+  "FilesystemRoots": [
+    "C:\\",
+    "D:\\"
+  ],
+  "HostDrivesFromImportedRecords": [
+    "G:\\",
+    "I:\\"
+  ],
+  "HostName": "MARK",
+  "HostDrivesAccessibleAsLocalFiles": false,
+  "PermittedRemoteExecutionToolExposed": false,
+  "SecurityOrPolicyChanges": 0,
+  "NoAuthenticationOrCredentialAutomation": true,
+  "Interpretation": "No existing permitted native PS5.1 route or accessible approved untouched VM baseline identified here. This does not prove all external baselines incompatible."
+}

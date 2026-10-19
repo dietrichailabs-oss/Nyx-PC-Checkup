@@ -1,0 +1,96 @@
+{
+  "Schema": "QA26-CLONE-NATIVE-DPI-PREFLIGHT-1",
+  "RecordedUtc": "2026-10-18T16:28:06.1628352Z",
+  "Observer": "C:\\Users\\Nyx\\Desktop\\QA26 Live DPI.exe",
+  "ObserverSHA256": "AED5AA01CC545D12A30D07BF98AE26D1CAE9A8670F3A8C7022D77FE2E09B2CC9",
+  "SourceLog": "C:\\Users\\Nyx\\AppData\\Local\\NyxQA26NativeDpi\\live_20261018_162704_3101060.jsonl",
+  "EvidenceCopy": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\vm-local-20261018T161926Z\\live_20261018_162704_3101060.jsonl",
+  "SHA256": "462C89C6EAA3B9A66851BF00905B11C1EA22A763322D34198D8AE23217629960",
+  "Samples": [
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-18T16:27:04.3132776Z",
+      "Pid": 14424,
+      "NativeDpi": 96,
+      "WindowBounds": {
+        "Left": 495,
+        "Top": 310,
+        "Right": 886,
+        "Bottom": 469
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-18T16:27:04.3132776Z",
+      "Pid": 3288,
+      "NativeDpi": 96,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31840,
+        "Bottom": -31972
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-18T16:27:09.3193474Z",
+      "Pid": 14424,
+      "NativeDpi": 96,
+      "WindowBounds": {
+        "Left": 495,
+        "Top": 310,
+        "Right": 886,
+        "Bottom": 469
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-18T16:27:09.3193474Z",
+      "Pid": 3288,
+      "NativeDpi": 96,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31840,
+        "Bottom": -31972
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-18T16:27:14.33592Z",
+      "Pid": 14424,
+      "NativeDpi": 96,
+      "WindowBounds": {
+        "Left": 495,
+        "Top": 310,
+        "Right": 886,
+        "Bottom": 469
+      },
+      "ProductModified": false
+    },
+    {
+      "Schema": "QA26-LIVE-DPI-1",
+      "Utc": "2026-10-18T16:27:14.33592Z",
+      "Pid": 3288,
+      "NativeDpi": 96,
+      "WindowBounds": {
+        "Left": -32000,
+        "Top": -32000,
+        "Right": -31840,
+        "Bottom": -31972
+      },
+      "ProductModified": false
+    }
+  ],
+  "ObserverNoLongerRunning": true,
+  "CollectionNote": "Initial ten-second polling reported no nonempty log; subsequent read-only diagnostics found this new log. Same execution recovered; observer was not rerun.",
+  "Scope": "Fresh updated AppSetup clone preflight only; no historical or whole-cell credit",
+  "TestsRun": 0,
+  "UserAuthorizedAppDataOutput": true,
+  "ProductModified": false,
+  "PolicyChanged": false
+}

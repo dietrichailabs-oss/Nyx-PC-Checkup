@@ -1,0 +1,50 @@
+{
+  "Schema": "QA26-VM-LOCAL-PREFLIGHT-1",
+  "Utc": "2026-10-18T16:29:07.5868480Z",
+  "Computer": "DESKTOP-4D83OSL",
+  "GuestVMId": "068A8DC7-F5E1-4E0E-A941-E0A3955E5A29",
+  "GuestVMName": "Nyx-AppSetup-20261018_1792337380402",
+  "Manufacturer": "Microsoft Corporation",
+  "Model": "Virtual Machine",
+  "SMBIOS_UUID": "02FAB358-77D4-4F98-892F-B9B24E4AEDA0",
+  "OS": "Microsoft Windows 11 Pro",
+  "Version": "10.0.26200",
+  "Build": "26200",
+  "UBR": 9711,
+  "DisplayVersion": "25H2",
+  "Session": 3,
+  "ShellVersion": "7.6.5",
+  "ShellEffectivePolicy": "RemoteSigned",
+  "NativePS51": {
+    "Version": "5.1.26100.9711",
+    "Edition": "Desktop",
+    "EffectivePolicy": "Restricted",
+    "Scopes": [
+      "MachinePolicy=Undefined",
+      "UserPolicy=Undefined",
+      "Process=Undefined",
+      "CurrentUser=Undefined",
+      "LocalMachine=Undefined"
+    ],
+    "LanguageMode": "FullLanguage",
+    "Is64Bit": true
+  },
+  "ElevatedToken": false,
+  "WindowsAppsUseLightTheme": 1,
+  "WindowsSystemUsesLightTheme": 1,
+  "AppliedNyxTheme": "UNQUALIFIED_NOT_OBSERVED",
+  "NativeDpi": "See NATIVE_DPI_PREFLIGHT.json; minimized main window and small second window at96; no visible main-window layout qualification",
+  "ComputerUse": {
+    "Launch": "Attempt returned launched app did not expose a targetable window",
+    "ListApps": "Available; installed Nyx found, no returned Nyx window",
+    "UIInputActions": 0,
+    "Initialize": "PASS",
+    "FreshCapture": "FAILED_TARGET_BINDING: selected Explorer returned foreground Codex contents; rejected"
+  },
+  "InitialSandboxInventoryLimitation": "Get-Process inside sandbox hid existing Nyx; outside-sandbox CIM confirmed Nyx processes in session3; absence was not a product failure",
+  "ProductModified": false,
+  "PolicyChanged": false,
+  "OriginalVMTouched": false,
+  "VPNChanged": false,
+  "ProductFailureClaimed": false
+}

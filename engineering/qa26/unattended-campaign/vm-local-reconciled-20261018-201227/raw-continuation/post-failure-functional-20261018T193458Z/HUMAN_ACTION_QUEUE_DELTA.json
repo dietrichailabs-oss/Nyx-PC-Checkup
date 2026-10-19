@@ -1,0 +1,34 @@
+{
+  "Utc": "2026-10-18T19:41:33.933905+00:00",
+  "RoutinePermissionsRequested": 0,
+  "OwnerActionRequiredNow": false,
+  "Pending": [
+    {
+      "Id": "STANDARD_F010_F016_PRIVACY_SUITE_REMAINDER",
+      "Status": "BLOCKED_UNCHANGED_EXECUTION_POLICY",
+      "Action": "Exact unsigned runners now available, but Restricted native PS5.1 does not permit unchanged execution. No policy change, signing, inlining or product-launcher workaround."
+    },
+    {
+      "Id": "WINDOWS_GATE_ORCHESTRATOR",
+      "Status": "BLOCKED_ROUTE_AND_FULL_MASTER_DEPENDENCY",
+      "Action": "Pinned orchestrator constructs prohibited QA ExecutionPolicy Bypass; MASTER_MANIFEST.json is not in recovered source archive. Not executed."
+    },
+    {
+      "Id": "ELEVATED_STARTUP_ROLLBACK",
+      "Status": "BLOCKED_ISOLATED_BASELINE_AND_EXECUTION_ROUTE",
+      "Action": "Requires qualified disposable native baseline and permitted exact runner route; updated in-use clone not treated as destructive-suite baseline."
+    },
+    {
+      "Id": "INSTALLER_LIFECYCLE_QA2_MIGRATION",
+      "Status": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+      "Action": "Exact fixtures recovered, but Independent QA approved untouched compatible baseline remains unavailable here. Original VM stays Saved/unaccessed."
+    },
+    {
+      "Id": "HISTORICAL_EVIDENCE_RESERVATIONS_AND_FINAL_DECISION",
+      "Status": "INDEPENDENT_QA_ONLY",
+      "Action": "Stale images, older context/DPI gaps, Settings200 label and disputed metadata are reserved; no retrospective credit or security/release verdict."
+    }
+  ],
+  "NoPolicyChangeRequested": true,
+  "NoDpiActionRequested": true
+}

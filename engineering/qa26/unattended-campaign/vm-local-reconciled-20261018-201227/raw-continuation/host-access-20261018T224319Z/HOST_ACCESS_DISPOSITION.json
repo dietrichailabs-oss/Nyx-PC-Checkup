@@ -1,0 +1,36 @@
+{
+  "Utc": "2026-10-18T22:45:15.875963+00:00",
+  "Host": "MARK",
+  "HostResolvedAndReachable": true,
+  "ResolvedHostAddresses": [
+    "172.30.192.1",
+    "172.30.240.1",
+    "172.31.208.1"
+  ],
+  "SmbPort445Reachable": true,
+  "ShareEnumeration": "Access denied using current identity",
+  "KnownQaShareRoot": "Unavailable as exposed to current identity; no inference of host filesystem contents",
+  "ExistingDcomPort135Reachable": true,
+  "DcomManagement": "Access denied HRESULT0x80070005 using current identity",
+  "SshPort22": "No response within bounded probe",
+  "WinrmPorts5985_5986": "No response within bounded probe",
+  "NewCredentialsSupplied": false,
+  "CredentialsReadOrStored": false,
+  "SecurityConfigurationChanged": false,
+  "HostConnectionCreated": false,
+  "BaselineAccessed": false,
+  "OriginalVmAccessed": false,
+  "AvailableCodexExecutionHosts": [
+    "local guest only"
+  ],
+  "Decision": "BLOCKED_AUTHENTICATED_HOST_EXECUTOR_REQUIRED",
+  "NecessaryInput": "Name or endpoint of an existing authenticated host-side execution connection. No password or policy change requested.",
+  "Evidence": [
+    "HOST_DNS.json",
+    "HOST_MANAGEMENT_REACHABILITY.json",
+    "HOST_SHARE_ACCESS.json",
+    "KNOWN_HOST_QA_PATH_ACCESS.json",
+    "HOST_WMI_REACHABILITY.json",
+    "HOST_DCOM_ACCESS.json"
+  ]
+}

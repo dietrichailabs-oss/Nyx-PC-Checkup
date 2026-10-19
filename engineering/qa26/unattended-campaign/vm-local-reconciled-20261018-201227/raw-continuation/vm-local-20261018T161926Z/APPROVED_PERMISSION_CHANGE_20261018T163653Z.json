@@ -1,0 +1,16 @@
+{
+  "Schema": "QA26-USER-APPROVED-COMPUTER-USE-PERMISSION-1",
+  "Utc": "2026-10-18T16:36:53.3762488Z",
+  "Authorization": "User explicitly approved Computer Use permission needed for Nyx PowerShell-hosted GUI; no terminal control; Windows security and execution policies unchanged",
+  "Scope": "This chat session only",
+  "PermissionFile": "C:\\Users\\Nyx\\.codex\\computer-use\\sessions\\01a14fcc-ceaa-78a0-bdd3-328daf4f5a91.toml",
+  "BeforeSHA256": "E6216BE415D0F2D076B3315227EBEDA7B5C17D60861DC7FA27806765AD62E69F",
+  "AfterSHA256": "2F3303CCF5B9F1F739122532795D002FEFB127F1A319CB50C4D57CDA61F94CB1",
+  "Backup": "C:\\Users\\Nyx\\Desktop\\Nyx-QA26-Codex-20261018_121140\\continuation\\vm-local-20261018T161926Z\\COMPUTER_USE_PERMISSION_BEFORE_20261018T163653Z.toml",
+  "AddedApp": "powershell.exe",
+  "InputRestriction": "Only returned windows verified as native Nyx PC Checkup GUI; no terminal application windows or commands",
+  "WindowsSecurityPolicyModified": false,
+  "ExecutionPolicyModified": false,
+  "FrozenProductModified": false,
+  "TestsExecuted": 0
+}

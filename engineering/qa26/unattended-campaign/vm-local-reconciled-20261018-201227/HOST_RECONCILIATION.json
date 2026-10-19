@@ -1,0 +1,620 @@
+{
+  "schema": "QA26-HOST-VM-LOCAL-RECONCILIATION-1",
+  "utc": "2026-10-19T00:38:58.410Z",
+  "localDate": "2026-10-18",
+  "sourceVmId": "068a8dc7-f5e1-4e0e-a941-e0a3955e5a29",
+  "originalVmId": "275a191c-cf8a-4929-9849-b9a293e9149d",
+  "originalVmState": "Saved",
+  "frozenSource": "0303a78a06f67252c86634cd73f1e4bda32dd3cc",
+  "build": "2026.10.02-eng-qa26",
+  "harness": "QA26-F023-PS51-26",
+  "historicalScore": {
+    "PASS": 318,
+    "FAIL": 0
+  },
+  "reconciledEngineeringScore": {
+    "PASS": 328,
+    "FAIL": 1
+  },
+  "scope": "Includes149 historical signed-copy-scope assertions; no Independent QA, frozen-candidate blanket acceptance, release or security approval",
+  "matrix": {
+    "complete": 83,
+    "total": 132,
+    "strictComplete": 56,
+    "bestEffortComplete": 27,
+    "newCells": 0,
+    "historicalQualificationReservationsRetained": true
+  },
+  "newlyQualifiedPasses": [
+    {
+      "id": "dark150_cleanup_missingnav_left_20261018",
+      "utc": "2026-10-18T18:01:56.2714224Z",
+      "qualifiedUtc": "2026-10-18T18:01:56.2714224Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "Dark",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/dark150-native144-20261018T175251Z/LEFT_QUALIFICATION.json",
+      "evidenceScope": "Fresh individual frozen-payload functional GUI assertion on updated AppSetup clone; not historical DPI credit, full matrix cell, security approval or Independent QA verdict",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "dark150_cleanup_missingnav_right_20261018",
+      "utc": "2026-10-18T18:03:58.4280738Z",
+      "qualifiedUtc": "2026-10-18T18:03:58.4280738Z",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "Dark",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/dark150-native144-20261018T175251Z/RIGHT_QUALIFICATION.json",
+      "evidenceScope": "Fresh individual frozen-payload functional GUI assertion on updated AppSetup clone; not historical DPI credit, full matrix cell, security approval or Independent QA verdict",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "followwindows150_cleanup_one_item_summary_20261018",
+      "utc": "2026-10-18T13:35:15.886Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "FollowWindows",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "evidenceScope": "Recovered original execution with contemporaneous evidence; not a rerun",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "followwindows150_cleanup_confirmation_exact_20261018",
+      "utc": "2026-10-18T13:35:40.846Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "FollowWindows",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "evidenceScope": "Recovered original execution with contemporaneous evidence; not a rerun",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "followwindows150_cleanup_keyboard_cancel_20261018",
+      "utc": "2026-10-18T13:36:03.293Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "FollowWindows",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "evidenceScope": "Recovered original execution with contemporaneous evidence; not a rerun",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "followwindows150_cleanup_restore_zero_20261018",
+      "utc": "2026-10-18T13:37:11.706Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "FollowWindows",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/FOLLOWWINDOWS150_CLEANUP_SAFETY_RECOVERED_QUALIFICATION.json",
+      "evidenceScope": "Recovered original execution with contemporaneous evidence; not a rerun",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "dark150_startup_missing_location_20261018",
+      "utc": "2026-10-18T18:15:42.054167+00:00",
+      "qualifiedUtc": "2026-10-18T18:15:42.054167+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "Dark",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/DARK150_STARTUP_QUALIFICATION.json",
+      "evidenceScope": "Individual functional assertion on updated independent AppSetup clone",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "light150_startup_missing_location_20261018",
+      "utc": "2026-10-18T18:18:59.847459+00:00",
+      "qualifiedUtc": "2026-10-18T18:18:59.847459+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "Light",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/LIGHT150_STARTUP_QUALIFICATION.json",
+      "evidenceScope": "Individual functional assertion on updated independent AppSetup clone",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "followwindows150_startup_missing_location_20261018",
+      "utc": "2026-10-18T18:21:54.390265+00:00",
+      "qualifiedUtc": "2026-10-18T18:21:54.390265+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": "FollowWindows",
+      "scale": 150,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/remaining-recovery-20261018T180919Z/FOLLOWWINDOWS150_STARTUP_QUALIFICATION.json",
+      "evidenceScope": "Individual functional assertion on updated independent AppSetup clone",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    },
+    {
+      "id": "native_export_save_dialog_cancel_20261018",
+      "utc": "2026-10-18T19:25:13.0104573Z",
+      "qualifiedUtc": "2026-10-18T19:37:33.365139+00:00",
+      "status": "PASS_ENGINEERING_NATIVE_QUALIFIED",
+      "assertionCredit": 1,
+      "fullCellCredit": 0,
+      "theme": null,
+      "scale": null,
+      "qualification": "vm-local-reconciled-20261018-201227/raw-continuation/post-failure-functional-20261018T193458Z/CANCEL_RECOVERY_QUALIFICATION.json",
+      "evidenceScope": "One previously uncredited native Save-dialog cancellation assertion from the preserved actual execution. Not a TXT export, whole privacy suite or final acceptance verdict.",
+      "hostReconciliationUtc": "2026-10-19T00:38:58.410Z",
+      "hostTestsExecuted": 0
+    }
+  ],
+  "passBreakdown": {
+    "earlierCloneCleanupNavigation": 2,
+    "recoveredOriginalCleanupSafety": 4,
+    "earlierCloneStartupMissingLocation": 3,
+    "recoveredExistingSaveDialogCancellation": 1
+  },
+  "failure": {
+    "id": "installed_gui_export_pdf_missing_20261018",
+    "error": "The report could not be exported.\r\nCannot bind argument to parameter 'Lines' because it is an empty string.",
+    "record": "vm-local-reconciled-20261018-201227/raw-continuation/functional-exports-20261018T192122Z/PDF_EXPORT_FAILURE_QUALIFICATION.json",
+    "screenshotSHA256": "1C86BEA7B76DD9BA1344CE804684F03679A450D374A5442CE38A586F3CD8FD0F",
+    "outputCreated": false,
+    "independentQaClassification": "PENDING"
+  },
+  "nativeCollection": {
+    "record": "vm-local-reconciled-20261018-201227/COLLECTION_RECOVERY_RESULT.json",
+    "sourceCopiedFiles": 701,
+    "sourceToCopyMismatchCount": 0,
+    "diskReadOnly": true,
+    "diskDetached": true,
+    "reusedExportAfterUncompressingCopies": true,
+    "duplicateExport": false
+  },
+  "payload": {
+    "manifestSHA256": "b1a6490bab92a7deabc38a3a5b3748926be3f6b3adb1404912313450c45ec56b",
+    "manifestPinnedMatch": true,
+    "payloadFilesMatched": 59,
+    "manifestPlusPayloadFilesMatched": 60,
+    "mismatchCount": 0,
+    "unexpectedPayloadFiles": 0,
+    "metadataExcluded": true
+  },
+  "dedupe": [
+    {
+      "id": "dark150_cleanup_missingnav_left_20261018",
+      "prior": [],
+      "claimedCredit": 1,
+      "scope": "Fresh individual frozen-payload functional GUI assertion on updated AppSetup clone; not historical DPI credit, full matrix cell, security approval or Independent QA verdict",
+      "qualifiedUtc": "2026-10-18T18:01:56.2714224Z"
+    },
+    {
+      "id": "dark150_cleanup_missingnav_right_20261018",
+      "prior": [],
+      "claimedCredit": 1,
+      "scope": "Fresh individual frozen-payload functional GUI assertion on updated AppSetup clone; not historical DPI credit, full matrix cell, security approval or Independent QA verdict",
+      "qualifiedUtc": "2026-10-18T18:03:58.4280738Z"
+    },
+    {
+      "id": "followwindows150_cleanup_one_item_summary_20261018",
+      "prior": [
+        {
+          "id": "followwindows150_cleanup_one_item_summary_20261018",
+          "status": "EXECUTED_OBSERVED_NATIVE_QUALIFICATION_PENDING",
+          "credit": 0,
+          "details": "Exactly the displayed BITFB98.tmp zero-byte candidate was checked; Ctrl+Tab reveals Selected: 1 item(s), 0 B and Review and clean selected. No cleanup or scan executed."
+        }
+      ],
+      "claimedCredit": 1,
+      "originalExecution": "2026-10-18T13:35:15.886Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00"
+    },
+    {
+      "id": "followwindows150_cleanup_confirmation_exact_20261018",
+      "prior": [
+        {
+          "id": "followwindows150_cleanup_confirmation_exact_20261018",
+          "status": "EXECUTED_OBSERVED_NATIVE_QUALIFICATION_PENDING",
+          "credit": 0,
+          "details": "Review opens Confirm destructive cleanup action with You selected 1 item(s) totaling 0 B, Windows Recycle Bin consequence, and Yes/No controls readable. No destructive acceptance was sent."
+        }
+      ],
+      "claimedCredit": 1,
+      "originalExecution": "2026-10-18T13:35:40.846Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00"
+    },
+    {
+      "id": "followwindows150_cleanup_keyboard_cancel_20261018",
+      "prior": [
+        {
+          "id": "followwindows150_cleanup_keyboard_cancel_20261018",
+          "status": "EXECUTED_OBSERVED_NATIVE_QUALIFICATION_PENDING",
+          "credit": 0,
+          "details": "Tab visibly focuses No; Return on No dismisses confirmation, leaves Selected: 1 item(s), 0 B, and returns to Ready with no cleanup. Candidate-preservation and zero restoration are checked separately next."
+        }
+      ],
+      "claimedCredit": 1,
+      "originalExecution": "2026-10-18T13:36:03.293Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00"
+    },
+    {
+      "id": "followwindows150_cleanup_restore_zero_20261018",
+      "prior": [
+        {
+          "id": "followwindows150_cleanup_restore_zero_20261018",
+          "status": "EXECUTED_OBSERVED_NATIVE_QUALIFICATION_PENDING",
+          "credit": 0,
+          "details": "BITFB98.tmp remained displayed and checked after No cancellation. Its checkbox was cleared; Ctrl+Tab reveals Selected: 0 item(s), 0 B and Ready. No cleanup or scan executed."
+        }
+      ],
+      "claimedCredit": 1,
+      "originalExecution": "2026-10-18T13:37:11.706Z",
+      "qualifiedUtc": "2026-10-18T18:11:17.695186+00:00"
+    },
+    {
+      "id": "dark150_startup_missing_location_20261018",
+      "prior": [],
+      "claimedCredit": 1,
+      "qualifiedUtc": "2026-10-18T18:15:42.054167+00:00"
+    },
+    {
+      "id": "light150_startup_missing_location_20261018",
+      "prior": [],
+      "claimedCredit": 1,
+      "qualifiedUtc": "2026-10-18T18:18:59.847459+00:00"
+    },
+    {
+      "id": "followwindows150_startup_missing_location_20261018",
+      "prior": [],
+      "claimedCredit": 1,
+      "qualifiedUtc": "2026-10-18T18:21:54.390265+00:00"
+    },
+    {
+      "id": "native_export_save_dialog_cancel_20261018",
+      "prior": [],
+      "claimedCredit": 1,
+      "scope": "One previously uncredited native Save-dialog cancellation assertion from the preserved actual execution. Not a TXT export, whole privacy suite or final acceptance verdict.",
+      "originalExecution": "2026-10-18T19:25:13.0104573Z",
+      "qualifiedUtc": "2026-10-18T19:37:33.365139+00:00"
+    }
+  ],
+  "imageBindings": [
+    {
+      "id": "dark150_cleanup_missingnav_left_20261018",
+      "path": "raw-continuation/dark150-native144-20261018T175251Z/dark150_cleanup_missingnav_left_20261018_20261018T1800369938893Z_554b3cdffebf4333b21a45e19e62303f.png",
+      "expected": "742F6CDE17FEDE77E0BCC396F188C62E8603CE4DAB7F3863966453FCF2FBC4DC",
+      "actual": "742f6cde17fede77e0bcc396f188c62e8603ce4dab7f3863966453fcf2fbc4dc",
+      "match": true,
+      "bytes": 85357
+    },
+    {
+      "id": "dark150_cleanup_missingnav_right_20261018",
+      "path": "raw-continuation/dark150-native144-20261018T175251Z/dark150_cleanup_missingnav_right_20261018_20261018T1801571966090Z_ea278bb4b5084a139ed836fd058a97d7.png",
+      "expected": "08B3E51E2D5A264EA7A09076B9B54DFA5ADD4FEDCE27EA598AC4B57F7B1612B7",
+      "actual": "08b3e51e2d5a264ea7a09076b9b54dfa5add4fedce27ea598ac4b57f7b1612b7",
+      "match": true,
+      "bytes": 85299
+    },
+    {
+      "id": "followwindows150_cleanup_one_item_summary_20261018",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/inputs/screenshots/followwindows150_cleanup_one_item_summary_20261018_1792330515886_8252b740-f290-4010-b48f-bd8c4e624072.jpg",
+      "expected": "07e1ee7feb0753a8206edecd82f1abd1414a4694b8155224b10ced93acfff3b6",
+      "actual": "07e1ee7feb0753a8206edecd82f1abd1414a4694b8155224b10ced93acfff3b6",
+      "match": true,
+      "bytes": 83221
+    },
+    {
+      "id": "followwindows150_cleanup_confirmation_exact_20261018",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/inputs/screenshots/followwindows150_cleanup_confirmation_exact_20261018_1792330540847_7b8bcf6f-2097-42ac-a8a9-9ba26514b53f.jpg",
+      "expected": "023f27f33bf2b9fa7b589d3a9636ced3a013ffe299f1b962f430dffab2496a2d",
+      "actual": "023f27f33bf2b9fa7b589d3a9636ced3a013ffe299f1b962f430dffab2496a2d",
+      "match": true,
+      "bytes": 80454
+    },
+    {
+      "id": "followwindows150_cleanup_keyboard_cancel_20261018",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/inputs/screenshots/followwindows150_cleanup_keyboard_cancel_20261018_1792330563293_59426b5b-3f2d-4c14-bc17-4d58926e179e.jpg",
+      "expected": "cc95f5a56c0544b2beb3f8f4080a0f1173f0df856cb1411128ee6cd471857bc4",
+      "actual": "cc95f5a56c0544b2beb3f8f4080a0f1173f0df856cb1411128ee6cd471857bc4",
+      "match": true,
+      "bytes": 83227
+    },
+    {
+      "id": "followwindows150_cleanup_keyboard_cancel_20261018:No-focus-support",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/inputs/screenshots/followwindows150_cleanup_no_focus_support_20261018_1792330552487_0530ff40-efc7-4072-a2b3-8b46eb75ad1a.jpg",
+      "expected": "3dfaaaf9a46e4259cca2ae643b0b5e79c872ce70c32ade7d44ae93d246823da5",
+      "actual": "3dfaaaf9a46e4259cca2ae643b0b5e79c872ce70c32ade7d44ae93d246823da5",
+      "match": true,
+      "bytes": 80261
+    },
+    {
+      "id": "followwindows150_cleanup_restore_zero_20261018",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/inputs/screenshots/followwindows150_cleanup_restore_zero_20261018_1792330631706_b0807a6b-7291-4a55-bdab-c1bdccdb7c50.jpg",
+      "expected": "722edd33f825a119e17f4733dfe769391a479f165e23d14481c475ad772d36b8",
+      "actual": "722edd33f825a119e17f4733dfe769391a479f165e23d14481c475ad772d36b8",
+      "match": true,
+      "bytes": 83470
+    },
+    {
+      "id": "followwindows150_cleanup_restore_zero_20261018:candidate-support",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/inputs/screenshots/followwindows150_cleanup_preserved_candidate_support_20261018_1792330624121_b50cbfb3-962c-40d0-a339-2eefed4e2818.jpg",
+      "expected": "c36f975b094b281f679bf8e4852a5681fb9ccf0fe11063919bcbb7a4a32060aa",
+      "actual": "c36f975b094b281f679bf8e4852a5681fb9ccf0fe11063919bcbb7a4a32060aa",
+      "match": true,
+      "bytes": 86999
+    },
+    {
+      "id": "dark150_startup_missing_location_20261018",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/dark150_startup_missing_location_20261018_20261018T1814599808061Z_5550ddedd5dc48b79858e0a2154513bb.png",
+      "expected": "45DE0AF22D46BB63DEC0CBE331B07D70AA376C32EA0BD564606C9325C09876D5",
+      "actual": "45de0af22d46bb63dec0cbe331b07d70aa376c32ea0bd564606c9325c09876d5",
+      "match": true,
+      "bytes": 6957
+    },
+    {
+      "id": "light150_startup_missing_location_20261018",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.png",
+      "expected": "DBF16F5462C9C9F717D2D3A6028077785E4EDC7A69F9E758ECCB7A9B58A3BA2B",
+      "actual": "dbf16f5462c9c9f717d2d3a6028077785e4edc7a69f9e758eccb7a9b58a3ba2b",
+      "match": true,
+      "bytes": 13121
+    },
+    {
+      "id": "followwindows150_startup_missing_location_20261018",
+      "path": "raw-continuation/remaining-recovery-20261018T180919Z/followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.png",
+      "expected": "EB224C4F116C2EB3CCAA5A4E0F2E6A4C6F1D1F515EEE182A7EFBD53A4CDE74A4",
+      "actual": "eb224c4f116c2eb3ccaa5a4e0f2e6a4c6f1d1f515eee182a7efbd53a4cde74a4",
+      "match": true,
+      "bytes": 9163
+    },
+    {
+      "id": "native_export_save_dialog_cancel_20261018:before",
+      "path": "raw-continuation/functional-exports-20261018T192122Z/installed_export_txt_filename_setup_20261018T1924315664584Z_e289314744d1447e9266b1cb2070a1f9.png",
+      "expected": "D9A212C55387B9B014B84162F808461C2C48E41F1E3A5F1A5BAEC7FD71D239FE",
+      "actual": "d9a212c55387b9b014b84162f808461c2c48e41f1e3a5f1a5baec7fd71d239fe",
+      "match": true,
+      "bytes": 82647
+    },
+    {
+      "id": "native_export_save_dialog_cancel_20261018:after",
+      "path": "raw-continuation/functional-exports-20261018T192122Z/installed_export_txt_abort_prior_output_20261018T1925130094582Z_0dc27aaba8ef428ab7928409f642848e.png",
+      "expected": "137FA1843C343B780FF1C72E5B2BFF8512FD4452C51673BF03EBE98780AE0716",
+      "actual": "137fa1843c343b780ff1c72e5b2bff8512fd4452c51673bf03ebe98780ae0716",
+      "match": true,
+      "bytes": 102294
+    },
+    {
+      "id": "installed_gui_export_pdf_missing_20261018",
+      "path": "raw-continuation/functional-exports-20261018T192122Z/installed_export_pdf_outcome_bound_20261018T1927120209670Z_bcddaff394f442788d20cc32f74b5a6e.png",
+      "expected": "1C86BEA7B76DD9BA1344CE804684F03679A450D374A5442CE38A586F3CD8FD0F",
+      "actual": "1c86bea7b76dd9ba1344ce804684f03679a450d374a5442ce38a586f3cd8fd0f",
+      "match": true,
+      "bytes": 24073
+    }
+  ],
+  "historicalNativeBindings": [
+    {
+      "id": "followwindows150_cleanup_one_item_summary_20261018",
+      "beforeExact": true,
+      "afterExact": true,
+      "timeBracket": true,
+      "samePid": true,
+      "native144": true
+    },
+    {
+      "id": "followwindows150_cleanup_confirmation_exact_20261018",
+      "beforeExact": true,
+      "afterExact": true,
+      "timeBracket": true,
+      "samePid": true,
+      "native144": true
+    },
+    {
+      "id": "followwindows150_cleanup_keyboard_cancel_20261018",
+      "beforeExact": true,
+      "afterExact": true,
+      "timeBracket": true,
+      "samePid": true,
+      "native144": true
+    },
+    {
+      "id": "followwindows150_cleanup_restore_zero_20261018",
+      "beforeExact": true,
+      "afterExact": true,
+      "timeBracket": true,
+      "samePid": true,
+      "native144": true
+    }
+  ],
+  "captureReceiptBindings": [
+    {
+      "id": "dark150_cleanup_missingnav_left_20261018",
+      "path": "dark150-native144-20261018T175251Z/dark150_cleanup_missingnav_left_20261018_20261018T1800369938893Z_554b3cdffebf4333b21a45e19e62303f.json",
+      "strictJson": true,
+      "pid": 7504,
+      "session": 2,
+      "nativeBefore": 144,
+      "nativeAfter": 144,
+      "targetElevated": false,
+      "helperElevated": false,
+      "reused": false,
+      "foreground": true,
+      "focused": "Item Row 5",
+      "productModified": false,
+      "policyModified": false
+    },
+    {
+      "id": "dark150_cleanup_missingnav_right_20261018",
+      "path": "dark150-native144-20261018T175251Z/dark150_cleanup_missingnav_right_20261018_20261018T1801571966090Z_ea278bb4b5084a139ed836fd058a97d7.json",
+      "strictJson": true,
+      "pid": 7504,
+      "session": 2,
+      "nativeBefore": 144,
+      "nativeAfter": 144,
+      "targetElevated": false,
+      "helperElevated": false,
+      "reused": false,
+      "foreground": true,
+      "focused": "Age Row 5",
+      "productModified": false,
+      "policyModified": false
+    },
+    {
+      "id": "dark150_startup_missing_location_20261018",
+      "path": "remaining-recovery-20261018T180919Z/dark150_startup_missing_location_20261018_20261018T1814599808061Z_5550ddedd5dc48b79858e0a2154513bb.json",
+      "strictJson": false,
+      "pid": 7504,
+      "session": 2,
+      "nativeBefore": 144,
+      "nativeAfter": 144,
+      "targetElevated": false,
+      "helperElevated": false,
+      "reused": false,
+      "foreground": true,
+      "focused": "OK",
+      "productModified": false,
+      "policyModified": false
+    },
+    {
+      "id": "light150_startup_missing_location_20261018",
+      "path": "remaining-recovery-20261018T180919Z/light150_startup_missing_location_20261018_20261018T1818450129492Z_f58f49d1740846c1bb1240e79996fc84.json",
+      "strictJson": false,
+      "pid": 4816,
+      "session": 2,
+      "nativeBefore": 144,
+      "nativeAfter": 144,
+      "targetElevated": false,
+      "helperElevated": false,
+      "reused": false,
+      "foreground": true,
+      "focused": "OK",
+      "productModified": false,
+      "policyModified": false
+    },
+    {
+      "id": "followwindows150_startup_missing_location_20261018",
+      "path": "remaining-recovery-20261018T180919Z/followwindows150_startup_missing_location_20261018_20261018T1821392762410Z_2011da83f7b044d1a3493ceaeeda1e12.json",
+      "strictJson": false,
+      "pid": 8800,
+      "session": 2,
+      "nativeBefore": 144,
+      "nativeAfter": 144,
+      "targetElevated": false,
+      "helperElevated": false,
+      "reused": false,
+      "foreground": true,
+      "focused": "OK",
+      "productModified": false,
+      "policyModified": false
+    },
+    {
+      "id": "native_export_save_dialog_cancel_20261018",
+      "path": "functional-exports-20261018T192122Z/installed_export_txt_abort_prior_output_20261018T1925130094582Z_0dc27aaba8ef428ab7928409f642848e.json",
+      "strictJson": true,
+      "pid": 11392,
+      "session": 1,
+      "nativeBefore": 192,
+      "nativeAfter": 192,
+      "targetElevated": false,
+      "helperElevated": false,
+      "reused": false,
+      "foreground": true,
+      "focused": "Export report",
+      "productModified": false,
+      "policyModified": false
+    }
+  ],
+  "nonstandardCaptureJson": {
+    "count": 17,
+    "audit": "vm-local-reconciled-20261018-201227/NONSTANDARD_CAPTURE_AUDIT.json",
+    "rawRewritten": false,
+    "nonFiniteGeometryNotUsedForQualification": true
+  },
+  "historicalRawCollection": {
+    "id": "Light125AppsFull20261005_2142",
+    "status": "RAW_COLLECTED_CONTRACT_RECONCILED_COMPONENT",
+    "record": "vm-local-reconciled-20261018-201227/raw-continuation/route-baseline-audit-20261018T200140Z/RECOVERED_FULL_CONTRACT_COMPONENT.json",
+    "sha256": "3cf7ee8d2cf1a5203912377c5d8794988b31f6b441336a1654811dbc148ca88a",
+    "newCredit": 0,
+    "files": [
+      {
+        "path": "route-baseline-audit-20261018T200140Z/recovered-original-full/original-full-20261006T014211Z.json",
+        "expected": "3CF7EE8D2CF1A5203912377C5D8794988B31F6B441336A1654811DBC148CA88A",
+        "actual": "3cf7ee8d2cf1a5203912377c5d8794988b31f6b441336a1654811dbc148ca88a",
+        "match": true
+      },
+      {
+        "path": "route-baseline-audit-20261018T200140Z/recovered-original-full/CANDIDATE.json",
+        "expected": "B9C89654A0A5DBDD87E5AFD679BAD8FD33705C6BF4E57C974ACC5746A8CDF8CC",
+        "actual": "b9c89654a0a5dbdd87e5afd679bad8fd33705c6bf4e57c974acc5746a8cdf8cc",
+        "match": true
+      },
+      {
+        "path": "route-baseline-audit-20261018T200140Z/recovered-original-full/INSTALLED_PAYLOAD_HASHES.json",
+        "expected": "0817B8F0A78EA53B004EBE343EF80A52E0DECC50B380BD2362B00616B9AE8825",
+        "actual": "0817b8f0a78ea53b004ebe343ef80a52e0decc50b380bd2362b00616b9ae8825",
+        "match": true
+      },
+      {
+        "path": "route-baseline-audit-20261018T200140Z/recovered-original-full/END.json",
+        "expected": "A7720D6FB5BD7FDEA150B43A3B19163E1F4DFB6C51AC583DB66FEBAA87F1BC83",
+        "actual": "a7720d6fb5bd7fdea150b43a3b19163e1f4dfb6c51ac583db66febaa87f1bc83",
+        "match": true
+      }
+    ]
+  },
+  "hostLedgerBeforeHashes": [
+    {
+      "file": "STATE.json",
+      "hostSHA256": "59ed559c854fd15b43138764694beff595d75eef7c8b05d43e95621e4f4d5c44",
+      "importedSHA256": "59ed559c854fd15b43138764694beff595d75eef7c8b05d43e95621e4f4d5c44",
+      "match": true
+    },
+    {
+      "file": "HUMAN_ACTION_QUEUE.json",
+      "hostSHA256": "4c33f2a6318b0358a0bc99a137288268dad9868b88a833c775df49adc8af0e94",
+      "importedSHA256": "4c33f2a6318b0358a0bc99a137288268dad9868b88a833c775df49adc8af0e94",
+      "match": true
+    },
+    {
+      "file": "SCOREBOARD_CURRENT.json",
+      "hostSHA256": "423733988ef9bff7c1dcb1c99124384a92f848d64d498b7e934df2e37a033a52",
+      "importedSHA256": "423733988ef9bff7c1dcb1c99124384a92f848d64d498b7e934df2e37a033a52",
+      "match": true
+    }
+  ],
+  "testsExecutedByThisHostResume": 0,
+  "testsRepeatedByThisHostResume": 0,
+  "unintendedVmLocalTxtRepeatPreservedUncredited": 1,
+  "allFutureDpiTestingSkipped": true,
+  "productChanged": false,
+  "policyChanged": false,
+  "launcherSecurityDecision": {
+    "issue": 16,
+    "status": "OPEN_NOT_APPROVED",
+    "url": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/16"
+  },
+  "remainingEligibleNow": 0,
+  "remainingExecutionPrerequisite": "Qualified accessible unchanged-policy native PS5.1 baseline; separate Independent QA classifications remain reserved",
+  "campaignComplete": false,
+  "rawPublication": "Preserved locally in repository working tree; no Git commit/push performed by this resumption"
+}
