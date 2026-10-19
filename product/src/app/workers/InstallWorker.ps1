@@ -107,7 +107,7 @@ try{
     $snapshotsCaptured=$true
 
     # Internal install-state is written before external integration changes.
-    [pscustomobject]@{Product='Nyx PC Checkup';Version='1.0.0';Build='2026.10.02-eng-qa26';InstalledUtc=(Get-Date).ToUniversalTime().ToString('o');InstallRoot=$InstallRoot;PayloadManifestSha256=(Get-FileHash -LiteralPath $manifestPath -Algorithm SHA256).Hash}|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $InstallRoot 'install-state.json') -Encoding UTF8
+    [pscustomobject]@{Product='Nyx PC Checkup';Version='1.0.0';Build='2026.10.19-eng-qa27';InstalledUtc=(Get-Date).ToUniversalTime().ToString('o');InstallRoot=$InstallRoot;PayloadManifestSha256=(Get-FileHash -LiteralPath $manifestPath -Algorithm SHA256).Hash}|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $InstallRoot 'install-state.json') -Encoding UTF8
 
     $shell=New-Object -ComObject WScript.Shell
     New-Item -ItemType Directory -Path $startFolder -Force|Out-Null

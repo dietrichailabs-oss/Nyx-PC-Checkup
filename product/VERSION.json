@@ -2,7 +2,7 @@
   "product": "Nyx PC Checkup",
   "publisher": "Dietrich AI Labs",
   "version": "1.0.0",
-  "build": "2026.10.02-eng-qa26",
+  "build": "2026.10.19-eng-qa27",
   "channel": "Engineering QA Candidate",
   "platform": "Windows 10/11 x64",
   "architecture": "PowerShell 5.1 modular application with native x64 launchers",

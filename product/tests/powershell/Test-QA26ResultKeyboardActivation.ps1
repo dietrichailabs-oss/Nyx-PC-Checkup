@@ -138,6 +138,6 @@ try{
 }catch{$failure=$_.Exception.ToString()}finally{
  if($null -ne $form){$form.Dispose()}
  $parent=Split-Path -Parent $OutputPath;if($parent){[void][IO.Directory]::CreateDirectory($parent)}
- [pscustomobject]@{Harness='QA26-F023-PS51-26';Kind='Native PS5.1 registered real grid handlers with observed action test double; not installed desktop acceptance';Passed=@($checks|Where-Object Pass).Count;Failed=@($checks|Where-Object {-not $_.Pass}).Count;Failure=$failure;Checks=$checks.ToArray();PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
+ [pscustomobject]@{Harness='QA27-F024-PS51-27';Kind='Native PS5.1 registered real grid handlers with observed action test double; not installed desktop acceptance';Passed=@($checks|Where-Object Pass).Count;Failed=@($checks|Where-Object {-not $_.Pass}).Count;Failure=$failure;Checks=$checks.ToArray();PowerShell=$PSVersionTable.PSVersion.ToString()}|ConvertTo-Json -Depth 8|Set-Content -LiteralPath $OutputPath -Encoding UTF8
 }
 if($failure){throw $failure}

@@ -103,8 +103,8 @@ try {
 $completed=(Get-Date).ToUniversalTime()
 $report=[pscustomobject][ordered]@{
     Schema='dietrich-ai-labs.nyx-pc-checkup.qa15-f012-settings-theme.v1'
-    Build='2026.10.02-eng-qa26'
-    HarnessRevision='QA26-F023-PS51-26'
+    Build='2026.10.19-eng-qa27'
+    HarnessRevision='QA27-F024-PS51-27'
     HarnessCorrectionRevision='QA15-F012-TIMESTAMP-1'
     StartedUtc=$started.ToString('o')
     CompletedUtc=$completed.ToString('o')

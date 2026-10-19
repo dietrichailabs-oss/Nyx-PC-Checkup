@@ -1,10 +1,19 @@
-# Independent QA Test Plan — Nyx PC Checkup 1.0.0 QA13
+# Current QA27 scope takes precedence
+
+Read QA27_F024_PDF_EXPORT.md and README_FIRST.md first. Native F-024 first;
+no DPI/scaling work. Historical83/132 remains archived;49 cells are
+WAIVED_BY_OWNER_DPI_SCOPE_20261019. No QA26 credit is copied into QA27.
+Historical instructions below do not override the owner policy.
+
+---
+
+# Independent QA Test Plan â€” Nyx PC Checkup 1.0.0 QA13
 
 ## Authority and evidence
 
 QA tests the exact immutable QA14 handoff and assumes Engineering missed something. QA never silently edits Engineering source. Record Eastern start/stop timestamps, elapsed time, environment, exact artifact names/sizes/SHA-256, findings/severity/evidence, and final `PASS`, `CONDITIONAL PASS`, `HOLD`, or `FAIL`.
 
-## Prior QA9 baseline — mandatory regression boundary
+## Prior QA9 baseline â€” mandatory regression boundary
 
 QA9 already recorded these native results before final visual acceptance failed:
 
@@ -28,7 +37,7 @@ After extracting the master handoff, use root `RUN_QA15_WINDOWS_GATE.ps1` with i
 Run Smoke, Standard, and Elevated on appropriate disposable Windows 10/11 x64 snapshots. A process exit code is insufficient by itself: expected JSON reports must exist, parse, contain internally valid totals, and report PASS.
 
 
-# QA12-F-011 installed-launch acceptance — RELEASE BLOCKER
+# QA12-F-011 installed-launch acceptance â€” RELEASE BLOCKER
 
 QA12 reproduced a live invisible singleton from the supported installed desktop shortcut on a normal Hyper-V VM. QA14 must be tested from an interactive non-elevated desktop and must not substitute direct-source acceptance probes for the installed entry point.
 
@@ -90,7 +99,7 @@ Re-run or substantively exercise historical F-001 through F-009 boundaries: no u
 - Manual up-to-date/failure; update prompt; one prompt per version/session; Remind Me Later behavior.
 - No executable download, install/execute path, service/task, telemetry, inventory upload, TLS bypass, or arbitrary-domain open.
 
-# QA10-F-009 UI close lifecycle acceptance — RELEASE BLOCKER
+# QA10-F-009 UI close lifecycle acceptance â€” RELEASE BLOCKER
 
 QA10 failed Standard before the final UI matrix because a normal `FormClosing` callback passed empty optional path strings to `Remove-Item -LiteralPath`. QA14 must prove both the shipped fix and the exact cleanup boundary.
 
@@ -113,11 +122,11 @@ The Smoke harness includes manifest-bound QA13 acceptance probes for immediate c
 
 Any empty/null/whitespace cleanup parameter-binding exception, cleanup outside the exact Nyx temp root, stuck process, or terminal close error is a release blocker.
 
-# QA9-F-008 final UI / accessibility acceptance — RELEASE BLOCKER
+# QA9-F-008 final UI / accessibility acceptance â€” RELEASE BLOCKER
 
-This matrix is mandatory. QA9 failed at 150% scaling on a 1366×768-class viewport, so visual inspection—not static source review—is required.
+This matrix is mandatory. QA9 failed at 150% scaling on a 1366Ã—768-class viewport, so visual inspectionâ€”not static source reviewâ€”is required.
 
-### Theme × scale matrix
+### Theme Ã— scale matrix
 
 Test **Follow Windows**, **Dark**, and **Light** themes at each of:
 
@@ -126,7 +135,7 @@ Test **Follow Windows**, **Dark**, and **Light** themes at each of:
 - **150%**
 - **200%**
 
-At minimum include a **1366×768** constrained working-area case for every scale where Windows permits it, and reproduce the exact prior-failure class at **150% / 1366×768**.
+At minimum include a **1366Ã—768** constrained working-area case for every scale where Windows permits it, and reproduce the exact prior-failure class at **150% / 1366Ã—768**.
 
 ### Pages
 
