@@ -1,0 +1,13 @@
+{
+  "Utc": "2026-10-20T00:47:54.3952896Z",
+  "PreservedNetworkFailureImage": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-network-recovery.qcow2",
+  "PreservedNetworkFailureSHA256": "5876555EA998F04CB6E1AD1ACE80E641F8A384F96BF424620C678DE5C6251402",
+  "NewOverlay": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-perf-recovery.qcow2",
+  "NewToolsVolume": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-io-perf.img",
+  "BackingChainReadOnly": true,
+  "PriorCloseMethod": "Explicit QEMU Quit after ACPI request did not complete; Windows clean shutdown unproven",
+  "QA27ProductExecutions": 0,
+  "SecurityPolicyChanges": 0,
+  "FrozenProductChanges": 0,
+  "OriginalVMOperations": 0
+}

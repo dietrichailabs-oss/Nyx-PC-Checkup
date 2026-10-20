@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-20T01:11:30.088Z",
+  "sourceStoppedDiskSHA256": "F834BC63F0771FDFB24FEE944C2CD8E1AEEFC8FA35FC0F81BDA1CAC8C1BC6494",
+  "method": "7-Zip read-only archive navigation of separate flattened copy, Copy only selected Windows setup/event files",
+  "files": [
+    {
+      "path": "UnattendGC/diagerr.xml",
+      "bytes": 16082,
+      "sha256": "7CA4E386523C1CEF7067BBEB6B9B6E658A761E3110B4485CA75DFFDE87202A24"
+    },
+    {
+      "path": "UnattendGC/diagwrn.xml",
+      "bytes": 20219,
+      "sha256": "D427404798E626D9B460C44BEEC4D6FBE1A008985BAEF608D4893CB39147E9A7"
+    },
+    {
+      "path": "UnattendGC/setupact.log",
+      "bytes": 207874,
+      "sha256": "73A2E53A4DA98FEDFF7F370C46749EAE3ED2231A562BBAA34E42BE3D983030DB"
+    },
+    {
+      "path": "UnattendGC/setuperr.log",
+      "bytes": 381,
+      "sha256": "4A1E4B3C60708961633342097377D67966103D575971748BF68E628B8A41129A"
+    },
+    {
+      "path": "Events/Application.evtx",
+      "bytes": 1118208,
+      "sha256": "88AA8B30DBEBB6D466436DDC9C563F744DBA513906F168270FE824FD7728FA3F"
+    }
+  ],
+  "rawBytesPreserved": true,
+  "guestLogTimeZone": "Unverified; setup log records normal automatic change to Pacific Standard Time; do not normalize using outer time zone",
+  "productExecutions": 0
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-20T00:45:36.771Z",
+  "recoveryNextActions": 1,
+  "outcome": "UNSUCCESSFUL_SAME_WINDOWS_WELCOME_ERROR_AFTER_RESTART",
+  "screen": "Why did my PC restart?",
+  "QA27Installs": 0,
+  "QA27Launches": 0,
+  "QA27Exports": 0,
+  "SaveCount": 0,
+  "ProductFailure": false,
+  "nextPermittedRepair": "New disposable recovery overlay with 4 emulated CPUs, multithread TCG and 3072 MB RAM; reduce severe startup delays, root cause still unproven",
+  "hostLogicalProcessors": 12,
+  "hostFreePhysicalMemoryKB": 3381868,
+  "securityPolicyChanges": 0,
+  "WindowsDisplayChanges": 0
+}

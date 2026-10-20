@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-20T00:43:31.188Z",
+  "sourceImage": "qa27-disposable.qcow2",
+  "sourceSHA256": "BDAFD07D5018507F1BA598EF6E70ECF53C373A09109A8FC43B09348CBBAE0799",
+  "sourceReadOnly": true,
+  "rawLogManifest": "os-setup-logs-preserved/MANIFEST.json",
+  "observed": [
+    "UnattendGC/setuperr.log: msoobe.exe COMMIT failed for LocalUser Plugin, hr=0x80070490",
+    "UnattendGC/setupact.log: system OOBE wizard and windeploy exit with 0x0, then UserOOBEController::Exit started [2], OOBE monitor timer expired for event 101",
+    "ProgramData/Microsoft/Windows/WER/ReportQueue contained zero entries in the preserved image"
+  ],
+  "interpretation": "OS welcome/setup problem before QA27; exact root cause not proven. Do not bypass OOBE or create accounts through a QA workaround.",
+  "guestLogTimeZoneVerified": false,
+  "normalNetworkRecoveryNextActions": 1,
+  "currentOutcome": "Windows restarting; result pending",
+  "QA27ProductExecutions": 0,
+  "QA27PASS": 0,
+  "QA27FAIL": 0
+}

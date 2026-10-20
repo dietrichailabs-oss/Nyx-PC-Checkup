@@ -1,0 +1,11 @@
+{
+  "Utc": "2026-10-20T01:13:03.3580408Z",
+  "Attempt": 8,
+  "State": "ABORTED_HIDDEN_WINDOW_NO_PRODUCT_EXECUTION",
+  "Process": 16764,
+  "Termination": "Stopped only identity-checked owned emulator; guest clean shutdown NOT claimed",
+  "Disk": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-resource-recovery.qcow2",
+  "SHA256": "0C8B4D029D04582CA8EB8646D0A37A7C1CD5394BC77BB8E31F148012371465E5",
+  "NoQA27InstallLaunchOrExport": true,
+  "Next": "New overlay from preserved VM07 flattened parent, visible interactive launch"
+}

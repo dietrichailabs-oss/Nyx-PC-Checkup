@@ -1,0 +1,2 @@
+﻿2026-10-19 19:19:19, Error      [0x060126] IBS    CallBack_ImageWasSelectedInUi: An error occurred while removing the MultiEdition key from the blackboard.[gle=0x00000490]
+2026-10-19 20:01:59, Error                 CBS    Failed to load Session:3036_66392656 [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]

@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-20T01:01:14.892Z",
+  "vmAttempt": 7,
+  "controlStatus": "WORKING",
+  "hardware": {
+    "emulatedCPUs": 4,
+    "ramMB": 3072,
+    "accelerator": "TCG multi-thread"
+  },
+  "previousRestartRecovery": "Reached region screen",
+  "actions": [
+    {
+      "name": "United States region Yes",
+      "count": 1
+    },
+    {
+      "name": "Visible OOBEKEYBOARD Skip",
+      "count": 1
+    }
+  ],
+  "currentStage": "Windows network setup spinner; no further input pending",
+  "productInstalls": 0,
+  "productLaunches": 0,
+  "pdfSaveActions": 0,
+  "qa27Pass": 0,
+  "qa27Fail": 0,
+  "directNativeSuite": "BLOCKED_ENVIRONMENT",
+  "lifecycleMigration": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE",
+  "securityChanges": false,
+  "windowsDisplayChanges": false,
+  "productBytesChanged": false,
+  "originalVmOperations": 0
+}

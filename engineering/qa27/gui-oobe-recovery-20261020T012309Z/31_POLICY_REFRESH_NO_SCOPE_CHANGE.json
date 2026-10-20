@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-20T01:22:56.708Z",
+  "issue18": {
+    "authoritativeClarification": 6278528488,
+    "lastCommentAtRefresh": 6280492875,
+    "comments": 4
+  },
+  "issue15": {
+    "dpiWaiver": 6277826979,
+    "lastCommentAtRefresh": 6277826979,
+    "comments": 127
+  },
+  "changesToApprovedScope": false,
+  "nativeDirectSuite": "BLOCKED_ENVIRONMENT",
+  "firstProductCase": "F-024-QA27-INSTALLED-GUI",
+  "guiRoute": "Normal exact installed shipped Setup and EXE only in disposable guest; no harness trampoline",
+  "noDpiWork": true,
+  "independentQaFinalApproval": true
+}

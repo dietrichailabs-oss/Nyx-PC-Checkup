@@ -1,0 +1,42 @@
+{
+  "copiedUtc": "2026-10-20T00:39:46.140Z",
+  "sourceImage": "qa27-disposable.qcow2",
+  "sourceImageSHA256": "BDAFD07D5018507F1BA598EF6E70ECF53C373A09109A8FC43B09348CBBAE0799",
+  "sourcePartition": "1.ntfs/Windows/Panther",
+  "method": "7-Zip archive viewer, browse and copy selected log files; source filesystem not mounted",
+  "rawBytesPreserved": true,
+  "guestLogTimeZoneVerified": false,
+  "QA27ProductExecutions": 0,
+  "files": [
+    {
+      "path": "setupact.log",
+      "bytes": 373973,
+      "sha256": "99407A116A9E3AFB80D64AD3A2E372F651F856CA4C5A2F9A48EBF13FFC4834DF"
+    },
+    {
+      "path": "setuperr.log",
+      "bytes": 310,
+      "sha256": "86AE4597761CCF9CC6325E18DF8D460D174617840574FC439430D33A1B81E14D"
+    },
+    {
+      "path": "UnattendGC/setupact.log",
+      "bytes": 65460,
+      "sha256": "55AFD9F0E034CEAF140709CD59550F6D8D89EAB270D285FB3635572112AE78CD"
+    },
+    {
+      "path": "UnattendGC/setuperr.log",
+      "bytes": 129,
+      "sha256": "3CCE0F60C03160896B159E4686874AB4DD36F2C2BE2DF4D089DEA7DACA7434F8"
+    },
+    {
+      "path": "UnattendGC/diagerr.xml",
+      "bytes": 7896,
+      "sha256": "1B6CAC5267AAEA079D0EE1A2DB893DB3D8D6D33C7111A98605EEE2DA3AF5B33E"
+    },
+    {
+      "path": "UnattendGC/diagwrn.xml",
+      "bytes": 8470,
+      "sha256": "7481EE90E014DB54959350210AA5BB4639D94B31C9382F71A3CD85194A7767A9"
+    }
+  ]
+}

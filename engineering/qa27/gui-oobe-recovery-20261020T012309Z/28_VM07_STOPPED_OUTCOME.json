@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-20T01:08:42.086Z",
+  "vmAttempt": 7,
+  "controlStatus": "WORKING",
+  "windowsSetupOutcome": "OOBELOCAL persists after one normal Try again",
+  "shutdown": {
+    "request": "QEMU Machine Power Down using popup-specific capture",
+    "processId": 19892,
+    "processExitedAfterRequest": true,
+    "noQuitOrForcedKillIssued": true,
+    "qcowDirty": false,
+    "qcowCorrupt": false,
+    "guestShutdownLogsNotYetInspected": true
+  },
+  "preservedDisk": "qa27-perf-recovery.qcow2",
+  "bytes": 2567634944,
+  "sha256": "F834BC63F0771FDFB24FEE944C2CD8E1AEEFC8FA35FC0F81BDA1CAC8C1BC6494",
+  "qa27Installs": 0,
+  "qa27Launches": 0,
+  "pdfSaveActions": 0,
+  "productPass": 0,
+  "productFail": 0,
+  "next": "Create separate flattened diagnostic copy of stopped backing chain; inspect logs read-only",
+  "securityChanges": false,
+  "frozenProductChanges": false
+}

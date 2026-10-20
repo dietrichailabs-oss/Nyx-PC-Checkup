@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-20T00:34:26.366Z",
+  "commit": "31d32e279f5d769a0691ccb3a2210a8b862b507f",
+  "tree": "0c7be900b0cff58111c31af608797699f98b3494",
+  "branch": "eng/f024-pdf-export-empty-lines",
+  "handoff": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/blob/31d32e279f5d769a0691ccb3a2210a8b862b507f/engineering/qa27/gui-control-recovery-20261020T003044Z/README.md",
+  "verification": {
+    "oldBlobCount": 575,
+    "newBlobCount": 79,
+    "totalBlobCount": 654,
+    "priorChanged": 0,
+    "newMismatch": 0,
+    "unexpectedPaths": 0,
+    "verified": true,
+    "newTree": "0c7be900b0cff58111c31af608797699f98b3494"
+  },
+  "issueComment": {
+    "id": 6280492875
+  },
+  "QA27RuntimePASS": 0,
+  "QA27RuntimeFAIL": 0
+}

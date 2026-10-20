@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-20T01:20:09.409Z",
+  "sourceStoppedDiskSHA256": "F834BC63F0771FDFB24FEE944C2CD8E1AEEFC8FA35FC0F81BDA1CAC8C1BC6494",
+  "flattenedDisk": {
+    "file": "qa27-vm07-diagnostic-flat.qcow2",
+    "bytes": 10903814144,
+    "sha256": "830F896A12A523AA6D125238E9C5DF1A2D9A580A81FBD9C4B4BA5D8FC7CB5595",
+    "conversion": "qemu-img convert -O qcow2",
+    "sourceModified": false,
+    "virtualSectorComparison": {
+      "exitCode": 0,
+      "result": "Images are identical."
+    },
+    "bootedDirectly": false,
+    "childOverlayOnly": true
+  },
+  "diagnostics": {
+    "localUserPluginHRESULT": "0x80070490",
+    "updateScanTimeoutSeconds": 240,
+    "abnormallySlowDiskWriteSeconds": 19,
+    "specificSetupApplicationCrashFound": false,
+    "rootCause": "NOT_PROVEN"
+  },
+  "newResourceConfiguration": {
+    "memoryMB": 4096,
+    "CPUs": 4,
+    "sockets": 1,
+    "cores": 4,
+    "threads": 1,
+    "TCGTranslationCacheMB": 512,
+    "cpuModel": "qemu64 unchanged"
+  },
+  "productExecutions": 0,
+  "productFailure": false,
+  "securityChanges": false,
+  "displayChanges": false
+}

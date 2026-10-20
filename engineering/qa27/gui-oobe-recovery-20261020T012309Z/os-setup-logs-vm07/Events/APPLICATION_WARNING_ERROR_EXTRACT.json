@@ -1,0 +1,50 @@
+{
+  "Utc": "2026-10-20T01:16:25.7509106Z",
+  "Scope": "Read-only Windows provisioning diagnostics, no product execution",
+  "SourceSHA256": "88AA8B30DBEBB6D466436DDC9C563F744DBA513906F168270FE824FD7728FA3F",
+  "ClockQualification": "Raw guest timestamps retained; do not correlate using outer time zone",
+  "Events": [
+    {
+      "Id": 10023,
+      "Provider": "Microsoft-Windows-Search",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Search' Guid='{CA4E628D-8567-4896-AB6B-835B221F373F}' EventSourceName='Windows Search Service'/><EventID Qualifiers='32768'>10023</EventID><Version>0</Version><Level>3</Level><Task>3</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T00:59:14.3056210Z'/><EventRecordID>134</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>Application</Channel><Computer>DESKTOP-68RFC2T</Computer><Security/></System><EventData><Data Name='ExtraInfo'>\n</Data><Data Name='ProtocolHostProcessID'>2340</Data><Data Name='FilterHostProcessID'>188</Data></EventData></Event>",
+      "Message": "The protocol host process 2340 did not respond and is being forcibly terminated {filter host process 188}. \n"
+    },
+    {
+      "Id": 8198,
+      "Provider": "Microsoft-Windows-Security-SPP",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Security-SPP' Guid='{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}' EventSourceName='Software Protection Platform Service'/><EventID Qualifiers='49152'>8198</EventID><Version>0</Version><Level>2</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:14:12.7580531Z'/><EventRecordID>65</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>Application</Channel><Computer>DESKTOP-43HI9J2</Computer><Security/></System><EventData><Data>hr=0x8007139F</Data><Data>RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=aff25f1f-fb53-4e27-95ef-b8e5aca10ac6;NotificationInterval=1440;Trigger=TimerEvent</Data></EventData></Event>",
+      "Message": "License Activation (slui.exe) failed with the following error code:\r\nhr=0x8007139F\r\nCommand-line arguments:\r\nRuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=aff25f1f-fb53-4e27-95ef-b8e5aca10ac6;NotificationInterval=1440;Trigger=TimerEvent"
+    },
+    {
+      "Id": 1008,
+      "Provider": "Microsoft-Windows-Search",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Search' Guid='{CA4E628D-8567-4896-AB6B-835B221F373F}' EventSourceName='Windows Search Service'/><EventID Qualifiers='32768'>1008</EventID><Version>0</Version><Level>3</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:06:58.8682789Z'/><EventRecordID>48</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>Application</Channel><Computer>DESKTOP-43HI9J2</Computer><Security/></System><EventData><Data Name='ExtraInfo'>\n</Data><Data Name='Reason'>Full Index Reset</Data></EventData></Event>",
+      "Message": "The Windows Search Service is starting up and attempting to remove the old search index {Reason: Full Index Reset}. \n"
+    },
+    {
+      "Id": 508,
+      "Provider": "ESENT",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='ESENT'/><EventID Qualifiers='0'>508</EventID><Version>0</Version><Level>3</Level><Task>7</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:05:02.8050205Z'/><EventRecordID>43</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>Application</Channel><Computer>DESKTOP-43HI9J2</Computer><Security/></System><EventData><Data>Catalog Database</Data><Data>1136,D,0</Data><Data>Catalog Database: </Data><Data>C:\\Windows\\system32\\CatRoot2\\edb.chk</Data><Data>0 (0x0000000000000000)</Data><Data>4096 (0x00001000)</Data><Data>19</Data></EventData></Event>",
+      "Message": "Catalog Database (1136,D,0) Catalog Database: A request to write to the file \"C:\\Windows\\system32\\CatRoot2\\edb.chk\" at offset 0 (0x0000000000000000) for 4096 (0x00001000) bytes succeeded, but took an abnormally long time (19 seconds) to be serviced by the OS. This problem is likely due to faulty hardware. Please contact your hardware vendor for further assistance diagnosing the problem."
+    },
+    {
+      "Id": 257,
+      "Provider": "Microsoft-Windows-CAPI2",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-CAPI2' Guid='{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}' EventSourceName='Microsoft-Windows-CAPI2'/><EventID Qualifiers='0'>257</EventID><Version>0</Version><Level>2</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x8080000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:03:52.1962232Z'/><EventRecordID>38</EventRecordID><Correlation/><Execution ProcessID='1136' ThreadID='1152'/><Channel>Application</Channel><Computer>DESKTOP-43HI9J2</Computer><Security/></System><EventData><Data>-1409</Data></EventData></Event>",
+      "Message": "The Cryptographic Services service failed to initialize the Catalog Database. The ESENT error was: -1409."
+    },
+    {
+      "Id": 16,
+      "Provider": "SecurityCenter",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='SecurityCenter'/><EventID Qualifiers='49152'>16</EventID><Version>0</Version><Level>2</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T02:57:38.4163397Z'/><EventRecordID>31</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>Application</Channel><Computer>WIN-T9G9FEEBN2U</Computer><Security/></System><EventData><Data>Windows Defender</Data><Data>SECURITY_PRODUCT_STATE_ON</Data><Binary>02000000</Binary></EventData></Event>",
+      "Message": "Error while updating Windows Defender status to SECURITY_PRODUCT_STATE_ON."
+    },
+    {
+      "Id": 1017,
+      "Provider": "Microsoft-Windows-Security-SPP",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Security-SPP' Guid='{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}' EventSourceName='Software Protection Platform Service'/><EventID Qualifiers='32768'>1017</EventID><Version>0</Version><Level>2</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T02:52:09.3064371Z'/><EventRecordID>23</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>Application</Channel><Computer>WIN-T9G9FEEBN2U</Computer><Security/></System><EventData><Data>0xC004E016</Data><Data>6JHWR</Data><Data>?</Data><Data>?</Data></EventData></Event>",
+      "Message": "Installation of the Proof of Purchase failed. 0xC004E016\r\nPartial Pkey=6JHWR\r\nACID=?\r\nDetailed Error[?]\r\n"
+    }
+  ]
+}
