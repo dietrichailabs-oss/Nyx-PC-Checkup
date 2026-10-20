@@ -1,0 +1,8 @@
+{
+  "Utc": "2026-10-19T22:46:58.012Z",
+  "PID": 9684,
+  "Observed": "CPU progressed and window responded, but remained black before Windows setup. Optional QMP named-pipe query returned running; reconnect returned EBUSY. Cause not established.",
+  "ProductInstalled": false,
+  "ProductTestsExecuted": 0,
+  "Next": "Remove optional QMP transport and USB3 controller; keep Computer Use and conventional legacy software-emulated hardware only."
+}

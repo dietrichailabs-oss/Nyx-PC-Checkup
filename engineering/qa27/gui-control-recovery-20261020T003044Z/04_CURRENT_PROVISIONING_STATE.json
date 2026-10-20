@@ -1,0 +1,22 @@
+{
+  "Utc": "2026-10-19T22:49:04.867Z",
+  "CurrentEmulatorPID": 18976,
+  "CurrentLaunchFile": "C:/Users/Nyx/Documents/ChatGPT/Nyx Pc Cleanup/qa27-f024/.tools/isolated-vm/VM_LAUNCH_03.json",
+  "CurrentWindow": {
+    "app": "process:C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qemu\\qemu-system-x86_64w.exe",
+    "id": 3015234,
+    "title": "QEMU (QA27-F024-Disposable-0)"
+  },
+  "CurrentPhase": "Windows OS installation media boot; no installer dialog yet",
+  "CurrentConfiguration": "pc/qemu64/one core/single-thread TCG/2048MiB/legacy USB/offline/no QMP",
+  "Disk": "C:/Users/Nyx/Documents/ChatGPT/Nyx Pc Cleanup/qa27-f024/.tools/isolated-vm/qa27-disposable.qcow2",
+  "IO": "C:/Users/Nyx/Documents/ChatGPT/Nyx Pc Cleanup/qa27-f024/.tools/isolated-vm/qa27-io.img",
+  "PreservedHostGuest": "DESKTOP-4D83OSL AppSetup068A8DC7-F5E1-4E0E-A941-E0A3955E5A29, contains QA26; never install QA27 there",
+  "ProductInstalled": false,
+  "ProductTestsExecuted": 0,
+  "SaveCount": 0,
+  "NativeSuite": "BLOCKED_ENVIRONMENT; do not repeat or use alternate engine/bypass",
+  "FirstProductCase": "F-024 installed-GUI integration; exact installed hash verification before shipped EXE launch",
+  "Next": "Continue normal OS setup through Computer Use; do not automate authentication/UAC/security/privacy dialogs. No display changes. Do not restart while boot is making progress.",
+  "CaptureCount": 4
+}

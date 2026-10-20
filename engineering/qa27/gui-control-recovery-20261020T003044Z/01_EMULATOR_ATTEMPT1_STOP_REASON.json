@@ -1,0 +1,9 @@
+{
+  "Utc": "2026-10-19T22:44:46.529Z",
+  "PID": 11772,
+  "Observation": "QEMU UI not responding and CPU time remained32.109375 seconds in consecutive observations; Windows setup UI never appeared.",
+  "ProductInstalled": false,
+  "ProductTestsExecuted": 0,
+  "ProductFailure": false,
+  "Next": "Stop only newly created emulator and restart conservative software CPU configuration. No original VM or QA26 operations."
+}

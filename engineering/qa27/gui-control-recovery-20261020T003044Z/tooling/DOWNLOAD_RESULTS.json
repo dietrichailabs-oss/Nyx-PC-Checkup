@@ -1,0 +1,38 @@
+[
+  {
+    "file": "windows10-ltsc-eval-x64.iso",
+    "url": "https://software-static.download.prss.microsoft.com/db/download/444969d5-f34g-4e03-ac9d-1f9786c69161/19044.1288.211006-0501.21h2_release_svc_refresh_CLIENT_LTSC_EVAL_x64FRE_en-us.iso",
+    "bytes": 4898582528,
+    "sha256": "E4AB2E3535BE5748252A8D5D57539A6E59BE8D6726345EE10E7AFD2CB89FEFB5",
+    "expected": "E4AB2E3535BE5748252A8D5D57539A6E59BE8D6726345EE10E7AFD2CB89FEFB5",
+    "verified": true,
+    "elapsedSeconds": 379.6600203514099
+  },
+  {
+    "file": "qemu-w64-setup-20260811.exe",
+    "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-20260811.exe",
+    "bytes": 206615928,
+    "sha512": "5BCF9EED634E8575A37B74F445AF41A2FE4106DA512D0C30C368301D4C105037FDFAB40A5287367A28A957624CDDEBBC8C07E16C88AB6634F554CDF3D16BF543",
+    "expected": "5bcf9eed634e8575a37b74f445af41a2fe4106da512d0c30c368301d4c105037fdfab40a5287367a28a957624cddebbc8c07e16c88ab6634f554cdf3d16bf543",
+    "verified": true,
+    "elapsedSeconds": 4.830265760421753
+  },
+  {
+    "file": "7zr.exe",
+    "url": "https://github.com/ip7z/7zip/releases/download/26.04/7zr.exe",
+    "bytes": 602624,
+    "sha256": "256FECA8E274E5DA655E2A284FABAFD9F554365EB164862089DACD4E8276D282",
+    "expected": null,
+    "verified": false,
+    "elapsedSeconds": 1.7685649394989014
+  },
+  {
+    "file": "7z2604-extra.7z",
+    "url": "https://github.com/ip7z/7zip/releases/download/26.04/7z2604-extra.7z",
+    "bytes": 1764616,
+    "sha256": "DC4B11D3399DB18B063630137145F5585D8F7AC847BF3639BD1185D7D1F7CEE0",
+    "expected": null,
+    "verified": false,
+    "elapsedSeconds": 2.1439876556396484
+  }
+]

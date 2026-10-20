@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-20T00:18:04.632Z",
+  "reason": "Windows welcome setup cannot finish and requests ordinary online update recovery; currently no guest NIC",
+  "plannedChange": "New QEMU disposable guest only: -nic none to -nic user,model=e1000",
+  "networkBackend": "QEMU built-in non-privileged user-mode NAT",
+  "documentation": "https://www.qemu.org/docs/master/system/devices/net.html",
+  "hostNetworkDriverInstall": false,
+  "hostSecurityPolicyChange": false,
+  "firewallException": false,
+  "VPNChange": false,
+  "hostShares": false,
+  "inboundPortForwarding": false,
+  "PowerShellPolicyChange": false,
+  "registryOrOobeBypass": false,
+  "productBytesChange": false,
+  "QA27Installed": false,
+  "QA27ProductExecutions": 0,
+  "shutdownMethod": "Normal QEMU Machine > Power Down (ACPI), then relaunch same disposable disk"
+}

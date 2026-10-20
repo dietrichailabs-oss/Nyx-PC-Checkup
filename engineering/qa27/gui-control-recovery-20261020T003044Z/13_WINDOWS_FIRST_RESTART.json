@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-19T23:48:09.694Z",
+  "event": "Windows Setup completed offline file/features/update stages and restarted the disposable guest",
+  "screen": "SeaBIOS boot from DVD/CD; Press any key to boot from CD or DVD",
+  "inputSentToBootPrompt": false,
+  "expectedNext": "Automatic fallback to newly installed disposable hard disk",
+  "OSFirstBootCompleted": false,
+  "QA27Installed": false,
+  "QA27ProductExecutions": 0,
+  "SaveCount": 0,
+  "originalVMOperations": 0
+}

@@ -1,0 +1,36 @@
+{
+  "Utc": "2026-10-19T22:43:20.672Z",
+  "Files": [
+    {
+      "name": "7zr.exe",
+      "bytes": 602624,
+      "SHA256": "256FECA8E274E5DA655E2A284FABAFD9F554365EB164862089DACD4E8276D282"
+    },
+    {
+      "name": "7z2604-extra.7z",
+      "bytes": 1764616,
+      "SHA256": "DC4B11D3399DB18B063630137145F5585D8F7AC847BF3639BD1185D7D1F7CEE0"
+    },
+    {
+      "name": "7z2604-x64.exe",
+      "bytes": 1664082,
+      "SHA256": "D54BF805F9F3704D1E8DB2FA3498AE7EF2DF0312B40B558E7C71C734430A665D"
+    },
+    {
+      "name": "VerifyInstalledQA27.exe",
+      "bytes": 26624,
+      "SHA256": "171251601737CB242F43DA76604608E8A87911C51CB0F0D8366236D37A7EB451"
+    },
+    {
+      "name": "CollectQA27Evidence.exe",
+      "bytes": 9728,
+      "SHA256": "9BBEBBF7C0B225ED2281844E2801EEA8C394705DCCDE9BBCBAC3DEF94BDDD2D8"
+    },
+    {
+      "name": "qa27-io.img",
+      "bytes": 67108864,
+      "SHA256": "FFFEDEF332749ABDB4B401CB4A2F6B38AC66D36DB5D4D993AE2774790014FC8D"
+    }
+  ],
+  "Note": "7zip release assets matched official ip7z/7zip26.04 GitHub release SHA256 digests. Helpers built with existing Microsoft .NET Framework csc; no PS script/module import or product launch. IO image hash is an initial snapshot; its contents will receive new evidence."
+}

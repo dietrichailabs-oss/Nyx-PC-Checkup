@@ -1,0 +1,13 @@
+{
+  "Utc": "2026-10-19T23:00:49.778Z",
+  "Window": {
+    "app": "process:C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qemu\\qemu-system-x86_64w.exe",
+    "id": 721810,
+    "title": "QEMU (QA27-F024-Disposable)"
+  },
+  "Error": "user input was detected in this window; call get_window_state before continuing",
+  "Occurrences": 2,
+  "ReobservedBetweenAttempts": true,
+  "ProductTestsExecuted": 0,
+  "Next": "Refresh the Computer Use JavaScript session and reselect the current returned window; no OS/security/product change."
+}

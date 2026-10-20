@@ -1,0 +1,469 @@
+{
+  "snapshotUtc": "2026-10-20T00:30:44Z",
+  "selfExcludedFiles": [
+    "MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": "00_PROVISIONING_STARTED.json",
+      "bytes": 2323,
+      "sha256": "8D3E956C19556403F4653EC60F8ABD38F1982B21799E3B16C0391D12BB97AA98",
+      "sourceModifiedUtc": "2026-10-19T22:39:24.109Z"
+    },
+    {
+      "path": "001-os-boot.png",
+      "bytes": 65554,
+      "sha256": "CC58DE821219A29C48651DEBF75E0A2F122C92D5C6DD285D8E316B71B6EDCE5C",
+      "sourceModifiedUtc": "2026-10-19T22:42:29.838Z"
+    },
+    {
+      "path": "002-emulator-attempt1-stalled-before-os-setup.png",
+      "bytes": 64268,
+      "sha256": "2B007384C4D2C4166C63563F177C2033E26447F938B9BBB0E2E7CE9A206526DC",
+      "sourceModifiedUtc": "2026-10-19T22:44:46.528Z"
+    },
+    {
+      "path": "003-os-boot-attempt2.png",
+      "bytes": 36394,
+      "sha256": "04CC3111D1275F8911C0038F1E61C397D01F9CBA565B054BEEB746A9A785E628",
+      "sourceModifiedUtc": "2026-10-19T22:45:06.596Z"
+    },
+    {
+      "path": "004-attempt2-no-setup-ui.png",
+      "bytes": 64372,
+      "sha256": "7715F0B835F8BDEB43F6567C3BEC93439968CAAC38095B2A6C9737EEEA9024F3",
+      "sourceModifiedUtc": "2026-10-19T22:46:58.011Z"
+    },
+    {
+      "path": "005-windows-setup-language-defaults.png",
+      "bytes": 134933,
+      "sha256": "ACC94CC02A6B3B4A84A0C46A01E52788250A1022634AC4BFD0FD54F54B977EF8",
+      "sourceModifiedUtc": "2026-10-19T22:49:51.810Z"
+    },
+    {
+      "path": "006-sdl-input-capture-not-qualified.png",
+      "bytes": 138163,
+      "sha256": "12E422C8823C410FFB5450B325D894BE1EDF94153B4408EFDA1B5F4C21C03E43",
+      "sourceModifiedUtc": "2026-10-19T22:52:48.657Z"
+    },
+    {
+      "path": "007-gtk-windows-setup-ready.png",
+      "bytes": 47400,
+      "sha256": "01DD71768B2CC451AAEF4A53D9AC10439DD48DC0DAF6842EEE0BD6001ED936BD",
+      "sourceModifiedUtc": "2026-10-19T22:55:44.722Z"
+    },
+    {
+      "path": "008-recovered-gtk-windows-boot.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:14:33.037Z"
+    },
+    {
+      "path": "009-guest-install-now-accepted.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:17:25.882Z"
+    },
+    {
+      "path": "01_EMULATOR_ATTEMPT1_STOP_REASON.json",
+      "bytes": 419,
+      "sha256": "E45F9C47FE64FED867330286A2A428777148FA82472AB4A95B7DC07865BFE98B",
+      "sourceModifiedUtc": "2026-10-19T22:44:46.530Z"
+    },
+    {
+      "path": "010-new-48gb-unallocated-install-target.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:20:20.058Z"
+    },
+    {
+      "path": "011-windows-files-preparation.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:22:09.050Z"
+    },
+    {
+      "path": "012-windows-final-file-preparation-97.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:40:13.627Z"
+    },
+    {
+      "path": "013-windows-files-and-features-complete.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:43:29.739Z"
+    },
+    {
+      "path": "014-windows-updates-complete-finishing.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:46:58.613Z"
+    },
+    {
+      "path": "015-windows-first-restart-no-cd-key.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:48:09.692Z"
+    },
+    {
+      "path": "016-windows-devices-ready-100.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-19T23:52:21.538Z"
+    },
+    {
+      "path": "017-windows-second-automatic-restart.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-20T00:02:44.827Z"
+    },
+    {
+      "path": "018-windows-welcome-setup-loading.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-20T00:05:42.771Z"
+    },
+    {
+      "path": "019-windows-oobe-recovery-environment-failure.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-20T00:17:42.999Z"
+    },
+    {
+      "path": "02_EMULATOR_ATTEMPT2_CHANGE.json",
+      "bytes": 444,
+      "sha256": "6DDC0B27F62DAB335ED4405656142F481366130CB02F89696A82417F62F58E39",
+      "sourceModifiedUtc": "2026-10-19T22:46:58.013Z"
+    },
+    {
+      "path": "020-qemu-console-fit-complete-recovery-page.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D",
+      "sourceModifiedUtc": "2026-10-20T00:27:30.463Z"
+    },
+    {
+      "path": "03_ATTEMPT2_OBSERVATION_CORRECTION.json",
+      "bytes": 547,
+      "sha256": "8490B7399D4986312857317736C76AA3A296BA12E25C1081223667E40FC92238",
+      "sourceModifiedUtc": "2026-10-19T22:47:12.768Z"
+    },
+    {
+      "path": "04_CURRENT_PROVISIONING_STATE.json",
+      "bytes": 1422,
+      "sha256": "A27C4A1529BF273CA80658B14E06995912A28B1AE3296BD510C1AF796B63D76A",
+      "sourceModifiedUtc": "2026-10-19T22:49:04.869Z"
+    },
+    {
+      "path": "05_SDL_CONTROL_ROUTE.json",
+      "bytes": 552,
+      "sha256": "E8CEF98920B82AFD8795696DC206C7C459AB1C49E325028D04B7416EC75FF96E",
+      "sourceModifiedUtc": "2026-10-19T22:52:48.659Z"
+    },
+    {
+      "path": "06_INPUT_GUARD.json",
+      "bytes": 566,
+      "sha256": "A9A089D7BB9573625AE635388BE062CC2B207AFE42DB60E79D8648C3AD6377C9",
+      "sourceModifiedUtc": "2026-10-19T23:00:49.780Z"
+    },
+    {
+      "path": "07_SANDBOX_ROUTE_CHECK.json",
+      "bytes": 830,
+      "sha256": "02FCD6940A6FCAB2267C3A3814C32F61C49DB3865C74A9ECFE4BAE064C7A9E83",
+      "sourceModifiedUtc": "2026-10-19T23:02:56.693Z"
+    },
+    {
+      "path": "08_CONTROL_RECOVERY.json",
+      "bytes": 599,
+      "sha256": "D4463D79C78936B61ECF1CFE7BE523F89F71081485CA0EA4920D102260768C63",
+      "sourceModifiedUtc": "2026-10-19T23:14:33.040Z"
+    },
+    {
+      "path": "09_GUEST_CONTROL_PROGRESS.json",
+      "bytes": 754,
+      "sha256": "9D15828766827F86F5F519216921C5E2C06A0001466C7A08D99BB3D732A2655F",
+      "sourceModifiedUtc": "2026-10-19T23:17:25.883Z"
+    },
+    {
+      "path": "10_WINDOWS_INSTALL_TARGET.json",
+      "bytes": 294,
+      "sha256": "DA77F024CCA6E6B9469AD9D11C31CD9E442D510BD95FEC19DCD688D5AE2C8E21",
+      "sourceModifiedUtc": "2026-10-19T23:20:20.062Z"
+    },
+    {
+      "path": "11_ELIGIBILITY_RECONCILIATION.json",
+      "bytes": 1219,
+      "sha256": "34F101DCE7D1264CFC0B4E258832C94ACF65BD0FEADD6C483F2568FABFF9AB04",
+      "sourceModifiedUtc": "2026-10-19T23:22:09.052Z"
+    },
+    {
+      "path": "12_FROZEN_ARTIFACTS_PREFLIGHT.json",
+      "bytes": 12154,
+      "sha256": "99053FA140A6A2B869CA703BC84DDA50053126548456A362ED52E365338483AC",
+      "sourceModifiedUtc": "2026-10-19T23:28:25.476Z"
+    },
+    {
+      "path": "13_WINDOWS_FIRST_RESTART.json",
+      "bytes": 476,
+      "sha256": "7ABD69722C9EDC7F069993A814E59C61A9D66C5F07CF34E93C4C7B1CCB9FB32C",
+      "sourceModifiedUtc": "2026-10-19T23:48:09.694Z"
+    },
+    {
+      "path": "14_POLICY_REFRESH.json",
+      "bytes": 589,
+      "sha256": "BB90689EE45D1C2CE58EC4A9C01F80B4F929EF7EFF158915F44B801C6EF92FA0",
+      "sourceModifiedUtc": "2026-10-19T23:52:41.052Z"
+    },
+    {
+      "path": "15_GUI_EXECUTION_PLAN.json",
+      "bytes": 2151,
+      "sha256": "E6F2D909517159ABE4914CA0024D531138119DF2947A8B4DB7C29D1EE1E02979",
+      "sourceModifiedUtc": "2026-10-19T23:56:21.254Z"
+    },
+    {
+      "path": "16_WINDOWS_OOBE_RECOVERY.json",
+      "bytes": 709,
+      "sha256": "9994CFE06F70667E9A70FB315B8BB24856BD120EDC4BBB1B9D69624C9FD608BB",
+      "sourceModifiedUtc": "2026-10-20T00:17:43.000Z"
+    },
+    {
+      "path": "17_NORMAL_NETWORK_RECOVERY_PLAN.json",
+      "bytes": 830,
+      "sha256": "71A95B3B6CF45F9F9D27BDAEE712CC05C920791FDD49CEC671D30EC6311C14C6",
+      "sourceModifiedUtc": "2026-10-20T00:18:04.634Z"
+    },
+    {
+      "path": "18_PRESERVED_TOOLS_VOLUME_PREFLIGHT.json",
+      "bytes": 1641,
+      "sha256": "59CE7FE6786FA2AC733AD23379D5F92B433D3B10267D8CB6CF505D09D37509CB",
+      "sourceModifiedUtc": "2026-10-20T00:19:36.405Z"
+    },
+    {
+      "path": "19_RECOVERY_TOOLS_VOLUME_PREFLIGHT.json",
+      "bytes": 1649,
+      "sha256": "035EC532A9C2877D3904032283678CD12D3C06CF42E1E5E1F30B154D6FCD4AB9",
+      "sourceModifiedUtc": "2026-10-20T00:20:26.514Z"
+    },
+    {
+      "path": "20_RECOVERY_CHECKPOINT.json",
+      "bytes": 1085,
+      "sha256": "4B1B94A82E8FDF918747D35373784ED6E3B8D8E9CC40EE1832292E603E0236C6",
+      "sourceModifiedUtc": "2026-10-20T00:19:24.598Z"
+    },
+    {
+      "path": "21_CONSOLE_VIEW_RECOVERY.json",
+      "bytes": 502,
+      "sha256": "5004B8D6BA096FB7B1E3A13B4A0EF7A4BEB6BE120159A9A227F84DCF71798954",
+      "sourceModifiedUtc": "2026-10-20T00:27:30.465Z"
+    },
+    {
+      "path": "CAPTURE_PROVENANCE.jsonl",
+      "bytes": 11017,
+      "sha256": "75509E298F7BCCCF53BC11C6B79D46DBA844BDBD6A59C635589C38C1D015C53F",
+      "sourceModifiedUtc": "2026-10-20T00:27:30.464Z"
+    },
+    {
+      "path": "CONTROL_RECOVERY_NOTES.jsonl",
+      "bytes": 1981,
+      "sha256": "F2C792AE8D8BCD15162808A57185668570D4D7DAC8A6F85CCEBBDA1C0474A092",
+      "sourceModifiedUtc": "2026-10-20T00:26:33.453Z"
+    },
+    {
+      "path": "EXECUTION_LEDGER.jsonl",
+      "bytes": 153,
+      "sha256": "807AF8D53E42871BB01814F7935AD53FB648D5212FA9EFC0D00694457ADFA1D4",
+      "sourceModifiedUtc": "2026-10-19T22:39:24.109Z"
+    },
+    {
+      "path": "os-recovery-raw/MANIFEST.json",
+      "bytes": 563,
+      "sha256": "72B314220412C272AA29B635A590CAC3DF5259D2F140335C73C50805B3B28BEF",
+      "sourceModifiedUtc": "2026-10-20T00:20:01.617Z"
+    },
+    {
+      "path": "os-recovery-raw/Recovery.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-20T00:20:01.611Z"
+    },
+    {
+      "path": "os-recovery-raw/Recovery/Logs/BootUX (1).sqml",
+      "bytes": 72,
+      "sha256": "F71B54329C966DF8799B680FA5A9754186F664D35D5E497ECB25E6B2F44BE260",
+      "sourceModifiedUtc": "2026-10-20T00:20:01.614Z"
+    },
+    {
+      "path": "os-recovery-raw/Recovery/Logs/Reload.xml",
+      "bytes": 1285,
+      "sha256": "8E8CA7D222FF61A7AB212597CE5AC2823C4A53236C1914C8F8AD6028871B88EA",
+      "sourceModifiedUtc": "2026-10-20T00:20:01.613Z"
+    },
+    {
+      "path": "OUTCOME.json",
+      "bytes": 811,
+      "sha256": "C5FE92ACF0CFF48B84CC4BB4ACDBF802E3D792C678BDCA931B85860C4743B374"
+    },
+    {
+      "path": "PROVISIONING_PROGRESS.jsonl",
+      "bytes": 2524,
+      "sha256": "5C840CC68D5AE9393C16451E6E3A86EB205098CA0F644811E661A205564CA344",
+      "sourceModifiedUtc": "2026-10-20T00:27:30.467Z"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6054,
+      "sha256": "7B4D85E1221280EA5DCAA78D34E9D1891ED5F9D4238AB730581D0994C9D8A714"
+    },
+    {
+      "path": "tooling/ADDITIONAL_TOOL_HASHES.json",
+      "bytes": 1251,
+      "sha256": "B4C01FFC9825BCA71EC22E365C97B6662D08E9F8A886BF25DA9CE5C60BAE8C61",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.674Z"
+    },
+    {
+      "path": "tooling/collect_windows_recovery.py",
+      "bytes": 1369,
+      "sha256": "9CB802868B8D57622EF4D5C566B8D88A15B3CE93CA051B650811CC245A62E2D3",
+      "sourceModifiedUtc": "2026-10-20T00:20:00.754Z"
+    },
+    {
+      "path": "tooling/CollectQA27Evidence.cs",
+      "bytes": 2989,
+      "sha256": "154C037786B6AE32FA227386D4AC4350322FC1CB89E633F727D2F026D639D28F",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.585Z"
+    },
+    {
+      "path": "tooling/DOWNLOAD_RESULTS.json",
+      "bytes": 1653,
+      "sha256": "AFDB38B008522366D4898F0EA78117371576034B983ADEA75EFD8613C7B8FDB6",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.566Z"
+    },
+    {
+      "path": "tooling/fetch_tools.py",
+      "bytes": 2372,
+      "sha256": "53ACA5847D4FD0B0F67B3C8498452B430FAE5F874A3C9CC1176A7600C7CF2627",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.588Z"
+    },
+    {
+      "path": "tooling/inspect_gui_pdf.py",
+      "bytes": 5101,
+      "sha256": "D9685032188011DB74AA5B86263961F4868B70C2F293B5AFD58ED433CEB538AB",
+      "sourceModifiedUtc": "2026-10-19T23:23:51.374Z"
+    },
+    {
+      "path": "tooling/inspect_tools_volume.py",
+      "bytes": 1675,
+      "sha256": "FE5D20607C6104C32BC3F4C2311420E6BE78EF0905EBDBFC391D7A4A766EF321",
+      "sourceModifiedUtc": "2026-10-20T00:19:35.335Z"
+    },
+    {
+      "path": "tooling/MICROSOFT_HASH_DOCUMENT_SHA256.json",
+      "bytes": 379,
+      "sha256": "44B316478106FEEBD358529C12CA3C476972B9C4D6AD9C16ADE8EF9078BBC7A1",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.570Z"
+    },
+    {
+      "path": "tooling/prepare_vm_media.py",
+      "bytes": 1482,
+      "sha256": "4A2967E55A05C1A5CB3F42537F149942CCB19442AD8E50C56D4A262F50217E6B",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.590Z"
+    },
+    {
+      "path": "tooling/VerifyInstalledQA27.cs",
+      "bytes": 12454,
+      "sha256": "C39568878B7A638DE8CB615CA9157CE15D29A39DE123CD93F3A094D78DD191A4",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.582Z"
+    },
+    {
+      "path": "tooling/VM_LAUNCH_02.json",
+      "bytes": 1605,
+      "sha256": "3F97D5664E7EEA17E1709D1FC123ED10597BF2747C626C19C26AA6DEC504EC03",
+      "sourceModifiedUtc": "2026-10-19T22:44:47.164Z"
+    },
+    {
+      "path": "tooling/VM_LAUNCH_03.json",
+      "bytes": 1503,
+      "sha256": "A8BD7B46DCA69153628683A68E6068F920433F33AD9F53D1408943A9733B4BBC",
+      "sourceModifiedUtc": "2026-10-19T22:46:58.642Z"
+    },
+    {
+      "path": "tooling/VM_LAUNCH_04.json",
+      "bytes": 1528,
+      "sha256": "02705478AC9BC5971002CE4832368779B7FE144C1BB119D4A1454D441C382D35",
+      "sourceModifiedUtc": "2026-10-19T22:52:49.221Z"
+    },
+    {
+      "path": "tooling/VM_LAUNCH_05.json",
+      "bytes": 1623,
+      "sha256": "C090CFDD2572F2089862FD2E9F0006403A923B7E1A4E030537AAF7567D2EA8F2",
+      "sourceModifiedUtc": "2026-10-19T23:12:33.350Z"
+    },
+    {
+      "path": "tooling/VM_LAUNCH_06.json",
+      "bytes": 1896,
+      "sha256": "49CC0E0DD318EB97512461D5A6D7B0F854EA553CC09B92510C30866E7E4DE6ED",
+      "sourceModifiedUtc": "2026-10-20T00:21:03.112Z"
+    },
+    {
+      "path": "tooling/VM_LAUNCH.json",
+      "bytes": 1426,
+      "sha256": "609F9E71C6D6B3B3369D3FF9AF662FFCE3580EC53686FFEEC0E69AC5B250113A",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.580Z"
+    },
+    {
+      "path": "tooling/VM_MEDIA_MANIFEST.json",
+      "bytes": 1111,
+      "sha256": "0F00BFB957EFB07C51048AB3D91A782147728C9CDC99C205AFDFAD75E48770D0",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.579Z"
+    },
+    {
+      "path": "tooling/VM04_GUEST_ERRORS.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-19T22:52:49.242Z"
+    },
+    {
+      "path": "tooling/VM04_STDERR.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-19T22:52:49.187Z"
+    },
+    {
+      "path": "tooling/VM04_STDOUT.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-19T22:52:49.183Z"
+    },
+    {
+      "path": "tooling/VM05_GUEST_ERRORS.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-19T23:12:33.412Z"
+    },
+    {
+      "path": "tooling/VM05_STDERR.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-19T23:12:33.327Z"
+    },
+    {
+      "path": "tooling/VM05_STDOUT.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-19T23:12:33.326Z"
+    },
+    {
+      "path": "tooling/WHPX_PROBE_STDERR.txt",
+      "bytes": 327,
+      "sha256": "5C515CF6107666257F28D3F02FA1A82C22251EAA90C1FDDC71451EE3431710A7",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.592Z"
+    },
+    {
+      "path": "tooling/WHPX_PROBE_STDOUT.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "sourceModifiedUtc": "2026-10-19T22:43:20.591Z"
+    }
+  ]
+}

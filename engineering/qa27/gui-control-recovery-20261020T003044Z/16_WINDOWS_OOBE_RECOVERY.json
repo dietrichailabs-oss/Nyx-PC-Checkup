@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-20T00:17:43.000Z",
+  "phase": "WINDOWS_WELCOME_SETUP",
+  "status": "ENVIRONMENT_PROVISIONING_FAILURE_BEFORE_QA27",
+  "screenTitle": "Why did my PC restart?",
+  "message": "There is a problem that is keeping us from getting your PC ready to use, but we think an update will help get things working again.",
+  "screenInstructions": "Connect to a network, then select Next to install the update.",
+  "qemuNetwork": "none",
+  "QA27Installed": false,
+  "QA27Launches": 0,
+  "QA27Exports": 0,
+  "SaveCount": 0,
+  "ProductFailure": false,
+  "securityChanges": 0,
+  "displayChanges": 0,
+  "next": "Investigate normal OS recovery/update path; no registry, OOBE bypass, policy or trust workaround"
+}

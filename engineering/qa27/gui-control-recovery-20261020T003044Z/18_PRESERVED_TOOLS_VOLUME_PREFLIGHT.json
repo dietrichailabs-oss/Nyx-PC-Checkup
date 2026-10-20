@@ -1,0 +1,48 @@
+{
+  "Utc": "2026-10-20T00:19:36.375448+00:00",
+  "Image": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-io.img",
+  "ReadOnly": true,
+  "ProductCodeExecuted": false,
+  "Files": [
+    {
+      "Name": "QA27Setup.exe",
+      "Bytes": 553984,
+      "SHA256": "8251F288E069F9B94DC98FF6B87E2C70326EAE8888FFA41B64E90C4527165EE8",
+      "ExpectedSHA256": "8251F288E069F9B94DC98FF6B87E2C70326EAE8888FFA41B64E90C4527165EE8",
+      "Matches": true
+    },
+    {
+      "Name": "preserved-full-scan.json",
+      "Bytes": 366923,
+      "SHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "ExpectedSHA256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "Matches": true
+    },
+    {
+      "Name": "VerifyInstalledQA27.exe",
+      "Bytes": 26624,
+      "SHA256": "171251601737CB242F43DA76604608E8A87911C51CB0F0D8366236D37A7EB451",
+      "ExpectedSHA256": "171251601737CB242F43DA76604608E8A87911C51CB0F0D8366236D37A7EB451",
+      "Matches": true
+    },
+    {
+      "Name": "CollectQA27Evidence.exe",
+      "Bytes": 9728,
+      "SHA256": "9BBEBBF7C0B225ED2281844E2801EEA8C394705DCCDE9BBCBAC3DEF94BDDD2D8",
+      "ExpectedSHA256": "9BBEBBF7C0B225ED2281844E2801EEA8C394705DCCDE9BBCBAC3DEF94BDDD2D8",
+      "Matches": true
+    }
+  ],
+  "RootEntries": [
+    "EXPORT",
+    "Recovery",
+    "System Volume Information",
+    "QA27Setup.exe",
+    "preserved-full-scan.json",
+    "VerifyInstalledQA27.exe",
+    "CollectQA27Evidence.exe",
+    "Recovery.txt"
+  ],
+  "FreshExportDirectoryEmpty": true,
+  "AllMatch": true
+}

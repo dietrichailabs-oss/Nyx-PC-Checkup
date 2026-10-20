@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "source": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\product\\dist\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "guestName": "QA27Setup.exe",
+      "bytes": 553984,
+      "sha256": "8251F288E069F9B94DC98FF6B87E2C70326EAE8888FFA41B64E90C4527165EE8"
+    },
+    {
+      "source": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\engineering\\qa27\\fixtures\\preserved-full-scan.json",
+      "guestName": "preserved-full-scan.json",
+      "bytes": 366923,
+      "sha256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE"
+    },
+    {
+      "source": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\VerifyInstalledQA27.exe",
+      "guestName": "VerifyInstalledQA27.exe",
+      "bytes": 26624,
+      "sha256": "171251601737CB242F43DA76604608E8A87911C51CB0F0D8366236D37A7EB451"
+    }
+  ],
+  "network": "none",
+  "guestOutputDirectory": "QA27_IO/EXPORT",
+  "containsPowerShellHarness": false,
+  "installerInvocation": "normal GUI",
+  "productLaunch": "normal installed EXE only"
+}

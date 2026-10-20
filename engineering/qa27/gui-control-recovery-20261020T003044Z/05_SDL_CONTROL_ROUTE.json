@@ -1,0 +1,7 @@
+{
+  "Utc": "2026-10-19T22:52:48.657Z",
+  "PID": 18976,
+  "Observed": "Windows language/setup dialog was captured, but mouse Next/Alt+n/Tab effects were not reliably confirmed; subsequent captures alternated blank purple surface and original dialog. Setup did not proceed to a confirmed installation page. No conclusion about synthetic input transport vs renderer capture is established.",
+  "ProductTestsExecuted": 0,
+  "Next": "Switch QEMU frontend only from SDL to GTK before installing any product. Preserve OS/security/DPI and frozen artifacts."
+}

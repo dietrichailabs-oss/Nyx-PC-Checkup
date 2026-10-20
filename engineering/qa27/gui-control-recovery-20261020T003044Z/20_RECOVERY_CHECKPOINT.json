@@ -1,0 +1,17 @@
+{
+  "Utc": "2026-10-20T00:19:24.5267597Z",
+  "PriorPID": 14600,
+  "NormalACPIShutdown": "Process exited; QCOW2 dirty-flag=false, corrupt=false",
+  "PreservedFailedSetupDisk": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-disposable.qcow2",
+  "PreservedFailedSetupDiskSHA256": "BDAFD07D5018507F1BA598EF6E70ECF53C373A09109A8FC43B09348CBBAE0799",
+  "NewRecoveryOverlay": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-network-recovery.qcow2",
+  "BackingOpenedReadOnlyByQEMU": true,
+  "PreservedOriginalToolsVolume": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-io.img",
+  "NewRecoveryToolsVolume": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-io-network.img",
+  "NewToolsVolumeSHA256": "CBBD779EA4C6F1C1532B4ACC49681131C857B902A30FCD44D4CDA28742130F27",
+  "QA27Installed": false,
+  "QA27ProductExecutions": 0,
+  "OriginalNyxVMOperations": 0,
+  "PolicyChanges": 0,
+  "FrozenProductChanges": 0
+}

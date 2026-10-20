@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-20T00:27:30.463Z",
+  "resolved": "Transient QEMU popup actions used the popup-specific screenshot; Grab On Hover restored off; Zoom To Fit enabled and entire guest screen including Next now visible",
+  "consoleViewOnly": true,
+  "WindowsDisplayScaleChanges": 0,
+  "WindowsResolutionChanges": 0,
+  "DPITests": 0,
+  "securityPolicyChanges": 0,
+  "QA27ProductExecutions": 0,
+  "priorShutdown": "QEMU clean exit verified, Windows ACPI shutdown remains unproven; see correction ledger"
+}

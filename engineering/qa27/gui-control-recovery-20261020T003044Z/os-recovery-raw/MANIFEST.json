@@ -1,0 +1,21 @@
+{
+  "ReadOnlySource": true,
+  "QA27ProductExecutions": 0,
+  "Files": [
+    {
+      "Path": "/Recovery.txt",
+      "Bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "/Recovery/Logs/Reload.xml",
+      "Bytes": 1285,
+      "SHA256": "8E8CA7D222FF61A7AB212597CE5AC2823C4A53236C1914C8F8AD6028871B88EA"
+    },
+    {
+      "Path": "/Recovery/Logs/BootUX (1).sqml",
+      "Bytes": 72,
+      "SHA256": "F71B54329C966DF8799B680FA5A9754186F664D35D5E497ECB25E6B2F44BE260"
+    }
+  ]
+}

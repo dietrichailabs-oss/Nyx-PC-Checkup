@@ -1,0 +1,2 @@
+C:\Users\Nyx\Documents\ChatGPT\Nyx Pc Cleanup\qa27-f024\.tools\isolated-vm\qemu\qemu-system-x86_64.exe: -accel whpx: WHPX: No accelerator found, hr=00000000
+C:\Users\Nyx\Documents\ChatGPT\Nyx Pc Cleanup\qa27-f024\.tools\isolated-vm\qemu\qemu-system-x86_64.exe: -accel whpx: failed to initialize whpx: No space left on device

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-19T23:14:33.038Z",
+  "priorQemuAbsentOnResume": true,
+  "nodeSessionReset": true,
+  "selectedWindow": {
+    "app": "process:C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qemu\\qemu-system-x86_64w.exe",
+    "id": 656514,
+    "title": "QEMU (QA27-F024-Disposable)"
+  },
+  "hostMenuOpenedAndDismissed": true,
+  "guestInputQualified": false,
+  "OSInstallStarted": false,
+  "QA27InstallStarted": false,
+  "ProductTestsExecuted": 0,
+  "SaveCount": 0,
+  "securityChanges": 0,
+  "displayChanges": 0,
+  "phase": "Windows installation media booting"
+}

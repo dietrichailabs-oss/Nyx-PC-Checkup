@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-19T23:22:09.051Z",
+  "candidate": "2026.10.19-eng-qa27",
+  "firstRuntimeProductCase": "F-024-QA27-INSTALLED-GUI",
+  "caseState": "NOT_EXECUTED_OS_INSTALL_IN_PROGRESS",
+  "dedupEvidence": [
+    "candidate-qa27-f024-20261019/RESULTS_AND_BLOCKERS.json",
+    "gui-preflight-20261019T221941Z/EXECUTION_LEDGER.jsonl",
+    "gui-disposable-20261019T223924Z/EXECUTION_LEDGER.jsonl"
+  ],
+  "alreadyExecuted": [
+    "QA27 build-only",
+    "QA27 native PS5.1 parse-only",
+    "QA27 focused native -File denied before test body; not retried",
+    "QA27 artifact/source archive integrity checks"
+  ],
+  "notDispatched": [
+    "Unrelated completed QA26 static/functional tests",
+    "DPI and layout cases",
+    "Native null/invalid/single/consecutive blank/page-boundary/TXT/JSON module suite",
+    "Lifecycle/migration suites"
+  ],
+  "blockedNativeStatus": "BLOCKED_ENVIRONMENT",
+  "newQemuIsApprovedLegacyBaseline": false,
+  "historicalMatrix": {
+    "complete": 83,
+    "total": 132,
+    "remainingWaived": 49,
+    "waiver": "WAIVED_BY_OWNER_DPI_SCOPE_20261019"
+  },
+  "QA26CreditsAdded": 0,
+  "QA27ProductExecutions": 0,
+  "QA27PASS": 0,
+  "QA27FAIL": 0,
+  "SaveCount": 0,
+  "approvalOwner": "Independent QA"
+}

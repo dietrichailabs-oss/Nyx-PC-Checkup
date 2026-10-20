@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-19T23:52:41.050Z",
+  "checks": [
+    {
+      "issue": 18,
+      "id": 6278638428,
+      "url": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/18#issuecomment-6278638428",
+      "newSinceLastRead": false
+    },
+    {
+      "issue": 15,
+      "id": 6277826979,
+      "url": "https://github.com/dietrichailabs-oss/Nyx-PC-Checkup/issues/15#issuecomment-6277826979",
+      "newSinceLastRead": false
+    }
+  ],
+  "scope": "Exact frozen installed GUI integration only; direct native modules blocked; no DPI/security changes; Independent QA owns final decision"
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T23:20:20.059Z",
+  "screen": "Windows Setup destination",
+  "selected": "Drive 0 Unallocated Space",
+  "totalGB": 48,
+  "freeGB": 48,
+  "existingPartitionsShown": 0,
+  "hostImage": "qa27-disposable.qcow2",
+  "originalVMDisksAttached": false,
+  "QA27ProductExecutions": 0
+}

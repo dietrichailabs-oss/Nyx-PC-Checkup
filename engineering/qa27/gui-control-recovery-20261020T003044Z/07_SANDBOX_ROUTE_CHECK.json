@@ -1,0 +1,21 @@
+{
+  "TimestampUtc": "2026-10-19T23:02:54.2695266Z",
+  "Computer": "DESKTOP-4D83OSL",
+  "Purpose": "Read-only alternative execution-route check; not a QA27 product test",
+  "SandboxExePresent": false,
+  "SandboxClientExePresent": false,
+  "SandboxCommand": [],
+  "SandboxPackages": [],
+  "Virtualization": [
+    {
+      "VirtualizationFirmwareEnabled": true,
+      "VMMonitorModeExtensions": false,
+      "SecondLevelAddressTranslationExtensions": false
+    }
+  ],
+  "ComputeServices": [],
+  "Outcome": "No existing Windows Sandbox executable, package, or compute-service route identified. Nested hardware virtualization capability is not exposed by the reported processor flags.",
+  "Changes": "None; no feature, policy, security, display, or product changes",
+  "QA27ProductExecutions": 0,
+  "QA27Credit": 0
+}

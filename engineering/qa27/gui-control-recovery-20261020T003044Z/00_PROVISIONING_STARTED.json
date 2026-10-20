@@ -1,0 +1,32 @@
+{
+  "Utc": "2026-10-19T22:39:24.107Z",
+  "Session": "gui-disposable-20261019T223924Z",
+  "Status": "PROVISIONING_NEW_DISPOSABLE_SOFTWARE_VM",
+  "Source": "ee357ca33dbb87653924c6def90ff29a38898fdb",
+  "Build": "2026.10.19-eng-qa27",
+  "Harness": "QA27-F024-PS51-27",
+  "Purpose": "FIRST F-024 installed-GUI integration only; no legacy baseline or native-module-suite qualification",
+  "Authority": "Current user directs full computer control and routine VM/testing actions, with unchanged security/product/DPI and preserved QA26. Issue18 comment6278528488 authorizes disposable isolated GUI integration.",
+  "WhyNewRoute": "Microsoft public CDN serves hash-verifiable Windows10 LTSC2021 evaluation media. A portable QEMU software emulator needs no host hypervisor/driver/Windows-feature changes.",
+  "EarlierPreflight": "17fdd6f8f1c75ea2de5b5f59f035eed13ff70d7c",
+  "EarlierBlocker": "Host/Hyper-V/remote desktop remains unavailable; a new software-VM route is being prepared rather than treating this guest as clean.",
+  "OriginalVMOperations": 0,
+  "QA26InstallOperations": 0,
+  "NativeDirectSuiteRetries": 0,
+  "ProductTestsExecuted": 0,
+  "ProductPASS": 0,
+  "ProductFAIL": 0,
+  "SecurityPolicyChanges": 0,
+  "DpiChanges": 0,
+  "VMNetwork": "none",
+  "HostShares": "none",
+  "VMIO": "Dedicated 64MiB FAT image containing copied frozen Setup, copied fixture and independently compiled read-only hash GUI. All writes are to new VM disks/evidence only.",
+  "Helper": {
+    "Source": "C:/Users/Nyx/Documents/ChatGPT/Nyx Pc Cleanup/qa27-f024/.tools/isolated-vm/VerifyInstalledQA27.cs",
+    "Executable": "C:/Users/Nyx/Documents/ChatGPT/Nyx Pc Cleanup/qa27-f024/.tools/isolated-vm/VerifyInstalledQA27.exe",
+    "Purpose": "Read-only installed SHA256/build/fixture inspection; no PowerShell execution, module import, app launch, scan or product/security writes."
+  },
+  "QemuAcceleration": "TCG. Separate empty 128MiB WHPX capability probe failed before disks/OS/product; not a product test.",
+  "ToolingRepair": "pyfatfs tooling import needed pkg_resources; pinned only private tooling-directory setuptools75.8.2. No product or system Python runtime modified.",
+  "Next": "Complete ISO hash verification, boot fresh VM normal installer, preserve screenshots. Secure Windows/UAC/auth interaction stays human if encountered."
+}

@@ -1,0 +1,21 @@
+{
+  "snapshotUtc": "2026-10-20T00:30:44Z",
+  "QA27Build": "2026.10.19-eng-qa27",
+  "sourceCommit": "ee357ca33dbb87653924c6def90ff29a38898fdb",
+  "guiCase": "NOT_EXECUTED_WINDOWS_PROVISIONING_RECOVERY_IN_PROGRESS",
+  "QA27Installs": 0,
+  "QA27Launches": 0,
+  "QA27Exports": 0,
+  "saveCount": 0,
+  "QA27RuntimePASS": 0,
+  "QA27RuntimeFAIL": 0,
+  "nativeSuite": "BLOCKED_ENVIRONMENT; prior denied attempt not repeated",
+  "environmentFailure": "Windows welcome setup: Why did my PC restart? Normal network update recovery pending.",
+  "shutdownCorrection": "QEMU clean image closure verified; Windows ACPI shutdown unproven.",
+  "guestWindowsDisplayChanges": 0,
+  "DPITests": 0,
+  "securityPolicyChanges": 0,
+  "QA26CreditAdded": 0,
+  "originalVMOperations": 0,
+  "independentDecision": "PENDING_INDEPENDENT_QA"
+}

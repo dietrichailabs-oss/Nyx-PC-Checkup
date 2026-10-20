@@ -1,0 +1,398 @@
+{
+  "utc": "2026-10-19T23:28:25.391Z",
+  "purpose": "Integrity preflight, zero test credit",
+  "qa27Artifacts": [
+    {
+      "name": "Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "sha256": "8251F288E069F9B94DC98FF6B87E2C70326EAE8888FFA41B64E90C4527165EE8",
+      "matches": true
+    },
+    {
+      "name": "Nyx_PC_Checkup_1.0.0_Portable.zip",
+      "sha256": "C59D1726E43C3EDE8E0AAC6014B067207102CBB51F9E2308265E597FCA6AB610",
+      "matches": true
+    },
+    {
+      "name": "Nyx_PC_Checkup_1.0.0_Source.zip",
+      "sha256": "B0F7B77140E6B578738E17DE69836E100A18E0201040B53906D2A1EF10E393A5",
+      "matches": true
+    }
+  ],
+  "qa26Files": [
+    {
+      "path": "app/actions/CleanupActions.psm1",
+      "sha256": "B72208AF305B52D9E01131BF6A941A5D0FAEC2188A361732A4DA7931F8AF367B",
+      "bytes": 7811,
+      "matches": true
+    },
+    {
+      "path": "app/actions/StartupActions.psm1",
+      "sha256": "A913040E406AD7DB738847AFF4BE9F7F218033ECC27F0BA63FB46ADD73490002",
+      "bytes": 23951,
+      "matches": true
+    },
+    {
+      "path": "app/assets/brand_banner.png",
+      "sha256": "838733D426505D0A62A5700FC8E3CA0386B3D79AE2B5BDE3B6B1C4E8EEBC0831",
+      "bytes": 4630,
+      "matches": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.ico",
+      "sha256": "2070830BFC4B9ABE31263E129F1B27EAEF7A468DF0D0CC4739A06B55FEA20DB5",
+      "bytes": 25277,
+      "matches": true
+    },
+    {
+      "path": "app/assets/nyx_pc_checkup.png",
+      "sha256": "6DC3691C601AB6DABF65EC7C954CF1E1D90DC7EA92F0BE06042920F7D9C91DD0",
+      "bytes": 3315,
+      "matches": true
+    },
+    {
+      "path": "app/checks/BackupStatus.psm1",
+      "sha256": "020DF878527988AFF5043A2CFAB521E24308CC9FA2E355A5F1937D1B4D36DB90",
+      "bytes": 4417,
+      "matches": true
+    },
+    {
+      "path": "app/checks/BatteryHealth.psm1",
+      "sha256": "6146C8B5F162C84E62C7DFFCA0E9BC2D91E6A40B9C660371684A56E3D44196AC",
+      "bytes": 3085,
+      "matches": true
+    },
+    {
+      "path": "app/checks/CleanupScan.psm1",
+      "sha256": "B69E91B8CC8521471A130ABCC714C483B116B0256DC2583955D0498274EB6B96",
+      "bytes": 11612,
+      "matches": true
+    },
+    {
+      "path": "app/checks/DownloadsAnalysis.psm1",
+      "sha256": "1780F131EA63CA316591A2D2E2C1A8E52EAA2340ED2FC1ACCF8820927F034319",
+      "bytes": 7999,
+      "matches": true
+    },
+    {
+      "path": "app/checks/DriveHealth.psm1",
+      "sha256": "4563A1E9B3780C57B61FFA761713B7FB5CE6F1450478E6CDF4C1090F81976549",
+      "bytes": 3423,
+      "matches": true
+    },
+    {
+      "path": "app/checks/InstalledApps.psm1",
+      "sha256": "025C66F0F060407466A2B68E0633DFA49E181F8E3E90D345B0FBFE49F51DEE86",
+      "bytes": 4311,
+      "matches": true
+    },
+    {
+      "path": "app/checks/NetworkBasics.psm1",
+      "sha256": "F203197F0B0671ACF3041973BEAD16204E0A847D7C9CCD162F2D37B629749224",
+      "bytes": 4679,
+      "matches": true
+    },
+    {
+      "path": "app/checks/PerformanceSnapshot.psm1",
+      "sha256": "2D1A4387C00CA5C43FCB5E1A92B9460E6D909B4699263A625138E48655E720FE",
+      "bytes": 3373,
+      "matches": true
+    },
+    {
+      "path": "app/checks/SecurityStatus.psm1",
+      "sha256": "BE5286DD57FC46621FBC1DCED4E369A2F0AED44F951CEBED6EA57B9E7F1B9E07",
+      "bytes": 9982,
+      "matches": true
+    },
+    {
+      "path": "app/checks/StartupApps.psm1",
+      "sha256": "9946BE978CE369538414E56414BF43617A6AE0C462D3AA2D40C1F862C0A1BA0C",
+      "bytes": 8100,
+      "matches": true
+    },
+    {
+      "path": "app/checks/StorageHealth.psm1",
+      "sha256": "45B3880BB314713B5DE1D9CA53605864921121E364093CEDC69AE0D63B4B42B6",
+      "bytes": 1299,
+      "matches": true
+    },
+    {
+      "path": "app/checks/StorageScan.psm1",
+      "sha256": "6C902069CF622AB9B588807B447DAC48FE535CE1A1A9528FEC6B5E34D4BE2CC1",
+      "bytes": 6929,
+      "matches": true
+    },
+    {
+      "path": "app/checks/SystemInfo.psm1",
+      "sha256": "A94F1969A6F6D910C861E1D6063FC7A4A443C24561C2084AB4EC3369AF39745C",
+      "bytes": 2676,
+      "matches": true
+    },
+    {
+      "path": "app/checks/Uptime.psm1",
+      "sha256": "C6F32C481A959D12EEA1629FAC8724305A4F489F0F690A187787590CAB94542A",
+      "bytes": 1146,
+      "matches": true
+    },
+    {
+      "path": "app/checks/WindowsUpdates.psm1",
+      "sha256": "304D3FDC4D3B52A0213EFB126DB25DFDEF3616149016F610E0D01CB52C24C252",
+      "bytes": 4902,
+      "matches": true
+    },
+    {
+      "path": "app/config/defaults.json",
+      "sha256": "15EEB90A8D02D15227FA9120EACA4C3256B822CA8DDC10E756EB1B23CD8A99C8",
+      "bytes": 461,
+      "matches": true
+    },
+    {
+      "path": "app/core/ActionHistory.psm1",
+      "sha256": "2007A6DE90B526DFD0C807904162F9F67C6FFD176029B8C29D637AD4295354DB",
+      "bytes": 24721,
+      "matches": true
+    },
+    {
+      "path": "app/core/CheckupEngine.psm1",
+      "sha256": "D3D5172AD945E977A8B829A150BCF4B8CB9BFA16B924F787121A7B875BC88CB0",
+      "bytes": 7640,
+      "matches": true
+    },
+    {
+      "path": "app/core/Configuration.psm1",
+      "sha256": "525E2A5D54B7B78554FC0E54B1D5D238DF2312F01215F8086809EAD51AE77220",
+      "bytes": 7302,
+      "matches": true
+    },
+    {
+      "path": "app/core/Diagnostics.psm1",
+      "sha256": "DE54E13C35F5A8759300419E14E2B6077C7BBD1D8B8D050A4B481EB481443EA1",
+      "bytes": 1932,
+      "matches": true
+    },
+    {
+      "path": "app/core/Models.psm1",
+      "sha256": "7F311735610DA72F5D88BA85D29BC0CF41B5EFD6CB04079B4F541565251984A0",
+      "bytes": 4355,
+      "matches": true
+    },
+    {
+      "path": "app/core/Paths.psm1",
+      "sha256": "2EA5914C2AE68E0ADBF6AB4065DE13B6957983087DBC6FE39A5FDF85E1B134F0",
+      "bytes": 5304,
+      "matches": true
+    },
+    {
+      "path": "app/core/Privacy.psm1",
+      "sha256": "D6F859FD274FE0DA8DD2FF92CA7D27870F2DD873C52378511318913C06427802",
+      "bytes": 6683,
+      "matches": true
+    },
+    {
+      "path": "app/core/RuntimeComposition.psm1",
+      "sha256": "E97A0DA8EEFEABDC36E89A59E789A8A2E59BD49CF45A5205F6F14904FDB50D95",
+      "bytes": 15055,
+      "matches": true
+    },
+    {
+      "path": "app/health_rules/HealthRules.psm1",
+      "sha256": "867B9E86DBCFAEE6C9393E41C28B60D584274C87BDE55D26CE3F6006138CC7CC",
+      "bytes": 4761,
+      "matches": true
+    },
+    {
+      "path": "app/health_rules/rules.json",
+      "sha256": "E5D02D37C13402E1215F70C895CE1BFD22707C4958A5F61547CCE459273D5DF3",
+      "bytes": 784,
+      "matches": true
+    },
+    {
+      "path": "app/NyxPCCheckup.ps1",
+      "sha256": "BFBD5ABAA4D619C64B3875B571E1129F4DCBA3B4E17C1E8221E21C595B0245AC",
+      "bytes": 6483,
+      "matches": true
+    },
+    {
+      "path": "app/platform/windows/WindowsHelpers.psm1",
+      "sha256": "780A4952406E542F03FA465321E5622F99FC837380562C790D5126CE1C7A2F29",
+      "bytes": 6692,
+      "matches": true
+    },
+    {
+      "path": "app/reports/PdfWriter.psm1",
+      "sha256": "9771307B0998186CE0296613686FC4D966F03C649CF6F53A034A17A89C92F3F9",
+      "bytes": 3680,
+      "matches": true
+    },
+    {
+      "path": "app/reports/ReportExport.psm1",
+      "sha256": "30363AD179F44BAA8531305E0CCF41C352F32CD4180C0C2A1C8469D91CA0F12E",
+      "bytes": 6677,
+      "matches": true
+    },
+    {
+      "path": "app/ui/Controls.psm1",
+      "sha256": "666F899776D54961B4F35DA9856CE26B15C5FA1BD341617417329A0B9B9E0446",
+      "bytes": 14909,
+      "matches": true
+    },
+    {
+      "path": "app/ui/Dialogs.psm1",
+      "sha256": "B1C5F8351C904BF27F4FD285326F06382F5BB90DB31A7079B86AA272CBAF001A",
+      "bytes": 5892,
+      "matches": true
+    },
+    {
+      "path": "app/ui/MainWindow.psm1",
+      "sha256": "B1FD7F0060D477C15542C23D929676B2B6519E2200DA858FAB1215BBC2FDABB8",
+      "bytes": 73259,
+      "matches": true
+    },
+    {
+      "path": "app/ui/Theme.psm1",
+      "sha256": "C00598624BE93AAF618C13BA910E4378A74D6901E9529CA3BEDEF08EF7C5EEB0",
+      "bytes": 2769,
+      "matches": true
+    },
+    {
+      "path": "app/updates/Manifest.psm1",
+      "sha256": "E4B2FD9D433859BC6CF506034F750B2526FE873B28181CABB13AEEBA987BC735",
+      "bytes": 6396,
+      "matches": true
+    },
+    {
+      "path": "app/updates/Preferences.psm1",
+      "sha256": "83C12EA1AF7435ECADCD8EE59A7685CB071A442D46EF500C5F4AAB55D39E00C3",
+      "bytes": 1164,
+      "matches": true
+    },
+    {
+      "path": "app/updates/UpdateChecker.psm1",
+      "sha256": "04C5C237D9B1D67FA2A530E8F993D669F3C70C979A6E9B37F78CBE7B5CA53980",
+      "bytes": 6175,
+      "matches": true
+    },
+    {
+      "path": "app/updates/Versioning.psm1",
+      "sha256": "41958BFD1CA5DF4866DFD4CD77A3AB156796164F517E346395ACD14AD9960C43",
+      "bytes": 2824,
+      "matches": true
+    },
+    {
+      "path": "app/workers/ActionWorker.ps1",
+      "sha256": "09676EDE70BE3B41C06AA462EAF4D76E8E0DABFB33BBC1A817788E66824E49D9",
+      "bytes": 5297,
+      "matches": true
+    },
+    {
+      "path": "app/workers/InstallWorker.ps1",
+      "sha256": "4242DA520EE1B2F3D5B0799E3C20D59AAF70E2442522ED2B1AC18AC06AF1388F",
+      "bytes": 9728,
+      "matches": true
+    },
+    {
+      "path": "app/workers/ScanWorker.ps1",
+      "sha256": "6CD64C5492E8AC4F2B4335A2CC17B697FFBBDDDA39CB0C422E68263426C95F79",
+      "bytes": 9078,
+      "matches": true
+    },
+    {
+      "path": "app/workers/UninstallWorker.ps1",
+      "sha256": "4BC5DAFB9DA4907A495386759F69C62C45B4D825D1CBD90BDC521663DF5E34EE",
+      "bytes": 8487,
+      "matches": true
+    },
+    {
+      "path": "app/workers/UpdateCheckWorker.ps1",
+      "sha256": "A9D34C89241537462602C378DCD48D711B40E4ACC6959FB49D7BA1D1968037C5",
+      "bytes": 2473,
+      "matches": true
+    },
+    {
+      "path": "docs/INSTALL_UPGRADE_UNINSTALL.md",
+      "sha256": "B5BDCCDE0FC22C6B490F60959796CEA7F6D8FC5EE1C0B4EC4D51F5528E8D915D",
+      "bytes": 4900,
+      "matches": true
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "sha256": "D60CB64E0ECDE81E6B31D7A66696C929086A12CC5B246B5751A44F636A38466A",
+      "bytes": 1605,
+      "matches": true
+    },
+    {
+      "path": "docs/PRIVACY_AND_SECURITY.md",
+      "sha256": "A881C09FA5FCACB7AAD585FE7BF599F018CAEFF2B83A83D9B932CDACED240D64",
+      "bytes": 5866,
+      "matches": true
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "sha256": "C435E197EBE5E29CAFB6C4DB0DC0D31BBBE2C10840A058A1C3C8BE153E12C159",
+      "bytes": 5097,
+      "matches": true
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "A133A1B0B7024ECE1BE97EF2E0F3FD3BD645E3EB9AFB8D14655ACBD2A44A47AD",
+      "bytes": 488,
+      "matches": true
+    },
+    {
+      "path": "Nyx PC Checkup.exe",
+      "sha256": "9B20E399C090EEAC78F6B257610EF915852A30BAA52BB31D7546C5783052CB75",
+      "bytes": 33280,
+      "matches": true
+    },
+    {
+      "path": "README_FIRST.md",
+      "sha256": "EF827680DDAFFF73B8050737722A05F2C09296701AE9CFC165F80C1F8000DF62",
+      "bytes": 7223,
+      "matches": true
+    },
+    {
+      "path": "SBOM.json",
+      "sha256": "DCC106579A02A32CF5B8BC91CCFBCD796800F084A51481F5D8962A73D79C763F",
+      "bytes": 3223,
+      "matches": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "4EBEC3C18CF41719C5E3666C138C3359A02CD016E9F0AFA0B3AE0308816AC6C0",
+      "bytes": 572,
+      "matches": true
+    },
+    {
+      "path": "Uninstall Nyx PC Checkup.exe",
+      "sha256": "CE3672BA838D9D727A01E8F8588C22FAECDAC7C3B25896733F53DCB3345963DC",
+      "bytes": 35328,
+      "matches": true
+    },
+    {
+      "path": "VERSION.json",
+      "sha256": "6D00B4234606C7C4BDF11739E9FB043ECF3AADFA19C9355738E92D9ACE598526",
+      "bytes": 315,
+      "matches": true
+    }
+  ],
+  "qa26Data": [
+    {
+      "path": "scans\\last-scan.json",
+      "sha256": "9EBD0A3DD3933AB3161AE1629E9E010A0805C4A177CC440E560BB1B67A4295DE",
+      "matches": true
+    },
+    {
+      "path": "config.json",
+      "sha256": "D13DEEA3BB15646C3656EF7AD1FF08182280EDF6128CC6B2EBC44B2ABE6305EF",
+      "matches": true
+    },
+    {
+      "path": "actions\\history.jsonl",
+      "sha256": "F0B9BC335C1AE7D7FC35EEF5A9A8B90D7F573B2852183E03C908F781884D671F",
+      "matches": true
+    }
+  ],
+  "originalVMOperations": 0,
+  "qa26ManifestSHA256": "B1A6490BAB92A7DEABC38A3A5B3748926BE3F6B3ADB1404912313450C45EC56B",
+  "qa26ManifestMatches": true,
+  "allMatch": true
+}
