@@ -1,0 +1,13 @@
+{
+  "Utc": "2026-10-20T15:54:23.7452902Z",
+  "UserReport": "Account setup completed, then window went away; approvals already provided",
+  "QemuRunning": false,
+  "Disk": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qa27-morning-resume.qcow2",
+  "DiskBytes": 369295360,
+  "DiskSHA256": "2EC6DC613054DD26D993CDA4D4D2305D95755693EBA585841FF2ED97ACADC236",
+  "TransferSHA256": "207B9D595B5DEB7A71346BCFBA857B31D1B3599467D4348A6DC26B857E31EB22",
+  "ClosureCause": "UNKNOWN pending Windows System log",
+  "AgentProductTests": 0,
+  "AccountCompleted": "Owner report; desktop not yet verified",
+  "SecurityOrProductChanges": false
+}

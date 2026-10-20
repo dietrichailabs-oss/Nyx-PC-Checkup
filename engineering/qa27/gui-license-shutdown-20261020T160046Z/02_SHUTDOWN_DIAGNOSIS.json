@@ -1,0 +1,128 @@
+{
+  "Utc": "2026-10-20T15:57:09.8785373Z",
+  "SourceSystemLogSHA256": "0ACF980F75D8432C791DCB25FFDAF5BA6C2C2436351241735C8320A0FE15406B",
+  "SourceDiskSHA256": "2EC6DC613054DD26D993CDA4D4D2305D95755693EBA585841FF2ED97ACADC236",
+  "ConfirmedShutdownInitiator": "C:\\Windows\\system32\\wlms\\wlms.exe",
+  "ConfirmedReason": "The license period for this installation of Windows has expired. The operating system is shutting down.",
+  "RootCauseScope": "Explains VM09/10 disappearances; does not prove cause of OOBE errors",
+  "RawGuestTimes": "Retained; no normalization using host timezone",
+  "Events": [
+    {
+      "Id": 6006,
+      "Provider": "EventLog",
+      "Message": "The Event log service was stopped.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='EventLog'/><EventID Qualifiers='32768'>6006</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T11:54:06.5313167Z'/><EventRecordID>580</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security/></System><EventData><Binary>01000000D2D5FFFF</Binary></EventData></Event>"
+    },
+    {
+      "Id": 1074,
+      "Provider": "User32",
+      "Message": "The process C:\\Windows\\system32\\wlms\\wlms.exe (DESKTOP-68RFC2T) has initiated the shutdown of computer DESKTOP-68RFC2T on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Other (Planned)\r\n Reason Code: 0x80000000\r\n Shutdown Type: shutdown\r\n Comment: The license period for this installation of Windows has expired. The operating system is shutting down.\r\n",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='User32' Guid='{b0aa8734-56f7-41cc-b2f4-de228e98b946}' EventSourceName='User32'/><EventID Qualifiers='32768'>1074</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x8080000000000000</Keywords><TimeCreated SystemTime='2026-10-20T11:53:55.5487440Z'/><EventRecordID>578</EventRecordID><Correlation/><Execution ProcessID='452' ThreadID='572'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='param1'>C:\\Windows\\system32\\wlms\\wlms.exe (DESKTOP-68RFC2T)</Data><Data Name='param2'>DESKTOP-68RFC2T</Data><Data Name='param3'>Other (Planned)</Data><Data Name='param4'>0x80000000</Data><Data Name='param5'>shutdown</Data><Data Name='param6'>The license period for this installation of Windows has expired. The operating system is shutting down.\r\n</Data><Data Name='param7'>NT AUTHORITY\\SYSTEM</Data></EventData></Event>"
+    },
+    {
+      "Id": 13,
+      "Provider": "Microsoft-Windows-Kernel-General",
+      "Message": "The operating system is shutting down at system time ‎2026‎-‎10‎-‎20T02:15:26.680132300Z.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Kernel-General' Guid='{a68ca8b7-004f-d7b6-a698-07e2de0f1f5d}'/><EventID>13</EventID><Version>0</Version><Level>4</Level><Task>2</Task><Opcode>0</Opcode><Keywords>0x8000000000000080</Keywords><TimeCreated SystemTime='2026-10-20T02:15:26.6801790Z'/><EventRecordID>508</EventRecordID><Correlation/><Execution ProcessID='4' ThreadID='320'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security/></System><EventData><Data Name='StopTime'>2026-10-20T02:15:26.6801323Z</Data></EventData></Event>"
+    },
+    {
+      "Id": 6006,
+      "Provider": "EventLog",
+      "Message": "The Event log service was stopped.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='EventLog'/><EventID Qualifiers='32768'>6006</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T02:15:21.2973218Z'/><EventRecordID>495</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security/></System><EventData><Binary>01000000D1D5FFFF</Binary></EventData></Event>"
+    },
+    {
+      "Id": 1074,
+      "Provider": "User32",
+      "Message": "The process C:\\Windows\\system32\\wlms\\wlms.exe (DESKTOP-68RFC2T) has initiated the shutdown of computer DESKTOP-68RFC2T on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Other (Planned)\r\n Reason Code: 0x80000000\r\n Shutdown Type: shutdown\r\n Comment: The license period for this installation of Windows has expired. The operating system is shutting down.\r\n",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='User32' Guid='{b0aa8734-56f7-41cc-b2f4-de228e98b946}' EventSourceName='User32'/><EventID Qualifiers='32768'>1074</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x8080000000000000</Keywords><TimeCreated SystemTime='2026-10-20T02:15:10.5986862Z'/><EventRecordID>493</EventRecordID><Correlation/><Execution ProcessID='460' ThreadID='592'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='param1'>C:\\Windows\\system32\\wlms\\wlms.exe (DESKTOP-68RFC2T)</Data><Data Name='param2'>DESKTOP-68RFC2T</Data><Data Name='param3'>Other (Planned)</Data><Data Name='param4'>0x80000000</Data><Data Name='param5'>shutdown</Data><Data Name='param6'>The license period for this installation of Windows has expired. The operating system is shutting down.\r\n</Data><Data Name='param7'>NT AUTHORITY\\SYSTEM</Data></EventData></Event>"
+    },
+    {
+      "Id": 41,
+      "Provider": "Microsoft-Windows-Kernel-Power",
+      "Message": "The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Kernel-Power' Guid='{331c3b3a-2005-44c2-ac5e-77220c37d6b4}'/><EventID>41</EventID><Version>8</Version><Level>1</Level><Task>63</Task><Opcode>0</Opcode><Keywords>0x8000400000000002</Keywords><TimeCreated SystemTime='2026-10-20T04:13:50.4663987Z'/><EventRecordID>459</EventRecordID><Correlation/><Execution ProcessID='4' ThreadID='8'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='BugcheckCode'>0</Data><Data Name='BugcheckParameter1'>0x0</Data><Data Name='BugcheckParameter2'>0x0</Data><Data Name='BugcheckParameter3'>0x0</Data><Data Name='BugcheckParameter4'>0x0</Data><Data Name='SleepInProgress'>6</Data><Data Name='PowerButtonTimestamp'>134369320422843819</Data><Data Name='BootAppStatus'>3221226513</Data><Data Name='Checkpoint'>0</Data><Data Name='ConnectedStandbyInProgress'>false</Data><Data Name='SystemSleepTransitionsToOn'>1</Data><Data Name='CsEntryScenarioInstanceId'>0</Data><Data Name='BugcheckInfoFromEFI'>false</Data><Data Name='CheckpointStatus'>0</Data><Data Name='CsEntryScenarioInstanceIdV2'>0</Data><Data Name='LongPowerButtonPressDetected'>false</Data></EventData></Event>"
+    },
+    {
+      "Id": 6008,
+      "Provider": "EventLog",
+      "Message": "The previous system shutdown at 8:49:10 PM on ‎10/‎19/‎2026 was unexpected.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='EventLog'/><EventID Qualifiers='32768'>6008</EventID><Version>0</Version><Level>2</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T04:14:26.7723160Z'/><EventRecordID>437</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security/></System><EventData><Data>8:49:10 PM</Data><Data>‎10/‎19/‎2026</Data><Data></Data><Data></Data><Data>42</Data><Data></Data><Data></Data><Binary>EA070A0001001300140031000A00AC00EA070A0002001400030031000A00AC003C0000003C000000000000000000000000000000000000000100000000000000</Binary></EventData></Event>"
+    },
+    {
+      "Id": 41,
+      "Provider": "Microsoft-Windows-Kernel-Power",
+      "Message": "The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Kernel-Power' Guid='{331c3b3a-2005-44c2-ac5e-77220c37d6b4}'/><EventID>41</EventID><Version>8</Version><Level>1</Level><Task>63</Task><Opcode>0</Opcode><Keywords>0x8000400000000002</Keywords><TimeCreated SystemTime='2026-10-20T03:48:39.2657268Z'/><EventRecordID>390</EventRecordID><Correlation/><Execution ProcessID='4' ThreadID='8'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='BugcheckCode'>0</Data><Data Name='BugcheckParameter1'>0x0</Data><Data Name='BugcheckParameter2'>0x0</Data><Data Name='BugcheckParameter3'>0x0</Data><Data Name='BugcheckParameter4'>0x0</Data><Data Name='SleepInProgress'>0</Data><Data Name='PowerButtonTimestamp'>134369307425687240</Data><Data Name='BootAppStatus'>0</Data><Data Name='Checkpoint'>0</Data><Data Name='ConnectedStandbyInProgress'>false</Data><Data Name='SystemSleepTransitionsToOn'>0</Data><Data Name='CsEntryScenarioInstanceId'>0</Data><Data Name='BugcheckInfoFromEFI'>false</Data><Data Name='CheckpointStatus'>0</Data><Data Name='CsEntryScenarioInstanceIdV2'>0</Data><Data Name='LongPowerButtonPressDetected'>false</Data></EventData></Event>"
+    },
+    {
+      "Id": 6008,
+      "Provider": "EventLog",
+      "Message": "The previous system shutdown at 5:43:13 PM on ‎10/‎19/‎2026 was unexpected.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='EventLog'/><EventID Qualifiers='32768'>6008</EventID><Version>0</Version><Level>2</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:49:09.9542076Z'/><EventRecordID>370</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>System</Channel><Computer>DESKTOP-68RFC2T</Computer><Security/></System><EventData><Data>5:43:13 PM</Data><Data>‎10/‎19/‎2026</Data><Data></Data><Data></Data><Data>91</Data><Data></Data><Data></Data><Binary>EA070A000100130011002B000D007802EA070A000200140000002B000D007802600900003C000000010000006009000000000000B00400000100000000000000</Binary></EventData></Event>"
+    },
+    {
+      "Id": 13,
+      "Provider": "Microsoft-Windows-Kernel-General",
+      "Message": "The operating system is shutting down at system time ‎2026‎-‎10‎-‎20T00:41:00.135715600Z.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Kernel-General' Guid='{a68ca8b7-004f-d7b6-a698-07e2de0f1f5d}'/><EventID>13</EventID><Version>0</Version><Level>4</Level><Task>2</Task><Opcode>0</Opcode><Keywords>0x8000000000000080</Keywords><TimeCreated SystemTime='2026-10-20T00:41:00.1357644Z'/><EventRecordID>322</EventRecordID><Correlation/><Execution ProcessID='4' ThreadID='320'/><Channel>System</Channel><Computer>DESKTOP-JE1J7UR</Computer><Security/></System><EventData><Data Name='StopTime'>2026-10-20T00:41:00.1357156Z</Data></EventData></Event>"
+    },
+    {
+      "Id": 6006,
+      "Provider": "EventLog",
+      "Message": "The Event log service was stopped.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='EventLog'/><EventID Qualifiers='32768'>6006</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T00:40:49.3178064Z'/><EventRecordID>312</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>System</Channel><Computer>DESKTOP-BN4GK07</Computer><Security/></System><EventData><Binary>01000000D2D5FFFF</Binary></EventData></Event>"
+    },
+    {
+      "Id": 1074,
+      "Provider": "User32",
+      "Message": "The process C:\\Windows\\System32\\taskhostw.exe (DESKTOP-5VASRAU) has initiated the restart of computer DESKTOP-BN4GK07 on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Operating System: Reconfiguration (Unplanned)\r\n Reason Code: 0x20004\r\n Shutdown Type: restart\r\n Comment: ",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='User32' Guid='{b0aa8734-56f7-41cc-b2f4-de228e98b946}' EventSourceName='User32'/><EventID Qualifiers='32768'>1074</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x8080000000000000</Keywords><TimeCreated SystemTime='2026-10-20T00:40:17.4433001Z'/><EventRecordID>308</EventRecordID><Correlation/><Execution ProcessID='424' ThreadID='556'/><Channel>System</Channel><Computer>DESKTOP-BN4GK07</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='param1'>C:\\Windows\\System32\\taskhostw.exe (DESKTOP-5VASRAU)</Data><Data Name='param2'>DESKTOP-BN4GK07</Data><Data Name='param3'>Operating System: Reconfiguration (Unplanned)</Data><Data Name='param4'>0x20004</Data><Data Name='param5'>restart</Data><Data Name='param6'></Data><Data Name='param7'>NT AUTHORITY\\SYSTEM</Data></EventData></Event>"
+    },
+    {
+      "Id": 41,
+      "Provider": "Microsoft-Windows-Kernel-Power",
+      "Message": "The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Kernel-Power' Guid='{331c3b3a-2005-44c2-ac5e-77220c37d6b4}'/><EventID>41</EventID><Version>8</Version><Level>1</Level><Task>63</Task><Opcode>0</Opcode><Keywords>0x8000400000000002</Keywords><TimeCreated SystemTime='2026-10-20T03:21:46.5372794Z'/><EventRecordID>262</EventRecordID><Correlation/><Execution ProcessID='4' ThreadID='8'/><Channel>System</Channel><Computer>DESKTOP-BN4GK07</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='BugcheckCode'>0</Data><Data Name='BugcheckParameter1'>0x0</Data><Data Name='BugcheckParameter2'>0x0</Data><Data Name='BugcheckParameter3'>0x0</Data><Data Name='BugcheckParameter4'>0x0</Data><Data Name='SleepInProgress'>0</Data><Data Name='PowerButtonTimestamp'>0</Data><Data Name='BootAppStatus'>0</Data><Data Name='Checkpoint'>0</Data><Data Name='ConnectedStandbyInProgress'>false</Data><Data Name='SystemSleepTransitionsToOn'>0</Data><Data Name='CsEntryScenarioInstanceId'>0</Data><Data Name='BugcheckInfoFromEFI'>false</Data><Data Name='CheckpointStatus'>0</Data><Data Name='CsEntryScenarioInstanceIdV2'>0</Data><Data Name='LongPowerButtonPressDetected'>false</Data></EventData></Event>"
+    },
+    {
+      "Id": 6008,
+      "Provider": "EventLog",
+      "Message": "The previous system shutdown at 8:15:58 PM on ‎10/‎19/‎2026 was unexpected.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='EventLog'/><EventID Qualifiers='32768'>6008</EventID><Version>0</Version><Level>2</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:22:59.4979803Z'/><EventRecordID>242</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>System</Channel><Computer>DESKTOP-BN4GK07</Computer><Security/></System><EventData><Data>8:15:58 PM</Data><Data>‎10/‎19/‎2026</Data><Data></Data><Data></Data><Data>52</Data><Data></Data><Data></Data><Binary>EA070A000100130014000F003A005B00EA070A000200140003000F003A005B00600900003C000000010000006009000000000000B00400000100000000000000</Binary></EventData></Event>"
+    },
+    {
+      "Id": 13,
+      "Provider": "Microsoft-Windows-Kernel-General",
+      "Message": "The operating system is shutting down at system time ‎2026‎-‎10‎-‎20T03:14:36.369900600Z.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Kernel-General' Guid='{a68ca8b7-004f-d7b6-a698-07e2de0f1f5d}'/><EventID>13</EventID><Version>0</Version><Level>4</Level><Task>2</Task><Opcode>0</Opcode><Keywords>0x8000000000000080</Keywords><TimeCreated SystemTime='2026-10-20T03:14:36.3699515Z'/><EventRecordID>202</EventRecordID><Correlation/><Execution ProcessID='4' ThreadID='348'/><Channel>System</Channel><Computer>DESKTOP-5VASRAU</Computer><Security/></System><EventData><Data Name='StopTime'>2026-10-20T03:14:36.3699006Z</Data></EventData></Event>"
+    },
+    {
+      "Id": 6006,
+      "Provider": "EventLog",
+      "Message": "The Event log service was stopped.",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='EventLog'/><EventID Qualifiers='32768'>6006</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:14:24.0078436Z'/><EventRecordID>191</EventRecordID><Correlation/><Execution ProcessID='0' ThreadID='0'/><Channel>System</Channel><Computer>DESKTOP-43HI9J2</Computer><Security/></System><EventData><Binary>0100000000000000</Binary></EventData></Event>"
+    },
+    {
+      "Id": 1074,
+      "Provider": "User32",
+      "Message": "The process C:\\Windows\\System32\\taskhostw.exe (WIN-T9G9FEEBN2U) has initiated the restart of computer DESKTOP-43HI9J2 on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Operating System: Reconfiguration (Unplanned)\r\n Reason Code: 0x20004\r\n Shutdown Type: restart\r\n Comment: ",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='User32' Guid='{b0aa8734-56f7-41cc-b2f4-de228e98b946}' EventSourceName='User32'/><EventID Qualifiers='32768'>1074</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x8080000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:13:31.6956259Z'/><EventRecordID>187</EventRecordID><Correlation/><Execution ProcessID='432' ThreadID='564'/><Channel>System</Channel><Computer>DESKTOP-43HI9J2</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='param1'>C:\\Windows\\System32\\taskhostw.exe (WIN-T9G9FEEBN2U)</Data><Data Name='param2'>DESKTOP-43HI9J2</Data><Data Name='param3'>Operating System: Reconfiguration (Unplanned)</Data><Data Name='param4'>0x20004</Data><Data Name='param5'>restart</Data><Data Name='param6'></Data><Data Name='param7'>NT AUTHORITY\\SYSTEM</Data></EventData></Event>"
+    },
+    {
+      "Id": 1074,
+      "Provider": "User32",
+      "Message": "The process C:\\Windows\\system32\\winlogon.exe (MINWINPC) has initiated the restart of computer WIN-T9G9FEEBN2U on behalf of user NT AUTHORITY\\SYSTEM for the following reason: Operating System: Upgrade (Planned)\r\n Reason Code: 0x80020003\r\n Shutdown Type: restart\r\n Comment: ",
+      "RawEventXml": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='User32' Guid='{b0aa8734-56f7-41cc-b2f4-de228e98b946}' EventSourceName='User32'/><EventID Qualifiers='32768'>1074</EventID><Version>0</Version><Level>4</Level><Task>0</Task><Opcode>0</Opcode><Keywords>0x8080000000000000</Keywords><TimeCreated SystemTime='2026-10-20T03:02:17.2598653Z'/><EventRecordID>131</EventRecordID><Correlation/><Execution ProcessID='428' ThreadID='440'/><Channel>System</Channel><Computer>WIN-T9G9FEEBN2U</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='param1'>C:\\Windows\\system32\\winlogon.exe (MINWINPC)</Data><Data Name='param2'>WIN-T9G9FEEBN2U</Data><Data Name='param3'>Operating System: Upgrade (Planned)</Data><Data Name='param4'>0x80020003</Data><Data Name='param5'>restart</Data><Data Name='param6'></Data><Data Name='param7'>NT AUTHORITY\\SYSTEM</Data></EventData></Event>"
+    }
+  ],
+  "NoLicenseOrSecurityChange": true,
+  "NoProductTest": true,
+  "ProhibitedRecoveryNotUsed": [
+    "trial reset",
+    "clock rollback",
+    "license service disabling",
+    "policy change",
+    "activation bypass"
+  ]
+}

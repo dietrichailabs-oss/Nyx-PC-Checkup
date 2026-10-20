@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-20T16:00:46.918Z",
+  "vmAttempt": 11,
+  "pid": 14116,
+  "window": {
+    "app": "process:C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\.tools\\isolated-vm\\qemu\\qemu-system-x86_64w.exe",
+    "id": 25297822,
+    "title": "QEMU (QA27-F024-Disposable)"
+  },
+  "observed": "Windows lock screen after boot of preserved post-account disk",
+  "ownerAccountSetup": "Completed sufficiently to reach lock screen; desktop not yet inspected",
+  "humanAction": "Unlock Windows directly inside QEMU; do not send password; report desktop visible",
+  "why": "Computer Use guidance: If the Windows desktop is locked, stop immediately and ask the user to unlock the desktop.",
+  "agentUnlockInput": false,
+  "furtherCaptureDuringCredentialEntry": false,
+  "normalActivation": "Not yet inspected; desktop locked",
+  "knownLicenseFailure": "Previous two planned shutdowns initiated by wlms.exe because Windows license period expired",
+  "licenseEnforcementChanged": false,
+  "securityOrProductChanges": false,
+  "newProductTests": 0,
+  "qa27Pass": 0,
+  "qa27Fail": 0
+}

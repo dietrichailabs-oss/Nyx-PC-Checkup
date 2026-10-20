@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-20T16:00:46.965Z",
+  "files": [
+    {
+      "path": "00_POST_ACCOUNT_PREFLIGHT.json",
+      "bytes": 679,
+      "sha256": "A2B41AD5B5BFD0EE4DF7E9A1C504E832C943832FE6527CB44FAF91A81E3DB1C8"
+    },
+    {
+      "path": "01_TRANSFER_PREFLIGHT.json",
+      "bytes": 1656,
+      "sha256": "F460AD5FAE677F7F3E8FA9E17C6754BBF17C6CCACD75D5F6826A9CF0B34148BC"
+    },
+    {
+      "path": "02_SHUTDOWN_DIAGNOSIS.json",
+      "bytes": 20724,
+      "sha256": "CDFAA2175B6D229CEABA3F848B279C787ED23346D32B9362328E5F7FB775D22D"
+    },
+    {
+      "path": "03_VM_LAUNCH_11.json",
+      "bytes": 1934,
+      "sha256": "7D071802A7EDCEF1E54CAB4B93B17D3A21F2EB144A84C152B285EF7BF91C58C4"
+    },
+    {
+      "path": "04_UNLOCK_PREREQUISITE.json",
+      "bytes": 1086,
+      "sha256": "1705FE56B3EE4579E30EAF0729E02C299D8A2C0CDA9A14C5BD458D444B57D972"
+    },
+    {
+      "path": "Events/System.evtx",
+      "bytes": 1118208,
+      "sha256": "0ACF980F75D8432C791DCB25FFDAF5BA6C2C2436351241735C8320A0FE15406B"
+    },
+    {
+      "path": "VM10_GUEST_ERRORS.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "VM10_STDERR.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "VM10_STDOUT.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "VM_LAUNCH_10.json",
+      "bytes": 1755,
+      "sha256": "9AF5BB87ADACB36FF19D623BF73086DF279A554D233709569902E748DCB4DAE5"
+    }
+  ],
+  "scope": "Immutable license-shutdown evidence snapshot; no product execution",
+  "excluded": [
+    "VM disks",
+    "OS ISO",
+    "credentials",
+    "lock-screen screenshot"
+  ]
+}
