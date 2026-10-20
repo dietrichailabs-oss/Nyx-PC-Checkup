@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-20T01:27:59.937Z",
+  "source": "C:\\Users\\Nyx\\Documents\\ChatGPT\\Nyx Pc Cleanup\\qa27-f024\\engineering\\qa27\\gui-disposable-20261019T223924Z",
+  "files": [
+    {
+      "path": "030-vm09-account-oobeaadv10-human-prerequisite.png",
+      "bytes": 14507,
+      "sha256": "B85526E7F5AF9C14907244F747EA12704795C4EDA1595AD95C0EE63AE5E5941D"
+    },
+    {
+      "path": "33_ACCOUNT_HUMAN_PREREQUISITE.json",
+      "bytes": 1275,
+      "sha256": "0E6A2FF2CE1B8A25C889DE3186A454708FE239678C8DF714963EDC62FAA78E62"
+    },
+    {
+      "path": "32_OOBE_SUPPLEMENT_PUBLICATION_RECEIPT.json",
+      "bytes": 598,
+      "sha256": "FFC835205844F53E0826F8ACFDB62CF6DEA371133976EB207F251F0B8BD999FC"
+    },
+    {
+      "path": "CAPTURE_PROVENANCE.jsonl",
+      "bytes": 16221,
+      "sha256": "BC112F70311C492D5E689802F0246E5E9073DDFDE5DC605039EBA3876EFA50B0"
+    },
+    {
+      "path": "EXECUTION_LEDGER.jsonl",
+      "bytes": 153,
+      "sha256": "807AF8D53E42871BB01814F7935AD53FB648D5212FA9EFC0D00694457ADFA1D4"
+    },
+    {
+      "path": "PROVISIONING_PROGRESS.jsonl",
+      "bytes": 6675,
+      "sha256": "84960C073477F0C4C6F2976C754D746C46590D4434158C951678EAB5731AE300"
+    },
+    {
+      "path": "CONTROL_RECOVERY_NOTES.jsonl",
+      "bytes": 2817,
+      "sha256": "B988DC0EC4BFED4C5E484C1574D963595E2003B66E974846387561214FDF0394"
+    }
+  ],
+  "immutable": true,
+  "productExecutions": 0
+}

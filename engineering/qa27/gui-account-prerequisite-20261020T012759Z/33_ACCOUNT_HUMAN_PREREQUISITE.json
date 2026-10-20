@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-20T01:27:32.545Z",
+  "vmAttempt": 9,
+  "pid": 16308,
+  "controlStatus": "WORKING_VISIBLE_TARGETABLE_MAXIMIZED_FIT",
+  "windowsStage": "Account",
+  "exactError": "Something went wrong. You can try again, or skip for now. OOBEAADV10",
+  "availableControls": [
+    "Skip",
+    "Try again"
+  ],
+  "actionTakenOnAccountScreen": "NONE",
+  "humanPrerequisite": "Complete normal Windows Account setup and any privacy prompts directly in QEMU; do not send credentials; leave security policies and Windows display settings unchanged; report when desktop is ready",
+  "reason": "Computer Use safety guidance denies authentication-dialog automation and acting on privacy/security permission requests",
+  "guidance": "C:/Users/Nyx/.codex/plugins/cache/openai-bundled/computer-use/26.1013.40934/docs/guidance.md",
+  "quotedRule": "Do not automate user authentication dialogs.",
+  "qa27Installs": 0,
+  "qa27Launches": 0,
+  "pdfSaveActions": 0,
+  "qa27Pass": 0,
+  "qa27Fail": 0,
+  "productFailure": false,
+  "nextAfterHuman": "Exact shipped QA27 Setup; native read-only identity verification and preserved fixture; first shipped GUI launch/export Save once",
+  "securityChanges": false,
+  "displayChanges": false,
+  "productChanges": false,
+  "originalVmOperations": 0
+}
