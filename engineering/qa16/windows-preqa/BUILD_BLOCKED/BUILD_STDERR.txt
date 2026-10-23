@@ -1,0 +1,111 @@
+BUILD FAILED: Command failed (1): C:\Python314\python.exe -m pytest -q
+STDOUT:
+.....................................F.............FFF.................. [ 36%]
+........................................................................ [ 73%]
+...................................................                      [100%]
+================================== FAILURES ===================================
+_____ test_qa2_correction_matrix_covers_exact_findings_and_prior_identity _____
+
+    def test_qa2_correction_matrix_covers_exact_findings_and_prior_identity() -> None:
+        matrix = text(ROOT / "docs" / "QA2_CORRECTION_MATRIX.md")
+        for token in [
+            "F-001",
+            "F-002",
+            "F-003",
+            "61B870429BDB22A3F7106A8720A9EE9845D9C2D8B499336E5E1EF9EFBC4D81AF",
+            "5DE23C322DD48C69FCEC47331217962603CDE8011CDE9A90083371D3FDDFF6E5",
+            "667,197 bytes",
+            "2026.08.23-eng-qa2",
+            BUILD_ID,
+            "all-users entries are read-only",
+            "legacy machine rollback",
+            "compressed IPv6",
+        ]:
+>           assert token.lower() in matrix.lower()
+E           AssertionError: assert '2026.09.26-eng-qa16' in '# qa2 failure correction matrix � nyx pc checkup 1.0.0\n\n## prior failed identity\n\nindependent qa reviewed and fai..., uac, registry, dpapi, and installer lifecycle execution remain unverified until qa runs them on windows 10/11 x64.\n'
+E            +  where '2026.09.26-eng-qa16' = <built-in method lower of str object at 0x00000230602CB2F0>()
+E            +    where <built-in method lower of str object at 0x00000230602CB2F0> = '2026.09.26-eng-qa16'.lower
+E            +  and   '# qa2 failure correction matrix � nyx pc checkup 1.0.0\n\n## prior failed identity\n\nindependent qa reviewed and fai..., uac, registry, dpapi, and installer lifecycle execution remain unverified until qa runs them on windows 10/11 x64.\n' = <built-in method lower of str object at 0x000002305E376010>()
+E            +    where <built-in method lower of str object at 0x000002305E376010> = '# QA2 Failure Correction Matrix � Nyx PC Checkup 1.0.0\n\n## Prior failed identity\n\nIndependent QA reviewed and fai..., UAC, registry, DPAPI, and installer lifecycle execution remain unverified until QA runs them on Windows 10/11 x64.\n'.lower
+
+tests\test_engineering_contracts.py:664: AssertionError
+______ test_qa4_windows_harness_correction_is_documented_and_build_gated ______
+
+    def test_qa4_windows_harness_correction_is_documented_and_build_gated() -> None:
+        matrix = text(ROOT / "docs" / "QA4_WINDOWS_HARNESS_CORRECTION.md")
+        builder = text(ROOT / "tools" / "build_release.py")
+        readme = text(ROOT / "README_FIRST.md")
+        for token in [
+            "D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1",
+            "22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7",
+            "Argument types do not match",
+            "QA16-F013-PS51-16",
+            "ToArray()",
+            "new product candidate",
+        ]:
+>           assert token.lower() in matrix.lower()
+E           AssertionError: assert 'qa16-f013-ps51-16' in '# qa4 windows harness hold correction � introduced in qa5, preserved in qa7\n\n## historical intake identity\n\nindep...ion remains mandatory under active harness revision `qa15-f012-ps51-15` and root runner `run_qa15_windows_gate.ps1`.\n'
+E            +  where 'qa16-f013-ps51-16' = <built-in method lower of str object at 0x0000023060373B30>()
+E            +    where <built-in method lower of str object at 0x0000023060373B30> = 'QA16-F013-PS51-16'.lower
+E            +  and   '# qa4 windows harness hold correction � introduced in qa5, preserved in qa7\n\n## historical intake identity\n\nindep...ion remains mandatory under active harness revision `qa15-f012-ps51-15` and root runner `run_qa15_windows_gate.ps1`.\n' = <built-in method lower of str object at 0x000002305E351470>()
+E            +    where <built-in method lower of str object at 0x000002305E351470> = '# QA4 Windows Harness HOLD Correction � Introduced in QA5, Preserved in QA7\n\n## Historical intake identity\n\nIndep...ion remains mandatory under active harness revision `QA15-F012-PS51-15` and root runner `RUN_QA15_WINDOWS_GATE.ps1`.\n'.lower
+
+tests\test_engineering_contracts.py:844: AssertionError
+_______ test_qa5_native_windows_failures_are_documented_and_build_gated _______
+
+    def test_qa5_native_windows_failures_are_documented_and_build_gated() -> None:
+        matrix = text(ROOT / "docs" / "QA5_WINDOWS_EXECUTION_CORRECTION.md")
+        builder = text(ROOT / "tools" / "build_release.py")
+        readme = text(ROOT / "README_FIRST.md")
+        for token in [
+            "B72A0BAD2094F37EAE1E853794A72763A9ACF76D3B27E776AC5FB8647F19B349",
+            "5E6DC04424216650720A408BF8E99AAF52FD6EF20DE35489F76D0740ADE36298",
+            "QA5-WIN-001",
+            "QA5-WIN-002",
+            "QA5-ORCH-001",
+            "QA5-ENC-001",
+            "automatic-variable collision",
+            "QA16-F013-PS51-16",
+            "RUN_QA15_WINDOWS_GATE.ps1",
+        ]:
+>           assert token.lower() in matrix.lower()
+E           AssertionError: assert 'qa16-f013-ps51-16' in '# qa5 native windows failure correction � introduced in qa6, preserved in qa7\n\n## intake identity\n\nnative windows...ion remains mandatory under active harness revision `qa15-f012-ps51-15` and root runner `run_qa15_windows_gate.ps1`.\n'
+E            +  where 'qa16-f013-ps51-16' = <built-in method lower of str object at 0x0000023060373B30>()
+E            +    where <built-in method lower of str object at 0x0000023060373B30> = 'QA16-F013-PS51-16'.lower
+E            +  and   '# qa5 native windows failure correction � introduced in qa6, preserved in qa7\n\n## intake identity\n\nnative windows...ion remains mandatory under active harness revision `qa15-f012-ps51-15` and root runner `run_qa15_windows_gate.ps1`.\n' = <built-in method lower of str object at 0x000002305E172000>()
+E            +    where <built-in method lower of str object at 0x000002305E172000> = '# QA5 Native Windows Failure Correction � Introduced in QA6, Preserved in QA7\n\n## Intake identity\n\nNative Windows...ion remains mandatory under active harness revision `QA15-F012-PS51-15` and root runner `RUN_QA15_WINDOWS_GATE.ps1`.\n'.lower
+
+tests\test_engineering_contracts.py:873: AssertionError
+__ test_qa6_native_module_composition_failure_is_documented_and_build_gated ___
+
+    def test_qa6_native_module_composition_failure_is_documented_and_build_gated() -> None:
+        matrix = text(ROOT / "docs" / "QA6_MODULE_COMPOSITION_CORRECTION.md")
+        builder = text(ROOT / "tools" / "build_release.py")
+        readme = text(ROOT / "README_FIRST.md")
+        routing = text(ROOT / "docs" / "WHO_GETS_WHAT_NEXT.md")
+        for token in [
+            "E81C56200A409B83E3A1B04A045D4726BE41C24494ED459FB9B91EAB4CACE324",
+            "38B28BB535067EB0B8508A364F6D9EE1DB6FC068D72608F83CFD34F8D28D41C7",
+            "QA6-F-005",
+            "New-NyxCheckResult",
+            "RuntimeComposition.psm1",
+            "QA16-F013-PS51-16",
+            "HarnessInferenceFromImmutableQA2Source",
+        ]:
+>           assert token.lower() in matrix.lower()
+E           AssertionError: assert 'qa16-f013-ps51-16' in '# independent qa6 failure correction � engineering qa7\n\n## qa input identity\n\nindependent qa returned:\n\n- `nyx_...ion remains mandatory under active harness revision `qa15-f012-ps51-15` and root runner `run_qa15_windows_gate.ps1`.\n'
+E            +  where 'qa16-f013-ps51-16' = <built-in method lower of str object at 0x0000023060373B30>()
+E            +    where <built-in method lower of str object at 0x0000023060373B30> = 'QA16-F013-PS51-16'.lower
+E            +  and   '# independent qa6 failure correction � engineering qa7\n\n## qa input identity\n\nindependent qa returned:\n\n- `nyx_...ion remains mandatory under active harness revision `qa15-f012-ps51-15` and root runner `run_qa15_windows_gate.ps1`.\n' = <built-in method lower of str object at 0x000002305E36AC00>()
+E            +    where <built-in method lower of str object at 0x000002305E36AC00> = '# Independent QA6 Failure Correction � Engineering QA7\n\n## QA input identity\n\nIndependent QA returned:\n\n- `Nyx_...ion remains mandatory under active harness revision `QA15-F012-PS51-15` and root runner `RUN_QA15_WINDOWS_GATE.ps1`.\n'.lower
+
+tests\test_engineering_contracts.py:903: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_engineering_contracts.py::test_qa2_correction_matrix_covers_exact_findings_and_prior_identity
+FAILED tests/test_engineering_contracts.py::test_qa4_windows_harness_correction_is_documented_and_build_gated
+FAILED tests/test_engineering_contracts.py::test_qa5_native_windows_failures_are_documented_and_build_gated
+FAILED tests/test_engineering_contracts.py::test_qa6_native_module_composition_failure_is_documented_and_build_gated
+4 failed, 191 passed in 1.42s
+
+STDERR:
+

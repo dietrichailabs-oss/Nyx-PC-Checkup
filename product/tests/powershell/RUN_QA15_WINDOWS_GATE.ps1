@@ -1,4 +1,4 @@
-﻿[CmdletBinding()]
+[CmdletBinding()]
 param(
     [ValidateSet('Smoke','Standard','Elevated')]
     [string]$Phase = 'Smoke',
@@ -9,11 +9,11 @@ param(
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version 2.0
 
-if($env:OS -ne 'Windows_NT'){throw 'This QA11 gate runner requires native Windows.'}
+if($env:OS -ne 'Windows_NT'){throw 'This QA13 gate runner requires native Windows.'}
 if($PSVersionTable.PSEdition -ne 'Desktop' -or $PSVersionTable.PSVersion.Major -ne 5 -or $PSVersionTable.PSVersion.Minor -ne 1){throw 'Run this orchestrator with inbox Windows PowerShell 5.1 Desktop edition.'}
 
-$script:ExpectedBuild='2026.08.27-eng-qa11'
-$script:ExpectedHarnessRevision='QA11-PS51-8'
+$script:ExpectedBuild='2026.10.19-eng-qa27'
+$script:ExpectedHarnessRevision='QA27-F024-PS51-27'
 $script:RunResults=[System.Collections.Generic.List[object]]::new()
 $script:RunnerFailures=[System.Collections.Generic.List[string]]::new()
 
@@ -45,7 +45,7 @@ if([string]::IsNullOrWhiteSpace($HandoffRoot)){
 }
 $HandoffRoot=(Resolve-Path -LiteralPath $HandoffRoot).Path
 $manifestPath=Join-Path $HandoffRoot 'MASTER_MANIFEST.json'
-if(-not(Test-Path -LiteralPath $manifestPath -PathType Leaf)){throw 'MASTER_MANIFEST.json is missing. Run this script from the extracted QA11 Engineering master handoff.'}
+if(-not(Test-Path -LiteralPath $manifestPath -PathType Leaf)){throw 'MASTER_MANIFEST.json is missing. Run this script from the extracted QA15 Engineering master handoff.'}
 $manifest=Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8|ConvertFrom-Json
 if([string]$manifest.build -ne $script:ExpectedBuild){throw ("Unexpected handoff build: {0}" -f [string]$manifest.build)}
 
@@ -58,17 +58,18 @@ $harnessNames=@(
     'Run-WindowsSmokeTests.ps1',
     'Run-WindowsElevatedStartupRollback.ps1',
     'Run-WindowsQA2MigrationRegression.ps1',
-    'Run-WindowsInstallerLifecycle.ps1'
+    'Run-WindowsInstallerLifecycle.ps1',
+    'Run-WindowsInstalledLaunchRegression.ps1'
 )
 $harnessPaths=@{}
 foreach($name in $harnessNames){
     $relative='tests/powershell/'+$name
     $harnessPaths[$name]=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath $relative
 }
-$nestedRunner=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'tests/powershell/RUN_QA11_WINDOWS_GATE.ps1'
+$nestedRunner=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'tests/powershell/RUN_QA15_WINDOWS_GATE.ps1'
 $installerDiagnosticsHelper=Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'tests/powershell/InstallerDiagnosticsHelpers.ps1'
-if(Test-Path -LiteralPath (Join-Path $HandoffRoot 'RUN_QA11_WINDOWS_GATE.ps1') -PathType Leaf){
-    [void](Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'RUN_QA11_WINDOWS_GATE.ps1')
+if(Test-Path -LiteralPath (Join-Path $HandoffRoot 'RUN_QA15_WINDOWS_GATE.ps1') -PathType Leaf){
+    [void](Assert-ManifestFile -Manifest $manifest -Root $HandoffRoot -RelativePath 'RUN_QA15_WINDOWS_GATE.ps1')
 }
 
 $isAdmin=([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
@@ -82,19 +83,19 @@ if($Phase -eq 'Elevated'){
 }
 
 $stamp=Get-Date -Format 'yyyyMMdd_HHmmss'
-$work=Join-Path $env:TEMP ("Nyx_PC_Checkup_QA11_Windows_{0}_{1}" -f $Phase,$stamp)
+$work=Join-Path $env:TEMP ("Nyx_PC_Checkup_QA14_Windows_{0}_{1}" -f $Phase,$stamp)
 $sourceExtract=Join-Path $work 'source'
-$evidence=Join-Path $HandoffRoot ("QA11_WINDOWS_EVIDENCE_{0}_{1}" -f $Phase,$stamp)
+$evidence=Join-Path $HandoffRoot ("QA15_WINDOWS_EVIDENCE_{0}_{1}" -f $Phase,$stamp)
 New-Item -ItemType Directory -Path $sourceExtract,$evidence -Force|Out-Null
 Expand-Archive -LiteralPath $sourceZip -DestinationPath $sourceExtract -Force
 $sourceIdentity=Get-ChildItem -LiteralPath $sourceExtract -Filter 'SOURCE_TREE_IDENTITY.json' -File -Recurse -ErrorAction Stop|Select-Object -First 1
-if($null -eq $sourceIdentity){throw 'SOURCE_TREE_IDENTITY.json was not found after extracting the QA11 source ZIP.'}
+if($null -eq $sourceIdentity){throw 'SOURCE_TREE_IDENTITY.json was not found after extracting the QA14 source ZIP.'}
 $sourceRoot=$sourceIdentity.Directory.FullName
 $appRoot=Join-Path $sourceRoot 'src\app'
 if(-not(Test-Path -LiteralPath $appRoot -PathType Container)){throw ("Source app root is missing: {0}" -f $appRoot)}
 
 $environment=[pscustomobject][ordered]@{
-    Schema='dietrich-ai-labs.nyx-pc-checkup.qa11-windows-orchestration.v1'
+    Schema='dietrich-ai-labs.nyx-pc-checkup.qa14-windows-orchestration.v1'
     Phase=$Phase
     HarnessRevision=$script:ExpectedHarnessRevision
     CapturedUtc=(Get-Date).ToUniversalTime().ToString('o')
@@ -148,7 +149,7 @@ function Invoke-PowerShellParsePreflight {
         }
     }
     $preflight=[pscustomobject][ordered]@{
-        Schema='dietrich-ai-labs.nyx-pc-checkup.qa11-powershell51-parse-preflight.v1'
+        Schema='dietrich-ai-labs.nyx-pc-checkup.qa14-powershell51-parse-preflight.v1'
         Build=$script:ExpectedBuild
         HarnessRevision=$script:ExpectedHarnessRevision
         CapturedUtc=(Get-Date).ToUniversalTime().ToString('o')
@@ -160,7 +161,7 @@ function Invoke-PowerShellParsePreflight {
         Files=@($fileRecords.ToArray())
         Diagnostics=@($findings.ToArray())
     }
-    $preflightPath=Join-Path $evidence 'QA11_WINDOWS_PARSE_PREFLIGHT.json'
+    $preflightPath=Join-Path $evidence 'QA15_WINDOWS_PARSE_PREFLIGHT.json'
     $preflight|ConvertTo-Json -Depth 12|Set-Content -LiteralPath $preflightPath -Encoding UTF8
     return $preflight
 }
@@ -256,6 +257,11 @@ try{
 
         $lifeOut=Join-Path $evidence 'Nyx_PC_Checkup_Installer_Lifecycle_Standard.json'
         Invoke-ExactHarness -Name 'Run-WindowsInstallerLifecycle.ps1' -ExpectedReportPath $lifeOut -ArgumentList @('-SetupPath',$setup,'-OutputPath',$lifeOut,'-DestructiveCleanVmAcknowledged')
+
+        # QA12-F-011: validate the actual installed desktop shortcut/native launcher,
+        # visible main window, singleton behavior, clean close, and fresh relaunch.
+        $launchOut=Join-Path $evidence 'Nyx_PC_Checkup_F011_Installed_Launch.json'
+        Invoke-ExactHarness -Name 'Run-WindowsInstalledLaunchRegression.ps1' -ExpectedReportPath $launchOut -ArgumentList @('-SetupPath',$setup,'-OutputPath',$launchOut,'-DestructiveCleanVmAcknowledged')
     }else{
         $privOut=Join-Path $evidence 'Nyx_PC_Checkup_Privilege_Elevated.json'
         Invoke-ExactHarness -Name 'Run-WindowsElevatedStartupRollback.ps1' -ExpectedReportPath $privOut -ArgumentList @('-AppRoot',$appRoot,'-OutputPath',$privOut,'-DestructiveCleanVmAcknowledged')
@@ -270,20 +276,20 @@ try{
 $failed=@($script:RunResults.ToArray()|Where-Object{-not $_.Passed})
 $parsePassed=($null -ne $parsePreflight -and [bool]$parsePreflight.Passed)
 $summary=[pscustomobject][ordered]@{
-    Schema='dietrich-ai-labs.nyx-pc-checkup.qa11-windows-run-summary.v1'
+    Schema='dietrich-ai-labs.nyx-pc-checkup.qa14-windows-run-summary.v1'
     Build=$script:ExpectedBuild
     HarnessRevision=$script:ExpectedHarnessRevision
     Phase=$Phase
     CompletedUtc=(Get-Date).ToUniversalTime().ToString('o')
     ParsePreflightPassed=$parsePassed
-    ParsePreflightReport=(Join-Path $evidence 'QA11_WINDOWS_PARSE_PREFLIGHT.json')
+    ParsePreflightReport=(Join-Path $evidence 'QA15_WINDOWS_PARSE_PREFLIGHT.json')
     Passed=($parsePassed -and $failed.Count -eq 0 -and $script:RunnerFailures.Count -eq 0 -and $script:RunResults.Count -gt 0)
     Total=$script:RunResults.Count
     Failed=$failed.Count
     RunnerFailures=@($script:RunnerFailures.ToArray())
     Results=@($script:RunResults.ToArray())
 }
-$summary|ConvertTo-Json -Depth 12|Set-Content -LiteralPath (Join-Path $evidence 'QA11_WINDOWS_RUN_SUMMARY.json') -Encoding UTF8
+$summary|ConvertTo-Json -Depth 12|Set-Content -LiteralPath (Join-Path $evidence 'QA15_WINDOWS_RUN_SUMMARY.json') -Encoding UTF8
 
 $zipPath=$evidence+'.zip'
 if(Test-Path -LiteralPath $zipPath){Remove-Item -LiteralPath $zipPath -Force}

@@ -1,0 +1,31 @@
+{
+  "status": "HOLD",
+  "classification": "PENDING_INDEPENDENT_QA",
+  "build": "2026.09.01-eng-qa15",
+  "candidate": "QA15-F012-PS51-15",
+  "harnessCorrectionRevision": "QA15-F012-TIMESTAMP-1",
+  "candidateHashes": {
+    "setupSha256": "B4F082A79D76E2A7E9452B2717D87698ED136E4D10CFF2D4232DB6E0BF02CD80",
+    "portableSha256": "6262B9EF383BA3C6AAF0D7BF192B7104EA0CBB3C9799DF55EA30F44A005A370A",
+    "sourceSha256": "E9D426CDCEB554AC071532C6079F421B47558A537A037CDC221958945E2AD62B",
+    "sourceTreeSha256": "CC58B192CD27F286A041B67510BAF4C7D2097F996D0206DEAE4906BC555A11A0"
+  },
+  "verifiedInput": {
+    "filename": "Nyx_PC_Checkup_1.0.0_Engineering_QA15_F011_Path_Harness_Corrected_Master_Handoff.zip",
+    "sha256": "AFD5F37CB5DBA78BC69F65535AF181F5E2CEBCC6DAFF2864951D0A48E2CD3D8F"
+  },
+  "f012": {"passed": true, "total": 17, "failed": 0},
+  "f010Cancellation": {
+    "passed": false,
+    "completedChecks": 42,
+    "passedChecks": 41,
+    "failedChecks": 1,
+    "failedCheck": "Cancel during storage/profile enumeration reaches requested timing boundary",
+    "expectedPattern": "(?i)(storage|profile)"
+  },
+  "f010MalformedState": "NOT_RUN",
+  "elevated": "NOT_RUN",
+  "f008": "NOT_RUN",
+  "candidateModified": false,
+  "independentQaPassClaimed": false
+}

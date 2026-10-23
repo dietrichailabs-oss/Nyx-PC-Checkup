@@ -1,0 +1,98 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa15-f012-settings-theme.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "HarnessCorrectionRevision":  "QA15-F012-TIMESTAMP-1",
+    "StartedUtc":  "2026-09-02T20:27:48.5787035Z",
+    "CompletedUtc":  "2026-09-02T20:27:50.3978233Z",
+    "Passed":  true,
+    "Total":  17,
+    "Failed":  0,
+    "Results":  [
+                    {
+                        "Name":  "F-012 full runtime composition succeeds",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"Full\",\"AppRoot\":\"C:\\\\Q15F\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]}"
+                    },
+                    {
+                        "Name":  "F-012 Save button owns explicit Settings state",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-012 deferred handler resolves state from sender",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-012 handler no longer reads deferred local theme control",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-012 validates the complete supported theme set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-012 theme persists after save and reload: FollowWindows",
+                        "Passed":  true,
+                        "Details":  "FollowWindows"
+                    },
+                    {
+                        "Name":  "F-012 theme persists after save and reload: Dark",
+                        "Passed":  true,
+                        "Details":  "Dark"
+                    },
+                    {
+                        "Name":  "F-012 theme persists after save and reload: Light",
+                        "Passed":  true,
+                        "Details":  "Light"
+                    },
+                    {
+                        "Name":  "F-012 theme persists after save and reload: FollowWindows",
+                        "Passed":  true,
+                        "Details":  "FollowWindows"
+                    },
+                    {
+                        "Name":  "F-012 repeated unchanged Save remains stable: 1",
+                        "Passed":  true,
+                        "Details":  "{\"theme\":\"FollowWindows\",\"notificationsEnabled\":false,\"developerLogging\":false,\"maxLogBytes\":1048576,\"maxLogFiles\":3,\"actionHistoryLimit\":200,\"reportIncludeUserName\":false,\"reportIncludeIpAddresses\":false,\"updates\":{\"enabled\":true,\"lastCheckUtc\":\"\"},\"scan\":{\"maxFiles\":1000000,\"maxSeconds\":180,\"duplicateHashMaxBytes\":268435456,\"duplicateHashMaxFiles\":500}}"
+                    },
+                    {
+                        "Name":  "F-012 repeated unchanged Save remains stable: 2",
+                        "Passed":  true,
+                        "Details":  "{\"theme\":\"FollowWindows\",\"notificationsEnabled\":false,\"developerLogging\":false,\"maxLogBytes\":1048576,\"maxLogFiles\":3,\"actionHistoryLimit\":200,\"reportIncludeUserName\":false,\"reportIncludeIpAddresses\":false,\"updates\":{\"enabled\":true,\"lastCheckUtc\":\"\"},\"scan\":{\"maxFiles\":1000000,\"maxSeconds\":180,\"duplicateHashMaxBytes\":268435456,\"duplicateHashMaxFiles\":500}}"
+                    },
+                    {
+                        "Name":  "F-012 repeated unchanged Save remains stable: 3",
+                        "Passed":  true,
+                        "Details":  "{\"theme\":\"FollowWindows\",\"notificationsEnabled\":false,\"developerLogging\":false,\"maxLogBytes\":1048576,\"maxLogFiles\":3,\"actionHistoryLimit\":200,\"reportIncludeUserName\":false,\"reportIncludeIpAddresses\":false,\"updates\":{\"enabled\":true,\"lastCheckUtc\":\"\"},\"scan\":{\"maxFiles\":1000000,\"maxSeconds\":180,\"duplicateHashMaxBytes\":268435456,\"duplicateHashMaxFiles\":500}}"
+                    },
+                    {
+                        "Name":  "F-012 theme and notifications persist together",
+                        "Passed":  true,
+                        "Details":  "{\"theme\":\"Dark\",\"notificationsEnabled\":true,\"developerLogging\":false,\"maxLogBytes\":1048576,\"maxLogFiles\":3,\"actionHistoryLimit\":200,\"reportIncludeUserName\":false,\"reportIncludeIpAddresses\":false,\"updates\":{\"enabled\":true,\"lastCheckUtc\":\"\"},\"scan\":{\"maxFiles\":1000000,\"maxSeconds\":180,\"duplicateHashMaxBytes\":268435456,\"duplicateHashMaxFiles\":500}}"
+                    },
+                    {
+                        "Name":  "F-012 theme and automatic updates persist together",
+                        "Passed":  true,
+                        "Details":  "{\"theme\":\"Light\",\"notificationsEnabled\":true,\"developerLogging\":false,\"maxLogBytes\":1048576,\"maxLogFiles\":3,\"actionHistoryLimit\":200,\"reportIncludeUserName\":false,\"reportIncludeIpAddresses\":false,\"updates\":{\"enabled\":false,\"lastCheckUtc\":\"\"},\"scan\":{\"maxFiles\":1000000,\"maxSeconds\":180,\"duplicateHashMaxBytes\":268435456,\"duplicateHashMaxFiles\":500}}"
+                    },
+                    {
+                        "Name":  "F-012 all three Settings values persist together",
+                        "Passed":  true,
+                        "Details":  "{\"theme\":\"FollowWindows\",\"notificationsEnabled\":false,\"developerLogging\":false,\"maxLogBytes\":1048576,\"maxLogFiles\":3,\"actionHistoryLimit\":200,\"reportIncludeUserName\":false,\"reportIncludeIpAddresses\":false,\"updates\":{\"enabled\":true,\"lastCheckUtc\":\"2026-09-01T00:00:00.0000000+00:00\"},\"scan\":{\"maxFiles\":1000000,\"maxSeconds\":180,\"duplicateHashMaxBytes\":268435456,\"duplicateHashMaxFiles\":500}}"
+                    },
+                    {
+                        "Name":  "F-012 saving Settings preserves unrelated update timestamp",
+                        "Passed":  true,
+                        "Details":  "{\"ExpectedText\":\"2026-09-01T00:00:00.0000000Z\",\"ObservedText\":\"2026-09-01T00:00:00.0000000+00:00\",\"ExpectedParsed\":true,\"ObservedParsed\":true,\"ExpectedUtc\":\"2026-09-01T00:00:00.0000000+00:00\",\"ObservedUtc\":\"2026-09-01T00:00:00.0000000+00:00\",\"SameUtcInstant\":true}"
+                    },
+                    {
+                        "Name":  "F-012 unsupported persisted theme repairs safely",
+                        "Passed":  true,
+                        "Details":  "FollowWindows"
+                    }
+                ]
+}

@@ -1,0 +1,47 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa14-windows-run-summary.v1",
+    "Build":  "2026.08.30-eng-qa14",
+    "HarnessRevision":  "QA14-F011-PS51-14",
+    "Phase":  "Elevated",
+    "CompletedUtc":  "2026-09-01T19:41:57.3844433Z",
+    "ParsePreflightPassed":  true,
+    "ParsePreflightReport":  "C:\\Q14E\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Elevated_20260901_154133\\QA14_WINDOWS_PARSE_PREFLIGHT.json",
+    "Passed":  true,
+    "Total":  2,
+    "Failed":  0,
+    "RunnerFailures":  [
+
+                       ],
+    "Results":  [
+                    {
+                        "Harness":  "Run-WindowsElevatedStartupRollback.ps1",
+                        "ExactHarnessSha256":  "4578485175CE1DF6AD4DF486BEF7E04CDD7C400A51B4B343CD5E3E7A6640568F",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\Q14E\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Elevated_20260901_154133\\Run-WindowsElevatedStartupRollback_console.txt",
+                        "ReportPath":  "C:\\Q14E\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Elevated_20260901_154133\\Nyx_PC_Checkup_Privilege_Elevated.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA14-F011-PS51-14",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  14,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsInstallerLifecycle.ps1",
+                        "ExactHarnessSha256":  "B469D52942C4453F46DF9DE6A2341B16FF06067229DEA190ED512CE25C17FD00",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\Q14E\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Elevated_20260901_154133\\Run-WindowsInstallerLifecycle_console.txt",
+                        "ReportPath":  "C:\\Q14E\\Nyx_PC_Checkup_1.0.0_Engineering_QA14_F011_VM_PreQA_Handoff\\QA14_WINDOWS_EVIDENCE_Elevated_20260901_154133\\Nyx_PC_Checkup_Installer_Lifecycle_Elevated.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA14-F011-PS51-14",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  50,
+                        "ReportValidationError":  ""
+                    }
+                ]
+}

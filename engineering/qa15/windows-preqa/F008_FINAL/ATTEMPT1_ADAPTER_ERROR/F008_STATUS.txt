@@ -1,0 +1,10 @@
+﻿Started=2026-09-02T17:00:26.7053948-04:00
+Screen=2033x1112
+DPI=96,96
+Verdict=FAIL
+Error=System.Management.Automation.RuntimeException: Method invocation failed because [System.Windows.Automation.SelectionPattern] does not contain a method named 'GetCurrentSelection'.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+Finished=2026-09-02T17:00:53.8708759-04:00

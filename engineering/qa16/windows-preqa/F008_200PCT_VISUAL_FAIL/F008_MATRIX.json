@@ -1,0 +1,1190 @@
+[
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "FAIL",
+    "Finding": "200% / 192 DPI / 1366x768: branding and Home headings vertically clipped; Export report, Check My PC, Run Full Check and Cancel scan labels truncated. Settings not visible in navigation viewport; keyboard reachability not tested. Window containment passes; visual layout fails.",
+    "EvidencePath": "raw/evidence_dpi_physical_20260926_202348/NATIVE_EXE_DESKTOP.png"
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "FollowWindows",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Dark",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 100,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 125,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 150,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Home",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Checkup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Storage",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Startup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Security",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Updates",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Backup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "System",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Apps",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Cleanup",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  },
+  {
+    "Theme": "Light",
+    "Scaling": 200,
+    "Resolution": "1366x768",
+    "Page": "Settings",
+    "Result": "NOT_RUN",
+    "Finding": "Full visual/accessibility cell not executed; stop policy",
+    "EvidencePath": null
+  }
+]

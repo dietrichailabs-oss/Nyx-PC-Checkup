@@ -7,8 +7,8 @@ extern "C" void __stdcall wWinMainCRTStartup(void){
     nyx_wcopy(script,root,1400);nyx_wcat(script,L"\\app\\NyxPCCheckup.ps1",1400);
     if(!GetEnvironmentVariableW(L"SystemRoot",systemRoot,512)){MessageBoxW(0,L"Nyx PC Checkup could not locate Windows PowerShell.",L"Nyx PC Checkup",MB_OK|MB_ICONERROR);ExitProcess(2);}
     nyx_wcopy(ps,systemRoot,1024);nyx_wcat(ps,L"\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",1024);
-    nyx_wcat(cmd,L"\"",4096);nyx_wcat(cmd,ps,4096);nyx_wcat(cmd,L"\" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -WindowStyle Hidden -File \"",4096);nyx_wcat(cmd,script,4096);nyx_wcat(cmd,L"\"",4096);
-    DWORD code=nyx_run(ps,cmd,root,TRUE);
+    nyx_wcat(cmd,L"\"",4096);nyx_wcat(cmd,ps,4096);nyx_wcat(cmd,L"\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"",4096);nyx_wcat(cmd,script,4096);nyx_wcat(cmd,L"\"",4096);
+    DWORD code=nyx_run_gui_child_no_console(ps,cmd,root);
     if(code==0xFFFFFFFFUL){MessageBoxW(0,L"Nyx PC Checkup could not start Windows PowerShell. No changes were made.",L"Nyx PC Checkup",MB_OK|MB_ICONERROR);ExitProcess(3);}
     ExitProcess(code);
 }

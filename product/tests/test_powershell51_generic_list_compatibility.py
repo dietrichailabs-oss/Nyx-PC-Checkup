@@ -69,24 +69,25 @@ def test_required_windows_harnesses_pin_windows_powershell_51() -> None:
         "Run-WindowsElevatedStartupRollback.ps1",
         "Run-WindowsQA2MigrationRegression.ps1",
         "Run-WindowsInstallerLifecycle.ps1",
+        "Run-WindowsInstalledLaunchRegression.ps1",
     }
     actual = {path.name for path in WINDOWS_HARNESSES.glob("*.ps1")}
     assert names <= actual
-    assert "RUN_QA11_WINDOWS_GATE.ps1" in actual
+    assert "RUN_QA15_WINDOWS_GATE.ps1" in actual
     for name in sorted(names):
         source = read(WINDOWS_HARNESSES / name)
         assert expected in source
-        assert "HarnessRevision='QA11-PS51-8'" in source
-    runner = read(WINDOWS_HARNESSES / "RUN_QA11_WINDOWS_GATE.ps1")
+        assert "HarnessRevision='QA27-F024-PS51-27'" in source
+    runner = read(WINDOWS_HARNESSES / "RUN_QA15_WINDOWS_GATE.ps1")
     assert expected in runner
-    assert "$script:ExpectedHarnessRevision='QA11-PS51-8'" in runner
+    assert "$script:ExpectedHarnessRevision='QA27-F024-PS51-27'" in runner
     assert "$ErrorActionPreference='Continue'" in runner
-    assert "QA11_WINDOWS_PARSE_PREFLIGHT.json" in runner
+    assert "QA15_WINDOWS_PARSE_PREFLIGHT.json" in runner
     assert "Parser]::ParseFile" in runner
     assert "ExpectedReportPath" in runner
     assert "ReportValidationError" in runner
     assert "Harness report verdict is FAIL" in runner
-    assert "QA11_WINDOWS_RUN_SUMMARY.json" in runner
+    assert "QA15_WINDOWS_RUN_SUMMARY.json" in runner
 
 
 def test_required_harness_report_collections_use_to_array() -> None:
@@ -95,6 +96,7 @@ def test_required_harness_report_collections_use_to_array() -> None:
         "Run-WindowsElevatedStartupRollback.ps1": "Results=@($script:Results.ToArray())",
         "Run-WindowsQA2MigrationRegression.ps1": "Results=@($script:Results.ToArray())",
         "Run-WindowsInstallerLifecycle.ps1": "Results=@($results.ToArray())",
+        "Run-WindowsInstalledLaunchRegression.ps1": "Results=@($script:Results.ToArray())",
     }
     for name, token in expected_tokens.items():
         source = read(WINDOWS_HARNESSES / name)

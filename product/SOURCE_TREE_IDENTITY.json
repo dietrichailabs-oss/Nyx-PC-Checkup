@@ -2,22 +2,22 @@
   "schema": "dietrich-ai-labs.source-tree-identity.v1",
   "product": "Nyx PC Checkup",
   "version": "1.0.0",
-  "build": "2026.08.27-eng-qa11",
-  "fileCount": 116,
+  "build": "2026.10.19-eng-qa27",
+  "fileCount": 149,
   "identityExcludes": [
     "SOURCE_TREE_IDENTITY.json"
   ],
-  "treeSha256": "C4273FA058A9151EF7E51EDE2EC264892CA707FF5957B7F5C39EA0DB7D599EAA",
+  "treeSha256": "103D15B084ED4CE02D314D89C7B2D92599122D0C2936113A1EF585355EC240D6",
   "files": [
     {
       "path": "docs/ARCHITECTURE.md",
-      "size": 11766,
-      "sha256": "A17D8968D9EF16C358471E6C25302A8F90A2368E3FCD480B0BD985CAE7372E8A"
+      "size": 11926,
+      "sha256": "D1B617271C7961EBF3B366612372882CE8FEADB53F67FB3D9C048923D7A0E30B"
     },
     {
       "path": "docs/BUILD_AND_REPRODUCE.md",
-      "size": 2970,
-      "sha256": "6AAE7D350CA062EA37E3A5B460F4E4AF9A8D03622EABB2C4CB96F2D15B232BC4"
+      "size": 3381,
+      "sha256": "39CB27B878B4F3470316F58E41DB452C6D5BDF6E16DF8F6C8BDA8D72081BF093"
     },
     {
       "path": "docs/ENGINEERING_SCOPE.md",
@@ -31,8 +31,8 @@
     },
     {
       "path": "docs/KNOWN_LIMITATIONS.md",
-      "size": 1596,
-      "sha256": "1F8B1127C581CEC99FF9D73ECA02A74EC2CFC0CCFA4E0AD35C4CD312CA2E4320"
+      "size": 1949,
+      "sha256": "F40ED51F5C7CD836F1CC2CD87F224A0AB75E336D47F07E5D5D8DC3B1907DD050"
     },
     {
       "path": "docs/MODULE_CONTRACTS.md",
@@ -41,8 +41,8 @@
     },
     {
       "path": "docs/MODULE_MAP.md",
-      "size": 5300,
-      "sha256": "A0FD677CAC75FCFDFFF14F9CDE697B107C3C7EF141D266F01A5685C482C56EAA"
+      "size": 5416,
+      "sha256": "C1847CA35072BBF467531383A3C8134B33E1659D4B676FC612C92F489BA20C54"
     },
     {
       "path": "docs/PRIVACY_AND_SECURITY.md",
@@ -55,9 +55,44 @@
       "sha256": "5BA4E66921BC5AD1723EF63054AA4B66EEFF97647893BCCC2E59239AB33CF9DD"
     },
     {
+      "path": "docs/QA12_F011_INSTALLED_LAUNCH_CORRECTION.md",
+      "size": 4413,
+      "sha256": "4E24A70822C46971BF0126137BE45CD056A4586179DCECB3724593F2604FC2B0"
+    },
+    {
+      "path": "docs/QA15_F012_SETTINGS_THEME_SAVE_CORRECTION.md",
+      "size": 460,
+      "sha256": "CAF1DA0A8461BDBE9FD9B04DAB6C22B0BE5F881AADB5D1A8BBDCEFFEE3C372A8"
+    },
+    {
+      "path": "docs/QA23_F020_GRID_AUDIT.md",
+      "size": 1771,
+      "sha256": "171965EF4089AB2D13F33A155D2FF7144807146C6B48145AC1732F47D70F6B4E"
+    },
+    {
+      "path": "docs/QA24_F021_CALLBACK_AUDIT.md",
+      "size": 2744,
+      "sha256": "59EABDCA70C7AE98C09BA45B804A90B629B1C1DFC6A6A6CD15E518F4B27C49C6"
+    },
+    {
+      "path": "docs/QA25_F022_COLUMN_READABILITY.md",
+      "size": 2791,
+      "sha256": "EAE97EFF36441046F4D2BBA1C33846FF819532FE7B22E0450E5E4B4601EAE79B"
+    },
+    {
+      "path": "docs/QA26_F023_KEYBOARD_ACTIONS.md",
+      "size": 2017,
+      "sha256": "D8CC216382E2F936A2F912FB47DCB456ED8C4AB515DA5E100669AD8EE84397F7"
+    },
+    {
+      "path": "docs/QA27_F024_PDF_EXPORT.md",
+      "size": 3269,
+      "sha256": "B2FDDB3A6D29E6A1248EA2729B3DDC40DF0F8545397365B27BB94724818F4314"
+    },
+    {
       "path": "docs/QA2_CORRECTION_MATRIX.md",
-      "size": 6711,
-      "sha256": "FA00E478AF119B767A7EBA71492A8C045A4FDC3ACB02B3E03F33F069D4590AA6"
+      "size": 6962,
+      "sha256": "B2926C9EA5A88B5DAC6DF6DC59EB0C13E8052F8F3774F3ECB8DF0B72D7D1E44A"
     },
     {
       "path": "docs/QA3_CORRECTION_MATRIX.md",
@@ -66,18 +101,18 @@
     },
     {
       "path": "docs/QA4_WINDOWS_HARNESS_CORRECTION.md",
-      "size": 2491,
-      "sha256": "25ACA312D54CA988B8C291ECFB42AD58F40AE1B7107F3DBC1E8AB4DA67DF77CA"
+      "size": 2748,
+      "sha256": "BF1973205F268825AF3A28ADC92266B1842CC4E58BDBB87011123257781836CD"
     },
     {
       "path": "docs/QA5_WINDOWS_EXECUTION_CORRECTION.md",
-      "size": 7712,
-      "sha256": "D88EFB776C2FD8806491A4183F905AF9275CA94EF08A37F71C9F3427D7E7FAE1"
+      "size": 7969,
+      "sha256": "6019403B32BC14F488D5DA49CB887BB0A596A7323F5A7469F85D62D21FA1547C"
     },
     {
       "path": "docs/QA6_MODULE_COMPOSITION_CORRECTION.md",
-      "size": 5144,
-      "sha256": "D1AAC90B97CBD10CC103D02611BED25A49D8BB0303D3D0702051F81825F91C89"
+      "size": 5401,
+      "sha256": "F918F8E3024DF509486A422FD1B68EEF81ACD99E693220DC083142CCE014FC14"
     },
     {
       "path": "docs/QA7_F006_UNINSTALL_CORRECTION.md",
@@ -116,13 +151,13 @@
     },
     {
       "path": "docs/QA_TEST_PLAN.md",
-      "size": 10757,
-      "sha256": "D517FBAC5105F1B4B9482B2F00914EBF5B7049D474E9311FBC9B33A60E68F665"
+      "size": 12989,
+      "sha256": "0FAE6455CF608DF41666AB0E65B493AF3421072EC877DC5F7E8D67C5BF023083"
     },
     {
       "path": "docs/RELEASE_NOTES.md",
-      "size": 1434,
-      "sha256": "E7763FA2386B66915FC120D0BB802D06B2BF874DC7845759E5A9F38063E275B0"
+      "size": 2491,
+      "sha256": "06BE96F22D7D99328D798C5669D9D1B94739FB87F24F47C6466251B36D76EF79"
     },
     {
       "path": "docs/UPDATE_CHECK_IMPLEMENTATION.md",
@@ -136,8 +171,8 @@
     },
     {
       "path": "docs/WHO_GETS_WHAT_NEXT.md",
-      "size": 1087,
-      "sha256": "95CAED790B1B31B1554A5F458E89C2DEC9E49CC423A8D96029347C509BC6A1DF"
+      "size": 1542,
+      "sha256": "13203644241752A8FCF0422EBF0083DB85BECB0196FE613FD2EE3C1FBB2370E2"
     },
     {
       "path": "LICENSE.txt",
@@ -166,23 +201,23 @@
     },
     {
       "path": "native/installer.cpp",
-      "size": 17083,
-      "sha256": "A5098E501B906EA15EEF9AE30E1096F576B1843D6C1187E377E6B813D3DF5363"
+      "size": 17092,
+      "sha256": "899B3271611DB21FBEEB0B326AE81321D10CDC960BF35F773B9FD4276213BB1D"
     },
     {
       "path": "native/launcher.cpp",
-      "size": 1253,
-      "sha256": "C982DB30A3B93EA2D7EA21FCEC01F55F44A63D0DC0EBF55B3695AED096072BCF"
+      "size": 1254,
+      "sha256": "942324F9A7009AD30DF47A1ABE76D77826081013DD86F19A588D7FA317CCADB4"
     },
     {
       "path": "native/uninstaller.cpp",
-      "size": 1396,
-      "sha256": "A5A5FF82DC4A9C6CCC2CC017D61886DA57A78E7171028A01C47DB304E64C1735"
+      "size": 1405,
+      "sha256": "054D814C4DF73DD82C982FD3050972C231ADFC4B82DC438D87CF23CDFDE8A57E"
     },
     {
       "path": "native/win_types.hpp",
-      "size": 5682,
-      "sha256": "7B87E37802412491AB76DC8AD97775CFCAC5FDF15A5A8BB397C1D07BBDE361C0"
+      "size": 6022,
+      "sha256": "7F08653DF9BE540387A1122AC995172E13CC695F4C4592558EC33C2BE53BADEB"
     },
     {
       "path": "pytest.ini",
@@ -191,13 +226,13 @@
     },
     {
       "path": "README_FIRST.md",
-      "size": 5815,
-      "sha256": "41E3C84D2024748572EA901670675FC88D2CE9F9E33000EE54ABB4565B84FE71"
+      "size": 1930,
+      "sha256": "6A90F92BE8C13E6F5774E366AB39B364F4651A157344C9AC1B6CA3D1B3ACEC30"
     },
     {
       "path": "SBOM.json",
       "size": 3096,
-      "sha256": "0075F91FA7848437245DB2D88D274B1FDAD9AF3B5E6BCC9D6676BF79AC4558D4"
+      "sha256": "FD12BB98120B39F78869302EE6FCEFC90E7E0FE2CF762E155B787441C4BD8692"
     },
     {
       "path": "src/app/actions/CleanupActions.psm1",
@@ -251,8 +286,8 @@
     },
     {
       "path": "src/app/checks/InstalledApps.psm1",
-      "size": 3196,
-      "sha256": "10C49F398B522D103F2F5969A0BCAC30B9108F609E9154295FD20B8435C04395"
+      "size": 4246,
+      "sha256": "A9EE906E9745B66C78CB484AA61BA2E927A9AF98FCB24A68644E2106C7773088"
     },
     {
       "path": "src/app/checks/NetworkBasics.psm1",
@@ -261,8 +296,8 @@
     },
     {
       "path": "src/app/checks/PerformanceSnapshot.psm1",
-      "size": 1918,
-      "sha256": "91EF047308264032AA96DE5477841725800B531CB9BADCE673A62042332D23A6"
+      "size": 3321,
+      "sha256": "954AC20704AF707298C09D01FC6F7A3ABE2DFE86922B53D809EB553B557B94C9"
     },
     {
       "path": "src/app/checks/SecurityStatus.psm1",
@@ -311,8 +346,8 @@
     },
     {
       "path": "src/app/core/CheckupEngine.psm1",
-      "size": 1567,
-      "sha256": "C14252F3161BC437CC23A743A401B2258FAFA78EB63871C11034BBAF76953E19"
+      "size": 7493,
+      "sha256": "BCBDC2725733460205F80DF585B164C2F01F71E59FDACD8D1B2726C3F5CB7C67"
     },
     {
       "path": "src/app/core/Configuration.psm1",
@@ -341,8 +376,8 @@
     },
     {
       "path": "src/app/core/RuntimeComposition.psm1",
-      "size": 14708,
-      "sha256": "9676CDF30513F911093F1E0DB51A42D59E6981C08692A06B2F88A8DF1968C873"
+      "size": 14901,
+      "sha256": "5E89BFBC6A70E7514D8CD85079B4040348329EC0D993CD6FE440E4D29FA4865B"
     },
     {
       "path": "src/app/health_rules/HealthRules.psm1",
@@ -357,7 +392,7 @@
     {
       "path": "src/app/NyxPCCheckup.ps1",
       "size": 6371,
-      "sha256": "EBFE9D4766A13B6840AF12F6F66F923AB70682A634C2DC63D63961B1179DBE82"
+      "sha256": "129D38D8E1EE6C7FFF964B6AC698C1443A82B9856257BCB162C3157ACDDF394A"
     },
     {
       "path": "src/app/platform/linux/CONTRACT.md",
@@ -371,8 +406,8 @@
     },
     {
       "path": "src/app/reports/PdfWriter.psm1",
-      "size": 3606,
-      "sha256": "9CC98FAD8281184C3B0D226311D1029AB0D2AED48C934E3C819ABC006CEDD646"
+      "size": 4231,
+      "sha256": "6A8D4BC8BCC3D967B1C9D7C7B6391CE958CE45AC2E1C9F1656C0F2CB72AFC2A0"
     },
     {
       "path": "src/app/reports/ReportExport.psm1",
@@ -381,18 +416,18 @@
     },
     {
       "path": "src/app/ui/Controls.psm1",
-      "size": 3823,
-      "sha256": "9A960A825E8F5D9B199ABF9185420362394E330141A124A5FCCE215EE59B57F5"
+      "size": 14664,
+      "sha256": "9319FDA87F200AA3EF68B3317CBE267B7DB67FCCB0BC5D4383A56E47322F6D15"
     },
     {
       "path": "src/app/ui/Dialogs.psm1",
-      "size": 5705,
-      "sha256": "8E314E80B1BE5787EA23E88A4010487E783D1FA1D0AC2B873FE5A7C77D909BBD"
+      "size": 5837,
+      "sha256": "1D31559BEBEC544C8CF665DCFAA1FEA53B11A90D077FBC1373825707322E0F5A"
     },
     {
       "path": "src/app/ui/MainWindow.psm1",
-      "size": 57215,
-      "sha256": "8DC2EFBA31756CE3B16E9090257378D1C160C4D6A4E71A074D1CAC338908A69E"
+      "size": 72099,
+      "sha256": "EDFB18A824FB6CA771FDCB3521172F49E3EEB356924ED1D8EF3F0CADD99BDA24"
     },
     {
       "path": "src/app/ui/Theme.psm1",
@@ -427,12 +462,12 @@
     {
       "path": "src/app/workers/InstallWorker.ps1",
       "size": 9588,
-      "sha256": "09E6AE5BE57E7D18CC803B21D8F4F67132B00733930D01CD0FC22427776ECF12"
+      "sha256": "A72299DA0293C774359C9E88A09A816D85114CA21E89831DA4938703E6381496"
     },
     {
       "path": "src/app/workers/ScanWorker.ps1",
-      "size": 7276,
-      "sha256": "5FECA4CDE9AAD310CDE53612DE4457B413BB84FA5A96DC9412E9890158EC58D3"
+      "size": 8950,
+      "sha256": "9AD1CBFDB62432135E9226F4855D29D4279054E3093D7152C0A2C8971B7DEC36"
     },
     {
       "path": "src/app/workers/UninstallWorker.ps1",
@@ -462,52 +497,122 @@
     {
       "path": "tests/powershell/InstallerDiagnosticsHelpers.ps1",
       "size": 10014,
-      "sha256": "A846E1C2F602E3D76AF60065337D21A12AEA3B88E45BBD4952685E1224BC700D"
+      "sha256": "EBB9E5EA1F73B2853A2A14C9C7859283C4F526210E9732E5A53EFB43DEB7572F"
     },
     {
       "path": "tests/powershell/Run-WindowsElevatedStartupRollback.ps1",
-      "size": 13596,
-      "sha256": "B65F3D5FEF971F5262D0F8B32A28A0A2D3979C25A511582A07C754E277EB97E4"
+      "size": 13602,
+      "sha256": "D4AAD06924A64B5624F38552DF5BF9294B98374184780EAED4FBD7B687BF1225"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsInstalledLaunchRegression.ps1",
+      "size": 28192,
+      "sha256": "6E85B1F87A1B60E4D26403B2FA4B3C8A16F98ED1ED097CA8BCADC8627ED2158D"
     },
     {
       "path": "tests/powershell/Run-WindowsInstallerLifecycle.ps1",
-      "size": 21486,
-      "sha256": "813B7D3B5E0C2EC13C086E9ACAA0EC5E1B26272E34CBC3D92E1AF0030FE3A504"
+      "size": 21492,
+      "sha256": "2F70BE882E87588DF3A8EEF75F953DFDE3A825E8FE18D05A43E0D92C2EF319DA"
     },
     {
       "path": "tests/powershell/Run-WindowsQA2MigrationRegression.ps1",
-      "size": 52710,
-      "sha256": "D47BFA8524C4DF7C4460E54BA8CF4582F8CBB09257EB47430F1980B31CCE4856"
+      "size": 52716,
+      "sha256": "6C053D4CC7D6591F49234C9DB895AF5175E06EDF017521757746BF5EC789E058"
+    },
+    {
+      "path": "tests/powershell/Run-WindowsSettingsThemeRegression.ps1",
+      "size": 7151,
+      "sha256": "E9E219CA73A30E06FDB68AC986F3520B71DE1568B835D0F3BF9B2B130813FC66"
     },
     {
       "path": "tests/powershell/Run-WindowsSmokeTests.ps1",
-      "size": 37594,
-      "sha256": "AFC7D1F6F1059719510DF7951FE80EA6171CC67466B261181DD510CB6E7042C3"
+      "size": 41518,
+      "sha256": "09B62A3F1088D8DD29A5CC734C6B113B0473BA2457F8BD801708814D1C2CA5EF"
     },
     {
-      "path": "tests/powershell/RUN_QA11_WINDOWS_GATE.ps1",
-      "size": 16456,
-      "sha256": "00FACA1949154C4C0049C37CF07C76A8F126F545F5B0DEAFE98D99523C77425F"
+      "path": "tests/powershell/RUN_QA15_WINDOWS_GATE.ps1",
+      "size": 16965,
+      "sha256": "313B1F267D1A74674B20B6AF80BC01C74072A196992A48B92CA6F37CFCC8EF3D"
+    },
+    {
+      "path": "tests/powershell/Test-QA16WindowBoundsGeometry.ps1",
+      "size": 2326,
+      "sha256": "FE1EF91702FA4818708C4013C5302FA74FF1DE9A285990B9C93FC3B5189A3250"
+    },
+    {
+      "path": "tests/powershell/Test-QA17DeviceGeometry.ps1",
+      "size": 1549,
+      "sha256": "227E1DDFF979D71C1B4A902361E106D7277BF183FDD66DF03694FE48B96E048F"
+    },
+    {
+      "path": "tests/powershell/Test-QA18StartupDeferredState.ps1",
+      "size": 6845,
+      "sha256": "C4458E1C05C02BF9B11DB4B3AEF44D8C34E482D2B1EFA5544CE5390341DCA6D1"
+    },
+    {
+      "path": "tests/powershell/Test-QA19ProgressConcurrency.ps1",
+      "size": 6149,
+      "sha256": "C609803F49576D3FDD945453D881D615F71E3FBBA45CA2BB7247400103528FA3"
+    },
+    {
+      "path": "tests/powershell/Test-QA20PropertyGuards.ps1",
+      "size": 4678,
+      "sha256": "A04EE11366F8734C4C5382FB55E1CBCBF1C2A53A1ADE40AE9E4C400DA415403D"
+    },
+    {
+      "path": "tests/powershell/Test-QA21RegistryProvider.ps1",
+      "size": 5426,
+      "sha256": "A198E15B97A089FC17B86F069E7021359EB73B04519A355693415D77510DE6AC"
+    },
+    {
+      "path": "tests/powershell/Test-QA22CategoryCardinality.ps1",
+      "size": 5828,
+      "sha256": "CABEC38EA07E40B128D2F082B3E5E0FDA450889AABE3B85412C52E111F9F840A"
+    },
+    {
+      "path": "tests/powershell/Test-QA23GridFocusVisibility.ps1",
+      "size": 6254,
+      "sha256": "DF862D33BB3CBD51376848C4A05985182D7443DDF28CA909C2F9537287D4B9AA"
+    },
+    {
+      "path": "tests/powershell/Test-QA24DeferredPages.ps1",
+      "size": 12114,
+      "sha256": "C0AFDA78686B92E31FFE13152D87E5DBB8D4A799A533C4A82BE86633F6A2A13D"
+    },
+    {
+      "path": "tests/powershell/Test-QA25AppsColumnReadability.ps1",
+      "size": 7638,
+      "sha256": "6E9B873EA9B48C9B247050C7B859E6957A0BD84BBC92C9A5CC0EE5A53C9AB40C"
+    },
+    {
+      "path": "tests/powershell/Test-QA26ResultKeyboardActivation.ps1",
+      "size": 10795,
+      "sha256": "8E9742F324825D8933908D339293835E9398754F2A1A5D98E2F7CCCF77715355"
+    },
+    {
+      "path": "tests/powershell/Test-QA27PdfExportBlankLines.ps1",
+      "size": 8175,
+      "sha256": "B2532435186F85AB68FAEE18D1ED841C61D07F23E014BBE778F5C9E1B3744E85"
     },
     {
       "path": "tests/test_engineering_contracts.py",
-      "size": 44018,
-      "sha256": "D88669D2674F7D4DE368C7094E3A37AD4A4C0A43A2E9FA0892574DB6126B38C4"
+      "size": 44207,
+      "sha256": "93D8876A334863AD503E4F579684E777F9E4364445D276BF64DB6C3017CD80EF"
     },
     {
       "path": "tests/test_installer_branch_diagnostics.py",
-      "size": 3471,
-      "sha256": "76DED196A5D4EE7106E686FFCE3E6C7206BBA6CF0378E2DE4429BF35549AB43C"
+      "size": 3477,
+      "sha256": "9BADA5B49BBCD29A0877E370F3B51E78C40A52B4318906AB4CA16268EFC03123"
     },
     {
       "path": "tests/test_powershell51_generic_list_compatibility.py",
-      "size": 4524,
-      "sha256": "1EC145A3A622EA182F5608C46B80994C8C92128E27EE11A96F86F6CDA9809109"
+      "size": 4680,
+      "sha256": "A2EA86B76B535879C8CC0609FC06DB4AFDBE69AA6A86A9C6A25D256F1DD9B258"
     },
     {
       "path": "tests/test_powershell51_module_composition.py",
       "size": 4655,
-      "sha256": "CB321369B835FCE0EDC9738F84C09BBC23BEE8D28AC71CE2606431E8B336404F"
+      "sha256": "D31B9DCE0D8E67A0D82E634E63769B75DBD1C507A8D2F677FAD786082C762C77"
     },
     {
       "path": "tests/test_powershell51_parser_safety.py",
@@ -521,8 +626,58 @@
     },
     {
       "path": "tests/test_qa10_f009_ui_close_cleanup.py",
-      "size": 3851,
-      "sha256": "85501A9BC50E4E8BD890DC579EE3C7CCA9C115CAD3343CF1C45249BC2E8E0EBC"
+      "size": 3857,
+      "sha256": "37FC35E7E7D9F33E0935B1855DE01583F9D6761841E944FAFF44E19863EAFCA4"
+    },
+    {
+      "path": "tests/test_qa11_f010_persisted_scan_validation.py",
+      "size": 2586,
+      "sha256": "A2E7C2AA306A6CB7C77D2981D1C2690E257EDF5084039EA0290D4F0968DC5FFD"
+    },
+    {
+      "path": "tests/test_qa14_f011_installed_launch.py",
+      "size": 5742,
+      "sha256": "304E9D43303B3ED9746CD162D1AD1CA58C2A81FF8467B4CCB1CDB73C20899CDD"
+    },
+    {
+      "path": "tests/test_qa15_f012_settings_theme_save.py",
+      "size": 2557,
+      "sha256": "257FF26DD517B506F1ED510DBA3CFC97089A49E95F1A1D234DC60595F04FF9C3"
+    },
+    {
+      "path": "tests/test_qa18_f015_startup_state.py",
+      "size": 2195,
+      "sha256": "CB4F09F64FAE58D05ECAA758CD989E0CE38964584C28A409A896A8DE1066D896"
+    },
+    {
+      "path": "tests/test_qa19_f016_progress_concurrency.py",
+      "size": 1698,
+      "sha256": "96CB66C9CF114896B3D85DEADFF285B06E94512512B0154A6D263029B306CF53"
+    },
+    {
+      "path": "tests/test_qa22_f019_category_cardinality.py",
+      "size": 1359,
+      "sha256": "4EA58AF43F9EDA09AA31F87E3A01E9D7260A69547DE418DD0DB7FB6FB30B3980"
+    },
+    {
+      "path": "tests/test_qa23_f020_grid_focus.py",
+      "size": 2248,
+      "sha256": "0C37ADFD0AE70642627AF88FAD25AF51E0DDDB389965DB2938C8F2C5271E6867"
+    },
+    {
+      "path": "tests/test_qa24_f021_deferred_pages.py",
+      "size": 2635,
+      "sha256": "823496A76CCA7F2FC360B823D405250B731476723628F6139D5E46A96B8B03D5"
+    },
+    {
+      "path": "tests/test_qa25_f022_apps_columns.py",
+      "size": 1968,
+      "sha256": "0F286C0BE6F6436A4CF3558CF962103944AAFDFBD6C899B4E27AE350778C17A4"
+    },
+    {
+      "path": "tests/test_qa26_f023_grid_actions.py",
+      "size": 1656,
+      "sha256": "29F3F2AE8A77297D55367F0E9A7E0040C69684F5C49B3C7B88C2D6F241CECB33"
     },
     {
       "path": "tests/test_qa2_migration_reference.py",
@@ -531,13 +686,13 @@
     },
     {
       "path": "tests/test_qa8_f007_empty_collection.py",
-      "size": 2315,
-      "sha256": "5714EAD100883F3B55F8ECE57FC29AD474E97F81CBCC44793934CB4D4E6BBF61"
+      "size": 2321,
+      "sha256": "BCA050170D738E39578778445BD0648A9AE1FA5D64411051788ADE0DF2478ACD"
     },
     {
       "path": "tests/test_qa9_f008_ui_responsiveness.py",
-      "size": 4799,
-      "sha256": "819ED13660662A81811BDD384415FDA11D3BD7E3291F6C7832D1DCB460E4BCF4"
+      "size": 4874,
+      "sha256": "0711D344056D9067CCAA71F8E06E7927802B46252E9B35DA6419CF5EE9075124"
     },
     {
       "path": "tests/test_qa9_wh004_harness_correction.py",
@@ -575,9 +730,14 @@
       "sha256": "2DEB1282D7D344A0D2B71F888D242801A17132C1E187658D8E9C02B20D35538F"
     },
     {
+      "path": "tools/build_qa27_candidate.py",
+      "size": 1835,
+      "sha256": "74000DCA194A800A7364774A00C86CDE5D0A41B872C404B94C5BF1F6B10602B3"
+    },
+    {
       "path": "tools/build_release.py",
-      "size": 100089,
-      "sha256": "92E9699488E2F22B6A151F163EDCF8ADC4CFCBD5AC736DF72F6796C04F8443D6"
+      "size": 100321,
+      "sha256": "8F66B384D97C51E885E909524CCC59C7BC1EEAFB7B58366201D41E4798755272"
     },
     {
       "path": "tools/ps_lint.py",
@@ -585,9 +745,14 @@
       "sha256": "0BD7C5B56E20882E7AEACC55A0151021541B78B6F531606A03E2E0A8A72DCAC1"
     },
     {
+      "path": "tools/verify_f024_pdfs.py",
+      "size": 3261,
+      "sha256": "AADCB9696AC912B72F9E629AE8313E51B7434B5A5A355BFCA2C09E182A69FF96"
+    },
+    {
       "path": "VERSION.json",
       "size": 305,
-      "sha256": "B70D4970CBD63CBC3F6BFA94595DE18DC11B275DED24BE26319E31B7864BDEA7"
+      "sha256": "73D245FA794DC1B6EE4514DEFC3437E4D815670472BC4D8EA150FC727FCD5CFF"
     }
   ]
 }

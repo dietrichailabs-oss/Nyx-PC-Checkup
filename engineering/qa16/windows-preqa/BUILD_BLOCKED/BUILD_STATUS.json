@@ -1,0 +1,36 @@
+{
+  "Build": "2026.09.26-eng-qa16",
+  "Harness": "QA16-F013-PS51-16",
+  "Status": "BLOCKED",
+  "Blocker": "Four build-contract checks failed because successor documentation still references QA15 build/harness identities",
+  "ProductDefectEstablished": false,
+  "PythonPassed": 191,
+  "PythonFailed": 4,
+  "NativeF013": "NOT RUN",
+  "Standard": "NOT RUN",
+  "Elevated": "NOT RUN",
+  "F010": "NOT RUN",
+  "F011": "NOT RUN",
+  "F012": "NOT RUN",
+  "F008": "NOT RUN",
+  "QA15ArtifactsRebuilt": false,
+  "ReleaseAuthorized": false,
+  "Artifacts": [
+    {
+      "Filename": "Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "Bytes": 535040,
+      "SHA256": "AE9367F3BF8BD15A6D805EE1D03CB2C91F307819BEE8D3E8A15C12C7B0831F8D"
+    },
+    {
+      "Filename": "Nyx_PC_Checkup_1.0.0_Portable.zip",
+      "Bytes": 214008,
+      "SHA256": "581506A1DDE06186758BDECB3AD7C45BE8990A82DC0FE7B25876E17D7761BD33"
+    },
+    {
+      "Filename": "Nyx_PC_Checkup_1.0.0_Source.zip",
+      "Bytes": 754782,
+      "SHA256": "CA51E2D15A07360EFCB0384FCD2F1A94EE3A7227CDEBB4FE0076A749CBCDDE5C"
+    }
+  ],
+  "RequiredNextStep": "Correct successor documentation consistency with explicit approval, then create and validate a newly identified build. Do not treat these interim artifacts as a qualified candidate."
+}

@@ -1,0 +1,669 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.f010-cancel-relaunch-matrix.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "HarnessRevision":  "QA11-F010-PS51-12-RETAINED-QA15-INPUT",
+    "Passed":  true,
+    "Results":  [
+                    {
+                        "Name":  "Cancel immediately after Full Check starts launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=9864",
+                        "CapturedUtc":  "2026-09-02T20:34:18.2586034Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel immediately after Full Check starts",
+                        "CapturedUtc":  "2026-09-02T20:34:19.3351725Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:34:19.3351725Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T20:34:23.0752028Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:34:24.0996620Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T20:34:24.0996620Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T20:34:24.2102336Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=0",
+                        "CapturedUtc":  "2026-09-02T20:34:24.2259484Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:34:24.2259484Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=1",
+                        "CapturedUtc":  "2026-09-02T20:34:42.4741144Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:34:43.2902277Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=2",
+                        "CapturedUtc":  "2026-09-02T20:34:58.5088672Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:34:59.3251676Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=8124",
+                        "CapturedUtc":  "2026-09-02T20:35:03.5097915Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during an early check",
+                        "CapturedUtc":  "2026-09-02T20:35:04.5713329Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "CheckStarted",
+                        "CapturedUtc":  "2026-09-02T20:35:07.0908163Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T20:35:10.8162546Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:35:11.6312852Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T20:35:11.6312852Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T20:35:11.6312852Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=1",
+                        "CapturedUtc":  "2026-09-02T20:35:11.6312852Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:35:11.6312852Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=3",
+                        "CapturedUtc":  "2026-09-02T20:35:26.8527347Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:35:27.6574926Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=4",
+                        "CapturedUtc":  "2026-09-02T20:35:43.8955273Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:35:44.7081118Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=9708",
+                        "CapturedUtc":  "2026-09-02T20:35:48.8938639Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during Windows Update/security work",
+                        "CapturedUtc":  "2026-09-02T20:35:49.9388390Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "(?i)(windows.?update|security|defender|firewall)",
+                        "CapturedUtc":  "2026-09-02T20:35:52.6190968Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T20:35:55.9359564Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:35:56.7500158Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T20:35:56.7500158Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T20:35:56.7500158Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=4",
+                        "CapturedUtc":  "2026-09-02T20:35:56.7500158Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:35:56.7500158Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=1",
+                        "CapturedUtc":  "2026-09-02T20:36:11.9898263Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:36:12.8059371Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=2",
+                        "CapturedUtc":  "2026-09-02T20:36:28.0401644Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:36:28.8465190Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=8448",
+                        "CapturedUtc":  "2026-09-02T20:36:32.8838532Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during storage/profile enumeration",
+                        "CapturedUtc":  "2026-09-02T20:36:33.9025710Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "(?i)(storage|profile)",
+                        "CapturedUtc":  "2026-09-02T20:36:36.5839152Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T20:36:40.0262136Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:36:40.8397755Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T20:36:40.8397755Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T20:36:40.8397755Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=4",
+                        "CapturedUtc":  "2026-09-02T20:36:40.8397755Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:36:40.8397755Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=3",
+                        "CapturedUtc":  "2026-09-02T20:36:57.0516605Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:36:57.8653325Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=4",
+                        "CapturedUtc":  "2026-09-02T20:37:14.1067444Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:37:14.9181233Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=2912",
+                        "CapturedUtc":  "2026-09-02T20:37:19.1337565Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during Downloads analysis",
+                        "CapturedUtc":  "2026-09-02T20:37:20.1962055Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "(?i)downloads?",
+                        "CapturedUtc":  "2026-09-02T20:37:31.6965270Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T20:37:35.3856063Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:37:36.1856309Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T20:37:36.1856309Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T20:37:36.1856309Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=16",
+                        "CapturedUtc":  "2026-09-02T20:37:36.1856309Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:37:36.1856309Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=1",
+                        "CapturedUtc":  "2026-09-02T20:37:52.4148943Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:37:53.2190229Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=2",
+                        "CapturedUtc":  "2026-09-02T20:38:09.4561258Z"
+                    },
+                    {
+                        "Name":  "Cancel during Downloads analysis immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:38:10.2704816Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=2060",
+                        "CapturedUtc":  "2026-09-02T20:38:14.4508715Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during Cleanup preview",
+                        "CapturedUtc":  "2026-09-02T20:38:15.5036916Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "(?i)cleanup",
+                        "CapturedUtc":  "2026-09-02T20:38:27.3216145Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T20:38:31.0668730Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:38:31.8815119Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\WDAGUtilityAccount\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T20:38:31.8815119Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T20:38:31.8815119Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=17",
+                        "CapturedUtc":  "2026-09-02T20:38:31.8815119Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:38:31.8815119Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=3",
+                        "CapturedUtc":  "2026-09-02T20:38:48.0896434Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:38:48.9029919Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=4",
+                        "CapturedUtc":  "2026-09-02T20:39:05.1201090Z"
+                    },
+                    {
+                        "Name":  "Cancel during Cleanup preview immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:05.9325289Z"
+                    },
+                    {
+                        "Name":  "Malformed state: invalid JSON does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"invalid JSON\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":false,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:11.1123022Z"
+                    },
+                    {
+                        "Name":  "Malformed state invalid JSON leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:11.9273642Z"
+                    },
+                    {
+                        "Name":  "Malformed state: wrong or unsupported Schema does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"wrong or unsupported Schema\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:16.0455495Z"
+                    },
+                    {
+                        "Name":  "Malformed state wrong or unsupported Schema leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:16.8571150Z"
+                    },
+                    {
+                        "Name":  "Malformed state: missing Results does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"missing Results\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":false,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:20.9462143Z"
+                    },
+                    {
+                        "Name":  "Malformed state missing Results leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:21.7592885Z"
+                    },
+                    {
+                        "Name":  "Malformed state: Results null does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"Results null\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":false,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:26.8455925Z"
+                    },
+                    {
+                        "Name":  "Malformed state Results null leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:27.6600933Z"
+                    },
+                    {
+                        "Name":  "Malformed state: empty Results does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"empty Results\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":false,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:32.7823062Z"
+                    },
+                    {
+                        "Name":  "Malformed state empty Results leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:33.5951952Z"
+                    },
+                    {
+                        "Name":  "Malformed state: result missing Status does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"result missing Status\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:38.6835165Z"
+                    },
+                    {
+                        "Name":  "Malformed state result missing Status leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:39.4986977Z"
+                    },
+                    {
+                        "Name":  "Malformed state: result missing Category does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"result missing Category\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:44.5869202Z"
+                    },
+                    {
+                        "Name":  "Malformed state result missing Category leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:45.4032844Z"
+                    },
+                    {
+                        "Name":  "Malformed state: result missing CheckId does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"result missing CheckId\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:50.4917513Z"
+                    },
+                    {
+                        "Name":  "Malformed state result missing CheckId leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:51.3074769Z"
+                    },
+                    {
+                        "Name":  "Malformed state: result missing Finding does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"result missing Finding\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:39:55.4150066Z"
+                    },
+                    {
+                        "Name":  "Malformed state result missing Finding leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:39:56.2251274Z"
+                    },
+                    {
+                        "Name":  "Malformed state: result missing Reason does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"result missing Reason\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:40:00.2953375Z"
+                    },
+                    {
+                        "Name":  "Malformed state result missing Reason leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:40:01.1078958Z"
+                    },
+                    {
+                        "Name":  "Malformed state: result missing Recommendation does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"result missing Recommendation\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:40:05.1874635Z"
+                    },
+                    {
+                        "Name":  "Malformed state result missing Recommendation leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:40:05.9996011Z"
+                    },
+                    {
+                        "Name":  "Malformed state: result missing Complete does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"result missing Complete\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:40:10.0914164Z"
+                    },
+                    {
+                        "Name":  "Malformed state result missing Complete leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:40:10.9058638Z"
+                    },
+                    {
+                        "Name":  "Malformed state: unsupported Status value does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"unsupported Status value\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:40:15.9959108Z"
+                    },
+                    {
+                        "Name":  "Malformed state unsupported Status value leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:40:16.7967656Z"
+                    },
+                    {
+                        "Name":  "Malformed state: cancelled scan with zero valid results does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"cancelled scan with zero valid results\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":false,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:40:21.8904226Z"
+                    },
+                    {
+                        "Name":  "Malformed state cancelled scan with zero valid results leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:40:22.7052141Z"
+                    },
+                    {
+                        "Name":  "Malformed state: valid partial scan does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"valid partial scan\",\"Passed\":true,\"ExpectedUsable\":true,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:40:27.7963844Z"
+                    },
+                    {
+                        "Name":  "Malformed state valid partial scan leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:40:28.6118370Z"
+                    },
+                    {
+                        "Name":  "Malformed state: older unsupported scan shape does not crash application",
+                        "Passed":  true,
+                        "Details":  "{\"Name\":\"older unsupported scan shape\",\"Passed\":true,\"ExpectedUsable\":false,\"ObservedPersistedShapeUsable\":true,\"ExitCode\":0}",
+                        "CapturedUtc":  "2026-09-02T20:40:33.6994197Z"
+                    },
+                    {
+                        "Name":  "Malformed state older unsupported scan shape leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T20:40:34.5143409Z"
+                    }
+                ],
+    "CompletedUtc":  "2026-09-02T20:40:34.5143409Z"
+}

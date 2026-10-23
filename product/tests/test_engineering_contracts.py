@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "src" / "app"
 DIST = ROOT / "dist"
 STAGE = ROOT / "release_staging" / "Nyx_PC_Checkup_1.0.0_Portable"
-BUILD_ID = "2026.08.27-eng-qa11"
+BUILD_ID = "2026.10.19-eng-qa27"
 
 EXPECTED_MODULES = {
     "core/Models.psm1",
@@ -275,7 +275,8 @@ def test_all_users_startup_entries_are_read_only_and_never_elevate() -> None:
     assert "Status 'ReadOnly'" in actions
     assert "CanModify=$editable" in checks
     assert "All-users startup entries are displayed read-only in Version 1" in checks
-    assert "$disable.Enabled=([bool]$app.Enabled -and [bool]$app.CanModify)" in ui
+    assert "$State.Disable.Enabled=([bool]$app.Enabled -and [bool]$app.CanModify)" in ui
+    assert "$State.Enable.Enabled=(-not [bool]$app.Enabled -and [bool]$app.CanModify)" in ui
     assert "never trigger elevation" in ui
 
 
@@ -381,7 +382,7 @@ def test_uninstall_final_cleanup_uses_safe_external_cwd_and_fails_observably() -
     worker = text(APP / "workers" / "UninstallWorker.ps1")
     assert 'nyx_wcopy(safeCwd,systemRoot,1024)' in native
     assert 'nyx_wcat(safeCwd,L"\\\\System32",1024)' in native
-    assert "nyx_run(ps,cmd,safeCwd,TRUE)" in native
+    assert "nyx_run_hidden_worker(ps,cmd,safeCwd)" in native
     assert "nyx_run(ps,cmd,root,TRUE)" not in native
     for token in [
         "$safeWorkingDirectory",
@@ -561,9 +562,10 @@ def test_update_preferences_are_in_existing_configuration_system() -> None:
     assert "another settings database" not in all_runtime_source().lower()
 
 
-def test_update_ui_has_weekly_setting_manual_action_and_nonblocking_worker() -> None:
+def test_update_ui_has_setting_without_weekly_promise_and_nonblocking_worker() -> None:
     ui = text(APP / "ui" / "MainWindow.psm1")
-    assert "Automatically check for updates once a week" in ui
+    assert "Automatically check for updates once a week" not in ui
+    assert "optional weekly update check" not in ui
     assert "Check for Updates Now" in ui
     assert "Start-NyxUpdateCheck -Manual" in ui
     assert "$form.Add_Shown({" in ui
@@ -747,7 +749,7 @@ def test_builder_resolves_local_toolchain_and_copies_all_tests() -> None:
     assert "NYX_CLANG" in builder and "NYX_LLD_LINK" in builder
     assert "/usr/local/swift/usr/bin" not in builder
     assert "for path in iter_files(ROOT / \"tests\")" in builder
-    assert "Nyx_PC_Checkup_1.0.0_Engineering_QA11_Corrected_Master_Handoff.zip" in builder
+    assert "Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff.zip" in builder
     assert '"automaticUpdaterImplemented": False' in builder
     assert '"websiteManifestDeployedByEngineering": False' in builder
 
@@ -837,7 +839,7 @@ def test_qa4_windows_harness_correction_is_documented_and_build_gated() -> None:
         "D34BA21D369B72CD03A7EE7105C7CB5838D5650456D19616C507590877C371F1",
         "22CB1C4A81BB24B532B90918F14CB268C58586A96AF9FAAB8652820F64D520C7",
         "Argument types do not match",
-        "QA11-PS51-8",
+        "QA27-F024-PS51-27",
         "ToArray()",
         "new product candidate",
     ]:
@@ -867,8 +869,8 @@ def test_qa5_native_windows_failures_are_documented_and_build_gated() -> None:
         "QA5-ORCH-001",
         "QA5-ENC-001",
         "automatic-variable collision",
-        "QA11-PS51-8",
-        "RUN_QA11_WINDOWS_GATE.ps1",
+        "QA27-F024-PS51-27",
+        "RUN_QA15_WINDOWS_GATE.ps1",
     ]:
         assert token.lower() in matrix.lower()
         assert token.lower() in readme.lower()
@@ -897,7 +899,7 @@ def test_qa6_native_module_composition_failure_is_documented_and_build_gated() -
         "QA6-F-005",
         "New-NyxCheckResult",
         "RuntimeComposition.psm1",
-        "QA11-PS51-8",
+        "QA27-F024-PS51-27",
         "HarnessInferenceFromImmutableQA2Source",
     ]:
         assert token.lower() in matrix.lower()
@@ -977,12 +979,12 @@ def test_exact_qa2_fixture_files_are_copied_as_tests_not_runtime_payload() -> No
 
 def test_qa7_handoff_exposes_manifest_bound_root_windows_runner() -> None:
     builder = text(ROOT / "tools" / "build_release.py")
-    runner = text(ROOT / "tests" / "powershell" / "RUN_QA11_WINDOWS_GATE.ps1")
+    runner = text(ROOT / "tests" / "powershell" / "RUN_QA15_WINDOWS_GATE.ps1")
     readme = text(ROOT / "README_FIRST.md")
-    assert 'HANDOFF / "RUN_QA11_WINDOWS_GATE.ps1"' in builder
-    assert 'root + "RUN_QA11_WINDOWS_GATE.ps1"' in builder
-    assert "QA11_WINDOWS_PARSE_PREFLIGHT.json" in runner
+    assert 'HANDOFF / "RUN_QA15_WINDOWS_GATE.ps1"' in builder
+    assert 'root + "RUN_QA15_WINDOWS_GATE.ps1"' in builder
+    assert "QA15_WINDOWS_PARSE_PREFLIGHT.json" in runner
     assert "ExpectedReportPath" in runner
     assert "ReportValidationError" in runner
     assert "Harness report verdict is FAIL" in runner
-    assert '-File ".\\RUN_QA11_WINDOWS_GATE.ps1"' in readme
+    assert '-File ".\\RUN_QA15_WINDOWS_GATE.ps1"' in readme

@@ -1,0 +1,189 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa15-f008-final-ui.v1",
+    "Passed":  false,
+    "Complete":  false,
+    "Configuration":  "Mandatory constrained 150 percent session",
+    "Screen":  "2033x1112",
+    "Dpi":  "96,96",
+    "EffectiveResolution":  "2033x1112",
+    "CheckPass":  33,
+    "CheckFail":  2,
+    "Checks":  [
+                   {
+                       "Name":  "Exact GitHub QA15 handoff identity",
+                       "Passed":  true,
+                       "Details":  "AFD5F37CB5DBA78BC69F65535AF181F5E2CEBCC6DAFF2864951D0A48E2CD3D8F"
+                   },
+                   {
+                       "Name":  "Setup identity unchanged",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Portable identity unchanged",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Source identity unchanged",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Exact Setup installs successfully",
+                       "Passed":  true,
+                       "Details":  "ExitCode=0"
+                   },
+                   {
+                       "Name":  "Installed desktop shortcut exists",
+                       "Passed":  true,
+                       "Details":  "C:\\Users\\WDAGUtilityAccount\\Desktop\\Nyx PC Checkup.lnk"
+                   },
+                   {
+                       "Name":  "Mandatory 150 percent scaling active",
+                       "Passed":  false,
+                       "Details":  "DPI=96"
+                   },
+                   {
+                       "Name":  "Mandatory constrained effective width is 1366",
+                       "Passed":  false,
+                       "Details":  "Effective=2033 x 1112"
+                   },
+                   {
+                       "Name":  "Installed shortcut launches real visible UI",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Save Follow Windows has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Close after Follow Windows save leaves no resident process",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Relaunch after Follow Windows save",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Follow Windows remains selected after relaunch",
+                       "Passed":  true,
+                       "Details":  "Selected=FollowWindows"
+                   },
+                   {
+                       "Name":  "Save Dark has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Close after Dark save leaves no resident process",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Relaunch after Dark save",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Dark remains selected after relaunch",
+                       "Passed":  true,
+                       "Details":  "Selected=Dark"
+                   },
+                   {
+                       "Name":  "Save Light has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Close after Light save leaves no resident process",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Relaunch after Light save",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Light remains selected after relaunch",
+                       "Passed":  true,
+                       "Details":  "Selected=Light"
+                   },
+                   {
+                       "Name":  "Repeated Save 1 has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Repeated Save 2 has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Repeated Save 3 has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Theme notifications and automatic updates save together",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Navigate away return then Save works",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Resize before saving works",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Tab and Shift+Tab expose visible focus",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Save settings activates from keyboard",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Quick Check starts without unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Full Check exposes enabled Cancel",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Full Check cancel has no unhandled exception",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Final constrained UI close leaves no resident process",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Immediate final relaunch works",
+                       "Passed":  true,
+                       "Details":  ""
+                   },
+                   {
+                       "Name":  "Immediate relaunch close leaves no resident process",
+                       "Passed":  true,
+                       "Details":  ""
+                   }
+               ],
+    "CandidateModified":  false
+}

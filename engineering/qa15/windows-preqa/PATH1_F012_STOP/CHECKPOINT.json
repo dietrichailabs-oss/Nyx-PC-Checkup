@@ -1,0 +1,32 @@
+{
+  "status": "HOLD",
+  "classification": "F012_REGRESSION_FAILURE",
+  "build": "2026.09.01-eng-qa15",
+  "candidate": "QA15-F012-PS51-15",
+  "harnessCorrectionRevision": "QA15-F011-PATH-1",
+  "candidateHashes": {
+    "setupSha256": "B4F082A79D76E2A7E9452B2717D87698ED136E4D10CFF2D4232DB6E0BF02CD80",
+    "portableSha256": "6262B9EF383BA3C6AAF0D7BF192B7104EA0CBB3C9799DF55EA30F44A005A370A",
+    "sourceSha256": "E9D426CDCEB554AC071532C6079F421B47558A537A037CDC221958945E2AD62B",
+    "sourceTreeSha256": "CC58B192CD27F286A041B67510BAF4C7D2097F996D0206DEAE4906BC555A11A0"
+  },
+  "standard": {
+    "passed": true,
+    "smoke": "122/122",
+    "privilegeRollback": "12/12",
+    "migration": "244/244",
+    "installerLifecycle": "44/44",
+    "installedLaunchF011": "39/39"
+  },
+  "f012": {
+    "passed": false,
+    "total": 17,
+    "passedCount": 16,
+    "failedCount": 1,
+    "failedCheck": "F-012 saving Settings preserves unrelated update timestamp",
+    "detail": "08/31/2026 20:00:00"
+  },
+  "subsequentPhasesRun": false,
+  "productBytesChanged": false,
+  "independentQaPassClaimed": false
+}

@@ -1,0 +1,262 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.f010-cancel-relaunch-matrix.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "HarnessRevision":  "QA15-F010-RETAINED-1",
+    "Passed":  false,
+    "Error":  "System.Management.Automation.RuntimeException: Cancel during storage/profile enumeration reaches requested timing boundary failed: (?i)(storage|profile)",
+    "Results":  [
+                    {
+                        "Name":  "Cancel immediately after Full Check starts launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=9792",
+                        "CapturedUtc":  "2026-09-02T21:34:43.3574292Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel immediately after Full Check starts",
+                        "CapturedUtc":  "2026-09-02T21:34:44.2465875Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:34:44.2465875Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T21:34:47.8678367Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:34:48.7755407Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T21:34:48.7755407Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T21:34:48.8071504Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=0",
+                        "CapturedUtc":  "2026-09-02T21:34:48.8071504Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:34:48.8228295Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=1",
+                        "CapturedUtc":  "2026-09-02T21:35:07.9836013Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:35:08.8091256Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=2",
+                        "CapturedUtc":  "2026-09-02T21:35:22.9404086Z"
+                    },
+                    {
+                        "Name":  "Cancel immediately after Full Check starts immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:35:23.7679281Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=2964",
+                        "CapturedUtc":  "2026-09-02T21:35:25.7518503Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during an early check",
+                        "CapturedUtc":  "2026-09-02T21:35:26.5575162Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "CheckStarted",
+                        "CapturedUtc":  "2026-09-02T21:35:27.1895101Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T21:35:30.8993190Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:35:31.7305284Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T21:35:31.7305284Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T21:35:31.7305284Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=1",
+                        "CapturedUtc":  "2026-09-02T21:35:31.7305284Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:35:31.7305284Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=3",
+                        "CapturedUtc":  "2026-09-02T21:35:44.8243767Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:35:45.6567458Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=4",
+                        "CapturedUtc":  "2026-09-02T21:35:58.7888647Z"
+                    },
+                    {
+                        "Name":  "Cancel during an early check immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:35:59.6254940Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=7744",
+                        "CapturedUtc":  "2026-09-02T21:36:01.6135289Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during Windows Update/security work",
+                        "CapturedUtc":  "2026-09-02T21:36:02.4234032Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work reaches requested timing boundary",
+                        "Passed":  true,
+                        "Details":  "(?i)(windows.?update|security|defender|firewall)",
+                        "CapturedUtc":  "2026-09-02T21:36:04.1541436Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work cancelled close exits 0",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0",
+                        "CapturedUtc":  "2026-09-02T21:36:07.8399794Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work cancelled close leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:36:08.6678952Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work persists last-scan.json",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\mark\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json",
+                        "CapturedUtc":  "2026-09-02T21:36:08.6678952Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work persists a Results collection",
+                        "Passed":  true,
+                        "Details":  "Results property is present",
+                        "CapturedUtc":  "2026-09-02T21:36:08.6678952Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work retained result count recorded",
+                        "Passed":  true,
+                        "Details":  "Count=5",
+                        "CapturedUtc":  "2026-09-02T21:36:08.6678952Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work retained Results satisfy current schema",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:36:08.6678952Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch one renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=1",
+                        "CapturedUtc":  "2026-09-02T21:36:21.7814972Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch one leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:36:22.6213798Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch two renders Home and Checkup through real acceptance probe",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0;Slot=2",
+                        "CapturedUtc":  "2026-09-02T21:36:35.7828285Z"
+                    },
+                    {
+                        "Name":  "Cancel during Windows Update/security work immediate relaunch two leaves no resident Nyx process",
+                        "Passed":  true,
+                        "Details":  "",
+                        "CapturedUtc":  "2026-09-02T21:36:36.6148034Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration launch exposes main window",
+                        "Passed":  true,
+                        "Details":  "Pid=9200",
+                        "CapturedUtc":  "2026-09-02T21:36:38.5033202Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration exposes enabled Cancel scan",
+                        "Passed":  true,
+                        "Details":  "Cancel during storage/profile enumeration",
+                        "CapturedUtc":  "2026-09-02T21:36:39.3120020Z"
+                    },
+                    {
+                        "Name":  "Cancel during storage/profile enumeration reaches requested timing boundary",
+                        "Passed":  false,
+                        "Details":  "(?i)(storage|profile)",
+                        "CapturedUtc":  "2026-09-02T21:38:09.4401310Z"
+                    }
+                ],
+    "CompletedUtc":  "2026-09-02T21:38:09.4586453Z"
+}

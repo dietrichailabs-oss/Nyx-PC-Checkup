@@ -64,4 +64,9 @@ Independent QA must continue rerunning:
 
 ## Current QA11 carry-forward
 
-This historical correction remains mandatory under active harness revision `QA11-PS51-8` and root runner `RUN_QA11_WINDOWS_GATE.ps1`.
+This historical correction remains mandatory under active harness revision `QA25-F022-PS51-25` and root runner `RUN_QA15_WINDOWS_GATE.ps1`.
+
+
+## Current successor identity (QA26)
+
+Historical candidate identities above remain unchanged. The current successor build is 2026.10.02-eng-qa26; its active harness is QA26-F023-PS51-26. QA25 remains frozen; native successor acceptance is required.

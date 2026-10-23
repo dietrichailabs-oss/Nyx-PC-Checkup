@@ -1,0 +1,120 @@
+{
+  "Schema": "dietrich-ai-labs.nyx-pc-checkup.qa14-f008-matrix.v1",
+  "Build": "2026.08.30-eng-qa14",
+  "HarnessRevision": "QA14-F011-PS51-14",
+  "Complete": false,
+  "StoppedOnFirstFailure": true,
+  "Pass": 11,
+  "Fail": 1,
+  "NotRun": "Remaining theme/DPI cells stopped after first product failure",
+  "Cells": [
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Home",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Checkup",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Storage",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Startup",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Security",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Updates",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Backup",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "System",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Apps",
+      "Status": "PASS",
+      "Finding": "Rendered after inventory delay and second navigation selection.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Cleanup",
+      "Status": "PASS",
+      "Finding": "Rendered after inventory delay and second navigation selection.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "FollowWindows",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Settings",
+      "Status": "PASS",
+      "Finding": "Rendered with required primary actions visible in the constrained guest.",
+      "Evidence": "Interactive native VM observation 2026-09-01"
+    },
+    {
+      "Theme": "Dark",
+      "Scaling": "ProfileDefaultUnverified",
+      "Resolution": "1366x768",
+      "Page": "Settings",
+      "Status": "FAIL",
+      "Finding": "Saving Dark theme raises an unhandled exception: The property 'SelectedItem' cannot be found on this object.",
+      "Evidence": "screenshots/F008_DARK_THEME_SAVE_UNHANDLED_SELECTEDITEM.png"
+    }
+  ]
+}

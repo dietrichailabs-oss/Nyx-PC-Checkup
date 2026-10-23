@@ -1,0 +1,1902 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa2-migration-regression.v1",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "HarnessCorrectionRevision":  "QA9-WH006-1",
+    "Product":  "Nyx PC Checkup",
+    "CorrectedBuild":  "2026.09.01-eng-qa15",
+    "Scope":  "Exact QA2 current-user rollback migration and corrected uninstall regression",
+    "QA2FixtureMethod":  "Harness-owned exact QA2 legacy rollback journal using immutable QA2 CurrentUser DPAPI helpers and exact pinned QA2 Paths layout; scenario reset records uninstaller exit and cleans only exact known Nyx roots after intentional exit-6 fail-closed state",
+    "StartedUtc":  "2026-09-02T01:33:25.2681692Z",
+    "CompletedUtc":  "2026-09-02T01:33:57.3261832Z",
+    "ElapsedSeconds":  32.058,
+    "ComputerName":  "DESKTOP-4D83OSL",
+    "WindowsVersion":  "Microsoft Windows NT 10.0.26200.0",
+    "PowerShellVersion":  "5.1.26100.7920",
+    "QA2SetupPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\tests\\fixtures\\qa2\\Nyx_PC_Checkup_1.0.0_QA2_Setup.exe",
+    "QA2SetupSha256":  "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5",
+    "CorrectedSetupPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+    "CorrectedSetupSha256":  "B4F082A79D76E2A7E9452B2717D87698ED136E4D10CFF2D4232DB6E0BF02CD80",
+    "InstallerEnvironmentPreflightPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\Nyx_PC_Checkup_QA2_Migration_Preflight_20260901_213325.json",
+    "InstallerEnvironmentPreflight":  {
+                                          "Schema":  "dietrich-ai-labs.nyx-pc-checkup.installer-environment-preflight.v1",
+                                          "CapturedUtc":  "2026-09-02T01:33:25.2206522Z",
+                                          "ComputerName":  "DESKTOP-4D83OSL",
+                                          "UserIdentity":  "DESKTOP-4D83OSL\\Nyx",
+                                          "IsAdministrator":  false,
+                                          "LocalAppDataEnvironment":  "C:\\Users\\Nyx\\AppData\\Local",
+                                          "LocalAppDataSpecialFolder":  "C:\\Users\\Nyx\\AppData\\Local",
+                                          "ValuesMatch":  true,
+                                          "IntendedInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                          "IntendedInstallTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                          "LocalAppDataRecord":  {
+                                                                     "Path":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                                     "Attributes":  "Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "DESKTOP-4D83OSL\\Nyx",
+                                                                     "AclSddl":  "O:S-1-5-21-1723763126-3146604107-184641064-1002G:S-1-5-21-1723763126-3146604107-184641064-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-1723763126-3146604107-184641064-1002)",
+                                                                     "Error":  ""
+                                                                 },
+                                          "PathComponents":  [
+                                                                 {
+                                                                     "Path":  "C:\\",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\",
+                                                                     "Attributes":  "Hidden, System, Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "NT SERVICE\\TrustedInstaller",
+                                                                     "AclSddl":  "O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:PAI(A;;LC;;;AU)(A;OICIIO;SDGXGWGR;;;AU)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;OICI;0x1200a9;;;BU)(A;;0x1000a1;;;S-1-15-3-65536-1888954469-739942743-1668119174-2468466756-4239452838-1296943325-355587736-700089176)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users",
+                                                                     "Attributes":  "ReadOnly, Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "NT AUTHORITY\\SYSTEM",
+                                                                     "AclSddl":  "O:SYG:SYD:PAI(A;OICIIO;GXGR;;;WD)(A;;0x1200a9;;;WD)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;;0x1200a9;;;BU)(A;OICIIO;GXGR;;;BU)(A;;0x100021;;;S-1-15-3-65536-4045685566-1323397456-4055816110-285687253-194181-4019357623-1925838800-191844675)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\Nyx",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\Nyx",
+                                                                     "Attributes":  "Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "NT AUTHORITY\\SYSTEM",
+                                                                     "AclSddl":  "O:SYG:SYD:P(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;OICI;FA;;;S-1-5-21-1723763126-3146604107-184641064-1002)(A;;0x100020;;;S-1-15-3-65536-599108337-2355189375-1353122160-3480128286-3345335107-485756383-4087318168-230526575)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\Nyx\\AppData",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\Nyx\\AppData",
+                                                                     "Attributes":  "Hidden, Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "DESKTOP-4D83OSL\\Nyx",
+                                                                     "AclSddl":  "O:S-1-5-21-1723763126-3146604107-184641064-1002G:S-1-5-21-1723763126-3146604107-184641064-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-1723763126-3146604107-184641064-1002)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                                     "Attributes":  "Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "DESKTOP-4D83OSL\\Nyx",
+                                                                     "AclSddl":  "O:S-1-5-21-1723763126-3146604107-184641064-1002G:S-1-5-21-1723763126-3146604107-184641064-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-1723763126-3146604107-184641064-1002)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\Nyx\\AppData\\Local\\Programs",
+                                                                     "Exists":  true,
+                                                                     "ResolvedPath":  "C:\\Users\\Nyx\\AppData\\Local\\Programs",
+                                                                     "Attributes":  "Directory",
+                                                                     "IsDirectory":  true,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "DESKTOP-4D83OSL\\Nyx",
+                                                                     "AclSddl":  "O:S-1-5-21-1723763126-3146604107-184641064-1002G:S-1-5-21-1723763126-3146604107-184641064-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-1723763126-3146604107-184641064-1002)",
+                                                                     "Error":  ""
+                                                                 },
+                                                                 {
+                                                                     "Path":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                     "Exists":  false,
+                                                                     "ResolvedPath":  "",
+                                                                     "Attributes":  "",
+                                                                     "IsDirectory":  false,
+                                                                     "IsReparsePoint":  false,
+                                                                     "AclOwner":  "",
+                                                                     "AclSddl":  "",
+                                                                     "Error":  ""
+                                                                 }
+                                                             ],
+                                          "WriteCapability":  {
+                                                                  "IntendedParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                  "NearestExistingAncestor":  "C:\\Users\\Nyx\\AppData\\Local\\Programs",
+                                                                  "Attempted":  true,
+                                                                  "Succeeded":  true,
+                                                                  "Error":  ""
+                                                              }
+                                      },
+    "QA2ShellFolderPreflight":  {
+                                    "StartupPath":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+                                    "StartupBlank":  false,
+                                    "StartupExists":  true,
+                                    "StartupReadable":  true,
+                                    "StartupWritable":  true,
+                                    "CommonStartupPath":  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+                                    "CommonStartupBlank":  false,
+                                    "CommonStartupExists":  true,
+                                    "CommonStartupReadable":  true
+                                },
+    "QA2ModuleScopeObservation":  {
+                                      "PathsModule":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Paths.psm1",
+                                      "PathsSha256":  "851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B",
+                                      "InitializerVisibleAfterDirectPathsImport":  true,
+                                      "InitializerVisibleAfterActionHistoryImport":  false,
+                                      "PostActionHistoryInitializerModule":  "",
+                                      "CallerVisibilityRequiredForFixtureCreation":  false
+                                  },
+    "QA2HarnessPathMap":  {
+                              "Root":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup",
+                              "Config":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\config.json",
+                              "Logs":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\logs",
+                              "Scans":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans",
+                              "Actions":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions",
+                              "ActionHistory":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\history.jsonl",
+                              "DisabledStartup":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\disabled-startup",
+                              "Reports":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\reports",
+                              "Temp":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\temp",
+                              "LastScan":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\scans\\last-scan.json"
+                          },
+    "HarnessCorrectionHistory":  [
+                                     "QA9-WH004-1",
+                                     "QA9-WH005-1",
+                                     "QA9-WH006-1"
+                                 ],
+    "PreconditionBlocked":  false,
+    "QA2SetupInferences":  [
+                               {
+                                   "Label":  "QA2Install_1",
+                                   "Source":  "HarnessInferenceFromImmutableQA2Source",
+                                   "ExitCode":  0,
+                                   "CandidateBranchIds":  [
+
+                                                          ],
+                                   "Reason":  "",
+                                   "PreflightLocalAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                   "PreflightInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                   "PreflightWriteSucceeded":  true
+                               },
+                               {
+                                   "Label":  "QA2Install_3",
+                                   "Source":  "HarnessInferenceFromImmutableQA2Source",
+                                   "ExitCode":  0,
+                                   "CandidateBranchIds":  [
+
+                                                          ],
+                                   "Reason":  "",
+                                   "PreflightLocalAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                   "PreflightInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                   "PreflightWriteSucceeded":  true
+                               },
+                               {
+                                   "Label":  "QA2Install_5",
+                                   "Source":  "HarnessInferenceFromImmutableQA2Source",
+                                   "ExitCode":  0,
+                                   "CandidateBranchIds":  [
+
+                                                          ],
+                                   "Reason":  "",
+                                   "PreflightLocalAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                   "PreflightInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                   "PreflightWriteSucceeded":  true
+                               },
+                               {
+                                   "Label":  "QA2Install_7",
+                                   "Source":  "HarnessInferenceFromImmutableQA2Source",
+                                   "ExitCode":  0,
+                                   "CandidateBranchIds":  [
+
+                                                          ],
+                                   "Reason":  "",
+                                   "PreflightLocalAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                   "PreflightInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                   "PreflightWriteSucceeded":  true
+                               },
+                               {
+                                   "Label":  "QA2Install_9",
+                                   "Source":  "HarnessInferenceFromImmutableQA2Source",
+                                   "ExitCode":  0,
+                                   "CandidateBranchIds":  [
+
+                                                          ],
+                                   "Reason":  "",
+                                   "PreflightLocalAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                   "PreflightInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                   "PreflightWriteSucceeded":  true
+                               }
+                           ],
+    "CorrectedSetupRuns":  [
+                               {
+                                   "Label":  "QA2Upgrade_2",
+                                   "SetupPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                                   "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_2_d5c43fd5022945cea3c123403eb8ade2.json\"",
+                                   "StartedUtc":  "2026-09-02T01:33:28.8252111Z",
+                                   "CompletedUtc":  "2026-09-02T01:33:31.9450309Z",
+                                   "ExitCode":  0,
+                                   "DiagnosticPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_2_d5c43fd5022945cea3c123403eb8ade2.json",
+                                   "DiagnosticExists":  true,
+                                   "DiagnosticValid":  true,
+                                   "DiagnosticValidationError":  "",
+                                   "Diagnostic":  {
+                                                      "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                                      "product":  "nyx-pc-checkup",
+                                                      "build":  "2026.09.01-eng-qa15",
+                                                      "success":  true,
+                                                      "exitCode":  0,
+                                                      "branchId":  "SUCCESS",
+                                                      "stage":  "complete",
+                                                      "message":  "Nyx PC Checkup was upgraded or repaired successfully.",
+                                                      "nativeError":  0,
+                                                      "childExitCode":  0,
+                                                      "localAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                      "installParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "resolvedInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "installTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "resolvedInstallTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "parentExists":  true,
+                                                      "parentAttributes":  16,
+                                                      "parentIsDirectory":  true,
+                                                      "parentIsReparsePoint":  false,
+                                                      "parentCreateResult":  183,
+                                                      "parentWriteProbeAttempted":  true,
+                                                      "parentWriteProbeSucceeded":  true,
+                                                      "parentWriteProbeError":  0,
+                                                      "targetExists":  true,
+                                                      "targetAttributes":  16,
+                                                      "targetIsDirectory":  true,
+                                                      "targetIsReparsePoint":  false,
+                                                      "payloadIndex":  4294967295,
+                                                      "detailPath":  ""
+                                                  }
+                               },
+                               {
+                                   "Label":  "QA2Upgrade_4",
+                                   "SetupPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                                   "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_4_0677b6bcaa144b4a932b41c152ad4fb6.json\"",
+                                   "StartedUtc":  "2026-09-02T01:33:36.7552117Z",
+                                   "CompletedUtc":  "2026-09-02T01:33:38.7862481Z",
+                                   "ExitCode":  0,
+                                   "DiagnosticPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_4_0677b6bcaa144b4a932b41c152ad4fb6.json",
+                                   "DiagnosticExists":  true,
+                                   "DiagnosticValid":  true,
+                                   "DiagnosticValidationError":  "",
+                                   "Diagnostic":  {
+                                                      "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                                      "product":  "nyx-pc-checkup",
+                                                      "build":  "2026.09.01-eng-qa15",
+                                                      "success":  true,
+                                                      "exitCode":  0,
+                                                      "branchId":  "SUCCESS",
+                                                      "stage":  "complete",
+                                                      "message":  "Nyx PC Checkup was upgraded or repaired successfully.",
+                                                      "nativeError":  0,
+                                                      "childExitCode":  0,
+                                                      "localAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                      "installParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "resolvedInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "installTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "resolvedInstallTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "parentExists":  true,
+                                                      "parentAttributes":  16,
+                                                      "parentIsDirectory":  true,
+                                                      "parentIsReparsePoint":  false,
+                                                      "parentCreateResult":  183,
+                                                      "parentWriteProbeAttempted":  true,
+                                                      "parentWriteProbeSucceeded":  true,
+                                                      "parentWriteProbeError":  0,
+                                                      "targetExists":  true,
+                                                      "targetAttributes":  16,
+                                                      "targetIsDirectory":  true,
+                                                      "targetIsReparsePoint":  false,
+                                                      "payloadIndex":  4294967295,
+                                                      "detailPath":  ""
+                                                  }
+                               },
+                               {
+                                   "Label":  "QA2Upgrade_6",
+                                   "SetupPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                                   "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_6_ddd4f67fbaf84d5b85f4fe83f8895fbe.json\"",
+                                   "StartedUtc":  "2026-09-02T01:33:43.2940417Z",
+                                   "CompletedUtc":  "2026-09-02T01:33:45.3207567Z",
+                                   "ExitCode":  0,
+                                   "DiagnosticPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_6_ddd4f67fbaf84d5b85f4fe83f8895fbe.json",
+                                   "DiagnosticExists":  true,
+                                   "DiagnosticValid":  true,
+                                   "DiagnosticValidationError":  "",
+                                   "Diagnostic":  {
+                                                      "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                                      "product":  "nyx-pc-checkup",
+                                                      "build":  "2026.09.01-eng-qa15",
+                                                      "success":  true,
+                                                      "exitCode":  0,
+                                                      "branchId":  "SUCCESS",
+                                                      "stage":  "complete",
+                                                      "message":  "Nyx PC Checkup was upgraded or repaired successfully.",
+                                                      "nativeError":  0,
+                                                      "childExitCode":  0,
+                                                      "localAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                      "installParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "resolvedInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "installTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "resolvedInstallTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "parentExists":  true,
+                                                      "parentAttributes":  16,
+                                                      "parentIsDirectory":  true,
+                                                      "parentIsReparsePoint":  false,
+                                                      "parentCreateResult":  183,
+                                                      "parentWriteProbeAttempted":  true,
+                                                      "parentWriteProbeSucceeded":  true,
+                                                      "parentWriteProbeError":  0,
+                                                      "targetExists":  true,
+                                                      "targetAttributes":  16,
+                                                      "targetIsDirectory":  true,
+                                                      "targetIsReparsePoint":  false,
+                                                      "payloadIndex":  4294967295,
+                                                      "detailPath":  ""
+                                                  }
+                               },
+                               {
+                                   "Label":  "QA2Upgrade_8",
+                                   "SetupPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                                   "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_8_153af1decbbf4549a2404453fd450488.json\"",
+                                   "StartedUtc":  "2026-09-02T01:33:47.6815664Z",
+                                   "CompletedUtc":  "2026-09-02T01:33:49.6976672Z",
+                                   "ExitCode":  0,
+                                   "DiagnosticPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_8_153af1decbbf4549a2404453fd450488.json",
+                                   "DiagnosticExists":  true,
+                                   "DiagnosticValid":  true,
+                                   "DiagnosticValidationError":  "",
+                                   "Diagnostic":  {
+                                                      "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                                      "product":  "nyx-pc-checkup",
+                                                      "build":  "2026.09.01-eng-qa15",
+                                                      "success":  true,
+                                                      "exitCode":  0,
+                                                      "branchId":  "SUCCESS",
+                                                      "stage":  "complete",
+                                                      "message":  "Nyx PC Checkup was upgraded or repaired successfully.",
+                                                      "nativeError":  0,
+                                                      "childExitCode":  0,
+                                                      "localAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                      "installParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "resolvedInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "installTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "resolvedInstallTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "parentExists":  true,
+                                                      "parentAttributes":  16,
+                                                      "parentIsDirectory":  true,
+                                                      "parentIsReparsePoint":  false,
+                                                      "parentCreateResult":  183,
+                                                      "parentWriteProbeAttempted":  true,
+                                                      "parentWriteProbeSucceeded":  true,
+                                                      "parentWriteProbeError":  0,
+                                                      "targetExists":  true,
+                                                      "targetAttributes":  16,
+                                                      "targetIsDirectory":  true,
+                                                      "targetIsReparsePoint":  false,
+                                                      "payloadIndex":  4294967295,
+                                                      "detailPath":  ""
+                                                  }
+                               },
+                               {
+                                   "Label":  "QA2Upgrade_10",
+                                   "SetupPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\candidate\\Nyx_PC_Checkup_1.0.0_Setup.exe",
+                                   "Arguments":  "/quiet /nolaunch /diagnostics:\"C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_10_66d6b97080e0448cbb32d428fe8cee57.json\"",
+                                   "StartedUtc":  "2026-09-02T01:33:52.0536314Z",
+                                   "CompletedUtc":  "2026-09-02T01:33:54.0697742Z",
+                                   "ExitCode":  0,
+                                   "DiagnosticPath":  "C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_10_66d6b97080e0448cbb32d428fe8cee57.json",
+                                   "DiagnosticExists":  true,
+                                   "DiagnosticValid":  true,
+                                   "DiagnosticValidationError":  "",
+                                   "Diagnostic":  {
+                                                      "schema":  "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
+                                                      "product":  "nyx-pc-checkup",
+                                                      "build":  "2026.09.01-eng-qa15",
+                                                      "success":  true,
+                                                      "exitCode":  0,
+                                                      "branchId":  "SUCCESS",
+                                                      "stage":  "complete",
+                                                      "message":  "Nyx PC Checkup was upgraded or repaired successfully.",
+                                                      "nativeError":  0,
+                                                      "childExitCode":  0,
+                                                      "localAppData":  "C:\\Users\\Nyx\\AppData\\Local",
+                                                      "installParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "resolvedInstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                      "installTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "resolvedInstallTarget":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+                                                      "parentExists":  true,
+                                                      "parentAttributes":  16,
+                                                      "parentIsDirectory":  true,
+                                                      "parentIsReparsePoint":  false,
+                                                      "parentCreateResult":  183,
+                                                      "parentWriteProbeAttempted":  true,
+                                                      "parentWriteProbeSucceeded":  true,
+                                                      "parentWriteProbeError":  0,
+                                                      "targetExists":  true,
+                                                      "targetAttributes":  16,
+                                                      "targetIsDirectory":  true,
+                                                      "targetIsReparsePoint":  false,
+                                                      "payloadIndex":  4294967295,
+                                                      "detailPath":  ""
+                                                  }
+                               }
+                           ],
+    "ResetRuns":  [
+                      {
+                          "ResetNumber":  1,
+                          "Label":  "BeforeScenario1",
+                          "StartedUtc":  "2026-09-02T01:33:25.3311382Z",
+                          "UninstallerAttempted":  false,
+                          "UninstallerPath":  "",
+                          "UninstallerExitCode":  null,
+                          "ForcedExactCleanup":  true,
+                          "ForcedCleanupReason":  "No InstallRoot was present, but exact known Nyx integration state remained from an interrupted disposable harness run.",
+                          "Postconditions":  {
+                                                 "InstallRootAbsent":  true,
+                                                 "DataRootAbsent":  true,
+                                                 "UninstallRegistrationAbsent":  true,
+                                                 "StartLinkAbsent":  true,
+                                                 "DesktopLinkAbsent":  true,
+                                                 "FixtureRegistryValues":  [
+
+                                                                           ],
+                                                 "FixtureStartupFiles":  [
+
+                                                                         ],
+                                                 "InstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                 "InstallParentOrdinary":  true,
+                                                 "InstallParentReparseComponents":  [
+
+                                                                                    ],
+                                                 "InstallParentWriteCapability":  {
+                                                                                      "IntendedParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "NearestExistingAncestor":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "Attempted":  true,
+                                                                                      "Succeeded":  true,
+                                                                                      "Error":  ""
+                                                                                  }
+                                             },
+                          "Passed":  true,
+                          "Error":  "",
+                          "CompletedUtc":  "2026-09-02T01:33:25.4881899Z"
+                      },
+                      {
+                          "ResetNumber":  2,
+                          "Label":  "BeforeScenario2",
+                          "StartedUtc":  "2026-09-02T01:33:32.4844314Z",
+                          "UninstallerAttempted":  true,
+                          "UninstallerPath":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Uninstall Nyx PC Checkup.exe",
+                          "UninstallerExitCode":  0,
+                          "ForcedExactCleanup":  false,
+                          "ForcedCleanupReason":  "",
+                          "Postconditions":  {
+                                                 "InstallRootAbsent":  true,
+                                                 "DataRootAbsent":  true,
+                                                 "UninstallRegistrationAbsent":  true,
+                                                 "StartLinkAbsent":  true,
+                                                 "DesktopLinkAbsent":  true,
+                                                 "FixtureRegistryValues":  [
+
+                                                                           ],
+                                                 "FixtureStartupFiles":  [
+
+                                                                         ],
+                                                 "InstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                 "InstallParentOrdinary":  true,
+                                                 "InstallParentReparseComponents":  [
+
+                                                                                    ],
+                                                 "InstallParentWriteCapability":  {
+                                                                                      "IntendedParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "NearestExistingAncestor":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "Attempted":  true,
+                                                                                      "Succeeded":  true,
+                                                                                      "Error":  ""
+                                                                                  }
+                                             },
+                          "Passed":  true,
+                          "Error":  "",
+                          "CompletedUtc":  "2026-09-02T01:33:35.6437793Z"
+                      },
+                      {
+                          "ResetNumber":  3,
+                          "Label":  "BeforeScenario3",
+                          "StartedUtc":  "2026-09-02T01:33:39.0720326Z",
+                          "UninstallerAttempted":  true,
+                          "UninstallerPath":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Uninstall Nyx PC Checkup.exe",
+                          "UninstallerExitCode":  0,
+                          "ForcedExactCleanup":  false,
+                          "ForcedCleanupReason":  "",
+                          "Postconditions":  {
+                                                 "InstallRootAbsent":  true,
+                                                 "DataRootAbsent":  true,
+                                                 "UninstallRegistrationAbsent":  true,
+                                                 "StartLinkAbsent":  true,
+                                                 "DesktopLinkAbsent":  true,
+                                                 "FixtureRegistryValues":  [
+
+                                                                           ],
+                                                 "FixtureStartupFiles":  [
+
+                                                                         ],
+                                                 "InstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                 "InstallParentOrdinary":  true,
+                                                 "InstallParentReparseComponents":  [
+
+                                                                                    ],
+                                                 "InstallParentWriteCapability":  {
+                                                                                      "IntendedParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "NearestExistingAncestor":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "Attempted":  true,
+                                                                                      "Succeeded":  true,
+                                                                                      "Error":  ""
+                                                                                  }
+                                             },
+                          "Passed":  true,
+                          "Error":  "",
+                          "CompletedUtc":  "2026-09-02T01:33:42.2050815Z"
+                      },
+                      {
+                          "ResetNumber":  4,
+                          "Label":  "BeforeScenario4",
+                          "StartedUtc":  "2026-09-02T01:33:45.4642617Z",
+                          "UninstallerAttempted":  true,
+                          "UninstallerPath":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Uninstall Nyx PC Checkup.exe",
+                          "UninstallerExitCode":  6,
+                          "ForcedExactCleanup":  true,
+                          "ForcedCleanupReason":  "QA9 exit 6: intentionally invalid/incomplete current-user rollback state from migration scenario.",
+                          "Postconditions":  {
+                                                 "InstallRootAbsent":  true,
+                                                 "DataRootAbsent":  true,
+                                                 "UninstallRegistrationAbsent":  true,
+                                                 "StartLinkAbsent":  true,
+                                                 "DesktopLinkAbsent":  true,
+                                                 "FixtureRegistryValues":  [
+
+                                                                           ],
+                                                 "FixtureStartupFiles":  [
+
+                                                                         ],
+                                                 "InstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                 "InstallParentOrdinary":  true,
+                                                 "InstallParentReparseComponents":  [
+
+                                                                                    ],
+                                                 "InstallParentWriteCapability":  {
+                                                                                      "IntendedParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "NearestExistingAncestor":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "Attempted":  true,
+                                                                                      "Succeeded":  true,
+                                                                                      "Error":  ""
+                                                                                  }
+                                             },
+                          "Passed":  true,
+                          "Error":  "",
+                          "CompletedUtc":  "2026-09-02T01:33:46.6193273Z"
+                      },
+                      {
+                          "ResetNumber":  5,
+                          "Label":  "BeforeScenario5",
+                          "StartedUtc":  "2026-09-02T01:33:49.8076881Z",
+                          "UninstallerAttempted":  true,
+                          "UninstallerPath":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\Uninstall Nyx PC Checkup.exe",
+                          "UninstallerExitCode":  6,
+                          "ForcedExactCleanup":  true,
+                          "ForcedCleanupReason":  "QA9 exit 6: intentionally invalid/incomplete current-user rollback state from migration scenario.",
+                          "Postconditions":  {
+                                                 "InstallRootAbsent":  true,
+                                                 "DataRootAbsent":  true,
+                                                 "UninstallRegistrationAbsent":  true,
+                                                 "StartLinkAbsent":  true,
+                                                 "DesktopLinkAbsent":  true,
+                                                 "FixtureRegistryValues":  [
+
+                                                                           ],
+                                                 "FixtureStartupFiles":  [
+
+                                                                         ],
+                                                 "InstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                 "InstallParentOrdinary":  true,
+                                                 "InstallParentReparseComponents":  [
+
+                                                                                    ],
+                                                 "InstallParentWriteCapability":  {
+                                                                                      "IntendedParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "NearestExistingAncestor":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "Attempted":  true,
+                                                                                      "Succeeded":  true,
+                                                                                      "Error":  ""
+                                                                                  }
+                                             },
+                          "Passed":  true,
+                          "Error":  "",
+                          "CompletedUtc":  "2026-09-02T01:33:50.9658279Z"
+                      },
+                      {
+                          "ResetNumber":  6,
+                          "Label":  "FinalCleanup",
+                          "StartedUtc":  "2026-09-02T01:33:57.2628098Z",
+                          "UninstallerAttempted":  false,
+                          "UninstallerPath":  "",
+                          "UninstallerExitCode":  null,
+                          "ForcedExactCleanup":  false,
+                          "ForcedCleanupReason":  "",
+                          "Postconditions":  {
+                                                 "InstallRootAbsent":  true,
+                                                 "DataRootAbsent":  true,
+                                                 "UninstallRegistrationAbsent":  true,
+                                                 "StartLinkAbsent":  true,
+                                                 "DesktopLinkAbsent":  true,
+                                                 "FixtureRegistryValues":  [
+
+                                                                           ],
+                                                 "FixtureStartupFiles":  [
+
+                                                                         ],
+                                                 "InstallParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                 "InstallParentOrdinary":  true,
+                                                 "InstallParentReparseComponents":  [
+
+                                                                                    ],
+                                                 "InstallParentWriteCapability":  {
+                                                                                      "IntendedParent":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "NearestExistingAncestor":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                                                                                      "Attempted":  true,
+                                                                                      "Succeeded":  true,
+                                                                                      "Error":  ""
+                                                                                  }
+                                             },
+                          "Passed":  true,
+                          "Error":  "",
+                          "CompletedUtc":  "2026-09-02T01:33:57.3261832Z"
+                      }
+                  ],
+    "DestructiveCleanVmAcknowledged":  true,
+    "Passed":  true,
+    "Total":  244,
+    "Failed":  0,
+    "Results":  [
+                    {
+                        "Name":  "Installer preflight records LOCALAPPDATA",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local"
+                    },
+                    {
+                        "Name":  "Installer preflight can create and remove a bounded write probe",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    },
+                    {
+                        "Name":  "Exact QA2 setup fixture hash matches",
+                        "Passed":  true,
+                        "Details":  "FF4C838A1DEF4ABDE39FE89F3A58D023AD25D8C61B99D1836FCB3270F8A301C5"
+                    },
+                    {
+                        "Name":  "Corrected setup is an ordinary file",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "QA2 legacy shell-folder preconditions are explicitly captured",
+                        "Passed":  true,
+                        "Details":  "{\"StartupPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\",\"StartupBlank\":false,\"StartupExists\":true,\"StartupReadable\":true,\"StartupWritable\":true,\"CommonStartupPath\":\"C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\",\"CommonStartupBlank\":false,\"CommonStartupExists\":true,\"CommonStartupReadable\":true}"
+                    },
+                    {
+                        "Name":  "QA2 migration environment precondition is satisfied",
+                        "Passed":  true,
+                        "Details":  "{\"StartupPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\",\"StartupBlank\":false,\"StartupExists\":true,\"StartupReadable\":true,\"StartupWritable\":true,\"CommonStartupPath\":\"C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\",\"CommonStartupBlank\":false,\"CommonStartupExists\":true,\"CommonStartupReadable\":true}"
+                    },
+                    {
+                        "Name":  "BeforeScenario1: InstallRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario1: DataRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario1: Nyx uninstall registration absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario1: Nyx Start-menu shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario1: Nyx desktop shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario1: no harness fixture Run or RunOnce value remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario1: no harness fixture Startup file remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario1: installation parent is an ordinary directory",
+                        "Passed":  true,
+                        "Details":  "{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}}"
+                    },
+                    {
+                        "Name":  "BeforeScenario1: installation parent is writable",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    },
+                    {
+                        "Name":  "Immutable QA2 install is preceded by a successful disposable-state reset",
+                        "Passed":  true,
+                        "Details":  "{\"ResetNumber\":1,\"Label\":\"BeforeScenario1\",\"StartedUtc\":\"2026-09-02T01:33:25.3311382Z\",\"UninstallerAttempted\":false,\"UninstallerPath\":\"\",\"UninstallerExitCode\":null,\"ForcedExactCleanup\":true,\"ForcedCleanupReason\":\"No InstallRoot was present, but exact known Nyx integration state remained from an interrupted disposable harness run.\",\"Postconditions\":{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}},\"Passed\":true,\"Error\":\"\",\"CompletedUtc\":\"2026-09-02T01:33:25.4881899Z\"}"
+                    },
+                    {
+                        "Name":  "Exact QA2 setup installs successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; Inference={\"Label\":\"QA2Install_1\",\"Source\":\"HarnessInferenceFromImmutableQA2Source\",\"ExitCode\":0,\"CandidateBranchIds\":[],\"Reason\":\"\",\"PreflightLocalAppData\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\",\"PreflightInstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"PreflightWriteSucceeded\":true}"
+                    },
+                    {
+                        "Name":  "QA2 application root exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 Paths hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B"
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 ActionHistory hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "965143541BFBBE80C2A508F67A496ED3C6E574B241BFD48B667C637168D5751A"
+                    },
+                    {
+                        "Name":  "QA2 Paths initializer is visible immediately after direct Paths import",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Paths.psm1"
+                    },
+                    {
+                        "Name":  "QA2 post-ActionHistory caller-scope visibility is observed but not required",
+                        "Passed":  true,
+                        "Details":  "{\"PathsModule\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\core\\\\Paths.psm1\",\"PathsSha256\":\"851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B\",\"InitializerVisibleAfterDirectPathsImport\":true,\"InitializerVisibleAfterActionHistoryImport\":false,\"PostActionHistoryInitializerModule\":\"\",\"CallerVisibilityRequiredForFixtureCreation\":false}"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI protect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI unprotect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 data root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 rollback root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\disabled-startup"
+                    },
+                    {
+                        "Name":  "QA2 harness registry source exists before journal creation",
+                        "Passed":  true,
+                        "Details":  "\"C:\\WINDOWS\\System32\\notepad.exe\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Registry"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "407115dbe8f241f890dab1714071f72d"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "Registry"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 registry state uses an exact current-user Run source",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"407115dbe8f241f890dab1714071f72d\",\"OwnerSid\":\"\",\"Id\":\"08f6a352191fb1a93793900f\",\"Name\":\"NyxPCCheckup_QA2_Migration_Registry\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Registry\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Registry\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal uses the exact DPAPI1 protected-state format",
+                        "Passed":  true,
+                        "Details":  "DPAPI1:"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal is bounded",
+                        "Passed":  true,
+                        "Details":  "1150"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal decrypts with immutable QA2 CurrentUser DPAPI helper",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "407115dbe8f241f890dab1714071f72d"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "Registry"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 registry state uses an exact current-user Run source",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"407115dbe8f241f890dab1714071f72d\",\"OwnerSid\":\"\",\"Id\":\"08f6a352191fb1a93793900f\",\"Name\":\"NyxPCCheckup_QA2_Migration_Registry\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Registry\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Registry\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}"
+                    },
+                    {
+                        "Name":  "Harness-owned QA2 registry fixture matches completed disable state",
+                        "Passed":  true,
+                        "Details":  "{\"Folder\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\407115dbe8f241f890dab1714071f72d\",\"Journal\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\407115dbe8f241f890dab1714071f72d\\\\rollback.dpapi\",\"Protected\":\"DPAPI1:AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe6v4ZAVPKUOWDzgEPT2IbQAAAAACAAAAAAAQZgAAAAEAACAAAACcde1h1dcPWLgp5EWarjSAWBN67jpHW7Lz8YFVNbfmgAAAAAAOgAAAAAIAACAAAACGGlbKXxVnFak1S4f+rrHQ4DaaNrcCDoL/qnynjd7lDYACAACQV2gpi5sZ/F2EiTnfcqUwXDOKru946o5/dx8mWw09/h5SjVaDnWpmZZlywtinNBfYdny3LVLPFXGZ+abafFwrxGUAKZxAyto76mID1j2XAbzIBuqOMePTs2J3/GHI/8qUtwM5UFNJq7gonGoDoezL/q46mD6chQ0h5ld4JJdzV9oacNRBY4xahqlJJcNinMYz58DIfruX85p/U4vz4pkzdsKEZwpRB0LC9Ag1ceqBjBL2Z7pRErf8Bt5KBpsp6RD0yhGrthca7i1AgfnigcBWm0OWyrPbGHDeqpzQbdcDJpW+5FMnB59/Ete/gbV4+wAHCW2sdd5ixIKt3sGN464zAnhEMBzs+1PGBR2m63ZwotAd4p7pm9YVGTQHlAq5ld3xDH8/JYUXyRFn/0/uMsX2mKcR+NifMl9I1vEdTLCtbBQ3di/Mw96qQcjU9yrYa4cPZJ739RgADDZeWKF5ytMDGGtqK3znWeP5Sv3roTzwRNLy49bXxTMG6ZstJHl2tP5u9fFs0uXH+nCksWZNzI2ERFZxj53CeUau5+JKDxHMG8lrowdXnT98/Q/kV4MidkIP+cmtbbL35YOJ2hw2U2yY4J4hgqNAnmQ4F2jnBwNtoSHb+Tkm2Tlwj7RozMuyJDREBDHobZLFwNYDkJJawTFekoKsd1jOXLrZzbqAq4D8/Su388Th07tBcr+siLdqcfaM4/OSC6bvTCLfmVa+hLtckiOW0XIAm/AKhnDOvAaLcNpL4CehuGNkQItlYUZY8MVGEskZqGvOxrE52iGVjeVYu6UdSug0ihoD1Ifdc4lpedHSlHBCE0WugKO4WZOIjTcsA1Bduik+bbeUalB4HE9CQAAAADjxZa8x7LB7OXMs+xuJyQTVWsvXe+uYpC0nH3W9ceSbkP5F+jGBXJGd/GMxh19pA2dpiqoBSd5CjgKg4Agy9CY=\",\"State\":{\"JournalScope\":\"User\",\"ActionId\":\"407115dbe8f241f890dab1714071f72d\",\"OwnerSid\":\"\",\"Id\":\"08f6a352191fb1a93793900f\",\"Name\":\"NyxPCCheckup_QA2_Migration_Registry\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Registry\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Registry\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}}"
+                    },
+                    {
+                        "Name":  "QA2 registry journal has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "QA2 registry journal has empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "QA2 registry journal is current-user and non-elevated",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Corrected setup upgrades QA2 successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_2_d5c43fd5022945cea3c123403eb8ade2.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected setup emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_2_d5c43fd5022945cea3c123403eb8ade2.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected build identity is active after upgrade",
+                        "Passed":  true,
+                        "Details":  "2026.09.01-eng-qa15"
+                    },
+                    {
+                        "Name":  "Corrected rollback inventory remains complete for exact QA2 registry state",
+                        "Passed":  true,
+                        "Details":  "{\"Status\":\"Ready\",\"Entries\":[{\"ActionId\":\"407115dbe8f241f890dab1714071f72d\",\"ActionType\":\"StartupDisable\",\"RelatedActionId\":\"\",\"Success\":true,\"DisplayName\":\"NyxPCCheckup_QA2_Migration_Registry\",\"DisplaySource\":\"Current user Run\",\"UndoAvailable\":true,\"ProtectedState\":\"DPAPI1:AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe6v4ZAVPKUOWDzgEPT2IbQAAAAACAAAAAAAQZgAAAAEAACAAAACy7OOdLgiODWnmvv+UC/Wf19zY+z8tftOLGdgIBFK6wQAAAAAOgAAAAAIAACAAAAA2ri97DegzE0WrADOgK8FFBJqLtDcO+QtwlIx0dE2Hj8ACAACqN2WoDx60qo/hA2vMqpKAORsvvi95S/Uh6tW7iFc5sLIADqn5Got/Bywa0RwlOJSnim59et9DuthT9xBNTTgO2mRQ1Ezr++DPv2aDsssturoYgZ0fZ+9n8EBFw2rk8PzXYTvrpSby78iRlNvoem3RwhviDyclrc6P2n9jUbnoujKMBKIG7T/BdlBGEOiApZwLU0ptm1Lo3fLCmBT1JtJIl1i1d91zAhxXNAIrHE4J7mqFBw/R/HjkeY7xud7Ve/ZNePZ0fQ6as8UO7xDLLbkaNtfC0PS1Ziv1qLntcGdgeFMQnwJF91+0U4Pw3iwlL1RoGIzXq23n32GYSKFZW9xUesY1xrc2MWrqQtUhLG4/sQoX/K8MFAsjBFmNj3fXZK2MbvuaiQQkhCyXBkRwYIlKeEjKf9wVXx+H5+TdTwFx74b6y5545db64WDMALpTLhqnyPGu1k3eI7qPSv4OqAZaV3xk/+TYP39pXvCqJKeSEAdr0IpeVDAJYqCYAXYz1/Pjqs2BIsR3VCfXou5Em8W32Qa6d/NPgrPeZoxuZoFmcoKTwoKJWVRu33N8bXEZzYMFM10dqdXjvhwMBUcCZqeMrX4XX7kHf8djQdM96f4M7Jd8T2LOuIuzvm1tfbnQXivFAy08gCRNEE4X8mldaH8o3UaVVNLsOEHkvZzfm8wPjpaus/ly0hR96oQvKSIZxCPaX1FmJ5Ixu6HEFWGHkltVJubdEZcNx0m1AMTgcGnoNaGy/p/jHbzDQ1pZ9VuzGg7eFEbMjDEia2lIeWluwm9o3zqESTh9pVlSU9SJ0Eh4I+Gk053ERrUdpKP5eLtIzbXZUgk+nTNxH3/D2okOL6Ul2E3+UrdFEN1Zl3Hdd7szx+sQpp3CSP7pg2zyLgKNBkcYXoG1dBAa1G/aHYgN6COgnrdq4jxXl3+N8ztWIbIflEAAAAC1BjRenOvnaevRqkxp+2h9Y1k8Fo5LcAXiACthAQEcGHDYkvD4/EffixETbIsMCxRuKYaeSDDT0gBA5YyoPhq4\",\"JournalSchema\":\"QA2-User\",\"NormalizedInMemory\":true,\"Timestamp\":\"2026-09-02T01:33:28.7620266Z\"}],\"Errors\":[],\"Complete\":true}"
+                    },
+                    {
+                        "Name":  "Corrected build identifies QA2 user schema",
+                        "Passed":  true,
+                        "Details":  "{\"ActionId\":\"407115dbe8f241f890dab1714071f72d\",\"ActionType\":\"StartupDisable\",\"RelatedActionId\":\"\",\"Success\":true,\"DisplayName\":\"NyxPCCheckup_QA2_Migration_Registry\",\"DisplaySource\":\"Current user Run\",\"UndoAvailable\":true,\"ProtectedState\":\"DPAPI1:AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe6v4ZAVPKUOWDzgEPT2IbQAAAAACAAAAAAAQZgAAAAEAACAAAACy7OOdLgiODWnmvv+UC/Wf19zY+z8tftOLGdgIBFK6wQAAAAAOgAAAAAIAACAAAAA2ri97DegzE0WrADOgK8FFBJqLtDcO+QtwlIx0dE2Hj8ACAACqN2WoDx60qo/hA2vMqpKAORsvvi95S/Uh6tW7iFc5sLIADqn5Got/Bywa0RwlOJSnim59et9DuthT9xBNTTgO2mRQ1Ezr++DPv2aDsssturoYgZ0fZ+9n8EBFw2rk8PzXYTvrpSby78iRlNvoem3RwhviDyclrc6P2n9jUbnoujKMBKIG7T/BdlBGEOiApZwLU0ptm1Lo3fLCmBT1JtJIl1i1d91zAhxXNAIrHE4J7mqFBw/R/HjkeY7xud7Ve/ZNePZ0fQ6as8UO7xDLLbkaNtfC0PS1Ziv1qLntcGdgeFMQnwJF91+0U4Pw3iwlL1RoGIzXq23n32GYSKFZW9xUesY1xrc2MWrqQtUhLG4/sQoX/K8MFAsjBFmNj3fXZK2MbvuaiQQkhCyXBkRwYIlKeEjKf9wVXx+H5+TdTwFx74b6y5545db64WDMALpTLhqnyPGu1k3eI7qPSv4OqAZaV3xk/+TYP39pXvCqJKeSEAdr0IpeVDAJYqCYAXYz1/Pjqs2BIsR3VCfXou5Em8W32Qa6d/NPgrPeZoxuZoFmcoKTwoKJWVRu33N8bXEZzYMFM10dqdXjvhwMBUcCZqeMrX4XX7kHf8djQdM96f4M7Jd8T2LOuIuzvm1tfbnQXivFAy08gCRNEE4X8mldaH8o3UaVVNLsOEHkvZzfm8wPjpaus/ly0hR96oQvKSIZxCPaX1FmJ5Ixu6HEFWGHkltVJubdEZcNx0m1AMTgcGnoNaGy/p/jHbzDQ1pZ9VuzGg7eFEbMjDEia2lIeWluwm9o3zqESTh9pVlSU9SJ0Eh4I+Gk053ERrUdpKP5eLtIzbXZUgk+nTNxH3/D2okOL6Ul2E3+UrdFEN1Zl3Hdd7szx+sQpp3CSP7pg2zyLgKNBkcYXoG1dBAa1G/aHYgN6COgnrdq4jxXl3+N8ztWIbIflEAAAAC1BjRenOvnaevRqkxp+2h9Y1k8Fo5LcAXiACthAQEcGHDYkvD4/EffixETbIsMCxRuKYaeSDDT0gBA5YyoPhq4\",\"JournalSchema\":\"QA2-User\",\"NormalizedInMemory\":true,\"Timestamp\":\"2026-09-02T01:33:28.7620266Z\"}"
+                    },
+                    {
+                        "Name":  "Corrected build restores QA2 registry rollback",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":true,\"Status\":\"Completed\",\"Message\":\"The current-user startup entry was restored and its active rollback journal was closed.\",\"ActionId\":\"792e0da44f46418097b5b182ce8ca0c9\",\"Details\":null,\"Timestamp\":\"2026-09-02T01:33:32.4844314Z\"}"
+                    },
+                    {
+                        "Name":  "QA2 registry command restores exactly",
+                        "Passed":  true,
+                        "Details":  "\"C:\\WINDOWS\\System32\\notepad.exe\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Registry"
+                    },
+                    {
+                        "Name":  "BeforeScenario2: InstallRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario2: DataRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario2: Nyx uninstall registration absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario2: Nyx Start-menu shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario2: Nyx desktop shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario2: no harness fixture Run or RunOnce value remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario2: no harness fixture Startup file remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario2: installation parent is an ordinary directory",
+                        "Passed":  true,
+                        "Details":  "{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}}"
+                    },
+                    {
+                        "Name":  "BeforeScenario2: installation parent is writable",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    },
+                    {
+                        "Name":  "Immutable QA2 install is preceded by a successful disposable-state reset",
+                        "Passed":  true,
+                        "Details":  "{\"ResetNumber\":2,\"Label\":\"BeforeScenario2\",\"StartedUtc\":\"2026-09-02T01:33:32.4844314Z\",\"UninstallerAttempted\":true,\"UninstallerPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Uninstall Nyx PC Checkup.exe\",\"UninstallerExitCode\":0,\"ForcedExactCleanup\":false,\"ForcedCleanupReason\":\"\",\"Postconditions\":{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}},\"Passed\":true,\"Error\":\"\",\"CompletedUtc\":\"2026-09-02T01:33:35.6437793Z\"}"
+                    },
+                    {
+                        "Name":  "Exact QA2 setup installs successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; Inference={\"Label\":\"QA2Install_3\",\"Source\":\"HarnessInferenceFromImmutableQA2Source\",\"ExitCode\":0,\"CandidateBranchIds\":[],\"Reason\":\"\",\"PreflightLocalAppData\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\",\"PreflightInstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"PreflightWriteSucceeded\":true}"
+                    },
+                    {
+                        "Name":  "QA2 application root exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 Paths hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B"
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 ActionHistory hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "965143541BFBBE80C2A508F67A496ED3C6E574B241BFD48B667C637168D5751A"
+                    },
+                    {
+                        "Name":  "QA2 Paths initializer is visible immediately after direct Paths import",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Paths.psm1"
+                    },
+                    {
+                        "Name":  "QA2 post-ActionHistory caller-scope visibility is observed but not required",
+                        "Passed":  true,
+                        "Details":  "{\"PathsModule\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\core\\\\Paths.psm1\",\"PathsSha256\":\"851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B\",\"InitializerVisibleAfterDirectPathsImport\":true,\"InitializerVisibleAfterActionHistoryImport\":false,\"PostActionHistoryInitializerModule\":\"\",\"CallerVisibilityRequiredForFixtureCreation\":false}"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI protect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI unprotect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 data root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 rollback root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\disabled-startup"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "2129cf76c086443fa713efed8c753175"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "StartupFile"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 Startup-file state stays in current-user Startup",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"2129cf76c086443fa713efed8c753175\",\"OwnerSid\":\"\",\"Id\":\"21e2e94ff8fbcdc29d1a2206\",\"Name\":\"NyxPCCheckup_QA2_Migration_StartupFile\",\"Publisher\":\"\",\"SourceType\":\"StartupFile\",\"SourcePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLabel\":\"Current user Startup folder\",\"ValueName\":\"\",\"ValueKind\":\"\",\"Command\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"ExecutablePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"RequiresElevation\":false,\"BackupPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\2129cf76c086443fa713efed8c753175\\\\payload\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLength\":73,\"SourceHash\":\"A1835225EDD2B74AB9C28C11AFB01E20414F104F1CF94F4AAD40B4D1DB15C3D5\"}"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal uses the exact DPAPI1 protected-state format",
+                        "Passed":  true,
+                        "Details":  "DPAPI1:"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal is bounded",
+                        "Passed":  true,
+                        "Details":  "1682"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal decrypts with immutable QA2 CurrentUser DPAPI helper",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "2129cf76c086443fa713efed8c753175"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "StartupFile"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 Startup-file state stays in current-user Startup",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"2129cf76c086443fa713efed8c753175\",\"OwnerSid\":\"\",\"Id\":\"21e2e94ff8fbcdc29d1a2206\",\"Name\":\"NyxPCCheckup_QA2_Migration_StartupFile\",\"Publisher\":\"\",\"SourceType\":\"StartupFile\",\"SourcePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLabel\":\"Current user Startup folder\",\"ValueName\":\"\",\"ValueKind\":\"\",\"Command\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"ExecutablePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"RequiresElevation\":false,\"BackupPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\2129cf76c086443fa713efed8c753175\\\\payload\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLength\":73,\"SourceHash\":\"A1835225EDD2B74AB9C28C11AFB01E20414F104F1CF94F4AAD40B4D1DB15C3D5\"}"
+                    },
+                    {
+                        "Name":  "Harness-owned QA2 Startup-file fixture source is absent after disable",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\NyxPCCheckup_QA2_Migration_StartupFile.cmd"
+                    },
+                    {
+                        "Name":  "Harness-owned QA2 Startup-file fixture backup matches exact length and hash",
+                        "Passed":  true,
+                        "Details":  "Length=73;Hash=A1835225EDD2B74AB9C28C11AFB01E20414F104F1CF94F4AAD40B4D1DB15C3D5"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "2129cf76c086443fa713efed8c753175"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "StartupFile"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 Startup-file state stays in current-user Startup",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"2129cf76c086443fa713efed8c753175\",\"OwnerSid\":\"\",\"Id\":\"21e2e94ff8fbcdc29d1a2206\",\"Name\":\"NyxPCCheckup_QA2_Migration_StartupFile\",\"Publisher\":\"\",\"SourceType\":\"StartupFile\",\"SourcePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLabel\":\"Current user Startup folder\",\"ValueName\":\"\",\"ValueKind\":\"\",\"Command\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"ExecutablePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"RequiresElevation\":false,\"BackupPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\2129cf76c086443fa713efed8c753175\\\\payload\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLength\":73,\"SourceHash\":\"A1835225EDD2B74AB9C28C11AFB01E20414F104F1CF94F4AAD40B4D1DB15C3D5\"}"
+                    },
+                    {
+                        "Name":  "Harness-owned QA2 Startup-file fixture backup path is exact",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\disabled-startup\\2129cf76c086443fa713efed8c753175\\payload\\NyxPCCheckup_QA2_Migration_StartupFile.cmd"
+                    },
+                    {
+                        "Name":  "QA2 Startup-folder journal has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "QA2 Startup-folder journal records exact hash and length",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"2129cf76c086443fa713efed8c753175\",\"OwnerSid\":\"\",\"Id\":\"21e2e94ff8fbcdc29d1a2206\",\"Name\":\"NyxPCCheckup_QA2_Migration_StartupFile\",\"Publisher\":\"\",\"SourceType\":\"StartupFile\",\"SourcePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLabel\":\"Current user Startup folder\",\"ValueName\":\"\",\"ValueKind\":\"\",\"Command\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"ExecutablePath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"RequiresElevation\":false,\"BackupPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\2129cf76c086443fa713efed8c753175\\\\payload\\\\NyxPCCheckup_QA2_Migration_StartupFile.cmd\",\"SourceLength\":73,\"SourceHash\":\"A1835225EDD2B74AB9C28C11AFB01E20414F104F1CF94F4AAD40B4D1DB15C3D5\"}"
+                    },
+                    {
+                        "Name":  "Corrected setup upgrades QA2 successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_4_0677b6bcaa144b4a932b41c152ad4fb6.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected setup emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_4_0677b6bcaa144b4a932b41c152ad4fb6.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected build identity is active after upgrade",
+                        "Passed":  true,
+                        "Details":  "2026.09.01-eng-qa15"
+                    },
+                    {
+                        "Name":  "Corrected rollback inventory remains complete for exact QA2 Startup-folder state",
+                        "Passed":  true,
+                        "Details":  "{\"Status\":\"Ready\",\"Entries\":[{\"ActionId\":\"2129cf76c086443fa713efed8c753175\",\"ActionType\":\"StartupDisable\",\"RelatedActionId\":\"\",\"Success\":true,\"DisplayName\":\"NyxPCCheckup_QA2_Migration_StartupFile\",\"DisplaySource\":\"Current user Startup folder\",\"UndoAvailable\":true,\"ProtectedState\":\"DPAPI1:AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe6v4ZAVPKUOWDzgEPT2IbQAAAAACAAAAAAAQZgAAAAEAACAAAABa4nCVf5vGTJo4bmLgD8ZXutsiV4w27nnxtyHbjrBMkAAAAAAOgAAAAAIAACAAAAAyuCC12ctNpeHTFtFStBVLdoQOL7+uNqMPkk/wNlJA8lAEAAD3T2997cOAt0hmZXSOkajTiGTgED5IBWOudHV3Nyn1lXOXBrn8za0AqSjnyMiJnSNzh0vXS2o2dqsZIpIDPB1rVOKOqX6GsoWqux2crg5VcXCNN1f2u4mX7a7V6/gQNlNq5Cz2dePyWNGweZt51RJqLUNtfyF4ZwuIiGsyf5hRilimj4Df3hiDbw6habY4PeIQlhXgtgu8nCym8dnkBPKs/E9IplV+y3QV873B73sre8L5+fzgipZJBsbjLL1Jj4yfJozPm3yh4Iyi5CLoNkjKpNxNlAoeyNC9SQfEhLFE75BlfcnhYjXdzGeldLuSGKp8ydF/psTXZzDm6ihAne4MdAZjFhP9pDLFjExwW+kxSfuXiR8oTtHjSwFrrv8ICyAUjDL9/+GhmueQorLDPwoUhXFgXZuHDCosn0KVlB/NtN87AxJFn0Rws7lwtxWm0tOZpJP/v2ZSmGxHt0GRqZCsRXCraERtcMAVb2ugm1pRHifMdb8DO0PVgdPBViXlasqgBQqSFZi8X2gNF2Pt8OYzVyiJLVtDipwUJ0x4PhjS3amRfzdEWDn6AgUpDndcbACqsJ0Kc17qP31RtkHb6sV1K33iF15eskBYrf66ykQVOMMmrao9JR6Utb6G1QDC8cOZmGKRWN0gczvOT0V1JQ+CiFhY4GpeR0XPPAqQZHOxt3z36YIdgvS1lAzTf8MgVOvjyBYfUQHx6+Z0eoRmutwjm80xDZfFjZu8rcGWGWNKHb2WROZg9EFY3e9WvaLRtbVu5LjoSq+sk8Xxe6hh/h2ZnUx2GHlb3wSh47eLKiOFMyHfn+PXRZgyHzctElPGOScIv1NURUw0I8mRTTVE+ojLodSmjitCKnj5FxLWcwDL9FM7mD9a4SSyrL+sDw38cXwX/FQ0VIt8y6DNvcRF64/UOdJASUlg4POuPH1wSzUSwZiJ/f37CBAZnq6QcXqN/nF5vWTeRyylIvM+0b6gV2ZTw9jBKkOxQt3cIQtwtS1Xd03bhdr3AkSBEOHlMWPUyNBMjgQzAakBVHjmnZnkPKd+pUVuLXbwsHTXe/LYBB5shUkowkYo4u2gTbjkqn0jgHs1QuzcHYDBSn19TZLdR5zEwowVckP7uUoSIUYojCjAfa45WOtCyKuvHueFB50YfeEGgE18OsOUpgfZJlYSwmyW3r6uG8vVnTc/MUpbHi2y7ZZzpXNltlTSnZCTFMYuwzGuUgW8YaYB8Ba0DWioBg7OehCUI+ugqIvKWyqFmg2KhcFz1HfFpT/a9gW7LcZnN/4kn67Iic0V6udEpRYrpQHmbMkwun9INcgllBsndG5UZcAklkI7CdigYT6FB72ErJao4hMjYLO7VLc1OcnNqKOzNN9EKsmWfKAky0+mpmNJJOC6CkoE07kpgSdVPgOpj6hn/Rqc4Mjqom/iP54bs4tyAHuqMicsvpmsCeafIaob1PYG+Oelx65X5/YFjFh84ktAAAAAlAeEA+C8+1C4qjFApLynK7bpa/BARrgtsYiEqpgvqIU88PJNZ2+SJDPWyRY8Injl1+aT9SBzyKjaMVg4TLP0Bg==\",\"JournalSchema\":\"QA2-User\",\"NormalizedInMemory\":true,\"Timestamp\":\"2026-09-02T01:33:36.7234585Z\"}],\"Errors\":[],\"Complete\":true}"
+                    },
+                    {
+                        "Name":  "Corrected build restores QA2 Startup-folder rollback",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":true,\"Status\":\"Completed\",\"Message\":\"The current-user startup entry was restored and its active rollback journal was closed.\",\"ActionId\":\"393039cf84534064918685331afa50ac\",\"Details\":null,\"Timestamp\":\"2026-09-02T01:33:39.0720326Z\"}"
+                    },
+                    {
+                        "Name":  "QA2 Startup-folder payload restores exact bytes",
+                        "Passed":  true,
+                        "Details":  "A1835225EDD2B74AB9C28C11AFB01E20414F104F1CF94F4AAD40B4D1DB15C3D5"
+                    },
+                    {
+                        "Name":  "BeforeScenario3: InstallRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario3: DataRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario3: Nyx uninstall registration absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario3: Nyx Start-menu shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario3: Nyx desktop shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario3: no harness fixture Run or RunOnce value remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario3: no harness fixture Startup file remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario3: installation parent is an ordinary directory",
+                        "Passed":  true,
+                        "Details":  "{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}}"
+                    },
+                    {
+                        "Name":  "BeforeScenario3: installation parent is writable",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    },
+                    {
+                        "Name":  "Immutable QA2 install is preceded by a successful disposable-state reset",
+                        "Passed":  true,
+                        "Details":  "{\"ResetNumber\":3,\"Label\":\"BeforeScenario3\",\"StartedUtc\":\"2026-09-02T01:33:39.0720326Z\",\"UninstallerAttempted\":true,\"UninstallerPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Uninstall Nyx PC Checkup.exe\",\"UninstallerExitCode\":0,\"ForcedExactCleanup\":false,\"ForcedCleanupReason\":\"\",\"Postconditions\":{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}},\"Passed\":true,\"Error\":\"\",\"CompletedUtc\":\"2026-09-02T01:33:42.2050815Z\"}"
+                    },
+                    {
+                        "Name":  "Exact QA2 setup installs successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; Inference={\"Label\":\"QA2Install_5\",\"Source\":\"HarnessInferenceFromImmutableQA2Source\",\"ExitCode\":0,\"CandidateBranchIds\":[],\"Reason\":\"\",\"PreflightLocalAppData\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\",\"PreflightInstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"PreflightWriteSucceeded\":true}"
+                    },
+                    {
+                        "Name":  "QA2 application root exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 Paths hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B"
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 ActionHistory hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "965143541BFBBE80C2A508F67A496ED3C6E574B241BFD48B667C637168D5751A"
+                    },
+                    {
+                        "Name":  "QA2 Paths initializer is visible immediately after direct Paths import",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Paths.psm1"
+                    },
+                    {
+                        "Name":  "QA2 post-ActionHistory caller-scope visibility is observed but not required",
+                        "Passed":  true,
+                        "Details":  "{\"PathsModule\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\core\\\\Paths.psm1\",\"PathsSha256\":\"851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B\",\"InitializerVisibleAfterDirectPathsImport\":true,\"InitializerVisibleAfterActionHistoryImport\":false,\"PostActionHistoryInitializerModule\":\"\",\"CallerVisibilityRequiredForFixtureCreation\":false}"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI protect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI unprotect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 data root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 rollback root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\disabled-startup"
+                    },
+                    {
+                        "Name":  "QA2 harness registry source exists before journal creation",
+                        "Passed":  true,
+                        "Details":  "\"C:\\WINDOWS\\System32\\notepad.exe\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Tampered"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "a3754576002f4c7abe27fb27034dd4fc"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "Registry"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 registry state uses an exact current-user Run source",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"a3754576002f4c7abe27fb27034dd4fc\",\"OwnerSid\":\"\",\"Id\":\"d01e3b6eeb005649c83c99a7\",\"Name\":\"NyxPCCheckup_QA2_Migration_Tampered\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Tampered\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Tampered\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal uses the exact DPAPI1 protected-state format",
+                        "Passed":  true,
+                        "Details":  "DPAPI1:"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal is bounded",
+                        "Passed":  true,
+                        "Details":  "1150"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal decrypts with immutable QA2 CurrentUser DPAPI helper",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "a3754576002f4c7abe27fb27034dd4fc"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "Registry"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 registry state uses an exact current-user Run source",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"a3754576002f4c7abe27fb27034dd4fc\",\"OwnerSid\":\"\",\"Id\":\"d01e3b6eeb005649c83c99a7\",\"Name\":\"NyxPCCheckup_QA2_Migration_Tampered\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Tampered\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Tampered\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}"
+                    },
+                    {
+                        "Name":  "Harness-owned QA2 registry fixture matches completed disable state",
+                        "Passed":  true,
+                        "Details":  "{\"Folder\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\a3754576002f4c7abe27fb27034dd4fc\",\"Journal\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\a3754576002f4c7abe27fb27034dd4fc\\\\rollback.dpapi\",\"Protected\":\"DPAPI1:AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe6v4ZAVPKUOWDzgEPT2IbQAAAAACAAAAAAAQZgAAAAEAACAAAADdZPqYu65rWWHyx0K7mnTEtnlH7s3f1Xd0HiPN0e9v7AAAAAAOgAAAAAIAACAAAABspSpLekwkcAhb6GKKd0zzNsr/zq7pTyF5zTQzskNyx4ACAAAi78CWHuxKsJySDyur+INxC5O8BJa8wS0oYhIItSPxY5r1VCz57UAyOcK14UAgfiSlx70xIrSnTRVBb+G7zcNo8PFzjp6Eu3DJdI59AARN5/KqxOYQWDgwFQwz+lsZICj6B2hKby8ptRg8UCjbHszq8ODBcEstnr33GxNeoeAYBA5gnS2nJy9vyBUbxrnAHYezbq1JfrCSvMw/mNIfRcJ69IKU8J9dF2CZCIn0tWZLIvAtTj8v/JeCe/8O8SiJ7oU8ovSMmbz7ezhTozsVHtrvrwxnhBM/YQ3fRVCiBrKQwLijq38o/SS9mxNF/VKYwLU3SZXLjVXNNZZbm34JOmJh9RUXXM8Jlp3sr1Ut9RO5sZnwPEsZC9D5AX41CL0comfAvV8/TG7VJEsRmai3u6GqYihZ5E75DyGA6/iTpvHNvBCtI57SgyagMIEjSd7SF9cuig05QL0T5dS/s4ScaaVoa7GpVDzV44kXLoSGf9xduoNm7w8FZrVX5bjah6MaOKul0ut06VLYYne3yVJonYzz4km0ObcSLh5BqekNYtLgmBS02xUKBpauQG3S+mSGhMRKywSIQbmLOA2ZoziC1+gSmZjCIkXIm4jaxbDdH9cpOODipHHy0VPZdg7evv0sUy2ODeDLff+pnuucclkUWTPXFB9+NgN4druv1WZBj8RuHZoxZ/N3FBy0Malv6D/GPnn4cG6H38QoouJMy3tEZ2DnWWoUPM+zqwO/W1gRHqjNe1zD1I4hYdQ1WpSigzRbY7iXwgrhI1QpPgjJBbbrwMBsh7CCk8IlI38CHRqiecI5RS0LgJaUYF6T1aPxNaqZh0+2L8rlv8YQDmbLXDmY2OfsQAAAACfZmGfAuF/vggy+FTSN/1AGWCTq+BH4HjeTO19U7dIPvuVQuMpUta7a+EsTPhIr/LkMS+xR3AsgMp9FV+GScCQ=\",\"State\":{\"JournalScope\":\"User\",\"ActionId\":\"a3754576002f4c7abe27fb27034dd4fc\",\"OwnerSid\":\"\",\"Id\":\"d01e3b6eeb005649c83c99a7\",\"Name\":\"NyxPCCheckup_QA2_Migration_Tampered\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Tampered\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Tampered\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}}"
+                    },
+                    {
+                        "Name":  "Corrected setup upgrades QA2 successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_6_ddd4f67fbaf84d5b85f4fe83f8895fbe.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected setup emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_6_ddd4f67fbaf84d5b85f4fe83f8895fbe.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected build identity is active after upgrade",
+                        "Passed":  true,
+                        "Details":  "2026.09.01-eng-qa15"
+                    },
+                    {
+                        "Name":  "Tampered QA2 journal fails closed",
+                        "Passed":  true,
+                        "Details":  "{\"Status\":\"Unknown\",\"Entries\":[],\"Errors\":[\"Rollback a3754576002f4c7abe27fb27034dd4fc could not be validated: QA2 current-user rollback journal does not match its exact property schema.\"],\"Complete\":false}"
+                    },
+                    {
+                        "Name":  "Tampered QA2 journal cannot trigger restore mutation",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":false,\"Status\":\"Failed\",\"Message\":\"Current-user rollback storage could not be validated. No startup setting was changed.\",\"ActionId\":\"\",\"Details\":[\"Rollback a3754576002f4c7abe27fb27034dd4fc could not be validated: QA2 current-user rollback journal does not match its exact property schema.\"],\"Timestamp\":\"2026-09-02T01:33:45.4642617Z\"}"
+                    },
+                    {
+                        "Name":  "Tampered QA2 journal bytes are preserved",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: InstallRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: DataRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: Nyx uninstall registration absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: Nyx Start-menu shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: Nyx desktop shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: no harness fixture Run or RunOnce value remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: no harness fixture Startup file remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario4: installation parent is an ordinary directory",
+                        "Passed":  true,
+                        "Details":  "{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}}"
+                    },
+                    {
+                        "Name":  "BeforeScenario4: installation parent is writable",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    },
+                    {
+                        "Name":  "Immutable QA2 install is preceded by a successful disposable-state reset",
+                        "Passed":  true,
+                        "Details":  "{\"ResetNumber\":4,\"Label\":\"BeforeScenario4\",\"StartedUtc\":\"2026-09-02T01:33:45.4642617Z\",\"UninstallerAttempted\":true,\"UninstallerPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Uninstall Nyx PC Checkup.exe\",\"UninstallerExitCode\":6,\"ForcedExactCleanup\":true,\"ForcedCleanupReason\":\"QA9 exit 6: intentionally invalid/incomplete current-user rollback state from migration scenario.\",\"Postconditions\":{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}},\"Passed\":true,\"Error\":\"\",\"CompletedUtc\":\"2026-09-02T01:33:46.6193273Z\"}"
+                    },
+                    {
+                        "Name":  "Exact QA2 setup installs successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; Inference={\"Label\":\"QA2Install_7\",\"Source\":\"HarnessInferenceFromImmutableQA2Source\",\"ExitCode\":0,\"CandidateBranchIds\":[],\"Reason\":\"\",\"PreflightLocalAppData\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\",\"PreflightInstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"PreflightWriteSucceeded\":true}"
+                    },
+                    {
+                        "Name":  "QA2 application root exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 Paths hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B"
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 ActionHistory hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "965143541BFBBE80C2A508F67A496ED3C6E574B241BFD48B667C637168D5751A"
+                    },
+                    {
+                        "Name":  "QA2 Paths initializer is visible immediately after direct Paths import",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Paths.psm1"
+                    },
+                    {
+                        "Name":  "QA2 post-ActionHistory caller-scope visibility is observed but not required",
+                        "Passed":  true,
+                        "Details":  "{\"PathsModule\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\core\\\\Paths.psm1\",\"PathsSha256\":\"851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B\",\"InitializerVisibleAfterDirectPathsImport\":true,\"InitializerVisibleAfterActionHistoryImport\":false,\"PostActionHistoryInitializerModule\":\"\",\"CallerVisibilityRequiredForFixtureCreation\":false}"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI protect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI unprotect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 data root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 rollback root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\disabled-startup"
+                    },
+                    {
+                        "Name":  "Corrected setup upgrades QA2 successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_8_153af1decbbf4549a2404453fd450488.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected setup emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_8_153af1decbbf4549a2404453fd450488.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected build identity is active after upgrade",
+                        "Passed":  true,
+                        "Details":  "2026.09.01-eng-qa15"
+                    },
+                    {
+                        "Name":  "QA2 machine pointer is rejected",
+                        "Passed":  true,
+                        "Details":  "{\"Status\":\"Unknown\",\"Entries\":[],\"Errors\":[\"Rollback c5150d3163b7490e8e56db262a34165c could not be validated: A legacy machine rollback pointer cannot enter the current-user restore path.\"],\"Complete\":false}"
+                    },
+                    {
+                        "Name":  "QA2 machine pointer rejection creates no HKLM startup value",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: InstallRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: DataRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: Nyx uninstall registration absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: Nyx Start-menu shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: Nyx desktop shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: no harness fixture Run or RunOnce value remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: no harness fixture Startup file remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "BeforeScenario5: installation parent is an ordinary directory",
+                        "Passed":  true,
+                        "Details":  "{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}}"
+                    },
+                    {
+                        "Name":  "BeforeScenario5: installation parent is writable",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    },
+                    {
+                        "Name":  "Immutable QA2 install is preceded by a successful disposable-state reset",
+                        "Passed":  true,
+                        "Details":  "{\"ResetNumber\":5,\"Label\":\"BeforeScenario5\",\"StartedUtc\":\"2026-09-02T01:33:49.8076881Z\",\"UninstallerAttempted\":true,\"UninstallerPath\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\Uninstall Nyx PC Checkup.exe\",\"UninstallerExitCode\":6,\"ForcedExactCleanup\":true,\"ForcedCleanupReason\":\"QA9 exit 6: intentionally invalid/incomplete current-user rollback state from migration scenario.\",\"Postconditions\":{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}},\"Passed\":true,\"Error\":\"\",\"CompletedUtc\":\"2026-09-02T01:33:50.9658279Z\"}"
+                    },
+                    {
+                        "Name":  "Exact QA2 setup installs successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; Inference={\"Label\":\"QA2Install_9\",\"Source\":\"HarnessInferenceFromImmutableQA2Source\",\"ExitCode\":0,\"CandidateBranchIds\":[],\"Reason\":\"\",\"PreflightLocalAppData\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\",\"PreflightInstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"PreflightWriteSucceeded\":true}"
+                    },
+                    {
+                        "Name":  "QA2 application root exists",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 Paths hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B"
+                    },
+                    {
+                        "Name":  "Installed immutable QA2 ActionHistory hash matches fixture contract",
+                        "Passed":  true,
+                        "Details":  "965143541BFBBE80C2A508F67A496ED3C6E574B241BFD48B667C637168D5751A"
+                    },
+                    {
+                        "Name":  "QA2 Paths initializer is visible immediately after direct Paths import",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\Paths.psm1"
+                    },
+                    {
+                        "Name":  "QA2 post-ActionHistory caller-scope visibility is observed but not required",
+                        "Passed":  true,
+                        "Details":  "{\"PathsModule\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\app\\\\core\\\\Paths.psm1\",\"PathsSha256\":\"851323C19AD563291E1B54A25C28A588B7ED151E048E672DCC65761134D8386B\",\"InitializerVisibleAfterDirectPathsImport\":true,\"InitializerVisibleAfterActionHistoryImport\":false,\"PostActionHistoryInitializerModule\":\"\",\"CallerVisibilityRequiredForFixtureCreation\":false}"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI protect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "QA2 DPAPI unprotect helper is loaded from immutable QA2 ActionHistory",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\core\\ActionHistory.psm1"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 data root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup"
+                    },
+                    {
+                        "Name":  "Harness-derived QA2 rollback root exactly matches immutable Paths contract",
+                        "Passed":  true,
+                        "Details":  "C:\\Users\\Nyx\\AppData\\Local\\Dietrich AI Labs\\Nyx PC Checkup\\actions\\disabled-startup"
+                    },
+                    {
+                        "Name":  "QA2 harness registry source exists before journal creation",
+                        "Passed":  true,
+                        "Details":  "\"C:\\WINDOWS\\System32\\notepad.exe\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Uninstall"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "e2d68e701a1a407699789cde42ff0625"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "Registry"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 registry state uses an exact current-user Run source",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"e2d68e701a1a407699789cde42ff0625\",\"OwnerSid\":\"\",\"Id\":\"cd597245165b321f5793cc2d\",\"Name\":\"NyxPCCheckup_QA2_Migration_Uninstall\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Uninstall\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Uninstall\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal uses the exact DPAPI1 protected-state format",
+                        "Passed":  true,
+                        "Details":  "DPAPI1:"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal is bounded",
+                        "Passed":  true,
+                        "Details":  "1150"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 journal decrypts with immutable QA2 CurrentUser DPAPI helper",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the exact legacy property set",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has no JournalVersion",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses User scope",
+                        "Passed":  true,
+                        "Details":  "User"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state keeps the legacy empty OwnerSid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state uses a Boolean false elevation boundary",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has exact lowercase action identity",
+                        "Passed":  true,
+                        "Details":  "e2d68e701a1a407699789cde42ff0625"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 state has the intended source type",
+                        "Passed":  true,
+                        "Details":  "Registry"
+                    },
+                    {
+                        "Name":  "Harness-created QA2 registry state uses an exact current-user Run source",
+                        "Passed":  true,
+                        "Details":  "{\"JournalScope\":\"User\",\"ActionId\":\"e2d68e701a1a407699789cde42ff0625\",\"OwnerSid\":\"\",\"Id\":\"cd597245165b321f5793cc2d\",\"Name\":\"NyxPCCheckup_QA2_Migration_Uninstall\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Uninstall\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Uninstall\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}"
+                    },
+                    {
+                        "Name":  "Harness-owned QA2 registry fixture matches completed disable state",
+                        "Passed":  true,
+                        "Details":  "{\"Folder\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\e2d68e701a1a407699789cde42ff0625\",\"Journal\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\actions\\\\disabled-startup\\\\e2d68e701a1a407699789cde42ff0625\\\\rollback.dpapi\",\"Protected\":\"DPAPI1:AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe6v4ZAVPKUOWDzgEPT2IbQAAAAACAAAAAAAQZgAAAAEAACAAAABrDwRwI7tE/8vvlIZoh3JAsXnP5QYy5d2vXK3GiWMfcgAAAAAOgAAAAAIAACAAAAAN7eokLAO+4Bb1p8D9RKBuEI9iMbPSxY7si+kYvDxRyoACAACJ8tELr3TFLhQhrZUPyobQz9PwHdlZ0kebDTy8zx/WW8z6vgDMW29k60631JBtLOz4871pV6VEMKFgiD/jCG0YSakR9jqgHp0ILpIrA1sDUYrDhvl5MIMgI59H9mm1P3O/WUy6hbE0ZGHp7zbFr/EpzxXv7/hi5LyDddlWPxz1VggJKa278NBqSENangMX6Kcz815FVF+DWKT747R5hD8a5QQ9JvG+YguqTFhgf//V3olHiCvElIqryAngnX3zBJ1ec0YA8Mrtfp9OGGL9WZEvW/lTUUWBavgc2pg9IOWcCy3sssbDsE3JU9fHqAxAp0TuFfZ5GDXr81/7zg7affQanQp4gNBXeJDcIEIdwYY7UIiX0xILQTTowhLyQstJaxXsPmHhoc13ev1kSkmEZ2OXTilJJF6nSt+RGhrC0qyJxcQzjOzsPX/oJvYx0JvKiTx59WZiAtpr2mdrC5l++mLPkdrkUzsGgIZQMAMrZTopnQA/M9AsTgOOF+sAZJd2OtW2qiG588IGHMU5L6h2NK44GC4chNvxclQDgzvlwpm8gUhcpHOqKFZwNuzD/4OzkuSjQ6LMoUasxA6N5FQuGDDtzW1I4p99ww+7Wld2ZlifFkRZVs3UJdC0ChO4O0HQoWI6nKiwyXusHAZpGqEzh4ZqBWYeAD1dsfUrTG0C1NMwww2T027QjSfoe8GPg5YaZOQFvDLak+NbE/0j3JRThp1sNnWvAw6d/w7pszpEt+hGExQFs8oGMsTDXNUx7vSsfGPA3UKztZ60/ASuyFOZwDRZS2tuz4uUHZD4I2wU1oR/kf9h+rGBxX/ON35Gu97P+yY+iPzhSznhafuyJuhcVLLrQAAAACwi+/ILExlKQ6Vz0btKJBNU0yIoQTLVRna+WKeM9IXsW4HiNyvNUByC/fFfvF53kTtKrYNl5BNd+hCSZfaga5A=\",\"State\":{\"JournalScope\":\"User\",\"ActionId\":\"e2d68e701a1a407699789cde42ff0625\",\"OwnerSid\":\"\",\"Id\":\"cd597245165b321f5793cc2d\",\"Name\":\"NyxPCCheckup_QA2_Migration_Uninstall\",\"Publisher\":\"Microsoft Corporation\",\"SourceType\":\"Registry\",\"SourcePath\":\"HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\",\"SourceLabel\":\"Current user Run\",\"ValueName\":\"NyxPCCheckup_QA2_Migration_Uninstall\",\"ValueKind\":\"String\",\"Command\":\"\\\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\\\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Uninstall\",\"ExecutablePath\":\"C:\\\\WINDOWS\\\\System32\\\\notepad.exe\",\"RequiresElevation\":false,\"BackupPath\":\"\",\"SourceLength\":null,\"SourceHash\":\"\"}}"
+                    },
+                    {
+                        "Name":  "Corrected setup upgrades QA2 successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_10_66d6b97080e0448cbb32d428fe8cee57.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected setup emits valid branch diagnostics",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0; DiagnosticValid=True; BranchId=SUCCESS; Stage=complete; NativeError=0; DiagnosticPath=C:\\QA15_OVERNIGHT\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260901_213220\\installer-diagnostics\\Nyx_PC_Checkup_Setup_Diagnostics_QA2Upgrade_10_66d6b97080e0448cbb32d428fe8cee57.json; ValidationError="
+                    },
+                    {
+                        "Name":  "Corrected build identity is active after upgrade",
+                        "Passed":  true,
+                        "Details":  "2026.09.01-eng-qa15"
+                    },
+                    {
+                        "Name":  "Corrected uninstall exits 0 with QA2 current-user rollback present",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "Uninstall restores QA2 current-user rollback before removal",
+                        "Passed":  true,
+                        "Details":  "\"C:\\WINDOWS\\System32\\notepad.exe\" --nyx-qa2-migration-NyxPCCheckup_QA2_Migration_Uninstall"
+                    },
+                    {
+                        "Name":  "Corrected uninstall removes install root after QA2 restoration",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Corrected purge uninstall removes local rollback data",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: InstallRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: DataRoot absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: Nyx uninstall registration absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: Nyx Start-menu shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: Nyx desktop shortcut absent",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: no harness fixture Run or RunOnce value remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: no harness fixture Startup file remains",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "FinalCleanup: installation parent is an ordinary directory",
+                        "Passed":  true,
+                        "Details":  "{\"InstallRootAbsent\":true,\"DataRootAbsent\":true,\"UninstallRegistrationAbsent\":true,\"StartLinkAbsent\":true,\"DesktopLinkAbsent\":true,\"FixtureRegistryValues\":[],\"FixtureStartupFiles\":[],\"InstallParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"InstallParentOrdinary\":true,\"InstallParentReparseComponents\":[],\"InstallParentWriteCapability\":{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}}"
+                    },
+                    {
+                        "Name":  "FinalCleanup: installation parent is writable",
+                        "Passed":  true,
+                        "Details":  "{\"IntendedParent\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"NearestExistingAncestor\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Programs\\\\Dietrich AI Labs\",\"Attempted\":true,\"Succeeded\":true,\"Error\":\"\"}"
+                    }
+                ],
+    "UnhandledError":  ""
+}

@@ -1,10 +1,19 @@
-# Independent QA Test Plan — Nyx PC Checkup 1.0.0 QA11
+# Current QA27 scope takes precedence
+
+Read QA27_F024_PDF_EXPORT.md and README_FIRST.md first. Native F-024 first;
+no DPI/scaling work. Historical83/132 remains archived;49 cells are
+WAIVED_BY_OWNER_DPI_SCOPE_20261019. No QA26 credit is copied into QA27.
+Historical instructions below do not override the owner policy.
+
+---
+
+# Independent QA Test Plan â€” Nyx PC Checkup 1.0.0 QA13
 
 ## Authority and evidence
 
-QA tests the exact immutable QA11 handoff and assumes Engineering missed something. QA never silently edits Engineering source. Record Eastern start/stop timestamps, elapsed time, environment, exact artifact names/sizes/SHA-256, findings/severity/evidence, and final `PASS`, `CONDITIONAL PASS`, `HOLD`, or `FAIL`.
+QA tests the exact immutable QA14 handoff and assumes Engineering missed something. QA never silently edits Engineering source. Record Eastern start/stop timestamps, elapsed time, environment, exact artifact names/sizes/SHA-256, findings/severity/evidence, and final `PASS`, `CONDITIONAL PASS`, `HOLD`, or `FAIL`.
 
-## Prior QA9 baseline — mandatory regression boundary
+## Prior QA9 baseline â€” mandatory regression boundary
 
 QA9 already recorded these native results before final visual acceptance failed:
 
@@ -15,28 +24,49 @@ QA9 already recorded these native results before final visual acceptance failed:
 - Elevated privilege/rollback: **14/14 PASS**
 - Elevated installer lifecycle: **50/50 PASS**
 
-QA11 changes shipped UI lifecycle bytes, so QA must verify no regression to those product behaviors. Previously passed evidence may guide prioritization but does not authorize ignoring a behavior affected by new bytes.
+QA14 changes native launcher and UI-state bytes, so QA must verify no regression to those product behaviors. Previously passed evidence may guide prioritization but does not authorize ignoring a behavior affected by new bytes.
 
 ## QA10 failure being corrected
 
-Independent QA10 reproduced `QA10-F-009` on native Windows PowerShell 5.1: closing the real UI could surface an unhandled .NET dialog and a Nyx terminal error because four optional UI temp-path fields were initialized to empty strings and passed directly to `Remove-Item -LiteralPath`. QA11 must carry forward the QA9-F-008 responsive UI correction while closing F-009.
+Independent QA10 reproduced `QA10-F-009` on native Windows PowerShell 5.1: closing the real UI could surface an unhandled .NET dialog and a Nyx terminal error because four optional UI temp-path fields were initialized to empty strings and passed directly to `Remove-Item -LiteralPath`. QA14 must carry forward the QA9-F-008 responsive UI correction while closing F-009.
 
 ## Preferred manifest-bound phase runner
 
-After extracting the master handoff, use root `RUN_QA11_WINDOWS_GATE.ps1` with inbox `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. The runner verifies identities before execution and emits phase evidence. Each phase must include `QA11_WINDOWS_PARSE_PREFLIGHT.json` and `QA11_WINDOWS_RUN_SUMMARY.json`. Expected `HarnessRevision` is `QA11-PS51-8`.
+After extracting the master handoff, use root `RUN_QA15_WINDOWS_GATE.ps1` with inbox `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe`, not PowerShell 7. The runner verifies identities before execution and emits phase evidence. Each phase must include `QA15_WINDOWS_PARSE_PREFLIGHT.json` and `QA15_WINDOWS_RUN_SUMMARY.json`. Expected `HarnessRevision` is `QA25-F022-PS51-25`.
 
 Run Smoke, Standard, and Elevated on appropriate disposable Windows 10/11 x64 snapshots. A process exit code is insufficient by itself: expected JSON reports must exist, parse, contain internally valid totals, and report PASS.
 
+
+# QA12-F-011 installed-launch acceptance â€” RELEASE BLOCKER
+
+QA12 reproduced a live invisible singleton from the supported installed desktop shortcut on a normal Hyper-V VM. QA14 must be tested from an interactive non-elevated desktop and must not substitute direct-source acceptance probes for the installed entry point.
+
+Required assertions:
+
+1. verify exact Setup, installed launcher, and installed script identities;
+2. verify shortcut target and working directory;
+3. begin from zero prior Nyx launcher/application/worker processes;
+4. launch the actual desktop shortcut;
+5. observe exactly one visible, usable `Nyx PC Checkup` main window within a bounded timeout;
+6. verify the main window is taskbar-eligible and capture it;
+7. launch a second installed instance and observe visible singleton behavior while the first window stays usable;
+8. close the first window and prove child and launcher exit with no unnecessary Nyx process;
+9. launch the installed EXE directly and prove the same visible behavior;
+10. repeat isolated script controls without explicit STA and with explicit STA, each from clean state; and
+11. immediately relaunch after close and prove a new visible usable window.
+
+A live child that owns the singleton without a visible main window is an immediate FAIL. Console suppression must not suppress the WinForms UI. Singleton protection must remain enabled.
+
 ## Carried-forward migration harness corrections
 
-The QA11 source incorporates QA9-WH-004, WH-005, and WH-006 rather than reverting to the older QA9 Source ZIP harness state. The migration suite must retain:
+The QA14 source incorporates QA9-WH-004, WH-005, and WH-006 rather than reverting to the older QA9 Source ZIP harness state. The migration suite must retain:
 
 - exact immutable QA2 Paths and ActionHistory hash pinning;
 - exact QA2 CurrentUser DPAPI protect/unprotect use;
 - exact 17-property QA2 legacy journal schema;
 - harness-owned QA2 data-layout derivation without calling the historical broken QA2 startup enumerator/disable path;
 - reset-run evidence, exact bounded cleanup, reparse protections, and clean-state assertions before each QA2 reinstall; and
-- all five exact migration scenarios, Machine-pointer rejection, and QA11 uninstall consuming/restoring migrated QA2 current-user rollback.
+- all five exact migration scenarios, Machine-pointer rejection, and QA14 uninstall consuming/restoring migrated QA2 current-user rollback.
 
 ## Intake and packaging
 
@@ -69,9 +99,9 @@ Re-run or substantively exercise historical F-001 through F-009 boundaries: no u
 - Manual up-to-date/failure; update prompt; one prompt per version/session; Remind Me Later behavior.
 - No executable download, install/execute path, service/task, telemetry, inventory upload, TLS bypass, or arbitrary-domain open.
 
-# QA10-F-009 UI close lifecycle acceptance — RELEASE BLOCKER
+# QA10-F-009 UI close lifecycle acceptance â€” RELEASE BLOCKER
 
-QA10 failed Standard before the final UI matrix because a normal `FormClosing` callback passed empty optional path strings to `Remove-Item -LiteralPath`. QA11 must prove both the shipped fix and the exact cleanup boundary.
+QA10 failed Standard before the final UI matrix because a normal `FormClosing` callback passed empty optional path strings to `Remove-Item -LiteralPath`. QA14 must prove both the shipped fix and the exact cleanup boundary.
 
 Required native Windows PowerShell 5.1 / WinForms close cases:
 
@@ -88,15 +118,15 @@ Required native Windows PowerShell 5.1 / WinForms close cases:
 11. no unnecessary residual Nyx UI/**background process** remains; and
 12. temp cleanup never deletes a file **outside the exact Nyx temp root**.
 
-The Smoke harness includes manifest-bound QA11 acceptance probes for immediate close with automatic update disabled and enabled/due, plus direct empty-path/outside-root cleanup assertions. Those automated cases do not replace QA's native start/cancel/update/manual close observations.
+The Smoke harness includes manifest-bound QA13 acceptance probes for immediate close with automatic update disabled and enabled/due, plus direct empty-path/outside-root cleanup assertions. Those automated cases do not replace QA's native start/cancel/update/manual close observations.
 
 Any empty/null/whitespace cleanup parameter-binding exception, cleanup outside the exact Nyx temp root, stuck process, or terminal close error is a release blocker.
 
-# QA9-F-008 final UI / accessibility acceptance — RELEASE BLOCKER
+# QA9-F-008 final UI / accessibility acceptance â€” RELEASE BLOCKER
 
-This matrix is mandatory. QA9 failed at 150% scaling on a 1366×768-class viewport, so visual inspection—not static source review—is required.
+This matrix is mandatory. QA9 failed at 150% scaling on a 1366Ã—768-class viewport, so visual inspectionâ€”not static source reviewâ€”is required.
 
-### Theme × scale matrix
+### Theme Ã— scale matrix
 
 Test **Follow Windows**, **Dark**, and **Light** themes at each of:
 
@@ -105,7 +135,7 @@ Test **Follow Windows**, **Dark**, and **Light** themes at each of:
 - **150%**
 - **200%**
 
-At minimum include a **1366×768** constrained working-area case for every scale where Windows permits it, and reproduce the exact prior-failure class at **150% / 1366×768**.
+At minimum include a **1366Ã—768** constrained working-area case for every scale where Windows permits it, and reproduce the exact prior-failure class at **150% / 1366Ã—768**.
 
 ### Pages
 
@@ -170,4 +200,9 @@ Any required control clipped, unreachable, visually hidden, or keyboard-inaccess
 
 ## Verdict gate
 
-PASS requires the exact immutable **QA11** bytes to satisfy functional, migration/recovery, safety, privacy, privilege, weekly-update, **complete UI/accessibility matrix**, packaging, and lifecycle gates with no release blocker. Any shipped-byte correction creates a new immutable candidate and invalidates this verdict.
+PASS requires the exact immutable **QA13** bytes to satisfy functional, migration/recovery, safety, privacy, privilege, weekly-update, **complete UI/accessibility matrix**, packaging, and lifecycle gates with no release blocker. Any shipped-byte correction creates a new immutable candidate and invalidates this verdict.
+
+
+## Current successor identity (QA26)
+
+Historical candidate identities above remain unchanged. The current successor build is 2026.10.02-eng-qa26; its active harness is QA26-F023-PS51-26. QA25 remains frozen; native successor acceptance is required.

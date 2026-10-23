@@ -1,0 +1,18 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260926150015
+Username: DESKTOP-4D83OSL\mark
+RunAs User: DESKTOP-4D83OSL\mark
+Configuration Name: 
+Machine: DESKTOP-4D83OSL (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File C:\Q15Bounds\Invoke-QA15-FirstCellBounds.ps1 -InstalledRoot C:\Users\mark\AppData\Local\Programs\Dietrich AI Labs\Nyx PC Checkup -EvidenceDirectory C:\Q15Bounds\evidence
+Process ID: 2820
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************

@@ -1,0 +1,341 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa15-f008-matrix.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "Complete":  false,
+    "Pass":  0,
+    "Fail":  33,
+    "NotRun":  99,
+    "NotRunReason":  "Guest exposed only the mandatory 150 percent constrained DPI session; 100, 125, and 200 percent sessions require separate verified display profiles.",
+    "Cells":  [
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Home",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Home.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Checkup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Checkup.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Storage",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Storage.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Startup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Startup.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Security",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Security.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Updates",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Updates.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Backup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Backup.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "System",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_System.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Apps",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Apps.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Cleanup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Cleanup.png"
+                  },
+                  {
+                      "Theme":  "FollowWindows",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Settings",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_FollowWindows_Settings.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Home",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Home.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Checkup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Checkup.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Storage",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Storage.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Startup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Startup.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Security",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Security.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Updates",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Updates.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Backup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Backup.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "System",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_System.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Apps",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Apps.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Cleanup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Cleanup.png"
+                  },
+                  {
+                      "Theme":  "Dark",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Settings",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Dark_Settings.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Home",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Home.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Checkup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Checkup.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Storage",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Storage.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Startup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Startup.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Security",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Security.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Updates",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Updates.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Backup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Backup.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "System",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_System.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Apps",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Apps.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Cleanup",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Cleanup.png"
+                  },
+                  {
+                      "Theme":  "Light",
+                      "Scaling":  "100%",
+                      "Resolution":  "2033x1112",
+                      "EffectiveResolution":  "2033x1112",
+                      "Page":  "Settings",
+                      "Status":  "FAIL",
+                      "WindowBeyondScreen":  true,
+                      "Screenshot":  "150pct_constrained_Light_Settings.png"
+                  }
+              ]
+}

@@ -1,0 +1,109 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.installer-environment-preflight.v1",
+    "CapturedUtc":  "2026-09-02T10:31:43.6938453Z",
+    "ComputerName":  "DESKTOP-4D83OSL",
+    "UserIdentity":  "DESKTOP-4D83OSL\\mark",
+    "IsAdministrator":  false,
+    "LocalAppDataEnvironment":  "C:\\Users\\mark\\AppData\\Local",
+    "LocalAppDataSpecialFolder":  "C:\\Users\\mark\\AppData\\Local",
+    "ValuesMatch":  true,
+    "IntendedInstallParent":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs",
+    "IntendedInstallTarget":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup",
+    "LocalAppDataRecord":  {
+                               "Path":  "C:\\Users\\mark\\AppData\\Local",
+                               "Exists":  true,
+                               "ResolvedPath":  "C:\\Users\\mark\\AppData\\Local",
+                               "Attributes":  "Directory",
+                               "IsDirectory":  true,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "DESKTOP-4D83OSL\\mark",
+                               "AclSddl":  "O:S-1-5-21-1723763126-3146604107-184641064-1001G:S-1-5-21-1723763126-3146604107-184641064-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-1723763126-3146604107-184641064-1001)",
+                               "Error":  ""
+                           },
+    "PathComponents":  [
+                           {
+                               "Path":  "C:\\",
+                               "Exists":  true,
+                               "ResolvedPath":  "C:\\",
+                               "Attributes":  "Hidden, System, Directory",
+                               "IsDirectory":  true,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "NT SERVICE\\TrustedInstaller",
+                               "AclSddl":  "O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:PAI(A;;LC;;;AU)(A;OICIIO;SDGXGWGR;;;AU)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;OICI;0x1200a9;;;BU)(A;;0x1000a1;;;S-1-15-3-65536-1888954469-739942743-1668119174-2468466756-4239452838-1296943325-355587736-700089176)",
+                               "Error":  ""
+                           },
+                           {
+                               "Path":  "C:\\Users",
+                               "Exists":  true,
+                               "ResolvedPath":  "C:\\Users",
+                               "Attributes":  "ReadOnly, Directory",
+                               "IsDirectory":  true,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "NT AUTHORITY\\SYSTEM",
+                               "AclSddl":  "O:SYG:SYD:PAI(A;OICIIO;GXGR;;;WD)(A;;0x1200a9;;;WD)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;;0x1200a9;;;BU)(A;OICIIO;GXGR;;;BU)(A;;0x100021;;;S-1-15-3-65536-4045685566-1323397456-4055816110-285687253-194181-4019357623-1925838800-191844675)",
+                               "Error":  ""
+                           },
+                           {
+                               "Path":  "C:\\Users\\mark",
+                               "Exists":  true,
+                               "ResolvedPath":  "C:\\Users\\mark",
+                               "Attributes":  "Directory",
+                               "IsDirectory":  true,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "NT AUTHORITY\\SYSTEM",
+                               "AclSddl":  "O:SYG:SYD:P(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;OICI;FA;;;S-1-5-21-1723763126-3146604107-184641064-1001)(A;;0x100020;;;S-1-15-3-65536-599108337-2355189375-1353122160-3480128286-3345335107-485756383-4087318168-230526575)",
+                               "Error":  ""
+                           },
+                           {
+                               "Path":  "C:\\Users\\mark\\AppData",
+                               "Exists":  true,
+                               "ResolvedPath":  "C:\\Users\\mark\\AppData",
+                               "Attributes":  "Hidden, Directory",
+                               "IsDirectory":  true,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "DESKTOP-4D83OSL\\mark",
+                               "AclSddl":  "O:S-1-5-21-1723763126-3146604107-184641064-1001G:S-1-5-21-1723763126-3146604107-184641064-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-1723763126-3146604107-184641064-1001)",
+                               "Error":  ""
+                           },
+                           {
+                               "Path":  "C:\\Users\\mark\\AppData\\Local",
+                               "Exists":  true,
+                               "ResolvedPath":  "C:\\Users\\mark\\AppData\\Local",
+                               "Attributes":  "Directory",
+                               "IsDirectory":  true,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "DESKTOP-4D83OSL\\mark",
+                               "AclSddl":  "O:S-1-5-21-1723763126-3146604107-184641064-1001G:S-1-5-21-1723763126-3146604107-184641064-513D:(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-5-21-1723763126-3146604107-184641064-1001)",
+                               "Error":  ""
+                           },
+                           {
+                               "Path":  "C:\\Users\\mark\\AppData\\Local\\Programs",
+                               "Exists":  false,
+                               "ResolvedPath":  "",
+                               "Attributes":  "",
+                               "IsDirectory":  false,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "",
+                               "AclSddl":  "",
+                               "Error":  ""
+                           },
+                           {
+                               "Path":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                               "Exists":  false,
+                               "ResolvedPath":  "",
+                               "Attributes":  "",
+                               "IsDirectory":  false,
+                               "IsReparsePoint":  false,
+                               "AclOwner":  "",
+                               "AclSddl":  "",
+                               "Error":  ""
+                           }
+                       ],
+    "WriteCapability":  {
+                            "IntendedParent":  "C:\\Users\\mark\\AppData\\Local\\Programs\\Dietrich AI Labs",
+                            "NearestExistingAncestor":  "C:\\Users\\mark\\AppData\\Local",
+                            "Attempted":  true,
+                            "Succeeded":  true,
+                            "Error":  ""
+                        }
+}

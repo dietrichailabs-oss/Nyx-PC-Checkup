@@ -9,8 +9,10 @@ function Invoke-NyxOpen {
 function Clear-NyxPage {
     foreach($control in @($script:NyxUi.Content.Controls)){try{$control.Dispose()}catch{}}
     $script:NyxUi.Content.Controls.Clear()
+    $script:NyxUi.Content.AutoScrollPosition=[Drawing.Point]::Empty
+    $script:NyxUi.Content.AutoScrollMinSize=[Drawing.Size]::Empty
 }
-function Get-NyxPageWidth { return [math]::Max(430,$script:NyxUi.Content.ClientSize.Width-52) }
+function Get-NyxPageWidth { return [math]::Max(430,([int]($script:NyxUi.Content.ClientSize.Width/$script:NyxUi.LayoutScale)-52)) }
 function Set-NyxPageScrollExtent {
     param([int]$Height)
     if($null -eq $script:NyxUi -or $null -eq $script:NyxUi.Content){return}
@@ -21,7 +23,9 @@ function Register-NyxFocusScrollTree {
     param([object]$Root)
     if($null -eq $Root){return}
     foreach($control in @($Root.Controls)){
-        if([bool]$control.TabStop){
+        # F-020: grids use Controls' current-cell/ancestor visibility helper.
+        # Scrolling the whole oversized grid into view would reset that work.
+        if([bool]$control.TabStop -and $control -isnot [Windows.Forms.DataGridView]){
             $control.Add_Enter({
                 param($sender,$eventArgs)
                 try{
@@ -39,6 +43,7 @@ function Register-NyxFocusScrollTree {
 function Get-NyxResponsiveWindowSize {
     param([object]$Form)
     $working=[Windows.Forms.Screen]::PrimaryScreen.WorkingArea
+    if($Form.IsHandleCreated){$working=[Windows.Forms.Screen]::FromHandle($Form.Handle).WorkingArea}
     $dpi=96.0
     try{
         $graphics=$Form.CreateGraphics()
@@ -47,11 +52,40 @@ function Get-NyxResponsiveWindowSize {
     }catch{}
     if($dpi -lt 96.0){$dpi=96.0}
     $scale=$dpi/96.0
-    $availableWidth=[math]::Max(640,$working.Width-32)
-    $availableHeight=[math]::Max(480,$working.Height-32)
+    $availableWidth=[math]::Max(1,$working.Width-32)
+    $availableHeight=[math]::Max(1,$working.Height-32)
     $targetWidth=[math]::Min([int][math]::Ceiling(1280*$scale),$availableWidth)
     $targetHeight=[math]::Min([int][math]::Ceiling(820*$scale),$availableHeight)
     return (New-Object Drawing.Size($targetWidth,$targetHeight))
+}
+function Get-NyxClampedWindowBounds {
+    param([Drawing.Rectangle]$Bounds,[Drawing.Rectangle]$WorkingArea)
+    if($WorkingArea.Width -le 0 -or $WorkingArea.Height -le 0){return $Bounds}
+    $width=[math]::Min($Bounds.Width,$WorkingArea.Width)
+    $height=[math]::Min($Bounds.Height,$WorkingArea.Height)
+    $left=[math]::Max($WorkingArea.Left,[math]::Min($Bounds.Left,$WorkingArea.Right-$width))
+    $top=[math]::Max($WorkingArea.Top,[math]::Min($Bounds.Top,$WorkingArea.Bottom-$height))
+    return (New-Object Drawing.Rectangle($left,$top,$width,$height))
+}
+function Set-NyxWindowWithinWorkingArea {
+    param([object]$Form)
+    if($Form.IsDisposed -or -not $Form.IsHandleCreated -or
+        $Form.WindowState -ne [Windows.Forms.FormWindowState]::Normal){return}
+    if($script:NyxUi.BoundsAdjusting){return}
+    $working=[Windows.Forms.Screen]::FromHandle($Form.Handle).WorkingArea
+    if($working.Width -le 0 -or $working.Height -le 0){return}
+    $script:NyxUi.BoundsAdjusting=$true
+    try{
+        # MinimumSize participates in SetBounds. Reduce it before clamping an
+        # autoscaled window onto a smaller monitor; restore it on larger ones.
+        $scale=Get-NyxControlDpiScale -Control $Form
+        $minimum=$script:NyxUi.BoundsMinimum96
+        $Form.MinimumSize=New-Object Drawing.Size(
+            [math]::Min($working.Width,[int][math]::Round($minimum.Width*$scale)),
+            [math]::Min($working.Height,[int][math]::Round($minimum.Height*$scale)))
+        $target=Get-NyxClampedWindowBounds -Bounds $Form.Bounds -WorkingArea $working
+        if($Form.Bounds -ne $target){$Form.Bounds=$target}
+    }finally{$script:NyxUi.BoundsAdjusting=$false}
 }
 function Add-NyxPageHeading {
     param([string]$Title,[string]$Subtitle)
@@ -67,7 +101,7 @@ function Get-NyxResultsByCategory {
 }
 function Get-NyxGroupStatus {
     param([object[]]$Results)
-    $r=@($Results)
+    $r=@($Results|Where-Object{$null -ne $_ -and $null -ne $_.PSObject.Properties['Status']})
     if(@($r|Where-Object{$_.Status -eq 'NeedsAttention'}).Count -gt 0){return 'NeedsAttention'}
     if($r.Count -eq 0 -or @($r|Where-Object{$_.Status -eq 'Unknown'}).Count -eq $r.Count){return 'Unknown'}
     if(@($r|Where-Object{$_.Status -eq 'Optional'}).Count -gt 0){return 'Optional'}
@@ -79,6 +113,54 @@ function Add-NyxScanButtons {
     $full=New-NyxButton -Text 'Full Check' -X ($X+164) -Y $Y -Width 150 -Palette $script:NyxUi.Palette
     $quick.Add_Click({Start-NyxScan -Mode 'Quick'});$full.Add_Click({Start-NyxScan -Mode 'Full'})
     $script:NyxUi.Content.Controls.AddRange(@($quick,$full))
+}
+function Invoke-NyxGridPrimaryAction {
+    param([Windows.Forms.DataGridView]$Grid)
+    if($null -eq $Grid -or $Grid.IsDisposed -or $Grid.Disposing){return}
+    if($null -eq $Grid.PSObject.Properties['NyxPrimaryActionState']){return}
+    $state=$Grid.NyxPrimaryActionState
+    if($state.Busy){return}
+    $cell=$Grid.CurrentCell
+    if($null -eq $cell -or $cell.RowIndex -lt 0 -or $cell.RowIndex -ge $Grid.Rows.Count){return}
+    $row=$Grid.Rows[$cell.RowIndex]
+    if($row.IsNewRow -or $null -eq $row.Tag){return}
+    $result=$row.Tag
+    $state.Busy=$true
+    try{
+        & $state.Action $Grid $result
+    }finally{
+        $state.Busy=$false
+        if(-not $Grid.IsDisposed -and -not $Grid.Disposing){
+            if($cell.DataGridView -eq $Grid -and $cell.RowIndex -ge 0 -and $cell.RowIndex -lt $Grid.Rows.Count){$Grid.CurrentCell=$cell}
+            [void]$Grid.Focus()
+            if($null -ne $Grid.PSObject.Properties['NyxGridFocusState']){$Grid.NyxGridFocusState.Timer.Start()}
+        }
+    }
+}
+function Register-NyxGridPrimaryAction {
+    param([Windows.Forms.DataGridView]$Grid,[scriptblock]$Action)
+    if($Grid.PSObject.Properties['NyxPrimaryActionState']){throw 'A grid primary action is already registered.'}
+    $Grid|Add-Member -NotePropertyName NyxPrimaryActionState -NotePropertyValue ([pscustomobject]@{Action=$Action;Busy=$false})
+    $Grid.Add_PreviewKeyDown({
+        param($sender,$eventArgs)
+        if($eventArgs.KeyData -eq [Windows.Forms.Keys]::Enter){$eventArgs.IsInputKey=$true}
+    })
+    $Grid.Add_KeyDown({
+        param($sender,$eventArgs)
+        if($eventArgs.KeyData -eq [Windows.Forms.Keys]::Enter){
+            $eventArgs.Handled=$true
+            $eventArgs.SuppressKeyPress=$true
+            Invoke-NyxGridPrimaryAction -Grid $sender
+        }
+    })
+    $Grid.Add_CellDoubleClick({
+        param($sender,$eventArgs)
+        if($sender.IsDisposed -or $sender.Disposing -or $eventArgs.RowIndex -lt 0 -or $eventArgs.RowIndex -ge $sender.Rows.Count){return}
+        $column=if($eventArgs.ColumnIndex -ge 0){$eventArgs.ColumnIndex}else{0}
+        if($column -ge $sender.Columns.Count){return}
+        $sender.CurrentCell=$sender.Rows[$eventArgs.RowIndex].Cells[$column]
+        Invoke-NyxGridPrimaryAction -Grid $sender
+    })
 }
 function New-NyxResultsGridControl {
     param([object[]]$Results,[int]$Y,[int]$Height=420)
@@ -92,7 +174,7 @@ function New-NyxResultsGridControl {
         $index=$grid.Rows.Add("$symbol $label",[string]$result.Category,[string]$result.Name,[string]$result.Finding)
         $grid.Rows[$index].Tag=$result;$grid.Rows[$index].Cells[0].Style.ForeColor=Get-NyxStatusColor -Status ([string]$result.Status) -Palette $script:NyxUi.Palette
     }
-    $grid.Add_CellDoubleClick({param($sender,$eventArgs)if($eventArgs.RowIndex -ge 0){$r=$sender.Rows[$eventArgs.RowIndex].Tag;if($r){Show-NyxResultDetailDialog -Result $r -Palette $script:NyxUi.Palette}}})
+    Register-NyxGridPrimaryAction -Grid $grid -Action {param($sender,$result)Show-NyxResultDetailDialog -Result $result -Palette $script:NyxUi.Palette}
     return $grid
 }
 function Add-NyxNoScanCard {
@@ -125,7 +207,7 @@ function Show-NyxHomePage {
     $groups=[ordered]@{Storage=@('Storage','Downloads','Cleanup');Updates=@('Updates');Security=@('Security');Startup=@('Startup');Backup=@('Backup');System=@('System','Battery','Drive Health','Performance','Network','Applications')}
     $i=0
     foreach($name in $groups.Keys){
-        $col=$i%3;$row=[math]::Floor($i/3);$x=24+($col*268);$y=292+($row*132);$groupResults=Get-NyxResultsByCategory -Categories $groups[$name];$status=Get-NyxGroupStatus -Results $groupResults
+        $col=$i%3;$row=[math]::Floor($i/3);$x=24+($col*268);$y=292+($row*132);$groupResults=@(Get-NyxResultsByCategory -Categories $groups[$name]);$status=Get-NyxGroupStatus -Results $groupResults
         $c=New-NyxCard -X $x -Y $y -Width 250 -Height 112 -Palette $script:NyxUi.Palette
         $c.Controls.Add((New-NyxLabel -Text $name -X 16 -Y 14 -Width 205 -Height 28 -Size 12 -Bold $true -Palette $script:NyxUi.Palette))
         $c.Controls.Add((New-NyxStatusPill -Status $status -X 16 -Y 48 -Palette $script:NyxUi.Palette))
@@ -147,7 +229,7 @@ function Show-NyxCheckupPage {
     Add-NyxScanButtons -X 24 -Y 116
     if($null -eq $script:NyxUi.Scan){Add-NyxNoScanCard -Y 174;return}
     $grid=New-NyxResultsGridControl -Results @($script:NyxUi.Scan.Results) -Y 174 -Height 396;$script:NyxUi.Content.Controls.Add($grid)
-    $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'Double-click any result to see evidence, limitations, and the exact recommendation.' -X 24 -Y 584 -Width (Get-NyxPageWidth) -Height 42 -Size 9 -Palette $script:NyxUi.Palette -Color 'Muted'))
+    $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'Press Enter or double-click a result to see evidence, limitations, and the exact recommendation.' -X 24 -Y 584 -Width (Get-NyxPageWidth) -Height 42 -Size 9 -Palette $script:NyxUi.Palette -Color 'Muted'))
 }
 
 function Show-NyxCategoryPage {
@@ -156,7 +238,9 @@ function Show-NyxCategoryPage {
     $y=116
     if($ActionText){$button=New-NyxButton -Text $ActionText -X 24 -Y $y -Width 205 -Palette $script:NyxUi.Palette -Primary $true;$button.Add_Click($Action);$script:NyxUi.Content.Controls.Add($button);$y+=56}
     if($null -eq $script:NyxUi.Scan){Add-NyxNoScanCard -Y $y;return}
-    $results=Get-NyxResultsByCategory -Categories $Categories
+    # F-019: function output is pipeline-enumerated even when the helper uses
+    # return @(...). Preserve zero/one/many cardinality at the receiving boundary.
+    $results=@(Get-NyxResultsByCategory -Categories $Categories)
     if($results.Count -eq 0){$script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'This module did not return a result in the last scan. Run a Full Check where applicable.' -X 24 -Y $y -Width (Get-NyxPageWidth) -Height 54 -Size 11 -Palette $script:NyxUi.Palette));Add-NyxScanButtons -X 24 -Y ($y+65);return}
     $grid=New-NyxResultsGridControl -Results $results -Y $y -Height 420;$script:NyxUi.Content.Controls.Add($grid)
 }
@@ -168,7 +252,7 @@ function Show-NyxStoragePage {
     $full=New-NyxButton -Text 'Run Full Check' -X 412 -Y 116 -Width 160 -Palette $script:NyxUi.Palette;$full.Add_Click({Start-NyxScan -Mode 'Full'})
     $script:NyxUi.Content.Controls.AddRange(@($open,$downloads,$full))
     if($null -eq $script:NyxUi.Scan){Add-NyxNoScanCard -Y 174;return}
-    $results=Get-NyxResultsByCategory -Categories @('Storage','Downloads');$grid=New-NyxResultsGridControl -Results $results -Y 174 -Height 280;$script:NyxUi.Content.Controls.Add($grid)
+    $results=@(Get-NyxResultsByCategory -Categories @('Storage','Downloads'));$grid=New-NyxResultsGridControl -Results $results -Y 174 -Height 280;$script:NyxUi.Content.Controls.Add($grid)
     $folderResult=@($script:NyxUi.Scan.Results|Where-Object{$_.CheckId -eq 'storage.user-folders'}|Select-Object -First 1)
     if($folderResult.Count -gt 0){
         $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'Measured user folders' -X 24 -Y 474 -Width 360 -Height 32 -Size 14 -Bold $true -Palette $script:NyxUi.Palette))
@@ -178,7 +262,7 @@ function Show-NyxStoragePage {
         $lg=New-NyxGrid -X 24 -Y 780 -Width (Get-NyxPageWidth) -Height 330 -Palette $script:NyxUi.Palette;[void]$lg.Columns.Add('Name','File');[void]$lg.Columns.Add('Size','Size');[void]$lg.Columns.Add('Folder','Folder')
         $lg.Columns['Name'].FillWeight=45;$lg.Columns['Size'].FillWeight=15;$lg.Columns['Folder'].FillWeight=70
         foreach($f in @($folderResult[0].Details.LargestFiles)){$i=$lg.Rows.Add([IO.Path]::GetFileName([string]$f.Path),(ConvertTo-NyxBytesText ([int64]$f.SizeBytes)),[IO.Path]::GetDirectoryName([string]$f.Path));$lg.Rows[$i].Tag=$f}
-        $lg.Add_CellDoubleClick({param($s,$e)if($e.RowIndex -ge 0){$f=$s.Rows[$e.RowIndex].Tag;if($f){Invoke-NyxOpen 'explorer.exe' ('/select,"'+[string]$f.Path+'"')}}});$script:NyxUi.Content.Controls.Add($lg)
+        Register-NyxGridPrimaryAction -Grid $lg -Action {param($sender,$file)Invoke-NyxOpen 'explorer.exe' ('/select,"'+[string]$file.Path+'"')};$script:NyxUi.Content.Controls.Add($lg)
         $script:NyxUi.Content.AutoScrollMinSize=New-Object Drawing.Size(0,1140)
     }
 }
@@ -208,6 +292,41 @@ function Invoke-NyxUiAction {
     [void](Remove-NyxTemporaryArtifacts -Path @($req,$out))
     $script:NyxUi.FooterLabel.Text='Ready. No background monitor is running.'
     return $result
+}
+
+function Update-NyxStartupSelection {
+    param([Parameter(Mandatory=$true)]$State)
+    if($State.Grid.IsDisposed){return}
+    $State.Disable.Enabled=$false
+    $State.Enable.Enabled=$false
+    $State.Location.Enabled=$false
+    if($State.Loading -or $State.Grid.SelectedRows.Count -eq 0){return}
+    $app=$State.Grid.SelectedRows[0].Tag
+    if($null -eq $app){return}
+    $State.Disable.Enabled=([bool]$app.Enabled -and [bool]$app.CanModify)
+    $State.Enable.Enabled=(-not [bool]$app.Enabled -and [bool]$app.CanModify)
+    $State.Location.Enabled=(-not [string]::IsNullOrWhiteSpace([string]$app.ExecutablePath))
+}
+
+function Update-NyxStartupRows {
+    param([Parameter(Mandatory=$true)]$State)
+    if($State.Grid.IsDisposed){return}
+    $State.Loading=$true
+    try {
+        $State.Grid.Rows.Clear()
+        $apps=@(Get-NyxStartupApplications)
+        foreach($app in $apps){
+            $control=if([bool]$app.CanModify){'Current user - reversible'}else{'All users - read-only'}
+            $i=$State.Grid.Rows.Add($(if($app.Enabled){'Enabled'}else{'Disabled by Nyx'}),[string]$app.Name,[string]$app.Publisher,[string]$app.SourceLabel,$control,$(if($app.FileExists){'Yes'}else{'No / unknown'}),[string]$app.Impact)
+            $State.Grid.Rows[$i].Tag=$app
+            if(-not $app.Enabled){$State.Grid.Rows[$i].Cells[0].Style.ForeColor=$State.Palette.Optional}
+            elseif(-not [bool]$app.CanModify){$State.Grid.Rows[$i].Cells['Control'].Style.ForeColor=$State.Palette.Muted}
+        }
+        $State.Grid.ClearSelection()
+    } finally {
+        $State.Loading=$false
+        Update-NyxStartupSelection -State $State
+    }
 }
 
 function Show-NyxStartupPage {
@@ -245,56 +364,57 @@ function Show-NyxStartupPage {
     $grid.Columns['Impact'].Width=145
     $script:NyxUi.Content.Controls.Add($grid)
 
-    $load={
-        $grid.Rows.Clear()
-        $apps=@(Get-NyxStartupApplications)
-        foreach($app in $apps){
-            $control=if([bool]$app.CanModify){'Current user - reversible'}else{'All users - read-only'}
-            $i=$grid.Rows.Add($(if($app.Enabled){'Enabled'}else{'Disabled by Nyx'}),[string]$app.Name,[string]$app.Publisher,[string]$app.SourceLabel,$control,$(if($app.FileExists){'Yes'}else{'No / unknown'}),[string]$app.Impact)
-            $grid.Rows[$i].Tag=$app
-            if(-not $app.Enabled){$grid.Rows[$i].Cells[0].Style.ForeColor=$script:NyxUi.Palette.Optional}
-            elseif(-not [bool]$app.CanModify){$grid.Rows[$i].Cells['Control'].Style.ForeColor=$script:NyxUi.Palette.Muted}
-        }
-        $disable.Enabled=$false
-        $enable.Enabled=$false
-        $location.Enabled=$false
+    # F-015: every deferred callback resolves its page instance from the sender.
+    # No closure depends on Show-NyxStartupPage's expired function-local scope.
+    $startupState=[pscustomobject]@{
+        Grid=$grid;Refresh=$refresh;Disable=$disable;Enable=$enable
+        Location=$location;Palette=$script:NyxUi.Palette;Loading=$false
     }
+    foreach($control in @($grid,$refresh,$disable,$enable,$location)){$control.Tag=$startupState}
     $grid.Add_SelectionChanged({
-        if($grid.SelectedRows.Count -eq 0){$disable.Enabled=$false;$enable.Enabled=$false;$location.Enabled=$false;return}
-        $app=$grid.SelectedRows[0].Tag
-        if($null -eq $app){return}
-        $disable.Enabled=([bool]$app.Enabled -and [bool]$app.CanModify)
-        $enable.Enabled=(-not [bool]$app.Enabled -and [bool]$app.CanModify)
-        $location.Enabled=(-not [string]::IsNullOrWhiteSpace([string]$app.ExecutablePath))
+        param($sender,$eventArgs)
+        Update-NyxStartupSelection -State $sender.Tag
     })
-    $refresh.Add_Click($load)
-    &$load
+    $refresh.Add_Click({
+        param($sender,$eventArgs)
+        Update-NyxStartupRows -State $sender.Tag
+    })
+    Update-NyxStartupRows -State $startupState
 
     $disable.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        if($state.Grid.IsDisposed -or $state.Loading -or $state.Grid.SelectedRows.Count -eq 0){return}
+        $app=$state.Grid.SelectedRows[0].Tag
+        if($null -eq $app){return}
         if(-not [bool]$app.CanModify){[Windows.Forms.MessageBox]::Show('All-users startup entries are read-only in Version 1. Nyx did not request elevation and made no change.','Nyx PC Checkup','OK','Information')|Out-Null;return}
         if(-not $app.Enabled){[Windows.Forms.MessageBox]::Show('The selected entry is already disabled.','Nyx PC Checkup')|Out-Null;return}
         $answer=[Windows.Forms.MessageBox]::Show("Disable '$($app.Name)' from starting automatically for this Windows user?`r`n`r`nNyx will write the exact rollback state before making the change.",'Confirm reversible startup change','YesNo','Warning')
         if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
         $r=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='DisableStartup';ApplicationId=[string]$app.Id})
         if($r){[Windows.Forms.MessageBox]::Show([string]$r.Message,'Nyx PC Checkup')|Out-Null}
-        &$load
+        Update-NyxStartupRows -State $state
     })
     $enable.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        if($state.Grid.IsDisposed -or $state.Loading -or $state.Grid.SelectedRows.Count -eq 0){return}
+        $app=$state.Grid.SelectedRows[0].Tag
+        if($null -eq $app){return}
         if(-not [bool]$app.CanModify){return}
         if($app.Enabled){[Windows.Forms.MessageBox]::Show('The selected entry is already enabled.','Nyx PC Checkup')|Out-Null;return}
         $answer=[Windows.Forms.MessageBox]::Show("Restore '$($app.Name)' to its exact previous current-user startup location?",'Confirm startup restore','YesNo','Question')
         if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
         $r=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='EnableStartup';RollbackActionId=[string]$app.RollbackActionId})
         if($r){[Windows.Forms.MessageBox]::Show([string]$r.Message,'Nyx PC Checkup')|Out-Null}
-        &$load
+        Update-NyxStartupRows -State $state
     })
     $location.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        if($state.Grid.IsDisposed -or $state.Loading -or $state.Grid.SelectedRows.Count -eq 0){return}
+        $app=$state.Grid.SelectedRows[0].Tag
+        if($null -eq $app){return}
         $path=[string]$app.ExecutablePath
         if($path -and(Test-Path -LiteralPath $path)){Invoke-NyxOpen 'explorer.exe' ('/select,"'+$path+'"')}
         else{[Windows.Forms.MessageBox]::Show('The executable location is unavailable.','Nyx PC Checkup')|Out-Null}
@@ -302,6 +422,74 @@ function Show-NyxStartupPage {
 
     $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'Every modification is explicit and limited to this Windows user. All-users Run keys and the Common Startup folder are visible for review but cannot be changed by Nyx PC Checkup 1.0.0.' -X 24 -Y 562 -Width (Get-NyxPageWidth) -Height 72 -Size 9 -Palette $script:NyxUi.Palette -Color 'Muted'))
     Set-NyxPageScrollExtent -Height 660
+}
+
+function Test-NyxDeferredPageState {
+    param($State)
+    if($null -eq $State -or -not $State.Active){return $false}
+    foreach($control in $State.Controls){
+        if($null -eq $control -or $control.IsDisposed -or $control.Disposing){return $false}
+    }
+    return $true
+}
+
+function Show-NyxPageMessage {
+    param([string]$Text,[string]$Title='Nyx PC Checkup',[string]$Buttons='OK',[string]$Icon='None')
+    return [Windows.Forms.MessageBox]::Show($Text,$Title,$Buttons,$Icon)
+}
+
+function Update-NyxAppsSelection {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $State.Folder.Enabled=(-not $State.Loading -and $State.Grid.SelectedRows.Count -gt 0)
+}
+
+function Update-NyxAppsRows {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $State.Loading=$true
+    $State.Folder.Enabled=$false
+    try{
+        $State.Grid.Rows.Clear()
+        $filter=[string]$State.Search.Text
+        foreach($app in $State.Apps){
+            if($filter -and (([string]$app.Name+' '+[string]$app.Publisher) -notmatch [regex]::Escape($filter))){continue}
+            $size=if($null -ne $app.EstimatedSizeBytes){ConvertTo-NyxBytesText ([int64]$app.EstimatedSizeBytes)}else{'Unknown'}
+            $i=$State.Grid.Rows.Add([string]$app.Name,[string]$app.Publisher,[string]$app.Version,[string]$app.InstallDate,$size)
+            $State.Grid.Rows[$i].Tag=$app
+        }
+        $State.Grid.CurrentCell=$null
+        $State.Grid.ClearSelection()
+    }finally{
+        $State.Loading=$false
+        Update-NyxAppsSelection -State $State
+    }
+}
+
+function Open-NyxAppsSelectedFolder {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    if($State.Loading -or $State.Grid.SelectedRows.Count -eq 0){return}
+    $app=$State.Grid.SelectedRows[0].Tag
+    if($null -eq $app){return}
+    if($app.InstallLocation -and (Test-Path -LiteralPath ([string]$app.InstallLocation) -PathType Container)){
+        Invoke-NyxOpen 'explorer.exe' ('"'+[string]$app.InstallLocation+'"')
+    }else{Show-NyxPageMessage -Text 'No usable install folder was reported for this application.'|Out-Null}
+}
+
+function Set-NyxAppsColumnPolicy {
+    param([Windows.Forms.DataGridView]$Grid)
+    # Use logical pixels here. Set-NyxDeviceGeometry scales each width and
+    # minimum once with the rest of the page. Fill redistribution during that
+    # sequential scaling must not squeeze the remaining inventory columns.
+    $Grid.AutoSizeColumnsMode='None'
+    $Grid.ScrollBars='Both'
+    foreach($spec in @(@('Name',240),@('Publisher',200),@('Version',150),@('Date',130),@('Size',150))){
+        $column=$Grid.Columns[[string]$spec[0]]
+        $column.AutoSizeMode='None'
+        $column.MinimumWidth=[int]$spec[1]
+        $column.Width=[int]$spec[1]
+    }
 }
 
 function Show-NyxAppsPage {
@@ -335,6 +523,7 @@ function Show-NyxAppsPage {
     [void]$grid.Columns.Add('Version','Version')
     [void]$grid.Columns.Add('Date','Install date')
     [void]$grid.Columns.Add('Size','Reported size')
+    Set-NyxAppsColumnPolicy -Grid $grid
     $script:NyxUi.Content.Controls.Add($grid)
 
     $apps=@()
@@ -342,32 +531,60 @@ function Show-NyxAppsPage {
         $r=@($script:NyxUi.Scan.Results|Where-Object{$_.CheckId -eq 'apps.inventory'}|Select-Object -First 1)
         if($r.Count -gt 0){$apps=@($r[0].Details)}
     }
-    $render={
-        param([string]$Filter='')
-        $grid.Rows.Clear()
-        foreach($app in $apps){
-            if($Filter -and((([string]$app.Name)+' '+([string]$app.Publisher)) -notmatch [regex]::Escape($Filter))){continue}
-            $size=if($null -ne $app.EstimatedSizeBytes){ConvertTo-NyxBytesText ([int64]$app.EstimatedSizeBytes)}else{'Unknown'}
-            $i=$grid.Rows.Add([string]$app.Name,[string]$app.Publisher,[string]$app.Version,[string]$app.InstallDate,$size)
-            $grid.Rows[$i].Tag=$app
-        }
-        $folder.Enabled=$false
+    # F-021: callbacks retain this page instance, never constructor locals.
+    $appsState=[pscustomobject]@{
+        Search=$search;Grid=$grid;Folder=$folder;Apps=$apps
+        Controls=@($search,$grid,$folder);Loading=$false;Active=$true
     }
-    $search.Add_TextChanged({&$render $search.Text})
-    $grid.Add_SelectionChanged({$folder.Enabled=($grid.SelectedRows.Count -gt 0)})
-    &$render ''
-
-    $folder.Add_Click({
-        if($grid.SelectedRows.Count -eq 0){return}
-        $app=$grid.SelectedRows[0].Tag
-        if($app.InstallLocation -and(Test-Path -LiteralPath ([string]$app.InstallLocation))){Invoke-NyxOpen 'explorer.exe' ('"'+[string]$app.InstallLocation+'"')}
-        else{[Windows.Forms.MessageBox]::Show('No usable install folder was reported for this application.','Nyx PC Checkup')|Out-Null}
-    })
+    foreach($control in $appsState.Controls){$control.Tag=$appsState}
+    $search.Add_TextChanged({param($sender,$eventArgs)Update-NyxAppsRows -State $sender.Tag})
+    $grid.Add_SelectionChanged({param($sender,$eventArgs)Update-NyxAppsSelection -State $sender.Tag})
+    $grid.Add_Disposed({param($sender,$eventArgs)$sender.Tag.Active=$false})
+    $folder.Add_Click({param($sender,$eventArgs)Open-NyxAppsSelectedFolder -State $sender.Tag})
+    Update-NyxAppsRows -State $appsState
 
     if($apps.Count -eq 0){
         $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'No application inventory is loaded yet. Run Full Check using the visible action above to populate this list.' -X 24 -Y 598 -Width (Get-NyxPageWidth) -Height 48 -Size 10 -Palette $script:NyxUi.Palette -Color 'Muted'))
     }
     Set-NyxPageScrollExtent -Height 670
+}
+
+function Update-NyxCleanupSelection {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $count=0;$bytes=[int64]0
+    foreach($row in $State.Grid.Rows){
+        if([bool]$row.Cells['Select'].Value){$count++;$bytes += [int64]$row.Tag.SizeBytes}
+    }
+    $State.Summary.Text="Selected: $count item(s), $(ConvertTo-NyxBytesText $bytes)"
+}
+
+function Invoke-NyxCleanupSelection {
+    param($State)
+    if(-not (Test-NyxDeferredPageState $State)){return}
+    $ids=[System.Collections.Generic.List[string]]::new()
+    $bytes=[int64]0;$recycle=$false
+    foreach($row in $State.Grid.Rows){
+        if([bool]$row.Cells['Select'].Value){
+            $ids.Add([string]$row.Tag.Id);$bytes += [int64]$row.Tag.SizeBytes
+            if($row.Tag.Category -eq 'Recycle Bin'){$recycle=$true}
+        }
+    }
+    if($ids.Count -eq 0){Show-NyxPageMessage -Text 'Select at least one displayed item.'|Out-Null;return}
+    $text="You selected $($ids.Count) item(s) totaling $(ConvertTo-NyxBytesText $bytes).`r`n`r`nFiles will be moved to the Windows Recycle Bin."
+    if($recycle){$text+="`r`n`r`nThe Recycle Bin selection will be emptied permanently."}
+    $text+="`r`n`r`nContinue?"
+    $answer=Show-NyxPageMessage -Text $text -Title 'Confirm destructive cleanup action' -Buttons 'YesNo' -Icon 'Warning'
+    if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
+    $res=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='Cleanup';CandidateIds=@($ids.ToArray())})
+    if($res){
+        Show-NyxPageMessage -Text ([string]$res.Message)|Out-Null
+        if([string]$res.Status -in @('Completed','Partial')){
+            $script:NyxUi.FooterLabel.Text='Cleanup finished. Refreshing the read-only cleanup preview.'
+            Start-NyxScan -Mode 'Full';return
+        }
+    }
+    Show-NyxCleanupPage
 }
 
 function Show-NyxCleanupPage {
@@ -413,45 +630,16 @@ function Show-NyxCleanupPage {
 
     $summary=New-NyxLabel -Text 'Selected: 0 items, 0 B' -X 24 -Y 516 -Width 420 -Height 32 -Size 10 -Bold $true -Palette $script:NyxUi.Palette
     $script:NyxUi.Content.Controls.Add($summary)
-    $update={
-        $count=0
-        $bytes=[int64]0
-        foreach($row in $grid.Rows){
-            if([bool]$row.Cells['Select'].Value){$count++;$bytes += [int64]$row.Tag.SizeBytes}
-        }
-        $summary.Text="Selected: $count item(s), $(ConvertTo-NyxBytesText $bytes)"
-    }
-    $grid.Add_CellValueChanged($update)
-    $grid.Add_CurrentCellDirtyStateChanged({if($grid.IsCurrentCellDirty){$grid.CommitEdit([Windows.Forms.DataGridViewDataErrorContexts]::Commit)}})
-
     $run=New-NyxButton -Text 'Review and clean selected' -X 24 -Y 556 -Width 245 -Palette $script:NyxUi.Palette -Primary $true
-    $run.Add_Click({
-        $ids=[System.Collections.Generic.List[string]]::new()
-        $bytes=[int64]0
-        $recycle=$false
-        foreach($row in $grid.Rows){
-            if([bool]$row.Cells['Select'].Value){
-                $ids.Add([string]$row.Tag.Id)
-                $bytes += [int64]$row.Tag.SizeBytes
-                if($row.Tag.Category -eq 'Recycle Bin'){$recycle=$true}
-            }
-        }
-        if($ids.Count -eq 0){[Windows.Forms.MessageBox]::Show('Select at least one displayed item.','Nyx PC Checkup')|Out-Null;return}
-        $text="You selected $($ids.Count) item(s) totaling $(ConvertTo-NyxBytesText $bytes).`r`n`r`nFiles will be moved to the Windows Recycle Bin."
-        if($recycle){$text+="`r`n`r`nThe Recycle Bin selection will be emptied permanently."}
-        $text+="`r`n`r`nContinue?"
-        $answer=[Windows.Forms.MessageBox]::Show($text,'Confirm destructive cleanup action','YesNo','Warning')
-        if($answer -ne [Windows.Forms.DialogResult]::Yes){return}
-        $res=Invoke-NyxUiAction -Request ([pscustomobject]@{Operation='Cleanup';CandidateIds=@($ids.ToArray())})
-        if($res){
-            [Windows.Forms.MessageBox]::Show([string]$res.Message,'Nyx PC Checkup')|Out-Null
-            if([string]$res.Status -in @('Completed','Partial')){
-                $script:NyxUi.FooterLabel.Text='Cleanup finished. Refreshing the read-only cleanup preview.'
-                Start-NyxScan -Mode 'Full';return
-            }
-        }
-        Show-NyxCleanupPage
+    $cleanupState=[pscustomobject]@{Grid=$grid;Summary=$summary;Run=$run;Controls=@($grid,$summary,$run);Active=$true}
+    foreach($control in $cleanupState.Controls){$control.Tag=$cleanupState}
+    $grid.Add_CellValueChanged({param($sender,$eventArgs)Update-NyxCleanupSelection -State $sender.Tag})
+    $grid.Add_CurrentCellDirtyStateChanged({
+        param($sender,$eventArgs)
+        if((Test-NyxDeferredPageState $sender.Tag) -and $sender.IsCurrentCellDirty){[void]$sender.CommitEdit([Windows.Forms.DataGridViewDataErrorContexts]::Commit)}
     })
+    $grid.Add_Disposed({param($sender,$eventArgs)$sender.Tag.Active=$false})
+    $run.Add_Click({param($sender,$eventArgs)Invoke-NyxCleanupSelection -State $sender.Tag})
     $script:NyxUi.Content.Controls.Add($run)
     $script:NyxUi.Content.Controls.Add((New-NyxLabel -Text 'If a deletion fails, the file is preserved and the exact failure is reported. Nyx never touches Documents, Photos, Videos, browser profiles, update caches, restore points, or application databases through this module.' -X 288 -Y 548 -Width ([math]::Max(300,(Get-NyxPageWidth)-288)) -Height 88 -Size 9 -Palette $script:NyxUi.Palette -Color 'Muted'))
     Set-NyxPageScrollExtent -Height 660
@@ -459,7 +647,7 @@ function Show-NyxCleanupPage {
 
 function Show-NyxSettingsPage {
     Clear-NyxPage
-    Add-NyxPageHeading -Title 'Settings & privacy' -Subtitle 'Nyx PC Checkup is local-first. Its optional weekly update check fetches only a public JSON file from DietrichAILabs.com and never downloads or installs software.'
+    Add-NyxPageHeading -Title 'Settings & privacy' -Subtitle 'Nyx PC Checkup is local-first. Its optional update check fetches only a public JSON file from DietrichAILabs.com and never downloads or installs software.'
     $config=Get-NyxConfiguration
     $w=Get-NyxPageWidth
     $inner=[math]::Max(360,$w-44)
@@ -493,7 +681,7 @@ function Show-NyxSettingsPage {
 
     $card.Controls.Add((New-NyxLabel -Text 'Application updates' -X 22 -Y 188 -Width 300 -Height 32 -Size 14 -Bold $true -Palette $script:NyxUi.Palette))
     $autoUpdates=New-Object Windows.Forms.CheckBox
-    $autoUpdates.Text='Automatically check for updates once a week'
+    $autoUpdates.Text='Automatically check for updates'
     $autoUpdates.Location=New-Object Drawing.Point(22,226)
     $autoUpdates.Size=New-Object Drawing.Size($inner,38)
     $autoUpdates.Checked=[bool]$config.updates.enabled
@@ -519,11 +707,22 @@ function Show-NyxSettingsPage {
     $card.Controls.AddRange(@($open,$logs))
 
     $save=New-NyxButton -Text 'Save settings' -X 22 -Y 466 -Width 180 -Palette $script:NyxUi.Palette -Primary $true
+    $settingsState=[pscustomobject][ordered]@{
+        Configuration=$config
+        ThemeControl=$theme
+        NotificationControl=$notify
+        AutomaticUpdatesControl=$autoUpdates
+    }
+    $save.Tag=$settingsState
     $save.Add_Click({
-        $config.theme=[string]$theme.SelectedItem
-        $config.notificationsEnabled=[bool]$notify.Checked
-        $config.updates.enabled=[bool]$autoUpdates.Checked
-        Save-NyxConfiguration -Configuration $config
+        param($sender,$eventArgs)
+        $state=$sender.Tag
+        $selectedTheme=[string]$state.ThemeControl.SelectedItem
+        if($selectedTheme -notin @('FollowWindows','Dark','Light')){throw 'Select a supported theme before saving settings.'}
+        $state.Configuration.theme=$selectedTheme
+        $state.Configuration.notificationsEnabled=[bool]$state.NotificationControl.Checked
+        $state.Configuration.updates.enabled=[bool]$state.AutomaticUpdatesControl.Checked
+        Save-NyxConfiguration -Configuration $state.Configuration
         [Windows.Forms.MessageBox]::Show('Settings were saved. Update-check and notification changes apply now; theme changes apply the next time Nyx is opened.','Nyx PC Checkup')|Out-Null
     })
     $card.Controls.Add($save)
@@ -626,10 +825,32 @@ function Start-NyxScan {
     $worker=Join-Path $script:NyxUi.AppRoot 'workers\ScanWorker.ps1';$args="-NoLogo -NoProfile -ExecutionPolicy Bypass -File `"$worker`" -Mode $Mode -OutputPath `"$($script:NyxUi.ScanOutput)`" -ProgressPath `"$($script:NyxUi.ProgressPath)`" -CancelPath `"$($script:NyxUi.CancelPath)`""
     try{$script:NyxUi.ScanProcess=Start-Process -FilePath (Get-NyxPowerShellPath) -ArgumentList $args -WindowStyle Hidden -PassThru;$script:NyxUi.FooterProgress.Value=0;$script:NyxUi.FooterLabel.Text="$Mode check starting. Scanning is read-only.";$script:NyxUi.CancelButton.Enabled=$true;$script:NyxUi.ScanTimer.Start()}catch{[Windows.Forms.MessageBox]::Show("The scan could not start.`r`n$($_.Exception.Message)",'Nyx PC Checkup','OK','Error')|Out-Null}
 }
+function Read-NyxCompleteProgressLines {
+    param([Parameter(Mandatory=$true)][string]$Path)
+    $stream=$null;$reader=$null
+    try {
+        $stream=[IO.FileStream]::new($Path,[IO.FileMode]::Open,[IO.FileAccess]::Read,([IO.FileShare]::ReadWrite -bor [IO.FileShare]::Delete))
+        $reader=[IO.StreamReader]::new($stream,[Text.Encoding]::UTF8,$true)
+        $text=$reader.ReadToEnd()
+        # An append may be in flight. Do not consume its incomplete final line;
+        # the next timer tick reads it after the writer has appended a newline.
+        $last=$text.LastIndexOf("`n")
+        if($last -ge 0){$text.Substring(0,$last) -split "`r?`n"}
+    } catch {
+        $cause=$_.Exception.GetBaseException()
+        if($cause -is [IO.FileNotFoundException]){return}
+        if($cause -is [IO.IOException] -and ($cause.HResult -band 0xFFFF) -in @(32,33)){return}
+        throw
+    } finally {
+        if($null -ne $reader){$reader.Dispose()}
+        elseif($null -ne $stream){$stream.Dispose()}
+    }
+}
+
 function Update-NyxScanProgress {
     try{
         if($script:NyxUi.ProgressPath -and(Test-Path -LiteralPath $script:NyxUi.ProgressPath)){
-            $lines=@(Get-Content -LiteralPath $script:NyxUi.ProgressPath -Encoding UTF8 -ErrorAction SilentlyContinue)
+            $lines=@(Read-NyxCompleteProgressLines -Path $script:NyxUi.ProgressPath)
             if($lines.Count -gt $script:NyxUi.ProgressLineCount){
                 for($i=$script:NyxUi.ProgressLineCount;$i -lt $lines.Count;$i++){
                     try{$e=$lines[$i]|ConvertFrom-Json;$script:NyxUi.FooterLabel.Text=[string]$e.Message;$p=[int]$e.Percent;if($p -ge 0 -and $p -le 100){$script:NyxUi.FooterProgress.Value=$p}}catch{}
@@ -669,7 +890,30 @@ function Show-NyxPage {
         'System'{Show-NyxCategoryPage -Title 'System details' -Subtitle 'Hardware class, uptime, battery, drive health, performance snapshot, and basic network status. Serial numbers and product keys are not collected.' -Categories @('System','Battery','Drive Health','Performance','Network') -ActionText 'Open Windows System About' -Action {Invoke-NyxOpen 'ms-settings:about'}};
         'Apps'{Show-NyxAppsPage};'Cleanup'{Show-NyxCleanupPage};'Settings'{Show-NyxSettingsPage};default{Show-NyxHomePage}
     }
+    # Every page is authored in 96-DPI logical units, including dynamically
+    # generated cards, grids, checkboxes and nested controls.
+    foreach($child in @($script:NyxUi.Content.Controls)){$child.Anchor='Top,Left'}
+    Set-NyxDeviceGeometry -Root $script:NyxUi.Content -Scale $script:NyxUi.LayoutScale -ChildrenOnly
+    Set-NyxScrollExtentFromChildren -Root $script:NyxUi.Content -Padding ([int](24*$script:NyxUi.LayoutScale))
     Register-NyxFocusScrollTree -Root $script:NyxUi.Content
+    Register-NyxScrollFocus -Root $script:NyxUi.Content
+}
+
+function Update-NyxDeviceLayout {
+    $ui=$script:NyxUi;$scale=Get-NyxControlDpiScale -Control $ui.Form
+    if($scale -ne $ui.LayoutScale){
+        foreach($part in @($ui.Rail,$ui.Header,$ui.Footer)){Set-NyxDeviceGeometry -Root $part -Scale $scale}
+        $ui.LayoutScale=$scale
+        Set-NyxScrollExtentFromChildren -Root $ui.Rail -Padding ([int](12*$scale))
+    }
+    # Two footer rows keep status, progress and Cancel independent of the
+    # former fixed 500-pixel right-hand strip.
+    $ui.Footer.Height=[int](96*$scale)
+    $ui.FooterLabel.Height=[int](42*$scale)
+    $ui.FooterActions.Height=[int](54*$scale)
+    $ui.CancelButton.Location=New-Object Drawing.Point([math]::Max(0,($ui.FooterActions.ClientSize.Width-[int](176*$scale))),([int](8*$scale)))
+    $ui.FooterProgress.Location=New-Object Drawing.Point(([int](18*$scale)),([int](19*$scale)))
+    $ui.FooterProgress.Width=[math]::Max(1,($ui.CancelButton.Left-[int](32*$scale)))
 }
 
 function Show-NyxMainWindow {
@@ -688,9 +932,13 @@ function Show-NyxMainWindow {
     $form=New-Object Windows.Forms.Form
     $form.Text='Nyx PC Checkup'
     $form.StartPosition='CenterScreen'
+    # QA12-F-011: the supported native launcher suppresses only the console.
+    # The application form itself must remain a normal visible taskbar window.
+    $form.ShowInTaskbar=$true
+    $form.WindowState=[Windows.Forms.FormWindowState]::Normal
     $form.BackColor=$palette.Window
     $form.ForeColor=$palette.Text
-    $form.AutoScaleMode='Dpi'
+    $form.AutoScaleMode='None'
     $form.Font=New-Object Drawing.Font('Segoe UI',10)
 
     # QA10-F-008: size the initial window for the active DPI while staying
@@ -705,7 +953,8 @@ function Show-NyxMainWindow {
 
     $rail=New-Object Windows.Forms.Panel
     $rail.Dock='Left'
-    $rail.Width=220
+    $rail.Width=240
+    $rail.AutoScroll=$true
     $rail.BackColor=$palette.Rail
     $brand=New-NyxLabel -Text 'NYX' -X 22 -Y 20 -Width 80 -Height 38 -Size 22 -Bold $true -Palette $palette
     $brand.ForeColor=$palette.Accent2
@@ -723,7 +972,7 @@ function Show-NyxMainWindow {
         $y+=46
     }
     $version=New-NyxLabel -Text 'v1.0.0 - Local-first' -X 0 -Y 0 -Width 220 -Height 42 -Size 8 -Palette $palette -Color 'Muted'
-    $version.Dock='Bottom'
+    $version.Location=New-Object Drawing.Point(0,($y+8))
     $version.Padding=New-Object Windows.Forms.Padding(22,8,8,0)
     $rail.Controls.Add($version)
 
@@ -741,6 +990,8 @@ function Show-NyxMainWindow {
     $export.Add_Click({Export-NyxCurrentReport})
     $headerActions.Controls.Add($export)
     $headerTitle=New-NyxLabel -Text 'Home' -X 28 -Y 20 -Width 500 -Height 38 -Size 16 -Bold $true -Palette $palette
+    $headerTitle.Dock='Fill'
+    $headerTitle.Padding=New-Object Windows.Forms.Padding(28,20,0,0)
     $header.Controls.Add($headerTitle)
     $header.Controls.Add($headerActions)
 
@@ -751,7 +1002,8 @@ function Show-NyxMainWindow {
     $footer.Height=58
     $footer.BackColor=$palette.Rail
     $footerActions=New-Object Windows.Forms.Panel
-    $footerActions.Dock='Right'
+    $footerActions.Dock='Bottom'
+    $footerActions.Height=54
     $footerActions.Width=500
     $footerActions.BackColor=$palette.Rail
     $progress=New-Object Windows.Forms.ProgressBar
@@ -764,7 +1016,7 @@ function Show-NyxMainWindow {
     $cancel.Add_Click({Cancel-NyxScan})
     $footerActions.Controls.AddRange(@($progress,$cancel))
     $footerLabel=New-NyxLabel -Text 'Ready. No background monitor is running.' -X 0 -Y 0 -Width 500 -Height 58 -Size 9 -Palette $palette -Color 'Muted'
-    $footerLabel.Dock='Fill'
+    $footerLabel.Dock='Top'
     $footerLabel.Padding=New-Object Windows.Forms.Padding(22,16,12,0)
     $footer.Controls.Add($footerLabel)
     $footer.Controls.Add($footerActions)
@@ -798,6 +1050,8 @@ function Show-NyxMainWindow {
         Header=$header
         HeaderTitle=$headerTitle
         Footer=$footer
+        FooterActions=$footerActions
+        LayoutScale=0.0
         FooterLabel=$footerLabel
         FooterProgress=$progress
         CancelButton=$cancel
@@ -817,9 +1071,49 @@ function Show-NyxMainWindow {
         UpdateManual=$false
         ShownUpdateVersion=''
         AcceptanceCloseProbe=[bool]$AcceptanceCloseProbe
+        BoundsAdjusting=$false
+        BoundsUserSizing=$false
+        BoundsPending=$true
+        BoundsEnvironment=''
+        BoundsMinimum96=(New-Object Drawing.Size(
+            ([int][math]::Round($form.MinimumSize.Width/(Get-NyxControlDpiScale -Control $form))),
+            ([int][math]::Round($form.MinimumSize.Height/(Get-NyxControlDpiScale -Control $form)))))
     }
 
+    # Use a UI-thread timer rather than SystemEvents callbacks on a worker
+    # thread. It also observes taskbar/work-area changes without a DPI event.
+    $boundsTimer=New-Object Windows.Forms.Timer
+    $boundsTimer.Interval=200
+    $boundsTimer.Add_Tick({
+        $f=$script:NyxUi.Form
+        if($f.IsDisposed -or -not $f.Visible -or $script:NyxUi.BoundsUserSizing){return}
+        $screen=[Windows.Forms.Screen]::FromHandle($f.Handle)
+        $environment='{0}|{1}|{2}' -f $screen.DeviceName,$screen.WorkingArea,(Get-NyxControlDpiScale -Control $f)
+        if($script:NyxUi.BoundsPending -or $environment -ne $script:NyxUi.BoundsEnvironment){
+            $script:NyxUi.BoundsPending=$false
+            $script:NyxUi.BoundsEnvironment=$environment
+            Set-NyxWindowWithinWorkingArea -Form $f
+            $previousScale=$script:NyxUi.LayoutScale
+            Update-NyxDeviceLayout
+            if($previousScale -ne $script:NyxUi.LayoutScale){Show-NyxPage -Page $script:NyxUi.CurrentPage}
+        }
+    })
+    $form.Add_ResizeBegin({$script:NyxUi.BoundsUserSizing=$true})
+    $form.Add_SizeChanged({
+        if(-not $script:NyxUi.BoundsAdjusting){$script:NyxUi.BoundsPending=$true}
+    })
+    $form.Add_FormClosed({$boundsTimer.Stop();$boundsTimer.Dispose()})
     $form.Add_Shown({
+        # F-011 defense in depth: do not inherit a hidden/minimized startup state.
+        $script:NyxUi.Form.ShowInTaskbar=$true
+        if($script:NyxUi.Form.WindowState -eq [Windows.Forms.FormWindowState]::Minimized){
+            $script:NyxUi.Form.WindowState=[Windows.Forms.FormWindowState]::Normal
+        }
+        [void]$script:NyxUi.Form.Activate()
+        $script:NyxUi.Form.BringToFront()
+        Set-NyxWindowWithinWorkingArea -Form $script:NyxUi.Form
+        $script:NyxUi.BoundsPending=$true
+        $boundsTimer.Start()
         Start-NyxUpdateCheck
         if([bool]$script:NyxUi.AcceptanceCloseProbe){
             # Explicit QA-only close probe: exercise the real FormClosing path
@@ -828,6 +1122,8 @@ function Show-NyxMainWindow {
         }
     })
     $form.Add_ResizeEnd({
+        $script:NyxUi.BoundsUserSizing=$false
+        Set-NyxWindowWithinWorkingArea -Form $script:NyxUi.Form
         if($script:NyxUi -and $script:NyxUi.Form.WindowState -ne [Windows.Forms.FormWindowState]::Minimized){
             Show-NyxPage -Page $script:NyxUi.CurrentPage
         }
@@ -855,6 +1151,8 @@ function Show-NyxMainWindow {
         [void](Remove-NyxTemporaryArtifacts -Path @($script:NyxUi.ScanOutput,$script:NyxUi.ProgressPath,$script:NyxUi.CancelPath,$script:NyxUi.UpdateOutput))
     })
 
+    Update-NyxDeviceLayout
+    Register-NyxScrollFocus -Root $form
     Show-NyxPage -Page 'Home'
     [void][Windows.Forms.Application]::Run($form)
 }

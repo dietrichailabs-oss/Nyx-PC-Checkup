@@ -1,0 +1,92 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa14-windows-run-summary.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "Phase":  "Standard",
+    "CompletedUtc":  "2026-09-02T10:32:46.9137183Z",
+    "ParsePreflightPassed":  true,
+    "ParsePreflightReport":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\QA15_WINDOWS_PARSE_PREFLIGHT.json",
+    "Passed":  true,
+    "Total":  5,
+    "Failed":  0,
+    "RunnerFailures":  [
+
+                       ],
+    "Results":  [
+                    {
+                        "Harness":  "Run-WindowsSmokeTests.ps1",
+                        "ExactHarnessSha256":  "CFAC9437545F8BF5B7B73635BF8396EF892656B5B58FEDF2EE6BD4956BA86690",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Run-WindowsSmokeTests_console.txt",
+                        "ReportPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Nyx_PC_Checkup_Windows_Smoke.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA15-F012-PS51-15",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  122,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsElevatedStartupRollback.ps1",
+                        "ExactHarnessSha256":  "F1B243C0FE0815950D8B47DE4A8430553BBAB8EB5B9691609A8E019AB343AEFA",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Run-WindowsElevatedStartupRollback_console.txt",
+                        "ReportPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Nyx_PC_Checkup_Privilege_Standard.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA15-F012-PS51-15",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  12,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsQA2MigrationRegression.ps1",
+                        "ExactHarnessSha256":  "EF66F7F33F48E447694C1A2D3AE5C0649AA31982F88C1A130FDCF6571F201507",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Run-WindowsQA2MigrationRegression_console.txt",
+                        "ReportPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Nyx_PC_Checkup_QA2_Migration.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA15-F012-PS51-15",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  244,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsInstallerLifecycle.ps1",
+                        "ExactHarnessSha256":  "E47893BC060D7967A23E8E00EEC805573FCA98EE212E9C45738F8A661682A90D",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Run-WindowsInstallerLifecycle_console.txt",
+                        "ReportPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Nyx_PC_Checkup_Installer_Lifecycle_Standard.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA15-F012-PS51-15",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  44,
+                        "ReportValidationError":  ""
+                    },
+                    {
+                        "Harness":  "Run-WindowsInstalledLaunchRegression.ps1",
+                        "ExactHarnessSha256":  "705C7F79ABC17F13069E6E20CA9D88A4607A4423DB03DAEF75BE8293396B08AE",
+                        "ExitCode":  0,
+                        "Passed":  true,
+                        "LaunchError":  "",
+                        "ConsoleLog":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Run-WindowsInstalledLaunchRegression_console.txt",
+                        "ReportPath":  "C:\\QA15_PATH1\\Standard\\Nyx_PC_Checkup_1.0.0_Engineering_QA15_F012_Corrected_Master_Handoff\\QA15_WINDOWS_EVIDENCE_Standard_20260902_063043\\Nyx_PC_Checkup_F011_Installed_Launch.json",
+                        "ReportExists":  true,
+                        "ReportRevision":  "QA15-F012-PS51-15",
+                        "ReportPassed":  true,
+                        "ReportFailed":  0,
+                        "ReportTotal":  39,
+                        "ReportValidationError":  ""
+                    }
+                ]
+}

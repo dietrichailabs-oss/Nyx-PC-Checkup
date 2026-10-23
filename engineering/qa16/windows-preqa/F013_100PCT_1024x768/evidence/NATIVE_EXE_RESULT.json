@@ -1,0 +1,28 @@
+﻿{
+    "Status":  "BOUNDS_PASS_PENDING_DPI_AND_IN_PROCESS_REVIEW",
+    "LauncherPID":  9608,
+    "ApplicationPID":  1592,
+    "Window":  {
+                   "Left":  32,
+                   "Top":  32,
+                   "Right":  1024,
+                   "Bottom":  720
+               },
+    "WorkingArea":  {
+                        "Left":  0,
+                        "Top":  0,
+                        "Right":  1024,
+                        "Bottom":  720
+                    },
+    "DPI":  96,
+    "Display":  "{X=0,Y=0,Width=1024,Height=768}",
+    "User":  "Nyx",
+    "PowerShell":  "5.1.26100.7920",
+    "Process":  {
+                    "ProcessId":  1592,
+                    "ParentProcessId":  9608,
+                    "CommandLine":  "\"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -STA -ExecutionPolicy Bypass -File \"C:\\Users\\Nyx\\AppData\\Local\\Programs\\Dietrich AI Labs\\Nyx PC Checkup\\app\\NyxPCCheckup.ps1\""
+                },
+    "CoordinateSpace":  "External observer context; paired in-process capture required",
+    "CandidateModified":  false
+}

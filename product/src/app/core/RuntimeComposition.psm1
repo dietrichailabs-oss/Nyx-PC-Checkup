@@ -13,7 +13,7 @@ $script:NyxRuntimeModules = @(
     [pscustomobject][ordered]@{Name='HealthRules';RelativePath='health_rules\HealthRules.psm1';Exports=@('Get-NyxRules','Get-NyxStorageRuleResult','Get-NyxUptimeRuleResult','Get-NyxBatteryRuleResult','Get-NyxPerformanceRuleResult')},
     [pscustomobject][ordered]@{Name='WindowsHelpers';RelativePath='platform\windows\WindowsHelpers.psm1';Exports=@('Test-NyxWindowsPlatform','ConvertTo-NyxBytesText','Get-NyxStableId','Get-NyxDownloadsPath','Test-NyxReparsePoint','Get-NyxSystemDriveInfo','Get-NyxRestartPending','Get-NyxFolderSize','Get-NyxWindowsEdition')},
     [pscustomobject][ordered]@{Name='ActionHistory';RelativePath='core\ActionHistory.psm1';Exports=@('Protect-NyxState','Unprotect-NyxState','Get-NyxActionHistory','Add-NyxActionHistory','Test-NyxCurrentUserRollbackState','ConvertFrom-NyxQA2CurrentUserRollbackState','Resolve-NyxCurrentUserRollbackState','Get-NyxStartupRollbackInventory','Get-NyxActiveStartupDisables')},
-    [pscustomobject][ordered]@{Name='CheckupEngine';RelativePath='core\CheckupEngine.psm1';Exports=@('Invoke-NyxIsolatedCheck','Save-NyxScanResults','Get-NyxLastScan')},
+    [pscustomobject][ordered]@{Name='CheckupEngine';RelativePath='core\CheckupEngine.psm1';Exports=@('Invoke-NyxIsolatedCheck','Convert-NyxScanResult','Convert-NyxPersistedScan','Save-NyxScanResults','Get-NyxLastScan')},
     [pscustomobject][ordered]@{Name='Versioning';RelativePath='updates\Versioning.psm1';Exports=@('ConvertTo-NyxSemanticVersion','Compare-NyxSemanticVersion')},
     [pscustomobject][ordered]@{Name='Manifest';RelativePath='updates\Manifest.psm1';Exports=@('Get-NyxUpdateProductConfiguration','Test-NyxUpdateDestinationUri','Test-NyxManifestDisplayText','ConvertTo-NyxValidatedUpdateManifest')},
     [pscustomobject][ordered]@{Name='Preferences';RelativePath='updates\Preferences.psm1';Exports=@('Test-NyxAutomaticUpdateCheckDue','Set-NyxUpdateCheckAttemptUtc')},
@@ -38,7 +38,7 @@ $script:NyxRuntimeModules = @(
     [pscustomobject][ordered]@{Name='StartupActions';RelativePath='actions\StartupActions.psm1';Exports=@('Get-NyxCurrentUserSid','Get-NyxStartupBoundary','Test-NyxStartupStateBoundary','Get-NyxLegacyMachineStartupRollbackRoot','Get-NyxLegacyMachineRollbackObligations','Disable-NyxStartupApplication','Enable-NyxStartupApplication','Restore-AllNyxStartupApplications')},
     [pscustomobject][ordered]@{Name='CleanupActions';RelativePath='actions\CleanupActions.psm1';Exports=@('Invoke-NyxCleanup')},
     [pscustomobject][ordered]@{Name='Theme';RelativePath='ui\Theme.psm1';Exports=@('Get-NyxEffectiveTheme','Get-NyxPalette','Get-NyxStatusColor','Set-NyxGridTheme')},
-    [pscustomobject][ordered]@{Name='Controls';RelativePath='ui\Controls.psm1';Exports=@('New-NyxLabel','New-NyxButton','New-NyxNavButton','New-NyxCard','New-NyxGrid','New-NyxStatusPill')},
+    [pscustomobject][ordered]@{Name='Controls';RelativePath='ui\Controls.psm1';Exports=@('New-NyxLabel','New-NyxButton','New-NyxNavButton','New-NyxCard','New-NyxGrid','New-NyxStatusPill','Get-NyxControlDpiScale','Register-NyxScrollFocus','Set-NyxDeviceGeometry','Set-NyxScrollExtentFromChildren','Initialize-NyxScrollableDialog')},
     [pscustomobject][ordered]@{Name='Dialogs';RelativePath='ui\Dialogs.psm1';Exports=@('Show-NyxResultDetailDialog','Show-NyxReportPreviewDialog','Show-NyxUpdateAvailableDialog')},
     [pscustomobject][ordered]@{Name='MainWindow';RelativePath='ui\MainWindow.psm1';Exports=@('Show-NyxMainWindow')}
 )

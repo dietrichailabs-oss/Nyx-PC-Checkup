@@ -8,7 +8,17 @@ function ConvertTo-NyxPdfSafeText {
 }
 
 function Split-NyxReportLines {
-    param([string[]]$Lines,[int]$Width=92)
+    param(
+        [Parameter(Mandatory=$true)][AllowEmptyString()][AllowEmptyCollection()][ValidateNotNull()][object[]]$Lines,
+        [ValidateRange(1,2147483647)][int]$Width=92
+    )
+    # Keep empty strings as real rows. Reject null/non-string elements before
+    # coercion could turn invalid data into apparently legitimate blank lines.
+    foreach ($line in $Lines) {
+        if ($null -eq $line -or $line -isnot [string]) {
+            throw [ArgumentException]::new('Lines must contain only non-null strings. Use an empty string for a blank line.','Lines')
+        }
+    }
     $out = [System.Collections.Generic.List[string]]::new()
     foreach ($line in $Lines) {
         $remaining = [string]$line
@@ -27,7 +37,10 @@ function Split-NyxReportLines {
 
 function Write-NyxSimplePdf {
     [CmdletBinding()]
-    param([Parameter(Mandatory=$true)][string]$Path,[Parameter(Mandatory=$true)][string[]]$Lines)
+    param(
+        [Parameter(Mandatory=$true)][string]$Path,
+        [Parameter(Mandatory=$true)][AllowEmptyString()][AllowEmptyCollection()][ValidateNotNull()][object[]]$Lines
+    )
     $wrapped = @(Split-NyxReportLines -Lines $Lines)
     $pages = [System.Collections.Generic.List[object]]::new()
     for ($i=0; $i -lt $wrapped.Count; $i+=52) {

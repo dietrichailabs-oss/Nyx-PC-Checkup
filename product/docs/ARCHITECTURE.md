@@ -8,7 +8,7 @@ Nyx PC Checkup is a local-first Windows health utility for normal users. The arc
 
 The installed runtime consists of:
 
-- a small native Windows x64 launcher with an embedded `asInvoker` manifest;
+- a small native Windows x64 launcher with an embedded `asInvoker` manifest; the launcher starts PowerShell in explicit STA with `CREATE_NO_WINDOW` for console suppression but does not apply a hidden startup state to the WinForms child;
 - a modular Windows PowerShell 5.1 application;
 - a WinForms user interface;
 - short-lived worker processes for scans, confirmed local actions, and update checks.

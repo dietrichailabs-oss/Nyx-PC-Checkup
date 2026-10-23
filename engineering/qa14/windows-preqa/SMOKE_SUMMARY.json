@@ -1,0 +1,628 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.windows-smoke.v2",
+    "HarnessRevision":  "QA14-F011-PS51-14",
+    "Scope":  "normal-user smoke and privacy/update",
+    "StartedUtc":  "2026-09-01T18:46:12.7404701Z",
+    "CompletedUtc":  "2026-09-01T18:47:27.1030381Z",
+    "ElapsedSeconds":  74.363,
+    "ComputerName":  "DESKTOP-4D83OSL",
+    "WindowsVersion":  "Microsoft Windows NT 10.0.26200.0",
+    "PowerShellVersion":  "5.1.26100.7920",
+    "IsAdministrator":  false,
+    "AppRoot":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app",
+    "Passed":  true,
+    "Total":  122,
+    "Failed":  0,
+    "Results":  [
+                    {
+                        "Name":  "PowerShell 5 parser accepts every runtime script",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Full runtime module composition succeeds",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"Full\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]}"
+                    },
+                    {
+                        "Name":  "Runtime composition validates every cumulative dependency layer",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"Full\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]}"
+                    },
+                    {
+                        "Name":  "Shared model command remains available after full graph: New-NyxCheckResult",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Shared model command remains available after full graph: New-NyxUnknownResult",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Shared model command remains available after full graph: Get-NyxStatusLabel",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Shared model command remains available after full graph: Get-NyxStatusSymbol",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Shared model command remains available after full graph: Get-NyxResultSummary",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Repeated composition is idempotent and preserves command availability",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"Full\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":false,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]}"
+                    },
+                    {
+                        "Name":  "Healthy acceptance sentence is exact",
+                        "Passed":  true,
+                        "Details":  "Your PC looks good. Nothing needs fixing."
+                    },
+                    {
+                        "Name":  "Needs Attention outranks other states",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "All Unknown aggregates to Unknown",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Thirty GB free is not automatically critical",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Four GB free needs attention",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Zero-capacity storage becomes Unknown",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Fourteen-day uptime is Optional without pending restart",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Pending restart plus long uptime needs attention",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Ordinary battery aging remains Optional",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Severe battery wear needs attention",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Privacy redaction removes username",
+                        "Passed":  true,
+                        "Details":  "user=[USER] ip=[IP REDACTED] loop=[IP REDACTED] compressed=[IP REDACTED] mapped=::ffff:[IP REDACTED] token=[REDACTED]"
+                    },
+                    {
+                        "Name":  "Privacy redaction removes IPv4 and compressed IPv6",
+                        "Passed":  true,
+                        "Details":  "user=[USER] ip=[IP REDACTED] loop=[IP REDACTED] compressed=[IP REDACTED] mapped=::ffff:[IP REDACTED] token=[REDACTED]"
+                    },
+                    {
+                        "Name":  "Privacy redaction removes token/password/authorization values",
+                        "Passed":  true,
+                        "Details":  "user=[USER] ip=[IP REDACTED] loop=[IP REDACTED] compressed=[IP REDACTED] mapped=::ffff:[IP REDACTED] token=[REDACTED]"
+                    },
+                    {
+                        "Name":  "Privacy redaction removes email address",
+                        "Passed":  true,
+                        "Details":  "user=[USER] ip=[IP REDACTED] loop=[IP REDACTED] compressed=[IP REDACTED] mapped=::ffff:[IP REDACTED] token=[REDACTED]"
+                    },
+                    {
+                        "Name":  "Structured privacy minimization redacts secret-bearing property roles before serialization",
+                        "Passed":  true,
+                        "Details":  "{\"Safe\":\"visible\",\"Password\":\"[REDACTED]\",\"Nested\":{\"token\":\"[REDACTED]\",\"Authorization\":\"[REDACTED]\",\"connection_string\":\"[REDACTED]\",\"Address\":\"[IP REDACTED]\"}}"
+                    },
+                    {
+                        "Name":  "Structured privacy minimization preserves safe fields",
+                        "Passed":  true,
+                        "Details":  "{\"Safe\":\"visible\",\"Password\":\"[REDACTED]\",\"Nested\":{\"token\":\"[REDACTED]\",\"Authorization\":\"[REDACTED]\",\"connection_string\":\"[REDACTED]\",\"Address\":\"[IP REDACTED]\"}}"
+                    },
+                    {
+                        "Name":  "Startup change without confirmation is rejected",
+                        "Passed":  true,
+                        "Details":  "ConfirmationRequired"
+                    },
+                    {
+                        "Name":  "Cleanup without confirmation is rejected",
+                        "Passed":  true,
+                        "Details":  "ConfirmationRequired"
+                    },
+                    {
+                        "Name":  "Startup registry path outside allowlist is rejected",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Corrupt theme is repaired to FollowWindows",
+                        "Passed":  true,
+                        "Details":  "FollowWindows"
+                    },
+                    {
+                        "Name":  "Invalid notification boolean is repaired to disabled",
+                        "Passed":  true,
+                        "Details":  "False"
+                    },
+                    {
+                        "Name":  "Configuration numeric bounds are enforced",
+                        "Passed":  true,
+                        "Details":  "{\"theme\":\"FollowWindows\",\"notificationsEnabled\":false,\"developerLogging\":false,\"maxLogBytes\":65536,\"maxLogFiles\":10,\"actionHistoryLimit\":10,\"reportIncludeUserName\":false,\"reportIncludeIpAddresses\":false,\"updates\":{\"enabled\":true,\"lastCheckUtc\":\"\"},\"scan\":{\"maxFiles\":2000000,\"maxSeconds\":900,\"duplicateHashMaxBytes\":1048576,\"duplicateHashMaxFiles\":5000}}"
+                    },
+                    {
+                        "Name":  "Update configuration defaults to weekly enabled",
+                        "Passed":  true,
+                        "Details":  "{\"enabled\":true,\"lastCheckUtc\":\"\"}"
+                    },
+                    {
+                        "Name":  "First automatic update check is due",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Second automatic update check within seven days is suppressed",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Automatic update check at seven days is due",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Disabled automatic update checks are respected",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Semantic version handles multi-digit components",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Semantic version orders release candidates correctly",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Stable version outranks prerelease",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Malformed semantic version is rejected safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Valid official update manifest is accepted",
+                        "Passed":  true,
+                        "Details":  "{\"SchemaVersion\":1,\"Product\":\"nyx-pc-checkup\",\"LatestVersion\":\"1.0.1\",\"ReleaseName\":\"Nyx PC Checkup 1.0.1\",\"ReleaseChannel\":\"stable\",\"PublishedAtUtc\":\"2026-08-23T00:00:00.0000000+00:00\",\"ReleaseUrl\":\"https://www.dietrichailabs.com/apps/nyx-pc-checkup/\",\"DownloadUrl\":\"https://www.dietrichailabs.com/downloads/\",\"Sha256\":\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"Message\":\"A new version of Nyx PC Checkup is available.\"}"
+                    },
+                    {
+                        "Name":  "Wrong-product update manifest is rejected",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Boolean schema version is rejected as invalid metadata",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Unapproved update destination is rejected",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Update checker safely contains timeout",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"NETWORK_OR_TLS_FAILURE\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:15.8583508Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker safely contains DNS failure",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"NETWORK_OR_TLS_FAILURE\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:15.8899429Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker safely contains TLS failure",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"NETWORK_OR_TLS_FAILURE\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:15.9216387Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker safely contains HTTP 404",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"NETWORK_OR_TLS_FAILURE\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:15.9530480Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker safely contains HTTP 500",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"NETWORK_OR_TLS_FAILURE\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:15.9846022Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker safely rejects invalid JSON",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"INVALID_RESPONSE_OR_METADATA\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:16.0319952Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker safely rejects oversized response",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"INVALID_RESPONSE_OR_METADATA\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:16.0874141Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker safely rejects wrong-product JSON",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"INVALID_RESPONSE_OR_METADATA\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:16.1465937Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker reports a genuinely newer version",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"UPDATE_AVAILABLE\",\"Message\":\"Nyx PC Checkup 1.0.1 is now available.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":{\"SchemaVersion\":1,\"Product\":\"nyx-pc-checkup\",\"LatestVersion\":\"1.0.1\",\"ReleaseName\":\"Nyx PC Checkup 1.0.1\",\"ReleaseChannel\":\"stable\",\"PublishedAtUtc\":\"2026-08-23T00:00:00.0000000+00:00\",\"ReleaseUrl\":\"https://www.dietrichailabs.com/apps/nyx-pc-checkup/\",\"DownloadUrl\":\"https://www.dietrichailabs.com/downloads/\",\"Sha256\":\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"Message\":\"A new version of Nyx PC Checkup is available.\"},\"ErrorCode\":\"\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:16.1882318Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker reports installed version as up to date",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"UP_TO_DATE\",\"Message\":\"Nyx PC Checkup is up to date.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":{\"SchemaVersion\":1,\"Product\":\"nyx-pc-checkup\",\"LatestVersion\":\"1.0.0\",\"ReleaseName\":\"Nyx PC Checkup 1.0.0\",\"ReleaseChannel\":\"stable\",\"PublishedAtUtc\":\"2026-08-23T00:00:00.0000000+00:00\",\"ReleaseUrl\":\"https://www.dietrichailabs.com/apps/nyx-pc-checkup/\",\"DownloadUrl\":\"https://www.dietrichailabs.com/downloads/\",\"Sha256\":\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"Message\":\"A new version of Nyx PC Checkup is available.\"},\"ErrorCode\":\"\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:16.2258074Z\"}"
+                    },
+                    {
+                        "Name":  "Update checker never offers a downgrade",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"UP_TO_DATE\",\"Message\":\"Nyx PC Checkup is up to date.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":{\"SchemaVersion\":1,\"Product\":\"nyx-pc-checkup\",\"LatestVersion\":\"0.9.9\",\"ReleaseName\":\"Nyx PC Checkup 0.9.9\",\"ReleaseChannel\":\"stable\",\"PublishedAtUtc\":\"2026-08-23T00:00:00.0000000+00:00\",\"ReleaseUrl\":\"https://www.dietrichailabs.com/apps/nyx-pc-checkup/\",\"DownloadUrl\":\"https://www.dietrichailabs.com/downloads/\",\"Sha256\":\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"Message\":\"A new version of Nyx PC Checkup is available.\"},\"ErrorCode\":\"\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:16.2535692Z\"}"
+                    },
+                    {
+                        "Name":  "Manual update worker exits cleanly",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "Manual update worker writes a bounded result",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Manual update check bypasses disabled weekly schedule",
+                        "Passed":  true,
+                        "Details":  "{\"State\":\"CHECK_FAILED\",\"Message\":\"Unable to check for updates right now. Please try again later.\",\"Product\":\"Nyx PC Checkup\",\"ProductId\":\"nyx-pc-checkup\",\"InstalledVersion\":\"1.0.0\",\"ManifestUrl\":\"https://www.dietrichailabs.com/updates/nyx-pc-checkup.json\",\"Manifest\":null,\"ErrorCode\":\"NETWORK_OR_TLS_FAILURE\",\"Manual\":true,\"CheckedUtc\":\"2026-09-01T18:46:18.1118239Z\"}"
+                    },
+                    {
+                        "Name":  "Manual update result uses only official manifest endpoint",
+                        "Passed":  true,
+                        "Details":  "https://www.dietrichailabs.com/updates/nyx-pc-checkup.json"
+                    },
+                    {
+                        "Name":  "F-007 zero cleanup candidate set returns a valid result",
+                        "Passed":  true,
+                        "Details":  "{\"Candidates\":[],\"TotalBytes\":0,\"Limited\":true,\"Limit\":10,\"VisitedFiles\":1,\"MaxVisitedFiles\":1,\"ElapsedMilliseconds\":55,\"MaxSeconds\":5,\"AccessDeniedCount\":0,\"Cancelled\":false,\"Complete\":false,\"LimitReason\":\"VisitedFileLimit\",\"IncompleteReason\":\"The preview reached its 1-file traversal safety limit.\"}"
+                    },
+                    {
+                        "Name":  "F-007 zero cleanup candidate set reports TotalBytes zero",
+                        "Passed":  true,
+                        "Details":  "0"
+                    },
+                    {
+                        "Name":  "F-007 bounded zero cleanup stops without PropertyNotFoundException",
+                        "Passed":  true,
+                        "Details":  "VisitedFileLimit"
+                    },
+                    {
+                        "Name":  "F-007 DownloadsAnalysis module is loaded for private empty-state regression",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-007 empty Downloads returns a valid Good result",
+                        "Passed":  true,
+                        "Details":  "{\"CheckId\":\"downloads.analysis\",\"Category\":\"Downloads\",\"Name\":\"Downloads checkup\",\"Status\":\"Good\",\"Severity\":\"Low\",\"Finding\":\"The Downloads folder is empty.\",\"Reason\":\"No notable Downloads cleanup opportunity was found.\",\"Evidence\":{\"Path\":\"C:\\\\QA\\\\EmptyDownloads\",\"TotalBytes\":0,\"Files\":[],\"DuplicateGroups\":[],\"AccessDenied\":0},\"Recommendation\":\"Review files yourself. Nyx never assumes that an old file is unwanted.\",\"ActionSafetyLevel\":\"DestructiveAction\",\"Timestamp\":\"2026-09-01T18:46:18.5749941Z\",\"DataSource\":\"Top-level Downloads file metadata and bounded SHA-256 duplicate comparison\",\"RequiresElevation\":false,\"Complete\":true,\"ErrorReason\":\"\",\"Details\":{\"Files\":[],\"DuplicateGroups\":[]}}"
+                    },
+                    {
+                        "Name":  "F-007 empty Downloads reports TotalBytes zero",
+                        "Passed":  true,
+                        "Details":  "0"
+                    },
+                    {
+                        "Name":  "F-007 non-candidate-only Downloads remains Good",
+                        "Passed":  true,
+                        "Details":  "{\"CheckId\":\"downloads.analysis\",\"Category\":\"Downloads\",\"Name\":\"Downloads checkup\",\"Status\":\"Good\",\"Severity\":\"Low\",\"Finding\":\"Downloads contains at least 1 readable file(s) using 12 B.\",\"Reason\":\"No notable Downloads cleanup opportunity was found.\",\"Evidence\":{\"Path\":\"C:\\\\QA\\\\EmptyDownloads\",\"TotalBytes\":12,\"Files\":[{\"Path\":\"C:\\\\QA\\\\EmptyDownloads\\\\note.txt\",\"Name\":\"note.txt\",\"Category\":\"Document\",\"SizeBytes\":12,\"AgeDays\":0,\"OlderThan30Days\":false,\"OlderThan90Days\":false,\"OlderThanOneYear\":false,\"LargerThan100MB\":false,\"LargerThan1GB\":false,\"CleanupCandidate\":false}],\"DuplicateGroups\":[],\"AccessDenied\":0},\"Recommendation\":\"Review files yourself. Nyx never assumes that an old file is unwanted.\",\"ActionSafetyLevel\":\"DestructiveAction\",\"Timestamp\":\"2026-09-01T18:46:18.6227436Z\",\"DataSource\":\"Top-level Downloads file metadata and bounded SHA-256 duplicate comparison\",\"RequiresElevation\":false,\"Complete\":true,\"ErrorReason\":\"\",\"Details\":{\"Files\":[{\"Path\":\"C:\\\\QA\\\\EmptyDownloads\\\\note.txt\",\"Name\":\"note.txt\",\"Category\":\"Document\",\"SizeBytes\":12,\"AgeDays\":0,\"OlderThan30Days\":false,\"OlderThan90Days\":false,\"OlderThanOneYear\":false,\"LargerThan100MB\":false,\"LargerThan1GB\":false,\"CleanupCandidate\":false}],\"DuplicateGroups\":[]}}"
+                    },
+                    {
+                        "Name":  "F-007 non-candidate-only Downloads totals bytes without Measure-Object Sum",
+                        "Passed":  true,
+                        "Details":  "12"
+                    },
+                    {
+                        "Name":  "F-007 cleanup action safety revalidation remains fail-closed",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":false,\"Status\":\"Failed\",\"Message\":\"0 item(s) completed; 1 failed.\",\"ActionId\":\"3463d7a56b2745039597f75db169ea48\",\"BytesProcessed\":0,\"Items\":[{\"Id\":\"qa9-f007-nonexistent-candidate\",\"Success\":false,\"Message\":\"The item changed or is no longer an approved cleanup candidate.\"}]}"
+                    },
+                    {
+                        "Name":  "Cleanup preview honors traversal bound",
+                        "Passed":  true,
+                        "Details":  "VisitedFiles=1"
+                    },
+                    {
+                        "Name":  "Cleanup preview candidates remain unselected by default",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Cleanup preview exposes completeness and stop reason",
+                        "Passed":  true,
+                        "Details":  "{\"Candidates\":[{\"Id\":\"1c1c0f5ada3d812b8eee46e8\",\"Path\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\.ses\",\"Name\":\".ses\",\"Category\":\"User temporary files\",\"Reason\":\"Temporary file older than one day.\",\"SizeBytes\":53,\"AgeDays\":28,\"LastWriteUtc\":\"2026-08-04T11:54:39.8299122Z\",\"SelectedByDefault\":false,\"Kind\":\"File\"}],\"TotalBytes\":53,\"Limited\":true,\"Limit\":1,\"VisitedFiles\":1,\"MaxVisitedFiles\":1,\"ElapsedMilliseconds\":5,\"MaxSeconds\":1,\"AccessDeniedCount\":0,\"Cancelled\":false,\"Complete\":false,\"LimitReason\":\"CandidateLimit\",\"IncompleteReason\":\"The preview reached its 1-item candidate safety limit.\"}"
+                    },
+                    {
+                        "Name":  "Current-user QA startup entry is enumerated",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Current-user startup disable completes",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":true,\"Status\":\"Completed\",\"Message\":\"The current-user startup entry was disabled after its exact rollback state was written.\",\"ActionId\":\"3bacac930a064053b0294d1d97791d46\",\"Details\":null,\"Timestamp\":\"2026-09-01T18:46:19.4023160Z\"}"
+                    },
+                    {
+                        "Name":  "Startup disable removes only the selected value",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Current-user rollback journal is active",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Current-user startup restore completes",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":true,\"Status\":\"Completed\",\"Message\":\"The current-user startup entry was restored and its active rollback journal was closed.\",\"ActionId\":\"6898747ce4244ab2a90ca2e301b1a687\",\"Details\":null,\"Timestamp\":\"2026-09-01T18:46:19.5765770Z\"}"
+                    },
+                    {
+                        "Name":  "Startup restore preserves the exact command",
+                        "Passed":  true,
+                        "Details":  "\"C:\\WINDOWS\\System32\\notepad.exe\" --nyx-pc-checkup-rollback-test"
+                    },
+                    {
+                        "Name":  "Successful restore closes active journal",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 invalid persisted JSON is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 unsupported schema is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 missing Results is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 null Results is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 empty Results is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 result missing Status is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 result missing Category is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 result missing CheckId is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 result missing Finding is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 result missing Reason is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 result missing Recommendation is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 result missing Complete is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 unsupported result Status is ignored safely",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-010 valid partial cancelled scan loads safely",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.scan.v1\",\"Mode\":\"Full\",\"StartedUtc\":\"2026-09-01T18:46:19.6384747Z\",\"CompletedUtc\":\"2026-09-01T18:46:19.6384747Z\",\"Cancelled\":true,\"ReadOnly\":true,\"Summary\":{\"OverallStatus\":\"Unknown\",\"Headline\":\"The check could not determine enough information.\",\"Good\":0,\"NeedsAttention\":0,\"Optional\":0,\"Unknown\":1,\"Total\":1},\"Results\":[{\"CheckId\":\"qa.f010\",\"Category\":\"System\",\"Name\":\"F-010 valid result\",\"Status\":\"Unknown\",\"Severity\":\"Info\",\"Finding\":\"No conclusion was fabricated.\",\"Reason\":\"Synthetic regression.\",\"Evidence\":null,\"Recommendation\":\"Run a new check.\",\"ActionSafetyLevel\":\"None\",\"Timestamp\":\"2026-09-01T18:46:19.6384747Z\",\"DataSource\":\"\",\"RequiresElevation\":false,\"Complete\":false,\"ErrorReason\":\"\",\"Details\":null}]}"
+                    },
+                    {
+                        "Name":  "F-010 malformed producer output normalizes to honest Unknown",
+                        "Passed":  true,
+                        "Details":  "{\"CheckId\":\"qa.f010.producer\",\"Category\":\"System\",\"Name\":\"Producer fallback\",\"Status\":\"Unknown\",\"Severity\":\"Info\",\"Finding\":\"This check could not be completed.\",\"Reason\":\"A check returned incomplete or unsupported data.\",\"Evidence\":null,\"Recommendation\":\"No automatic change was made. You can retry the check or review the technical details.\",\"ActionSafetyLevel\":\"None\",\"Timestamp\":\"2026-09-01T18:46:20.1637892Z\",\"DataSource\":\"\",\"RequiresElevation\":false,\"Complete\":false,\"ErrorReason\":\"A check returned incomplete or unsupported data.\",\"Details\":null}"
+                    },
+                    {
+                        "Name":  "F-009 optional temp cleanup accepts empty path fields without throwing",
+                        "Passed":  true,
+                        "Details":  "{\"Removed\":1,\"Missing\":0,\"EmptySkipped\":3,\"UnsafeRejected\":1,\"Failed\":0,\"TempRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\temp\"}"
+                    },
+                    {
+                        "Name":  "F-009 optional temp cleanup deletes an allowed Nyx temp file",
+                        "Passed":  true,
+                        "Details":  "{\"Removed\":1,\"Missing\":0,\"EmptySkipped\":3,\"UnsafeRejected\":1,\"Failed\":0,\"TempRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\temp\"}"
+                    },
+                    {
+                        "Name":  "F-009 optional temp cleanup rejects a lookalike path outside Nyx temp",
+                        "Passed":  true,
+                        "Details":  "{\"Removed\":1,\"Missing\":0,\"EmptySkipped\":3,\"UnsafeRejected\":1,\"Failed\":0,\"TempRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\temp\"}"
+                    },
+                    {
+                        "Name":  "F-009 optional temp cleanup records the rejected outside path",
+                        "Passed":  true,
+                        "Details":  "{\"Removed\":1,\"Missing\":0,\"EmptySkipped\":3,\"UnsafeRejected\":1,\"Failed\":0,\"TempRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Dietrich AI Labs\\\\Nyx PC Checkup\\\\temp\"}"
+                    },
+                    {
+                        "Name":  "PDF writer creates a PDF header",
+                        "Passed":  true,
+                        "Details":  "%PDF-"
+                    },
+                    {
+                        "Name":  "Export report redacts injected structured secrets and address forms",
+                        "Passed":  true,
+                        "Details":  "{\r\n    \"ReportSchema\":  \"dietrich-ai-labs.[USER]-pc-checkup.report.v1\",\r\n    \"Product\":  \"[USER] PC Checkup\",\r\n    \"Version\":  \"1.0.0\",\r\n    \"Build\":  \"Unknown\",\r\n    \"ScanMode\":  \"Quick\",\r\n    \"ScanStartedUtc\":  \"2026-09-01T18:46:20.2596640Z\",\r\n    \"ScanCompletedUtc\":  \"2026-09-01T18:46:20.2596640Z\",\r\n    \"Summary\":  {\r\n                    \"OverallStatus\":  \"Good\",\r\n                    \"Headline\":  \"Your PC looks good. Nothing needs fixing.\",\r\n                    \"Good\":  2,\r\n                    \"NeedsAttention\":  0,\r\n                    \"Optional\":  0,\r\n                    \"Unknown\":  0,\r\n                    \"Total\":  2\r\n                },\r\n    \"Results\":  {\r\n                    \"CheckId\":  \"network.basics\",\r\n                    \"Category\":  \"Network\",\r\n                    \"Name\":  \"Network\",\r\n                    \"Status\":  \"Good\",\r\n                    \"StatusLabel\":  \"Good\",\r\n                    \"Severity\":  \"Info\",\r\n                    \"Finding\":  \"user=[USER] ip=[IP REDACTED] loop=[IP REDACTED] compressed=[IP REDACTED] mapped=::ffff:[IP REDACTED] token=[REDACTED]\",\r\n                    \"Reason\":  \"user=[USER] ip=[IP REDACTED] loop=[IP REDACTED] compressed=[IP REDACTED] mapped=::ffff:[IP REDACTED] token=[REDACTED]\",\r\n                    \"Recommendation\":  \"user=[USER] ip=[IP REDACTED] loop=[IP REDACTED] compressed=[IP REDACTED] mapped=::ffff:[IP REDACTED] token=[REDACTED]\",\r\n                    \"ActionSafetyLevel\":  \"None\",\r\n                    \"Complete\":  true,\r\n                    \"ErrorReason\":  \"[UNAVAILABLE]\",\r\n                    \"DataSource\":  \"[UNAVAILABLE]\",\r\n                    \"Evidence\":  {\r\n                                     \"ActiveAdapterCount\":  0,\r\n                                     \"InternetProfileCount\":  0,\r\n                                     \"DnsResolutionSucceeded\":  true\r\n                                 }\r\n                },\r\n    \"Privacy\":  \"This report excludes usernames, hardware serial numbers, product keys, browser data, document contents, passwords, tokens, and IP addresses by default.\"\r\n}"
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 1 exits successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 1 writes evidence",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 1 loads the full module graph",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1\",\"Build\":\"2026.08.30-eng-qa14\",\"Passed\":true,\"Composition\":{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"UI\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]},\"QuickCheck\":{\"ExitCode\":0,\"ReadOnly\":true,\"ResultCount\":14,\"Summary\":{\"OverallStatus\":\"NeedsAttention\",\"Headline\":\"2 things need attention.\",\"Good\":8,\"NeedsAttention\":2,\"Optional\":1,\"Unknown\":3,\"Total\":14}},\"CompletedUtc\":\"2026-09-01T18:46:46.0796577Z\"}"
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 1 completes a real Quick Check",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1\",\"Build\":\"2026.08.30-eng-qa14\",\"Passed\":true,\"Composition\":{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"UI\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]},\"QuickCheck\":{\"ExitCode\":0,\"ReadOnly\":true,\"ResultCount\":14,\"Summary\":{\"OverallStatus\":\"NeedsAttention\",\"Headline\":\"2 things need attention.\",\"Good\":8,\"NeedsAttention\":2,\"Optional\":1,\"Unknown\":3,\"Total\":14}},\"CompletedUtc\":\"2026-09-01T18:46:46.0796577Z\"}"
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 2 exits successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 2 writes evidence",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 2 loads the full module graph",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1\",\"Build\":\"2026.08.30-eng-qa14\",\"Passed\":true,\"Composition\":{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"UI\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]},\"QuickCheck\":{\"ExitCode\":0,\"ReadOnly\":true,\"ResultCount\":14,\"Summary\":{\"OverallStatus\":\"NeedsAttention\",\"Headline\":\"2 things need attention.\",\"Good\":8,\"NeedsAttention\":2,\"Optional\":1,\"Unknown\":3,\"Total\":14}},\"CompletedUtc\":\"2026-09-01T18:47:03.8113853Z\"}"
+                    },
+                    {
+                        "Name":  "Real application acceptance launch 2 completes a real Quick Check",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1\",\"Build\":\"2026.08.30-eng-qa14\",\"Passed\":true,\"Composition\":{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"UI\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]},\"QuickCheck\":{\"ExitCode\":0,\"ReadOnly\":true,\"ResultCount\":14,\"Summary\":{\"OverallStatus\":\"NeedsAttention\",\"Headline\":\"2 things need attention.\",\"Good\":8,\"NeedsAttention\":2,\"Optional\":1,\"Unknown\":3,\"Total\":14}},\"CompletedUtc\":\"2026-09-01T18:47:03.8113853Z\"}"
+                    },
+                    {
+                        "Name":  "F-009 real UI close probe (updates disabled) exits cleanly",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "F-009 real UI close probe (updates disabled) writes terminal evidence",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-009 real UI close probe (updates disabled) reports UiClose PASS",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1\",\"Build\":\"2026.08.30-eng-qa14\",\"Passed\":true,\"ProbeKind\":\"UiClose\",\"Composition\":{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"UI\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]},\"CompletedUtc\":\"2026-09-01T18:47:08.6468820Z\"}"
+                    },
+                    {
+                        "Name":  "F-009 real UI close probe (updates enabled before output exists) exits cleanly",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "F-009 real UI close probe (updates enabled before output exists) writes terminal evidence",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "F-009 real UI close probe (updates enabled before output exists) reports UiClose PASS",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.application-acceptance-probe.v1\",\"Build\":\"2026.08.30-eng-qa14\",\"Passed\":true,\"ProbeKind\":\"UiClose\",\"Composition\":{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"UI\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_144607\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":36,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"CheckupEngine\",\"RelativePath\":\"core\\\\CheckupEngine.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"Versioning\",\"RelativePath\":\"updates\\\\Versioning.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"Manifest\",\"RelativePath\":\"updates\\\\Manifest.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"Preferences\",\"RelativePath\":\"updates\\\\Preferences.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"UpdateChecker\",\"RelativePath\":\"updates\\\\UpdateChecker.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":13,\"Module\":\"PdfWriter\",\"RelativePath\":\"reports\\\\PdfWriter.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":14,\"Module\":\"ReportExport\",\"RelativePath\":\"reports\\\\ReportExport.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":15,\"Module\":\"SystemInfo\",\"RelativePath\":\"checks\\\\SystemInfo.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":16,\"Module\":\"StorageHealth\",\"RelativePath\":\"checks\\\\StorageHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":17,\"Module\":\"StorageScan\",\"RelativePath\":\"checks\\\\StorageScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":18,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":19,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":20,\"Module\":\"WindowsUpdates\",\"RelativePath\":\"checks\\\\WindowsUpdates.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":21,\"Module\":\"SecurityStatus\",\"RelativePath\":\"checks\\\\SecurityStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":22,\"Module\":\"BackupStatus\",\"RelativePath\":\"checks\\\\BackupStatus.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":23,\"Module\":\"BatteryHealth\",\"RelativePath\":\"checks\\\\BatteryHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":24,\"Module\":\"PerformanceSnapshot\",\"RelativePath\":\"checks\\\\PerformanceSnapshot.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":25,\"Module\":\"DriveHealth\",\"RelativePath\":\"checks\\\\DriveHealth.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":26,\"Module\":\"InstalledApps\",\"RelativePath\":\"checks\\\\InstalledApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":27,\"Module\":\"Uptime\",\"RelativePath\":\"checks\\\\Uptime.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":28,\"Module\":\"NetworkBasics\",\"RelativePath\":\"checks\\\\NetworkBasics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":29,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":30,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":31,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":32,\"Module\":\"Theme\",\"RelativePath\":\"ui\\\\Theme.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":33,\"Module\":\"Controls\",\"RelativePath\":\"ui\\\\Controls.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":34,\"Module\":\"Dialogs\",\"RelativePath\":\"ui\\\\Dialogs.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":35,\"Module\":\"MainWindow\",\"RelativePath\":\"ui\\\\MainWindow.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]},\"CompletedUtc\":\"2026-09-01T18:47:11.6476888Z\"}"
+                    },
+                    {
+                        "Name":  "Quick scan worker exits successfully",
+                        "Passed":  true,
+                        "Details":  "ExitCode=0"
+                    },
+                    {
+                        "Name":  "Quick scan produced a result file",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Scan envelope is explicitly read-only",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Quick scan returned results",
+                        "Passed":  true,
+                        "Details":  "Count=14"
+                    },
+                    {
+                        "Name":  "Quick scan status values are valid",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Every result has explanation fields",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Quick scan had no worker-level fatal error",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Quick scan did not modify supported startup registry keys",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Quick scan did not modify sentinel file",
+                        "Passed":  true,
+                        "Details":  ""
+                    }
+                ]
+}

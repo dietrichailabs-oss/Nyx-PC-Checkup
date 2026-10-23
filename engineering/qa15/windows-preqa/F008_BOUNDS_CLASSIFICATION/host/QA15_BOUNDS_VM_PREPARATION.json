@@ -1,0 +1,19 @@
+﻿{
+    "StartedUtc":  "2026-09-26T18:07:49.0096248Z",
+    "VM":  "Nyx",
+    "Status":  "BASELINE_RESTORED_PENDING_INSPECTION",
+    "CandidateModified":  false,
+    "RecoveryCheckpoint":  "QA15_BEFORE_BOUNDS_CLASSIFICATION_20260926_140749",
+    "RecoveryCheckpointId":  "b9f102f2-0cb6-40b7-a03b-c5f3a5132c4d",
+    "Baseline":  "EXEC004_PRETEST_20260804_0844",
+    "BaselineId":  "07126637-ce84-43cc-a69b-fb4ae445f9ce",
+    "Disks":  [
+                  {
+                      "Path":  "I:\\Nyx\\Virtual Hard Disks\\Nyx_5BC713D4-E700-456A-82BD-DF8BD6BF656B.avhdx",
+                      "ControllerType":  1,
+                      "ControllerNumber":  0,
+                      "ControllerLocation":  0
+                  }
+              ],
+    "CompletedUtc":  "2026-09-26T18:07:52.8544127Z"
+}

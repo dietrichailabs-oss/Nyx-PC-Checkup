@@ -1,0 +1,37 @@
+{
+  "EngineeringStatus": "BLOCKED",
+  "Finding": "200% / 192 DPI / 1366x768: branding and Home headings vertically clipped; Export report, Check My PC, Run Full Check and Cancel scan labels truncated. Settings not visible in navigation viewport; keyboard reachability not tested. Window containment passes; visual layout fails.",
+  "IndependentQAVerdict": "NOT CLAIMED",
+  "Build": "2026.09.26-eng-qa16",
+  "SourceCommit": "fbc77e48824fe953ad50494c7f93baa7cd9e933e",
+  "CandidateModifiedSinceFreeze": false,
+  "Theme": "FollowWindows",
+  "Page": "Home",
+  "DPI": 192,
+  "Scaling": 200,
+  "Resolution": "1366x768",
+  "BoundsPass": true,
+  "VisualPass": false,
+  "Window": [
+    32,
+    32,
+    1366,
+    672
+  ],
+  "WorkingArea": [
+    0,
+    0,
+    1366,
+    672
+  ],
+  "Screenshot": "raw/evidence_dpi_physical_20260926_202348/NATIVE_EXE_DESKTOP.png",
+  "FormDeviceDpi": 96,
+  "NativeWindowDpi": 192,
+  "GraphicsDpi": 192,
+  "DpiDiscrepancy": "Observed, root cause not diagnosed",
+  "Standard": "NOT RUN",
+  "Elevated": "NOT RUN",
+  "F010": "NOT RUN",
+  "F011": "NOT RUN",
+  "F012": "NOT RUN"
+}

@@ -1,0 +1,32 @@
+﻿{
+    "ComputerName":  "DESKTOP-4D83OSL",
+    "User":  "mark",
+    "OS":  "Microsoft Windows NT 10.0.26200.0",
+    "PowerShell":  "5.1.26100.7920",
+    "Is64BitProcess":  true,
+    "SessionId":  2,
+    "SessionName":  "31C5CE94259D4006A9E4#0",
+    "Interactive":  true,
+    "DisplayMode":  {
+                        "Width":  2048,
+                        "Height":  1152,
+                        "Frequency":  32,
+                        "Device":  "\\\\.\\DISPLAY1"
+                    },
+    "Screenshot":  {
+                       "Path":  "FULL_DESKTOP_SCREENSHOT.png",
+                       "Width":  2048,
+                       "Height":  1152,
+                       "CaptureRectangle":  {
+                                                "X":  0,
+                                                "Y":  0,
+                                                "Width":  2048,
+                                                "Height":  1152,
+                                                "Left":  0,
+                                                "Top":  0,
+                                                "Right":  2048,
+                                                "Bottom":  1152
+                                            },
+                       "Cropped":  false
+                   }
+}

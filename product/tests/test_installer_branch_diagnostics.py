@@ -7,7 +7,7 @@ INSTALLER = ROOT / "native" / "installer.cpp"
 HELPER = ROOT / "tests" / "powershell" / "InstallerDiagnosticsHelpers.ps1"
 LIFECYCLE = ROOT / "tests" / "powershell" / "Run-WindowsInstallerLifecycle.ps1"
 MIGRATION = ROOT / "tests" / "powershell" / "Run-WindowsQA2MigrationRegression.ps1"
-RUNNER = ROOT / "tests" / "powershell" / "RUN_QA11_WINDOWS_GATE.ps1"
+RUNNER = ROOT / "tests" / "powershell" / "RUN_QA15_WINDOWS_GATE.ps1"
 
 
 def read(path: Path) -> str:
@@ -19,7 +19,7 @@ def test_native_installer_emits_machine_readable_diagnostics_for_every_exit_bran
     for token in (
         "/diagnostics:",
         "dietrich-ai-labs.nyx-pc-checkup.setup-diagnostics.v1",
-        "2026.08.27-eng-qa11",
+        "2026.10.19-eng-qa27",
         "LOCALAPPDATA_MISSING",
         "INSTALL_PARENT_UNSAFE",
         "RUNNING_INSTANCE",
@@ -81,15 +81,15 @@ def test_current_setup_harnesses_require_valid_branch_diagnostics() -> None:
     assert "QA2SetupInferences" in migration
     assert "CorrectedSetupRuns" in migration
     assert "InstallerEnvironmentPreflight" in migration
-    assert "2026.08.27-eng-qa11" in migration
+    assert "2026.10.19-eng-qa27" in migration
 
 
 def test_qa7_runner_manifest_binds_helper_and_complete_evidence_tree() -> None:
     source = read(RUNNER)
     assert "InstallerDiagnosticsHelpers.ps1" in source
     assert "InstallerDiagnosticsHelperSha256" in source
-    assert "QA11_WINDOWS_PARSE_PREFLIGHT.json" in source
-    assert "QA11_WINDOWS_RUN_SUMMARY.json" in source
+    assert "QA15_WINDOWS_PARSE_PREFLIGHT.json" in source
+    assert "QA15_WINDOWS_RUN_SUMMARY.json" in source
     assert 'Compress-Archive -LiteralPath $evidence' in source
-    assert "$script:ExpectedHarnessRevision='QA11-PS51-8'" in source
-    assert "$script:ExpectedBuild='2026.08.27-eng-qa11'" in source
+    assert "$script:ExpectedHarnessRevision='QA27-F024-PS51-27'" in source
+    assert "$script:ExpectedBuild='2026.10.19-eng-qa27'" in source

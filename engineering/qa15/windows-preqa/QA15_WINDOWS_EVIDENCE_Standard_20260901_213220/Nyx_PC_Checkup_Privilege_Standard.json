@@ -1,0 +1,81 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.privilege-boundary.v2",
+    "HarnessRevision":  "QA15-F012-PS51-15",
+    "Scope":  "privilege-boundary and legacy rollback",
+    "StartedUtc":  "2026-09-02T01:33:24.2217799Z",
+    "CompletedUtc":  "2026-09-02T01:33:24.7916301Z",
+    "ElapsedSeconds":  0.57,
+    "ComputerName":  "DESKTOP-4D83OSL",
+    "WindowsVersion":  "Microsoft Windows NT 10.0.26200.0",
+    "PowerShellVersion":  "5.1.26100.7920",
+    "CurrentUserSid":  "S-1-5-21-1723763126-3146604107-184641064-1002",
+    "IsAdministrator":  false,
+    "ExpectedUserSid":  "",
+    "DestructiveCleanVmAcknowledged":  false,
+    "AppRoot":  "C:\\Users\\Nyx\\AppData\\Local\\Temp\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\source\\Nyx_PC_Checkup_1.0.0_Source\\src\\app",
+    "Passed":  true,
+    "Total":  12,
+    "Failed":  0,
+    "Results":  [
+                    {
+                        "Name":  "QA7 Actions composition exposes Get-NyxStableId and startup/action commands",
+                        "Passed":  true,
+                        "Details":  "{\"Schema\":\"dietrich-ai-labs.nyx-pc-checkup.runtime-composition.v1\",\"Profile\":\"Actions\",\"AppRoot\":\"C:\\\\Users\\\\Nyx\\\\AppData\\\\Local\\\\Temp\\\\Nyx_PC_Checkup_QA14_Windows_Standard_20260901_213220\\\\source\\\\Nyx_PC_Checkup_1.0.0_Source\\\\src\\\\app\",\"Passed\":true,\"ModuleCount\":13,\"Layers\":[{\"Index\":0,\"Module\":\"Paths\",\"RelativePath\":\"core\\\\Paths.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":1,\"Module\":\"Privacy\",\"RelativePath\":\"core\\\\Privacy.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":2,\"Module\":\"Configuration\",\"RelativePath\":\"core\\\\Configuration.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":3,\"Module\":\"Diagnostics\",\"RelativePath\":\"core\\\\Diagnostics.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":4,\"Module\":\"Models\",\"RelativePath\":\"core\\\\Models.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":5,\"Module\":\"HealthRules\",\"RelativePath\":\"health_rules\\\\HealthRules.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":6,\"Module\":\"WindowsHelpers\",\"RelativePath\":\"platform\\\\windows\\\\WindowsHelpers.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":7,\"Module\":\"ActionHistory\",\"RelativePath\":\"core\\\\ActionHistory.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":8,\"Module\":\"DownloadsAnalysis\",\"RelativePath\":\"checks\\\\DownloadsAnalysis.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":9,\"Module\":\"CleanupScan\",\"RelativePath\":\"checks\\\\CleanupScan.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":10,\"Module\":\"StartupApps\",\"RelativePath\":\"checks\\\\StartupApps.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":11,\"Module\":\"StartupActions\",\"RelativePath\":\"actions\\\\StartupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true},{\"Index\":12,\"Module\":\"CleanupActions\",\"RelativePath\":\"actions\\\\CleanupActions.psm1\",\"ImportedToGlobalScope\":true,\"CumulativeCommandSurfacePassed\":true}],\"Missing\":[]}"
+                    },
+                    {
+                        "Name":  "Expected user SID not supplied; alternate administrator identity assertion is informational",
+                        "Passed":  true,
+                        "Details":  "Current SID=S-1-5-21-1723763126-3146604107-184641064-1002. Re-run with -ExpectedUserSid when recording the alternate administrator scenario."
+                    },
+                    {
+                        "Name":  "No UAC RunAs launcher remains in mutable application code",
+                        "Passed":  true,
+                        "Details":  "The QA7 runtime must not launch any elevated PowerShell path."
+                    },
+                    {
+                        "Name":  "No machine-startup mutation helper remains in Version 1",
+                        "Passed":  true,
+                        "Details":  "All-users entries are read-only."
+                    },
+                    {
+                        "Name":  "All-users entry is read-only",
+                        "Passed":  true,
+                        "Details":  "{\"Success\":false,\"Status\":\"ReadOnly\",\"Message\":\"All-users startup entries are displayed read-only in Version 1. Nyx did not request elevation and made no change.\",\"ActionId\":\"\",\"Details\":null,\"Timestamp\":\"2026-09-02T01:33:24.6658313Z\"}"
+                    },
+                    {
+                        "Name":  "No UAC process transition occurs for an all-users entry",
+                        "Passed":  true,
+                        "Details":  "All-users startup entries are displayed read-only in Version 1. Nyx did not request elevation and made no change."
+                    },
+                    {
+                        "Name":  "Read-only all-users action leaves machine startup state byte-for-byte unchanged",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Machine-scoped rollback state is rejected by the writable action boundary",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Every enumerated all-users startup entry is read-only",
+                        "Passed":  true,
+                        "Details":  ""
+                    },
+                    {
+                        "Name":  "Legacy machine rollback is independently discoverable without a per-user pointer",
+                        "Passed":  true,
+                        "Details":  "{\"Status\":\"Clear\",\"Obligations\":[],\"Errors\":[],\"Complete\":true,\"Root\":\"C:\\\\ProgramData\\\\DietrichAI.NyxPCCheckup\\\\startup-rollback\"}"
+                    },
+                    {
+                        "Name":  "Legacy machine rollback mutation test not requested",
+                        "Passed":  true,
+                        "Details":  "Run again as administrator in a disposable VM with -DestructiveCleanVmAcknowledged to create and remove an isolated ProgramData journal. No HKLM startup value is ever created."
+                    },
+                    {
+                        "Name":  "Alternate administrator UAC observation requirement",
+                        "Passed":  true,
+                        "Details":  "QA should repeat the all-users read-only action while an alternate administrator credential is available and record that no credential prompt appears; the executable manifest and runtime expose no elevation path."
+                    }
+                ]
+}

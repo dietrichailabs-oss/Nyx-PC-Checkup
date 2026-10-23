@@ -1,0 +1,40 @@
+{
+  "Schema": "qa15.f008.first-cell-classification.v1",
+  "Status": "F-008 PRODUCT DEFECT REPRODUCED - QA15 REMAINS FROZEN",
+  "FirstCell": "FAIL",
+  "Theme": "FollowWindows",
+  "Page": "Home",
+  "ActualScalingPercent": 100,
+  "ActualDpi": 96,
+  "ActualResolution": "1024x768",
+  "NativeWindow": {
+    "Left": 362,
+    "Top": 210,
+    "Right": 1354,
+    "Bottom": 898
+  },
+  "NativeAndWinFormsWorkingArea": {
+    "Left": 0,
+    "Top": 0,
+    "Right": 1024,
+    "Bottom": 720
+  },
+  "OverflowPixels": {
+    "Right": 330,
+    "Bottom": 178
+  },
+  "Screenshot": "FULL_DESKTOP_SCREENSHOT.png",
+  "ScreenshotWidth": 1024,
+  "ScreenshotHeight": 768,
+  "NativeAndManagedRectanglesAgree": true,
+  "ProductModified": false,
+  "Build": "2026.09.01-eng-qa15",
+  "InstrumentationCommit": "45e76c5c4968af2c0edef68a6fca2fd895386bbb",
+  "MatrixContinued": false,
+  "Pass": 0,
+  "Fail": 1,
+  "NotRun": 131,
+  "NativeLauncherAwareness": "Not measured: observed UI was the unchanged installed script under an external observation wrapper. Native launcher equivalence beyond child flags is not claimed.",
+  "Routing": "Independent QA",
+  "IndependentQAPassClaimed": false
+}

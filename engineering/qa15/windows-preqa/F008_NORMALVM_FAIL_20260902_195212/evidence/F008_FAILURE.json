@@ -1,0 +1,7 @@
+﻿{
+    "Schema":  "dietrich-ai-labs.nyx-pc-checkup.qa15-f008-failure.v1",
+    "Build":  "2026.09.01-eng-qa15",
+    "Passed":  false,
+    "Error":  "System.Management.Automation.RuntimeException: FollowWindows 100% Home exceeded screen bounds.",
+    "CandidateModified":  false
+}
