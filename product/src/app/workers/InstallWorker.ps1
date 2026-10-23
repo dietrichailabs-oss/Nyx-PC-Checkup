@@ -62,6 +62,8 @@ $startFolder=''
 $startFolderExisted=$true
 $shell=$null
 try{
+    # Load the native Windows PowerShell module explicitly; fresh user caches may not discover Get-FileHash.
+    Import-Module (Join-Path $PSHOME 'Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1') -ErrorAction Stop
     $expected=Join-Path $env:LOCALAPPDATA 'Programs\Dietrich AI Labs\Nyx PC Checkup'
     $actualFull=[IO.Path]::GetFullPath($InstallRoot).TrimEnd('\')
     $expectedFull=[IO.Path]::GetFullPath($expected).TrimEnd('\')
@@ -82,7 +84,7 @@ try{
         $item=Get-Item -LiteralPath $full -Force -ErrorAction Stop
         if($item.PSIsContainer -or (($item.Attributes -band [IO.FileAttributes]::ReparsePoint) -ne 0)){throw "The payload item is not an ordinary file: $rel"}
         if([int64]$item.Length -ne [int64]$entry.size){throw "The payload size does not match: $rel"}
-        $hash=(Get-FileHash -LiteralPath $full -Algorithm SHA256 -ErrorAction Stop).Hash
+        $hash=(Microsoft.PowerShell.Utility\Get-FileHash -LiteralPath $full -Algorithm SHA256 -ErrorAction Stop).Hash
         if($hash -ne [string]$entry.sha256){throw "The payload hash does not match: $rel"}
     }
     $actualFiles=@(Get-ChildItem -LiteralPath $InstallRoot -Recurse -File -Force -ErrorAction Stop|Where-Object{$_.FullName -ne $manifestPath})
@@ -107,7 +109,7 @@ try{
     $snapshotsCaptured=$true
 
     # Internal install-state is written before external integration changes.
-    [pscustomobject]@{Product='Nyx PC Checkup';Version='1.0.0';Build='2026.10.19-eng-qa27';InstalledUtc=(Get-Date).ToUniversalTime().ToString('o');InstallRoot=$InstallRoot;PayloadManifestSha256=(Get-FileHash -LiteralPath $manifestPath -Algorithm SHA256).Hash}|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $InstallRoot 'install-state.json') -Encoding UTF8
+    [pscustomobject]@{Product='Nyx PC Checkup';Version='1.0.0';Build='2026.10.19-eng-qa27';InstalledUtc=(Get-Date).ToUniversalTime().ToString('o');InstallRoot=$InstallRoot;PayloadManifestSha256=(Microsoft.PowerShell.Utility\Get-FileHash -LiteralPath $manifestPath -Algorithm SHA256).Hash}|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $InstallRoot 'install-state.json') -Encoding UTF8
 
     $shell=New-Object -ComObject WScript.Shell
     New-Item -ItemType Directory -Path $startFolder -Force|Out-Null

@@ -1,0 +1,17 @@
+{
+  "createdUtc": "2026-10-23T15:27:41.988801+00:00",
+  "version": "1.0.0",
+  "build": "2026.10.19-eng-qa27",
+  "releasePackagingRevision": "r1-native-utility-import",
+  "applicationBaseSource": "ee357ca33dbb87653924c6def90ff29a38898fdb",
+  "frozenEngineeringArtifactsModified": false,
+  "changedProgramFiles": [
+    "app/workers/InstallWorker.ps1"
+  ],
+  "correction": "Explicit native Utility-module import and module-qualified Get-FileHash; no hash checks removed; no policy/security changes",
+  "unsignedSetupSha256": "92819DF68D8CB2C1F0A63614E600F84B827E5630F6DC45CB988CD6211CFE023A",
+  "portableSha256": "FC9367AE8B9AD5CDCC01DDF356C3D24523AC370F7E8EF7D4021A79FDE2F5A66D",
+  "payloadManifestSha256": "E799D4C09E2704717BA06D3421C7995B7296A206D0CCD0C05207ADD11D4FCACA",
+  "payloadFileCount": 62,
+  "boundedSmoke": "PENDING"
+}

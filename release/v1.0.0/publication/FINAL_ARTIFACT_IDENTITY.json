@@ -1,0 +1,84 @@
+{
+  "schema": "dietrich-ai-labs.nyx-pc-checkup.public-release.v1",
+  "createdUtc": "2026-10-23T15:30:45.2328955Z",
+  "version": "1.0.0",
+  "build": "2026.10.19-eng-qa27",
+  "harness": "QA27-F024-PS51-27",
+  "applicationBaseSource": "ee357ca33dbb87653924c6def90ff29a38898fdb",
+  "releasePreparationBase": "ba4538995fa07984d7581e996df0e2c95250a59a",
+  "packagingRevision": "r1-native-utility-import",
+  "ownerReleaseAuthorization": "OWNER_AUTHORIZED",
+  "independentQaVerdict": "NOT_AN_ALL_GATES_PASS",
+  "securityReview": "Issue #16 remains open; not independently security-certified",
+  "signing": {
+    "kind": "Self-signed Authenticode",
+    "thumbprint": "FB74923C71A03E72F6C9FE19D869551BD1702F4C",
+    "chainStatus": "UnknownError",
+    "publiclyTrusted": false,
+    "privateKeyIncluded": false
+  },
+  "changedRuntimeFiles": [
+    "app/workers/InstallWorker.ps1"
+  ],
+  "correction": "Explicit import of the native PSHOME Utility module and module-qualified Get-FileHash. Verification and rollback remain enforced; no execution-policy, UAC, trust, or security changes.",
+  "frozenQa26Qa27ArtifactsModified": false,
+  "historicalDpi": {
+    "completed": 83,
+    "total": 132,
+    "ownerWaived": 49,
+    "waiver": "WAIVED_BY_OWNER_DPI_SCOPE_20261019",
+    "newDpiTests": 0
+  },
+  "lifecycleMigration": "BLOCKED_ENVIRONMENT_LEGACY_PS51_IMPORT_BASELINE; no new suite credit",
+  "boundedSmoke": {
+    "installerExitCode": 0,
+    "administrator": false,
+    "payloadFilesVerified": 62,
+    "existingIntegrationRestored": true,
+    "appNativeWindowObserved": true,
+    "guiFunctionalChecks": "OWNER_PASS_OBSERVED_20261023: Quick Check, result detail, TXT/PDF export, main-page navigation, normal close/relaunch. No independent pixel-level claim.",
+    "previousOwnerQa27GuiTxtPdfEvidence": "PASS_OBSERVED_SAME_APPLICATION_CODE_NOT_FULL_BOUNDARY_COVERAGE",
+    "directModuleSuites": "NOT_RUN_HOST_RESTRICTED_POLICY",
+    "dpiTransitions": 0,
+    "policyChanges": 0,
+    "ownerConfirmation": "done it works"
+  },
+  "assets": [
+    {
+      "name": "Nyx_PC_Checkup_1.0.0_Setup.exe",
+      "bytes": 570832,
+      "sha256": "3AEE748C54267F7DDBAC9C3A36FA725BA3F14EFE63F4AEA905AD4615A3BDE972",
+      "publicUrl": "https://www.dietrichailabs.com/downloads/nyx-pc-checkup/1.0.0/Nyx_PC_Checkup_1.0.0_Setup.exe"
+    },
+    {
+      "name": "Nyx_PC_Checkup_1.0.0_Portable.zip",
+      "bytes": 226589,
+      "sha256": "FC9367AE8B9AD5CDCC01DDF356C3D24523AC370F7E8EF7D4021A79FDE2F5A66D",
+      "publicUrl": "https://www.dietrichailabs.com/downloads/nyx-pc-checkup/1.0.0/Nyx_PC_Checkup_1.0.0_Portable.zip"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3581,
+      "sha256": "EA6E7F1D5AC29FAE074D580F37E0A189D9C92A88ED18B64764F21A68FC2CBBD4",
+      "publicUrl": "https://www.dietrichailabs.com/downloads/nyx-pc-checkup/1.0.0/README.md"
+    },
+    {
+      "name": "USER_GUIDE.md",
+      "bytes": 5697,
+      "sha256": "9594DF38BACCE485D4FEB6C4955E88E5C94A869821B1737423A488AC0D03E58D",
+      "publicUrl": "https://www.dietrichailabs.com/downloads/nyx-pc-checkup/1.0.0/USER_GUIDE.md"
+    },
+    {
+      "name": "LICENSE.txt",
+      "bytes": 1402,
+      "sha256": "6E68272FD4AC55A7F2176E283ADAB61E1AD0B5719FD5BE8128504A0C4F4B3F78",
+      "publicUrl": "https://www.dietrichailabs.com/downloads/nyx-pc-checkup/1.0.0/LICENSE.txt"
+    },
+    {
+      "name": "RELEASE_NOTES.md",
+      "bytes": 1682,
+      "sha256": "09266C766CF233B8B3CAD8FAD76FB4599AD06097532F3F135A7F669813882B78",
+      "publicUrl": "https://www.dietrichailabs.com/downloads/nyx-pc-checkup/1.0.0/RELEASE_NOTES.md"
+    }
+  ]
+}
