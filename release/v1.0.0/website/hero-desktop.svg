@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" role="img" aria-label="Abstract Nyx PC Checkup diagnostic dashboard illustration">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030716"/><stop offset=".52" stop-color="#081a37"/><stop offset="1" stop-color="#090b20"/></linearGradient><radialGradient id="aur" cx=".78" cy=".45" r=".61"><stop stop-color="#114ba5" stop-opacity=".65"/><stop offset="1" stop-color="#031328" stop-opacity="0"/></radialGradient><linearGradient id="panel" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#172c5b"/><stop offset="1" stop-color="#070d24"/></linearGradient><linearGradient id="glass" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#1b3566"/><stop offset="1" stop-color="#0a1732"/></linearGradient><linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#18d8ff"/><stop offset="1" stop-color="#3865fa"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="24"/></filter><pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#579dff" opacity=".13"/></pattern></defs>
+<rect width="1440" height="720" fill="url(#bg)"/><rect width="1440" height="720" fill="url(#aur)"/><rect width="1440" height="720" fill="url(#dots)"/>
+<path d="M0 540 Q510 290 1000 470 T1440 380" fill="none" stroke="#0778ff" opacity=".18" stroke-width="2"/><path d="M0 660 Q600 440 1000 590 T1440 470" fill="none" stroke="#20c5ff" opacity=".21" stroke-width="2"/>
+<ellipse cx="1110" cy="580" rx="350" ry="85" fill="#125dff" opacity=".28" filter="url(#glow)"/>
+<g transform="translate(736 112) rotate(-2 337 238)">
+ <rect x="4" y="4" width="676" height="456" rx="23" fill="#020815" stroke="#426cbf" stroke-width="4"/>
+ <rect x="20" y="21" width="644" height="412" rx="12" fill="url(#panel)"/>
+ <rect x="20" y="21" width="644" height="49" rx="12" fill="#0b1d3c"/>
+ <circle cx="47" cy="46" r="8" fill="#16d8ff"/><rect x="70" y="41" width="134" height="8" rx="4" fill="#b4d9ff" opacity=".65"/>
+ <rect x="43" y="94" width="106" height="312" rx="11" fill="#08152d"/>
+ <rect x="56" y="108" width="80" height="35" rx="7" fill="#1656b4"/><path d="M76 124l8-7 8 7v9H76z" fill="#85d9ff"/>
+ <g fill="#4a6c9b"><rect x="56" y="162" width="80" height="12" rx="6"/><rect x="56" y="201" width="80" height="12" rx="6"/><rect x="56" y="240" width="80" height="12" rx="6"/><rect x="56" y="279" width="80" height="12" rx="6"/><rect x="56" y="318" width="80" height="12" rx="6"/></g>
+ <rect x="171" y="94" width="464" height="134" rx="12" fill="url(#glass)" stroke="#30599d" stroke-opacity=".7"/>
+ <circle cx="222" cy="161" r="36" fill="#0e715a" opacity=".3" stroke="#2fffbf" stroke-width="3"/><path d="m202 161 13 13 28-30" fill="none" stroke="#47f7b5" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+ <rect x="280" y="125" width="190" height="13" rx="6" fill="url(#cyan)"/><rect x="280" y="151" width="295" height="11" rx="5" fill="#426da6"/><rect x="280" y="177" width="251" height="11" rx="5" fill="#2aa7d1"/>
+ <g><rect x="171" y="247" width="141" height="143" rx="11" fill="url(#glass)" stroke="#274c86"/><rect x="326" y="247" width="142" height="143" rx="11" fill="url(#glass)" stroke="#274c86"/><rect x="482" y="247" width="153" height="143" rx="11" fill="url(#glass)" stroke="#274c86"/></g>
+ <g stroke="#38e8d4" stroke-width="5" fill="none"><path d="m214 299 16 15 26-32"/><path d="m373 299 16 15 26-32"/><path d="m528 299 16 15 26-32"/></g>
+ <g fill="#2c91c8"><rect x="197" y="347" width="91" height="8" rx="4"/><rect x="352" y="347" width="90" height="8" rx="4"/><rect x="509" y="347" width="102" height="8" rx="4"/></g>
+ <path d="M-32 461H712l-67 29H36Z" fill="#182f5d" stroke="#3175b9" stroke-width="3"/><path d="M62 477H618" stroke="#228cdb" opacity=".7" stroke-width="4"/>
+</g><path d="m1230 83 140 0m-18-18 18 18-18 18" stroke="#1a9ee2" stroke-width="2" opacity=".4" fill="none"/>
+</svg>
