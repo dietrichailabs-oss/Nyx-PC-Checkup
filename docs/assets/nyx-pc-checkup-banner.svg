@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+ <title id="title">Nyx PC Checkup</title>
+ <desc id="desc">A dark blue Dietrich AI Labs PC diagnostics banner with a shield-check logo, a stylized desktop health dashboard and the tagline Know your PC. Stay in control.</desc>
+ <defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030814"/><stop offset=".55" stop-color="#081a34"/><stop offset="1" stop-color="#080f25"/></linearGradient>
+  <radialGradient id="bloom" cx=".83" cy=".44" r=".66"><stop offset="0" stop-color="#1255b4" stop-opacity=".40"/><stop offset="1" stop-color="#081529" stop-opacity="0"/></radialGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#17c9ff"/><stop offset=".58" stop-color="#3181ed"/><stop offset="1" stop-color="#5b59ea"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#162c51"/><stop offset="1" stop-color="#07152c"/></linearGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1.15" fill="#4d9be7" opacity=".15"/></pattern>
+ </defs>
+ <rect width="1280" height="560" rx="28" fill="url(#background)"/>
+ <rect width="1280" height="560" rx="28" fill="url(#bloom)"/>
+ <rect width="1280" height="560" rx="28" fill="url(#dots)"/>
+ <path d="M-65 465 C225 290 440 375 700 270 S1070 305 1330 140" fill="none" stroke="#2684ff" opacity=".25" stroke-width="2"/>
+ <path d="M-30 515 C245 352 435 410 705 315 S1050 395 1340 240" fill="none" stroke="#34d0ff" opacity=".15" stroke-width="2"/>
+ <ellipse cx="1005" cy="474" rx="245" ry="33" fill="#007bff" opacity=".25" filter="url(#softGlow)"/>
+ <g transform="translate(78 60)">
+  <path d="M43 3 84 21V58C84 89 65 110 43 119 21 110 2 89 2 58V21Z" fill="#0b3c72" opacity=".75" stroke="#25c4ff" stroke-width="3"/>
+  <path d="m21 61 16 16 32-35" fill="none" stroke="#34f3cf" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 3 84 21V58C84 89 65 110 43 119 21 110 2 89 2 58V21Z" fill="none" stroke="#18bdff" stroke-width="2" opacity=".45" filter="url(#softGlow)"/>
+  <text x="112" y="58" font-family="Segoe UI,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="2" fill="#f6faff">NYX</text>
+  <text x="114" y="101" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="4" fill="#48cfff">PC CHECKUP</text>
+ </g>
+ <g transform="translate(85 222)">
+  <text x="0" y="0" font-family="Segoe UI,Arial,sans-serif" font-weight="750" font-size="35" fill="#ffffff">Know your PC.</text>
+  <text x="0" y="45" font-family="Segoe UI,Arial,sans-serif" font-weight="750" font-size="35" fill="#ffffff">Stay in control.</text>
+  <text x="0" y="91" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#b1d0ef">Understandable diagnostics. Safe actions.</text>
+  <text x="0" y="119" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#b1d0ef">Free. Local-first. Built for Windows.</text>
+  <g transform="translate(0 153)">
+   <rect width="157" height="42" rx="21" fill="#103963" stroke="#2984db"/>
+   <text x="78" y="27" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#dcf2ff">Windows 10 / 11</text>
+   <rect x="170" width="115" height="42" rx="21" fill="#0a473f" stroke="#169a8b"/>
+   <text x="227" y="27" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9fff1">FREEWARE</text>
+   <rect x="298" width="126" height="42" rx="21" fill="#17265d" stroke="#5177c9"/>
+   <text x="361" y="27" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#e1e9ff">VERSION 1.0</text>
+  </g>
+ </g>
+ <g transform="translate(690 58)">
+  <rect x="0" y="0" width="521" height="429" rx="20" fill="#051023" stroke="#396ba8" stroke-width="3"/>
+  <rect x="15" y="15" width="491" height="398" rx="13" fill="url(#panel)"/>
+  <rect x="15" y="15" width="491" height="49" rx="13" fill="#10244a"/>
+  <circle cx="41" cy="40" r="7" fill="#24c6ff"/>
+  <text x="61" y="46" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d8eaff">Nyx PC Checkup</text>
+  <circle cx="447" cy="40" r="3.5" fill="#6999d4"/><circle cx="469" cy="40" r="3.5" fill="#6999d4"/>
+  <rect x="29" y="79" width="99" height="311" rx="10" fill="#09172e" stroke="#18345f"/>
+  <rect x="39" y="90" width="80" height="31" rx="6" fill="#1c57ae"/>
+  <path d="m57 104 10-8 10 8v11H57z" fill="#9bddff"/>
+  <g fill="#476d9e"><rect x="42" y="144" width="72" height="8" rx="4"/><rect x="42" y="179" width="72" height="8" rx="4"/><rect x="42" y="214" width="72" height="8" rx="4"/><rect x="42" y="249" width="72" height="8" rx="4"/><rect x="42" y="284" width="72" height="8" rx="4"/><rect x="42" y="319" width="72" height="8" rx="4"/></g>
+  <rect x="145" y="79" width="345" height="138" rx="13" fill="#10264b" stroke="#2d5893"/>
+  <circle cx="196" cy="145" r="30" fill="#0d615a" stroke="#24e6b9" stroke-width="3"/>
+  <path d="m180 145 12 12 21-24" fill="none" stroke="#4affe0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="245" y="118" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#e8f6ff">PC Overview</text>
+  <text x="245" y="141" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#a9c9ee">Clear checks and guidance</text>
+  <rect x="245" y="157" width="187" height="8" rx="4" fill="#2d67ad"/>
+  <rect x="245" y="175" width="160" height="7" rx="3" fill="url(#accent)"/>
+  <g>
+   <rect x="145" y="230" width="164" height="158" rx="12" fill="#0a1a36" stroke="#274a81"/>
+   <rect x="324" y="230" width="166" height="158" rx="12" fill="#0a1a36" stroke="#274a81"/>
+   <text x="164" y="260" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d1eaff">Storage &amp; System</text>
+   <text x="343" y="260" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d1eaff">Security &amp; Updates</text>
+   <path d="m177 300 18 15 21-35" fill="none" stroke="#27e4c1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+   <path d="m357 300 18 15 21-35" fill="none" stroke="#27e4c1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+   <rect x="164" y="340" width="124" height="8" rx="4" fill="#245286"/><rect x="164" y="340" width="90" height="8" rx="4" fill="#27c2dd"/>
+   <rect x="343" y="340" width="125" height="8" rx="4" fill="#245286"/><rect x="343" y="340" width="108" height="8" rx="4" fill="#27c2dd"/>
+  </g>
+ </g>
+ <text x="1213" y="522" font-family="Segoe UI,Arial,sans-serif" font-size="12" text-anchor="end" fill="#7ca3cb">Dashboard illustration</text>
+</svg>
