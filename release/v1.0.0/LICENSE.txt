@@ -1,0 +1,14 @@
+NYX PC CHECKUP 1.0.0 — PUBLIC FREEWARE LICENSE
+Copyright (c) 2026 Dietrich AI Labs. All rights reserved.
+
+Permission is granted to download, install and use the unmodified Nyx PC Checkup 1.0.0 application free of charge for personal, educational and internal business use.
+
+Nyx PC Checkup is proprietary freeware, not open source. No source-code license, resale right or right to repackage/distribute modified versions is granted. Links to the official release may be shared. All rights not expressly granted are reserved.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTIES TO THE EXTENT PERMITTED BY APPLICABLE LAW. It is a diagnostic/maintenance aid; it does not guarantee security, reliability, data recovery, backups, or repair. Review all actions and maintain your own backups.
+
+To the maximum extent allowed by law, Dietrich AI Labs is not responsible for indirect, incidental, special or consequential damages from use. Mandatory statutory rights are not excluded where law prohibits exclusion.
+
+Applicable third-party notices/licenses remain in force. These terms govern the authorized public freeware distribution, superseding historical engineering-candidate-only notices for that distribution; they do not retroactively change old QA evidence or private-source permissions.
+
+A self-signed Authenticode signature does not imply certification by a publicly trusted code-signing authority.
